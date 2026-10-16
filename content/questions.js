@@ -1547,6 +1547,264 @@ window.QUESTIONS = [
       comoApareceEmConcurso: 'Cobrança recorrente.'
     },
     tags: ['crase', 'teste']
+  },
+
+  /* ============================================================
+     PT-06 — Verbos e Pronomes
+  ============================================================ */
+  {
+    id: 'Q-DID-PT-0601',
+    tipo: 'DIDATICA',
+    area: 'LEXI',
+    moduloId: 'PT-06',
+    subtema: 'Indicativo x subjuntivo',
+    dificuldade: 2,
+    prioridade: 'media',
+    enunciado: 'Assinale a alternativa em que o verbo está no MODO SUBJUNTIVO:',
+    alternativas: [
+      { id: 'A', texto: 'Ele estuda todos os dias.' },
+      { id: 'B', texto: 'Ele estudou ontem.' },
+      { id: 'C', texto: 'Espero que ele estude mais.' },
+      { id: 'D', texto: 'Ele estudará amanhã.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'SUBJUNTIVO: expressa dúvida, hipótese, desejo. "Espero que ele estude" — ação como expectativa.',
+      incorretas: { A: 'Indicativo presente (certeza).', B: 'Indicativo pretérito perfeito.', D: 'Indicativo futuro do presente.' },
+      conceitoCobrado: 'Modos verbais: indicativo x subjuntivo.',
+      pegadinha: 'Confundir os modos.',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['verbo', 'subjuntivo']
+  },
+  {
+    id: 'Q-DID-PT-0602',
+    tipo: 'DIDATICA',
+    area: 'LEXI',
+    moduloId: 'PT-06',
+    subtema: 'Colocação pronominal',
+    dificuldade: 3,
+    prioridade: 'media',
+    enunciado: 'Assinale a alternativa em que a colocação pronominal está CORRETA:',
+    alternativas: [
+      { id: 'A', texto: 'Me diga a verdade.' },
+      { id: 'B', texto: 'Diga-me a verdade.' },
+      { id: 'C', texto: 'Diga me a verdade.' },
+      { id: 'D', texto: 'Me-diga a verdade.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'No IMPERATIVO AFIRMATIVO, o pronome vai DEPOIS do verbo (ÊNCLISE): "Diga-me a verdade."',
+      incorretas: { A: 'Próclise é proibida em imperativo afirmativo no início da frase.', C: 'Falta o hífen.', D: 'Hífen em local errado.' },
+      conceitoCobrado: 'Colocação pronominal — ênclise.',
+      pegadinha: 'Iniciar frase com pronome oblíquo.',
+      comoApareceEmConcurso: 'Cobrança clássica.'
+    },
+    tags: ['colocação pronominal']
+  },
+  {
+    id: 'Q-DID-PT-0603',
+    tipo: 'DIDATICA',
+    area: 'LEXI',
+    moduloId: 'PT-06',
+    subtema: 'Vozes verbais',
+    dificuldade: 2,
+    prioridade: 'media',
+    enunciado: 'A frase "O livro foi lido pelo aluno" está na voz:',
+    alternativas: [
+      { id: 'A', texto: 'Ativa.' },
+      { id: 'B', texto: 'Passiva analítica.' },
+      { id: 'C', texto: 'Reflexiva.' },
+      { id: 'D', texto: 'Passiva sintética.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'PASSIVA ANALÍTICA: verbo auxiliar (ser/estar) + particípio. O sujeito sofre a ação.',
+      incorretas: { A: 'Ativa: sujeito pratica.', C: 'Reflexiva: sujeito pratica e sofre.', D: 'Sintética: verbo + SE apassivador.' },
+      conceitoCobrado: 'Vozes verbais.',
+      pegadinha: 'Confundir passiva analítica com sintética.',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['voz passiva']
+  },
+  {
+    id: 'Q-DID-PT-0604',
+    tipo: 'DIDATICA',
+    area: 'LEXI',
+    moduloId: 'PT-06',
+    subtema: 'Pronome relativo "cujo"',
+    dificuldade: 3,
+    prioridade: 'media',
+    enunciado: 'Assinale a alternativa em que o pronome relativo está empregado CORRETAMENTE:',
+    alternativas: [
+      { id: 'A', texto: 'O aluno que o pai é médico passou.' },
+      { id: 'B', texto: 'O aluno cujo pai é médico passou.' },
+      { id: 'C', texto: 'O aluno cujo o pai é médico passou.' },
+      { id: 'D', texto: 'O aluno quem o pai é médico passou.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: '"CUJO" indica posse e NÃO varia em número. Não se usa artigo depois de "cujo".',
+      incorretas: { A: 'Uso incorreto de "que".', C: 'Não se usa artigo após "cujo".', D: '"Quem" não cabe aqui.' },
+      conceitoCobrado: 'Pronome relativo "cujo".',
+      pegadinha: 'Colocar artigo depois de "cujo".',
+      comoApareceEmConcurso: 'Cobrança frequente.'
+    },
+    tags: ['pronome relativo', 'cujo']
+  },
+  {
+    id: 'Q-DID-PT-0605',
+    tipo: 'DIDATICA',
+    area: 'LEXI',
+    moduloId: 'PT-06',
+    subtema: 'Tempos verbais',
+    dificuldade: 3,
+    prioridade: 'media',
+    enunciado: 'Sobre a diferença de sentido entre "Estudei ontem" e "Estudava quando era jovem", é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'São equivalentes.' },
+      { id: 'B', texto: '"Estudei" é ação pontual (pretérito perfeito); "estudava" é ação contínua/habitual (pretérito imperfeito).' },
+      { id: 'C', texto: '"Estudei" é mais formal que "estudava".' },
+      { id: 'D', texto: 'Ambos estão no presente.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: '"ESTUDEI" (pretérito perfeito): ação pontual, concluída. "ESTUDAVA" (imperfeito): ação contínua, habitual.',
+      incorretas: { A: 'Sentidos diferentes.', C: 'Não é questão de formalidade.', D: 'Nenhum é presente.' },
+      conceitoCobrado: 'Tempos verbais — aspecto.',
+      pegadinha: 'Achar que os pretéritos são equivalentes.',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['tempos verbais']
+  },
+
+  /* ============================================================
+     PT-12 — Reescrita e Equivalência de Frases
+  ============================================================ */
+  {
+    id: 'Q-DID-PT-1201',
+    tipo: 'DIDATICA',
+    area: 'TEXT',
+    moduloId: 'PT-12',
+    subtema: 'Reescrita com erro gramatical',
+    dificuldade: 2,
+    prioridade: 'media',
+    enunciado: 'Considere a reescrita: "Os alunos do terceiro ano, foram aprovados no vestibular." Sobre essa reescrita:',
+    alternativas: [
+      { id: 'A', texto: 'Está correta — mantém o sentido e a gramática.' },
+      { id: 'B', texto: 'Está incorreta — há vírgula separando o sujeito do verbo.' },
+      { id: 'C', texto: 'Está correta, mas o sentido mudou.' },
+      { id: 'D', texto: 'Está incorreta — o verbo deveria estar no singular.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'A vírgula após "terceiro ano" separa SUJEITO de VERBO — PROIBIDO.',
+      incorretas: { A: 'Há erro gramatical.', C: 'O erro é gramatical, não de sentido.', D: 'A concordância está correta (plural).' },
+      conceitoCobrado: 'Reescrita — sentido + gramática.',
+      pegadinha: 'Erro gramatical escondido em alternativa aparentemente correta.',
+      comoApareceEmConcurso: 'Clássica em reescrita.'
+    },
+    tags: ['reescrita', 'vírgula']
+  },
+  {
+    id: 'Q-DID-PT-1202',
+    tipo: 'DIDATICA',
+    area: 'TEXT',
+    moduloId: 'PT-12',
+    subtema: 'Voz passiva',
+    dificuldade: 2,
+    prioridade: 'media',
+    enunciado: 'Sobre a transformação de "O menino quebrou o vidro" em "O vidro foi quebrado pelo menino", é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'O sentido mudou completamente.' },
+      { id: 'B', texto: 'Mantém o sentido, com o objeto direto virando sujeito e o sujeito virando agente da passiva.' },
+      { id: 'C', texto: 'É impossível fazer essa transformação.' },
+      { id: 'D', texto: 'A segunda frase está errada.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'Ativa → passiva analítica: objeto direto vira sujeito; sujeito vira agente da passiva. O sentido essencial é mantido.',
+      incorretas: { A: 'Sentido mantido, foco alterado.', C: 'Transformação possível.', D: 'Frase correta.' },
+      conceitoCobrado: 'Voz ativa x passiva.',
+      pegadinha: 'Achar que a passiva muda o sentido.',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['voz passiva', 'reescrita']
+  },
+  {
+    id: 'Q-DID-PT-1203',
+    tipo: 'DIDATICA',
+    area: 'TEXT',
+    moduloId: 'PT-12',
+    subtema: 'Discurso direto x indireto',
+    dificuldade: 3,
+    prioridade: 'media',
+    enunciado: 'A frase "Ele disse: — Vou viajar amanhã", em discurso INDIRETO, fica:',
+    alternativas: [
+      { id: 'A', texto: 'Ele disse que vou viajar amanhã.' },
+      { id: 'B', texto: 'Ele disse que iria viajar no dia seguinte.' },
+      { id: 'C', texto: 'Ele disse: iria viajar amanhã.' },
+      { id: 'D', texto: 'Ele disse que viaja amanhã.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'No discurso indireto: "vou" (presente) → "iria" (futuro do pretérito); "amanhã" → "no dia seguinte".',
+      incorretas: { A: 'Mantém o presente sem ajuste.', C: 'Mistura discurso direto e indireto.', D: 'Tempo verbal incoerente.' },
+      conceitoCobrado: 'Discurso direto x indireto.',
+      pegadinha: 'Não fazer os ajustes de tempo e de advérbios.',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['discurso indireto']
+  },
+  {
+    id: 'Q-DID-PT-1204',
+    tipo: 'DIDATICA',
+    area: 'TEXT',
+    moduloId: 'PT-12',
+    subtema: 'Conectores e sentido',
+    dificuldade: 3,
+    prioridade: 'media',
+    enunciado: 'Sobre a equivalência entre "Não obstante o cansaço, ele continuou" e "Embora estivesse cansado, ele continuou", é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'O sentido é completamente diferente.' },
+      { id: 'B', texto: 'São equivalentes: ambas expressam CONCESSÃO.' },
+      { id: 'C', texto: 'A primeira expressa causa; a segunda, consequência.' },
+      { id: 'D', texto: 'A segunda está errada.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: '"Não obstante" e "embora" são conectores de CONCESSÃO — admitem o fato contrário, mas o resultado prevalece.',
+      incorretas: { A: 'O sentido é o mesmo.', C: 'Nenhuma expressa causa/consequência.', D: 'A segunda está correta.' },
+      conceitoCobrado: 'Concessão — equivalência de conectores.',
+      pegadinha: 'Confundir concessão com causa.',
+      comoApareceEmConcurso: 'Cobrança de reescrita e coesão.'
+    },
+    tags: ['concessão', 'conectores']
+  },
+  {
+    id: 'Q-DID-PT-1205',
+    tipo: 'DIDATICA',
+    area: 'TEXT',
+    moduloId: 'PT-12',
+    subtema: 'Paralelismo',
+    dificuldade: 3,
+    prioridade: 'media',
+    enunciado: 'Assinale a alternativa em que o PARALELISMO está respeitado:',
+    alternativas: [
+      { id: 'A', texto: 'Ele gosta de ler, escrever e de descansar.' },
+      { id: 'B', texto: 'Ele gosta de ler, escrever e descansar.' },
+      { id: 'C', texto: 'Ele gosta de ler, escreve e descansar.' },
+      { id: 'D', texto: 'Ele gosta ler, escrever e descansar.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'PARALELISMO: manter a mesma estrutura na enumeração. Todos os verbos no infinitivo, com a mesma preposição.',
+      incorretas: { A: 'Repete "de" desnecessariamente, quebrando o paralelismo.', C: 'Mistura infinitivo com forma conjugada.', D: 'Falta preposição em "gosta ler".' },
+      conceitoCobrado: 'Paralelismo sintático.',
+      pegadinha: 'Repetir a preposição em todos os itens.',
+      comoApareceEmConcurso: 'Cobrança em reescrita.'
+    },
+    tags: ['paralelismo']
   }
 
 ];
