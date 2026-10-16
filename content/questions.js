@@ -773,6 +773,780 @@ window.QUESTIONS = [
       comoApareceEmConcurso: 'Reescrita e questões integradas.'
     },
     tags: ['reescrita', 'estratégia']
+  },
+
+  /* ============================================================
+     PT-02 — Tipologia, Gêneros Textuais e Comunicação
+  ============================================================ */
+  {
+    id: 'Q-DID-PT-0201',
+    tipo: 'DIDATICA',
+    area: 'LEIT',
+    moduloId: 'PT-02',
+    subtema: 'Tipo textual',
+    dificuldade: 1,
+    prioridade: 'alta',
+    enunciado: 'Uma bula de remédio, uma receita de bolo e um manual de instruções são exemplos predominantes de qual tipo textual?',
+    alternativas: [
+      { id: 'A', texto: 'Narração.' },
+      { id: 'B', texto: 'Descrição.' },
+      { id: 'C', texto: 'Argumentação.' },
+      { id: 'D', texto: 'Injunção (instrucional).' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'Textos que instruem, orientam e apresentam sequência de passos são INJUNTIVOS. Uso de verbos no imperativo.',
+      incorretas: { A: 'Narração conta fatos, com personagens e ação.', B: 'Descrição caracteriza seres e objetos.', C: 'Argumentação defende uma tese.' },
+      conceitoCobrado: 'Tipologia textual.',
+      pegadinha: 'Confundir injunção com exposição.',
+      comoApareceEmConcurso: 'Cobrança direta.'
+    },
+    tags: ['injunção', 'tipologia']
+  },
+  {
+    id: 'Q-DID-PT-0202',
+    tipo: 'DIDATICA',
+    area: 'LEIT',
+    moduloId: 'PT-02',
+    subtema: 'Tipo x gênero',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Sobre a diferença entre TIPO textual e GÊNERO textual, é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'São sinônimos.' },
+      { id: 'B', texto: 'TIPO é a categoria abstrata de organização do discurso (narração, descrição, exposição, argumentação, injunção); GÊNERO é a forma concreta e social (notícia, receita, e-mail).' },
+      { id: 'C', texto: 'GÊNERO é abstrato; TIPO é concreto.' },
+      { id: 'D', texto: 'Todo gênero tem apenas um tipo textual.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'TIPO = modo de organizar o discurso. GÊNERO = forma social concreta.',
+      incorretas: { A: 'São conceitos distintos.', C: 'Inverte.', D: 'Um gênero pode conter vários tipos.' },
+      conceitoCobrado: 'Tipo x gênero.',
+      pegadinha: 'Tratar como sinônimos.',
+      comoApareceEmConcurso: 'Cobrança conceitual.'
+    },
+    tags: ['tipo', 'gênero']
+  },
+  {
+    id: 'Q-DID-PT-0203',
+    tipo: 'DIDATICA',
+    area: 'LEIT',
+    moduloId: 'PT-02',
+    subtema: 'Funções da linguagem',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'Uma propaganda com o slogan "Compre agora e transforme seu treino!" apresenta, predominantemente, qual função da linguagem?',
+    alternativas: [
+      { id: 'A', texto: 'Referencial (informar).' },
+      { id: 'B', texto: 'Apelativa (conativa).' },
+      { id: 'C', texto: 'Metalinguística.' },
+      { id: 'D', texto: 'Fática.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'A propaganda busca influenciar o leitor a agir — função APELATIVA (conativa). Verbos no imperativo.',
+      incorretas: { A: 'Referencial informa objetivamente.', C: 'Metalinguística fala da própria linguagem.', D: 'Fática mantém contato.' },
+      conceitoCobrado: 'Funções da linguagem.',
+      pegadinha: 'Confundir apelativa com referencial.',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['funções da linguagem']
+  },
+  {
+    id: 'Q-DID-PT-0204',
+    tipo: 'DIDATICA',
+    area: 'LEIT',
+    moduloId: 'PT-02',
+    subtema: 'Narração x descrição',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'Sobre narração e descrição, é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'Ambas contam fatos em sequência temporal.' },
+      { id: 'B', texto: 'Narração apresenta AÇÃO e personagens; descrição caracteriza seres, objetos ou lugares (ESTADO).' },
+      { id: 'C', texto: 'Descrição é sempre mais longa que narração.' },
+      { id: 'D', texto: 'Narração não tem personagens.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'NARRAÇÃO: ação, personagens, tempo, espaço. DESCRIÇÃO: caracterização, estado.',
+      incorretas: { A: 'Só a narração conta fatos.', C: 'Extensão não define tipo.', D: 'Narração tem personagens.' },
+      conceitoCobrado: 'Narração x descrição.',
+      pegadinha: 'Confundir as duas.',
+      comoApareceEmConcurso: 'Cobrança direta.'
+    },
+    tags: ['narração', 'descrição']
+  },
+  {
+    id: 'Q-DID-PT-0205',
+    tipo: 'DIDATICA',
+    area: 'LEIT',
+    moduloId: 'PT-02',
+    subtema: 'Exposição x argumentação',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Sobre exposição e argumentação, é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'São sinônimos.' },
+      { id: 'B', texto: 'Exposição apresenta informação de forma neutra; argumentação defende uma tese com argumentos.' },
+      { id: 'C', texto: 'Argumentação só ocorre em textos jornalísticos.' },
+      { id: 'D', texto: 'Exposição sempre tem tese.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'EXPOSIÇÃO: informa, sem defender. ARGUMENTAÇÃO: defende tese com argumentos.',
+      incorretas: { A: 'São distintos.', C: 'Aparece também em redações, editoriais, resenhas.', D: 'Tese é característica da argumentação.' },
+      conceitoCobrado: 'Exposição x argumentação.',
+      pegadinha: 'Confundir as duas.',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['exposição', 'argumentação']
+  },
+
+  /* ============================================================
+     PT-03 — Semântica e Sentido das Palavras
+  ============================================================ */
+  {
+    id: 'Q-DID-PT-0301',
+    tipo: 'DIDATICA',
+    area: 'LEXI',
+    moduloId: 'PT-03',
+    subtema: 'Denotação x conotação',
+    dificuldade: 1,
+    prioridade: 'alta',
+    enunciado: 'Na frase "Ele tem um coração de pedra", o termo "coração de pedra" está em sentido:',
+    alternativas: [
+      { id: 'A', texto: 'Denotativo (literal).' },
+      { id: 'B', texto: 'Conotativo (figurado).' },
+      { id: 'C', texto: 'Científico.' },
+      { id: 'D', texto: 'Técnico.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'Sentido figurado — pessoa fria/insensível. Também é uma METÁFORA.',
+      incorretas: { A: 'Denotativo seria literal (órgão de pedra).', C: 'Não é linguagem científica.', D: 'Não é linguagem técnica.' },
+      conceitoCobrado: 'Denotação x conotação.',
+      pegadinha: 'Confundir sentido literal com figurado.',
+      comoApareceEmConcurso: 'Cobrança clássica.'
+    },
+    tags: ['denotação', 'conotação']
+  },
+  {
+    id: 'Q-DID-PT-0302',
+    tipo: 'DIDATICA',
+    area: 'LEXI',
+    moduloId: 'PT-03',
+    subtema: 'Homônimos x parônimos',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'As palavras "eminente" (importante) e "iminente" (que está por vir) são exemplos de:',
+    alternativas: [
+      { id: 'A', texto: 'Homônimos.' },
+      { id: 'B', texto: 'Parônimos.' },
+      { id: 'C', texto: 'Sinônimos.' },
+      { id: 'D', texto: 'Antônimos.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'PARÔNIMOS: parecidos, mas diferentes na pronúncia, escrita e sentido.',
+      incorretas: { A: 'Homônimos têm mesma pronúncia/escrita (ex.: "cela" e "sela").', C: 'Sinônimos têm sentido parecido.', D: 'Antônimos têm sentido oposto.' },
+      conceitoCobrado: 'Homônimos x parônimos.',
+      pegadinha: 'Trocar os conceitos.',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['parônimos']
+  },
+  {
+    id: 'Q-DID-PT-0303',
+    tipo: 'DIDATICA',
+    area: 'LEXI',
+    moduloId: 'PT-03',
+    subtema: 'Figuras de linguagem',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'Na frase "Chorei rios de lágrimas", a figura de linguagem presente é:',
+    alternativas: [
+      { id: 'A', texto: 'Metáfora.' },
+      { id: 'B', texto: 'Metonímia.' },
+      { id: 'C', texto: 'Hipérbole.' },
+      { id: 'D', texto: 'Eufemismo.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'HIPÉRBOLE: exagero intencional. "Rios de lágrimas" não é literal.',
+      incorretas: { A: 'Metáfora é comparação implícita.', B: 'Metonímia é substituição por proximidade.', D: 'Eufemismo suaviza.' },
+      conceitoCobrado: 'Figuras de linguagem.',
+      pegadinha: 'Confundir hipérbole com metáfora.',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['hipérbole', 'figuras de linguagem']
+  },
+  {
+    id: 'Q-DID-PT-0304',
+    tipo: 'DIDATICA',
+    area: 'LEXI',
+    moduloId: 'PT-03',
+    subtema: 'Polissemia x ambiguidade',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Na frase "João disse a Pedro que ele era o culpado", o problema de sentido é:',
+    alternativas: [
+      { id: 'A', texto: 'Polissemia natural.' },
+      { id: 'B', texto: 'Ambiguidade — não se sabe a quem o pronome "ele" se refere (João ou Pedro).' },
+      { id: 'C', texto: 'Denotação.' },
+      { id: 'D', texto: 'Sinonímia.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'AMBIGUIDADE: dupla interpretação em um mesmo contexto. O pronome "ele" pode retomar "João" ou "Pedro".',
+      incorretas: { A: 'Polissemia é da palavra, não da frase.', C: 'Denotação é sentido literal.', D: 'Sinonímia é relação entre palavras.' },
+      conceitoCobrado: 'Ambiguidade.',
+      pegadinha: 'Confundir polissemia com ambiguidade.',
+      comoApareceEmConcurso: 'Cobrança conceitual.'
+    },
+    tags: ['ambiguidade', 'polissemia']
+  },
+  {
+    id: 'Q-DID-PT-0305',
+    tipo: 'DIDATICA',
+    area: 'LEXI',
+    moduloId: 'PT-03',
+    subtema: 'Metáfora x metonímia',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Em "Li Machado de Assis", a figura de linguagem presente é:',
+    alternativas: [
+      { id: 'A', texto: 'Metáfora.' },
+      { id: 'B', texto: 'Metonímia.' },
+      { id: 'C', texto: 'Hipérbole.' },
+      { id: 'D', texto: 'Ironia.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'METONÍMIA: substituição por proximidade — autor pela obra. Leu as obras, não a pessoa.',
+      incorretas: { A: 'Metáfora é comparação implícita.', C: 'Hipérbole é exagero.', D: 'Ironia é sentido contrário.' },
+      conceitoCobrado: 'Metáfora x metonímia.',
+      pegadinha: 'Confundir as duas.',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['metonímia']
+  },
+
+  /* ============================================================
+     PT-04 — Ortografia Oficial e Acentuação
+  ============================================================ */
+  {
+    id: 'Q-DID-PT-0401',
+    tipo: 'DIDATICA',
+    area: 'ORTO',
+    moduloId: 'PT-04',
+    subtema: 'Acentuação',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'Assinale a alternativa em que TODAS as palavras estão corretamente acentuadas:',
+    alternativas: [
+      { id: 'A', texto: 'Café, facil, arvore, saida.' },
+      { id: 'B', texto: 'Café, fácil, árvore, saída.' },
+      { id: 'C', texto: 'Cafe, fácil, árvore, saída.' },
+      { id: 'D', texto: 'Café, fácil, arvore, saida.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'café (oxítona em E), fácil (paroxítona em L), árvore (proparoxítona), saída (hiato).',
+      incorretas: { A: 'Faltam acentos em fácil, árvore, saída.', C: 'Falta acento em café.', D: 'Faltam acentos em árvore, saída.' },
+      conceitoCobrado: 'Regras de acentuação.',
+      pegadinha: 'Esquecer as regras de paroxítonas e proparoxítonas.',
+      comoApareceEmConcurso: 'Cobrança frequente.'
+    },
+    tags: ['acentuação']
+  },
+  {
+    id: 'Q-DID-PT-0402',
+    tipo: 'DIDATICA',
+    area: 'ORTO',
+    moduloId: 'PT-04',
+    subtema: 'Proparoxítonas',
+    dificuldade: 1,
+    prioridade: 'alta',
+    enunciado: 'Assinale a alternativa que apresenta uma palavra proparoxítona corretamente acentuada:',
+    alternativas: [
+      { id: 'A', texto: 'Café.' },
+      { id: 'B', texto: 'Fácil.' },
+      { id: 'C', texto: 'Árvore.' },
+      { id: 'D', texto: 'Caderno.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: '"Árvore" tem a antepenúltima sílaba tônica (proparoxítona) e é sempre acentuada.',
+      incorretas: { A: 'Café é oxítona.', B: 'Fácil é paroxítona.', D: 'Caderno é paroxítona sem acento.' },
+      conceitoCobrado: 'Proparoxítonas são todas acentuadas.',
+      pegadinha: 'Confundir classificação.',
+      comoApareceEmConcurso: 'Cobrança direta.'
+    },
+    tags: ['proparoxítona']
+  },
+  {
+    id: 'Q-DID-PT-0403',
+    tipo: 'DIDATICA',
+    area: 'ORTO',
+    moduloId: 'PT-04',
+    subtema: 'Uso dos porquês',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'Complete: "Não sei ___ ele não veio, mas imagino o ___."',
+    alternativas: [
+      { id: 'A', texto: 'porque / porquê' },
+      { id: 'B', texto: 'por que / porquê' },
+      { id: 'C', texto: 'porquê / porque' },
+      { id: 'D', texto: 'por que / por que' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: '"POR QUE" (pergunta indireta, equivale a "por qual razão"); "PORQUÊ" (substantivo, equivale a "motivo").',
+      incorretas: { A: '"Porque" é conjunção causal — não cabe aqui.', C: 'Inverte.', D: 'O segundo "por que" está errado — é substantivo.' },
+      conceitoCobrado: 'Uso dos porquês.',
+      pegadinha: 'Trocar as formas.',
+      comoApareceEmConcurso: 'Cobrança clássica.'
+    },
+    tags: ['porquês']
+  },
+  {
+    id: 'Q-DID-PT-0404',
+    tipo: 'DIDATICA',
+    area: 'ORTO',
+    moduloId: 'PT-04',
+    subtema: 'Acento diferencial',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'Assinale a alternativa em que o acento diferencial está empregado CORRETAMENTE:',
+    alternativas: [
+      { id: 'A', texto: 'Ele não pode vir ontem.' },
+      { id: 'B', texto: 'Ele não pôde vir ontem.' },
+      { id: 'C', texto: 'Ele não póde vir ontem.' },
+      { id: 'D', texto: 'Ele não pôde vir hoje.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: '"PÔDE" é o passado (pretérito perfeito). Combinando com "ontem", a forma correta é "pôde".',
+      incorretas: { A: 'Falta o acento — "pode" é presente.', C: 'Acento errado.', D: 'Tempo verbal incompatível com "hoje".' },
+      conceitoCobrado: 'Acento diferencial pôde/pode.',
+      pegadinha: 'Confundir presente com passado.',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['acento diferencial']
+  },
+  {
+    id: 'Q-DID-PT-0405',
+    tipo: 'DIDATICA',
+    area: 'ORTO',
+    moduloId: 'PT-04',
+    subtema: 'Hífen pós-Acordo Ortográfico',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Após o Acordo Ortográfico, qual a grafia CORRETA?',
+    alternativas: [
+      { id: 'A', texto: 'Anti-racista.' },
+      { id: 'B', texto: 'Antirracista.' },
+      { id: 'C', texto: 'Anti racista.' },
+      { id: 'D', texto: 'Antir-racista.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'Prefixo "anti-" (terminado em vogal) + palavra iniciada por R → dobra o R e NÃO usa hífen: "antirracista".',
+      incorretas: { A: 'Hífen abolido nesse caso.', C: 'Sem hífen e sem duplicação.', D: 'Hífen em local errado.' },
+      conceitoCobrado: 'Regras do hífen pós-Acordo.',
+      pegadinha: 'Aplicar regras antigas.',
+      comoApareceEmConcurso: 'Cobrança atualizada.'
+    },
+    tags: ['hífen']
+  },
+
+  /* ============================================================
+     PT-05 — Classes de Palavras: Visão Geral
+  ============================================================ */
+  {
+    id: 'Q-DID-PT-0501',
+    tipo: 'DIDATICA',
+    area: 'LEXI',
+    moduloId: 'PT-05',
+    subtema: 'Advérbio x adjetivo',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'Na frase "Ele fala muito bem", a palavra "muito" pertence à classe:',
+    alternativas: [
+      { id: 'A', texto: 'Adjetivo.' },
+      { id: 'B', texto: 'Substantivo.' },
+      { id: 'C', texto: 'Advérbio.' },
+      { id: 'D', texto: 'Pronome.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: '"Muito" modifica o advérbio "bem", intensificando. É ADVÉRBIO — invariável.',
+      incorretas: { A: 'Adjetivo caracteriza substantivo.', B: 'Não nomeia.', D: 'Não substitui substantivo.' },
+      conceitoCobrado: 'Advérbio x adjetivo.',
+      pegadinha: 'Confundir com "muitos alunos" (adjetivo/pronome indefinido).',
+      comoApareceEmConcurso: 'Cobrança direta.'
+    },
+    tags: ['advérbio']
+  },
+  {
+    id: 'Q-DID-PT-0502',
+    tipo: 'DIDATICA',
+    area: 'LEXI',
+    moduloId: 'PT-05',
+    subtema: 'Preposição x conjunção',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'A palavra "e" em "Pedro e Maria estudam" pertence à classe:',
+    alternativas: [
+      { id: 'A', texto: 'Preposição.' },
+      { id: 'B', texto: 'Conjunção.' },
+      { id: 'C', texto: 'Artigo.' },
+      { id: 'D', texto: 'Pronome.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: '"E" é CONJUNÇÃO coordenativa aditiva — liga termos de mesma função ou orações.',
+      incorretas: { A: 'Preposição liga termos com dependência.', C: 'Artigo determina o substantivo.', D: 'Pronome substitui/acompanha o substantivo.' },
+      conceitoCobrado: 'Preposição x conjunção.',
+      pegadinha: 'Confundir as duas.',
+      comoApareceEmConcurso: 'Cobrança direta.'
+    },
+    tags: ['conjunção']
+  },
+  {
+    id: 'Q-DID-PT-0503',
+    tipo: 'DIDATICA',
+    area: 'LEXI',
+    moduloId: 'PT-05',
+    subtema: 'Palavra que muda de classe',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Na frase "O jantar está pronto", a palavra "jantar" pertence à classe:',
+    alternativas: [
+      { id: 'A', texto: 'Verbo.' },
+      { id: 'B', texto: 'Substantivo.' },
+      { id: 'C', texto: 'Adjetivo.' },
+      { id: 'D', texto: 'Advérbio.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'Precedido de artigo "o", "jantar" funciona como SUBSTANTIVO (nomeia a refeição). Em "Vou jantar agora", seria VERBO.',
+      incorretas: { A: 'Seria verbo sem o artigo.', C: 'Não caracteriza.', D: 'Não modifica verbo.' },
+      conceitoCobrado: 'Palavra que muda de classe conforme contexto.',
+      pegadinha: 'Analisar a palavra isolada.',
+      comoApareceEmConcurso: 'Cobrança conceitual.'
+    },
+    tags: ['substantivação']
+  },
+  {
+    id: 'Q-DID-PT-0504',
+    tipo: 'DIDATICA',
+    area: 'LEXI',
+    moduloId: 'PT-05',
+    subtema: 'Substantivo x adjetivo',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Em "O jovem estudioso foi aprovado", os termos "jovem" e "estudioso" são, respectivamente:',
+    alternativas: [
+      { id: 'A', texto: 'Adjetivo e substantivo.' },
+      { id: 'B', texto: 'Substantivo e adjetivo.' },
+      { id: 'C', texto: 'Advérbio e substantivo.' },
+      { id: 'D', texto: 'Substantivo e substantivo.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: '"Jovem" com artigo "o" é SUBSTANTIVO. "Estudioso" caracteriza o substantivo → ADJETIVO.',
+      incorretas: { A: 'Inverte.', C: 'Nenhum é advérbio.', D: 'Não são os dois substantivos.' },
+      conceitoCobrado: 'Substantivo x adjetivo.',
+      pegadinha: 'Confundir as classes.',
+      comoApareceEmConcurso: 'Cobrança direta.'
+    },
+    tags: ['substantivo', 'adjetivo']
+  },
+  {
+    id: 'Q-DID-PT-0505',
+    tipo: 'DIDATICA',
+    area: 'LEXI',
+    moduloId: 'PT-05',
+    subtema: 'Pronome x artigo',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Em "Eu a vi ontem", o termo "a" pertence à classe:',
+    alternativas: [
+      { id: 'A', texto: 'Artigo.' },
+      { id: 'B', texto: 'Pronome.' },
+      { id: 'C', texto: 'Preposição.' },
+      { id: 'D', texto: 'Conjunção.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: '"A" aqui substitui um substantivo feminino ("ela"). É PRONOME pessoal oblíquo. Não é artigo, pois não determina substantivo.',
+      incorretas: { A: 'Artigo determina substantivo.', C: 'Não é preposição.', D: 'Não é conjunção.' },
+      conceitoCobrado: 'Pronome x artigo.',
+      pegadinha: 'Achar que "a" é sempre artigo.',
+      comoApareceEmConcurso: 'Cobrança conceitual.'
+    },
+    tags: ['pronome', 'artigo']
+  },
+
+  /* ============================================================
+     PT-07 — Sintaxe da Oração e do Período
+  ============================================================ */
+  {
+    id: 'Q-DID-PT-0701',
+    tipo: 'DIDATICA',
+    area: 'SINT',
+    moduloId: 'PT-07',
+    subtema: 'Objeto direto x indireto',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'Na frase "Entreguei o livro ao professor", os termos "o livro" e "ao professor" são, respectivamente:',
+    alternativas: [
+      { id: 'A', texto: 'Objeto indireto e objeto direto.' },
+      { id: 'B', texto: 'Objeto direto e objeto indireto.' },
+      { id: 'C', texto: 'Complemento nominal e agente da passiva.' },
+      { id: 'D', texto: 'Sujeito e predicativo.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: '"O livro" (sem preposição) = OBJETO DIRETO. "Ao professor" (com preposição) = OBJETO INDIRETO.',
+      incorretas: { A: 'Inverte.', C: 'Não são esses termos.', D: 'Sujeito é quem faz.' },
+      conceitoCobrado: 'Objeto direto x indireto.',
+      pegadinha: 'Inverter.',
+      comoApareceEmConcurso: 'Cobrança clássica.'
+    },
+    tags: ['objeto direto', 'objeto indireto']
+  },
+  {
+    id: 'Q-DID-PT-0702',
+    tipo: 'DIDATICA',
+    area: 'SINT',
+    moduloId: 'PT-07',
+    subtema: 'Sujeito oculto x indeterminado',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Na frase "Roubaram minha bolsa", o sujeito é classificado como:',
+    alternativas: [
+      { id: 'A', texto: 'Simples.' },
+      { id: 'B', texto: 'Oculto.' },
+      { id: 'C', texto: 'Indeterminado.' },
+      { id: 'D', texto: 'Inexistente.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'SUJEITO INDETERMINADO: verbo na 3ª pessoa do plural sem sujeito expresso. Não se sabe quem roubou.',
+      incorretas: { A: 'Sujeito simples estaria expresso.', B: 'Oculto pode ser identificado; aqui, não.', D: 'Inexistente não há (verbos impessoais).' },
+      conceitoCobrado: 'Tipos de sujeito.',
+      pegadinha: 'Confundir oculto com indeterminado.',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['sujeito indeterminado']
+  },
+  {
+    id: 'Q-DID-PT-0703',
+    tipo: 'DIDATICA',
+    area: 'SINT',
+    moduloId: 'PT-07',
+    subtema: 'Adjunto adnominal x complemento nominal',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Na expressão "o medo de altura", o termo "de altura" é classificado como:',
+    alternativas: [
+      { id: 'A', texto: 'Adjunto adnominal.' },
+      { id: 'B', texto: 'Complemento nominal.' },
+      { id: 'C', texto: 'Aposto.' },
+      { id: 'D', texto: 'Vocativo.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'COMPLEMENTO NOMINAL: completa o substantivo abstrato "medo" com preposição, indicando o alvo do medo.',
+      incorretas: { A: 'Adjunto adnominal caracteriza (posse, qualidade).', C: 'Aposto explica.', D: 'Vocativo chama.' },
+      conceitoCobrado: 'Adjunto adnominal x complemento nominal.',
+      pegadinha: 'Confundir as duas funções.',
+      comoApareceEmConcurso: 'Cobrança clássica.'
+    },
+    tags: ['complemento nominal']
+  },
+  {
+    id: 'Q-DID-PT-0704',
+    tipo: 'DIDATICA',
+    area: 'SINT',
+    moduloId: 'PT-07',
+    subtema: 'Coordenada x subordinada',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Na frase "Estudei muito, mas não passei", a segunda oração ("mas não passei") é classificada como:',
+    alternativas: [
+      { id: 'A', texto: 'Oração subordinada substantiva.' },
+      { id: 'B', texto: 'Oração subordinada adjetiva.' },
+      { id: 'C', texto: 'Oração coordenada adversativa.' },
+      { id: 'D', texto: 'Oração subordinada adverbial.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'COORDENADA ADVERSATIVA: liga orações independentes com ideia de contraste ("mas").',
+      incorretas: { A: 'Substantiva exerce função de substantivo.', B: 'Adjetiva caracteriza substantivo.', D: 'Adverbial indica circunstância.' },
+      conceitoCobrado: 'Orações coordenadas.',
+      pegadinha: 'Confundir com subordinada.',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['coordenada adversativa']
+  },
+  {
+    id: 'Q-DID-PT-0705',
+    tipo: 'DIDATICA',
+    area: 'SINT',
+    moduloId: 'PT-07',
+    subtema: 'Predicado',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Na frase "Ele chegou cansado", o predicado é classificado como:',
+    alternativas: [
+      { id: 'A', texto: 'Verbal.' },
+      { id: 'B', texto: 'Nominal.' },
+      { id: 'C', texto: 'Verbo-nominal.' },
+      { id: 'D', texto: 'Inexistente.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'PREDICADO VERBO-NOMINAL: tem dois núcleos — verbo ("chegou") + predicativo do sujeito ("cansado").',
+      incorretas: { A: 'Verbal só tem verbo significativo.', B: 'Nominal tem verbo de ligação + predicativo.', D: 'Existe predicado.' },
+      conceitoCobrado: 'Tipos de predicado.',
+      pegadinha: 'Confundir os três tipos.',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['predicado verbo-nominal']
+  },
+
+  /* ============================================================
+     PT-10 — Regência Verbal, Regência Nominal e Crase
+  ============================================================ */
+  {
+    id: 'Q-DID-PT-1001',
+    tipo: 'DIDATICA',
+    area: 'SINT',
+    moduloId: 'PT-10',
+    subtema: 'Crase',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'Assinale a alternativa em que a crase está empregada CORRETAMENTE:',
+    alternativas: [
+      { id: 'A', texto: 'Vou à pé até a escola.' },
+      { id: 'B', texto: 'Começou à chover forte.' },
+      { id: 'C', texto: 'Entreguei o livro à professora.' },
+      { id: 'D', texto: 'Fiquei cara à cara com ele.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: '"À professora": preposição "a" + artigo "a" + palavra feminina. Crase correta.',
+      incorretas: { A: 'Palavra masculina ("pé") — sem crase.', B: 'Antes de verbo — sem crase.', D: 'Palavras repetidas — sem crase.' },
+      conceitoCobrado: 'Crase — casos obrigatórios, proibidos.',
+      pegadinha: 'Crase antes de palavra masculina e verbo.',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['crase']
+  },
+  {
+    id: 'Q-DID-PT-1002',
+    tipo: 'DIDATICA',
+    area: 'SINT',
+    moduloId: 'PT-10',
+    subtema: 'Verbos de dupla regência',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Sobre o verbo "assistir", é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'Tem sempre a mesma regência.' },
+      { id: 'B', texto: 'No sentido de "ver", pede a preposição "a" ("Assisti ao filme"); no sentido de "ajudar", não pede preposição ("O médico assistiu o paciente").' },
+      { id: 'C', texto: 'Sempre rege preposição "em".' },
+      { id: 'D', texto: 'Nunca aceita preposição.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: '"Assistir" tem dupla regência: VER → a; AJUDAR → sem preposição.',
+      incorretas: { A: 'Depende do sentido.', C: 'Não é "em".', D: 'Pode aceitar.' },
+      conceitoCobrado: 'Verbos de dupla regência.',
+      pegadinha: 'Achar que a regência é fixa.',
+      comoApareceEmConcurso: 'Cobrança clássica.'
+    },
+    tags: ['assistir', 'regência']
+  },
+  {
+    id: 'Q-DID-PT-1003',
+    tipo: 'DIDATICA',
+    area: 'SINT',
+    moduloId: 'PT-10',
+    subtema: 'Crase proibida',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Em qual alternativa a crase é PROIBIDA?',
+    alternativas: [
+      { id: 'A', texto: 'Referi-me àquele episódio.' },
+      { id: 'B', texto: 'Cheguei à noite.' },
+      { id: 'C', texto: 'Vou a Brasília.' },
+      { id: 'D', texto: 'Entreguei o livro à Maria.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'Crase PROIBIDA antes de nome de cidade sem artigo: "Vou a Brasília".',
+      incorretas: { A: 'Crase obrigatória (aquele).', B: 'Crase obrigatória (locução feminina).', D: 'Crase facultativa (nome próprio).' },
+      conceitoCobrado: 'Casos de crase.',
+      pegadinha: 'Generalizar a crase.',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['crase']
+  },
+  {
+    id: 'Q-DID-PT-1004',
+    tipo: 'DIDATICA',
+    area: 'SINT',
+    moduloId: 'PT-10',
+    subtema: 'Regência nominal',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Assinale a alternativa CORRETA quanto à regência nominal:',
+    alternativas: [
+      { id: 'A', texto: 'Ele é obediente as regras.' },
+      { id: 'B', texto: 'Ele é obediente às regras.' },
+      { id: 'C', texto: 'Ele é obediente nas regras.' },
+      { id: 'D', texto: 'Ele é obediente com regras.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'O adjetivo "obediente" pede preposição "a": "obediente às regras". Com "as" (artigo plural), forma "às".',
+      incorretas: { A: 'Falta crase.', C: 'Preposição errada.', D: 'Preposição errada.' },
+      conceitoCobrado: 'Regência nominal + crase.',
+      pegadinha: 'Esquecer a crase.',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['regência nominal', 'crase']
+  },
+  {
+    id: 'Q-DID-PT-1005',
+    tipo: 'DIDATICA',
+    area: 'SINT',
+    moduloId: 'PT-10',
+    subtema: 'Teste da palavra masculina',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'Para decidir se há crase em "Vou ___ escola", qual teste aplicar?',
+    alternativas: [
+      { id: 'A', texto: 'Substituir por verbo.' },
+      { id: 'B', texto: 'Substituir por palavra masculina: se aparecer "ao", há crase.' },
+      { id: 'C', texto: 'Verificar se a palavra seguinte é plural.' },
+      { id: 'D', texto: 'Contar as sílabas da frase.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'TESTE DA PALAVRA MASCULINA: substituir por masculino. Se aparecer "ao", há crase. Ex.: "Vou à escola" → "Vou ao colégio" (tem crase).',
+      incorretas: { A: 'Não substitui por verbo.', C: 'Plural não decide.', D: 'Não se conta sílabas.' },
+      conceitoCobrado: 'Teste prático para crase.',
+      pegadinha: 'Não conhecer o teste.',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['crase', 'teste']
   }
 
 ];
