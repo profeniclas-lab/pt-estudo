@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <!--
-Aplicativo: Direito Constitucional para Concursos
+Aplicativo: PT-ESTUDO — Portugues para Concursos
 Versao: 1.0
 Fase: 1
 Status: funcional
 Changelog v1.0 (Fase 1):
-- Shell rebrandeado para Direito Constitucional
-- Conteudo extraido para arquivos externos (content/*.js)
-- 21 modulos cadastrados (DC-01 a DC-20 + DC-RN)
+- Shell rebrandeado para Portugues
+- 16 modulos cadastrados (PT-01 a PT-16) em 6 blocos
+- Prioridades: muito_alta, alta, media, condicional
 - Aulas, diagnosticos, questoes e flashcards a serem preenchidos nas fases seguintes
 -->
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>DC-ESTUDO v1.0 — Direito Constitucional</title>
+<title>PT-ESTUDO v1.0 — Português</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   :root {
@@ -73,9 +73,10 @@ Changelog v1.0 (Fase 1):
   .module-card .mod-area { font-size: 12px; color: var(--text-muted); margin-top: 2px; }
   .module-card .mod-badges { display: flex; gap: 6px; align-items: center; flex-shrink: 0; flex-wrap: wrap; justify-content: flex-end; }
   .module-card .mod-priority { font-size: 10px; font-weight: 700; padding: 3px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: .4px; }
+  .priority-muito_alta { background: #ede9fe; color: #6d28d9; }
   .priority-alta { background: #fee2e2; color: #b91c1c; }
   .priority-media { background: #fed7aa; color: #c2410c; }
-  .priority-baixa { background: #e2e8f0; color: #475569; }
+  .priority-condicional { background: #f1f5f9; color: #64748b; }
   .badge-pill { font-size: 10px; font-weight: 700; padding: 3px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: .4px; }
   .badge-aula { background: var(--success-soft); color: var(--success); }
   .badge-diag { background: var(--purple-soft); color: var(--purple); }
@@ -398,9 +399,10 @@ Changelog v1.0 (Fase 1):
   body.dark .lesson-block.block-pegadinha { background: #422006; }
   body.dark .lesson-block.block-erros { background: #450a0a; }
   body.dark .lesson-block.block-resumo { background: #052e16; }
+  body.dark .priority-muito_alta { background: #4c1d95; color: #c4b5fd; }
   body.dark .priority-alta { background: #7f1d1d; color: #fecaca; }
   body.dark .priority-media { background: #78350f; color: #fed7aa; }
-  body.dark .priority-baixa { background: #334155; color: #cbd5e1; }
+  body.dark .priority-condicional { background: #334155; color: #cbd5e1; }
   body.dark .badge-aula,
   body.dark .badge-facil,
   body.dark .badge-ok { background: #14532d; color: #86efac; }
@@ -420,7 +422,7 @@ Changelog v1.0 (Fase 1):
   body.dark .fhr-ans.sabia { color: #86efac; }
   body.dark .fhr-ans.duvida { color: #fdba74; }
   body.dark .fhr-ans.nao { color: #fca5a5; }
-  body.dark .theme-btn { border-color: var(--border); }  
+  body.dark .theme-btn { border-color: var(--border); }
 </style>
 </head>
 <body>
@@ -428,8 +430,8 @@ Changelog v1.0 (Fase 1):
     <header class="app-header">
       <button class="menu-toggle" data-action="toggle-sidebar" aria-label="Abrir menu">☰</button>
       <div class="brand">
-        DC-ESTUDO
-        <span class="brand-sub">Direito Constitucional para Concursos</span>
+        PT-ESTUDO
+        <span class="brand-sub">Português para Concursos</span>
       </div>
       <div class="header-spacer"></div>
       <span class="version-badge" id="appVersionBadge">v1.0</span>
@@ -463,7 +465,6 @@ Changelog v1.0 (Fase 1):
 
   <!-- ============================================================
        CONTEÚDO EXTERNO — preenchido nas fases seguintes
-       Cada arquivo define window.MODULES / window.LESSONS_* / etc.
   ============================================================ -->
   <script src="content/modules.js"></script>
   <script src="content/lessons-alta.js"></script>
@@ -486,13 +487,22 @@ Changelog v1.0 (Fase 1):
   ============================================================ */
   var APP_VERSION = '1.0';
   var SCHEMA_VERSION = 1;
-  var STORAGE_KEY = 'direitoConstitucional.state';
+  var STORAGE_KEY = 'ptEstudo.state';
 
   var AREA_LABELS = {
-    CF: 'Constituição Federal',
-    CE: 'Constituição Estadual (RN)'
+    LEIT: 'Leitura e Interpretação',
+    LEXI: 'Léxico, Semântica e Morfologia',
+    ORTO: 'Ortografia, Acentuação e Fonologia',
+    SINT: 'Sintaxe e Pontuação',
+    TEXT: 'Texto, Coesão e Reescrita',
+    OFIC: 'Redação Oficial'
   };
-  var PRIORITY_LABELS = { alta: 'Alta', media: 'Média', baixa: 'Baixa' };
+  var PRIORITY_LABELS = {
+    muito_alta: 'Muito alta',
+    alta: 'Alta',
+    media: 'Média',
+    condicional: 'Conduz conforme edital'
+  };
   var STATUS_LABELS = { 'conhecido': 'Conhecido', 'duvida': 'Em dúvida', 'desconhecido': 'Desconhecido' };
   var DIAG_TYPE_LABELS = { 'multipla_escolha': 'Múltipla escolha', 'verdadeiro_falso': 'Verdadeiro ou falso', 'situacao': 'Situação prática', 'autoavaliacao': 'Autoavaliação' };
   var DIFFICULTY_LABELS = { 1: 'Fácil', 2: 'Médio', 3: 'Difícil' };
@@ -581,12 +591,12 @@ Changelog v1.0 (Fase 1):
         stats: Object.assign({}, base.stats, parsed.stats || {}),
         lastScreen: parsed.lastScreen || 'dashboard'
       };
-    } catch (e) { console.error('[DC-ESTUDO] Falha ao ler estado:', e); return createDefaultState(); }
+    } catch (e) { console.error('[PT-ESTUDO] Falha ao ler estado:', e); return createDefaultState(); }
   }
   function saveState() {
     AppState.updatedAt = new Date().toISOString();
     try { localStorage.setItem(STORAGE_KEY, JSON.stringify(AppState)); }
-    catch (e) { console.error('[DC-ESTUDO] Falha ao salvar estado:', e); }
+    catch (e) { console.error('[PT-ESTUDO] Falha ao salvar estado:', e); }
   }
   function getModuleUserState(modId) {
     if (!AppState.modules[modId]) AppState.modules[modId] = { status: 'nao_iniciado', aulasLidas: [], diagnostico: null, dominioEstimado: 0, ultimaAtividade: null };
@@ -1159,7 +1169,6 @@ Changelog v1.0 (Fase 1):
     render();
   }
 
-/* ===== CONTINUA NA RESPOSTA 2 ===== */
   /* ============================================================
      RENDER
   ============================================================ */
@@ -1252,18 +1261,21 @@ Changelog v1.0 (Fase 1):
     if (errN > 0) {
       sugestoes.push({ tipo: 'erros', titulo: 'Erros em aberto', descricao: errN + ' questão(ões) com erro aguardando revisão dedicada.' });
     }
-    for (var j = 0; j < MODULES.length && sugestoes.length < 4; j++) {
-      var m = MODULES[j];
-      if (m.prioridade !== 'alta') continue;
-      if (!getDiagnosticByModuleId(m.id) && !getLessonByModuleId(m.id)) continue;
-      var ms = getModuleUserState(m.id);
-      if (ms.status === 'concluido') continue;
-      sugestoes.push({ tipo: 'modulo', modulo: m });
+    var ordemSugestao = ['muito_alta', 'alta', 'media', 'condicional'];
+    for (var os = 0; os < ordemSugestao.length && sugestoes.length < 4; os++) {
+      for (var j = 0; j < MODULES.length && sugestoes.length < 4; j++) {
+        var m = MODULES[j];
+        if (m.prioridade !== ordemSugestao[os]) continue;
+        if (!getDiagnosticByModuleId(m.id) && !getLessonByModuleId(m.id)) continue;
+        var ms = getModuleUserState(m.id);
+        if (ms.status === 'concluido') continue;
+        sugestoes.push({ tipo: 'modulo', modulo: m });
+      }
     }
 
     var html = '';
     html += '<h1 class="page-title">Dashboard</h1>';
-    html += '<p class="page-subtitle">Visão geral do seu progresso em Direito Constitucional. Dados salvos localmente no navegador.</p>';
+    html += '<p class="page-subtitle">Visão geral do seu progresso em Português. Dados salvos localmente no navegador.</p>';
     html += '<div class="cards-grid">';
     html += statCard('Questões respondidas', stats.questoesRespondidas, qReal + ' reais · ' + qDid + ' didáticas');
     html += statCard('Taxa de acerto', taxa + '%', stats.acertos + ' acertos / ' + stats.erros + ' erros');
@@ -1300,8 +1312,8 @@ Changelog v1.0 (Fase 1):
 
     html += '<h2 class="section-title">Aviso desta versão</h2>';
     html += '<div class="notice">' +
-      '<strong>DC-ESTUDO v1.0 — Fase 1.</strong> ' +
-      'Estrutura base com os 21 módulos de Direito Constitucional cadastrados. ' +
+      '<strong>PT-ESTUDO v1.0 — Fase 1.</strong> ' +
+      'Estrutura base com os 16 módulos de Português cadastrados em 6 blocos. ' +
       'Aulas, diagnósticos, questões e flashcards estão sendo adicionados nas próximas fases.' +
       '</div>';
 
@@ -1495,7 +1507,7 @@ Changelog v1.0 (Fase 1):
       }
       html += '</tbody></table></div>';
     }
-    if (lesson.aplicacaoEmConcurso) html += '<div class="lesson-block block-aplicacao"><h3><span class="lb-icon">⚖️</span> Aplicação em concurso</h3><p>' + esc(lesson.aplicacaoEmConcurso) + '</p></div>';
+    if (lesson.aplicacaoEmConcurso) html += '<div class="lesson-block block-aplicacao"><h3><span class="lb-icon">📋</span> Aplicação em concurso</h3><p>' + esc(lesson.aplicacaoEmConcurso) + '</p></div>';
     if (lesson.pegadinhas && lesson.pegadinhas.length) {
       html += '<div class="lesson-block block-pegadinha"><h3><span class="lb-icon">⚠️</span> Pegadinhas de concurso</h3><ul>';
       for (var p = 0; p < lesson.pegadinhas.length; p++) html += '<li>' + esc(lesson.pegadinhas[p]) + '</li>';
@@ -1898,7 +1910,7 @@ Changelog v1.0 (Fase 1):
     html += '<div class="io-box"><h3><span>📥</span> Importar questões</h3>';
     html += '<p>Cole um JSON. Aceita <strong>DIDÁTICAS</strong> e <strong>REAIS</strong>. ' +
             'REAIS sem banca, órgão, ano, prova e fonte são <em>rejeitadas</em>.</p>';
-    html += '<textarea id="importTextarea" placeholder=\'[{"id":"Q-REAL-DC-0001","tipo":"REAL","banca":"...","orgao":"...","ano":2024,"prova":"...","fonte":{"descricao":"..."},"area":"CF","moduloId":"DC-03","subtema":"...","dificuldade":2,"enunciado":"...","alternativas":[...],"gabarito":"B","explicacao":{"correta":"...","incorretas":{...},"conceitoCobrado":"...","pegadinha":"...","comoApareceEmConcurso":"..."}}]\'></textarea>';
+    html += '<textarea id="importTextarea" placeholder=\'[{"id":"Q-REAL-PT-0001","tipo":"REAL","banca":"...","orgao":"...","ano":2024,"prova":"...","fonte":{"descricao":"..."},"area":"LEIT","moduloId":"PT-01","subtema":"...","dificuldade":2,"enunciado":"...","alternativas":[...],"gabarito":"B","explicacao":{"correta":"...","incorretas":{...},"conceitoCobrado":"...","pegadinha":"...","comoApareceEmConcurso":"..."}}]\'></textarea>';
     html += '<div class="io-actions">';
     html += '<button class="btn btn-primary" data-action="import-questions">Validar e importar</button>';
     html += '<button class="btn" data-action="clear-import">Limpar relatório</button>';
@@ -1977,9 +1989,9 @@ Changelog v1.0 (Fase 1):
   function clearImport() { importReport = null; render(); }
   function loadImportSample() {
     var sample = [{
-      id: 'Q-REAL-DC-0001', tipo: 'REAL', banca: 'BANCA-DE-EXEMPLO', orgao: 'ORGAO-DE-EXEMPLO', ano: 2024, prova: 'PROVA-DE-EXEMPLO',
+      id: 'Q-REAL-PT-0001', tipo: 'REAL', banca: 'BANCA-DE-EXEMPLO', orgao: 'ORGAO-DE-EXEMPLO', ano: 2024, prova: 'PROVA-DE-EXEMPLO',
       fonte: { descricao: 'Documento de exemplo — substitua por fonte verificável' },
-      area: 'CF', moduloId: 'DC-03', subtema: 'Direitos e deveres individuais e coletivos', dificuldade: 2,
+      area: 'LEIT', moduloId: 'PT-01', subtema: 'Interpretação de texto', dificuldade: 2,
       enunciado: 'Substitua este enunciado pelo da questão real.',
       alternativas: [{ id: 'A', texto: 'A' }, { id: 'B', texto: 'B' }, { id: 'C', texto: 'C' }, { id: 'D', texto: 'D' }],
       gabarito: 'B',
@@ -1999,10 +2011,10 @@ Changelog v1.0 (Fase 1):
     } catch (e) { window.alert('Falha ao exportar: ' + e.message); }
   }
   function exportQuestions() {
-    downloadJson('dc-estudo-questoes-v' + APP_VERSION + '.json', { exportedAt: new Date().toISOString(), appVersion: APP_VERSION, schemaVersion: SCHEMA_VERSION, questoes: QUESTIONS });
+    downloadJson('pt-estudo-questoes-v' + APP_VERSION + '.json', { exportedAt: new Date().toISOString(), appVersion: APP_VERSION, schemaVersion: SCHEMA_VERSION, questoes: QUESTIONS });
   }
   function exportProgress() {
-    downloadJson('dc-estudo-progresso-v' + APP_VERSION + '.json', { exportedAt: new Date().toISOString(), appVersion: APP_VERSION, state: AppState });
+    downloadJson('pt-estudo-progresso-v' + APP_VERSION + '.json', { exportedAt: new Date().toISOString(), appVersion: APP_VERSION, state: AppState });
   }
 
   function renderFlashcards() {
@@ -3045,10 +3057,10 @@ Changelog v1.0 (Fase 1):
     html += '<h1 class="page-title">Sobre</h1>';
     html += '<p class="page-subtitle">Informações do aplicativo e changelog.</p>';
     html += '<h2 class="section-title">Informações</h2><div class="info-list">';
-    html += infoRow('Aplicativo', 'Direito Constitucional para Concursos');
+    html += infoRow('Aplicativo', 'PT-ESTUDO — Português para Concursos');
     html += infoRow('Público-alvo', 'Concursos de nível médio (Administrativo / Técnico / Assistente)');
-    html += infoRow('Base legal', 'Constituição Federal de 1988 (versão vigente) + Constituição do RN');
-    html += infoRow('Versão', 'DC-ESTUDO v' + APP_VERSION);
+    html += infoRow('Base curricular', '16 módulos em 6 blocos (Leitura, Léxico, Ortografia, Sintaxe, Texto, Redação Oficial)');
+    html += infoRow('Versão', 'PT-ESTUDO v' + APP_VERSION);
     html += infoRow('Fase', '1 — Estrutura base e cadastro de módulos');
     html += infoRow('Schema de dados', 'v' + SCHEMA_VERSION);
     html += infoRow('Aulas cadastradas', Object.keys(LESSONS).length + ' / ' + MODULES.length);
@@ -3060,21 +3072,20 @@ Changelog v1.0 (Fase 1):
     html += '</div>';
 
     html += '<h2 class="section-title">Changelog</h2><div class="info-list">';
-    html += infoRow('v1.0 — Fase 1', 'Shell rebrandeado para Direito Constitucional. 21 módulos cadastrados (DC-01 a DC-20 + DC-RN). Conteúdo extraído para arquivos externos.');
+    html += infoRow('v1.0 — Fase 1', 'Shell rebrandeado para Português. 16 módulos cadastrados em 6 blocos. Conteúdo extraído para arquivos externos.');
     html += '</div>';
 
     html += '<h2 class="section-title">Próximas entregas</h2><div class="notice">';
-    html += '<strong>Fase 2:</strong> aulas dos 11 módulos de prioridade alta (DC-02, DC-03, DC-04, DC-05, DC-06, DC-07, DC-08, DC-09, DC-11, DC-12, DC-13) e DC-RN.<br>';
-    html += '<strong>Fase 3:</strong> diagnósticos dos módulos alta.<br>';
-    html += '<strong>Fase 4:</strong> banco de questões e flashcards.<br>';
-    html += '<strong>Fases seguintes:</strong> prioridades média e complementar.';
+    html += '<strong>Fase 2:</strong> aulas dos 5 módulos de prioridade MUITO ALTA (PT-01, PT-08, PT-09, PT-11, PT-16).<br>';
+    html += '<strong>Fase 3:</strong> diagnósticos, questões e flashcards dos muito alta.<br>';
+    html += '<strong>Fases seguintes:</strong> alta, média e condicional.';
     html += '</div>';
     html += footerHtml();
     return html;
   }
 
   function footerHtml() {
-    return '<div class="app-footer"><span>DC-ESTUDO v' + esc(APP_VERSION) + ' · Fase 1</span><span>Offline · dados salvos neste navegador</span></div>';
+    return '<div class="app-footer"><span>PT-ESTUDO v' + esc(APP_VERSION) + ' · Fase 1</span><span>Offline · dados salvos neste navegador</span></div>';
   }
 
   /* ============================================================
@@ -3285,7 +3296,7 @@ Changelog v1.0 (Fase 1):
       state: AppState
     };
     var stamp = new Date().toISOString().slice(0, 10);
-    downloadJson('dc-estudo-backup-' + stamp + '.json', payload);
+    downloadJson('pt-estudo-backup-' + stamp + '.json', payload);
   }
 
   function validateIncomingState(obj) {
