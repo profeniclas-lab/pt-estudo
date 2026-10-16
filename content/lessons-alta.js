@@ -697,6 +697,161 @@ window.LESSONS_ALTA = {
         resposta: 'Na primeira ("O belo quadro"), "belo" é ADJETIVO (caracteriza "quadro"). Na segunda ("O belo encanta"), "belo" é SUBSTANTIVO (nomeia — o belo como conceito). A mesma palavra muda de classe conforme o contexto.'
       }
     }
+  },
+
+  /* ============================================================
+     PT-07 — Sintaxe da Oração e do Período
+  ============================================================ */
+  'PT-07': {
+    id: 'L-PT-07',
+    moduloId: 'PT-07',
+    objetivo: 'Compreender a estrutura da oração e do período: sujeito, predicado, predicativo, objetos, complemento nominal, adjuntos, aposto, vocativo, agente da passiva. Distinguir orações coordenadas de subordinadas e aplicar análise sintática em questões de prova.',
+    prerequisitos: ['PT-05'],
+
+    introducao: 'Sintaxe é a "engenharia" da frase: estuda a função de cada termo dentro da oração e a relação entre as orações no período. É o módulo mais cobrado em Português, depois da interpretação. Sem entender sintaxe, você não resolve concordância, pontuação nem reescrita.',
+
+    explicacaoSimples: 'Pense em uma oração como uma peça de teatro: o SUJEITO é o ator principal, o VERBO é a ação, e os COMPLEMENTOS são os objetos que completam a cena. Além disso, há coadjuvantes: adjuntos, apostos, vocativos. Cada termo tem uma função — e identificar a função é o objetivo da análise sintática.',
+
+    explicacaoTecnica: 'FRASE: enunciado com sentido completo (pode ter verbo ou não). ORAÇÃO: frase com verbo. PERÍODO: frase organizada em uma ou mais orações. SIMPLES (1 oração) ou COMPOSTO (2 ou mais). TERMOS ESSENCIAIS: SUJEITO (simples, composto, oculto, indeterminado, inexistente) e PREDICADO (verbal, nominal, verbo-nominal). TERMOS INTEGRANTES: OBJETO DIRETO (completa verbo transitivo direto, sem preposição), OBJETO INDIRETO (completa verbo transitivo indireto, com preposição), COMPLEMENTO NOMINAL (completa nome — substantivo, adjetivo ou advérbio — com preposição), AGENTE DA PASSIVA (pratica a ação na voz passiva). TERMOS ACESSÓRIOS: ADJUNTO ADNOMINAL (caracteriza substantivo — artigo, adjetivo, pronome, numeral), ADJUNTO ADVERBIAL (modifica verbo, indicando circunstância), APOSTO (explica ou especifica termo anterior), VOCATIVO (chama o interlocutor). ORAÇÕES COORDENADAS: independentes entre si (aditivas, adversativas, alternativas, conclusivas, explicativas). ORAÇÕES SUBORDINADAS: dependem de outra (substantivas, adjetivas, adverbiais).',
+
+    exemplos: [
+      'Sujeito simples: "O aluno estuda." / Sujeito composto: "O aluno e a aluna estudam."',
+      'Sujeito oculto: "(Eu) Estudei muito." / Sujeito indeterminado: "Roubaram minha bolsa."',
+      'Predicado verbal: "Ele comprou um carro." Predicado nominal: "Ele está feliz." Predicado verbo-nominal: "Ele chegou cansado."',
+      'Objeto direto: "Comprei o livro." Objeto indireto: "Gosto de música."',
+      'Complemento nominal: "Tenho medo de altura." Agente da passiva: "O livro foi lido pelo aluno."',
+      'Adjunto adnominal: "O meu carro novo." Adjunto adverbial: "Ele viajou ontem."',
+      'Aposto: "Pedro, meu vizinho, é médico." Vocativo: "Maria, venha cá."',
+      'Coordenada aditiva: "Estudei e trabalhei." Adversativa: "Estudei, mas não passei."',
+      'Subordinada substantiva: "Quero que você venha." Adjetiva: "O aluno que estuda passa." Adverbial causal: "Não vim porque chovia."'
+    ],
+
+    comparacoes: [
+      { termoA: 'Objeto direto', termoB: 'Objeto indireto', diferenca: 'OBJETO DIRETO: completa verbo transitivo direto, SEM preposição obrigatória. Ex.: "Comprei o livro." OBJETO INDIRETO: completa verbo transitivo indireto, COM preposição. Ex.: "Gosto de música." Teste: se o verbo pede preposição, o complemento é objeto indireto.' },
+      { termoA: 'Adjunto adnominal', termoB: 'Complemento nominal', diferenca: 'ADJUNTO ADNOMINAL: caracteriza SUBSTANTIVO, indicando qualidade, posse etc. Ex.: "O carro do meu pai" ("do meu pai" indica posse). COMPLEMENTO NOMINAL: completa NOME (substantivo abstrato, adjetivo ou advérbio) com preposição, indicando alvo/paciente. Ex.: "O medo de altura" ("de altura" completa "medo"). É preciso analisar a relação semântica.' },
+      { termoA: 'Oração coordenada', termoB: 'Oração subordinada', diferenca: 'COORDENADA: independente — não exerce função sintática em outra oração. Ex.: "Estudei e trabalhei." SUBORDINADA: dependente — exerce função sintática na oração principal. Ex.: "Quero que você venha" (a subordinada é objeto direto de "quero").' },
+      { termoA: 'Sujeito oculto', termoB: 'Sujeito indeterminado', diferenca: 'OCULTO: existe, mas não está expresso — pode ser identificado pelo contexto ou pela desinência verbal. Ex.: "(Eu) Estudei muito." INDETERMINADO: não se sabe quem é — não pode ser identificado. Ex.: "Roubaram minha bolsa." (não se sabe quem roubou). O primeiro é recuperável; o segundo, não.' }
+    ],
+
+    aplicacaoEmConcurso: 'Sintaxe é o módulo mais cobrado em Português. Aparece em: classificação de termos, análise sintática, concordância (sujeito x verbo), pontuação (separar orações), reescrita (mudar voz, mudar estrutura) e interpretação (identificar referentes). As bancas cobram principalmente: sujeito x predicado, tipos de sujeito, objeto direto x indireto, adjunto adnominal x complemento nominal, orações coordenadas x subordinadas.',
+
+    pegadinhas: [
+      'Confundir objeto direto com indireto — teste a preposição.',
+      'Confundir adjunto adnominal com complemento nominal.',
+      'Achar que sujeito oculto é inexistente. NÃO — o oculto existe, só não está expresso.',
+      'Confundir sujeito indeterminado com inexistente. Indeterminado = não se sabe quem. Inexistente = não há sujeito (verbos impessoais).',
+      'Trocar oração coordenada com subordinada.',
+      'Confundir predicado verbal com nominal.',
+      'Achar que aposto é o mesmo que vocativo. Aposto explica; vocativo chama.'
+    ],
+
+    errosComuns: [
+      'Decorar classificações sem entender a função dos termos.',
+      'Não verificar o tipo de verbo antes de classificar o complemento.',
+      'Confundir termos essenciais, integrantes e acessórios.',
+      'Ignorar a semântica ao distinguir adjunto adnominal de complemento nominal.'
+    ],
+
+    resumo: [
+      'Frase: sentido completo. Oração: tem verbo. Período: frase com uma ou mais orações.',
+      'Sujeito: simples, composto, oculto, indeterminado, inexistente.',
+      'Predicado: verbal, nominal, verbo-nominal.',
+      'Objeto direto: sem preposição. Objeto indireto: com preposição.',
+      'Complemento nominal completa nome; adjunto adnominal caracteriza substantivo.',
+      'Aposto explica; vocativo chama.',
+      'Coordenadas: independentes. Subordinadas: dependentes.',
+      'Sujeito oculto existe; indeterminado não se sabe quem.'
+    ],
+
+    modoProfessor: {
+      explicarMaisSimples: 'Pense na oração como uma frase com "peças" identificáveis. O sujeito é quem faz; o verbo é a ação; o objeto é o que completa. Pergunte sempre: "quem?" (sujeito), "fez o quê?" (verbo), "para quem?" (complemento).',
+      outroExemplo: '"O menino comprou um sorvete para a mãe." Sujeito: "O menino". Verbo: "comprou". Objeto direto: "um sorvete". Objeto indireto: "para a mãe". Adjunto adnominal: "O" (artigo). Cada termo tem uma função.',
+      compararConceitos: 'Sujeito x predicado. Objeto direto x indireto. Adjunto adnominal x complemento nominal. Coordenada x subordinada. Aposto x vocativo.',
+      mostrarPegadinha: 'Cuidado: "Gosto de música" — "de música" é OBJETO INDIRETO (o verbo "gostar" pede preposição "de"). Já "Comprei de música" nem faz sentido. Sempre teste o verbo.',
+      comoApareceEmConcurso: 'Análise sintática, concordância e pontuação. Altíssima frequência.',
+      fazerPergunta: {
+        pergunta: 'Em "O medo de altura impede muitas pessoas de viajar", qual a função de "de altura"?',
+        resposta: '"De altura" é COMPLEMENTO NOMINAL, pois completa o substantivo abstrato "medo" com preposição. Não confundir com adjunto adnominal — o adjunto caracteriza, mas o complemento completa o sentido do nome.'
+      }
+    }
+  },
+
+  /* ============================================================
+     PT-10 — Regência Verbal, Regência Nominal e Crase
+  ============================================================ */
+  'PT-10': {
+    id: 'L-PT-10',
+    moduloId: 'PT-10',
+    objetivo: 'Compreender a relação entre nomes, verbos e seus complementos (regência). Conhecer as preposições exigidas por verbos e nomes, os verbos com regências diferentes e as mudanças de sentido pela regência. Dominar o uso do acento grave indicativo de crase: casos obrigatórios, proibidos e facultativos.',
+    prerequisitos: ['PT-05', 'PT-07'],
+
+    introducao: 'Regência é a relação de dependência entre um termo e seu complemento. Crase é a fusão de duas vogais "a" (preposição + artigo). Esses dois temas andam juntos porque muitos erros de crase são erros de regência. É conteúdo muito cobrado em concursos — principalmente em reescrita e correção gramatical.',
+
+    explicacaoSimples: 'Pense na regência como a "exigência" do verbo ou do nome: alguns pedem preposição, outros não. "Assistir ao filme" (com "a") x "Assistir o paciente" (sem "a"). Já a crase é o encontro de duas vogais iguais: "Vou a + a escola = Vou à escola". Entender regência resolve metade dos casos de crase.',
+
+    explicacaoTecnica: 'REGÊNCIA VERBAL: relação entre verbo e complemento. Verbos com regência diferente da intuição: ASSISTIR (= ver) → a; ASSISTIR (= ajudar) → sem preposição; ASPIRAR (= desejar) → a; ASPIRAR (= inspirar) → sem preposição; VISAR (= pretender) → a; VISAR (= mirar/assinar) → sem preposição; IMPLICAR (= acarretar) → sem preposição; IMPLICAR (= envolver-se) → em; ESQUECER/LEMBRAR (pronominal) → de; ESQUECER/LEMBRAR (não pronominal) → sem preposição. REGÊNCIA NOMINAL: relação entre nome (substantivo, adjetivo, advérbio) e complemento. Ex.: "obediente a", "favorável a", "capaz de", "necessário a". CRASE: fusão da preposição "a" com o artigo "a" (ou com pronome demonstrativo "aquela(s)", "aquele(s)", "aquilo", ou "a qual/a(s) qual(is)"). Obrigatória: antes de palavra feminina determinada por artigo; antes de "à moda de"; antes de "aquele/aquela/aquilo" quando o termo regente pede "a"; em locuções femininas (à noite, à tarde). Proibida: antes de palavra masculina; antes de verbo; antes de nome de cidade sem determinante; antes de pronome indefinido; antes de "casa" (no sentido de "lar"); antes de "terra" (no sentido de "terra firme"); entre palavras repetidas. Facultativa: antes de nomes próprios femininos; antes de pronome possessivo feminino singular; após a preposição "até".',
+
+    exemplos: [
+      'Assistir (= ver): "Assisti AO filme." Assistir (= ajudar): "O médico assistiu O paciente."',
+      'Aspirar (= desejar): "Aspiro AO cargo." Aspirar (= respirar): "Aspirei O perfume."',
+      'Visar (= pretender): "Viso AO sucesso." Visar (= assinar): "Visei O documento."',
+      'Esquecer (pronominal): "Esqueci-ME de você." Esquecer (sem pronome): "Esqueci seu nome."',
+      'Crase obrigatória: "Vou À escola." "Referi-me Àquele episódio." "Cheguei à noite."',
+      'Crase proibida: "Vou a São Paulo" (cidade sem artigo). "Começou a chover." "Fiquei cara a cara."',
+      'Crase facultativa: "Entreguei a / à Maria." (nome próprio). "Refiro-me a / à minha mãe." (possessivo).'
+    ],
+
+    comparacoes: [
+      { termoA: 'Assistir (ver)', termoB: 'Assistir (ajudar)', diferenca: '"ASSISTIR" no sentido de VER pede a preposição A: "Assisti AO filme." Já "ASSISTIR" no sentido de AJUDAR/SOCORRER não pede preposição: "O médico assistiu O paciente." Mesmo verbo, regências diferentes conforme o sentido. Cuidado com essa pegadinha.' },
+      { termoA: 'Crase obrigatória', termoB: 'Crase proibida', diferenca: 'OBRIGATÓRIA: antes de palavra feminina determinada ("Vou à escola"); antes de "aquele/aquela/aquilo" quando o termo regente pede A; em locuções femininas ("à noite"). PROIBIDA: antes de palavra masculina ("a pé"); antes de verbo ("começou a chover"); antes de nome de cidade sem artigo ("Vou a Brasília"); antes de "casa" (= lar); antes de "terra" (= chão firme); palavras repetidas ("cara a cara").' },
+      { termoA: 'Regência verbal', termoB: 'Regência nominal', diferenca: 'VERBAL: relação VERBO x COMPLEMENTO. Ex.: "obedecer AO regulamento". NOMINAL: relação NOME (substantivo, adjetivo, advérbio) x COMPLEMENTO. Ex.: "obediente AO regulamento". Os dois envolvem preposição, mas o termo regente é diferente.' },
+      { termoA: 'Crase facultativa — nomes próprios', termoB: 'Crase facultativa — possessivos', diferenca: 'NOMES PRÓPRIOS FEMININOS: "Entreguei a Maria" ou "Entreguei à Maria" — ambas corretas. POSSESSIVOS FEMININOS SINGULARES: "Refiro-me a minha mãe" ou "Refiro-me à minha mãe". Em ambos os casos, a crase é opcional — depende da intenção do autor em relação ao determinante.' }
+    ],
+
+    aplicacaoEmConcurso: 'Regência e crase aparecem em: questões de correção gramatical, reescrita de frases, interpretação com foco em sentido (mudança de regência altera sentido) e redação. As bancas cobram principalmente: verbos com dupla regência (assistir, aspirar, visar, implicar, esquecer/lembrar), regência de verbos do dia a dia, casos obrigatórios/proibidos/facultativos de crase.',
+
+    pegadinhas: [
+      '"Assisti o filme" — ERRADO (no sentido de "ver", o certo é "assisti AO filme").',
+      '"Aspiro o cargo" — ERRADO. É "aspiro AO cargo" (sentido de desejar).',
+      '"Vou à Brasília" — ERRADO (cidade sem artigo).',
+      '"Vou à pé" — ERRADO (palavra masculina — "a pé").',
+      '"Entreguei à ele" — ERRADO (pronome masculino — "a ele").',
+      '"Começou à chover" — ERRADO (antes de verbo, sem crase).',
+      '"Fiquei frente à frente" — ERRADO (palavras repetidas, sem crase).',
+      '"Obediente as regras" — ERRADO (sem crase — "às regras").',
+      '"Refiro-me à Vossa Senhoria" — ERRADO (pronome de tratamento não admite crase — "a Vossa Senhoria").'
+    ],
+
+    errosComuns: [
+      'Colocar crase antes de palavra masculina.',
+      'Colocar crase antes de verbo.',
+      'Colocar crase antes de pronome indefinido.',
+      'Achar que todo "a" com som de "a" tem crase.',
+      'Esquecer que crase depende da regência do verbo anterior.',
+      'Confundir regência de verbos como "assistir", "aspirar" e "visar".'
+    ],
+
+    resumo: [
+      'Regência: relação entre verbo/nome e complemento.',
+      'Verbos com dupla regência: assistir, aspirar, visar, implicar, esquecer/lembrar.',
+      'Assistir (= ver) → a. Aspirar (= desejar) → a. Visar (= pretender) → a.',
+      'Crase obrigatória: palavra feminina determinada; "aquele/aquela/aquilo" com termo regente "a"; locuções femininas.',
+      'Crase proibida: palavra masculina, verbo, cidade sem artigo, "casa" (= lar), "terra" (= chão), palavras repetidas.',
+      'Crase facultativa: nome próprio feminino, possessivo feminino singular, após "até".',
+      'Dica: teste substituir por palavra masculina. Se aparecer "ao", há crase. Se aparecer "o", não há.'
+    ],
+
+    modoProfessor: {
+      explicarMaisSimples: 'Regência é a "exigência" do verbo: alguns pedem preposição, outros não. Crase é o encontro de duas vogais "a": quando o verbo pede "a" e o próximo termo é feminino com artigo "a", o "a a" vira "à". Use o teste: substitua por palavra masculina. Se der "ao", tem crase; se der "o", não tem.',
+      outroExemplo: '"Vou a São Paulo." (sem crase — cidade sem artigo). "Vou à Bahia." (com crase — a Bahia admite artigo "a"). Troque por "Vou ao Rio" — se der "ao", a versão feminina tem crase.',
+      compararConceitos: 'Regência verbal x nominal. Assistir (ver) x assistir (ajudar). Crase obrigatória x proibida x facultativa. Teste: substitua por palavra masculina.',
+      mostrarPegadinha: 'Cuidado: "Vou à pé" — ERRADO. "Pé" é palavra masculina, então NÃO há crase. O certo é "Vou a pé." O teste da palavra masculina resolve.',
+      comoApareceEmConcurso: 'Correção gramatical, reescrita e redação. Alta frequência.',
+      fazerPergunta: {
+        pergunta: 'Qual está correta: "Obedeço as regras" ou "Obedeço às regras"?',
+        resposta: '"Obedeço ÀS regras" (com crase). O verbo "obedecer" pede a preposição "a"; "regras" é palavra feminina plural com artigo "as". "A + as = às". Sempre verifique a regência do verbo e o artigo do termo seguinte.'
+      }
+    }
   }
 
 };
