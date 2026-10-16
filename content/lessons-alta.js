@@ -582,11 +582,11 @@ window.LESSONS_ALTA = {
     pegadinhas: [
       '"Ele não pôde vir" x "Ele não pode vir" — o acento faz toda a diferença.',
       '"Porque" x "por que" x "porquê" x "por quê" — trocar as formas é erro clássico.',
-      "Geleia" (sem acento, após o Acordo Ortográfico) — não é "geléia".',
-      "Feiura" (sem acento, exceção do hiato após ditongo) — não é "feiúra".",
-      "Antirracista" (sem hífen, duplica o R) — não é "anti-racista".",
-      "Contrarregra" (sem hífen, duplica o R) — não é "contra-regra".",
-      "Coordenar" (sem hífen, ditongo) — não é "co-ordenar".",
+      '"Geleia" (sem acento, após o Acordo Ortográfico) — não é "geléia".',
+      '"Feiura" (sem acento, exceção do hiato após ditongo) — não é "feiúra".',
+      '"Antirracista" (sem hífen, duplica o R) — não é "anti-racista".',
+      '"Contrarregra" (sem hífen, duplica o R) — não é "contra-regra".',
+      '"Coordenar" (sem hífen, ditongo) — não é "co-ordenar".',
       "Proparoxítonas são TODAS acentuadas — sem exceção."
     ],
 
