@@ -451,6 +451,97 @@ window.FLASHCARDS = [
     verso: 'PARALELISMO: manter a mesma estrutura gramatical nas partes equivalentes de uma frase — especialmente em enumerações. Ex.: "Ele gosta de ler, escrever e descansar" (todos no infinitivo, com a mesma preposição). Erros: "Ele gosta de ler, escrever e de descansar" (repetiu "de"); "Ele gosta de ler, escreve e descansar" (misturou infinitivo com forma conjugada). O paralelismo evita ambiguidade e melhora a clareza.',
     dificuldade: 3,
     tags: ['paralelismo', 'reescrita']
-  }
+  },
+  /* ============================================================
+     PT-13 — Formação e Estrutura das Palavras (CONDICIONAL)
+     ============================================================ */
+  {
+    id: 'F-PT-13-0001',
+    moduloId: 'PT-13',
+    topicoId: 'PT-13',
+    frente: 'Qual a diferença entre DERIVAÇÃO e COMPOSIÇÃO?',
+    verso: 'DERIVAÇÃO: cria palavra nova a partir de UM radical, com afixos (prefixo/sufixo). Ex.: pedra → pedreiro. COMPOSIÇÃO: une DOIS ou mais radicais. Ex.: passa + tempo = passatempo; plano + alto = planalto. Derivação usa afixos; composição une radicais.',
+    dificuldade: 2,
+    tags: ['derivação', 'composição']
+  },
+  {
+    id: 'F-PT-13-0002',
+    moduloId: 'PT-13',
+    topicoId: 'PT-13',
+    frente: 'Qual a diferença entre DERIVAÇÃO PREFIXAL E SUFIXAL e DERIVAÇÃO PARASSINTÉTICA?',
+    verso: 'PREFIXAL E SUFIXAL: prefixo e sufixo PODEM existir independentemente. Ex.: "deslealdade" — existem "desleal" e "lealdade". PARASSINTÉTICA: prefixo e sufixo são DEPENDENTES — a palavra só existe com os dois juntos. Ex.: "entardecer" — não existem "entarde" nem "tardecer". Teste: retire um dos afixos. Se a palavra resultante não existir, é parassintética.',
+    dificuldade: 3,
+    tags: ['parassintética', 'prefixal e sufixal']
+  },
+  {
+    id: 'F-PT-13-0003',
+    moduloId: 'PT-13',
+    topicoId: 'PT-13',
+    frente: 'Qual a diferença entre JUSTAPOSIÇÃO e AGLUTINAÇÃO?',
+    verso: 'JUSTAPOSIÇÃO: os radicais se unem SEM alteração fonética. Ex.: guarda-roupa, passatempo, girassol. AGLUTINAÇÃO: um dos radicais sofre ALTERAÇÃO (perda de letras). Ex.: planalto (plano + alto), aguardente (água + ardente), pernalta (perna + alta). Teste: houve perda/alteração? Se sim → aglutinação.',
+    dificuldade: 2,
+    tags: ['justaposição', 'aglutinação']
+  },
 
+  /* ============================================================
+     PT-14 — Fonética, Fonologia e Divisão Silábica (CONDICIONAL)
+     ============================================================ */
+  {
+    id: 'F-PT-14-0001',
+    moduloId: 'PT-14',
+    topicoId: 'PT-14',
+    frente: 'Qual a diferença entre FONEMA e LETRA?',
+    verso: 'FONEMA: som — unidade mínima sonora. LETRA: representação gráfica. Nem sempre coincidem: "hora" tem 4 letras e 3 fonemas (o "h" é mudo); "táxi" tem 4 letras e 5 fonemas (o "x" = /ks/); "guerra" tem 6 letras e 4 fonemas ("gu" e "rr" são dígrafos).',
+    dificuldade: 2,
+    tags: ['fonema', 'letra']
+  },
+  {
+    id: 'F-PT-14-0002',
+    moduloId: 'PT-14',
+    topicoId: 'PT-14',
+    frente: 'Qual a diferença entre DITONGO, TRITONGO e HIATO?',
+    verso: 'DITONGO: duas vogais na MESMA sílaba. Ex.: pai, mãe, série. TRITONGO: três vogais na MESMA sílaba. Ex.: Uruguai, saguão. HIATO: duas vogais em sílabas SEPARADAS. Ex.: saída (sa-í-da), baú (ba-ú), saúde (sa-ú-de). A diferença está na separação silábica.',
+    dificuldade: 2,
+    tags: ['ditongo', 'hiato', 'tritongo']
+  },
+  {
+    id: 'F-PT-14-0003',
+    moduloId: 'PT-14',
+    topicoId: 'PT-14',
+    frente: 'Qual a diferença entre ENCONTRO CONSONANTAL e DÍGRAFO?',
+    verso: 'ENCONTRO CONSONANTAL: dois sons consonantais distintos, AMBOS pronunciados. Ex.: "cravo" (/c/ e /r/), "plano" (/p/ e /l/), "táxi" (/k/ e /s/). DÍGRAFO: duas letras com UM ÚNICO som. Ex.: "chave" (ch), "palha" (lh), "sonho" (nh), "guerra" (gu e rr), "passo" (ss). Teste: se você ouve dois sons, é encontro; se ouve um, é dígrafo.',
+    dificuldade: 3,
+    tags: ['dígrafo', 'encontro consonantal']
+  },
+
+  /* ============================================================
+     PT-15 — Redação Oficial (CONDICIONAL)
+     ============================================================ */
+  {
+    id: 'F-PT-15-0001',
+    moduloId: 'PT-15',
+    topicoId: 'PT-15',
+    frente: 'Quais são os princípios fundamentais da redação oficial?',
+    verso: 'CLAREZA: texto compreensível sem esforço. CONCISÃO: máximo de informação com o mínimo de palavras. OBJETIVIDADE: ir direto ao ponto. IMPESSOALIDADE: o texto é do ÓRGÃO, não da pessoa ("Este órgão decidiu..." em vez de "Eu decidi..."). FORMALIDADE: uso do padrão culto, sem gírias. USO DO PADRÃO CULTO. Complementares: clareza + concisão; impessoalidade + formalidade.',
+    dificuldade: 2,
+    tags: ['redação oficial', 'princípios']
+  },
+  {
+    id: 'F-PT-15-0002',
+    moduloId: 'PT-15',
+    topicoId: 'PT-15',
+    frente: 'Qual a diferença entre OFÍCIO e MEMORANDO?',
+    verso: 'OFÍCIO: comunicação EXTERNA — entre órgãos públicos diferentes ou entre órgão e particulares. Mais solene, em papel timbrado. Ex.: Secretaria de Saúde ao Ministério Público. MEMORANDO: comunicação INTERNA — entre unidades administrativas do MESMO órgão. Mais simples e direto. Ex.: Coordenadoria de RH ao Gabinete. E-mail profissional: comunicação eletrônica formal. Comunicado: informação oficial. Requerimento: pedido do cidadão ao poder público.',
+    dificuldade: 2,
+    tags: ['ofício', 'memorando', 'documentos oficiais']
+  },
+  {
+    id: 'F-PT-15-0003',
+    moduloId: 'PT-15',
+    topicoId: 'PT-15',
+    frente: 'Como usar corretamente os pronomes de tratamento e os fechos na redação oficial?',
+    verso: 'TRATAMENTO: VOSSA EXCELÊNCIA (V. Exa.) para altas autoridades — Presidente, Ministros, Deputados, Senadores, Governadores, Juízes. VOSSA SENHORIA (V. Sa.) para demais autoridades e particulares. VOSSA MAGNIFICÊNCIA para Reitores. VOSSA EMINÊNCIA para Cardeais. FECHO: "ATENCIOSAMENTE" para autoridades de mesma hierarquia ou inferiores. "RESPEITOSAMENTE" para autoridades SUPERIORES. Nunca usar gírias ou primeira pessoa.',
+    dificuldade: 3,
+    tags: ['tratamento', 'fecho', 'Vossa Excelência']
+  }
 ];
