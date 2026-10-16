@@ -393,6 +393,156 @@ window.LESSONS_ALTA = {
         resposta: 'Apelo à URGÊNCIA — estratégia persuasiva que pressiona o leitor a agir rápido. Outros: apelo à razão, à emoção, à autoridade. Nesse caso, o "é urgente" tenta criar sensação de necessidade imediata.'
       }
     }
+  },
+
+  /* ============================================================
+     PT-02 — Tipologia, Gêneros Textuais e Comunicação
+  ============================================================ */
+  'PT-02': {
+    id: 'L-PT-02',
+    moduloId: 'PT-02',
+    objetivo: 'Compreender a diferença entre TIPO textual (narração, descrição, exposição, argumentação e injunção) e GÊNERO textual (notícia, artigo, crônica, reportagem, e-mail, aviso, comunicado, requerimento). Reconhecer finalidade comunicativa, público-alvo, contexto, linguagem verbal e não verbal e funções da linguagem.',
+    prerequisitos: ['PT-01'],
+
+    introducao: 'Tipologia e gêneros textuais são temas recorrentes em concursos, principalmente em questões de interpretação e em provas de redação. Entender o que diferencia TIPO de GÊNERO evita confusão e ajuda a responder questões que pedem "qual a finalidade do texto?" ou "que tipo de texto é esse?".',
+
+    explicacaoSimples: 'TIPO textual é o "modo" como o texto se organiza (contar, descrever, explicar, defender ideia, instruir). GÊNERO textual é a "forma concreta" que circula socialmente (notícia, receita, e-mail). Todo gênero tem um ou mais tipos dentro dele. Uma notícia é um gênero; dentro dela há trechos narrativos (relato do fato) e descritivos (caracterização do local).',
+
+    explicacaoTecnica: 'TIPOS TEXTUAIS (formas de organizar o discurso): NARRAÇÃO (conta fatos, com personagens, tempo, espaço, conflito — verbos no passado); DESCRIÇÃO (caracteriza seres, objetos, lugares — adjetivos, verbos de estado); EXPOSIÇÃO (apresenta informação, explica — linguagem impessoal, dados); ARGUMENTAÇÃO (defende tese com argumentos — conectores lógicos, dados, opiniões); INJUNÇÃO (instrui, orienta — verbos no imperativo, sequência de passos). GÊNEROS TEXTUAIS (formas sociais de uso): notícia, reportagem, editorial, artigo de opinião, crônica, conto, romance, e-mail, carta, ofício, memorando, requerimento, aviso, comunicado, receita, manual, bula, propaganda, charge. FUNÇÕES DA LINGUAGEM: REFERENCIAL (informar), EMOTIVA (expressar emoções), APELATIVA (convencer), METALINGUÍSTICA (falar da própria linguagem), FÁTICA (manter contato), POÉTICA (valorizar a forma). LINGUAGEM VERBAL (palavra), NÃO VERBAL (imagem, gesto, símbolo), MISTA (palavra + imagem).',
+
+    exemplos: [
+      'Narração: crônica, conto, notícia (relato dos fatos).',
+      'Descrição: anúncio imobiliário, laudo técnico.',
+      'Exposição: verbete de enciclopédia, reportagem científica.',
+      'Argumentação: editorial, artigo de opinião, resenha crítica.',
+      'Injunção: receita de bolo, manual de instruções, bula.',
+      'Gênero notícia: informa fato recente; finalidade referencial.',
+      'Gênero propaganda: convence o leitor; finalidade apelativa.',
+      'Função metalinguística: dicionário explicando palavras.',
+      'Função fática: "alô, está me ouvindo?".'
+    ],
+
+    comparacoes: [
+      { termoA: 'Tipo textual', termoB: 'Gênero textual', diferenca: 'TIPO: categoria abstrata de organização do discurso (narração, descrição, exposição, argumentação, injunção). GÊNERO: forma concreta e social de uso da língua (notícia, receita, e-mail, ofício). Todo gênero contém um ou mais tipos; um tipo pode aparecer em vários gêneros.' },
+      { termoA: 'Narração', termoB: 'Descrição', diferenca: 'NARRAÇÃO: conta fatos em sequência temporal — há AÇÃO, personagens, conflito. Verbos no passado. Ex.: crônica. DESCRIÇÃO: caracteriza seres, objetos ou lugares — há ESTADO, não ação. Adjetivos. Ex.: anúncio de imóvel.' },
+      { termoA: 'Exposição', termoB: 'Argumentação', diferenca: 'EXPOSIÇÃO: apresenta informação de forma neutra, sem defender ideia. Ex.: verbete de enciclopédia, reportagem informativa. ARGUMENTAÇÃO: defende uma TESE com argumentos, buscando convencer. Ex.: editorial, artigo de opinião. A exposição informa; a argumentação convence.' },
+      { termoA: 'Função referencial', termoB: 'Função apelativa', diferenca: 'REFERENCIAL: informa, transmite dados objetivos, linguagem impessoal. Ex.: notícia, manual. APELATIVA (conativa): busca convencer ou influenciar o leitor — uso de imperativos, vocativos. Ex.: propaganda, discurso político. Uma informa; a outra persuade.' }
+    ],
+
+    aplicacaoEmConcurso: 'Tipologia e gêneros aparecem em interpretação de texto ("qual a finalidade do texto?"), em redação (escolha do tipo adequado ao gênero) e em questões de reescrita (adaptar o texto a outro gênero). As bancas cobram: identificação de tipo, distinção tipo x gênero, funções da linguagem, textos verbais/não verbais/mistos. Alta frequência em concursos.',
+
+    pegadinhas: [
+      'Achar que tipo e gênero são sinônimos.',
+      'Confundir narração com descrição (ação x estado).',
+      'Marcar "argumentação" para um texto que apenas expõe dados.',
+      'Confundir função referencial (informar) com apelativa (persuadir).',
+      'Ignorar a linguagem não verbal em charges e propagandas.',
+      'Achar que todo texto tem um único tipo — muitos são mistos.'
+    ],
+
+    errosComuns: [
+      'Decorar tipos sem entender a função de cada um.',
+      'Confundir editorial (argumentativo) com reportagem (expositiva).',
+      'Não perceber que um mesmo gênero pode ter vários tipos.',
+      'Ignorar o contexto de circulação do gênero.'
+    ],
+
+    resumo: [
+      'Tipos: narração, descrição, exposição, argumentação, injunção.',
+      'Gêneros: notícia, artigo, crônica, reportagem, e-mail, aviso, comunicado, requerimento...',
+      'Todo gênero contém um ou mais tipos.',
+      'Narração: ação. Descrição: estado. Exposição: informação. Argumentação: tese. Injunção: instrução.',
+      'Funções: referencial (informar), apelativa (persuadir), emotiva, metalinguística, fática, poética.',
+      'Linguagem: verbal, não verbal, mista.'
+    ],
+
+    modoProfessor: {
+      explicarMaisSimples: 'Pense no tipo como a "receita" e no gênero como o "prato servido". Uma receita (tipo injuntivo) pode virar um livro de culinária (gênero), um vídeo (gênero) ou uma bula (gênero). O tipo é o modo; o gênero é a forma como circula na sociedade.',
+      outroExemplo: 'Uma notícia (gênero) mistura narração (relato dos fatos) com exposição (dados e contexto) e, às vezes, descrição (caracterização de pessoas e lugares). Não é puro.',
+      compararConceitos: 'Tipo x gênero. Narração x descrição. Exposição x argumentação. Referencial x apelativa. Verbal x não verbal.',
+      mostrarPegadinha: 'Cuidado: uma propaganda pode usar palavras e imagens. É um texto MISTO (verbal + não verbal). E, na maioria das vezes, é ARGUMENTATIVO (defende uma tese: "compre o produto").',
+      comoApareceEmConcurso: 'Interpretação e redação. Alta frequência.',
+      fazerPergunta: {
+        pergunta: 'Uma bula de remédio é tipo injuntivo ou gênero textual?',
+        resp: 'É GÊNERO textual (bula). O tipo predominante dentro dela é a INJUNÇÃO (instruções: "tome 1 comprimido a cada 8 horas"). O gênero é a forma; o tipo é o modo como o texto se organiza.'
+      }
+    }
+  },
+
+  /* ============================================================
+     PT-03 — Semântica e Sentido das Palavras
+  ============================================================ */
+  'PT-03': {
+    id: 'L-PT-03',
+    moduloId: 'PT-03',
+    objetivo: 'Compreender o sentido das palavras em contexto: sinônimos, antônimos, homônimos, parônimos, polissemia, ambiguidade, denotação, conotação, figuras de linguagem, pressupostos, implícitos e efeitos de sentido. Saber substituir palavras sem alterar o sentido essencial.',
+    prerequisitos: ['PT-01'],
+
+    introducao: 'Semântica é o estudo do significado. As bancas cobram muito: distinguir sinônimos de antônimos, identificar polissemia e ambiguidade, reconhecer sentido denotativo e conotativo, entender figuras de linguagem e perceber efeitos de sentido. Este módulo dialoga com PT-01 (interpretação) e PT-12 (reescrita).',
+
+    explicacaoSimples: 'Imagine que cada palavra é uma peça de Lego. Algumas se encaixam no mesmo lugar (sinônimos); outras ficam em lugares opostos (antônimos). Algumas têm mais de um encaixe (polissemia). E, dependendo da montagem, a mesma peça pode ter sentido literal (denotação) ou figurado (conotação).',
+
+    explicacaoTecnica: 'SINÔNIMOS: palavras com sentido parecido. Ex.: "feliz" e "contente". ANTÔNIMOS: sentidos opostos. Ex.: "claro" e "escuro". HOMÔNIMOS: mesma pronúncia ou escrita, sentidos diferentes. Ex.: "cela" (prisão) e "sela" (de cavalo). PARÔNIMOS: parecidos, mas diferentes. Ex.: "eminente" (importante) e "iminente" (que está por vir). POLISSEMIA: uma palavra com vários sentidos. Ex.: "manga" (fruta, parte da camisa). AMBIGUIDADE: duplo sentido de uma frase ou palavra em contexto. DENOTAÇÃO: sentido literal, do dicionário. CONOTAÇÃO: sentido figurado. FIGURAS DE LINGUAGEM: metáfora (comparação implícita), metonímia (troca por proximidade), hipérbole (exagero), eufemismo (suavização), ironia (sentido contrário), personificação (atribui qualidades humanas a seres inanimados).',
+
+    exemplos: [
+      'Sinônimos: "casa" e "moradia".',
+      'Antônimos: "amor" e "ódio".',
+      'Homônimos: "concerto" (música) e "conserto" (reparo).',
+      'Parônimos: "despensa" (onde guarda comida) e "dispensa" (ato de dispensar).',
+      'Polissemia: "banco" (assento, instituição financeira).',
+      'Denotação: "Ele quebrou o vidro." Conotação: "Ele quebrou o gelo da festa."',
+      'Metáfora: "Meu coração é um deserto."',
+      'Metonímia: "Ler Machado de Assis." (obra pelo autor)',
+      'Hipérbole: "Chorei rios de lágrimas."',
+      'Eufemismo: "Ele foi morar com Deus." (= morreu)'
+    ],
+
+    comparacoes: [
+      { termoA: 'Denotação', termoB: 'Conotação', diferenca: 'DENOTAÇÃO: sentido literal, do dicionário. Ex.: "cobra" = réptil. CONOTAÇÃO: sentido figurado, dependente do contexto. Ex.: "cobra" = pessoa astuta. A banca cobra a identificação em textos.' },
+      { termoA: 'Homônimos', termoB: 'Parônimos', diferenca: 'HOMÔNIMOS: têm a MESMA pronúncia ou escrita, mas significados diferentes. Ex.: "cela/sela", "concerto/conserto". PARÔNIMOS: parecidos, mas com pronúncia e escrita ligeiramente diferentes. Ex.: "eminente/iminente", "despensa/dispensa". Homônimos são iguais em forma; parônimos são próximos.' },
+      { termoA: 'Polissemia', termoB: 'Ambiguidade', diferenca: 'POLISSEMIA: uma palavra tem vários sentidos — todos válidos em contextos distintos. Ex.: "manga". AMBIGUIDADE: uma palavra ou frase gera DUPLA interpretação em um mesmo contexto. Ex.: "João disse a Pedro que ele era culpado." — quem é "ele"? A polissemia é característica natural da palavra; a ambiguidade é um problema de clareza.' },
+      { termoA: 'Metáfora', termoB: 'Metonímia', diferenca: 'METÁFORA: comparação IMPLÍCITA, com base em semelhança. Ex.: "Meu coração é um deserto." (sem "como"). METONÍMIA: substituição de um termo por outro, com base em PROXIMIDADE. Ex.: "Ler Machado de Assis." (autor pela obra). A metáfora aproxima por semelhança; a metonímia, por relação.' }
+    ],
+
+    aplicacaoEmConcurso: 'Semântica aparece em questões de interpretação, reescrita (substituir palavras sem alterar sentido), identificação de figuras de linguagem e análise de efeitos de sentido. As bancas cobram principalmente: denotação x conotação, homônimos x parônimos, polissemia x ambiguidade, figuras de linguagem e substituições que alteram sentido.',
+
+    pegadinhas: [
+      'Confundir denotação com conotação — o sentido literal é o do dicionário.',
+      'Trocar homônimos com parônimos (concerto/conserto x eminente/iminente).',
+      'Achar que toda polissemia é ambígua em qualquer contexto — depende do texto.',
+      'Confundir metáfora com metonímia.',
+      'Marcar sinônimo que NÃO cabe no contexto do texto.',
+      'Ignorar a ironia (dizer o contrário do que se pretende).'
+    ],
+
+    errosComuns: [
+      'Decorar figuras de linguagem sem entender a função.',
+      'Achar que sinônimos são sempre intercambiáveis — o contexto importa.',
+      'Confundir ambiguidade intencional (recurso estilístico) com erro de clareza.',
+      'Não perceber a substituição que altera sentido em questões de reescrita.'
+    ],
+
+    resumo: [
+      'Sinônimos: sentido parecido. Antônimos: sentidos opostos.',
+      'Homônimos: mesma forma, significados diferentes. Parônimos: parecidos.',
+      'Polissemia: palavra com vários sentidos. Ambiguidade: dupla interpretação em contexto.',
+      'Denotação: literal. Conotação: figurada.',
+      'Metáfora: comparação implícita. Metonímia: substituição por proximidade.',
+      'Hipérbole: exagero. Eufemismo: suavização. Ironia: sentido contrário.',
+      'Em reescrita: verificar se a substituição mantém o sentido.'
+    ],
+
+    modoProfessor: {
+      explicarMaisSimples: 'Pense na palavra como uma peça com encaixes diferentes. "Banco" encaixa em "assento" e em "instituição". Denotação é o encaixe padrão (dicionário); conotação é o encaixe figurado (contexto). Homônimos são peças com a mesma forma; parônimos são peças parecidas.',
+      outroExemplo: '"Ele tem um coração de pedra." Não é um coração literal (órgão), mas um coração figurado (frieza). Isso é METÁFORA + sentido CONOTATIVO. Já "Ele quebrou o coração" mistura sentido figurado e metáfora.',
+      compararConceitos: 'Denotação x conotação. Homônimos x parônimos. Polissemia x ambiguidade. Metáfora x metonímia. Hipérbole x eufemismo.',
+      mostrarPegadinha: 'Cuidado: "concerto" e "conserto" são HOMÔNIMOS (mesma pronúncia, escrita diferente) — não parônimos. Parônimos seriam "eminente" (importante) e "iminente" (que está por vir) — parecidos, mas diferentes.',
+      comoApareceEmConcurso: 'Interpretação, reescrita e figuras de linguagem. Alta frequência.',
+      fazerPergunta: {
+        pergunta: 'Qual é a diferença entre "João é uma raposa" e "João é astuto"?',
+        resposta: '"João é uma raposa" é CONOTAÇÃO (sentido figurado) + METÁFORA (comparação implícita com a raposa). "João é astuto" é DENOTAÇÃO (sentido literal, direto). A primeira exige interpretação; a segunda informa diretamente.'
+      }
+    }
   }
 
 };
