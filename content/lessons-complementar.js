@@ -1,230 +1,228 @@
 /* ============================================================
-   AULAS — Módulos de prioridade COMPLEMENTAR
-   Preenchidos: DC-01, DC-19, DC-20
+   AULAS — Módulos de prioridade CONDICIONAL
+   Preenchidos: PT-13, PT-14, PT-15
    ============================================================ */
 
 window.LESSONS_COMPLEMENTAR = {
 
   /* ============================================================
-     DC-01 — Teoria da Constituição
+     PT-13 — Formação e Estrutura das Palavras
   ============================================================ */
-  'DC-01': {
-    id: 'L-DC-01',
-    moduloId: 'DC-01',
-    objetivo: 'Compreender o conceito, a finalidade e as classificações de Constituição; distinguir poder constituinte originário, derivado e decorrente; entender cláusulas pétreas, emendas, recepção e eficácia das normas constitucionais. Base para todo o Direito Constitucional.',
-    prerequisitos: [],
+  'PT-13': {
+    id: 'L-PT-13',
+    moduloId: 'PT-13',
+    objetivo: 'Compreender a estrutura das palavras (radical, prefixo, sufixo, desinências, vogal temática) e os processos de formação (derivação e composição). Reconhecer famílias de palavras e os efeitos de sentido que prefixos e sufixos produzem.',
+    prerequisitos: ['PT-05'],
 
-    introducao: 'Antes de estudar os artigos da CF/88, é preciso entender o que é uma Constituição, como ela nasce, como muda e como se relaciona com as demais normas. É o alicerce teórico de todo o Direito Constitucional.',
+    introducao: 'Formação de palavras é um conteúdo de prioridade condicional: só vale investir tempo quando o edital cobra explicitamente. Mas quando cai, é questão fácil de resolver para quem entende a estrutura. As bancas cobram: identificar o processo de formação (derivação x composição), reconhecer prefixos e sufixos e seus efeitos de sentido, e trabalhar com famílias de palavras.',
 
-    explicacaoSimples: 'A Constituição é o "manual de instruções" do país: diz como o Estado se organiza, quais são os direitos do povo e quais são os limites do poder. É a norma mais importante — todas as outras devem respeitá-la.',
+    explicacaoSimples: 'Pense na palavra como um Lego: há peças fixas (radical), peças que se encaixam antes (prefixo), peças que se encaixam depois (sufixo), e peças que indicam gênero, número e tempo (desinências). Combinando essas peças, você cria novas palavras a partir de uma base.',
 
-    explicacaoTecnica: 'Constituição é a norma fundamental que organiza o Estado, distribui competências, define direitos fundamentais e estabelece o regime político. Conceito, finalidade e classificações variam conforme a doutrina. Classificações: quanto à forma (escrita x não escrita); quanto à origem (promulgada x outorgada); quanto à estabilidade (rígida, flexível, semirrígida); quanto ao conteúdo (formal x material); quanto à extensão (analítica x sintética); quanto à finalidade (garantia, dirigente, balanço). Poder constituinte: ORIGINÁRIO (cria a Constituição — inicial, ilimitado, incondicionado, soberano); DERIVADO (reforma a Constituição — reformador, revisor, decorrente); DECORRENTE (elabora as Constituições estaduais). Limitações ao poder de reforma: temporais, circunstanciais, materiais (cláusulas pétreas) e processuais. Cláusulas pétreas (art. 60, §4º): forma federativa de Estado, voto direto/secreto/universal/periodicidade, separação de Poderes, direitos e garantias individuais. Emendas: 3/5 em dois turnos em cada Casa. Recepção: lei anterior à nova Constituição que seja materialmente compatível continua válida. Eficácia das normas: plena, contida, limitada (Lei 4.657/1942 + doutrina de José Afonso da Silva).',
+    explicacaoTecnica: 'ESTRUTURA DAS PALAVRAS: RADICAL (morfema que carrega o significado básico — "pedr-" de pedra); PREFIXO (morfema antes do radical — "re-" em refazer); SUFIXO (morfema depois do radical — "-eiro" em pedreiro); DESINÊNCIAS (marcam gênero, número e tempo verbal — "-a" e "-s" em meninas, "-va" em estudava); VOGAL TEMÁTICA (liga o radical às desinências — "a" em estudar). FORMAÇÃO DE PALAVRAS: (1) DERIVAÇÃO: criação de nova palavra a partir de um radical. Tipos: PREFIXAL (re+fazer), SUFIXAL (pedra+eiro), PREFIXAL E SUFIXAL (des+leal+dade), REGRESSIVA (retirar sufixo — "combate" de combater), IMPRÓPRIA (mudança de classe sem alterar forma — "jantar" de verbo para substantivo), PARASSINTÉTICA (prefixo e sufixo ao mesmo tempo — "enterrar" = en + terra + ar). (2) COMPOSIÇÃO: união de dois ou mais radicais. Tipos: JUSTAPOSIÇÃO (passa+tempo), AGREGAÇÃO (planalto = plano + alto, com alteração). (3) HIBRIDISMO: junção de elementos de línguas diferentes (automóvel = grego + latim). (4) ONOMATOPEIA: reprodução de sons. (5) SIGLA E ABREVIAÇÃO. PREFIXOS DE ORIGEM GREGA E LATINA: anti- (contra), hiper- (excesso), hipo- (escassez), pré- (antes), pós- (depois), sub- (sob), super- (sobre), in-/im- (negação), des- (negação).',
 
     exemplos: [
-      'Escrita: CF/88. Não escrita: Constituição inglesa.',
-      'Promulgada: CF/88 (Assembleia Constituinte). Outorgada: CF/37 (Vargas).',
-      'Rígida: CF/88 (emenda com quórum especial). Flexível: pode ser alterada como lei comum. Semirrígida: parte rígida, parte flexível (CF/1824).',
-      'Formal: normas solenemente inseridas na Constituição. Material: normas sobre organização do Estado e direitos fundamentais, independente de onde estejam.',
-      'Cláusulas pétreas: forma federativa, voto direto/secreto/universal/periodicidade, separação de Poderes, direitos e garantias individuais.',
-      'Recepção: Código Civil de 1916 recepcionado pela CF/88 até ser revogado pelo CC/2002.'
+      'Derivação prefixal: refazer, desleal, infeliz.',
+      'Derivação sufixal: pedreiro, livraria, felizmente.',
+      'Derivação prefixal e sufixal: deslealdade, infelizmente (prefixo e sufixo, mas independentes).',
+      'Derivação parassintética: entardecer, amanhecer, esfriar (prefixo e sufixo dependentes).',
+      'Derivação regressiva: combate (de combater), pesca (de pescar).',
+      'Derivação imprópria: "O jantar está pronto" (verbo → substantivo).',
+      'Composição por justaposição: passatempo, guarda-roupa.',
+      'Composição por aglutinação: planalto (plano + alto), aguardente (água + ardente).',
+      'Hibridismo: automóvel, televisão, burocracia.'
     ],
 
     comparacoes: [
-      { termoA: 'Poder constituinte originário', termoB: 'Poder constituinte derivado', diferenca: 'ORIGINÁRIO: cria a Constituição; inicial, autônomo, ilimitado, incondicionado, soberano; não se submete a limites. DERIVADO (reformador): reforma a Constituição; submetido a limites (cláusulas pétreas, processuais, circunstanciais, temporais).' },
-      { termoA: 'Constituição rígida', termoB: 'Constituição flexível', diferenca: 'RÍGIDA: alteração por processo mais difícil que a lei comum (ex.: CF/88 — 3/5 em dois turnos). FLEXÍVEL: alteração pelo mesmo processo da lei comum. SEMIRRÍGIDA: parte rígida, parte flexível (ex.: CF/1824).' },
-      { termoA: 'Constituição formal', termoB: 'Constituição material', diferenca: 'FORMAL: normas solenemente inseridas no texto constitucional, independente do conteúdo. MATERIAL: normas sobre organização do Estado e direitos fundamentais, independente de onde estejam (podem estar em lei ordinária).' },
-      { termoA: 'Recepção', termoB: 'Repristinação', diferenca: 'RECEPÇÃO: lei anterior à nova Constituição que seja materialmente compatível continua válida. REPRISTINAÇÃO: lei revogada não volta a vigorar pela revogação da lei revogadora, salvo disposição expressa (art. 2º, §3º, LINDB).' }
+      { termoA: 'Derivação prefixal e sufixal', termoB: 'Derivação parassintética', diferenca: 'PREFIXAL E SUFIXAL: o prefixo e o sufixo PODEM existir independentemente. Ex.: "deslealdade" (desleal + dade OU des + lealdade). PARASSINTÉTICA: prefixo e sufixo são DEPENDENTES — a palavra só existe com os dois juntos. Ex.: "entardecer" (não existe "entarde" nem "tardecer"). A diferença é o teste de retirada.' },
+      { termoA: 'Derivação', termoB: 'Composição', diferenca: 'DERIVAÇÃO: cria palavra nova a partir de UM radical, com afixos. Ex.: pedra → pedreiro. COMPOSIÇÃO: une DOIS ou mais radicais. Ex.: passa + tempo = passatempo. Derivação usa afixos; composição une radicais.' },
+      { termoA: 'Justaposição', termoB: 'Aglutinação', diferenca: 'JUSTAPOSIÇÃO: os radicais se unem SEM alteração fonética. Ex.: guarda-roupa, passatempo, girassol. AGLUTINAÇÃO: um dos radicais sofre alteração. Ex.: planalto (plano + alto), aguardente (água + ardente), pernalta (perna + alta).' },
+      { termoA: 'Derivação regressiva', termoB: 'Derivação imprópria', diferenca: 'REGRESSIVA: retira-se parte da palavra (geralmente sufixo) para formar nova palavra. Ex.: combater → combate; pescar → pesca. IMPRÓPRIA: muda-se a classe gramatical SEM alterar a forma. Ex.: "jantar" (verbo → substantivo); "o belo" (adjetivo → substantivo).' }
     ],
 
-    aplicacaoEmConcurso: 'Cobrança das classificações de Constituição, das características do poder constituinte originário (ilimitado, inicial, incondicionado), das cláusulas pétreas (art. 60, §4º) e das limitações ao poder de reforma. Também cai a recepção e a eficácia das normas constitucionais. Tema cobrado em todo concurso de Direito Constitucional.',
+    aplicacaoEmConcurso: 'Formação de palavras aparece em questões de: identificação do processo de formação, diferença entre derivação e composição, efeitos de sentido de prefixos e sufixos, famílias de palavras e ortografia. Conteúdo de prioridade variável — depende do edital.',
 
     pegadinhas: [
-      'Dizer que o poder constituinte originário é limitado. NÃO — é ilimitado, inicial, incondicionado e soberano.',
-      'Achar que a CF/88 é semirrígida. É RÍGIDA.',
-      'Confundir Constituição formal com material.',
-      'Dizer que cláusulas pétreas podem ser alteradas por emenda. NÃO — têm limitação material.',
-      'Confundir recepção com repristinação.',
-      'Achar que a CF/88 é sintética. É ANALÍTICA (extensa, com 250 artigos).',
-      'Dizer que o poder constituinte derivado decorrente é o mesmo que o revisor.'
+      'Confundir derivação prefixal e sufixal com parassintética — teste retirando um dos afixos.',
+      'Trocar justaposição com aglutinação.',
+      'Achar que "infelizmente" é parassintética — é prefixal e sufixal (existe "infeliz" e "felizmente").',
+      'Confundir derivação regressiva com imprópria.',
+      'Achar que toda palavra composta tem hífen — depende do Acordo Ortográfico.'
     ],
 
     errosComuns: [
-      'Decorar classificações sem entender o critério.',
-      'Confundir as espécies de poder constituinte.',
-      'Não saber que cláusulas pétreas são limitações MATERIAIS.'
+      'Decorar listas de prefixos sem entender o efeito de sentido.',
+      'Confundir os processos de derivação.',
+      'Não aplicar o teste de retirada para distinguir prefixal-sufixal de parassintética.',
+      'Ignorar a mudança de sentido dos prefixos (in- pode ser negação ou movimento para dentro).'
     ],
 
     resumo: [
-      'Constituição: norma fundamental que organiza o Estado e garante direitos.',
-      'Classificações: forma, origem, estabilidade, conteúdo, extensão, finalidade.',
-      'CF/88: escrita, promulgada, rígida, formal, analítica, dirigente.',
-      'Poder constituinte: originário (cria), derivado (reforma), decorrente (estaduais).',
-      'Originário: inicial, ilimitado, incondicionado, soberano.',
-      'Cláusulas pétreas (art. 60, §4º): forma federativa, voto direto/secreto/universal/periodicidade, separação de Poderes, direitos e garantias individuais.',
-      'Emenda: 3/5 em dois turnos em cada Casa.',
-      'Recepção: lei anterior compatível continua válida.',
-      'Eficácia: plena, contida e limitada.'
+      'Estrutura: radical + prefixo + sufixo + desinências + vogal temática.',
+      'Derivação: prefixal, sufixal, prefixal e sufixal, regressiva, imprópria, parassintética.',
+      'Composição: justaposição (sem alteração) e aglutinação (com alteração).',
+      'Parassintética: prefixo e sufixo DEPENDENTES.',
+      'Prefixo muda o sentido; sufixo muda o sentido e/ou a classe.',
+      'Hibridismo: elementos de línguas diferentes.'
     ],
 
     modoProfessor: {
-      explicarMaisSimples: 'A Constituição é o "manual do país". Existem vários tipos de Constituição — a do Brasil é escrita, promulgada, rígida e analítica. O poder de criar é ilimitado; o de reformar tem limites (cláusulas pétreas).',
-      outroExemplo: 'A CF/88 foi criada por uma Assembleia Constituinte (promulgada) e é alterada por emenda com quórum de 3/5 (rígida). Não pode ser mudada para abolir a separação de Poderes (cláusula pétrea).',
-      compararConceitos: 'Originário = cria. Derivado = reforma. Decorrente = estaduais. Rígida ≠ flexível. Formal ≠ material. Recepção ≠ repristinação.',
-      mostrarPegadinha: 'Cuidado: "A CF/88 é semirrígida, pois parte pode ser alterada por lei comum". ERRADO. É RÍGIDA — só emenda com 3/5 em dois turnos em cada Casa.',
-      comoApareceEmConcurso: 'Cobrança das classificações, do poder constituinte e das cláusulas pétreas.',
+      explicarMaisSimples: 'Pense na palavra como uma "árvore genealógica". O radical é o tronco; os prefixos e sufixos são galhos. Derivação cria novos galhos a partir do tronco. Composição junta dois troncos diferentes.',
+      outroExemplo: 'A palavra "infelizmente" tem três elementos: prefixo "in-" (negação), radical "feliz", sufixo "-mente" (modo). Como você pode dizer "infeliz" (sem o -mente) e "felizmente" (sem o in-), é derivação PREFIXAL E SUFIXAL. Já "entardecer" não pode perder nenhum elemento — é PARASSINTÉTICA.',
+      compararConceitos: 'Derivação x composição. Prefixal x sufixal x parassintética. Justaposição x aglutinação. Regressiva x imprópria.',
+      mostrarPegadinha: 'Cuidado: "amanhecer" e "entardecer" são PARASSINTÉTICAS (prefixo + radical + sufixo dependentes). Já "deslealdade" é PREFIXAL E SUFIXAL — existem "desleal" e "lealdade" isolados.',
+      comoApareceEmConcurso: 'Cobrança variável conforme edital. Frequência média.',
       fazerPergunta: {
-        pergunta: 'Uma emenda constitucional que proponha abolir o voto direto pode ser aprovada?',
-        resposta: 'NÃO. O voto direto, secreto, universal e periódico é CLÁUSULA PÉTREA (art. 60, §4º, II). Não pode ser objeto de emenda tendente a aboli-la.'
+        pergunta: 'Como se classifica a formação da palavra "planalto" (plano + alto)?',
+        resposta: 'COMPOSIÇÃO POR AGLUTINAÇÃO — os radicais "plano" e "alto" se uniram com alteração fonética (perda de letras). Se fosse "plano-alto" (com hífen e sem alteração), seria JUSTAPOSIÇÃO.'
       }
     }
   },
 
   /* ============================================================
-     DC-19 — Ordem Econômica e Social
+     PT-14 — Fonética, Fonologia e Divisão Silábica
   ============================================================ */
-  'DC-19': {
-    id: 'L-DC-19',
-    moduloId: 'DC-19',
-    objetivo: 'Compreender os fundamentos da ordem econômica (arts. 170 a 181) e da ordem social (arts. 193 a 232) na CF/88: princípios da atividade econômica, atuação do Estado, seguridade social, saúde, previdência, assistência, educação, cultura, meio ambiente, família, criança, adolescente, idoso e indígenas.',
-    prerequisitos: ['DC-04'],
+  'PT-14': {
+    id: 'L-PT-14',
+    moduloId: 'PT-14',
+    objetivo: 'Compreender os conceitos de fonema, letra, sílaba, encontros vocálicos e consonantais, dígrafos, divisão silábica e classificação quanto à tonicidade. Relacionar fonologia e acentuação.',
+    prerequisitos: ['PT-04'],
 
-    introducao: 'A CF/88 não se limita a organizar o Estado e garantir direitos individuais: ela também traça diretrizes para a economia e para as políticas sociais. Esse conjunto forma a ordem econômica e social — uma "constituição econômica" e uma "constituição social".',
+    introducao: 'Fonética e fonologia são conteúdos de prioridade variável: só valem investimento quando o edital cobra explicitamente. Mas quando caem, são questões diretas, fáceis de resolver para quem entende o básico. Também ajudam a entender ACENTUAÇÃO (PT-04), pois as regras de acento dependem da tonicidade.',
 
-    explicacaoSimples: 'A ordem econômica diz como a economia deve funcionar: livre iniciativa, mas com justiça social, proteção ao consumidor, defesa do meio ambiente e redução das desigualdades. A ordem social trata das políticas públicas: saúde, educação, previdência, assistência, cultura, meio ambiente, família, criança, idoso, indígenas.',
+    explicacaoSimples: 'Fonema é o SOM; letra é a REPRESENTAÇÃO. Uma palavra pode ter mais letras que fonemas (ex.: "hora" tem 4 letras e 3 fonemas, pois o "h" é mudo). Sílaba é cada "pedaço" que pronunciamos. Encontros vocálicos e consonantais são combinações de sons. Dígrafos são duas letras com UM som.',
 
-    explicacaoTecnica: 'ORDEM ECONÔMICA (arts. 170 a 181): fundamentada na valorização do trabalho humano e na livre iniciativa, tem por fim assegurar a todos existência digna, conforme os ditames da justiça social, observados os princípios: soberania nacional, propriedade privada, função social da propriedade, livre concorrência, defesa do consumidor, defesa do meio ambiente, redução das desigualdades regionais e sociais, busca do pleno emprego, tratamento favorecido para empresas de pequeno porte. Art. 173: exploração direta de atividade econômica pelo Estado só em casos de segurança nacional ou relevante interesse coletivo. Art. 174: Estado como agente normativo e regulador. Art. 175: serviços públicos — concessão e permissão. Art. 176 a 177: recursos minerais e energéticos. Art. 178 a 181: transporte, turismo, etc. ORDEM SOCIAL (arts. 193 a 232): tem como base o primado do trabalho e como objetivo o bem-estar e a justiça sociais. SEGURIDADE (arts. 194 a 204): saúde (196 a 200), previdência (201 a 202), assistência (203 a 204). EDUCAÇÃO, CULTURA E DESPORTO (arts. 205 a 217). CIÊNCIA, TECNOLOGIA E INOVAÇÃO (arts. 218 a 219). COMUNICAÇÃO SOCIAL (arts. 220 a 224). MEIO AMBIENTE (arts. 225). FAMÍLIA, CRIANÇA, ADOLESCENTE, JOVEM E IDOSO (arts. 226 a 230). ÍNDIOS (art. 231 a 232).',
+    explicacaoTecnica: 'FONEMA: unidade mínima sonora. LETRA: representação escrita. Nem sempre há correspondência: "casa" tem 4 letras e 4 fonemas; "hora" tem 4 letras e 3 fonemas (h é mudo); "táxi" tem 4 letras e 5 fonemas (x = ks). SÍLABA: cada unidade fonética com uma vogal. CLASSIFICAÇÃO QUANTO À TONICIDADE: OXÍTONA (última sílaba forte), PAROXÍTONA (penúltima), PROPAROXÍTONA (antepenúltima). ENCONTROS VOCÁLICOS: DITONGO (duas vogais na mesma sílaba — pai, mãe); TRITONGO (três vogais — Uruguai); HIATO (duas vogais em sílabas separadas — sa-í-da). ENCONTROS CONSONANTAIS: dois sons consonantais na mesma sílaba (cra-vo, pla-no) ou em sílabas diferentes (ad-vo-ga-do). DÍGRAFOS: duas letras com UM som — ch, lh, nh, rr, ss, sc, sç, xc, gu, qu, am, em, im, om, um (antes de consoante).',
 
     exemplos: [
-      'Ordem econômica: livre concorrência e defesa do consumidor.',
-      'Função social da propriedade: o proprietário deve dar destinação social ao bem.',
-      'Redução das desigualdades regionais: políticas de desenvolvimento para o Nordeste e o Norte.',
-      'Seguridade social: saúde (universal), previdência (contributiva) e assistência (para quem necessitar).',
-      'Educação: direito de todos, dever do Estado e da família.',
-      'Meio ambiente: direito de todos ao meio ambiente ecologicamente equilibrado.',
-      'Família: proteção especial do Estado.',
-      'Criança e adolescente: prioridade absoluta.',
-      'Idoso: proteção especial.',
-      'Índios: direitos originários sobre terras tradicionalmente ocupadas.'
+      'Letras x fonemas: "hora" (4 letras, 3 fonemas); "táxi" (4 letras, 5 fonemas); "guerra" (6 letras, 4 fonemas).',
+      'Ditongo: pai, mãe, série, tranquilo.',
+      'Tritongo: Uruguai, saguão, quão.',
+      'Hiato: saída, baú, juízo, saúde.',
+      'Dígrafo: chave (ch), palha (lh), sonho (nh), carro (rr), passo (ss).',
+      'Divisão silábica: ca-sa, li-vro, cons-tru-ção, ad-vo-ga-do.',
+      'Oxítona: café, cadáver, jiló.',
+      'Paroxítona: fácil, tórax, caderno.',
+      'Proparoxítona: árvore, médico, lâmpada.'
     ],
 
     comparacoes: [
-      { termoA: 'Ordem econômica', termoB: 'Ordem social', diferenca: 'ECONÔMICA (arts. 170 a 181): regula a atividade econômica — livre iniciativa, concorrência, propriedade, consumidor, meio ambiente. SOCIAL (arts. 193 a 232): regula as políticas públicas — seguridade, educação, cultura, meio ambiente, família, criança, idoso, índios.' },
-      { termoA: 'Saúde', termoB: 'Previdência', diferenca: 'SAÚDE (art. 196): direito de todos e dever do Estado; universal e gratuita. PREVIDÊNCIA (art. 201): contributiva; exige contribuição para receber benefício.' },
-      { termoA: 'Assistência social', termoB: 'Previdência social', diferenca: 'ASSISTÊNCIA (art. 203): prestada a quem dela necessitar, INDEPENDENTE de contribuição. PREVIDÊNCIA (art. 201): CONTRIBUTIVA — só quem contribui recebe.' },
-      { termoA: 'Exploração direta', termoB: 'Regulação', diferenca: 'EXPLORAÇÃO DIRETA (art. 173): Estado atua como agente econômico — apenas em segurança nacional ou relevante interesse coletivo. REGULAÇÃO (art. 174): Estado atua como agente normativo e regulador — função típica.' }
+      { termoA: 'Fonema', termoB: 'Letra', diferenca: 'FONEMA: som. LETRA: representação gráfica. Nem sempre coincidem. Ex.: "hora" tem 4 letras, 3 fonemas; "guerra" tem 6 letras, 4 fonemas ("gu" tem som de "g"; "rr" tem som de "r").' },
+      { termoA: 'Ditongo', termoB: 'Hiato', diferenca: 'DITONGO: duas vogais na MESMA sílaba. Ex.: "pai" (pai), "série" (sé-rie). HIATO: duas vogais em sílabas SEPARADAS. Ex.: "saída" (sa-í-da), "baú" (ba-ú). A diferença está na sílaba em que caem.' },
+      { termoA: 'Encontro consonantal', termoB: 'Dígrafo', diferenca: 'ENCONTRO CONSONANTAL: dois sons consonantais distintos, ambos pronunciados. Ex.: "cravo" (c-r), "plano" (p-l). DÍGRAFO: duas letras com UM som. Ex.: "chave" (ch = som único), "palha" (lh = som único).' },
+      { termoA: 'Oxítona', termoB: 'Paroxítona', diferenca: 'OXÍTONA: a última sílaba é a tônica. Ex.: café, jiló. PAROXÍTONA: a penúltima sílaba é tônica. Ex.: fácil, caderno. PROPAROXÍTONA: a antepenúltima. Ex.: árvore. Saber a tonicidade é essencial para aplicar as regras de acentuação.' }
     ],
 
-    aplicacaoEmConcurso: 'Cobrança dos princípios da ordem econômica (art. 170), da atuação do Estado (arts. 173 e 174), da seguridade social (arts. 194 a 204), dos direitos da criança/adolescente (prioridade absoluta), do idoso e dos indígenas. Aprofundamento proporcional à relevância para concursos administrativos.',
+    aplicacaoEmConcurso: 'Fonética e fonologia aparecem em questões de: contagem de fonemas, identificação de dígrafos e encontros vocálicos/consonantais, divisão silábica e classificação de palavras quanto à tonicidade. Também ajuda a entender as regras de acentuação (PT-04). Conteúdo de prioridade variável.',
 
     pegadinhas: [
-      'Confundir ordem econômica com ordem social.',
-      'Achar que saúde é contributiva. NÃO — é universal.',
-      'Dizer que a previdência é universal. NÃO — é contributiva.',
-      'Achar que a assistência social é só para quem contribui. NÃO — é para quem dela necessitar.',
-      'Dizer que o Estado só pode explorar atividade econômica em caso de segurança nacional. Também em relevante interesse coletivo.',
-      'Confundir função social da propriedade com desapropriação.',
-      'Achar que a proteção ao índio é só sobre terras. Envolve cultura, língua, tradições.'
+      'Contar letras em vez de fonemas. Ex.: "guerra" tem 6 letras, mas 4 fonemas.',
+      'Confundir encontro consonantal com dígrafo.',
+      'Confundir ditongo com hiato.',
+      'Errar a divisão silábica de "con-stru-ção" ou "ad-vo-ga-do".',
+      'Achar que toda palavra tem uma vogal em cada sílaba — na divisão silábica, sim; no ditongo, não.',
+      'Confundir sílaba tônica com sílaba com acento gráfico — nem toda tônica é acentuada.'
     ],
 
     errosComuns: [
-      'Decorar os princípios da ordem econômica sem entender o equilíbrio entre livre iniciativa e justiça social.',
-      'Confundir as três áreas da seguridade (saúde, previdência, assistência).',
-      'Ignorar os dispositivos específicos sobre criança e adolescente (prioridade absoluta).'
+      'Decorar listas sem entender os conceitos.',
+      'Contar letras em vez de fonemas.',
+      'Confundir dígrafo com encontro consonantal.',
+      'Não aplicar a tonicidade às regras de acentuação.'
     ],
 
     resumo: [
-      'Ordem econômica (arts. 170 a 181): livre iniciativa + valorização do trabalho + justiça social.',
-      'Princípios: soberania nacional, propriedade privada, função social, livre concorrência, defesa do consumidor, defesa do meio ambiente, redução das desigualdades, pleno emprego, tratamento favorecido a pequenas empresas.',
-      'Estado: agente normativo e regulador (art. 174) + exploração direta em segurança nacional ou relevante interesse coletivo (art. 173).',
-      'Ordem social (arts. 193 a 232): primado do trabalho + bem-estar e justiça sociais.',
-      'Seguridade (arts. 194 a 204): saúde (universal), previdência (contributiva), assistência (para quem necessitar).',
-      'Educação (arts. 205 a 214), cultura (215 a 216), desporto (217).',
-      'Meio ambiente (art. 225): direito de todos ao meio ambiente ecologicamente equilibrado.',
-      'Família, criança, adolescente, jovem e idoso (arts. 226 a 230).',
-      'Índios (arts. 231 a 232): direitos originários sobre terras tradicionalmente ocupadas.'
+      'Fonema é som; letra é representação. Nem sempre coincidem.',
+      'Ditongo: 2 vogais na mesma sílaba. Tritongo: 3. Hiato: vogais separadas.',
+      'Encontro consonantal: 2 sons distintos. Dígrafo: 2 letras, 1 som.',
+      'Classificação quanto à tonicidade: oxítona, paroxítona, proparoxítona.',
+      'Nem toda tônica é acentuada — depende das regras.',
+      'Saber fonologia ajuda a entender acentuação.'
     ],
 
     modoProfessor: {
-      explicarMaisSimples: 'A ordem econômica diz como a economia funciona: liberdade para empreender, mas com justiça social, proteção ao consumidor e ao meio ambiente. A ordem social diz como o Estado cuida das pessoas: saúde, educação, previdência, assistência, cultura, família, criança, idoso, índios.',
-      outroExemplo: 'Quando a CF exige "função social da propriedade", quer dizer que o proprietário não pode deixar o bem sem uso — precisa dar destinação social. Se não dá, o Estado pode desapropriar para fins de reforma agrária, por exemplo.',
-      compararConceitos: 'Ordem econômica ≠ ordem social. Saúde = universal. Previdência = contributiva. Assistência = para quem necessitar. Criança = prioridade absoluta. Índio = direitos originários.',
-      mostrarPegadinha: 'Cuidado: "A previdência social é universal e gratuita". ERRADO. A SAÚDE é universal e gratuita; a PREVIDÊNCIA é CONTRIBUTIVA (só quem contribui recebe).',
-      comoApareceEmConcurso: 'Cobrança dos princípios da ordem econômica (art. 170) e dos dispositivos sobre seguridade social, criança, idoso e índios.',
+      explicarMaisSimples: 'Fonema é o SOM que sai da boca; letra é o que a gente escreve. "Hora": escrevemos 4 letras (h-o-r-a), mas pronunciamos 3 sons (o-r-a). Entender isso evita erro em questões de contagem de fonemas.',
+      outroExemplo: 'Pense em "guerra": 6 letras, 4 fonemas (gu-e-rr-a). O "gu" tem som de "g"; o "rr" tem som de "r" (não são dois erres separados). Esses são dígrafos — duas letras, um som.',
+      compararConceitos: 'Fonema x letra. Ditongo x hiato. Encontro consonantal x dígrafo. Oxítona x paroxítona x proparoxítona.',
+      mostrarPegadinha: 'Cuidado: "cravo" tem encontro consonantal (c-r), pois os dois sons são pronunciados. Já "chave" tem dígrafo (ch), pois há um único som. Não confundir!',
+      comoApareceEmConcurso: 'Cobrança variável conforme edital. Frequência média.',
       fazerPergunta: {
-        pergunta: 'Uma pessoa sem contribuição prévia tem direito a algum benefício da seguridade social?',
-        resposta: 'SIM. Tem direito à SAÚDE (universal e gratuita) e à ASSISTÊNCIA SOCIAL (para quem dela necessitar, sem contribuição). NÃO tem direito à PREVIDÊNCIA (que é contributiva).'
+        pergunta: 'Quantos fonemas tem a palavra "táxi"?',
+        respostA: '5 fonemas (t-á-k-s-i). As 4 letras "t-á-x-i" correspondem a 5 fonemas, pois o "x" tem som de "ks". É um caso clássico de divergência entre letra e fonema.'
       }
     }
   },
 
   /* ============================================================
-     DC-20 — ADCT e Atualizações Constitucionais
+     PT-15 — Redação Oficial e Comunicação Administrativa
   ============================================================ */
-  'DC-20': {
-    id: 'L-DC-20',
-    moduloId: 'DC-20',
-    objetivo: 'Compreender o papel do Ato das Disposições Constitucionais Transitórias (ADCT), identificar dispositivos relevantes, conhecer as emendas constitucionais mais importantes e estar atento às atualizações constitucionais recentes. Base para não ser surpreendido por questões sobre ECs.',
-    prerequisitos: ['DC-01'],
+  'PT-15': {
+    id: 'L-PT-15',
+    moduloId: 'PT-15',
+    objetivo: 'Compreender os princípios da redação oficial (clareza, concisão, objetividade, impessoalidade, formalidade), a adequação da linguagem ao destinatário e à finalidade, e a estrutura e finalidade dos documentos oficiais (ofício, memorando, e-mail profissional, comunicado, requerimento). Conhecer o Manual de Redação da Presidência da República quando previsto no edital.',
+    prerequisitos: ['PT-01', 'PT-02'],
 
-    introducao: 'O ADCT é a parte da Constituição que cuida da transição entre o regime anterior e o novo. Ele tem a mesma força normativa da CF, mas vocação transitória. Além dele, as emendas constitucionais alteram o texto permanentemente — e é preciso conhecer as principais.',
+    introducao: 'Redação oficial é um conteúdo muito cobrado em concursos federais e, cada vez mais, em estaduais. É também a base da prova discursiva. Entender os princípios (clareza, concisão, impessoalidade) e a estrutura dos documentos oficiais faz diferença tanto nas questões objetivas quanto na redação.',
 
-    explicacaoSimples: 'Quando a CF/88 entrou em vigor, muitas regras do regime anterior precisaram ser ajustadas. O ADCT é o "manual de transição": ele diz o que muda, quando e como. Já as EMENDAS são alterações no próprio texto da CF — feitas pelo Congresso com quórum de 3/5.',
+    explicacaoSimples: 'Imagine que você trabalha em um órgão público e precisa escrever para outro órgão. A linguagem não é a mesma de uma conversa informal — precisa ser clara, objetiva, formal e impessoal. E cada tipo de documento tem uma estrutura: ofício, memorando, e-mail, comunicado, requerimento. Cada um tem sua finalidade.',
 
-    explicacaoTecnica: 'ADCT: parte final da CF/88 (arts. 1º a 100). Tem a mesma força normativa da CF (é norma constitucional), mas natureza transitória — suas regras se esgotam com o tempo. Contém dispositivos sobre: instalação dos órgãos, revisão constitucional (art. 3º — já esgotada), direitos de servidores, anistia, FEF, DRU, desvinculação de receitas, precatórios (art. 100 do ADCT — EC 94/2016), Fundeb (art. 60 do ADCT — EC 108/2020), entre outros. EMENDAS CONSTITUCIONAIS: alterações do texto permanente, aprovadas por 3/5 em dois turnos em cada Casa (art. 60). Já foram mais de 130 emendas. As mais cobradas: EC 19/1998 (Reforma Gerencial — eficiência no art. 37); EC 20/1998 (reforma da previdência); EC 29/2000 (saúde — mínimo); EC 41/2003 (reforma da previdência); EC 45/2004 (Reforma do Judiciário — CNJ, súmula vinculante, repercussão geral); EC 47/2005 (paridade); EC 53/2006 (Fundeb); EC 64/2010 (alimentação no art. 6º); EC 72/2013 (domésticos); EC 80/2014 (Defensoria Pública); EC 87/2015 (ICMS); EC 90/2015 (transporte no art. 6º); EC 95/2016 (teto de gastos); EC 97/2017 (coligações proporcionais); EC 100/2019 (precatórios); EC 103/2019 (Reforma da Previdência); EC 105/2019 (transferência de recursos entre entes); EC 106/2020 (orçamento de guerra); EC 108/2020 (Fundeb); EC 109/2021 (emergencial); EC 111/2021 (fim das coligações proporcionais + fidelidade partidária); EC 113/2021 (precatórios); EC 114/2021 (combustíveis); EC 116/2022 (desoneração); EC 117/2022 (piso da enfermagem); EC 125/2022 (anistia de partidos); EC 126/2022 (piso da enfermagem); EC 128/2022 (PEC das monções); EC 129/2023 (reforma tributária); EC 130/2023 (sucessão); EC 131/2023 (nacionalidade — perda); EC 132/2023 (reforma tributária); EC 133/2024 (reforma tributária); EC 134/2024 (anistia); EC 135/2024 (segurança pública). ATUALIZAÇÕES RECENTES: reforma tributária (EC 129 a 133); alterações na nacionalidade (EC 131/2023); segurança pública (EC 135/2024).',
+    explicacaoTecnica: 'PRINCÍPIOS DA REDAÇÃO OFICIAL: (1) CLAREZA: o texto deve ser compreendido sem esforço. (2) CONCISÃO: dizer o máximo com o mínimo de palavras, sem perder informação. (3) OBJETIVIDADE: ir direto ao ponto, sem rodeios. (4) IMPESSOALIDADE: o texto é do ÓRGÃO, não da pessoa — não há marcas de subjetividade. (5) FORMALIDADE: uso da norma padrão e de tratamento adequado. (6) USO DO PADRÃO CULTO. CARACTERÍSTICAS: uso de "Vossa Excelência" (autoridades superiores), "Vossa Senhoria" (demais autoridades e particulares), ausência de gírias e informalidades, tratamento uniforme. DOCUMENTOS: OFÍCIO (comunicação entre órgãos públicos ou destes para particulares, geralmente em papel timbrado); MEMORANDO (comunicação interna entre unidades administrativas do mesmo órgão); E-MAIL PROFISSIONAL (comunicação eletrônica formal); COMUNICADO (informação oficial); REQUERIMENTO (pedido formal do cidadão ao poder público). ESTRUTURA DO PADRÃO OFÍCIO (Manual da Presidência): tipo e número, local e data, destinatário, assunto, vocativo, texto, fecho ("Atenciosamente" ou "Respeitosamente"), assinatura, identificação. Manual de Redação da Presidência da República (3ª edição, 2018) — referência para concursos federais.',
 
     exemplos: [
-      'ADCT art. 100 (com EC 94/2016): regime especial de pagamento de precatórios.',
-      'ADCT art. 60 (com EC 108/2020): Fundeb — distribuição de recursos para educação.',
-      'EC 19/1998: inseriu a eficiência no caput do art. 37.',
-      'EC 45/2004: criou o CNJ, a súmula vinculante e a repercussão geral.',
-      'EC 72/2013: direitos dos trabalhadores domésticos.',
-      'EC 90/2015: transporte no art. 6º (direitos sociais).',
-      'EC 97/2017: fim das coligações proporcionais.',
-      'EC 111/2021: fim das coligações proporcionais + fidelidade partidária.',
-      'EC 131/2023: alterações na nacionalidade (perda).'
+      'Clareza: "Informamos que o prazo para entrega dos documentos é 31/12."',
+      'Concisão: dizer o essencial em poucas palavras.',
+      'Impessoalidade: "Este órgão decidiu..." em vez de "Eu decidi...".',
+      'Formalidade: uso de "Vossa Excelência" para altas autoridades.',
+      'Ofício: comunicação entre órgãos — "Ofício nº 123/2025 — DAF/ME".',
+      'Memorando: comunicação interna — "Memorando nº 45/2025 — CGP".',
+      'Requerimento: "Eu, [nome], venho requerer..." — pedido formal.',
+      'Fecho: "Atenciosamente" (para autoridades de mesma hierarquia ou inferiores) e "Respeitosamente" (para autoridades superiores).'
     ],
 
     comparacoes: [
-      { termoA: 'ADCT', termoB: 'Parte permanente da CF', diferenca: 'ADCT: parte final da CF, com a mesma força normativa, mas natureza TRANSITÓRIA. Dispositivos se esgotam com o tempo. PARTE PERMANENTE: normas definitivas, que se aplicam continuamente.' },
-      { termoA: 'Emenda constitucional', termoB: 'Revisão constitucional', diferenca: 'EMENDA (art. 60): alteração permanente; 3/5 em dois turnos em cada Casa; pode ser quantas vezes forem necessárias. REVISÃO (art. 3º do ADCT): revisão única, em 1993, por maioria absoluta — já esgotada.' },
-      { termoA: 'EC 45/2004', termoB: 'EC 19/1998', diferenca: 'EC 45/2004 (Reforma do Judiciário): criou o CNJ, a súmula vinculante, a repercussão geral e alterou a competência do STF. EC 19/1998 (Reforma Gerencial): inseriu a eficiência no art. 37 e alterou a Administração Pública.' },
-      { termoA: 'EC 97/2017', termoB: 'EC 111/2021', diferenca: 'EC 97/2017: vedou coligações em eleições PROPORCIONAIS a partir de 2020. EC 111/2021: reformulou a fidelidade partidária e consolidou o fim das coligações proporcionais, além de tratar das sobras eleitorais.' }
+      { termoA: 'Ofício', termoB: 'Memorando', diferenca: 'OFÍCIO: comunicação EXTERNA entre órgãos públicos diferentes, ou entre órgão e particulares. Usa papel timbrado. Ex.: Secretaria de Saúde para Secretaria de Educação. MEMORANDO: comunicação INTERNA entre unidades do MESMO órgão. Ex.: Coordenadoria de RH para o Gabinete. O memorando é mais simples; o ofício, mais solene.' },
+      { termoA: 'Clareza', termoB: 'Concisão', diferenca: 'CLAREZA: o texto deve ser compreendido sem esforço — frases bem estruturadas, sem ambiguidades. CONCISÃO: dizer o máximo com o mínimo de palavras — sem perder informação essencial. Um texto conciso pode ser obscuro se mal organizado; um texto claro pode ser prolixo. As duas se complementam.' },
+      { termoA: 'Impessoalidade', termoB: 'Formalidade', diferenca: 'IMPESSOALIDADE: o texto é do ÓRGÃO, não da pessoa. Não há marcas de subjetividade ("eu acho", "na minha opinião"). FORMALIDADE: uso do PADRÃO CULTO, sem gírias ou informalidades, com tratamento adequado. A impessoalidade é sobre a "voz"; a formalidade, sobre o "registro".' },
+      { termoA: 'Manual de Redação da Presidência', termoB: 'Manuais estaduais', diferenca: 'MANUAL DA PRESIDÊNCIA (3ª edição, 2018): referência para concursos federais. Define o padrão ofício. MANUAIS ESTADUAIS: cada estado pode ter o seu, mas geralmente seguem o padrão federal. Para concursos, o Manual da Presidência é a base.' }
     ],
 
-    aplicacaoEmConcurso: 'Cobrança de dispositivos do ADCT relevantes (precatórios, Fundeb, anistia) e das emendas constitucionais mais importantes. As bancas gostam de perguntar "qual EC inseriu X no art. 37?" ou "qual EC alterou Y?". Tema que exige atualização constante.',
+    aplicacaoEmConcurso: 'Redação oficial é cobrada em: questões objetivas sobre princípios e estrutura de documentos, questões discursivas (a peça prática pode ser um ofício, um memorando ou um e-mail), e questões de interpretação (identificar erro em uma comunicação oficial). A Lei 13.460/2017 (Carta de Serviços ao Usuário) reforça o uso da linguagem clara e acessível. É conteúdo de prioridade condicional, mas muito importante quando o edital exige.',
 
     pegadinhas: [
-      'Achar que o ADCT é menos importante que a parte permanente. NÃO — tem a mesma força normativa.',
-      'Dizer que o ADCT é permanente. É TRANSITÓRIO (mas há dispositivos com eficácia prolongada).',
-      'Confundir emenda constitucional com revisão constitucional. A revisão foi uma única vez (1993).',
-      'Esquecer a EC que inseriu cada alteração (eficiência = 19/1998; CNJ = 45/2004; domésticos = 72/2013; transporte = 90/2015; coligações = 97/2017).',
-      'Achar que a CF/88 nunca foi alterada. Já teve mais de 130 emendas.',
-      'Ignorar as reformas recentes (tributária — EC 129 a 133; segurança pública — EC 135/2024).'
+      'Usar "Vossa Excelência" para qualquer autoridade. Só para altas autoridades (Presidente, Ministros, Deputados, Senadores, Governadores, Juízes).',
+      'Confundir ofício com memorando.',
+      'Usar linguagem informal ("Oi, tudo bem?") em documento oficial.',
+      'Escrever em primeira pessoa ("Eu acho que..."). A redação oficial é impessoal.',
+      'Colocar fecho inadequado: "Respeitosamente" só para autoridades superiores.',
+      'Esquecer elementos essenciais da estrutura do padrão ofício.',
+      'Confundir abreviações: "V. Exa." x "V.Sa."'
     ],
 
     errosComuns: [
-      'Decorar ECs sem associar ao conteúdo alterado.',
-      'Não consultar a versão atualizada da CF (muitos dispositivos foram alterados).',
-      'Achar que todas as ECs são recentes — há ECs de 1992 (EC 1/1992).'
+      'Achar que redação oficial é "linguagem difícil" — é o contrário: clareza.',
+      'Usar jargões técnicos sem necessidade.',
+      'Confundir impessoalidade com frieza — o texto pode ser cordial e impessoal.',
+      'Não conhecer a estrutura do padrão ofício.'
     ],
 
     resumo: [
-      'ADCT: parte final da CF, mesma força normativa, mas transitório.',
-      'Revisão constitucional: única, em 1993, por maioria absoluta (art. 3º do ADCT).',
-      'Emenda constitucional: 3/5 em dois turnos em cada Casa (art. 60).',
-      'ECs relevantes: 19/1998 (eficiência), 20/1998 (previdência), 29/2000 (saúde), 45/2004 (Judiciário — CNJ, súmula vinculante), 53/2006 (Fundeb), 64/2010 (alimentação), 72/2013 (domésticos), 80/2014 (Defensoria), 87/2015 (ICMS), 90/2015 (transporte), 95/2016 (teto de gastos), 97/2017 (coligações), 100/2019 (precatórios), 103/2019 (previdência), 106/2020 (orçamento de guerra), 108/2020 (Fundeb), 111/2021 (fidelidade partidária), 129 a 133/2023 (reforma tributária), 135/2024 (segurança pública).',
-      'Precatórios (ADCT art. 100), Fundeb (ADCT art. 60) e DRU são dispositivos importantes.'
+      'Princípios: clareza, concisão, objetividade, impessoalidade, formalidade, padrão culto.',
+      'Ofício: comunicação externa. Memorando: comunicação interna.',
+      'E-mail profissional: comunicação eletrônica formal.',
+      'Requerimento: pedido formal do cidadão ao poder público.',
+      'Tratamento: Vossa Excelência (altas autoridades), Vossa Senhoria (demais).',
+      'Fecho: "Atenciosamente" (mesma hierarquia/inferiores) e "Respeitosamente" (superiores).',
+      'Base: Manual de Redação da Presidência da República (3ª ed., 2018).'
     ],
 
     modoProfessor: {
-      explicarMaisSimples: 'O ADCT é o "manual de transição" da CF: diz o que muda em relação ao regime anterior. As emendas são alterações no próprio texto da CF, feitas pelo Congresso com quórum de 3/5.',
-      outroExemplo: 'A eficiência foi inserida no art. 37 pela EC 19/1998. O CNJ foi criado pela EC 45/2004. O transporte foi incluído no art. 6º pela EC 90/2015. Cada alteração tem sua EC específica.',
-      compararConceitos: 'ADCT = transitório. Parte permanente = definitivo. Emenda = permanente, pode ser quantas vezes. Revisão = única (1993).',
-      mostrarPegadinha: 'Cuidado: "A revisão constitucional pode ser feita a qualquer tempo". ERRADO. A revisão foi ÚNICA, em 1993, conforme art. 3º do ADCT — já esgotada.',
-      comoApareceEmConcurso: 'Cobrança de dispositivos do ADCT e das ECs que alteraram a CF.',
+      explicarMaisSimples: 'Redação oficial é o "jeito profissional" de escrever no serviço público. Sem gírias, sem "eu acho", com clareza e objetividade. Cada documento tem uma função: ofício é para fora; memorando é para dentro; requerimento é o pedido do cidadão.',
+      outroExemplo: 'Um servidor do Ministério da Saúde precisa pedir informações ao Ministério da Educação. Escreve um OFÍCIO. Já o coordenador de RH pede algo ao gabinete do próprio ministério por MEMORANDO. Se um cidadão quer solicitar isenção de taxa em concurso, faz um REQUERIMENTO.',
+      compararConceitos: 'Ofício x memorando. Clareza x concisão. Impessoalidade x formalidade. Vossa Excelência x Vossa Senhoria.',
+      mostrarPegadinha: 'Cuidado: "Oi, gostaria de saber..." em documento oficial — ERRADO. O texto oficial começa com vocativo formal ("Senhor Secretário,") e usa "solicito informações..." ou "informo que...". Linguagem formal e impessoal.',
+      comoApareceEmConcurso: 'Questões objetivas e discursivas. Alta frequência em concursos federais.',
       fazerPergunta: {
-        pergunta: 'Qual EC inseriu o princípio da eficiência no caput do art. 37?',
-        resposta: 'A EC 19/1998 (Reforma Gerencial). A EC 45/2004 (Reforma do Judiciário) criou o CNJ, a súmula vinculante e a repercussão geral — mas não mexeu no caput do art. 37.'
+        pergunta: 'Qual a diferença entre ofício e memorando?',
+        resposta: 'OFÍCIO: comunicação EXTERNA, entre órgãos diferentes ou entre órgão e particular. Mais solene, em papel timbrado. MEMORANDO: comunicação INTERNA, entre unidades do mesmo órgão. Mais simples e direto. Ex.: Ofício da Secretaria de Saúde ao Ministério Público; Memorando da Coordenadoria de RH ao Gabinete.'
       }
     }
   }
