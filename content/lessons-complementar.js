@@ -147,7 +147,7 @@ window.LESSONS_COMPLEMENTAR = {
       comoApareceEmConcurso: 'Cobrança variável conforme edital. Frequência média.',
       fazerPergunta: {
         pergunta: 'Quantos fonemas tem a palavra "táxi"?',
-        respostA: '5 fonemas (t-á-k-s-i). As 4 letras "t-á-x-i" correspondem a 5 fonemas, pois o "x" tem som de "ks". É um caso clássico de divergência entre letra e fonema.'
+        resposta: '5 fonemas (t-á-k-s-i). As 4 letras "t-á-x-i" correspondem a 5 fonemas, pois o "x" tem som de "ks". É um caso clássico de divergência entre letra e fonema.'
       }
     }
   },
