@@ -463,8 +463,8 @@ window.LESSONS_ALTA = {
       mostrarPegadinha: 'Cuidado: uma propaganda pode usar palavras e imagens. É um texto MISTO (verbal + não verbal). E, na maioria das vezes, é ARGUMENTATIVO (defende uma tese: "compre o produto").',
       comoApareceEmConcurso: 'Interpretação e redação. Alta frequência.',
       fazerPergunta: {
-        pergunta: 'Uma bula de remédio é tipo injuntivo ou gênero textual?',
-        resp: 'É GÊNERO textual (bula). O tipo predominante dentro dela é a INJUNÇÃO (instruções: "tome 1 comprimido a cada 8 horas"). O gênero é a forma; o tipo é o modo como o texto se organiza.'
+  pergunta: 'Uma bula de remédio é tipo injuntivo ou gênero textual?',
+  resposta: 'É GÊNERO textual (bula). O tipo predominante dentro dela é a INJUNÇÃO (instruções: "tome 1 comprimido a cada 8 horas"). O gênero é a forma; o tipo é o modo como o texto se organiza.'
       }
     }
   },
