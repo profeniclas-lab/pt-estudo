@@ -543,6 +543,160 @@ window.LESSONS_ALTA = {
         resposta: '"João é uma raposa" é CONOTAÇÃO (sentido figurado) + METÁFORA (comparação implícita com a raposa). "João é astuto" é DENOTAÇÃO (sentido literal, direto). A primeira exige interpretação; a segunda informa diretamente.'
       }
     }
+  },
+
+  /* ============================================================
+     PT-04 — Ortografia Oficial e Acentuação
+  ============================================================ */
+  'PT-04': {
+    id: 'L-PT-04',
+    moduloId: 'PT-04',
+    objetivo: 'Dominar as regras ortográficas vigentes (emprego das letras), a acentuação de oxítonas, paroxítonas e proparoxítonas, o uso dos porquês, o emprego do hífen, maiúsculas e minúsculas, e as palavras e expressões que costumam gerar dúvidas.',
+    prerequisitos: [],
+
+    introducao: 'Ortografia e acentuação são temas certos em qualquer prova: às vezes como disciplina própria (questões diretas de "qual a grafia correta"), às vezes escondidos em questões de redação, reescrita ou interpretação. É um conteúdo de memorização, mas com lógica por trás. Saber o porquê ajuda a não errar em variações.',
+
+    explicacaoSimples: 'Ortografia é a "regra do jogo" da escrita: quando usar "g" ou "j", "s" ou "z", "x" ou "ch". Acentuação é dizer "onde cair a força" da palavra: "café" (oxítona), "árvore" (proparoxítona), "feliz" (oxítona sem acento). Parece detalhe, mas erra quem não domina.',
+
+    explicacaoTecnica: 'EMPREGO DAS LETRAS: uso de G/J (viajar/viajem; estrangeiro/exagero), S/Z (casa/coisa; análise/analisar), X/CH (enxame/encher; caixa/cachar), C/Ç (cabeça; começo). ACENTUAÇÃO: OXÍTONAS: acentuam-se as terminadas em A, E, O, EM, ENS (sofá, café, jiló, também, parabéns). PAROXÍTONAS: acentuam-se as terminadas em L, N, R, X, I, IS, UM, UNS, PS, Ã, ÃS, ÃO, ÃOS, ON, ONS, US, ditongo (fácil, hífen, caráter, tórax, júri, álbum, órfã, bênção, próton, vírus, história). PROPAROXÍTONAS: TODAS são acentuadas (árvore, lâmpada, médico). HIATOS: "i" e "u" tônicos em hiato com vogal anterior são acentuados (saída, baú, juízo), exceto após ditongo (feiura) ou quando seguidos de NH (rainha). DITONGOS: acentuam-se os abertos ÉI, ÉU, ÓI em palavras oxítonas (chapéu, herói) ou quando o segundo elemento é "o" (geléia → geleia). ACENTOS DIFERENCIAIS: pôde/pode, pôr/por, têm/tem, vêm/vem. USO DOS PORQUÊS: porque (conjunção/causa), porquê (substantivo), por que (preposição + pronome/advérbio), por quê (fim de frase/pergunta). HÍFEN: regras do Acordo Ortográfico (2016) — prefixos terminados em vogal + palavra iniciada por mesma vogal (anti-inflamatório, micro-ondas), prefixos terminados em vogal + palavra iniciada por H (super-homem), prefixos terminados em vogal + R ou S dobram a consoante (antirracista, contrarregra), prefixos EX-, SEM-, ALÉM-, AQUÉM-, RECÉM- sempre com hífen (ex-presidente, sem-terra).',
+
+    exemplos: [
+      'Oxítonas acentuadas: café, jiló, também, armazém, parabéns.',
+      'Paroxítonas acentuadas: fácil, tórax, hífen, próton, órfã, vírus.',
+      'Proparoxítonas: TODAS — árvore, médico, lâmpada, próximo.',
+      'Hiatos: saída, baú, juízo, saúde. Exceção: feiura (após ditongo).',
+      'Acentos diferenciais: pôde (passado) x pode (presente); pôr (verbo) x por (preposição); têm (plural) x tem (singular).',
+      'Uso dos porquês: "Não fui porque chovia" (conjunção); "Qual o porquê?" (substantivo); "Por que não veio?" (pergunta); "Não vou, por quê?" (fim de frase).',
+      'Hífen: anti-inflamatório, micro-ondas, super-homem, antirracista, ex-presidente, sem-terra.'
+    ],
+
+    comparacoes: [
+      { termoA: 'Oxítona', termoB: 'Paroxítona', diferenca: 'OXÍTONA: a última sílaba é tônica. Acentuam-se as terminadas em A, E, O, EM, ENS. Ex.: café, jiló, também. PAROXÍTONA: a penúltima sílaba é tônica. Acentuam-se as terminadas em L, N, R, X, I, IS, UM, UNS, PS, Ã, ÃS, ÃO, ÃOS, ON, ONS, US, ditongo. Ex.: fácil, hífen, tórax. Em resumo: as oxítonas "A E O EM ENS" e as paroxítonas "L N R X I IS UM UNS PS e ditongos".' },
+      { termoA: '"Porque" (junto, sem acento)', termoB: '"Por que" (separado, sem acento)', diferenca: '"PORQUE": conjunção causal ou explicativa. Ex.: "Não fui porque chovia." "POR QUE": preposição + pronome relativo ou advérbio interrogativo. Ex.: "A razão por que não vim é simples." ou "Por que não veio?" Use "porque" quando puder substituir por "pois"; "por que" quando puder substituir por "por qual razão".' },
+      { termoA: '"Porquê" (junto, com acento)', termoB: '"Por quê" (separado, com acento)', diferenca: '"PORQUÊ": substantivo (= motivo, razão). Sempre com artigo ou determinante. Ex.: "Não sei o porquê da briga." "POR QUÊ": usado no final de frase ou antes de pausa. Ex.: "Não vou, por quê?" É a forma tônica de "por que" antes de pausa.' },
+      { termoA: '"Pôde" (com acento)', termoB: '"Pode" (sem acento)', diferenca: '"PÔDE": verbo poder no PRETÉRITO PERFEITO (passado). Ex.: "Ele não pôde vir ontem." "PODE": verbo poder no PRESENTE. Ex.: "Ele pode vir hoje." O acento diferencial marca o tempo verbal.' }
+    ],
+
+    aplicacaoEmConcurso: 'Ortografia e acentuação aparecem em questões de múltipla escolha ("assinale a alternativa com erro"), em reescrita (verificar se a grafia está correta) e em redação (erros de grafia descontam pontos). Também caem questões sobre o uso dos porquês, hífen, acentos diferenciais e palavras que geram dúvida.',
+
+    pegadinhas: [
+      '"Ele não pôde vir" x "Ele não pode vir" — o acento faz toda a diferença.',
+      '"Porque" x "por que" x "porquê" x "por quê" — trocar as formas é erro clássico.',
+      "Geleia" (sem acento, após o Acordo Ortográfico) — não é "geléia".',
+      "Feiura" (sem acento, exceção do hiato após ditongo) — não é "feiúra".",
+      "Antirracista" (sem hífen, duplica o R) — não é "anti-racista".",
+      "Contrarregra" (sem hífen, duplica o R) — não é "contra-regra".",
+      "Coordenar" (sem hífen, ditongo) — não é "co-ordenar".",
+      "Proparoxítonas são TODAS acentuadas — sem exceção."
+    ],
+
+    errosComuns: [
+      'Decorar listas sem entender a regra.',
+      'Confundir oxítonas com paroxítonas.',
+      'Esquecer que TODA proparoxítona é acentuada.',
+      'Trocar as formas dos porquês.',
+      'Esquecer o acento diferencial de "pôde/pode", "têm/tem", "vêm/vem".',
+      'Aplicar regras antigas do hífen (antes do Acordo Ortográfico).'
+    ],
+
+    resumo: [
+      'Oxítonas: acentuam-se as terminadas em A, E, O, EM, ENS.',
+      'Paroxítonas: acentuam-se as terminadas em L, N, R, X, I, IS, UM, UNS, PS, ditongo, Ã, ÃS, ÃO, ÃOS, ON, ONS, US.',
+      'Proparoxítonas: TODAS acentuadas.',
+      'Hiato: acentua-se "i" e "u" tônicos (saída, baú), exceto após ditongo (feiura) ou antes de NH (rainha).',
+      'Acentos diferenciais: pôde/pode, pôr/por, têm/tem, vêm/vem.',
+      'Porquês: porque (conjunção), por que (pergunta/relativo), porquê (substantivo), por quê (fim de frase).',
+      'Hífen: prefixos + palavras — regras do Acordo Ortográfico (2016).',
+      'Pós-Acordo: geleia (sem acento), feiura (sem acento), antirracista (sem hífen).'
+    ],
+
+    modoProfessor: {
+      explicarMaisSimples: 'Pense na acentuação como um "mapa" da sílaba forte. Oxítonas acentuam-se com terminações específicas (A, E, O, EM, ENS). Paroxítonas acentuam-se com outras terminações (L, N, R... e ditongos). Proparoxítonas são todas acentuadas — sem exceção.',
+      outroExemplo: '"Café" é oxítona (última sílaba forte) e termina em E → acentuada. "Fácil" é paroxítona (penúltima forte) e termina em L → acentuada. "Árvore" é proparoxítona (antepenúltima forte) → SEMPRE acentuada.',
+      compararConceitos: 'Oxítona x paroxítona x proparoxítona. Porque x por que x porquê x por quê. Pôde x pode. Antes e depois do Acordo Ortográfico.',
+      mostrarPegadinha: 'Cuidado: "Ele não pôde vir" (passado) x "Ele não pode vir" (presente). O acento muda o TEMPO do verbo. E "geléia" foi abolido — o certo é "geleia".',
+      comoApareceEmConcurso: 'Correção gramatical, reescrita e redação. Alta frequência.',
+      fazerPergunta: {
+        pergunta: 'Complete: "Eu não sei ___ ele não veio, mas imagino o ___."',
+        resposta: '"POR QUE" (pergunta indireta) e "PORQUÊ" (substantivo). Frase completa: "Eu não sei POR QUE ele não veio, mas imagino o PORQUÊ." Outras formas: "Não fui PORQUE chovia" (conjunção); "Não vou, POR QUÊ?" (fim de frase).'
+      }
+    }
+  },
+
+  /* ============================================================
+     PT-05 — Classes de Palavras: Visão Geral
+  ============================================================ */
+  'PT-05': {
+    id: 'L-PT-05',
+    moduloId: 'PT-05',
+    objetivo: 'Conhecer as 10 classes de palavras (substantivo, artigo, adjetivo, numeral, pronome, verbo, advérbio, preposição, conjunção e interjeição), sua classificação e função. Reconhecer palavras que mudam de classe conforme o contexto e perceber como a escolha da classe altera o sentido da frase.',
+    prerequisitos: [],
+
+    introducao: 'As classes de palavras são a base da morfologia e a porta de entrada para entender a sintaxe (PT-07). Saber classificar palavras é essencial para questões de "qual a classe da palavra X no contexto" — e essa cobrança é muito comum. Além disso, uma mesma palavra pode pertencer a classes diferentes, e é o contexto que decide.',
+
+    explicacaoSimples: 'Imagine que as palavras têm "profissões". O substantivo nomeia; o adjetivo caracteriza; o verbo indica ação ou estado; o advérbio modifica o verbo, o adjetivo ou outro advérbio. Algumas palavras são "polivalentes": "o jantar" (substantivo) x "vou jantar" (verbo). É o contexto que decide.',
+
+    explicacaoTecnica: 'As 10 classes: (1) SUBSTANTIVO: nomeia seres, coisas, lugares, sentimentos. (2) ARTIGO: determina o substantivo (definido: o, a, os, as; indefinido: um, uma, uns, umas). (3) ADJETIVO: caracteriza o substantivo. (4) NUMERAL: indica quantidade, ordem, multiplicação ou fração. (5) PRONOME: substitui ou acompanha o substantivo. (6) VERBO: indica ação, estado, fenômeno da natureza. (7) ADVÉRBIO: modifica verbo, adjetivo ou outro advérbio (modo, tempo, lugar, intensidade, negação, dúvida, afirmação). (8) PREPOSIÇÃO: liga termos (a, de, em, para, com, por, sobre...). (9) CONJUNÇÃO: liga orações ou termos (e, mas, ou, porque, embora...). (10) INTERJEIÇÃO: expressa emoções (Ah!, Ui!, Oxente!). SUBSTANTIVOS: comum/próprio, concreto/abstrato, simples/composto, primitivo/derivado, coletivo. ADJETIVOS: locução adjetiva (de ouro = áureo). VERBOS: regulares, irregulares, anômalos, defectivos, abundantes. ADVÉRBIOS: modo (-mente), tempo, lugar, intensidade, negação, dúvida, afirmação.',
+
+    exemplos: [
+      'Substantivo: "O menino estuda." ("menino" nomeia ser).',
+      'Adjetivo: "O menino inteligente estuda." ("inteligente" caracteriza).',
+      'Artigo: "A menina chegou." ("a" determina).',
+      'Numeral: "Comprei dois livros." ("dois" indica quantidade).',
+      'Pronome: "Ela chegou." ("ela" substitui o nome).',
+      'Verbo: "Ele correu muito." ("correu" indica ação).',
+      'Advérbio: "Ele correu rapidamente." ("rapidamente" modifica o verbo).',
+      'Preposição: "Vou a São Paulo." ("a" liga termos).',
+      'Conjunção: "Estudo e trabalho." ("e" liga termos).',
+      'Interjeição: "Nossa!" ("nossa" expressa surpresa).',
+      'Palavra que muda de classe: "O jantar está pronto." (substantivo) x "Vou jantar agora." (verbo).'
+    ],
+
+    comparacoes: [
+      { termoA: 'Substantivo', termoB: 'Adjetivo', diferenca: 'SUBSTANTIVO: nomeia o ser — o próprio ser. Ex.: "O sábio" (pessoa sábia). ADJETIVO: caracteriza o substantivo — atribui qualidade. Ex.: "O homem sábio". A mesma palavra ("sábio") pode ser substantivo (com artigo) ou adjetivo (acompanhando substantivo).' },
+      { termoA: 'Advérbio', termoB: 'Adjetivo', diferenca: 'ADVÉRBIO: modifica VERBO, ADJETIVO ou outro ADVÉRBIO — invariável. Ex.: "Ele corre rapidamente." ADJETIVO: modifica SUBSTANTIVO — variável (concorda em gênero e número). Ex.: "Ele é rápido." A palavra "rápido/rapidamente" tem função diferente.' },
+      { termoA: 'Preposição', termoB: 'Conjunção', diferenca: 'PREPOSIÇÃO: liga TERMOS dentro da mesma oração (substantivo a substantivo). Ex.: "casa de pedra". CONJUNÇÃO: liga ORAÇÕES ou termos de mesma função. Ex.: "Estudo e trabalho"; "Estudo porque quero passar". A preposição liga palavras; a conjunção liga orações ou termos.' },
+      { termoA: 'Pronome', termoB: 'Artigo', diferenca: 'PRONOME: SUBSTITUI ou ACOMPANHA o substantivo, indicando pessoa, posse, etc. Ex.: "Ele chegou"; "meu livro". ARTIGO: DETERMINA o substantivo, definindo-o ou indefinindo-o. Ex.: "o livro", "um livro". O pronome pode substituir; o artigo apenas determina.' }
+    ],
+
+    aplicacaoEmConcurso: 'Classes de palavras aparecem em questões de classificação morfológica ("qual a classe da palavra X?"), em análise sintática (identificar sujeito, predicado), em concordância (gênero, número) e em reescrita. As bancas cobram principalmente: substantivo x adjetivo, adjetivo x advérbio, preposição x conjunção, pronome x artigo, e palavras que mudam de classe conforme o contexto.',
+
+    pegadinhas: [
+      'Confundir substantivo (nomeia) com adjetivo (caracteriza). Ex.: "O jovem" (substantivo) x "O rapaz jovem" (adjetivo).',
+      'Confundir advérbio (invariável) com adjetivo (variável). Ex.: "Ele fala bem" (advérbio) x "Ele é bom" (adjetivo).',
+      'Trocar preposição com conjunção.',
+      'Achar que "o", "a", "os", "as" são sempre artigos — podem ser pronomes. Ex.: "Eu a vi" ("a" é pronome).',
+      'Confundir numeral com artigo indefinido: "um livro" (artigo) x "um livro só" (numeral).',
+      'Achar que toda palavra tem uma classe fixa — depende do contexto.'
+    ],
+
+    errosComuns: [
+      'Decorar listas sem entender a função de cada classe.',
+      'Confundir "o" artigo com "o" pronome.',
+      'Esquecer que advérbio é invariável.',
+      'Não perceber mudança de classe pela mudança de função.'
+    ],
+
+    resumo: [
+      '10 classes: substantivo, artigo, adjetivo, numeral, pronome, verbo, advérbio, preposição, conjunção, interjeição.',
+      'Substantivo nomeia; adjetivo caracteriza; verbo indica ação/estado; advérbio modifica verbo/adjetivo/advérbio.',
+      'Advérbio é invariável. Adjetivo varia em gênero e número.',
+      'Preposição liga termos; conjunção liga orações ou termos de mesma função.',
+      'Pronome substitui ou acompanha; artigo determina.',
+      'A mesma palavra pode pertencer a classes diferentes conforme o contexto.'
+    ],
+
+    modoProfessor: {
+      explicarMaisSimples: 'Cada classe de palavra tem uma "profissão": substantivo é o nome; adjetivo é a etiqueta; verbo é o motor; advérbio é o ajuste fino; preposição é a ponte; conjunção é o conector. O contexto é quem decide qual profissão a palavra está exercendo.',
+      outroExemplo: '"O jantar está pronto." Aqui "jantar" é substantivo (com artigo "o"). "Vou jantar agora." Aqui "jantar" é verbo (ação). A mesma palavra pode exercer funções diferentes.',
+      compararConceitos: 'Substantivo x adjetivo. Advérbio x adjetivo. Preposição x conjunção. Pronome x artigo. Cuidado com palavras polivalentes.',
+      mostrarPegadinha: 'Cuidado: "Eu a vi ontem." Aqui "a" é PRONOME (substitui "ela"), não artigo. E "um livro" pode ser ARTIGO indefinido (apenas um, indefinido) ou NUMERAL (um, não dois).',
+      comoApareceEmConcurso: 'Classificação morfológica, análise sintática e reescrita. Alta frequência.',
+      fazerPergunta: {
+        pergunta: 'Qual a classe da palavra "belo" em "O belo quadro foi vendido" e em "O belo encanta"?',
+        resposta: 'Na primeira ("O belo quadro"), "belo" é ADJETIVO (caracteriza "quadro"). Na segunda ("O belo encanta"), "belo" é SUBSTANTIVO (nomeia — o belo como conceito). A mesma palavra muda de classe conforme o contexto.'
+      }
+    }
   }
 
 };
