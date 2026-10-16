@@ -1806,6 +1806,7 @@ window.QUESTIONS = [
     },
     tags: ['paralelismo']
   },
+   
   /* ============================================================
      PT-13 — Formação e Estrutura das Palavras (CONDICIONAL)
      ============================================================ */
@@ -2191,5 +2192,6 @@ window.QUESTIONS = [
       comoApareceEmConcurso: 'Cobrança em concursos federais.'
     },
     tags: ['ofício', 'estrutura', 'Manual da Presidência']
-  },
+  }
+
 ];
