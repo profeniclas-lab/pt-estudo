@@ -203,6 +203,192 @@ window.FLASHCARDS = [
     verso: 'SEMPRE verifique DUAS coisas: (1) se o sentido original foi mantido (conectores, tempos verbais, posição de termos); (2) se não há erro gramatical (vírgula entre sujeito e verbo, "haviam" por "havia", concordância). A banca coloca armadilhas duplas: alternativas que mantêm o sentido mas têm erro gramatical, ou corretas mas com sentido alterado. Sempre voltar ao texto.',
     dificuldade: 3,
     tags: ['reescrita', 'estratégia']
+  },
+
+  /* ============================================================
+     PT-02 — Tipologia, Gêneros Textuais e Comunicação
+  ============================================================ */
+  {
+    id: 'F-PT-02-0001',
+    moduloId: 'PT-02',
+    topicoId: 'PT-02',
+    frente: 'Quais são os 5 tipos textuais e o que caracteriza cada um?',
+    verso: 'NARRAÇÃO: conta fatos — personagens, tempo, espaço, ação (verbos no passado). DESCRIÇÃO: caracteriza seres/objetos/lugares — adjetivos, verbos de estado. EXPOSIÇÃO: apresenta informação neutra — linguagem impessoal. ARGUMENTAÇÃO: defende tese com argumentos. INJUNÇÃO: instrui, orienta — verbos no imperativo. Muitos textos são MISTOS (contêm mais de um tipo).',
+    dificuldade: 2,
+    tags: ['tipologia']
+  },
+  {
+    id: 'F-PT-02-0002',
+    moduloId: 'PT-02',
+    topicoId: 'PT-02',
+    frente: 'Qual a diferença entre TIPO textual e GÊNERO textual?',
+    verso: 'TIPO: categoria abstrata de organização do discurso (narração, descrição, exposição, argumentação, injunção). GÊNERO: forma concreta e social de uso da língua (notícia, receita, e-mail, ofício). Um gênero pode conter vários tipos. Ex.: uma notícia é gênero; dentro dela pode haver narração (relato), descrição (cenário) e exposição (dados).',
+    dificuldade: 3,
+    tags: ['tipo', 'gênero']
+  },
+  {
+    id: 'F-PT-02-0003',
+    moduloId: 'PT-02',
+    topicoId: 'PT-02',
+    frente: 'Quais são as principais funções da linguagem?',
+    verso: 'REFERENCIAL: informar objetivamente (notícia). EMOTIVA: expressar emoções (diário, poema lírico). APELATIVA (conativa): persuadir o leitor (propaganda). METALINGUÍSTICA: falar da própria linguagem (dicionário). FÁTICA: manter contato ("alô, está me ouvindo?"). POÉTICA: valorizar a forma (poema).',
+    dificuldade: 2,
+    tags: ['funções da linguagem']
+  },
+
+  /* ============================================================
+     PT-03 — Semântica e Sentido das Palavras
+  ============================================================ */
+  {
+    id: 'F-PT-03-0001',
+    moduloId: 'PT-03',
+    topicoId: 'PT-03',
+    frente: 'Qual a diferença entre DENOTAÇÃO e CONOTAÇÃO?',
+    verso: 'DENOTAÇÃO: sentido literal, do dicionário. Ex.: "cobra" = réptil. CONOTAÇÃO: sentido figurado, dependente do contexto. Ex.: "cobra" = pessoa astuta. A banca cobra a identificação em textos. Ex.: "coração de pedra" (conotação) ≠ coração literal.',
+    dificuldade: 2,
+    tags: ['denotação', 'conotação']
+  },
+  {
+    id: 'F-PT-03-0002',
+    moduloId: 'PT-03',
+    topicoId: 'PT-03',
+    frente: 'Qual a diferença entre HOMÔNIMOS e PARÔNIMOS?',
+    verso: 'HOMÔNIMOS: MESMA pronúncia ou escrita, significados diferentes. Ex.: "cela" (prisão) e "sela" (de cavalo); "concerto" (música) e "conserto" (reparo). PARÔNIMOS: PARECIDOS, mas com pronúncia/escrita ligeiramente diferentes e significados diferentes. Ex.: "eminente" (importante) e "iminente" (que está por vir); "despensa" (onde guarda comida) e "dispensa" (ato de dispensar).',
+    dificuldade: 3,
+    tags: ['homônimos', 'parônimos']
+  },
+  {
+    id: 'F-PT-03-0003',
+    moduloId: 'PT-03',
+    topicoId: 'PT-03',
+    frente: 'Quais são as principais figuras de linguagem e o que cada uma significa?',
+    verso: 'METÁFORA: comparação implícita. Ex.: "Meu coração é um deserto." METONÍMIA: substituição por proximidade. Ex.: "Ler Machado de Assis." HIPÉRBOLE: exagero. Ex.: "Chorei rios de lágrimas." EUFEMISMO: suavização. Ex.: "Ele nos deixou." IRONIA: sentido contrário. Ex.: "Que belo exemplo!" (dito após algo ruim). PERSONIFICAÇÃO: atribui qualidades humanas a seres inanimados.',
+    dificuldade: 2,
+    tags: ['figuras de linguagem']
+  },
+
+  /* ============================================================
+     PT-04 — Ortografia Oficial e Acentuação
+  ============================================================ */
+  {
+    id: 'F-PT-04-0001',
+    moduloId: 'PT-04',
+    topicoId: 'PT-04',
+    frente: 'Quais são as regras de acentuação de oxítonas, paroxítonas e proparoxítonas?',
+    verso: 'OXÍTONAS: acentuam-se as terminadas em A, E, O, EM, ENS. Ex.: café, jiló, também. PAROXÍTONAS: acentuam-se as terminadas em L, N, R, X, I, IS, UM, UNS, PS, ditongo, Ã, ÃS, ÃO, ÃOS, ON, ONS, US. Ex.: fácil, hífen, tórax, vírus, história. PROPAROXÍTONAS: TODAS acentuadas — sem exceção. Ex.: árvore, médico, lâmpada.',
+    dificuldade: 2,
+    tags: ['acentuação']
+  },
+  {
+    id: 'F-PT-04-0002',
+    moduloId: 'PT-04',
+    topicoId: 'PT-04',
+    frente: 'Como usar corretamente os 4 tipos de PORQUÊ?',
+    verso: 'PORQUE (junto, sem acento): conjunção causal/explicativa. Ex.: "Não fui porque chovia." POR QUE (separado, sem acento): preposição + pronome/advérbio. Ex.: "Por que não veio?" (pergunta); "A razão por que não vim..." (relativo). PORQUÊ (junto, com acento): substantivo (= motivo). Ex.: "Não sei o porquê da briga." POR QUÊ (separado, com acento): fim de frase ou antes de pausa. Ex.: "Não vou, por quê?"',
+    dificuldade: 2,
+    tags: ['porquês']
+  },
+  {
+    id: 'F-PT-04-0003',
+    moduloId: 'PT-04',
+    topicoId: 'PT-04',
+    frente: 'O que diz o Acordo Ortográfico sobre prefixos como anti-, contra-, super-, ex-, sem-?',
+    verso: 'PREFIXO + PALAVRA INICIADA POR MESMA VOGAL: hífen. Ex.: anti-inflamatório, micro-ondas. PREFIXO + PALAVRA INICIADA POR R ou S: dobra a consoante, SEM hífen. Ex.: antirracista, contrarregra. PREFIXO + PALAVRA INICIADA POR H: hífen. Ex.: super-homem. PREFIXOS EX-, SEM-, ALÉM-, AQUÉM-, RECÉM-: sempre hífen. Ex.: ex-presidente, sem-terra.',
+    dificuldade: 3,
+    tags: ['hífen', 'Acordo Ortográfico']
+  },
+
+  /* ============================================================
+     PT-05 — Classes de Palavras: Visão Geral
+  ============================================================ */
+  {
+    id: 'F-PT-05-0001',
+    moduloId: 'PT-05',
+    topicoId: 'PT-05',
+    frente: 'Quais são as 10 classes de palavras?',
+    verso: 'SUBSTANTIVO (nomeia), ARTIGO (determina), ADJETIVO (caracteriza), NUMERAL (quantifica/ordena), PRONOME (substitui/acompanha), VERBO (ação/estado), ADVÉRBIO (modifica verbo/adjetivo/advérbio — invariável), PREPOSIÇÃO (liga termos com dependência), CONJUNÇÃO (liga orações/termos de mesma função), INTERJEIÇÃO (expressa emoção).',
+    dificuldade: 1,
+    tags: ['classes de palavras']
+  },
+  {
+    id: 'F-PT-05-0002',
+    moduloId: 'PT-05',
+    topicoId: 'PT-05',
+    frente: 'Qual a diferença entre ADVÉRBIO e ADJETIVO?',
+    verso: 'ADVÉRBIO: modifica VERBO, ADJETIVO ou outro ADVÉRBIO — INVARIÁVEL. Ex.: "Ele fala bem"; "Ele fala muito bem". ADJETIVO: caracteriza SUBSTANTIVO — VARIÁVEL (gênero/número). Ex.: "Ele é bom"; "Ela é boa". Teste: se modifica substantivo, é adjetivo; se modifica verbo/adjetivo/advérbio, é advérbio.',
+    dificuldade: 2,
+    tags: ['advérbio', 'adjetivo']
+  },
+  {
+    id: 'F-PT-05-0003',
+    moduloId: 'PT-05',
+    topicoId: 'PT-05',
+    frente: 'Uma palavra pode mudar de classe conforme o contexto? Dê exemplos.',
+    verso: 'SIM. A classe depende da FUNÇÃO que a palavra exerce na frase. Ex.: "O jantar está pronto" (SUBSTANTIVO — com artigo) x "Vou jantar agora" (VERBO — ação). Ex.: "O jovem estuda" (SUBSTANTIVO) x "O rapaz jovem estuda" (ADJETIVO). Ex.: "Eu a vi" (PRONOME) x "A menina chegou" (ARTIGO).',
+    dificuldade: 3,
+    tags: ['classes', 'contexto']
+  },
+
+  /* ============================================================
+     PT-07 — Sintaxe da Oração e do Período
+  ============================================================ */
+  {
+    id: 'F-PT-07-0001',
+    moduloId: 'PT-07',
+    topicoId: 'PT-07',
+    frente: 'Como distinguir OBJETO DIRETO de OBJETO INDIRETO?',
+    verso: 'OBJETO DIRETO: completa verbo transitivo direto, SEM preposição obrigatória. Ex.: "Comprei o livro." OBJETO INDIRETO: completa verbo transitivo indireto, COM preposição. Ex.: "Gosto de música." Teste: pergunte ao verbo "o quê?" (direto) ou "de/a/em/para quem/o quê?" (indireto). O verbo que pede preposição exige objeto indireto.',
+    dificuldade: 2,
+    tags: ['objeto direto', 'objeto indireto']
+  },
+  {
+    id: 'F-PT-07-0002',
+    moduloId: 'PT-07',
+    topicoId: 'PT-07',
+    frente: 'Qual a diferença entre SUJEITO OCULTO, INDETERMINADO e INEXISTENTE?',
+    verso: 'OCULTO: existe, mas não está expresso — pode ser identificado pelo contexto/desinência. Ex.: "(Eu) Estudei muito." INDETERMINADO: não se sabe quem é — não pode ser identificado. Ex.: "Roubaram minha bolsa." (3ª pessoa do plural sem sujeito expresso) ou "Precisa-se de médicos" (3ª pessoa do singular + SE). INEXISTENTE: não há sujeito — verbos impessoais (haver = existir, fazer = tempo, fenômenos da natureza). Ex.: "Havia muitos alunos"; "Faz cinco anos"; "Choveu ontem".',
+    dificuldade: 3,
+    tags: ['sujeito']
+  },
+  {
+    id: 'F-PT-07-0003',
+    moduloId: 'PT-07',
+    topicoId: 'PT-07',
+    frente: 'Qual a diferença entre ADJUNTO ADNOMINAL e COMPLEMENTO NOMINAL?',
+    verso: 'ADJUNTO ADNOMINAL: caracteriza SUBSTANTIVO — indica posse, qualidade, quantidade. Ex.: "O meu carro novo" (meu, novo). COMPLEMENTO NOMINAL: completa NOME (substantivo abstrato, adjetivo ou advérbio) com preposição, indicando alvo/paciente. Ex.: "O medo de altura"; "A obediência aos pais". Teste: se completa o sentido do nome, é complemento nominal; se apenas caracteriza, é adjunto.',
+    dificuldade: 3,
+    tags: ['adjunto adnominal', 'complemento nominal']
+  },
+
+  /* ============================================================
+     PT-10 — Regência Verbal, Regência Nominal e Crase
+  ============================================================ */
+  {
+    id: 'F-PT-10-0001',
+    moduloId: 'PT-10',
+    topicoId: 'PT-10',
+    frente: 'Quando usar CRASE? Cite os casos obrigatórios, proibidos e facultativos.',
+    verso: 'OBRIGATÓRIA: antes de palavra feminina determinada por artigo ("Vou à escola"); antes de "aquele/aquela/aquilo" quando o termo regente pede A ("Referi-me àquele episódio"); em locuções femininas ("à noite", "à tarde", "às vezes"). PROIBIDA: antes de palavra masculina ("a pé"); antes de verbo ("começou a chover"); antes de nome de cidade sem artigo ("Vou a Brasília"); antes de pronome indefinido; antes de "casa" (= lar); antes de "terra" (= chão firme); palavras repetidas ("cara a cara"). FACULTATIVA: antes de nome próprio feminino ("Entreguei a/à Maria"); antes de possessivo feminino singular ("Refiro-me a/à minha mãe"); após "até".',
+    dificuldade: 3,
+    tags: ['crase']
+  },
+  {
+    id: 'F-PT-10-0002',
+    moduloId: 'PT-10',
+    topicoId: 'PT-10',
+    frente: 'Quais são os principais verbos com dupla regência (e como usar cada uma)?',
+    verso: 'ASSISTIR: (= ver) → a ("Assisti ao filme") / (= ajudar) → sem preposição ("Assisti o paciente"). ASPIRAR: (= desejar) → a ("Aspiro ao cargo") / (= respirar) → sem preposição ("Aspirei o perfume"). VISAR: (= pretender) → a ("Viso ao sucesso") / (= assinar) → sem preposição ("Visei o documento"). IMPLICAR: (= acarretar) → sem preposição ("O excesso implica riscos") / (= envolver-se) → em ("Implicou-se em confusão"). ESQUECER/LEMBRAR: pronominal → de ("Esqueci-me de você") / não pronominal → sem preposição ("Esqueci seu nome").',
+    dificuldade: 3,
+    tags: ['regência verbal']
+  },
+  {
+    id: 'F-PT-10-0003',
+    moduloId: 'PT-10',
+    topicoId: 'PT-10',
+    frente: 'Qual é o teste da palavra masculina para saber quando há crase?',
+    verso: 'TESTE: substitua o termo feminino por um masculino. Se aparecer "AO", há crase; se aparecer "O", não há. Ex.: "Vou à escola" → "Vou ao colégio" → tem crase. "Vou a São Paulo" → (São Paulo não admite artigo). "Entreguei a Maria" → "Entreguei a Pedro"? Neste caso, o "a" é apenas preposição — sem artigo, não há crase. O teste ajuda a evitar erros em regência e crase.',
+    dificuldade: 3,
+    tags: ['crase', 'teste']
   }
 
 ];
