@@ -2032,7 +2032,7 @@ window.QUESTIONS = [
     gabarito: 'B',
     explicacao: {
       correta: '"CAFÉ" (ca-fé): última sílaba tônica = OXÍTONA. "FÁCIL" (fá-cil): penúltima tônica = PAROXÍTONA. "ÁRVORE" (ár-vo-re): antepenúltima tônica = PROPAROXÍTONA.',
-      incorretas: { A, C, D: Invertem as classificações.' },
+      incorretas: { A: 'Invertem as classificações.', C: 'Invertem as classificações.', D: 'Invertem as classificações.' },
       conceitoCobrado: 'Classificação quanto à posição da sílaba tônica.',
       pegadinha: 'Confundir as três classificações.',
       comoApareceEmConcurso: 'Pré-requisito para acentuação.'
