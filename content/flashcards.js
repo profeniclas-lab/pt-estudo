@@ -389,6 +389,68 @@ window.FLASHCARDS = [
     verso: 'TESTE: substitua o termo feminino por um masculino. Se aparecer "AO", há crase; se aparecer "O", não há. Ex.: "Vou à escola" → "Vou ao colégio" → tem crase. "Vou a São Paulo" → (São Paulo não admite artigo). "Entreguei a Maria" → "Entreguei a Pedro"? Neste caso, o "a" é apenas preposição — sem artigo, não há crase. O teste ajuda a evitar erros em regência e crase.',
     dificuldade: 3,
     tags: ['crase', 'teste']
+  },
+
+  /* ============================================================
+     PT-06 — Verbos e Pronomes
+  ============================================================ */
+  {
+    id: 'F-PT-06-0001',
+    moduloId: 'PT-06',
+    topicoId: 'PT-06',
+    frente: 'Qual a diferença entre os modos INDICATIVO, SUBJUNTIVO e IMPERATIVO?',
+    verso: 'INDICATIVO: expressa certeza, fato real. Ex.: "Ele estuda." SUBJUNTIVO: expressa dúvida, hipótese, desejo. Ex.: "Espero que ele estude." IMPERATIVO: expressa ordem, pedido, conselho. Ex.: "Estude mais!" O modo revela a atitude do falante diante do fato.',
+    dificuldade: 2,
+    tags: ['verbos', 'modos']
+  },
+  {
+    id: 'F-PT-06-0002',
+    moduloId: 'PT-06',
+    topicoId: 'PT-06',
+    frente: 'Quais são as regras de COLOCAÇÃO PRONOMINAL (próclise, mesóclise, ênclise)?',
+    verso: 'PRÓCLISE (antes do verbo): obrigatória com palavras atrativas — não, nunca, jamais, que, se, advérbios, pronomes indefinidos. Ex.: "Não me diga isso." MESÓCLISE (no meio): com futuro do presente/pretérito e SEM palavras atrativas. Ex.: "Dir-te-ei a verdade." ÊNCLISE (depois do verbo): imperativo afirmativo, infinitivo, gerúndio e início de frase. Ex.: "Diga-me"; "Ao sair, avise-me".',
+    dificuldade: 3,
+    tags: ['colocação pronominal']
+  },
+  {
+    id: 'F-PT-06-0003',
+    moduloId: 'PT-06',
+    topicoId: 'PT-06',
+    frente: 'Quais são as três VOZES VERBAIS e como identificá-las?',
+    verso: 'ATIVA: sujeito PRATICA a ação. Ex.: "O menino quebrou o vidro." PASSIVA ANALÍTICA: sujeito SOFRE a ação — verbo auxiliar (ser/estar) + particípio. Ex.: "O vidro foi quebrado pelo menino." PASSIVA SINTÉTICA: verbo + SE apassivador. Ex.: "Vendeu-se a casa." REFLEXIVA: sujeito pratica E sofre a ação. Ex.: "O menino feriu-se."',
+    dificuldade: 3,
+    tags: ['vozes verbais']
+  },
+
+  /* ============================================================
+     PT-12 — Reescrita e Equivalência de Frases
+  ============================================================ */
+  {
+    id: 'F-PT-12-0001',
+    moduloId: 'PT-12',
+    topicoId: 'PT-12',
+    frente: 'Como resolver questões de reescrita que pedem "manter o sentido E a correção gramatical"?',
+    verso: 'SEMPRE verifique DUAS coisas: (1) se o sentido original foi mantido (conectores, tempos verbais, posição dos termos, presença de todas as informações); (2) se não há erro gramatical (vírgula entre sujeito e verbo, "haviam" por "havia", concordância, regência, colocação pronominal). A banca coloca armadilhas DUPLAS: alternativas que mantêm o sentido mas têm erro gramatical, ou corretas mas com sentido alterado.',
+    dificuldade: 3,
+    tags: ['reescrita', 'estratégia']
+  },
+  {
+    id: 'F-PT-12-0002',
+    moduloId: 'PT-12',
+    topicoId: 'PT-12',
+    frente: 'Como transformar DISCURSO DIRETO em INDIRETO?',
+    verso: 'No discurso indireto, faça os ajustes: (1) PRONOMES — 1ª pessoa vira 3ª. "Eu vou" → "ele iria". (2) TEMPOS VERBAIS — presente vira pretérito imperfeito; futuro do presente vira futuro do pretérito. (3) ADVÉRBIOS DE TEMPO E LUGAR — "hoje" → "naquele dia"; "amanhã" → "no dia seguinte"; "aqui" → "ali". Ex.: "Ele disse: — Vou viajar amanhã." → "Ele disse que iria viajar no dia seguinte."',
+    dificuldade: 3,
+    tags: ['discurso indireto']
+  },
+  {
+    id: 'F-PT-12-0003',
+    moduloId: 'PT-12',
+    topicoId: 'PT-12',
+    frente: 'O que é PARALELISMO e por que ele importa na reescrita?',
+    verso: 'PARALELISMO: manter a mesma estrutura gramatical nas partes equivalentes de uma frase — especialmente em enumerações. Ex.: "Ele gosta de ler, escrever e descansar" (todos no infinitivo, com a mesma preposição). Erros: "Ele gosta de ler, escrever e de descansar" (repetiu "de"); "Ele gosta de ler, escreve e descansar" (misturou infinitivo com forma conjugada). O paralelismo evita ambiguidade e melhora a clareza.',
+    dificuldade: 3,
+    tags: ['paralelismo', 'reescrita']
   }
 
 ];
