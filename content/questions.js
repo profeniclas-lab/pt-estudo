@@ -1805,6 +1805,391 @@ window.QUESTIONS = [
       comoApareceEmConcurso: 'Cobrança em reescrita.'
     },
     tags: ['paralelismo']
-  }
+  },
+  /* ============================================================
+     PT-13 — Formação e Estrutura das Palavras (CONDICIONAL)
+     ============================================================ */
+  {
+    id: 'Q-DID-PT-1301',
+    tipo: 'DIDATICA',
+    area: 'LEXI',
+    moduloId: 'PT-13',
+    subtema: 'Processos de formação',
+    dificuldade: 2,
+    prioridade: 'condicional',
+    enunciado: 'A palavra "deslealdade" (des + leal + dade) é formada por:',
+    alternativas: [
+      { id: 'A', texto: 'Derivação prefixal.' },
+      { id: 'B', texto: 'Derivação sufixal.' },
+      { id: 'C', texto: 'Derivação prefixal e sufixal, pois existem "desleal" e "lealdade" isoladamente.' },
+      { id: 'D', texto: 'Derivação parassintética, pois tem prefixo e sufixo.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: '"Deslealdade" é PREFIXAL E SUFIXAL: o prefixo ("des-") e o sufixo ("-dade") podem existir independentemente — existem "desleal" e "lealdade".',
+      incorretas: { A: 'Só prefixal seria se não houvesse sufixo.', B: 'Só sufixal seria se não houvesse prefixo.', D: 'Parassintética exigiria que nem "desleal" nem "lealdade" existissem isoladamente.' },
+      conceitoCobrado: 'Distinção entre derivação prefixal e sufixal e derivação parassintética.',
+      pegadinha: 'Achar que todo prefixo + sufixo é parassintética.',
+      comoApareceEmConcurso: 'Cobrança direta em formação de palavras.'
+    },
+    tags: ['derivação', 'prefixal e sufixal']
+  },
+  {
+    id: 'Q-DID-PT-1302',
+    tipo: 'DIDATICA',
+    area: 'LEXI',
+    moduloId: 'PT-13',
+    subtema: 'Derivação parassintética',
+    dificuldade: 3,
+    prioridade: 'condicional',
+    enunciado: 'A palavra "amanhecer" é formada por:',
+    alternativas: [
+      { id: 'A', texto: 'Derivação prefixal e sufixal.' },
+      { id: 'B', texto: 'Derivação parassintética, pois prefixo e sufixo são dependentes — não existem "amanhe" nem "manhecer".' },
+      { id: 'C', texto: 'Composição por justaposição.' },
+      { id: 'D', texto: 'Derivação imprópria.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: '"Amanhecer" é PARASSINTÉTICA: o prefixo ("a-") e o sufixo ("-ecer") são adicionados SIMULTANEAMENTE. Teste: nem "amanhe" nem "manhecer" existem isoladamente.',
+      incorretas: { A: 'Prefixal e sufixal exigiria formas intermediárias.', C: 'Composição uniria dois radicais.', D: 'Imprópria muda a classe sem alterar a forma.' },
+      conceitoCobrado: 'Aplicação do teste de retirada para distinguir parassintética de prefixal-sufixal.',
+      pegadinha: 'Confundir os dois tipos de derivação.',
+      comoApareceEmConcurso: 'Pegadinha clássica em formação de palavras.'
+    },
+    tags: ['parassintética', 'derivação']
+  },
+  {
+    id: 'Q-DID-PT-1303',
+    tipo: 'DIDATICA',
+    area: 'LEXI',
+    moduloId: 'PT-13',
+    subtema: 'Composição',
+    dificuldade: 2,
+    prioridade: 'condicional',
+    enunciado: 'Assinale a alternativa que apresenta apenas palavras formadas por COMPOSIÇÃO POR AGLUTINAÇÃO:',
+    alternativas: [
+      { id: 'A', texto: 'passatempo, guarda-roupa, girassol.' },
+      { id: 'B', texto: 'planalto, aguardente, pernalta.' },
+      { id: 'C', texto: 'refazer, desleal, infeliz.' },
+      { id: 'D', texto: 'entardecer, amanhecer, esfriar.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'AGLUTINAÇÃO: os radicais se unem com ALTERAÇÃO fonética. "Planalto" (plano + alto), "aguardente" (água + ardente), "pernalta" (perna + alta).',
+      incorretas: { A: 'São justaposição (sem alteração).', C: 'São derivação prefixal/sufixal.', D: 'São parassintéticas.' },
+      conceitoCobrado: 'Justaposição x aglutinação.',
+      pegadinha: 'Confundir os dois tipos de composição.',
+      comoApareceEmConcurso: 'Cobrança direta.'
+    },
+    tags: ['composição', 'aglutinação']
+  },
+  {
+    id: 'Q-DID-PT-1304',
+    tipo: 'DIDATICA',
+    area: 'LEXI',
+    moduloId: 'PT-13',
+    subtema: 'Derivação regressiva e imprópria',
+    dificuldade: 3,
+    prioridade: 'condicional',
+    enunciado: 'A palavra "combate" (do verbo "combater") e a palavra "jantar" em "O jantar está pronto" (do verbo "jantar") são formadas, respectivamente, por:',
+    alternativas: [
+      { id: 'A', texto: 'Derivação regressiva e derivação imprópria.' },
+      { id: 'B', texto: 'Derivação imprópria e derivação regressiva.' },
+      { id: 'C', texto: 'Parassíntese em ambos os casos.' },
+      { id: 'D', texto: 'Composição em ambos os casos.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: '"COMBATE" é derivação REGRESSIVA (retira-se parte da palavra — o sufixo do verbo). "JANTAR" como substantivo é derivação IMPRÓPRIA (muda de classe gramatical sem alteração de forma).',
+      incorretas: { B: 'Inverte os conceitos.', C: 'Parassíntese exige prefixo + sufixo dependentes.', D: 'Composição une dois radicais.' },
+      conceitoCobrado: 'Derivação regressiva x imprópria.',
+      pegadinha: 'Confundir os dois processos.',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['regressiva', 'imprópria']
+  },
+  {
+    id: 'Q-DID-PT-1305',
+    tipo: 'DIDATICA',
+    area: 'LEXI',
+    moduloId: 'PT-13',
+    subtema: 'Efeitos de prefixos',
+    dificuldade: 2,
+    prioridade: 'condicional',
+    enunciado: 'O prefixo "in-" em "infeliz" e o prefixo "re-" em "refazer" indicam, respectivamente, ideias de:',
+    alternativas: [
+      { id: 'A', texto: 'Movimento para dentro e negação.' },
+      { id: 'B', texto: 'Negação e repetição.' },
+      { id: 'C', texto: 'Excesso e escassez.' },
+      { id: 'D', texto: 'Antes e depois.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: '"IN-" em "infeliz" indica NEGAÇÃO. "RE-" em "refazer" indica REPETIÇÃO. Os prefixos têm valores semânticos próprios e a banca cobra esses efeitos.',
+      incorretas: { A: 'Inverte os valores.', C: 'Excesso/escassez seria "hiper-" e "hipo-".', D: 'Antes/depois seria "pré-" e "pós-".' },
+      conceitoCobrado: 'Efeitos de sentido dos prefixos.',
+      pegadinha: 'Achar que todo prefixo só muda a classe.',
+      comoApareceEmConcurso: 'Cobrança de semântica aplicada à morfologia.'
+    },
+    tags: ['prefixos', 'sentido']
+  },
 
+  /* ============================================================
+     PT-14 — Fonética, Fonologia e Divisão Silábica (CONDICIONAL)
+     ============================================================ */
+  {
+    id: 'Q-DID-PT-1401',
+    tipo: 'DIDATICA',
+    area: 'ORTO',
+    moduloId: 'PT-14',
+    subtema: 'Fonema, letra e sílaba',
+    dificuldade: 2,
+    prioridade: 'condicional',
+    enunciado: 'Assinale a alternativa em que o número de FONEMAS corresponde corretamente ao número de LETRAS:',
+    alternativas: [
+      { id: 'A', texto: '"hora" (4 letras, 4 fonemas).' },
+      { id: 'B', texto: '"guerra" (6 letras, 6 fonemas).' },
+      { id: 'C', texto: '"casa" (4 letras, 4 fonemas).' },
+      { id: 'D', texto: '"táxi" (4 letras, 4 fonemas).' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: '"CASA": 4 letras, 4 fonemas (/c/, /a/, /s/, /a/). Correspondência perfeita.',
+      incorretas: { A: '"Hora" tem 4 letras e 3 fonemas (o "h" é mudo).', B: '"Guerra" tem 6 letras e 4 fonemas ("gu" e "rr" são dígrafos).', D: '"Táxi" tem 4 letras e 5 fonemas ("x" = /ks/).' },
+      conceitoCobrado: 'Diferença entre letra e fonema.',
+      pegadinha: 'Contar letras como se fossem fonemas.',
+      comoApareceEmConcurso: 'Cobrança clássica.'
+    },
+    tags: ['fonema', 'letra']
+  },
+  {
+    id: 'Q-DID-PT-1402',
+    tipo: 'DIDATICA',
+    area: 'ORTO',
+    moduloId: 'PT-14',
+    subtema: 'Dígrafos',
+    dificuldade: 2,
+    prioridade: 'condicional',
+    enunciado: 'Assinale a alternativa em que TODAS as palavras apresentam DÍGRAFOS:',
+    alternativas: [
+      { id: 'A', texto: 'cravo, plano, blusa.' },
+      { id: 'B', texto: 'chave, palha, sonho.' },
+      { id: 'C', texto: 'casa, bola, dado.' },
+      { id: 'D', texto: 'táxi, boxe, fixo.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: '"CHAVE" (ch), "PALHA" (lh), "SONHO" (nh) — cada par de letras representa UM ÚNICO som. São dígrafos.',
+      incorretas: { A: 'São encontros consonantais — dois sons distintos.', C: 'Não há dígrafos.', D: '"X" representa dois fonemas (ks) em "táxi" e "boxe" — é encontro consonantal sonoro, não dígrafo.' },
+      conceitoCobrado: 'Dígrafo x encontro consonantal.',
+      pegadinha: 'Confundir os dois conceitos.',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['dígrafos']
+  },
+  {
+    id: 'Q-DID-PT-1403',
+    tipo: 'DIDATICA',
+    area: 'ORTO',
+    moduloId: 'PT-14',
+    subtema: 'Encontros vocálicos',
+    dificuldade: 2,
+    prioridade: 'condicional',
+    enunciado: 'Nas palavras "pai", "saúde" e "Uruguai", os encontros vocálicos são, respectivamente:',
+    alternativas: [
+      { id: 'A', texto: 'Hiato, ditongo e tritongo.' },
+      { id: 'B', texto: 'Ditongo, hiato e tritongo.' },
+      { id: 'C', texto: 'Tritongo, ditongo e hiato.' },
+      { id: 'D', texto: 'Ditongo, tritongo e hiato.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: '"PAI": duas vogais na mesma sílaba = DITONGO. "SAÚDE": vogais em sílabas separadas (sa-ú-de) = HIATO. "URUGUAI": três vogais na mesma sílaba (U-ru-guai) = TRITONGO.',
+      incorretas: { A: 'Inverte tudo.', C: 'Inverte tudo.', D: 'Troca a ordem.' },
+      conceitoCobrado: 'Ditongo, hiato e tritongo.',
+      pegadinha: 'Confundir ditongo com hiato.',
+      comoApareceEmConcurso: 'Cobrança direta.'
+    },
+    tags: ['ditongo', 'hiato', 'tritongo']
+  },
+  {
+    id: 'Q-DID-PT-1404',
+    tipo: 'DIDATICA',
+    area: 'ORTO',
+    moduloId: 'PT-14',
+    subtema: 'Classificação quanto à tonicidade',
+    dificuldade: 2,
+    prioridade: 'condicional',
+    enunciado: 'Assinale a alternativa que classifica CORRETAMENTE as palavras "café", "fácil" e "árvore" quanto à tonicidade:',
+    alternativas: [
+      { id: 'A', texto: 'Paroxítona, oxítona e proparoxítona.' },
+      { id: 'B', texto: 'Oxítona, paroxítona e proparoxítona.' },
+      { id: 'C', texto: 'Proparoxítona, paroxítona e oxítona.' },
+      { id: 'D', texto: 'Oxítona, oxítona e proparoxítona.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: '"CAFÉ" (ca-fé): última sílaba tônica = OXÍTONA. "FÁCIL" (fá-cil): penúltima tônica = PAROXÍTONA. "ÁRVORE" (ár-vo-re): antepenúltima tônica = PROPAROXÍTONA.',
+      incorretas: { A, C, D: Invertem as classificações.' },
+      conceitoCobrado: 'Classificação quanto à posição da sílaba tônica.',
+      pegadinha: 'Confundir as três classificações.',
+      comoApareceEmConcurso: 'Pré-requisito para acentuação.'
+    },
+    tags: ['tonicidade', 'oxítona', 'paroxítona']
+  },
+  {
+    id: 'Q-DID-PT-1405',
+    tipo: 'DIDATICA',
+    area: 'ORTO',
+    moduloId: 'PT-14',
+    subtema: 'Divisão silábica',
+    dificuldade: 3,
+    prioridade: 'condicional',
+    enunciado: 'Assinale a alternativa em que a divisão silábica está CORRETA:',
+    alternativas: [
+      { id: 'A', texto: 'cons-tru-ção, ad-vo-ga-do.' },
+      { id: 'B', texto: 'co-ns-tru-ção, a-dvo-ga-do.' },
+      { id: 'C', texto: 'cons-truç-ão, adv-oga-do.' },
+      { id: 'D', texto: 'con-stru-ção, ad-voga-do.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: '"CONS-TRU-ÇÃO": o "ns" fica com a primeira sílaba; o "tr" fica junto (encontro consonantal). "AD-VO-GA-DO": o "d" e o "v" se separam, pois pertencem a sílabas diferentes.',
+      incorretas: { B: 'Não se separa "con-stru" dessa forma.', C: 'Não se separa "ção" como "ç-ão".', D: 'Erros de divisão.' },
+      conceitoCobrado: 'Divisão silábica — encontros consonantais.',
+      pegadinha: 'Separar consoantes que devem ficar juntas.',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['divisão silábica']
+  },
+
+  /* ============================================================
+     PT-15 — Redação Oficial e Comunicação Administrativa (CONDICIONAL)
+     ============================================================ */
+  {
+    id: 'Q-DID-PT-1501',
+    tipo: 'DIDATICA',
+    area: 'OFIC',
+    moduloId: 'PT-15',
+    subtema: 'Princípios da redação oficial',
+    dificuldade: 2,
+    prioridade: 'condicional',
+    enunciado: 'Sobre os princípios da redação oficial, assinale a alternativa CORRETA:',
+    alternativas: [
+      { id: 'A', texto: 'Impessoalidade significa escrever de forma fria e sem cordialidade.' },
+      { id: 'B', texto: 'Clareza e concisão são princípios que se complementam: o texto deve ser compreendido sem esforço e dizer o máximo com o mínimo de palavras.' },
+      { id: 'C', texto: 'Formalidade significa usar jargões técnicos e vocabulário difícil.' },
+      { id: 'D', texto: 'A redação oficial admite o uso de primeira pessoa, pois o servidor assina o documento.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'CLAREZA e CONCISÃO são complementares: o texto oficial deve ser compreensível e econômico em palavras.',
+      incorretas: { A: 'Impessoalidade NÃO é frieza — o texto pode ser cordial.', C: 'Formalidade é uso do padrão culto, não jargão.', D: 'A redação oficial é IMPESSOAL — não há primeira pessoa.' },
+      conceitoCobrado: 'Princípios da redação oficial.',
+      pegadinha: 'Confundir impessoalidade com frieza.',
+      comoApareceEmConcurso: 'Cobrança frequente.'
+    },
+    tags: ['redação oficial', 'princípios']
+  },
+  {
+    id: 'Q-DID-PT-1502',
+    tipo: 'DIDATICA',
+    area: 'OFIC',
+    moduloId: 'PT-15',
+    subtema: 'Ofício x memorando',
+    dificuldade: 2,
+    prioridade: 'condicional',
+    enunciado: 'Sobre a diferença entre ofício e memorando, é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'O ofício é usado na comunicação INTERNA; o memorando, na comunicação EXTERNA.' },
+      { id: 'B', texto: 'O ofício é usado na comunicação EXTERNA (entre órgãos diferentes ou destes para particulares); o memorando, na comunicação INTERNA (entre unidades do mesmo órgão).' },
+      { id: 'C', texto: 'Ambos têm a mesma finalidade e estrutura.' },
+      { id: 'D', texto: 'O memorando é mais solene que o ofício.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'OFÍCIO: comunicação EXTERNA, mais solene. MEMORANDO: comunicação INTERNA, mais simples e direta.',
+      incorretas: { A: 'Inverte os conceitos.', C: 'Têm finalidades e estruturas distintas.', D: 'O ofício é mais solene.' },
+      conceitoCobrado: 'Ofício x memorando.',
+      pegadinha: 'Inverter os conceitos.',
+      comoApareceEmConcurso: 'Cobrança clássica.'
+    },
+    tags: ['ofício', 'memorando']
+  },
+  {
+    id: 'Q-DID-PT-1503',
+    tipo: 'DIDATICA',
+    area: 'OFIC',
+    moduloId: 'PT-15',
+    subtema: 'Tratamento',
+    dificuldade: 2,
+    prioridade: 'condicional',
+    enunciado: 'Para se dirigir a um Ministro de Estado, o tratamento adequado é:',
+    alternativas: [
+      { id: 'A', texto: 'Vossa Senhoria.' },
+      { id: 'B', texto: 'Vossa Excelência.' },
+      { id: 'C', texto: 'Vossa Magnificência.' },
+      { id: 'D', texto: 'Vossa Eminência.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'Ministros de Estado são ALTAS AUTORIDADES — usam VOSSA EXCELÊNCIA (V. Exa.).',
+      incorretas: { A: 'Vossa Senhoria é para demais autoridades e particulares.', C: 'Vossa Magnificência é para Reitores de universidades.', D: 'Vossa Eminência é para Cardeais.' },
+      conceitoCobrado: 'Pronomes de tratamento.',
+      pegadinha: 'Trocar os pronomes.',
+      comoApareceEmConcurso: 'Cobrança frequente em redação oficial.'
+    },
+    tags: ['tratamento', 'Vossa Excelência']
+  },
+  {
+    id: 'Q-DID-PT-1504',
+    tipo: 'DIDATICA',
+    area: 'OFIC',
+    moduloId: 'PT-15',
+    subtema: 'Fecho',
+    dificuldade: 2,
+    prioridade: 'condicional',
+    enunciado: 'O fecho "Respeitosamente" é adequado para:',
+    alternativas: [
+      { id: 'A', texto: 'Autoridades de mesma hierarquia.' },
+      { id: 'B', texto: 'Autoridades superiores.' },
+      { id: 'C', texto: 'Autoridades inferiores.' },
+      { id: 'D', texto: 'Particulares em geral.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: '"RESPEITOSAMENTE" é usado para autoridades SUPERIORES. "ATENCIOSAMENTE" é usado para autoridades de mesma hierarquia ou inferiores.',
+      incorretas: { A: 'Mesma hierarquia → "Atenciosamente".', C: 'Inferiores → "Atenciosamente".', D: 'Particulares → "Atenciosamente".' },
+      conceitoCobrado: 'Fecho de comunicação oficial.',
+      pegadinha: 'Trocar os fechos.',
+      comoApareceEmConcurso: 'Cobrança frequente.'
+    },
+    tags: ['fecho', 'Respeitosamente']
+  },
+  {
+    id: 'Q-DID-PT-1505',
+    tipo: 'DIDATICA',
+    area: 'OFIC',
+    moduloId: 'PT-15',
+    subtema: 'Estrutura do padrão ofício',
+    dificuldade: 3,
+    prioridade: 'condicional',
+    enunciado: 'Sobre a estrutura do padrão ofício (Manual de Redação da Presidência da República), assinale a alternativa CORRETA:',
+    alternativas: [
+      { id: 'A', texto: 'O ofício não precisa de vocativo nem de fecho.' },
+      { id: 'B', texto: 'O padrão ofício inclui: tipo e número, local e data, destinatário, assunto, vocativo, texto, fecho, assinatura e identificação do remetente.' },
+      { id: 'C', texto: 'O ofício deve ser escrito em primeira pessoa para dar credibilidade.' },
+      { id: 'D', texto: 'O fecho é opcional em qualquer comunicação oficial.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'O PADRÃO OFÍCIO (Manual da Presidência) tem estrutura definida: tipo e número, local e data, destinatário, assunto, vocativo, texto, fecho, assinatura e identificação.',
+      incorretas: { A: 'Vocativo e fecho são partes essenciais.', C: 'Redação oficial é IMPESSOAL.', D: 'O fecho é elemento estrutural.' },
+      conceitoCobrado: 'Estrutura do padrão ofício.',
+      pegadinha: 'Não conhecer a estrutura completa.',
+      comoApareceEmConcurso: 'Cobrança em concursos federais.'
+    },
+    tags: ['ofício', 'estrutura', 'Manual da Presidência']
+  },
 ];
