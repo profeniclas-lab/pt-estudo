@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <!--
 Aplicativo: PT-ESTUDO — Portugues para Concursos
-Versao: 1.0
+Versao: 1.1
 Fase: 1
 Status: funcional
+Changelog v1.1:
+- Modulo considerado CONCLUIDO apenas quando aula lida E diagnostico 100%
+- Sai automaticamente das sugestoes do Dashboard
+- Badge "Dominado" no card do modulo
+- Mensagem de parabens quando todos os modulos sao concluidos
 Changelog v1.0 (Fase 1):
 - Shell rebrandeado para Portugues
 - 16 modulos cadastrados (PT-01 a PT-16) em 6 blocos
 - Prioridades: muito_alta, alta, media, condicional
-- Aulas, diagnosticos, questoes e flashcards a serem preenchidos nas fases seguintes
 -->
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>PT-ESTUDO v1.0 — Português</title>
+<title>PT-ESTUDO v1.1 — Português</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   :root {
@@ -434,7 +438,7 @@ Changelog v1.0 (Fase 1):
         <span class="brand-sub">Português para Concursos</span>
       </div>
       <div class="header-spacer"></div>
-      <span class="version-badge" id="appVersionBadge">v1.0</span>
+      <span class="version-badge" id="appVersionBadge">v1.1</span>
     </header>
 
     <aside class="sidebar" id="sidebar">
@@ -485,7 +489,7 @@ Changelog v1.0 (Fase 1):
   /* ============================================================
      CONSTANTES
   ============================================================ */
-  var APP_VERSION = '1.0';
+  var APP_VERSION = '1.1';
   var SCHEMA_VERSION = 1;
   var STORAGE_KEY = 'ptEstudo.state';
 
@@ -604,6 +608,38 @@ Changelog v1.0 (Fase 1):
     if (AppState.modules[modId].diagnostico === undefined) AppState.modules[modId].diagnostico = null;
     return AppState.modules[modId];
   }
+
+  /* ============================================================
+     CONCLUSÃO DE MÓDULO
+     Regra: módulo é concluído quando:
+       (a) A aula está marcada como lida (se houver aula cadastrada), E
+       (b) O diagnóstico atingiu domínio estimado de 100%.
+     Se o módulo não tiver aula cadastrada, basta o domínio 100%.
+  ============================================================ */
+  function isModuleConcluido(modId) {
+    var st = getModuleUserState(modId);
+    if (st.status === 'concluido') return true;
+    var lesson = getLessonByModuleId(modId);
+    var aulaLida = !lesson || (st.aulasLidas || []).indexOf(lesson.id) !== -1;
+    var dominio100 = (st.dominioEstimado || 0) >= 1;
+    return aulaLida && dominio100;
+  }
+  function checkModuleCompletion(modId) {
+    var st = getModuleUserState(modId);
+    var lesson = getLessonByModuleId(modId);
+    var aulaLida = !lesson || (st.aulasLidas || []).indexOf(lesson.id) !== -1;
+    var dominio100 = (st.dominioEstimado || 0) >= 1;
+    if (aulaLida && dominio100) {
+      st.status = 'concluido';
+    } else if (st.status === 'concluido') {
+      st.status = 'em_estudo';
+    } else if (st.status === 'nao_iniciado') {
+      if ((st.aulasLidas && st.aulasLidas.length > 0) || st.diagnostico) {
+        st.status = 'em_estudo';
+      }
+    }
+  }
+
   function getQuestionUserState(qid) {
     if (!AppState.questions[qid]) {
       AppState.questions[qid] = {
@@ -1237,11 +1273,6 @@ Changelog v1.0 (Fase 1):
   function renderDashboard() {
     var stats = AppState.stats;
     var taxa = stats.questoesRespondidas > 0 ? Math.round((stats.acertos / stats.questoesRespondidas) * 100) : 0;
-    var totalModulos = MODULES.length;
-    var emEstudo = 0, concluidos = 0;
-    for (var i = 0; i < MODULES.length; i++) { var st = getModuleUserState(MODULES[i].id); if (st.status === 'em_estudo') emEstudo++; if (st.status === 'concluido') concluidos++; }
-    var diagFeitos = 0;
-    for (var d = 0; d < MODULES.length; d++) { var dst = AppState.modules[MODULES[d].id]; if (dst && dst.diagnostico) diagFeitos++; }
     var qReal = qRealCount(), qDid = qDidCount();
     var dueN = countDueAll();
     var errN = countErrorsAll();
@@ -1261,14 +1292,14 @@ Changelog v1.0 (Fase 1):
     if (errN > 0) {
       sugestoes.push({ tipo: 'erros', titulo: 'Erros em aberto', descricao: errN + ' questão(ões) com erro aguardando revisão dedicada.' });
     }
+    // NOVO: usa isModuleConcluido() em vez de checar status diretamente
     var ordemSugestao = ['muito_alta', 'alta', 'media', 'condicional'];
     for (var os = 0; os < ordemSugestao.length && sugestoes.length < 4; os++) {
       for (var j = 0; j < MODULES.length && sugestoes.length < 4; j++) {
         var m = MODULES[j];
         if (m.prioridade !== ordemSugestao[os]) continue;
         if (!getDiagnosticByModuleId(m.id) && !getLessonByModuleId(m.id)) continue;
-        var ms = getModuleUserState(m.id);
-        if (ms.status === 'concluido') continue;
+        if (isModuleConcluido(m.id)) continue;
         sugestoes.push({ tipo: 'modulo', modulo: m });
       }
     }
@@ -1288,8 +1319,17 @@ Changelog v1.0 (Fase 1):
     html += '</div>';
 
     html += '<h2 class="section-title">O que estudar hoje?</h2>';
-    if (sugestoes.length === 0) html += '<div class="notice"><strong>Sem sugestões ainda.</strong> Comece pela aba <strong>Módulos</strong>.</div>';
-    else {
+    if (sugestoes.length === 0) {
+      var totalConcluidos = 0;
+      for (var mc = 0; mc < MODULES.length; mc++) {
+        if (isModuleConcluido(MODULES[mc].id)) totalConcluidos++;
+      }
+      if (totalConcluidos === MODULES.length && MODULES.length > 0) {
+        html += '<div class="notice"><strong>🎉 Parabéns!</strong> Todos os ' + MODULES.length + ' módulos foram concluídos (aula lida + diagnóstico 100%). Mantenha as revisões e pratique simulados para consolidar o conhecimento.</div>';
+      } else {
+        html += '<div class="notice"><strong>Sem sugestões ainda.</strong> Comece pela aba <strong>Módulos</strong>.</div>';
+      }
+    } else {
       html += '<div class="module-list">';
       for (var sg_i = 0; sg_i < sugestoes.length; sg_i++) {
         var sg = sugestoes[sg_i];
@@ -1312,9 +1352,9 @@ Changelog v1.0 (Fase 1):
 
     html += '<h2 class="section-title">Aviso desta versão</h2>';
     html += '<div class="notice">' +
-      '<strong>PT-ESTUDO v1.0 — Fase 1.</strong> ' +
-      'Estrutura base com os 16 módulos de Português cadastrados em 6 blocos. ' +
-      'Aulas, diagnósticos, questões e flashcards estão sendo adicionados nas próximas fases.' +
+      '<strong>PT-ESTUDO v1.1.</strong> ' +
+      'Um módulo é considerado <strong>concluído</strong> quando a <strong>aula está marcada como lida</strong> E o <strong>diagnóstico atinge 100% de domínio</strong>. ' +
+      'Módulos concluídos saem automaticamente das sugestões acima.' +
       '</div>';
 
     html += footerHtml();
@@ -1358,6 +1398,10 @@ Changelog v1.0 (Fase 1):
     for (var i = 0; i < QUESTIONS.length; i++) if (QUESTIONS[i].moduloId === m.id) qCount++;
     var fcCount = fcByModule(m.id).length;
     var badges = '';
+    // NOVO: badge "Dominado" quando módulo está concluído
+    if (isModuleConcluido(m.id)) {
+      badges += '<span class="badge-pill badge-ok">✓ Dominado</span>';
+    }
     if (hasLesson) badges += '<span class="badge-pill badge-aula">Aula</span>';
     if (hasDiag) badges += '<span class="badge-pill badge-diag">Diagnóstico</span>';
     if (qCount > 0) badges += '<span class="badge-pill badge-real">' + qCount + ' q.</span>';
@@ -1391,6 +1435,8 @@ Changelog v1.0 (Fase 1):
     var chips = '';
     for (var i = 0; i < m.subtopicos.length; i++) chips += '<span class="subtopic-chip">' + esc(m.subtopicos[i]) + '</span>';
 
+    var concluido = isModuleConcluido(m.id);
+
     var html = '';
     html += '<button class="btn" data-nav="modulos" style="margin-bottom:16px;">← Voltar aos módulos</button>';
     html += '<h1 class="page-title">' + esc(m.id) + ' — ' + esc(m.titulo) + '</h1>';
@@ -1405,6 +1451,13 @@ Changelog v1.0 (Fase 1):
     else html += infoRow('Diagnóstico', '—');
     html += infoRow('Questões', moduleQuestions.length + ' cadastrada(s) · ' + qDone + ' vista(s)');
     html += infoRow('Flashcards', moduleFlashcards.length + ' cartão(ões) · ' + fcVistos + ' visto(s)');
+    // NOVO: aviso visual de módulo concluído
+    if (concluido) {
+      html += '<div class="info-row" style="background:var(--success-soft);border-radius:6px;padding:10px 12px;margin-top:6px;border-bottom:none;">';
+      html += '<span class="info-key" style="color:var(--success);font-weight:700;">✓ Módulo concluído</span>';
+      html += '<span class="info-val" style="color:var(--success);font-size:12px;">Aula lida + diagnóstico 100%</span>';
+      html += '</div>';
+    }
     html += '</div>';
 
     html += '<h2 class="section-title">Subtópicos</h2><div class="subtopic-list">' + chips + '</div>';
@@ -1647,6 +1700,9 @@ Changelog v1.0 (Fase 1):
     if (resumo.desconhecido > 0) html += '<strong>Prioridade alta.</strong> Você tem ' + resumo.desconhecido + ' subtópico(s) desconhecido(s). Estude a aula desde o início e refaça o diagnóstico.';
     else if (resumo.duvida > 0) html += '<strong>Reforço recomendado.</strong> ' + resumo.duvida + ' subtópico(s) em dúvida. Releia a aula e refaça este diagnóstico.';
     else html += '<strong>Bom desempenho.</strong> Todos os subtópicos foram classificados como conhecidos.';
+    // NOVO: indica status de conclusão
+    if (isModuleConcluido(moduleId)) html += ' <strong>Este módulo está concluído</strong> (aula lida + diagnóstico 100%).';
+    else if ((r.dominioEstimado || 0) >= 1 && getLessonByModuleId(moduleId) && !(st.aulasLidas || []).length) html += ' <strong>Falta marcar a aula como lida</strong> para o módulo ser concluído.';
     html += '</div>';
     html += '<div style="margin-top:16px;display:flex;gap:8px;flex-wrap:wrap;">';
     var lesson = getLessonByModuleId(moduleId);
@@ -3024,7 +3080,7 @@ Changelog v1.0 (Fase 1):
     html += '<div class="io-box" style="margin-top:14px;">';
     html += '<h3><span>📥</span> Importar backup completo</h3>';
     html += '<p>Cole abaixo o JSON gerado pelo botão acima. O progresso atual será substituído <strong>somente após sua confirmação</strong>.</p>';
-    html += '<textarea id="importFullStateTextarea" placeholder=\'{"exportedAt":"...","appVersion":"1.0","state":{...}}\'></textarea>';
+    html += '<textarea id="importFullStateTextarea" placeholder=\'{"exportedAt":"...","appVersion":"1.1","state":{...}}\'></textarea>';
     html += '<div class="io-actions">';
     html += '<button class="btn btn-primary" data-action="import-full-state">Validar e restaurar</button>';
     html += '</div>';
@@ -3061,17 +3117,18 @@ Changelog v1.0 (Fase 1):
     html += infoRow('Público-alvo', 'Concursos de nível médio (Administrativo / Técnico / Assistente)');
     html += infoRow('Base curricular', '16 módulos em 6 blocos (Leitura, Léxico, Ortografia, Sintaxe, Texto, Redação Oficial)');
     html += infoRow('Versão', 'PT-ESTUDO v' + APP_VERSION);
-    html += infoRow('Fase', '1 — Estrutura base e cadastro de módulos');
     html += infoRow('Schema de dados', 'v' + SCHEMA_VERSION);
     html += infoRow('Aulas cadastradas', Object.keys(LESSONS).length + ' / ' + MODULES.length);
     html += infoRow('Diagnósticos cadastrados', Object.keys(DIAGNOSTICS).length + ' / ' + MODULES.length);
     html += infoRow('Questões cadastradas', QUESTIONS.length + ' (' + qRealCount() + ' reais, ' + qDidCount() + ' didáticas)');
     html += infoRow('Flashcards cadastrados', FLASHCARDS.length);
     html += infoRow('Simulados', AppState.simulados.length);
+    html += infoRow('Regra de conclusão', 'Aula lida + diagnóstico com domínio 100%');
     html += infoRow('Modo', 'Offline — sem servidor ou IA externa');
     html += '</div>';
 
     html += '<h2 class="section-title">Changelog</h2><div class="info-list">';
+    html += infoRow('v1.1', 'Módulo considerado CONCLUÍDO apenas com aula lida + diagnóstico 100%. Sai automaticamente das sugestões. Badge "Dominado" no card. Mensagem de parabéns quando todos concluídos.');
     html += infoRow('v1.0 — Fase 1', 'Shell rebrandeado para Português. 16 módulos cadastrados em 6 blocos. Conteúdo extraído para arquivos externos.');
     html += '</div>';
 
@@ -3085,7 +3142,7 @@ Changelog v1.0 (Fase 1):
   }
 
   function footerHtml() {
-    return '<div class="app-footer"><span>PT-ESTUDO v' + esc(APP_VERSION) + ' · Fase 1</span><span>Offline · dados salvos neste navegador</span></div>';
+    return '<div class="app-footer"><span>PT-ESTUDO v' + esc(APP_VERSION) + '</span><span>Offline · dados salvos neste navegador</span></div>';
   }
 
   /* ============================================================
@@ -3115,7 +3172,8 @@ Changelog v1.0 (Fase 1):
     if (!Array.isArray(st.aulasLidas)) st.aulasLidas = [];
     if (st.aulasLidas.indexOf(lesson.id) === -1) st.aulasLidas.push(lesson.id);
     st.ultimaAtividade = new Date().toISOString();
-    if (st.status === 'nao_iniciado') st.status = 'em_estudo';
+    // NOVO: verifica se o módulo passa a estar concluído
+    checkModuleCompletion(lesson.moduloId);
     saveState();
     render();
   }
@@ -3279,7 +3337,8 @@ Changelog v1.0 (Fase 1):
     st.diagnostico = { diagId: diag.id, answers: Object.assign({}, diagRunning.answers), result: result, completedAt: result.completedAt, tentativas: (st.diagnostico && st.diagnostico.tentativas ? st.diagnostico.tentativas : 0) + 1 };
     st.dominioEstimado = result.dominioEstimado;
     st.ultimaAtividade = new Date().toISOString();
-    if (st.status === 'nao_iniciado') st.status = 'em_estudo';
+    // NOVO: verifica se o módulo passa a estar concluído (aula lida + domínio 100%)
+    checkModuleCompletion(moduleId);
     saveState();
     diagRunning.moduleId = null; diagRunning.answers = {}; diagRunning.itemIndex = 0;
     navigate('diag-resultado', { moduleId: moduleId });
