@@ -2192,6 +2192,929 @@ window.QUESTIONS = [
       comoApareceEmConcurso: 'Cobrança em concursos federais.'
     },
     tags: ['ofício', 'estrutura', 'Manual da Presidência']
-  }
+  },
+  /* ============================================================
+     NOVAS QUESTÕES — FONTE: Gran Concurso — Lote 2026-11-04
+     Módulos: PT-08 (Pontuação) e PT-04 (Ortografia)
+     IDs: Q-DID-PT-0807 a Q-DID-PT-0835 | Q-DID-PT-0406
+     ============================================================ */
+
+  /* ============================================================
+     PT-08 — Pontuação
+  ============================================================ */
+  {
+    id: 'Q-DID-PT-0807',
+    tipo: 'DIDATICA',
+    area: 'SINT',
+    moduloId: 'PT-08',
+    subtema: 'Oração adjetiva restritiva x explicativa',
+    dificuldade: 3,
+    prioridade: 'muito_alta',
+    enunciado: 'Assinale a alternativa em que a pontuação preserva corretamente o sentido de que nem todos os candidatos apresentaram a documentação completa:',
+    alternativas: [
+      { id: 'A', texto: 'Os candidatos, que apresentaram a documentação completa foram convocados, para a etapa seguinte.' },
+      { id: 'B', texto: 'Os candidatos, que apresentaram a documentação completa, foram convocados para a etapa seguinte.' },
+      { id: 'C', texto: 'Os candidatos que apresentaram a documentação completa foram convocados para a etapa seguinte.' },
+      { id: 'D', texto: 'Os candidatos que apresentaram, a documentação completa, foram convocados para a etapa seguinte.' },
+      { id: 'E', texto: 'Os candidatos que apresentaram a documentação completa, foram convocados para a etapa seguinte.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'Sem vírgulas, a oração adjetiva é RESTRITIVA: apenas o subgrupo de candidatos que apresentou a documentação completa foi convocado. Isso preserva o sentido de que nem todos apresentaram.',
+      incorretas: {
+        A: 'A primeira vírgula isola indevidamente o sujeito do verbo; a segunda quebra a ligação verbo-complemento.',
+        B: 'Com vírgulas, a oração torna-se EXPLICATIVA: todos os candidatos apresentaram a documentação e foram convocados — sentido oposto ao pedido.',
+        D: 'As vírgulas separam o verbo "apresentaram" do seu objeto direto "a documentação completa".',
+        E: 'A vírgula após "completa" separa o sujeito ("Os candidatos que apresentaram a documentação completa") do predicado ("foram convocados").'
+      },
+      conceitoCobrado: 'Oração adjetiva restritiva (sem vírgula) x explicativa (com vírgula).',
+      pegadinha: 'A banca explora a inversão de sentido provocada pela vírgula: restritiva = nem todos; explicativa = todos.',
+      comoApareceEmConcurso: 'Clássica em provas de pontuação e reescrita.'
+    },
+    tags: ['oração adjetiva', 'restritiva', 'explicativa', 'vírgula']
+  },
+  {
+    id: 'Q-DID-PT-0808',
+    tipo: 'DIDATICA',
+    area: 'SINT',
+    moduloId: 'PT-08',
+    subtema: 'Reticências',
+    dificuldade: 1,
+    prioridade: 'muito_alta',
+    enunciado: 'Assinale a alternativa correta quanto ao uso do sinal de pontuação que indica interrupção da fala do narrador ou da personagem.',
+    alternativas: [
+      { id: 'A', texto: 'Vírgula ( , )' },
+      { id: 'B', texto: 'Dois pontos ( : )' },
+      { id: 'C', texto: 'Reticências ( ... )' },
+      { id: 'D', texto: 'Ponto e vírgula ( ; )' },
+      { id: 'E', texto: 'Ponto ( . )' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'As RETICÊNCIAS indicam a interrupção de um pensamento ou de uma fala, seja por hesitação, surpresa ou pela interferência de outro interlocutor. É o sinal típico para esse efeito.',
+      incorretas: {
+        A: 'A vírgula marca pausas internas, não interrupção de fala.',
+        B: 'Os dois-pontos anunciam enumeração, esclarecimento ou fala (mas não a interrupção).',
+        D: 'O ponto e vírgula separa orações coordenadas extensas ou com vírgulas internas.',
+        E: 'O ponto final encerra o período, indicando sentido completo — não interrupção.'
+      },
+      conceitoCobrado: 'Função das reticências na representação da fala.',
+      pegadinha: 'Confundir reticências (interrupção/suspensão) com dois-pontos (anúncio de fala).',
+      comoApareceEmConcurso: 'Cobrança recorrente em interpretação e pontuação.'
+    },
+    tags: ['reticências', 'interrupção', 'fala']
+  },
+  {
+    id: 'Q-DID-PT-0809',
+    tipo: 'DIDATICA',
+    area: 'SINT',
+    moduloId: 'PT-08',
+    subtema: 'Pontuação de orações reduzidas antepostas',
+    dificuldade: 2,
+    prioridade: 'muito_alta',
+    enunciado: 'Assinale a alternativa em que a pontuação está correta.',
+    alternativas: [
+      { id: 'A', texto: 'Considerando as normativas municipais que regem o desenvolvimento urbano, consolidadas nos códigos e leis complementares. Faz-se necessário seguir essas regras para todo tipo de construção civil na cidade.' },
+      { id: 'B', texto: 'Cientes de que o correto manejo dos resíduos domésticos pode contribuir para a saúde da população. A prefeitura ampliou a frota de caminhões destinados à coleta desses materiais.' },
+      { id: 'C', texto: 'Diante da situação de calamidade pública, decorrente das ações dos fortes ventos que causaram o destelhamento de centenas de casas, a prefeitura distribuirá lonas para cobertura dessas residências.' },
+      { id: 'D', texto: 'Partindo do princípio de que o governo precisa atuar em todo território, seja área urbana ou rural, e por longo período. As políticas públicas são planejadas de forma longitudinal.' },
+      { id: 'E', texto: 'As repartições públicas do município, estarão fechadas tendo em vista que dia 2 de setembro é feriado municipal, dia do aniversário da cidade.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'Em C, as vírgulas isolam corretamente o adjunto adverbial anteposto de longa extensão ("Diante da situação...") e a oração adjetiva explicativa ("decorrente das ações..."). O sujeito ("a prefeitura") e o verbo ("distribuirá") permanecem juntos.',
+      incorretas: {
+        A: 'O ponto final após "complementares" separa a oração reduzida de gerúndio anteposta do restante do período — deveria haver vírgula.',
+        B: 'O ponto final após "população" quebra a ligação entre a oração reduzida anteposta e a principal.',
+        D: 'O ponto final após "período" separa indevidamente a oração reduzida de gerúndio da principal.',
+        E: 'A vírgula após "município" separa o sujeito do verbo — erro clássico.'
+      },
+      conceitoCobrado: 'Pontuação de orações reduzidas antepostas (vírgula, não ponto) e vírgula proibida entre sujeito e verbo.',
+      pegadinha: 'A banca usa ponto final onde deveria haver vírgula para separar oração subordinada anteposta.',
+      comoApareceEmConcurso: 'Muito frequente em provas de correção gramatical.'
+    },
+    tags: ['oração reduzida', 'adjunto anteposto', 'vírgula', 'ponto final']
+  },
+  {
+    id: 'Q-DID-PT-0810',
+    tipo: 'DIDATICA',
+    area: 'SINT',
+    moduloId: 'PT-08',
+    subtema: 'Dois-pontos, ponto e vírgula e vírgula em explicação',
+    dificuldade: 2,
+    prioridade: 'muito_alta',
+    enunciado: 'Leia a frase a seguir. A fala e a escrita são modalidades diferentes da linguagem humana __ a primeira se utiliza de unidades sonoras __ a segunda __ ao contrário __ emprega sinais gráficos. Assinale a pontuação que preenche corretamente as lacunas da frase acima.',
+    alternativas: [
+      { id: 'A', texto: 'vírgula – dois-pontos – ponto e vírgula – vírgula' },
+      { id: 'B', texto: 'dois-pontos – vírgula – ponto e vírgula – vírgula' },
+      { id: 'C', texto: 'dois-pontos – ponto e vírgula – vírgula – vírgula' },
+      { id: 'D', texto: 'dois-pontos – vírgula – vírgula – ponto e vírgula' },
+      { id: 'E', texto: 'ponto – ponto e vírgula – ponto e vírgula – vírgula' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'A sequência correta é: dois-pontos (anunciam a explicação), ponto e vírgula (separa as duas orações coordenadas explicativas), vírgula antes e depois de "ao contrário" (termo intercalado). Fica: "...humanas: a primeira se utiliza de unidades sonoras; a segunda, ao contrário, emprega sinais gráficos."',
+      incorretas: {
+        A: 'A vírgula inicial não anuncia a explicação; o ponto e vírgula no lugar errado.',
+        B: 'A vírgula após "sonoras" não separa adequadamente as duas orações explicativas.',
+        D: 'A vírgula antes de "ao contrário" está correta, mas falta a vírgula depois; além disso, o ponto e vírgula final não cabe.',
+        E: 'O ponto final interrompe a frase antes da explicação; a sequência não fecha.'
+      },
+      conceitoCobrado: 'Emprego combinado de dois-pontos, ponto e vírgula e vírgula.',
+      pegadinha: 'A banca mistura as funções dos sinais; é preciso testar cada lacuna separadamente.',
+      comoApareceEmConcurso: 'Cobrança recorrente em questões de preenchimento.'
+    },
+    tags: ['dois-pontos', 'ponto e vírgula', 'vírgula', 'termo intercalado']
+  },
+  {
+    id: 'Q-DID-PT-0811',
+    tipo: 'DIDATICA',
+    area: 'SINT',
+    moduloId: 'PT-08',
+    subtema: 'Funções dos sinais de pontuação',
+    dificuldade: 2,
+    prioridade: 'muito_alta',
+    enunciado: 'Em relação à correta pontuação, relacione a Coluna I com a Coluna II e marque a alternativa devida. Coluna I. A- Vírgula. B- Ponto e vírgula. C- Dois pontos. D- Ponto-final. Coluna II. 1- Separa estruturas coordenadas já portadoras de vírgulas internas. 2- Usa-se no final do período, indicando que o sentido está completo. 3- Utilizamos antes de uma citação. 4- Usamos para separar o aposto explicativo.',
+    alternativas: [
+      { id: 'A', texto: 'A (2) – B (3) – C (4) – D (1).' },
+      { id: 'B', texto: 'A (4) – B (1) – C (3) – D (2).' },
+      { id: 'C', texto: 'A (3) – B (2) – C (1) – D (4).' },
+      { id: 'D', texto: 'A (1) – B (4) – C (2) – D (3).' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'Vírgula → separa aposto explicativo (4). Ponto e vírgula → separa estruturas coordenadas com vírgulas internas (1). Dois-pontos → antes de citação (3). Ponto-final → encerra o período (2).',
+      incorretas: {
+        A: 'Inverte todas as correspondências.',
+        C: 'Troca as funções de vírgula e dois-pontos.',
+        D: 'Atribui à vírgula a função de ponto e vírgula, e vice-versa.'
+      },
+      conceitoCobrado: 'Funções específicas de cada sinal de pontuação.',
+      pegadinha: 'Confundir ponto e vírgula (enumerações complexas) com dois-pontos (anúncio).',
+      comoApareceEmConcurso: 'Questão de associação clássica.'
+    },
+    tags: ['vírgula', 'ponto e vírgula', 'dois-pontos', 'ponto final', 'aposto']
+  },
+  {
+    id: 'Q-DID-PT-0812',
+    tipo: 'DIDATICA',
+    area: 'SINT',
+    moduloId: 'PT-08',
+    subtema: 'Vírgula em enumeração de orações',
+    dificuldade: 2,
+    prioridade: 'muito_alta',
+    enunciado: 'A leitura é uma prática essencial para a formação cidadã. Ela amplia o repertório cultural desenvolve o pensamento crítico fortalece a capacidade de argumentação e favorece a participação social. Considerando as regras de pontuação da norma-padrão da língua portuguesa, assinale a alternativa que apresenta a versão CORRETAMENTE pontuada do segundo período:',
+    alternativas: [
+      { id: 'A', texto: 'Ela amplia o repertório cultural, desenvolve o pensamento crítico fortalece a capacidade de argumentação e favorece a participação social.' },
+      { id: 'B', texto: 'Ela amplia o repertório cultural desenvolve o pensamento crítico, fortalece a capacidade de argumentação e favorece a participação social.' },
+      { id: 'C', texto: 'Ela amplia o repertório cultural; desenvolve o pensamento crítico, fortalece a capacidade de argumentação e favorece a participação social.' },
+      { id: 'D', texto: 'Ela amplia o repertório cultural, desenvolve o pensamento crítico, fortalece a capacidade de argumentação e favorece a participação social.' },
+      { id: 'E', texto: 'Ela amplia o repertório cultural desenvolve o pensamento crítico fortalece a capacidade de argumentação, e favorece a participação social.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'O período é uma enumeração de quatro ações paralelas. A norma padrão separa os itens por vírgula, deixando o "e" apenas antes do último elemento: "amplia..., desenvolve..., fortalece... e favorece...".',
+      incorretas: {
+        A: 'Falta a vírgula após "crítico".',
+        B: 'Falta a vírgula após "cultural".',
+        C: 'O ponto e vírgula é inadequado para uma enumeração simples de orações com o mesmo sujeito.',
+        E: 'Faltam vírgulas entre os três primeiros itens e há vírgula indevida antes do "e" final.'
+      },
+      conceitoCobrado: 'Vírgula em enumeração de orações coordenadas assindéticas.',
+      pegadinha: 'A banca omite vírgulas ou insere pontuação mais forte (ponto e vírgula) em enumeração simples.',
+      comoApareceEmConcurso: 'Muito comum em reescrita e correção.'
+    },
+    tags: ['vírgula', 'enumeração', 'coordenação']
+  },
+  {
+    id: 'Q-DID-PT-0813',
+    tipo: 'DIDATICA',
+    area: 'SINT',
+    moduloId: 'PT-08',
+    subtema: 'Análise de pontuação em múltiplas frases',
+    dificuldade: 3,
+    prioridade: 'muito_alta',
+    enunciado: 'Leia as frases a seguir, atentando para a pontuação que apresentam: I. João Carlos trabalha, e o filho Alex estuda. II. É um “ótimo leitor” de poesia: não entende nada. III. Com a nova lei, os funcionários públicos e, principalmente os federais, receberam um reajuste aceitável. IV. Madalena costuma dizer: eu só como sanduíches de “mortandela”, pois são os melhores. V. Em nossa cidade natal, a segurança dos habitantes (oxalá isso venha a mudar um dia!) continua precária. Quanto à pontuação, podemos afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'Somente as frases I, II e III estão corretas.' },
+      { id: 'B', texto: 'Somente as frases I, II, IV e V estão corretas.' },
+      { id: 'C', texto: 'Somente as frases I, III e IV estão corretas.' },
+      { id: 'D', texto: 'Somente as frases II, III e V estão corretas.' },
+      { id: 'E', texto: 'Somente as frases II, III, IV e V estão corretas.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'Estão corretas I (vírgula antes do "e" com sujeitos diferentes), II (aspas irônicas e dois-pontos), IV (dois-pontos para fala e vírgula antes de "pois") e V (parênteses com exclamação e vírgula após adjunto). A frase III está incorreta porque falta a vírgula após "principalmente" para isolar o termo intercalado: "...e, principalmente, os federais...".',
+      incorretas: {
+        A: 'Inclui a frase III, que tem erro de pontuação.',
+        C: 'Inclui a frase III e exclui a IV (correta).',
+        D: 'Inclui a frase III e exclui a I (correta).',
+        E: 'Inclui a frase III, que é a única errada.'
+      },
+      conceitoCobrado: 'Análise integrada de vários usos da pontuação.',
+      pegadinha: 'A frase III parece correta à primeira vista, mas falta uma vírgula.',
+      comoApareceEmConcurso: 'Questão de múltiplas frases — exige atenção redobrada.'
+    },
+    tags: ['vírgula', 'aspas', 'dois-pontos', 'parênteses', 'termo intercalado']
+  },
+  {
+    id: 'Q-DID-PT-0814',
+    tipo: 'DIDATICA',
+    area: 'SINT',
+    moduloId: 'PT-08',
+    subtema: 'Pontuação correta em período simples',
+    dificuldade: 2,
+    prioridade: 'muito_alta',
+    enunciado: 'A pontuação adequada contribui para a clareza do texto e para a correta organização sintática das ideias. Nesse sentido, assinale a alternativa em que a pontuação está corretamente empregada.',
+    alternativas: [
+      { id: 'A', texto: 'Os candidatos, compareceram ao local cedo.' },
+      { id: 'B', texto: 'Quando terminou a prova entregou o caderno.' },
+      { id: 'C', texto: 'O relatório foi aprovado, porque estava correto.' },
+      { id: 'D', texto: 'Ao final da reunião, todos concordaram com a decisão.' },
+      { id: 'E', texto: 'A professora explicou, a matéria com atenção.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'Em D, a vírgula isola corretamente o adjunto adverbial anteposto ("Ao final da reunião"), sem separar sujeito e predicado. A frase flui com clareza.',
+      incorretas: {
+        A: 'A vírgula separa o sujeito ("Os candidatos") do verbo ("compareceram") — erro clássico.',
+        B: 'Falta a vírgula após a oração subordinada adverbial anteposta ("Quando terminou a prova").',
+        C: 'A vírgula antes de "porque" é facultativa, mas a frase não é a mais claramente correta; D é impecável.',
+        E: 'A vírgula separa o verbo ("explicou") do objeto direto ("a matéria") — erro.'
+      },
+      conceitoCobrado: 'Vírgula proibida entre sujeito e verbo; vírgula obrigatória após adjunto anteposto.',
+      pegadinha: 'Alternativas com vírgulas em locais proibidos (sujeito-verbo, verbo-objeto).',
+      comoApareceEmConcurso: 'Cobrança diária em provas de correção.'
+    },
+    tags: ['vírgula', 'adjunto anteposto', 'sujeito e verbo']
+  },
+  {
+    id: 'Q-DID-PT-0815',
+    tipo: 'DIDATICA',
+    area: 'SINT',
+    moduloId: 'PT-08',
+    subtema: 'Identificação de erro de pontuação',
+    dificuldade: 2,
+    prioridade: 'muito_alta',
+    enunciado: 'A pontuação está incorreta somente na alternativa:',
+    alternativas: [
+      { id: 'A', texto: 'Você é muito especial, amigo.' },
+      { id: 'B', texto: 'É muito, muito difícil lidar com esta situação.' },
+      { id: 'C', texto: 'Aos domingos, costumam almoçar em família.' },
+      { id: 'D', texto: 'Queria saber quando voltam as aulas e demais programações escolares?' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'Em D, a frase é uma interrogativa indireta ("Queria saber quando..."), portanto não deve terminar com ponto de interrogação, e sim com ponto final.',
+      incorretas: {
+        A: 'Vocativo separado por vírgula — correto.',
+        B: 'Repetição enfática com vírgula — correto.',
+        C: 'Adjunto adverbial anteposto com vírgula — correto.'
+      },
+      conceitoCobrado: 'Ponto de interrogação em interrogativa indireta.',
+      pegadinha: 'A presença do verbo "saber" pode induzir ao erro de manter a interrogação.',
+      comoApareceEmConcurso: 'Cobrança recorrente em pontuação.'
+    },
+    tags: ['interrogativa indireta', 'ponto de interrogação']
+  },
+  {
+    id: 'Q-DID-PT-0816',
+    tipo: 'DIDATICA',
+    area: 'SINT',
+    moduloId: 'PT-08',
+    subtema: 'Reticências, dois-pontos e exclamação',
+    dificuldade: 2,
+    prioridade: 'muito_alta',
+    enunciado: 'De acordo com as regras de pontuação, relacionar as colunas e assinalar a sequência correspondente. (1) Reticências (...). (2) Dois-pontos (:). (3) Ponto de exclamação (!). ( ) Ela só tinha um objetivo na vida __ ser médica. ( ) No piquenique havia bolos, salgadinhos, refrigerantes, sucos __ ( ) Uau __',
+    alternativas: [
+      { id: 'A', texto: '1 - 3 - 2.' },
+      { id: 'B', texto: '3 - 2 - 1.' },
+      { id: 'C', texto: '3 - 1 - 2.' },
+      { id: 'D', texto: '2 - 1 - 3.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'A primeira lacuna pede dois-pontos (2), pois anuncia a explicação "ser médica". A segunda pede reticências (1), indicando que a enumeração poderia continuar. A terceira pede exclamação (3), pela interjeição "Uau". Sequência: 2 – 1 – 3.',
+      incorretas: {
+        A: 'Inverte dois-pontos e reticências.',
+        B: 'Coloca exclamação na primeira lacuna, o que não faz sentido.',
+        C: 'Troca a ordem de exclamação e reticências.'
+      },
+      conceitoCobrado: 'Funções de reticências, dois-pontos e ponto de exclamação.',
+      pegadinha: 'A enumeração da segunda lacuna pode ser finalizada com ponto final, mas as reticências são adequadas para indicar suspensão.',
+      comoApareceEmConcurso: 'Questão de associação direta.'
+    },
+    tags: ['reticências', 'dois-pontos', 'exclamação']
+  },
+  {
+    id: 'Q-DID-PT-0817',
+    tipo: 'DIDATICA',
+    area: 'SINT',
+    moduloId: 'PT-08',
+    subtema: 'Uso e explicação de sinais',
+    dificuldade: 3,
+    prioridade: 'muito_alta',
+    enunciado: 'Assinale a alternativa correta quanto ao uso e explicação dos sinais de pontuação.',
+    alternativas: [
+      { id: 'A', texto: '“Matamos o tempo, o tempo nos enterra” (Machado de Assis) Explicação: uso da vírgula serviu para separar orações subordinadas assindéticas que encerraram pensamentos opostos.' },
+      { id: 'B', texto: 'É campeão! Explicação: o ponto de exclamação foi utilizado para indicar fim de oração absoluta.' },
+      { id: 'C', texto: 'Há três coisas para o fim de semana: festa, praia e sol. Explicação: os dois pontos serviram para indicar atitude de expectativa diante de uma situação.' },
+      { id: 'D', texto: 'Eu, não vou sair sozinho à noite. Explicação: a vírgula é utilizada para separar o sujeito do predicado.' },
+      { id: 'E', texto: 'Os bolinhos do aniversário, a chefe do buffet os fará hoje. Explicação: a vírgula é utilizada para isolar um complemento pleonástico antecipado ao verbo.' }
+    ],
+    gabarito: 'E',
+    explicacao: {
+      correta: 'Em E, o termo "Os bolinhos do aniversário" é o objeto direto antecipado; o pronome "os" é o complemento pleonástico. A vírgula isola corretamente esse objeto antecipado, e a explicação está precisa.',
+      incorretas: {
+        A: 'As orações são COORDENADAS assindéticas, não subordinadas.',
+        B: 'A explicação é vaga; o ponto de exclamação marca exclamativa, não necessariamente "oração absoluta".',
+        C: 'Os dois-pontos introduzem enumeração, não "atitude de expectativa".',
+        D: 'A vírgula separa sujeito e predicado — uso PROIBIDO, não correto.'
+      },
+      conceitoCobrado: 'Relação entre uso e explicação funcional dos sinais.',
+      pegadinha: 'A banca mistura usos corretos com explicações erradas.',
+      comoApareceEmConcurso: 'Questão de nível avançado — exige domínio conceitual.'
+    },
+    tags: ['vírgula', 'complemento pleonástico', 'explicação']
+  },
+  {
+    id: 'Q-DID-PT-0818',
+    tipo: 'DIDATICA',
+    area: 'SINT',
+    moduloId: 'PT-08',
+    subtema: 'Vírgula em enumeração',
+    dificuldade: 2,
+    prioridade: 'muito_alta',
+    enunciado: '“A vida, o infinito ___ o sol, o mar, tudo é maravilhoso quando se está passeando.” Assinale a alternativa que preencha corretamente a lacuna com uma pontuação.',
+    alternativas: [
+      { id: 'A', texto: '. (Ponto): Encerra frases e períodos, indica a conclusão de uma ideia.' },
+      { id: 'B', texto: '– (Travessão): Indica mudança de interlocutor em diálogos ou isola orações.' },
+      { id: 'C', texto: '( ) (Parênteses): Enclausura informações acessórias, explicações ou notas.' },
+      { id: 'D', texto: ', (Vírgula): Organiza termos sintáticos, separa termos coordenados assindéticos (sem ligação por conectivo), que tenham a mesma função sintática, que formam, muitas vezes, enumerações.' },
+      { id: 'E', texto: '“ ” (Aspas): Marca citações, estrangeirismos, gírias ou ironias, conferindo um sentido particular à expressão.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'A sequência "A vida, o infinito, o sol, o mar, tudo..." é uma enumeração de termos coordenados assindéticos. A vírgula é o sinal adequado para separar esses itens.',
+      incorretas: {
+        A: 'O ponto final interromperia a enumeração antes do termo síntese "tudo".',
+        B: 'O travessão isolaria um termo, não separaria itens de enumeração.',
+        C: 'Os parênteses enclausuram informação acessória, o que não é o caso.',
+        E: 'As aspas não têm função de enumeração.'
+      },
+      conceitoCobrado: 'Vírgula em enumeração de termos coordenados.',
+      pegadinha: 'A banca oferece sinais que até poderiam aparecer em outros contextos, mas não nesta estrutura.',
+      comoApareceEmConcurso: 'Cobrança direta e recorrente.'
+    },
+    tags: ['vírgula', 'enumeração', 'coordenação assindética']
+  },
+  {
+    id: 'Q-DID-PT-0819',
+    tipo: 'DIDATICA',
+    area: 'SINT',
+    moduloId: 'PT-08',
+    subtema: 'Análise de pontuação em texto',
+    dificuldade: 3,
+    prioridade: 'muito_alta',
+    enunciado: 'Analise o emprego da pontuação nos enunciados a seguir: I. Todas as noites, antes de dormir, Holly Wang acessa o DeepSeek para fazer "sessões de terapia. II. Na China, porém jovens como Holly têm recorrido, à inteligência artificial para algo que normalmente não se espera da computação e dos algoritmos: apoio emocional. III. Desde escrever relatórios e criar fórmulas no Excel até planejar viagens, praticar exercícios físicos e aprender novas habilidades, os aplicativos de inteligência artificial passaram a fazer parte da rotina de muitas pessoas ao redor do mundo. Quanto à pontuação a(s) alternativa(s) correta(s) é(são):',
+    alternativas: [
+      { id: 'A', texto: 'Apenas I e II.' },
+      { id: 'B', texto: 'Apenas I e III.' },
+      { id: 'C', texto: 'Apenas II e III.' },
+      { id: 'D', texto: 'I, II e III.' },
+      { id: 'E', texto: 'Apenas III.' }
+    ],
+    gabarito: 'E',
+    explicacao: {
+      correta: 'Somente III está correta. I tem aspas abertas e não fechadas. II tem vírgula indevida após "recorrido" (separa verbo e complemento) e falta vírgula após "porém".',
+      incorretas: {
+        A: 'I e II têm erros de pontuação.',
+        B: 'I tem aspas não fechadas.',
+        C: 'II tem vírgula que separa verbo e complemento.',
+        D: 'Nem I nem II estão corretas.'
+      },
+      conceitoCobrado: 'Análise fina de erros de pontuação em textos.',
+      pegadinha: 'As aspas não fechadas em I passam despercebidas; a vírgula após "recorrido" em II parece natural para muitos leitores.',
+      comoApareceEmConcurso: 'Questão de nível avançado, comum em bancas exigentes.'
+    },
+    tags: ['aspas', 'vírgula', 'verbo e complemento']
+  },
+  {
+    id: 'Q-DID-PT-0820',
+    tipo: 'DIDATICA',
+    area: 'SINT',
+    moduloId: 'PT-08',
+    subtema: 'Vírgula antes de "e" com mesmo sujeito',
+    dificuldade: 2,
+    prioridade: 'muito_alta',
+    enunciado: 'Destaque a alternativa que apresenta um erro de pontuação.',
+    alternativas: [
+      { id: 'A', texto: 'Malhou, e treinou, e voltou a treinar para conseguir emagrecer.' },
+      { id: 'B', texto: 'Jussara estuda Geografia, e Bruna Arquitetura.' },
+      { id: 'C', texto: 'Treinou o mais que pode e não venceu o campeonato.' },
+      { id: 'D', texto: 'Os portfólios que eu fiz foram classificados.' },
+      { id: 'E', texto: 'Observei, porém, as alternativas que poderiam me ajudar.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Em A, as vírgulas antes de "e" ligam orações com o MESMO sujeito ("Malhou", "treinou", "voltou a treinar"). A norma padrão não recomenda vírgula antes de "e" nesse caso (embora possa haver uso estilístico, a questão pede o erro).',
+      incorretas: {
+        B: 'Sujeitos diferentes ("Jussara" e "Bruna") — vírgula facultativa e correta.',
+        C: 'Oração coordenada aditiva com mesmo sujeito, sem vírgula — correta.',
+        D: 'Oração adjetiva restritiva sem vírgula — correta.',
+        E: '"porém" intercalado entre vírgulas — correta.'
+      },
+      conceitoCobrado: 'Vírgula antes de "e" quando os sujeitos são iguais x diferentes.',
+      pegadinha: 'A repetição de "e" com vírgulas pode parecer correta por ênfase, mas a banca considera erro.',
+      comoApareceEmConcurso: 'Cobrança clássica em correção gramatical.'
+    },
+    tags: ['vírgula', 'conjunção e', 'mesmo sujeito']
+  },
+  {
+    id: 'Q-DID-PT-0821',
+    tipo: 'DIDATICA',
+    area: 'SINT',
+    moduloId: 'PT-08',
+    subtema: 'Separação de orações coordenadas',
+    dificuldade: 2,
+    prioridade: 'muito_alta',
+    enunciado: 'Leia o trecho a seguir: "Após longos anos de estudo, finalmente, Maria alcançou seu objetivo: a aprovação no concurso público. Agora, ela está pronta para enfrentar novos desafios profissionais." Qual é a pontuação correta para separar as orações coordenadas presentes no trecho?',
+    alternativas: [
+      { id: 'A', texto: '; (ponto e vírgula)' },
+      { id: 'B', texto: ', (vírgula)' },
+      { id: 'C', texto: '. (ponto final)' },
+      { id: 'D', texto: ': (dois pontos)' },
+      { id: 'E', texto: '- (hífen)' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'As duas orações ("Maria alcançou seu objetivo..." e "Agora, ela está pronta...") são independentes e o trecho já as separa com ponto final. O ponto final é o sinal adequado para encerrar o primeiro período e iniciar o segundo.',
+      incorretas: {
+        A: 'O ponto e vírgula é para enumerações complexas, não para separar períodos independentes com essa extensão.',
+        B: 'A vírgula não separa períodos com essa autonomia; geraria um período composto muito longo e confuso.',
+        D: 'Os dois-pontos anunciam explicação, não separam orações independentes.',
+        E: 'O hífen não é sinal de pontuação entre orações.'
+      },
+      conceitoCobrado: 'Uso do ponto final na separação de orações independentes.',
+      pegadinha: 'A proximidade semântica pode sugerir vírgula, mas a estrutura exige ponto final.',
+      comoApareceEmConcurso: 'Cobrança direta.'
+    },
+    tags: ['ponto final', 'orações coordenadas']
+  },
+  {
+    id: 'Q-DID-PT-0822',
+    tipo: 'DIDATICA',
+    area: 'SINT',
+    moduloId: 'PT-08',
+    subtema: 'Pontuação correta em diálogo e intercalação',
+    dificuldade: 3,
+    prioridade: 'muito_alta',
+    enunciado: 'Assinale a frase correta quanto à pontuação.',
+    alternativas: [
+      { id: 'A', texto: 'Por nada, mas me diz outra coisa, automóvel é avião seu Quincas da Magrela?' },
+      { id: 'B', texto: 'Os alunos, inconformados com a morte de um colega por atropelamento; fizeram uma manifestação pacífica.' },
+      { id: 'C', texto: 'Que gostosura seus bolinhos de bacalhau dona Ricota, nunca provei nada igual.' },
+      { id: 'D', texto: 'De repente encontrei uma paz interna; um bem-estar súbito, que jamais imaginei que pudesse ter.' },
+      { id: 'E', texto: 'Aquela criança, se permitíssemos fazer tudo o que quisesse, nos deixaria loucos.' }
+    ],
+    gabarito: 'E',
+    explicacao: {
+      correta: 'Em E, as vírgulas isolam corretamente a oração subordinada adverbial condicional intercalada ("se permitíssemos fazer tudo o que quisesse").',
+      incorretas: {
+        A: 'Pontuação confusa; falta interrogação e vírgulas de vocativo.',
+        B: 'O ponto e vírgula separa sujeito e predicado — deveria ser vírgula.',
+        C: 'Faltam vírgulas para isolar o vocativo "dona Ricota" e a frase está truncada.',
+        D: 'O ponto e vírgula antes de "um bem-estar" é inadequado; deveria ser vírgula ou ponto.'
+      },
+      conceitoCobrado: 'Vírgula em oração intercalada.',
+      pegadinha: 'A banca usa ponto e vírgula onde deveria haver vírgula.',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['vírgula', 'oração intercalada', 'condicional']
+  },
+  {
+    id: 'Q-DID-PT-0823',
+    tipo: 'DIDATICA',
+    area: 'SINT',
+    moduloId: 'PT-08',
+    subtema: 'Verdadeiro ou falso em pontuação',
+    dificuldade: 3,
+    prioridade: 'muito_alta',
+    enunciado: 'Considerando as regras dos sinais de pontuação, marque (V) para Verdadeiro e (F) para Falso e assinale a alternativa que apresenta a sequência CORRETA: (___ ) Bia João Clarice e Pedro chegaram agora. (___ ) Ao final, chorou de alegria:- Ganhei! (___ ) O freguês novo que, não paga as contas, vive reclamando. (___ ) Será que ele quer um café?',
+    alternativas: [
+      { id: 'A', texto: 'V – F – V – F.' },
+      { id: 'B', texto: 'F – F – V – F.' },
+      { id: 'C', texto: 'F – V – V – V.' },
+      { id: 'D', texto: 'F – V – F – V.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'A sequência correta é F – V – F – V. Primeira: falta vírgula na enumeração de nomes (Falso). Segunda: dois-pontos e travessão podem ser usados para introduzir fala (Verdadeiro). Terceira: a vírgula após "que" está errada; deveria ser "O freguês novo, que não paga as contas, vive reclamando" (Falso). Quarta: a interrogação está correta (Verdadeiro).',
+      incorretas: {
+        A: 'Inverte a segunda e a terceira.',
+        B: 'Considera a terceira verdadeira, mas há erro.',
+        C: 'Considera a primeira falsa (ok), mas erra as demais.'
+      },
+      conceitoCobrado: 'Análise de múltiplos usos da pontuação.',
+      pegadinha: 'A segunda frase tem pontuação incomum (:-), mas é aceitável.',
+      comoApareceEmConcurso: 'Questão de julgamento V/F.'
+    },
+    tags: ['vírgula', 'dois-pontos', 'travessão', 'interrogação']
+  },
+  {
+    id: 'Q-DID-PT-0824',
+    tipo: 'DIDATICA',
+    area: 'SINT',
+    moduloId: 'PT-08',
+    subtema: 'Pontuação correta em período composto',
+    dificuldade: 2,
+    prioridade: 'muito_alta',
+    enunciado: 'Em relação à pontuação, assinalar a alternativa CORRETA:',
+    alternativas: [
+      { id: 'A', texto: 'Ninguém havia me falado, mas eu suspeitava de tais atitudes.' },
+      { id: 'B', texto: 'Pensei, repensei, desabei encontrei algumas palavras e nada mudou.' },
+      { id: 'C', texto: 'Veio o horário da partida o céu desabou, em água.' },
+      { id: 'D', texto: 'Naquela tarde amarga, teve certeza, de que nada adiantaria.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Em A, a vírgula antes de "mas" separa corretamente orações coordenadas adversativas.',
+      incorretas: {
+        B: 'Falta vírgula após "desabei" para separar a oração "encontrei algumas palavras".',
+        C: 'Falta vírgula após "partida" e a vírgula antes de "em água" está errada.',
+        D: 'A vírgula antes de "de que" separa o verbo "teve certeza" do seu complemento — erro.'
+      },
+      conceitoCobrado: 'Vírgula em orações coordenadas adversativas.',
+      pegadinha: 'A vírgula antes de "mas" é correta, mas as demais alternativas têm erros mais evidentes.',
+      comoApareceEmConcurso: 'Cobrança direta.'
+    },
+    tags: ['vírgula', 'adversativa', 'coordenação']
+  },
+  {
+    id: 'Q-DID-PT-0825',
+    tipo: 'DIDATICA',
+    area: 'SINT',
+    moduloId: 'PT-08',
+    subtema: 'Pontuação em aposto e enumeração',
+    dificuldade: 3,
+    prioridade: 'muito_alta',
+    enunciado: 'Assinale a alternativa correta quanto à pontuação.',
+    alternativas: [
+      { id: 'A', texto: 'As tiras do quadrinista, Paul Kirchner, eram como um respiro em meio às grandes sagas de fantasia, e ficção científica da lendária revista americana, Heavy Metal.' },
+      { id: 'B', texto: 'Com uma escrita descritiva, ela conta detalhes do luto que vivenciou com a morte de seu pai, um camponês que se tomou operário e, depois, proprietário de um bar e merecaria numa cidadezinha.' },
+      { id: 'C', texto: 'Publicado em 1997 transita entre, o ensaio, e uma espécie de catalogação de dados.' },
+      { id: 'D', texto: 'Repassa a história da França, do pós-Guerra até o começo dos anos 2000 ao mesmo tempo, que se constitui como uma espécie de autobiografia em terceira pessoa.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'Em B, as vírgulas isolam corretamente o aposto explicativo ("um camponês que se tornou operário...") e a expressão intercalada "depois".',
+      incorretas: {
+        A: 'A vírgula antes de "e ficção científica" quebra a enumeração "fantasia e ficção científica".',
+        C: 'As vírgulas separam indevidamente o verbo "transita" do seu complemento.',
+        D: 'A vírgula antes de "que" pode separar sujeito e predicado, além de a estrutura ser confusa.'
+      },
+      conceitoCobrado: 'Vírgula em aposto explicativo e termos intercalados.',
+      pegadinha: 'A palavra "tomou" em B está errada (deveria ser "tornou"), mas o erro é ortográfico, não de pontuação.',
+      comoApareceEmConcurso: 'Cobrança de pontuação em textos longos.'
+    },
+    tags: ['vírgula', 'aposto', 'enumeração']
+  },
+  {
+    id: 'Q-DID-PT-0826',
+    tipo: 'DIDATICA',
+    area: 'SINT',
+    moduloId: 'PT-08',
+    subtema: 'Vírgula em objeto pleonástico',
+    dificuldade: 3,
+    prioridade: 'muito_alta',
+    enunciado: 'Assinale a alternativa correta quanto à pontuação.',
+    alternativas: [
+      { id: 'A', texto: 'Esses cronistas, não os conheço.' },
+      { id: 'B', texto: 'Não havia porém, motivos para aquela atitude, naquela hora!' },
+      { id: 'C', texto: 'Quando ele, sai do trabalho, tudo lhe parece melhor.' },
+      { id: 'D', texto: 'José, Maria e seus filhos, foram embora daquela cidade?' },
+      { id: 'E', texto: 'Ele, que era o cronista indicado não compareceu à premiação?' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Em A, a vírgula isola corretamente o objeto direto antecipado ("Esses cronistas"), que é retomado pelo pronome "os". É o chamado objeto pleonástico.',
+      incorretas: {
+        B: 'Falta vírgula antes e depois de "porém".',
+        C: 'A vírgula após "ele" separa sujeito e verbo — erro.',
+        D: 'A vírgula após "filhos" separa sujeito e predicado — erro.',
+        E: 'Falta vírgula após "indicado" para fechar a oração adjetiva explicativa.'
+      },
+      conceitoCobrado: 'Vírgula em objeto direto antecipado (pleonástico).',
+      pegadinha: 'A estrutura com pronome pleonástico é menos comum e pode confundir.',
+      comoApareceEmConcurso: 'Cobrança de nível avançado.'
+    },
+    tags: ['vírgula', 'objeto pleonástico', 'anteposição']
+  },
+  {
+    id: 'Q-DID-PT-0827',
+    tipo: 'DIDATICA',
+    area: 'SINT',
+    moduloId: 'PT-08',
+    subtema: 'Pontuação em texto longo',
+    dificuldade: 3,
+    prioridade: 'muito_alta',
+    enunciado: 'Assinale a alternativa corretamente pontuada, de acordo com a língua escrita padrão.',
+    alternativas: [
+      { id: 'A', texto: 'Em 1957 o psicólogo B. F. Skinner da Universidade de Harvard, constatou que recompensas inconstantes que surgem de forma irregular, eram mais eficientes para condicionar o comportamento dos animais. O smartphone explora isso ao abrir um app, você nunca sabe quantas unidades de conteúdo (textos, fotos, vídeos, posts, mensagens) ele vai mostrar.' },
+      { id: 'B', texto: 'Em 1957 o psicólogo B. F. Skinner, da Universidade de Harvard constatou que recompensas inconstantes – que surgem de forma irregular, eram mais eficientes para condicionar o comportamento dos animais; o smartphone explora isso, ao abrir um app, você nunca sabe quantas unidades de conteúdo (textos, fotos, vídeos, posts, mensagens) ele vai mostrar.' },
+      { id: 'C', texto: 'Em 1957, o psicólogo B. F. Skinner, da Universidade de Harvard, constatou que recompensas inconstantes (que surgem de forma irregular) eram mais eficientes para condicionar o comportamento dos animais. O smartphone explora isso: ao abrir um app, você nunca sabe quantas unidades de conteúdo (textos, fotos, vídeos, posts, mensagens) ele vai mostrar.' },
+      { id: 'D', texto: 'Em 1957, o psicólogo B. F. Skinner, da Universidade de Harvard, constatou que: recompensas inconstantes que surgem de forma irregular eram mais eficientes para condicionar o comportamento dos animais. O smartphone explora isso. Ao abrir um app você nunca sabe quantas unidades de conteúdo (textos, fotos, vídeos, posts, mensagens) ele vai mostrar.' },
+      { id: 'E', texto: 'Em 1957 o psicólogo B. F. Skinner da Universidade de Harvard constatou que recompensas, inconstantes (que surgem de forma irregular), eram mais eficientes para condicionar o comportamento dos animais (o smartphone explora isso) ao abrir um app. Você nunca sabe quantas unidades de conteúdo (textos, fotos, vídeos, posts, mensagens) ele vai mostrar.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'C apresenta pontuação impecável: vírgula após o adjunto "Em 1957", aposto explicativo "da Universidade de Harvard" entre vírgulas, parênteses para a oração explicativa, e dois-pontos antes da explicação sobre o smartphone.',
+      incorretas: {
+        A: 'Falta vírgula após "1957" e a vírgula antes de "eram" separa sujeito e predicado.',
+        B: 'Falta vírgula após "Harvard" e a vírgula antes de "eram" está errada; o ponto e vírgula é inadequado.',
+        D: 'Os dois-pontos após "que" estão errados; falta vírgula após "app".',
+        E: 'A vírgula após "recompensas" está errada; os parênteses estão mal colocados.'
+      },
+      conceitoCobrado: 'Pontuação em períodos longos com apostos, parênteses e dois-pontos.',
+      pegadinha: 'A banca insere erros sutis (vírgula antes de "eram", falta de vírgula após "1957").',
+      comoApareceEmConcurso: 'Questão de alta complexidade, comum em provas discursivas.'
+    },
+    tags: ['vírgula', 'aposto', 'parênteses', 'dois-pontos']
+  },
+  {
+    id: 'Q-DID-PT-0828',
+    tipo: 'DIDATICA',
+    area: 'SINT',
+    moduloId: 'PT-08',
+    subtema: 'Identificação de pontuação incorreta',
+    dificuldade: 2,
+    prioridade: 'muito_alta',
+    enunciado: 'Em relação à pontuação, assinalar a alternativa INCORRETA.',
+    alternativas: [
+      { id: 'A', texto: 'Esta é a regra principal cumprir com os prazos estabelecidos.' },
+      { id: 'B', texto: 'João, por favor, tranque a porta ao ir embora.' },
+      { id: 'C', texto: 'Ele disse algo que me deixou animada: “Vamos sair hoje!”.' },
+      { id: 'D', texto: 'De acordo com a professora, o aluno era bagunceiro.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'A está INCORRETA porque falta pontuação após "principal". O correto seria "Esta é a regra principal: cumprir com os prazos estabelecidos." (dois-pontos) ou "Esta é a regra principal, cumprir..." (vírgula).',
+      incorretas: {
+        B: 'Vocativo e expressão intercalada corretamente pontuados.',
+        C: 'Dois-pontos e citação corretos.',
+        D: 'Adjunto antecipado com vírgula — correto.'
+      },
+      conceitoCobrado: 'Necessidade de pontuação entre termo anunciador e explicação.',
+      pegadinha: 'A frase A parece completa, mas está truncada.',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['dois-pontos', 'vírgula', 'oração truncada']
+  },
+  {
+    id: 'Q-DID-PT-0829',
+    tipo: 'DIDATICA',
+    area: 'SINT',
+    moduloId: 'PT-08',
+    subtema: 'Reescrita com vocativo e enumeração',
+    dificuldade: 2,
+    prioridade: 'muito_alta',
+    enunciado: '“O amor ao livro, meu amigo, é sua passagem para o maior, mais puro e mais perfeito prazer.” (Anthony Trollope) Assinale a alternativa em que a forma reescrita do pensamento acima se encontra totalmente correta em relação à pontuação.',
+    alternativas: [
+      { id: 'A', texto: 'Meu amigo, o amor ao livro é a sua passagem para o maior, mais puro e mais perfeito prazer.' },
+      { id: 'B', texto: 'Meu amigo, o amor ao livro, é a sua passagem para o maior, mais puro e mais perfeito prazer.' },
+      { id: 'C', texto: 'Meu amigo: o amor ao livro é a sua passagem para o maior mais puro e mais perfeito prazer.' },
+      { id: 'D', texto: 'Meu amigo: o amor ao livro é, a sua passagem para o maior, mais puro e mais perfeito prazer.' },
+      { id: 'E', texto: 'O amor ao livro, é sua passagem, meu amigo, para o maior, mais puro e mais perfeito prazer.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'A apresenta o vocativo "Meu amigo" no início, seguido de vírgula, e a enumeração "maior, mais puro e mais perfeito" corretamente pontuada. O sujeito "o amor ao livro" e o verbo "é" permanecem juntos.',
+      incorretas: {
+        B: 'A vírgula após "livro" separa sujeito e predicado — erro.',
+        C: 'Faltam vírgulas na enumeração.',
+        D: 'A vírgula após "é" separa verbo e predicativo — erro.',
+        E: 'A vírgula após "livro" separa sujeito e predicado; além disso, "meu amigo" está mal posicionado.'
+      },
+      conceitoCobrado: 'Vocativo, sujeito e predicado, enumeração.',
+      pegadinha: 'A banca explora a vírgula proibida entre sujeito e verbo.',
+      comoApareceEmConcurso: 'Cobrança clássica em reescrita.'
+    },
+    tags: ['vírgula', 'vocativo', 'enumeração']
+  },
+  {
+    id: 'Q-DID-PT-0830',
+    tipo: 'DIDATICA',
+    area: 'SINT',
+    moduloId: 'PT-08',
+    subtema: 'Teoria da pontuação',
+    dificuldade: 3,
+    prioridade: 'muito_alta',
+    enunciado: 'A pontuação em língua portuguesa representa um dos aspectos mais sutis da coesão e da clareza textual. O emprego inadequado dos sinais pode alterar completamente o sentido de um enunciado. Analise, portanto, as afirmativas abaixo, que tratam de regras diversas sobre o uso da vírgula, do ponto e vírgula, dos dois-pontos, das aspas e do travessão, observando seus valores sintáticos e estilísticos: I. Não se separa o sujeito do predicado por vírgula, ainda que o sujeito seja muito extenso ou contenha expressões intercaladas, pois esses termos possuem alto grau de coesão entre si. II. O ponto e vírgula é utilizado para separar orações coordenadas que já contenham vírgulas internas, mantendo, assim, o equilíbrio sintático e a clareza da enumeração. III. As orações subordinadas adverbiais deslocadas para o início do período podem ser escritas sem vírgula, desde que o sentido de tempo, causa ou condição permaneça claro. IV. Os dois-pontos são empregados tanto para introduzir o discurso direto quanto para esclarecer ou detalhar um termo anterior, sendo obrigatória a letra minúscula após esse sinal. V. O uso das aspas pode indicar ironia, citação direta ou destaque de uma palavra, enquanto o travessão pode substituir as vírgulas em orações intercaladas para dar maior ênfase ao termo destacado. Em quais afirmativas o emprego e a descrição dos sinais de pontuação estão inteiramente corretos?',
+    alternativas: [
+      { id: 'A', texto: 'II, IV e V.' },
+      { id: 'B', texto: 'III e V.' },
+      { id: 'C', texto: 'I, III e IV.' },
+      { id: 'D', texto: 'I, II e V.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'Estão corretas I, II e V. I: a vírgula não separa sujeito e predicado. II: o ponto e vírgula separa orações coordenadas com vírgulas internas. V: aspas e travessão têm esses usos. A III é controversa (a vírgula é recomendada, mas nem sempre obrigatória); a IV erra ao dizer que a minúscula após dois-pontos é obrigatória.',
+      incorretas: {
+        A: 'Inclui a IV, que tem erro sobre a minúscula obrigatória.',
+        B: 'Exclui I e II, que estão corretas.',
+        C: 'Inclui a IV (errada) e exclui a II (correta).'
+      },
+      conceitoCobrado: 'Teoria avançada da pontuação.',
+      pegadinha: 'A afirmativa IV parece correta, mas a minúscula após dois-pontos não é obrigatória em todos os casos.',
+      comoApareceEmConcurso: 'Questão de alto nível, comum em bancas como CESPE/CEBRASPE.'
+    },
+    tags: ['vírgula', 'ponto e vírgula', 'dois-pontos', 'aspas', 'travessão']
+  },
+  {
+    id: 'Q-DID-PT-0831',
+    tipo: 'DIDATICA',
+    area: 'SINT',
+    moduloId: 'PT-08',
+    subtema: 'Identificação de pontuação incorreta em enumeração',
+    dificuldade: 2,
+    prioridade: 'muito_alta',
+    enunciado: 'Qual das frases a seguir está INCORRETA em relação à pontuação?',
+    alternativas: [
+      { id: 'A', texto: 'No mês passado, venderam duas casas novas e muito bonitas.' },
+      { id: 'B', texto: 'Ela buscava um objetivo: morar na Irlanda.' },
+      { id: 'C', texto: 'Parabéns, João! Estou orgulhosa de você.' },
+      { id: 'D', texto: 'Minha mãe trouxe, torta, bolo, suco, e café.' },
+      { id: 'E', texto: 'Por que você discutiu com a sua melhor amiga?' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'D está INCORRETA porque a vírgula antes de "e café" é inadequada em uma enumeração simples. O correto seria "torta, bolo, suco e café".',
+      incorretas: {
+        A: 'Adjunto anteposto com vírgula — correto.',
+        B: 'Dois-pontos para explicar o objetivo — correto.',
+        C: 'Vocativo e exclamação — corretos.',
+        E: 'Interrogação direta — correta.'
+      },
+      conceitoCobrado: 'Vírgula antes de "e" em enumeração.',
+      pegadinha: 'A vírgula antes do "e" final é um erro clássico.',
+      comoApareceEmConcurso: 'Cobrança frequente.'
+    },
+    tags: ['vírgula', 'enumeração', 'conjunção e']
+  },
+  {
+    id: 'Q-DID-PT-0832',
+    tipo: 'DIDATICA',
+    area: 'SINT',
+    moduloId: 'PT-08',
+    subtema: 'Pontuação em estruturas complexas',
+    dificuldade: 3,
+    prioridade: 'muito_alta',
+    enunciado: 'Leia as afirmativas a seguir, analisando o emprego dos sinais de pontuação de acordo com a norma culta: I. "O gerente solicitou: relatórios atualizados; planilhas detalhadas e cronogramas revisados; entretanto, a equipe — sobrecarregada — não concluiu as tarefas a tempo." II. "Embora o projeto fosse complexo (exigindo conhecimentos técnicos avançados), os estagiários demonstraram competência; surpreendendo os coordenadores." III. "Os componentes necessários são: parafusos, porcas, arruelas e buchas; pois a montagem exige precisão." IV. "O técnico questionou: — A instalação foi finalizada? — e, ao receber a confirmação, registrou o termo de entrega." V. "A máquina apresentou falhas críticas... superaquecimento, vazamentos e desgaste prematuro; portanto, será substituída." Em quais afirmativas todas as ocorrências de pontuação estão corretas?',
+    alternativas: [
+      { id: 'A', texto: 'II e IV.' },
+      { id: 'B', texto: 'I e II.' },
+      { id: 'C', texto: 'I e V.' },
+      { id: 'D', texto: 'III e V.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'I e V estão corretas. Em I, o ponto e vírgula separa itens de uma enumeração complexa que já contém vírgulas internas, e os travessões isolam "sobrecarregada". Em V, as reticências indicam suspensão, e o ponto e vírgula antes de "portanto" é aceitável.',
+      incorretas: {
+        A: 'II tem ponto e vírgula antes de "surpreendendo" — erro.',
+        B: 'II está errada.',
+        D: 'III tem ponto e vírgula antes de "pois" — erro.'
+      },
+      conceitoCobrado: 'Pontuação em períodos longos e enumerações complexas.',
+      pegadinha: 'A banca insere ponto e vírgula em locais inadequados (antes de gerúndio e de conjunção).',
+      comoApareceEmConcurso: 'Questão de nível avançado.'
+    },
+    tags: ['ponto e vírgula', 'travessão', 'reticências', 'enumeração']
+  },
+  {
+    id: 'Q-DID-PT-0833',
+    tipo: 'DIDATICA',
+    area: 'SINT',
+    moduloId: 'PT-08',
+    subtema: 'Funções da vírgula (aposto, adjunto, oração adjetiva)',
+    dificuldade: 2,
+    prioridade: 'muito_alta',
+    enunciado: 'A respeito das regras que orientam os usos da vírgula, associe a segunda coluna de acordo com a primeira, relacionando as aplicações da vírgula a suas respectivas regras: Primeira coluna: aplicações/usos 1. Em uma noite histórica, a escritora mineira Ana Maria Gonçalves foi empossada como nova imortal da Academia Brasileira de Letras (ABL). 2. Ela passa a ocupar a cadeira nº 33, que pertenceu ao linguista Evanildo Bechara, tornando-se a primeira mulher negra a integrar a instituição fundada em 1897 [...]. 3. Autora do premiado romance "Um defeito de cor", lançado em 2006, Ana Maria Gonçalves construiu uma obra de grande fôlego narrativo e político. Segunda coluna: regras (__) Separar orações adjetiva explicativa. (__) Separar o adjunto adverbial anteposto ao verbo/deslocado. (__) Separar aposto explicativo. Assinale a alternativa que apresenta a correta associação entre as colunas:',
+    alternativas: [
+      { id: 'A', texto: '1 – 2 – 3.' },
+      { id: 'B', texto: '2 – 1 – 3.' },
+      { id: 'C', texto: '1 – 3 – 2.' },
+      { id: 'D', texto: '2 – 3 – 1.' },
+      { id: 'E', texto: '3 – 1 – 2.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: '1 → adjunto adverbial anteposto ("Em uma noite histórica"). 2 → oração adjetiva explicativa ("que pertenceu..."). 3 → aposto explicativo ("Autora do premiado romance..."). Sequência: 2 – 1 – 3.',
+      incorretas: {
+        A: 'Inverte a ordem.',
+        C: 'Coloca o aposto em segundo lugar.',
+        D: 'Troca adjunto e aposto.',
+        E: 'Inverte completamente.'
+      },
+      conceitoCobrado: 'Identificação das funções da vírgula em contexto.',
+      pegadinha: 'A oração adjetiva explicativa e o aposto explicativo podem ser confundidos.',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['vírgula', 'aposto', 'adjunto', 'oração adjetiva']
+  },
+  {
+    id: 'Q-DID-PT-0834',
+    tipo: 'DIDATICA',
+    area: 'SINT',
+    moduloId: 'PT-08',
+    subtema: 'Pontuação em discurso direto e orações intercaladas',
+    dificuldade: 3,
+    prioridade: 'muito_alta',
+    enunciado: 'Assinale a alternativa cuja sentença se apresenta totalmente correta em relação à pontuação.',
+    alternativas: [
+      { id: 'A', texto: 'Prefiro estar entre vocês que me acolheram que me entendem porque, nem todas as pessoas, apresentam esse desprendimento.' },
+      { id: 'B', texto: 'Existem sentimentos bons (como saudade, alegria, e existem sentimentos ruins – como tristeza e ódio) tudo forma o nosso caráter.' },
+      { id: 'C', texto: 'Disse o orador, em tom bastante alegre: “Meus amigos, é chegada a hora de, apesar dos protestos, iniciarmos o nosso jantar festivo”.' },
+      { id: 'D', texto: 'Ele me perguntou se era para eu ir também à festa? Sim eu respondi para ele, não se preocupar com essa questão.' },
+      { id: 'E', texto: 'Tudo – céu, estrelas, espaço sideral – tudo, é obra de incrível perfeição mas nós, não costumamos dar o devido valor.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'C está impecável: vírgula após "orador", dois-pontos introduzindo a fala, e a citação contém vírgulas corretas para o vocativo e a expressão intercalada.',
+      incorretas: {
+        A: 'A vírgula após "porque" e antes de "apresentam" está errada.',
+        B: 'Falta pontuação após os parênteses.',
+        D: 'A interrogação é indevida (pergunta indireta) e faltam vírgulas.',
+        E: 'A vírgula após o segundo "tudo" está errada; falta vírgula antes de "mas".'
+      },
+      conceitoCobrado: 'Discurso direto, vocativo e termos intercalados.',
+      pegadinha: 'A banca mistura erros de pontuação com erros de colocação.',
+      comoApareceEmConcurso: 'Cobrança de nível avançado.'
+    },
+    tags: ['discurso direto', 'dois-pontos', 'vírgula', 'vocativo']
+  },
+  {
+    id: 'Q-DID-PT-0835',
+    tipo: 'DIDATICA',
+    area: 'SINT',
+    moduloId: 'PT-08',
+    subtema: 'Pontuação em estruturas sintáticas complexas',
+    dificuldade: 3,
+    prioridade: 'muito_alta',
+    enunciado: 'Assinale a alternativa em que o uso dos sinais de pontuação está inteiramente correto de acordo com a norma culta, considerando as regras de emprego do ponto e vírgula, travessão, vírgula e dois pontos em estruturas sintáticas complexas:',
+    alternativas: [
+      { id: 'A', texto: 'A máquina parou subitamente: o supervisor — assustado com o ruído — correu para desligá-la; mas o dano já estava feito.' },
+      { id: 'B', texto: 'Após o treinamento, os novos operários demonstraram habilidade; no entanto, os gestores decidiram reforçar a segurança: normas de emergência, uso de equipamentos e inspeções diárias.' },
+      { id: 'C', texto: 'O técnico revisou os relatórios; identificou inconsistências nos dados — e alertou a equipe: sobre os riscos de falha no sistema.' },
+      { id: 'D', texto: 'Os componentes essenciais são: placas de circuito; fios blindados e conectores — porém, a última remessa; continha itens defeituosos.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'A apresenta uso impecável: dois-pontos para introduzir a consequência, travessões para isolar o comentário "assustado com o ruído", e ponto e vírgula para separar a oração adversativa final.',
+      incorretas: {
+        B: 'O ponto e vírgula antes de "no entanto" é inadequado; deveria ser vírgula ou ponto.',
+        C: 'Os dois-pontos antes de "sobre" estão errados.',
+        D: 'O ponto e vírgula antes de "porém" e antes de "continha" são inadequados.'
+      },
+      conceitoCobrado: 'Combinação de sinais em períodos complexos.',
+      pegadinha: 'A banca insere ponto e vírgula em locais onde a vírgula ou o ponto seriam mais adequados.',
+      comoApareceEmConcurso: 'Questão de altíssimo nível, comum em provas discursivas.'
+    },
+    tags: ['ponto e vírgula', 'travessão', 'dois-pontos', 'vírgula']
+  },
+
+  /* ============================================================
+     PT-04 — Ortografia (uso dos porquês)
+  ============================================================ */
+  {
+    id: 'Q-DID-PT-0406',
+    tipo: 'DIDATICA',
+    area: 'ORTO',
+    moduloId: 'PT-04',
+    subtema: 'Uso dos porquês',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Dos vários membros de um grupo, apenas um não foi levado a uma festa e ele gostaria de saber o motivo. Assinale a alternativa em que a expressão do desejo desse membro do grupo obedece às normas ortográficas e gramaticais da língua portuguesa.',
+    alternativas: [
+      { id: 'A', texto: '“Não me levaram à festa e eu gostaria de saber o porque.”' },
+      { id: 'B', texto: '“Não sei porque não me levaram à festa. Gostaria de sabê-lo.”' },
+      { id: 'C', texto: '“Me levaram à festa? Não. Me pergunto: por quê?”' },
+      { id: 'D', texto: '“Por que não levaram-me à festa? Gostaria muito de saber.”' },
+      { id: 'E', texto: '“Não me levaram à festa. Gostaria de saber por que razão.”' }
+    ],
+    gabarito: 'E',
+    explicacao: {
+      correta: 'Em E, "por que razão" é a forma correta: "por que" separado, equivalendo a "por qual razão". A colocação pronominal "Não me levaram" (próclise com palavra negativa) também está correta.',
+      incorretas: {
+        A: '"porque" junto e sem acento no final da frase deveria ser "porquê" (substantivo) ou "por quê" (no final).',
+        B: 'Em "Não sei porque não me levaram", o correto é "por que" (interrogativa indireta), separado.',
+        C: 'A colocação "Me levaram" no início da frase fere a norma padrão (deveria ser "Levaram-me").',
+        D: 'A ênclise "levaram-me" após "não" está errada; o correto é "não me levaram".'
+      },
+      conceitoCobrado: 'Diferença entre "por que", "por quê", "porque" e "porquê"; colocação pronominal.',
+      pegadinha: 'A banca combina erro de porquê com erro de colocação pronominal.',
+      comoApareceEmConcurso: 'Cobrança clássica em ortografia e gramática.'
+    },
+    tags: ['porquês', 'por que', 'porquê', 'colocação pronominal']
+  }   
 
 ];
