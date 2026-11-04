@@ -2204,7 +2204,7 @@ window.QUESTIONS = [
   ============================================================ */
   {
     id: 'Q-DID-PT-0807',
-    tipo: 'DIDATICA',
+    tipo: 'REAL',
     area: 'SINT',
     moduloId: 'PT-08',
     subtema: 'Oração adjetiva restritiva x explicativa',
@@ -2235,7 +2235,7 @@ window.QUESTIONS = [
   },
   {
     id: 'Q-DID-PT-0808',
-    tipo: 'DIDATICA',
+    tipo: 'REAL',
     area: 'SINT',
     moduloId: 'PT-08',
     subtema: 'Reticências',
@@ -2266,7 +2266,7 @@ window.QUESTIONS = [
   },
   {
     id: 'Q-DID-PT-0809',
-    tipo: 'DIDATICA',
+    tipo: 'REAL',
     area: 'SINT',
     moduloId: 'PT-08',
     subtema: 'Pontuação de orações reduzidas antepostas',
@@ -2297,7 +2297,7 @@ window.QUESTIONS = [
   },
   {
     id: 'Q-DID-PT-0810',
-    tipo: 'DIDATICA',
+    tipo: 'REAL',
     area: 'SINT',
     moduloId: 'PT-08',
     subtema: 'Dois-pontos, ponto e vírgula e vírgula em explicação',
@@ -2328,7 +2328,7 @@ window.QUESTIONS = [
   },
   {
     id: 'Q-DID-PT-0811',
-    tipo: 'DIDATICA',
+    tipo: 'REAL',
     area: 'SINT',
     moduloId: 'PT-08',
     subtema: 'Funções dos sinais de pontuação',
@@ -2357,7 +2357,7 @@ window.QUESTIONS = [
   },
   {
     id: 'Q-DID-PT-0812',
-    tipo: 'DIDATICA',
+    tipo: 'REAL',
     area: 'SINT',
     moduloId: 'PT-08',
     subtema: 'Vírgula em enumeração de orações',
@@ -2388,7 +2388,7 @@ window.QUESTIONS = [
   },
   {
     id: 'Q-DID-PT-0813',
-    tipo: 'DIDATICA',
+    tipo: 'REAL',
     area: 'SINT',
     moduloId: 'PT-08',
     subtema: 'Análise de pontuação em múltiplas frases',
@@ -2419,7 +2419,7 @@ window.QUESTIONS = [
   },
   {
     id: 'Q-DID-PT-0814',
-    tipo: 'DIDATICA',
+    tipo: 'REAL',
     area: 'SINT',
     moduloId: 'PT-08',
     subtema: 'Pontuação correta em período simples',
@@ -2450,7 +2450,7 @@ window.QUESTIONS = [
   },
   {
     id: 'Q-DID-PT-0815',
-    tipo: 'DIDATICA',
+    tipo: 'REAL',
     area: 'SINT',
     moduloId: 'PT-08',
     subtema: 'Identificação de erro de pontuação',
@@ -2479,7 +2479,7 @@ window.QUESTIONS = [
   },
   {
     id: 'Q-DID-PT-0816',
-    tipo: 'DIDATICA',
+    tipo: 'REAL',
     area: 'SINT',
     moduloId: 'PT-08',
     subtema: 'Reticências, dois-pontos e exclamação',
@@ -2508,7 +2508,7 @@ window.QUESTIONS = [
   },
   {
     id: 'Q-DID-PT-0817',
-    tipo: 'DIDATICA',
+    tipo: 'REAL',
     area: 'SINT',
     moduloId: 'PT-08',
     subtema: 'Uso e explicação de sinais',
@@ -2539,7 +2539,7 @@ window.QUESTIONS = [
   },
   {
     id: 'Q-DID-PT-0818',
-    tipo: 'DIDATICA',
+    tipo: 'REAL',
     area: 'SINT',
     moduloId: 'PT-08',
     subtema: 'Vírgula em enumeração',
@@ -2570,7 +2570,7 @@ window.QUESTIONS = [
   },
   {
     id: 'Q-DID-PT-0819',
-    tipo: 'DIDATICA',
+    tipo: 'REAL',
     area: 'SINT',
     moduloId: 'PT-08',
     subtema: 'Análise de pontuação em texto',
@@ -2601,7 +2601,7 @@ window.QUESTIONS = [
   },
   {
     id: 'Q-DID-PT-0820',
-    tipo: 'DIDATICA',
+    tipo: 'REAL',
     area: 'SINT',
     moduloId: 'PT-08',
     subtema: 'Vírgula antes de "e" com mesmo sujeito',
@@ -2632,7 +2632,7 @@ window.QUESTIONS = [
   },
   {
     id: 'Q-DID-PT-0821',
-    tipo: 'DIDATICA',
+    tipo: 'REAL',
     area: 'SINT',
     moduloId: 'PT-08',
     subtema: 'Separação de orações coordenadas',
@@ -2663,7 +2663,7 @@ window.QUESTIONS = [
   },
   {
     id: 'Q-DID-PT-0822',
-    tipo: 'DIDATICA',
+    tipo: 'REAL',
     area: 'SINT',
     moduloId: 'PT-08',
     subtema: 'Pontuação correta em diálogo e intercalação',
@@ -2694,7 +2694,7 @@ window.QUESTIONS = [
   },
   {
     id: 'Q-DID-PT-0823',
-    tipo: 'DIDATICA',
+    tipo: 'REAL',
     area: 'SINT',
     moduloId: 'PT-08',
     subtema: 'Verdadeiro ou falso em pontuação',
@@ -2723,7 +2723,7 @@ window.QUESTIONS = [
   },
   {
     id: 'Q-DID-PT-0824',
-    tipo: 'DIDATICA',
+    tipo: 'REAL',
     area: 'SINT',
     moduloId: 'PT-08',
     subtema: 'Pontuação correta em período composto',
@@ -2752,7 +2752,7 @@ window.QUESTIONS = [
   },
   {
     id: 'Q-DID-PT-0825',
-    tipo: 'DIDATICA',
+    tipo: 'REAL',
     area: 'SINT',
     moduloId: 'PT-08',
     subtema: 'Pontuação em aposto e enumeração',
@@ -2781,7 +2781,7 @@ window.QUESTIONS = [
   },
   {
     id: 'Q-DID-PT-0826',
-    tipo: 'DIDATICA',
+    tipo: 'REAL',
     area: 'SINT',
     moduloId: 'PT-08',
     subtema: 'Vírgula em objeto pleonástico',
@@ -2812,7 +2812,7 @@ window.QUESTIONS = [
   },
   {
     id: 'Q-DID-PT-0827',
-    tipo: 'DIDATICA',
+    tipo: 'REAL',
     area: 'SINT',
     moduloId: 'PT-08',
     subtema: 'Pontuação em texto longo',
@@ -2843,7 +2843,7 @@ window.QUESTIONS = [
   },
   {
     id: 'Q-DID-PT-0828',
-    tipo: 'DIDATICA',
+    tipo: 'REAL',
     area: 'SINT',
     moduloId: 'PT-08',
     subtema: 'Identificação de pontuação incorreta',
@@ -2872,7 +2872,7 @@ window.QUESTIONS = [
   },
   {
     id: 'Q-DID-PT-0829',
-    tipo: 'DIDATICA',
+    tipo: 'REAL',
     area: 'SINT',
     moduloId: 'PT-08',
     subtema: 'Reescrita com vocativo e enumeração',
@@ -2903,7 +2903,7 @@ window.QUESTIONS = [
   },
   {
     id: 'Q-DID-PT-0830',
-    tipo: 'DIDATICA',
+    tipo: 'REAL',
     area: 'SINT',
     moduloId: 'PT-08',
     subtema: 'Teoria da pontuação',
@@ -2932,7 +2932,7 @@ window.QUESTIONS = [
   },
   {
     id: 'Q-DID-PT-0831',
-    tipo: 'DIDATICA',
+    tipo: 'REAL',
     area: 'SINT',
     moduloId: 'PT-08',
     subtema: 'Identificação de pontuação incorreta em enumeração',
@@ -2963,7 +2963,7 @@ window.QUESTIONS = [
   },
   {
     id: 'Q-DID-PT-0832',
-    tipo: 'DIDATICA',
+    tipo: 'REAL',
     area: 'SINT',
     moduloId: 'PT-08',
     subtema: 'Pontuação em estruturas complexas',
@@ -2992,7 +2992,7 @@ window.QUESTIONS = [
   },
   {
     id: 'Q-DID-PT-0833',
-    tipo: 'DIDATICA',
+    tipo: 'REAL',
     area: 'SINT',
     moduloId: 'PT-08',
     subtema: 'Funções da vírgula (aposto, adjunto, oração adjetiva)',
@@ -3023,7 +3023,7 @@ window.QUESTIONS = [
   },
   {
     id: 'Q-DID-PT-0834',
-    tipo: 'DIDATICA',
+    tipo: 'REAL',
     area: 'SINT',
     moduloId: 'PT-08',
     subtema: 'Pontuação em discurso direto e orações intercaladas',
@@ -3054,7 +3054,7 @@ window.QUESTIONS = [
   },
   {
     id: 'Q-DID-PT-0835',
-    tipo: 'DIDATICA',
+    tipo: 'REAL',
     area: 'SINT',
     moduloId: 'PT-08',
     subtema: 'Pontuação em estruturas sintáticas complexas',
@@ -3087,7 +3087,7 @@ window.QUESTIONS = [
   ============================================================ */
   {
     id: 'Q-DID-PT-0406',
-    tipo: 'DIDATICA',
+    tipo: 'REAL',
     area: 'ORTO',
     moduloId: 'PT-04',
     subtema: 'Uso dos porquês',
@@ -3115,6 +3115,37 @@ window.QUESTIONS = [
       comoApareceEmConcurso: 'Cobrança clássica em ortografia e gramática.'
     },
     tags: ['porquês', 'por que', 'porquê', 'colocação pronominal']
+  },
+  {
+    id: 'Q-DID-PT-1206',
+    tipo: 'REAL',
+    area: 'TEXT',
+    moduloId: 'PT-12',
+    subtema: 'Manutenção de sentido e correção gramatical em reescrita',
+    dificuldade: 3,
+    prioridade: 'media',
+    enunciado: 'EQUIDADE DE GÊNERO: O QUE ISSO QUER DIZER? Entendemos a necessidade de olhar para as mulheres como um grupo específico pois vivemos em uma sociedade que discrimina mulheres por seu gênero. Criando um ambiente de desigualdade social, econômica e política. De acordo com o relatório World Gender Gap 2020, do Fórum Econômico Mundial, no ritmo atual, seriam necessários 99,5 anos para que a igualdade de gênero fosse alcançada no mundo. Isso significa que a desigualdade entre os gêneros é uma realidade atual e histórica que resulta nas mais diversas formas de violência, opressão e desvantagens contra as mulheres. A fim de eliminar essas divergências e desequilíbrios, a busca pela equidade de gênero se torna cada vez mais urgente em nossa sociedade. Mas você sabe o que isso quer dizer? (...) O projeto Equidade é uma parceria entre a Politize!, o Instituto Mattos Filho e a Civicus, voltada a apresentar, de forma simples e didática, os Direitos Humanos e os principais temas que eles envolvem, desde os seus principais fundamentos e conceitos aos seus impactos em nossas vidas. E então, preparado(a) para entender sobre o que quer dizer equidade de gênero? O que significa equidade de gênero? A concepção de equidade diz respeito ao reconhecimento das características próprias de um indivíduo ou grupo, em que se leva em consideração o direito de cada um com base na imparcialidade. Dessa forma, o princípio da equidade busca equilibrar a balança da justiça reconhecendo as diferenças, vulnerabilidades e necessidades particulares das pessoas. Por exemplo, imagine que uma gestante necessita de atendimento médico urgente. Mas o hospital na qual ela foi levada está lotado. Seguindo o princípio de que todos devem ser tratados iguais, os pacientes que já estavam esperando atendimento deveriam ser tratados primeiro. Contudo, isso não seria o mais justo a ser feito. Assim, reconhecendo a necessidade que a gestante possui, o princípio da equidade prevê que é ela quem deve receber o atendimento primeiro, colaborando para a justiça social. Já o gênero, segundo a antropóloga Adriana Piscitelli, refere-se ao caráter cultural das distinções entre homens e mulheres e entre ideias sobre feminilidade e masculinidade. Ou seja, gênero diz respeito às representações do masculino e do feminino na sociedade, não estando necessariamente vinculado ao sexo biológico. Isso significa que o gênero está vinculado com o comportamento e o papel social que são atribuídos a homens e mulheres, o que, consequentemente, cria estereótipos e generalizações. É assim que expressões como “homem não chora” ou “mulher não sabe dirigir” nascem. Na verdade, tanto a função de dirigir quanto o ato de chorar não são em nenhuma maneira influenciados pelos órgãos genitais humanos, mas as expressões refletem a visão socialmente construída em relação a atos e comportamentos masculinos e femininos. Dessa forma, o princípio da equidade visa garantir que independentemente de seu gênero, todas as pessoas devem ter as mesmas oportunidades para se desenvolver, com suas ações e opiniões sendo valorizadas igualmente. A equidade de gênero engloba uma compreensão formal, isto é, a garantia em lei que todas as pessoas devem receber um tratamento igualitário; e uma compreensão material, que abrange a ideia de que pessoas de gêneros distintos são diferentes e que as suas particularidades devem ser levadas em conta na garantia dos seus direitos e oportunidades. [...] (ADAPTADO. Equidade de gênero: o que isso quer dizer? | Politize!. Acesso em 04/02/2023). Uma reescritura que mantém o sentido original do trecho: “Entendemos a necessidade de olhar para as mulheres como um grupo específico pois vivemos em uma sociedade que discrimina mulheres por seu gênero. Criando um ambiente de desigualdade social, econômica e política.”, considerando-se a pontuação, a clareza das ideias e a norma-padrão, é:',
+    alternativas: [
+      { id: 'A', texto: 'Entendemos a necessidade de visualizar às mulheres como um grupo restrito, pois nós vivemos numa sociedade discriminatória delas, por seu sexo. Entretanto, criando um ambiente de desigualdade social, econômica e política.' },
+      { id: 'B', texto: 'Entende-se a necessidade dar um lugar de fala às mulheres, por exemplo, elas são um grupo específico, já que vivem na sociedade que discrimina mulheres por seu sexo, conquanto um ambiente de desigualdade social, econômica e política.' },
+      { id: 'C', texto: 'Entende-se que há um ambiente de desigualdade social, econômica e política, pois vivemos numa sociedade que discrimina mulheres por seu gênero, o que culmina na necessidade de olhar para as mulheres como um grupo específico, deveras.' },
+      { id: 'D', texto: 'Entendemos a necessidade de olhar para as mulheres como um grupo específico, contudo vivemos em uma sociedade que discrimina mulheres por seu “gênero”; criando um ambiente de desigualdade social, econômica e política.' },
+      { id: 'E', texto: 'Entendemos a necessidade de olhar para as mulheres como um grupo específico: vivemos em uma sociedade que discrimina mulheres por seu gênero, criando um ambiente de desigualdade social, econômica e política.' }
+    ],
+    gabarito: 'E',
+    explicacao: {
+      correta: 'E resolve os dois problemas do original: (1) substitui o "pois" pelos dois-pontos, mantendo a relação de causa/justificativa entre as orações; (2) elimina o gerúndio solto ("Criando" no início de período), ligando "criando" à oração anterior ("vivemos em uma sociedade que discrimina mulheres por seu gênero, criando um ambiente de desigualdade"). O sentido é preservado e a pontuação está impecável.',
+      incorretas: {
+        A: '"visualizar às mulheres" — erro de regência (visualizar é transitivo direto, não pede a preposição "a"); "discriminatória delas" — construção inadequada; "Entretanto, criando" muda a relação lógica de causa para oposição e mantém o gerúndio solto; "grupo restrito" altera o sentido de "grupo específico".',
+        B: '"necessidade dar" — falta a preposição "de"; "conquanto" introduz concessão, alterando a relação lógica; "por exemplo" acrescenta ideia inexistente no original; "elas são um grupo específico" desloca a hierarquia das ideias.',
+        C: 'A estrutura foi invertida (começa pela consequência), o que desloca o foco do texto original; "deveras" é acréscimo desnecessário que não aparece no original e altera a ênfase; embora a pontuação esteja correta, a reorganização muda a hierarquia das ideias do trecho.',
+        D: '"contudo" substitui "pois" e transforma a relação de causa em oposição — alteração de sentido; as aspas em "gênero" conferem ênfase especial que não existe no original; "criando" permanece como gerúndio solto, sem conexão clara.'
+      },
+      conceitoCobrado: 'Reescrita — manutenção de sentido, correção gramatical e uso dos dois-pontos para introduzir justificativa.',
+      pegadinha: 'O candidato precisa perceber que os dois-pontos podem substituir "pois" e que o gerúndio deve estar ligado à oração anterior. Alternativas como D parecem corretas mas trocam a relação lógica; C parece correta mas acrescenta termos e inverte o foco.',
+      comoApareceEmConcurso: 'Questão integrada de reescrita e pontuação, comum em provas de nível superior.'
+    },
+    tags: ['reescrita', 'manutenção de sentido', 'pontuação', 'dois-pontos', 'gerúndio']
   }   
 
 ];
