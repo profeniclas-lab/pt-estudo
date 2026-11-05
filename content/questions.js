@@ -3146,6 +3146,121 @@ window.QUESTIONS = [
       comoApareceEmConcurso: 'Questão integrada de reescrita e pontuação, comum em provas de nível superior.'
     },
     tags: ['reescrita', 'manutenção de sentido', 'pontuação', 'dois-pontos', 'gerúndio']
+  },   
+  {
+    id: 'Q-REAL-PT-1207',
+    tipo: 'REAL',
+    area: 'TEXT',
+    moduloId: 'PT-12',
+    subtema: 'Manutenção de sentido com deslocamento de conectivo',
+    dificuldade: 2,
+    prioridade: 'media',
+    enunciado: 'Baby blues: os principais sintomas e os fatores de risco A tristeza pós-parto é "uma alteração ou mudança de humor que ocorre nas mulheres por volta do segundo ou terceiro dia após o parto, pode durar entre duas e três semanas e regride espontaneamente", explica a psicóloga perinatal Jazmín Mirelman. Embora em termos de sintomas não seja muito diferente da depressão pós-parto, elas diferem enormemente "em termos de gravidade e duração", esclarece. As principais manifestações desse distúrbio do humor são tristeza, irritabilidade e instabilidade emocional ou choro fácil. Também pode ser acompanhada de dificuldade para dormir, hipersensibilidade e ansiedade. Essas flutuações de humor, entretanto, não produzem mudanças substanciais na autoestima, algo que caracteriza a depressão pós-parto. Como o baby blues é mais leve e oscilante do que a depressão pós-parto, a mãe que sofre dele "ainda pode se divertir, curtir ou desconectar", diz Teresa Bobes Bascarán, especialista em psicologia clínica da Universidade de Oviedo, na Espanha. Na depressão pós-parto, ao contrário, a mãe pode procurar ativamente evitar o contato com outras pessoas, ter dificuldade de concentração e de tomar decisões, questionar sua capacidade de cuidar de si mesma e do bebê e ter pensamentos assustadores, como a ideia de ferir o bebê, conforme explica o Serviço Nacional de Saúde do Reino Unido. Além disso, ao contrário do baby blues, que ocorre nos primeiros dias após o parto, a depressão pós-parto pode ocorrer até um ano após o nascimento. As estatísticas variam, mas especialistas estimam que até cerca de 85% das mulheres experimentam tristeza pós-parto, em comparação a 10% a 20% que sofrem de depressão pós-parto. https://www.bbc.com/portuguese/articles/crgdjnpvl19o. Adaptado. Essas flutuações de humor, entretanto, não produzem mudanças substanciais na autoestima, algo que caracteriza a depressão pós-parto. Assinale a opção que contenha a nova pontuação sem alteração do sentido original da frase.',
+    alternativas: [
+      { id: 'A', texto: 'Entretanto, essas flutuações de humor não produzem mudanças substanciais na autoestima, algo que caracteriza a depressão pós-parto.' },
+      { id: 'B', texto: 'Algo que caracteriza a depressão pós-parto entretanto, essas flutuações de humor, não produzem mudanças substanciais na autoestima.' },
+      { id: 'C', texto: 'Entretanto essas flutuações de humor não produzem mudanças substanciais na autoestima, algo que caracteriza a depressão pós-parto.' },
+      { id: 'D', texto: 'Algo que caracteriza a depressão pós-parto; entretanto essas flutuações de humor, na autoestima não produzem mudanças substanciais.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'A desloca corretamente o conectivo "entretanto" para o início do período, isolando-o por vírgula. O sentido de oposição é mantido e a estrutura sujeito-verbo-complemento ("essas flutuações de humor não produzem mudanças substanciais na autoestima") permanece intacta.',
+      incorretas: {
+        B: 'A estrutura está truncada: falta vírgula após "entretanto", há vírgula indevida isolando "essas flutuações de humor" do verbo e o conectivo fica solto no meio do período, quebrando a coesão e o sentido.',
+        C: 'O conectivo anteposto "Entretanto" deve ser isolado por vírgula. Sem ela, há erro de pontuação (embora o sentido se mantenha), o que desclassifica a alternativa.',
+        D: 'O ponto e vírgula é empregado de forma inadequada, a vírgula separa "humor" de "na autoestima" (quebrando a ligação verbo-complemento) e "entretanto" aparece sem a vírgula exigida.'
+      },
+      conceitoCobrado: 'Pontuação de conectivo intercalado x anteposto e manutenção de sentido na reescrita.',
+      pegadinha: 'A alternativa C mantém o sentido, mas erra a pontuação ao omitir a vírgula após "Entretanto". A banca explora a diferença entre sentido preservado e correção gramatical.',
+      comoApareceEmConcurso: 'Questão integrada de reescrita e pontuação, comum em provas de nível médio/superior.'
+    },
+    tags: ['reescrita', 'pontuação', 'conectivo', 'entretanto', 'manutenção de sentido']
+  },
+  {
+    id: 'Q-REAL-PT-0836',
+    tipo: 'REAL',
+    area: 'SINT',
+    moduloId: 'PT-08',
+    subtema: 'Dois-pontos: introdução de explicação',
+    dificuldade: 2,
+    prioridade: 'muito_alta',
+    enunciado: 'O carro do Beto tinha duas portas. A do passageiro não abria, então, a rota de entrada para todos era pelo lado do motorista. O banco do motorista não levantava para quem ia sentar atrás. Acomodar três pessoas exigia uma certa ginástica. Não era o veículo ideal para uma fuga de emergência, mas era o que tínhamos e, mais que isso, era o que garantia nossa liberdade e nossas infinitas possibilidades. Com ele, São Paulo era pequena para nós. Eu tinha 16 anos, o Beto e a Solange um pouco mais do que eu. Eu acabara de voltar de um ano de intercâmbio em uma cidade no interior dos Estados Unidos e estava achando tudo muito moderno naquela São Paulo dos anos 80. O que levei comigo e trouxe de volta foi a trilha sonora: a discografia completa da Rita Lee. O programa daquele fim de semana seria uma homenagem a ela. Pela lista telefônica, tinha descoberto o endereço do pai dela e decidi deixar uma frase pichada no muro da casa dele na Vila Mariana. Beto e Solange toparam na hora. Tudo aconteceria de madrugada. Eles ficariam dentro do carro com o motor ligado. Eu desceria com o spray, escreveria a frase na parede, me jogaria pela janela carro adentro, o Beto acelerava e a gente se mandava. Os medos eram muitos. E foi com o coração aos pulos de terror e emoção que escrevi no muro branco: “Rita, pra você, a agilidade do gato e o brilho da estrela”. Minha mensagem adolescente de amor por Rita Lee estava registrada para toda a cidade ver. Trinta e sete anos depois, fui com uns amigos ver uma exposição sobre a Rita Lee. Logo na entrada do museu, uma parede pintada de azul trazia a estampa da minha frase, letra por letra (acrescentaram as letras esses no “das estrelas”). Foi como se um raio tivesse me atingido na cabeça. A sensação me pareceu ter sido a mesma de quando escrevi no muro naquela madrugada: pernas bambas, coração acelerado, mãos tremendo. A minha frase na parede do museu! Uma das monitoras da exposição quis saber o que acontecia. Eu contei a história. Ela se espantou, já que a exposição não trazia nenhuma explicação sobre a origem daquela frase. Não me importava: ela era minha e estava lá. Deparei-me outras vezes com o meu grafite. O dia do museu, porém, foi o mais emocionante. Não era só uma menção, era uma reprodução. (Ana Ribeiro. Frase que pichei para Rita Lee reapareceu 37 anos depois em exposição. www1.folha.uol.com.br, 19.02.2022. Adaptado) No trecho “Não me importava: ela era minha e estava lá” (6º parágrafo), os dois-pontos foram empregados para introduzir, em relação à informação que os antecede,',
+    alternativas: [
+      { id: 'A', texto: 'uma síntese.' },
+      { id: 'B', texto: 'uma explicação.' },
+      { id: 'C', texto: 'uma ressalva.' },
+      { id: 'D', texto: 'uma correção.' },
+      { id: 'E', texto: 'uma citação.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'Os dois-pontos introduzem a JUSTIFICATIVA/EXPLICAÇÃO do que foi afirmado antes: por que "não me importava" que a exposição não trouxesse a origem da frase? Porque "ela era minha e estava lá". A segunda oração explica a primeira.',
+      incorretas: {
+        A: 'Não há síntese (resumo) do que foi dito antes — a segunda oração apresenta uma razão, não um resumo.',
+        C: 'Não há ressalva (restrição/objeção): o enunciado não relativiza a afirmação anterior.',
+        D: 'Não há correção: nada é retificado; a segunda oração justifica a primeira.',
+        E: 'Não há citação: não se reproduz fala de outrem entre aspas ou com verbo dicendi.'
+      },
+      conceitoCobrado: 'Valores semânticos dos dois-pontos: explicação/esclarecimento.',
+      pegadinha: 'Confundir explicação (razão/justificativa) com síntese (resumo) — ambas podem vir após dois-pontos, mas aqui há claramente uma relação de causa/justificativa.',
+      comoApareceEmConcurso: 'Cobrança recorrente em interpretação do emprego dos sinais de pontuação.'
+    },
+    tags: ['dois-pontos', 'explicação', 'pontuação', 'interpretação']
+  },   
+  {
+    id: 'Q-REAL-PT-0837',
+    tipo: 'REAL',
+    area: 'SINT',
+    moduloId: 'PT-08',
+    subtema: 'Dois-pontos x vírgula em aposto enumerativo',
+    dificuldade: 3,
+    prioridade: 'muito_alta',
+    enunciado: 'Texto para os itens de 1 a 20. A expressão saúde pública veterinária é utilizada para designar o marco conceitual e a implementação das atividades de saúde pública que empregam conhecimentos e recursos da medicina veterinária para proteger e melhorar a saúde humana. A saúde pública veterinária vincula a agricultura, a saúde animal, a educação, o ambiente e a saúde humana. Por sua vez, as atividades de medicina veterinária preventiva têm seu princípio na pré-história e continuam até o primeiro século da Era Cristã. No Código de Hamurábi, código de leis mais antigo do mundo, já havia menções a práticas de medicina veterinária entre indivíduos específicos com tais atribuições. Os primeiros esforços dirigidos contra a doença animal foram descritos nas antigas civilizações da Suméria, do Egito e da Grécia, com referências a curandeiros de animais antes da Era Cristã. Ao lado do tratamento médico, cirúrgico e obstétrico individual, duas outras táticas eram aplicadas localmente para o controle das enfermidades animais, antes mesmo do desenvolvimento da teoria do contágio: o emprego da quarentena (segregação dos animais doentes dos sadios) e o sacrifício de animais enfermos. No cenário atual, a medicina veterinária enfoca a saúde humana e o controle de qualidade dos alimentos, e há uma política muito tímida voltada à saúde dos animais domésticos. Todavia, isso deve estar na pauta das políticas, haja vista que, para muitos proprietários de animais, esses são como filhos, e as pessoas gostam de dar o tratamento adequado a seus animais. A esse respeito, as clínicas veterinárias aplicam preços vultosos, e, muitas vezes, os donos dos pets têm de escolher entre comer, pagar as contas ou levar seu bicho a uma clínica. Assim, é importante o desenvolvimento de uma medicina veterinária populacional, por meio, por exemplo, da criação, pelos governos, de um hospital veterinário gratuito, centralizado nas cidades, e que atenda a população mais pobre, que não tem condições de levar seus animais a uma clínica privada. Em suma, a orientação dispensada à medicina veterinária dentro da tríade formada por ambiente, animal e homem deve ser acompanhada de uma importante expansão da saúde pública veterinária. Internet: <rsdjournal.org> (com adaptações). Acerca das estruturas linguísticas e gramaticais do texto, julgue os itens a seguir. No trecho “Ao lado do tratamento médico, cirúrgico e obstétrico individual, duas outras táticas eram aplicadas localmente para o controle das enfermidades animais, antes mesmo do desenvolvimento da teoria do contágio: o emprego da quarentena (segregação dos animais doentes dos sadios) e o sacrifício de animais enfermos.”, a substituição do sinal de dois-pontos por vírgula mantém a correção gramatical.',
+    alternativas: [
+      { id: 'C', texto: 'Certo' },
+      { id: 'E', texto: 'Errado' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'CERTO. Os dois-pontos introduzem um aposto enumerativo que especifica quais são as "duas outras táticas" mencionadas antes. A vírgula também pode introduzir aposto enumerativo, de modo que a substituição mantém a correção gramatical: "...antes mesmo do desenvolvimento da teoria do contágio, o emprego da quarentena (segregação dos animais doentes dos sadios) e o sacrifício de animais enfermos." A estrutura sintática permanece íntegra e o sentido é preservado.',
+      incorretas: {
+        E: 'ERRADO — a substituição é possível porque a vírgula exerce a mesma função de introduzir o aposto enumerativo. Não há prejuízo à correção gramatical nem ao sentido.'
+      },
+      conceitoCobrado: 'Equivalência funcional entre dois-pontos e vírgula na introdução de aposto enumerativo.',
+      pegadinha: 'Muitos candidatos acham que os dois-pontos são insubstituíveis antes de enumeração, mas a vírgula pode exercer a mesma função quando o aposto é enumerativo.',
+      comoApareceEmConcurso: 'Questão de julgamento CESPE/CEBRASPE sobre pontuação e reescrita.'
+    },
+    tags: ['dois-pontos', 'vírgula', 'aposto enumerativo', 'reescrita', 'CESPE']
+  },
+  {
+    id: 'Q-REAL-PT-0838',
+    tipo: 'REAL',
+    area: 'SINT',
+    moduloId: 'PT-08',
+    subtema: 'Pontuação: isolamento facultativo de advérbio e oração adverbial intercalada',
+    dificuldade: 3,
+    prioridade: 'muito_alta',
+    enunciado: 'Imagino que a escrita nasceu da necessidade de não esquecer. O primeiro pré-homem que pensou “preciso me lembrar disso” deve ter olhado em volta procurando alguma coisa que ele ainda não sabia o que era. Era um pedaço de papel e uma Bic. Claro que, para chegar ao papel e à esferográfica, tivemos que passar antes pelo risco com vara no chão, o rabisco com carvão na parede da caverna, o hieróglifo no tablete de barro etc. Mas a angústia primordial foi a de perder o pensamento fugidio ou a cena insólita. Pense em quantas ideias não desapareceram para sempre por falta de algo que as retivesse na memória e no mundo. A história da civilização teria sido outra se, antes de inventar a roda, o homem tivesse inventado o bloco de notas. As espécies que não desenvolveram a escrita valem-se da memória intuitiva. O salmão sabe, não sabendo, o caminho certo para o lugar onde nasceu e onde deve depositar seus ovos. Dizem que o elefante guarda na memória tudo que lhe acontece na vida, principalmente as desfeitas, mas vá pedir que ele bote seu ressentimento no papel. Já o homem pode ser definido como o animal que precisa consultar as suas notas. Nas sociedades não letradas, as lembranças sobrevivem na recitação reiterada e no mito tribal, que é a memória ritualizada. As outras dependem do memorando. E mesmo com todas as formas de anotação inventadas pelo homem desde as primeiras cavernas, inclusive o notebook, a angústia persiste. Estou escrevendo isto porque acordei com uma boa ideia para um texto e botei a ideia num papel. Normalmente não faço isso, porque sempre me esqueço de ter um bloco de notas à mão para não esquecer a eventual ideia e porque sei, intuitivamente, que, se tivesse o bloco de notas à mão, a ideia viria no chuveiro. Mas desta vez a ideia coincidiu com a proximidade de um pedaço de papel e um lápis, e anotei-a assim que acordei. Não exatamente a ideia, mas uma frase que me faria lembrar da ideia. Estou com ela aqui. “Conhece-te a ti mesmo, mas não fique íntimo”. E não consigo me lembrar de qual era a ideia de que a frase me faria lembrar. Algo sobre os perigos da autoanálise muito aprofundada? Sobre o pensamento socrático? Ou o quê? Não consigo me lembrar. Um consolo, numa situação destas, é pensar que, se a ideia não é lembrada, é porque não era tão boa assim. Mas geralmente se pensa o contrário: as melhores ideias são as que a gente esqueceu. O que é terrível. Luís Fernando Verissimo. Memória e anotações. In: Estadão, 22/9/2011. Internet: <http://www.estadao.com.br/> (com adaptações). No que se refere à pontuação, é correto afirmar que a correção gramatical e os sentidos do primeiro parágrafo do texto CG2A1 seriam mantidos caso',
+    alternativas: [
+      { id: 'A', texto: 'o vocábulo “pré-homem” (segundo período) fosse sucedido por vírgula.' },
+      { id: 'B', texto: 'o vocábulo “antes” (quarto período) fosse isolado entre vírgulas.' },
+      { id: 'C', texto: 'as vírgulas que isolam a oração “antes de inventar a roda” (último período) fossem suprimidas.' },
+      { id: 'D', texto: 'o vocábulo ‘disso’ (segundo período) fosse sucedido por vírgula.' },
+      { id: 'E', texto: 'o vocábulo “primordial” (quinto período) fosse sucedido por vírgula.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'Em B, isolar o advérbio “antes” entre vírgulas (“tivemos que passar, antes, pelo risco com vara no chão”) é uma possibilidade estilística prevista na norma padrão. A correção gramatical é mantida (o advérbio fica corretamente destacado) e o sentido de anterioridade não se altera.',
+      incorretas: {
+        A: 'A vírgula após “pré-homem” transformaria a oração adjetiva restritiva (“que pensou...”) em explicativa, alterando o sentido: o texto deixaria de indicar “o primeiro entre vários” e passaria a sugerir que todos os pré-homens pensaram, ou que só há um.',
+        C: 'A oração “antes de inventar a roda” está intercalada entre a conjunção “se” e o sujeito “o homem”. A supressão das vírgulas compromete a clareza e o correto isolamento da oração adverbial intercalada, contrariando a norma-padrão.',
+        D: 'A vírgula após o fechamento das aspas separaria o sujeito (“O primeiro pré-homem que pensou...”) do verbo (“deve”), o que é proibido pela norma padrão.',
+        E: 'A vírgula após “primordial” separaria o sujeito (“a angústia primordial”) do verbo (“foi”), erro clássico de pontuação.'
+      },
+      conceitoCobrado: 'Pontuação: isolamento facultativo de advérbio (possível) x isolamento obrigatório de oração adverbial intercalada (necessário); vírgula proibida entre sujeito e verbo.',
+      pegadinha: 'A banca explora a diferença entre uma vírgula estilística (facultativa) e uma vírgula estrutural (obrigatória). O candidato pode achar que isolar “antes” é inadequado, quando na verdade é perfeitamente aceitável.',
+      comoApareceEmConcurso: 'Questão no estilo CESPE/CEBRASPE, que costuma cobrar a diferença entre pontuação facultativa e obrigatória.'
+    },
+    tags: ['pontuação', 'vírgula', 'advérbio', 'oração intercalada', 'CESPE', 'reescrita']
   }   
-
 ];
