@@ -900,4 +900,126 @@ body.dark .ecb-fill { background: #f87171; }
     padding: 10px 14px;
   }
 }
+
+/* ============================================================
+   PORTUGUÊS-ESTUDO — campo textoBase (textos de apoio)
+   ============================================================ */
+
+.q-texto-base,
+.diag-texto-base {
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--primary);
+  border-radius: 8px;
+  padding: 14px 16px;
+  margin-bottom: 14px;
+  font-size: 14.5px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  color: var(--text);
+  max-height: 420px;
+  overflow-y: auto;
+}
+
+.qp-texto-base {
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--primary);
+  border-radius: 6px;
+  padding: 10px 12px;
+  margin-bottom: 8px;
+  font-size: 13px;
+  line-height: 1.55;
+  white-space: pre-wrap;
+  color: var(--text);
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+body.dark .q-texto-base,
+body.dark .diag-texto-base,
+body.dark .qp-texto-base {
+  background: var(--surface-alt);
+}
+
+/* ============================================================
+   PORTUGUÊS-ESTUDO — bloco de registro de nota de redação
+   (usado em etapa futura em RED-24 e Estatísticas)
+   ============================================================ */
+
+.redacao-score-block {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--purple);
+  border-radius: var(--radius);
+  padding: 16px 18px;
+  margin-bottom: 12px;
+}
+.redacao-score-block h3 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.redacao-score-block p {
+  font-size: 13.5px;
+  line-height: 1.55;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+}
+.redacao-score-form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+.redacao-score-form label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.redacao-score-form input,
+.redacao-score-form textarea {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  font-family: inherit;
+  font-size: 14px;
+  color: var(--text);
+}
+.redacao-score-form input[type="number"] { width: 100px; }
+.redacao-score-form textarea { width: 100%; min-height: 60px; resize: vertical; }
+
+.redacao-list {
+  display: grid;
+  gap: 8px;
+  margin-top: 14px;
+}
+.redacao-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+  padding: 10px 14px;
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 13.5px;
+  flex-wrap: wrap;
+}
+.redacao-item .ri-score {
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--primary);
+  min-width: 70px;
+  text-align: right;
+}
 /* ===== FIM DO STYLE.CSS v2.0 ===== */
