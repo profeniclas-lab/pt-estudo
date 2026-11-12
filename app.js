@@ -2500,7 +2500,8 @@ if (exemploInedito) {
       html += '<div class="question-preview"><div class="qp-header"><span class="qp-id">' + esc(qq.id) + '</span>';
       html += '<span class="badge-pill ' + typeBadgeClass(qq.tipo) + '">' + esc(typeLabel(qq.tipo)) + '</span>';
       html += '<span class="qp-status ' + (ok ? 'qs-acerto' : 'qs-erro') + '">' + (ok ? '✓ Acerto' : '✗ Erro') + '</span></div>';
-      html += '<div class="qp-text">' + esc(qq.enunciado) + '</div>';
+        if (qq.textoBase) html += '<div class="qp-texto-base">' + esc(qq.textoBase) + '</div>';
+        html += '<div class="qp-text">' + esc(qq.enunciado) + '</div>';
       html += '<div class="qp-meta">Sua resposta: <strong>' + esc(rr || '—') + '</strong> · Gabarito: <strong>' + esc(qq.gabarito) + '</strong></div></div>';
     }
     html += '<div style="margin-top:18px;display:flex;gap:8px;flex-wrap:wrap;"><button class="btn btn-primary" data-nav="questoes">Nova sessão →</button></div>';
@@ -3423,6 +3424,7 @@ if (exemploInedito) {
       html += '<div class="question-preview"><div class="qp-header"><span class="qp-id">' + esc(q.id) + '</span>';
       html += '<span class="badge-pill ' + typeBadgeClass(q.tipo) + '">' + esc(typeLabel(q.tipo)) + '</span>';
       html += '<span class="qp-status ' + clsStatus + '">' + esc(txtStatus) + '</span></div>';
+      if (q.textoBase) html += '<div class="qp-texto-base">' + esc(q.textoBase) + '</div>';
       html += '<div class="qp-text">' + esc(q.enunciado) + '</div>';
       html += '<div class="qp-meta">Sua resposta: <strong>' + esc(resp || '—') + '</strong> · Gabarito: <strong>' + esc(q.gabarito) + '</strong> · ' + esc(q.moduloId + ' · ' + q.subtema) + '</div>';
       if (!correta && resp != null) html += '<div class="ei-row2" style="margin-top:8px;"><button class="btn btn-danger" data-action="revisar-questao-unica" data-question-id="' + esc(q.id) + '">Revisar esta questão</button></div>';
