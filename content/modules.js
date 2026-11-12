@@ -1,201 +1,338 @@
 /* ============================================================
-   MÓDULOS — Português
-   Blocos:
-     LEIT = Leitura e Interpretação (PT-01, PT-02)
-     LEXI = Léxico, Semântica e Morfologia (PT-03, PT-05, PT-06, PT-13)
-     ORTO = Ortografia, Acentuação e Fonologia (PT-04, PT-14)
-     SINT = Sintaxe e Pontuação (PT-07, PT-08, PT-09, PT-10)
-     TEXT = Texto, Coesão e Reescrita (PT-11, PT-12, PT-16)
-     OFIC = Redação Oficial (PT-15)
-   Prioridades: muito_alta, alta, media, condicional
+   MÓDULOS — Português e Redação Oficial
+   Total: 24 módulos
+   Áreas:
+     LET = Leitura e Interpretação (POR-01 a POR-05)
+     GRA = Gramática e Norma      (POR-06 a POR-19)
+     RED = Redação Oficial        (RED-20 a RED-23)
+     PRO = Produção Textual       (RED-24)
+   Prioridades:
+     alta  = 🔴 Muito alta
+     media = 🟠 Alta
+     baixa = 🟡 Complementar
    ============================================================ */
 
 window.MODULES = [
 
-  /* ============ BLOCO LEIT — LEITURA E INTERPRETAÇÃO ============ */
+  /* ============================================================
+     ÁREA I — INTERPRETAÇÃO E COMPREENSÃO TEXTUAL
+  ============================================================ */
   {
-    id: 'PT-01',
-    area: 'LEIT',
-    titulo: 'Interpretação e Compreensão de Textos',
-    prioridade: 'muito_alta',
+    id: 'POR-01',
+    area: 'LET',
+    titulo: 'Leitura, compreensão e interpretação de textos',
+    prioridade: 'alta',
     subtopicos: [
-      'Tema, assunto, finalidade e ideia central',
+      'Leitura literal e inferencial',
       'Informações explícitas e implícitas',
-      'Inferências',
-      'Fatos, opiniões e argumentos',
+      'Tema e ideia central',
+      'Ideias secundárias',
+      'Finalidade comunicativa',
+      'Tese e argumentos',
       'Pressupostos e subentendidos',
+      'Inferências',
       'Relações entre partes do texto',
-      'Identificação da tese',
-      'Textos verbais, não verbais e mistos',
-      'Alternativas corretas e extrapolações',
-      'Contradições e distorções do texto'
+      'Identificação de informações contraditórias',
+      'Interpretação de textos verbais e não verbais',
+      'Interpretação de textos administrativos e informativos'
     ]
   },
   {
-    id: 'PT-02',
-    area: 'LEIT',
-    titulo: 'Tipologia, Gêneros Textuais e Comunicação',
+    id: 'POR-02',
+    area: 'LET',
+    titulo: 'Tipologia textual e gêneros textuais',
     prioridade: 'alta',
     subtopicos: [
       'Narração',
       'Descrição',
-      'Exposição',
-      'Argumentação',
-      'Injunção',
-      'Gêneros textuais (notícia, artigo, crônica, reportagem, e-mail, aviso, comunicado, requerimento)',
-      'Finalidade comunicativa',
-      'Público-alvo, contexto e linguagem',
-      'Linguagem verbal e não verbal',
-      'Funções da linguagem',
-      'Tipo textual x gênero textual'
+      'Dissertação expositiva',
+      'Dissertação argumentativa',
+      'Injuntivo e instrucional',
+      'Gêneros textuais',
+      'Diferenças entre tipo textual e gênero textual',
+      'Função social dos textos',
+      'Textos informativos, administrativos, jornalísticos e institucionais'
+    ]
+  },
+  {
+    id: 'POR-03',
+    area: 'LET',
+    titulo: 'Coesão e coerência textual',
+    prioridade: 'alta',
+    subtopicos: [
+      'Coesão referencial',
+      'Coesão sequencial',
+      'Anáfora e catáfora',
+      'Elementos de referenciação',
+      'Substituição e repetição',
+      'Conectivos',
+      'Relações de causa, consequência, oposição, concessão, condição, finalidade e conclusão',
+      'Progressão temática',
+      'Coerência global e local',
+      'Contradições e ambiguidades'
+    ]
+  },
+  {
+    id: 'POR-04',
+    area: 'LET',
+    titulo: 'Semântica, significação e relações entre palavras',
+    prioridade: 'alta',
+    subtopicos: [
+      'Denotação e conotação',
+      'Sinonímia e antonímia',
+      'Polissemia',
+      'Homonímia e paronímia',
+      'Hiperonímia e hiponímia',
+      'Ambiguidade',
+      'Sentido contextual',
+      'Sentido próprio e figurado',
+      'Campo semântico',
+      'Valor semântico dos conectivos'
+    ]
+  },
+  {
+    id: 'POR-05',
+    area: 'LET',
+    titulo: 'Figuras de linguagem e funções da linguagem',
+    prioridade: 'alta',
+    subtopicos: [
+      'Metáfora',
+      'Metonímia',
+      'Comparação',
+      'Hipérbole',
+      'Eufemismo',
+      'Ironia',
+      'Personificação',
+      'Antítese',
+      'Paradoxo',
+      'Funções referencial, emotiva, conativa, fática, metalinguística e poética',
+      'Elementos da comunicação'
     ]
   },
 
-  /* ============ BLOCO LEXI — LÉXICO, SEMÂNTICA E MORFOLOGIA ============ */
+  /* ============================================================
+     ÁREA II — GRAMÁTICA E FUNCIONAMENTO DA LÍNGUA
+  ============================================================ */
   {
-    id: 'PT-03',
-    area: 'LEXI',
-    titulo: 'Semântica e Sentido das Palavras',
-    prioridade: 'alta',
-    subtopicos: [
-      'Sinônimos e antônimos',
-      'Homônimos e parônimos',
-      'Polissemia',
-      'Ambiguidade',
-      'Sentido contextual',
-      'Denotação e conotação',
-      'Sentido próprio e figurado',
-      'Figuras de linguagem',
-      'Pressupostos e implícitos',
-      'Efeitos de sentido',
-      'Substituição de palavras sem alterar o sentido'
-    ]
-  },
-  {
-    id: 'PT-05',
-    area: 'LEXI',
-    titulo: 'Classes de Palavras: Visão Geral',
-    prioridade: 'alta',
-    subtopicos: [
-      'Substantivo',
-      'Artigo',
-      'Adjetivo',
-      'Numeral',
-      'Pronome',
-      'Verbo',
-      'Advérbio',
-      'Preposição',
-      'Conjunção',
-      'Interjeição',
-      'Classificação e função de cada classe',
-      'Palavras que mudam de classe conforme o contexto',
-      'Efeito da escolha da classe no sentido'
-    ]
-  },
-  {
-    id: 'PT-06',
-    area: 'LEXI',
-    titulo: 'Verbos e Pronomes',
+    id: 'POR-06',
+    area: 'GRA',
+    titulo: 'Fonética, fonologia e ortografia',
     prioridade: 'media',
     subtopicos: [
-      'Tempos verbais',
-      'Modos verbais',
-      'Pessoas e formas nominais',
-      'Conjugação',
-      'Locuções verbais',
-      'Correlação entre tempos e modos',
-      'Vozes verbais: ativa, passiva e reflexiva',
-      'Pronomes pessoais, possessivos, demonstrativos',
-      'Pronomes relativos, indefinidos e interrogativos',
-      'Pronomes de tratamento',
-      'Colocação pronominal',
-      'Uso do pronome e construção do sentido'
+      'Fonema e letra',
+      'Encontros vocálicos',
+      'Encontros consonantais',
+      'Dígrafos',
+      'Separação silábica',
+      'Classificação das palavras quanto à sílaba tônica',
+      'Ortografia oficial',
+      'Emprego de letras',
+      'Uso de s, z, x, ch, g e j',
+      'Uso dos porquês',
+      'Hífen'
     ]
   },
   {
-    id: 'PT-13',
-    area: 'LEXI',
-    titulo: 'Formação e Estrutura das Palavras',
-    prioridade: 'condicional',
+    id: 'POR-07',
+    area: 'GRA',
+    titulo: 'Acentuação gráfica',
+    prioridade: 'alta',
+    subtopicos: [
+      'Regras gerais de acentuação',
+      'Oxítonas',
+      'Paroxítonas',
+      'Proparoxítonas',
+      'Monossílabos tônicos',
+      'Ditongos',
+      'Hiatos',
+      'Acentos diferenciais',
+      'Mudanças do Acordo Ortográfico'
+    ]
+  },
+  {
+    id: 'POR-08',
+    area: 'GRA',
+    titulo: 'Estrutura e formação de palavras',
+    prioridade: 'baixa',
     subtopicos: [
       'Radical',
-      'Prefixo',
-      'Sufixo',
+      'Prefixo e sufixo',
       'Desinências',
       'Vogal temática',
       'Derivação',
       'Composição',
-      'Famílias de palavras',
-      'Relações morfológicas',
-      'Efeitos de prefixos e sufixos no significado'
+      'Parassíntese',
+      'Abreviação',
+      'Siglas e outros processos de formação'
     ]
   },
-
-  /* ============ BLOCO ORTO — ORTOGRAFIA, ACENTUAÇÃO E FONOLOGIA ============ */
   {
-    id: 'PT-04',
-    area: 'ORTO',
-    titulo: 'Ortografia Oficial e Acentuação',
+    id: 'POR-09',
+    area: 'GRA',
+    titulo: 'Classes de palavras I: substantivo, adjetivo, artigo e numeral',
+    prioridade: 'media',
+    subtopicos: [
+      'Substantivos',
+      'Adjetivos',
+      'Artigos',
+      'Numerais',
+      'Classificação',
+      'Flexões',
+      'Emprego contextual',
+      'Locuções adjetivas',
+      'Locuções substantivas'
+    ]
+  },
+  {
+    id: 'POR-10',
+    area: 'GRA',
+    titulo: 'Classes de palavras II: pronomes',
     prioridade: 'alta',
     subtopicos: [
-      'Regras ortográficas vigentes',
-      'Emprego das letras',
-      'Acentuação de oxítonas',
-      'Acentuação de paroxítonas',
-      'Acentuação de proparoxítonas',
-      'Hiatos',
-      'Ditongos',
-      'Acentos diferenciais',
-      'Uso dos porquês',
-      'Uso do hífen',
-      'Maiúsculas e minúsculas',
-      'Palavras e expressões que geram dúvidas'
+      'Pronomes pessoais',
+      'Possessivos',
+      'Demonstrativos',
+      'Relativos',
+      'Indefinidos',
+      'Interrogativos',
+      'Pronomes de tratamento',
+      'Emprego dos pronomes',
+      'Referenciação textual',
+      'Colocação pronominal',
+      'Próclise, mesóclise e ênclise'
     ]
   },
   {
-    id: 'PT-14',
-    area: 'ORTO',
-    titulo: 'Fonética, Fonologia e Divisão Silábica',
-    prioridade: 'condicional',
-    subtopicos: [
-      'Fonema, letra e sílaba',
-      'Encontros vocálicos',
-      'Encontros consonantais',
-      'Dígrafos',
-      'Divisão silábica',
-      'Classificação quanto à tonicidade',
-      'Relação entre fonologia e acentuação'
-    ]
-  },
-
-  /* ============ BLOCO SINT — SINTAXE E PONTUAÇÃO ============ */
-  {
-    id: 'PT-07',
-    area: 'SINT',
-    titulo: 'Sintaxe da Oração e do Período',
+    id: 'POR-11',
+    area: 'GRA',
+    titulo: 'Verbos',
     prioridade: 'alta',
+    subtopicos: [
+      'Estrutura verbal',
+      'Conjugações',
+      'Modos indicativo, subjuntivo e imperativo',
+      'Tempos verbais',
+      'Verbos regulares e irregulares',
+      'Verbos auxiliares',
+      'Locuções verbais',
+      'Voz ativa, passiva e reflexiva',
+      'Transposição de vozes',
+      'Correlação verbal',
+      'Emprego dos tempos e modos no texto'
+    ]
+  },
+  {
+    id: 'POR-12',
+    area: 'GRA',
+    titulo: 'Classes de palavras III: advérbio, preposição, conjunção e interjeição',
+    prioridade: 'media',
+    subtopicos: [
+      'Advérbios',
+      'Preposições',
+      'Conjunções',
+      'Interjeições',
+      'Locuções adverbiais e prepositivas',
+      'Valores semânticos das conjunções',
+      'Emprego contextual das classes invariáveis'
+    ]
+  },
+  {
+    id: 'POR-13',
+    area: 'GRA',
+    titulo: 'Sintaxe: termos da oração',
+    prioridade: 'media',
     subtopicos: [
       'Frase, oração e período',
-      'Período simples e composto',
       'Sujeito e predicado',
-      'Predicativo',
+      'Tipos de sujeito',
+      'Predicação verbal',
+      'Verbos transitivos e intransitivos',
       'Objeto direto e indireto',
       'Complemento nominal',
-      'Adjunto adnominal e adverbial',
-      'Aposto',
-      'Vocativo',
+      'Adjunto adnominal',
+      'Adjunto adverbial',
+      'Predicativo',
       'Agente da passiva',
-      'Termos integrantes e acessórios',
-      'Orações coordenadas',
-      'Orações subordinadas',
-      'Análise sintática aplicada'
+      'Aposto e vocativo'
     ]
   },
   {
-    id: 'PT-08',
-    area: 'SINT',
+    id: 'POR-14',
+    area: 'GRA',
+    titulo: 'Período simples e composto',
+    prioridade: 'media',
+    subtopicos: [
+      'Coordenação',
+      'Subordinação',
+      'Orações coordenadas',
+      'Orações subordinadas substantivas',
+      'Orações subordinadas adjetivas',
+      'Orações subordinadas adverbiais',
+      'Orações reduzidas',
+      'Conjunções integrantes',
+      'Função sintática das orações',
+      'Relações sintático-semânticas',
+      'Reestruturação de períodos'
+    ]
+  },
+  {
+    id: 'POR-15',
+    area: 'GRA',
+    titulo: 'Concordância verbal e nominal',
+    prioridade: 'alta',
+    subtopicos: [
+      'Regras gerais',
+      'Casos especiais de concordância verbal',
+      'Sujeito composto',
+      'Expressões partitivas',
+      'Verbos impessoais',
+      'Concordância com porcentagens',
+      'Concordância nominal',
+      'Casos especiais',
+      'Concordância ideológica',
+      'Erros frequentes em concursos'
+    ]
+  },
+  {
+    id: 'POR-16',
+    area: 'GRA',
+    titulo: 'Regência verbal e nominal',
+    prioridade: 'alta',
+    subtopicos: [
+      'Regência verbal',
+      'Regência nominal',
+      'Verbos que exigem preposição',
+      'Verbos com mais de uma regência',
+      'Mudança de sentido conforme a regência',
+      'Complementos nominais',
+      'Regência e crase',
+      'Casos recorrentes em provas'
+    ]
+  },
+  {
+    id: 'POR-17',
+    area: 'GRA',
+    titulo: 'Crase',
+    prioridade: 'alta',
+    subtopicos: [
+      'Conceito de crase',
+      'Fusão da preposição a com o artigo a',
+      'Regras gerais',
+      'Casos obrigatórios',
+      'Casos proibidos',
+      'Casos facultativos',
+      'Crase em locuções',
+      'Crase diante de pronomes',
+      'Crase com nomes de lugares',
+      'Crase e regência',
+      'Testes práticos de identificação'
+    ]
+  },
+  {
+    id: 'POR-18',
+    area: 'GRA',
     titulo: 'Pontuação',
-    prioridade: 'muito_alta',
+    prioridade: 'alta',
     subtopicos: [
       'Vírgula',
       'Ponto e vírgula',
@@ -205,121 +342,136 @@ window.MODULES = [
       'Parênteses',
       'Aspas',
       'Separação de termos e orações',
-      'Vírgula obrigatória, facultativa e inadequada',
-      'Mudanças de sentido causadas pela pontuação',
-      'Pontuação em orações subordinadas',
-      'Intercalações e enumerações'
+      'Orações explicativas e restritivas',
+      'Pontuação e mudança de sentido',
+      'Erros frequentes em concursos'
     ]
   },
   {
-    id: 'PT-09',
-    area: 'SINT',
-    titulo: 'Concordância Verbal e Nominal',
-    prioridade: 'muito_alta',
-    subtopicos: [
-      'Concordância entre sujeito e verbo',
-      'Concordância entre substantivos, adjetivos, artigos, numerais e pronomes',
-      'Casos especiais',
-      'Expressões que costumam confundir',
-      'Concordância com sujeito composto',
-      'Concordância com porcentagens',
-      'Concordância com expressões partitivas',
-      'Correção de frases',
-      'Identificação de desvios'
-    ]
-  },
-  {
-    id: 'PT-10',
-    area: 'SINT',
-    titulo: 'Regência Verbal, Regência Nominal e Crase',
+    id: 'POR-19',
+    area: 'GRA',
+    titulo: 'Reescrita de frases e equivalência de sentido',
     prioridade: 'alta',
     subtopicos: [
-      'Relação entre nomes, verbos e complementos',
-      'Preposições exigidas por verbos e nomes',
-      'Verbos com regências diferentes',
-      'Mudanças de sentido pela regência',
-      'Uso do acento grave indicativo de crase',
-      'Crase obrigatória',
-      'Crase proibida',
-      'Crase facultativa',
-      'Aplicação em frases, textos e reescritas'
+      'Substituição de palavras',
+      'Substituição de expressões',
+      'Reorganização sintática',
+      'Manutenção do sentido original',
+      'Alteração de sentido',
+      'Correção gramatical',
+      'Transformação de voz verbal',
+      'Reescrita com conectivos',
+      'Equivalência semântica',
+      'Identificação de construções inadequadas'
     ]
   },
 
-  /* ============ BLOCO TEXT — TEXTO, COESÃO E REESCRITA ============ */
+  /* ============================================================
+     ÁREA III — REDAÇÃO OFICIAL
+  ============================================================ */
   {
-    id: 'PT-11',
-    area: 'TEXT',
-    titulo: 'Coesão e Coerência Textual',
-    prioridade: 'muito_alta',
+    id: 'RED-20',
+    area: 'RED',
+    titulo: 'Fundamentos da Redação Oficial',
+    prioridade: 'alta',
     subtopicos: [
-      'Referenciação',
-      'Pronomes e expressões substitutivas',
-      'Retomadas',
-      'Conectores',
-      'Relações de causa, consequência, oposição',
-      'Relações de condição, concessão, conclusão e finalidade',
-      'Progressão temática',
-      'Continuidade e organização das ideias',
-      'Coerência e contradições',
-      'Ambiguidades e quebra de sentido',
-      'Repetição, substituição, elipse e sequenciação',
-      'Identificação do referente'
+      'Conceito de Redação Oficial',
+      'Finalidade da comunicação pública',
+      'Impessoalidade',
+      'Clareza',
+      'Precisão',
+      'Objetividade',
+      'Concisão',
+      'Coesão',
+      'Coerência',
+      'Formalidade',
+      'Padronização',
+      'Linguagem adequada à Administração Pública',
+      'Diferença entre linguagem formal e linguagem excessivamente rebuscada'
     ]
   },
   {
-    id: 'PT-12',
-    area: 'TEXT',
-    titulo: 'Reescrita e Equivalência de Frases',
+    id: 'RED-21',
+    area: 'RED',
+    titulo: 'Manual de Redação da Presidência da República',
+    prioridade: 'alta',
+    subtopicos: [
+      'Características da redação oficial',
+      'Pronomes de tratamento',
+      'Vocativo',
+      'Endereçamento',
+      'Identificação do destinatário',
+      'Fechos',
+      'Identificação do signatário',
+      'Padrão ofício',
+      'Estrutura das comunicações',
+      'Correio eletrônico oficial',
+      'Formatação e padronização',
+      'Adequação da linguagem'
+    ]
+  },
+  {
+    id: 'RED-22',
+    area: 'RED',
+    titulo: 'Documentos e comunicações administrativas',
+    prioridade: 'alta',
+    subtopicos: [
+      'Ofício',
+      'Requerimento',
+      'Ata',
+      'Relatório',
+      'Declaração',
+      'Certidão',
+      'Despacho',
+      'Parecer',
+      'Circular',
+      'Comunicado',
+      'Memorando: abordagem histórica e comparação com o padrão ofício atual',
+      'Protocolo e correspondência administrativa',
+      'Documentos internos e externos',
+      'Finalidade e estrutura de cada documento'
+    ]
+  },
+  {
+    id: 'RED-23',
+    area: 'RED',
+    titulo: 'Elaboração e interpretação de documentos oficiais',
+    prioridade: 'alta',
+    subtopicos: [
+      'Identificação de documentos',
+      'Escolha do documento adequado a cada situação',
+      'Organização das informações',
+      'Vocabulário administrativo',
+      'Tratamento formal',
+      'Erros comuns',
+      'Revisão de documentos',
+      'Adequação ao padrão oficial',
+      'Interpretação de comunicações administrativas',
+      'Reescrita de documentos inadequados'
+    ]
+  },
+
+  /* ============================================================
+     ÁREA IV — PRODUÇÃO TEXTUAL
+  ============================================================ */
+  {
+    id: 'RED-24',
+    area: 'PRO',
+    titulo: 'Produção, revisão e aperfeiçoamento textual',
     prioridade: 'media',
     subtopicos: [
-      'Substituição de palavras e expressões',
-      'Reorganização de períodos e parágrafos',
-      'Voz ativa e passiva',
-      'Discurso direto e indireto',
-      'Manutenção ou alteração de sentido',
-      'Correção gramatical',
-      'Paralelismo',
-      'Adequação vocabular',
-      'Paráfrases',
-      'Ambiguidades e alterações semânticas'
-    ]
-  },
-  {
-    id: 'PT-16',
-    area: 'TEXT',
-    titulo: 'Argumentação, Análise Textual e Questões Integradas',
-    prioridade: 'muito_alta',
-    subtopicos: [
-      'Tese, argumentos e conclusão',
-      'Estratégias de persuasão',
-      'Relações entre argumentos e evidências',
-      'Intertextualidade',
-      'Efeitos expressivos',
-      'Questões que combinam interpretação e gramática',
-      'Questões que combinam coesão e reescrita',
-      'Identificação de pegadinhas',
-      'Justificativa das alternativas'
-    ]
-  },
-
-  /* ============ BLOCO OFIC — REDAÇÃO OFICIAL ============ */
-  {
-    id: 'PT-15',
-    area: 'OFIC',
-    titulo: 'Redação Oficial e Comunicação Administrativa',
-    prioridade: 'condicional',
-    subtopicos: [
-      'Clareza',
-      'Concisão',
-      'Objetividade',
-      'Impessoalidade',
-      'Formalidade',
-      'Adequação da linguagem ao destinatário e à finalidade',
-      'E-mails profissionais',
-      'Comunicados, ofícios, memorandos',
-      'Estrutura e finalidade dos documentos oficiais',
-      'Manual de Redação da Presidência da República'
+      'Planejamento textual',
+      'Organização de ideias',
+      'Construção de parágrafos',
+      'Introdução, desenvolvimento e conclusão',
+      'Tese e argumentação',
+      'Coesão e coerência',
+      'Dissertação argumentativa',
+      'Adequação temática',
+      'Revisão gramatical',
+      'Revisão semântica',
+      'Identificação de problemas de estrutura',
+      'Reescrita e aperfeiçoamento'
     ]
   }
 
