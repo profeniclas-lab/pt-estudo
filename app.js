@@ -659,7 +659,7 @@ function getExemploInedito(qid) {
       var txt = String(inc).toLowerCase();
       if (txt.indexOf('confund') >= 0 || txt.indexOf('troca') >= 0 || txt.indexOf('invert') >= 0) return 'confusao';
       if (txt.indexOf('exce') >= 0 || txt.indexOf('ressalva') >= 0 || txt.indexOf('salvo') >= 0) return 'desatencao';
-      if (txt.indexOf('art.') >= 0 || txt.indexOf('lei ') >= 0 || txt.indexOf('dispositivo') >= 0) return 'legislacao';
+      if (txt.indexOf('regra') >= 0 || txt.indexOf('acento') >= 0 || txt.indexOf('concord') >= 0 || txt.indexOf('regência') >= 0 || txt.indexOf('crase') >= 0 || txt.indexOf('pontua') >= 0) return 'norma';
       if (q.tipo === 'REAL' && q.banca) return 'pegadinha';
       if (q.dificuldade >= 3) return 'aplicacao';
       if (txt.indexOf('enunciado') >= 0 || txt.indexOf('incorreta') >= 0 || txt.indexOf('exceto') >= 0) return 'interpretacao';
@@ -2133,7 +2133,9 @@ function moduleCardHtml(m) {
     html += '<h1 class="page-title">Diagnóstico — ' + esc(m ? m.titulo : moduleId) + '</h1>';
     html += '<p class="page-subtitle">Módulo ' + esc(moduleId) + ' · ' + esc(DIAG_TYPE_LABELS[item.tipo] || item.tipo) + ' · <span style="color:var(--text-muted);">informativo (não determina domínio)</span></p>';
     html += '<div class="diag-meta"><span class="tag">Subtópico: ' + esc(item.subtopico) + '</span><span class="tag">' + esc(DIAG_TYPE_LABELS[item.tipo] || item.tipo) + '</span></div>';
-    html += '<div class="diag-question"><h2>' + esc(item.pergunta) + '</h2>';
+    html += '<div class="diag-question">';
+    if (item.textoBase) html += '<div class="diag-texto-base">' + esc(item.textoBase) + '</div>';
+    html += '<h2>' + esc(item.pergunta) + '</h2>';
     if (isObjective(item)) {
       html += '<div class="diag-options">';
       for (var a = 0; a < item.alternativas.length; a++) {
@@ -2277,6 +2279,7 @@ function moduleCardHtml(m) {
         html += '<span class="badge-pill ' + typeBadgeClass(q.tipo) + '">' + esc(typeLabel(q.tipo)) + '</span>';
         html += '<span class="badge-pill ' + (DIFFICULTY_CLASS[q.dificuldade] || '') + '">' + esc(difficultyLabel(q.dificuldade)) + '</span>';
         html += '<span class="qp-status ' + statusClass + '">' + esc(statusText) + '</span></div>';
+        if (q.textoBase) html += '<div class="qp-texto-base">' + esc(q.textoBase) + '</div>';
         html += '<div class="qp-text">' + esc(q.enunciado) + '</div>';
         html += '<div class="qp-meta">' + esc(q.moduloId + ' · ' + (getModule(q.moduloId) ? getModule(q.moduloId).titulo : '') + ' · ' + q.subtema + revInfo) + '</div>';
         html += '</div>';
@@ -2367,6 +2370,7 @@ function moduleCardHtml(m) {
     if (q.tipo === 'REAL') html += '<span style="font-size:12px;color:var(--text-muted);">' + esc((q.banca || '') + ' · ' + (q.orgao || '') + ' · ' + (q.ano || '')) + '</span>';
     else html += '<span style="font-size:12px;color:var(--text-muted);">' + esc(q.moduloId + ' · ' + q.subtema) + '</span>';
     html += '</div>';
+    if (q.textoBase) html += '<div class="q-texto-base">' + esc(q.textoBase) + '</div>';
     html += '<div class="q-statement">' + esc(q.enunciado) + '</div>';
     html += '<div class="q-options">';
     for (var a = 0; a < q.alternativas.length; a++) {
@@ -3352,7 +3356,9 @@ if (exemploInedito) {
     html += '<div class="q-card"><div class="q-head"><span class="q-id">' + esc(q.id) + '</span>';
     if (q.tipo === 'REAL') html += '<span style="font-size:12px;color:var(--text-muted);">' + esc((q.banca || '') + ' · ' + (q.orgao || '') + ' · ' + (q.ano || '') + ' · ' + (q.prova || '')) + '</span>';
     else html += '<span style="font-size:12px;color:var(--text-muted);">' + esc(q.moduloId + ' · ' + q.subtema) + '</span>';
-    html += '</div><div class="q-statement">' + esc(q.enunciado) + '</div>';
+    html += '</div>';
+    if (q.textoBase) html += '<div class="q-texto-base">' + esc(q.textoBase) + '</div>';
+    html += '<div class="q-statement">' + esc(q.enunciado) + '</div>';
     html += '<div class="q-options">';
     for (var a = 0; a < q.alternativas.length; a++) {
       var alt = q.alternativas[a]; var cls = 'q-option';
@@ -3646,6 +3652,7 @@ function setExerciseClassification(qid, cls) {
     html += '<span class="badge-pill ' + typeBadgeClass(q.tipo) + '">' + esc(typeLabel(q.tipo)) + '</span>';
     html += '<span class="badge-pill ' + (DIFFICULTY_CLASS[q.dificuldade] || '') + '">' + esc(difficultyLabel(q.dificuldade)) + '</span>';
     html += '</div>';
+    if (q.textoBase) html += '<div class="q-texto-base">' + esc(q.textoBase) + '</div>';
     html += '<div class="q-statement">' + esc(q.enunciado) + '</div>';
     html += '<div class="q-options">';
     for (var a = 0; a < q.alternativas.length; a++) {
@@ -3812,6 +3819,7 @@ if (exemploExercicio) {
         html += '<div class="question-preview"><div class="qp-header"><span class="qp-id">' + esc(qq.id) + '</span>';
         html += '<span class="nivel-badge nivel-' + it.nivel + '">Nível ' + it.nivel + '</span>';
         html += '<span class="qp-status ' + clsStatus + '">' + txtStatus + '</span></div>';
+        if (qq.textoBase) html += '<div class="qp-texto-base">' + esc(qq.textoBase) + '</div>';
         html += '<div class="qp-text">' + esc(qq.enunciado) + '</div>';
         html += '<div class="qp-meta">Sua resposta: <strong>' + esc(resp || '—') + '</strong> · Gabarito: <strong>' + esc(qq.gabarito) + '</strong></div></div>';
       }
