@@ -1,634 +1,582 @@
 /* ============================================================
-   DIAGNÓSTICOS — Módulos de prioridade MUITO ALTA e ALTA
-   Preenchidos neste lote: PT-01, PT-08, PT-09, PT-11, PT-16
-   Próximos lotes: PT-02, PT-03, PT-04, PT-05, PT-07, PT-10
+   DIAGNÓSTICOS — Módulos de prioridade ALTA
+   Português e Redação Oficial para Concursos
+   BLOCO 1 — Área LET (Leitura e Interpretação)
+   Entregues: POR-01, POR-02, POR-03, POR-04, POR-05
+   Padrão por módulo: 3 MC (1 difícil) + 2 V/F + 1 situação + 1 autoavaliação
+   Formatos variados: MC clássica, V/F sequencial, I/II/III, associação, complete lacunas, C/E
+   Ordem progressiva: fácil → médio → difícil
+   Distratores equilibrados: todos com mesma extensão e detalhamento da correta
    ============================================================ */
 
 window.DIAGNOSTICS_ALTA = {
 
   /* ============================================================
-     PT-01 — Interpretação e Compreensão de Textos
+     POR-01 — Leitura, compreensão e interpretação de textos
   ============================================================ */
-  'PT-01': {
-    id: 'D-PT-01',
-    moduloId: 'PT-01',
+  'POR-01': {
+    id: 'D-POR-01',
+    moduloId: 'POR-01',
     itens: [
+      /* ---------- Item 1 (fácil) — MC clássica ---------- */
       {
-        id: 'D-PT-01-01',
+        id: 'D-POR-01-01',
         tipo: 'multipla_escolha',
-        subtopico: 'Inferência x extrapolação',
-        pergunta: 'Leia: "Ao receber a notícia, Carlos empalideceu, suas mãos tremeram e ele sentou-se devagar." Sobre esse trecho, é correto afirmar que:',
+        subtopico: 'Compreensão x interpretação',
+        pergunta: 'Sobre os conceitos de compreensão e interpretação de textos, assinale a alternativa CORRETA:',
         alternativas: [
-          { id: 'A', texto: 'O texto afirma explicitamente que Carlos ficou com medo.' },
-          { id: 'B', texto: 'Infere-se que Carlos ficou assustado ou emocionado, com base nos sinais físicos descritos.' },
-          { id: 'C', texto: 'Carlos estava com frio, pois empalideceu.' },
-          { id: 'D', texto: 'Carlos é uma pessoa doente, pois suas mãos tremiam.' }
+          { id: 'A', texto: 'Compreensão e interpretação são termos equivalentes: ambas se referem à apreensão de informações explícitas do texto.' },
+          { id: 'B', texto: 'Compreensão refere-se ao que está explícito no texto; interpretação refere-se ao que pode ser inferido a partir de elementos textuais.' },
+          { id: 'C', texto: 'Compreensão refere-se ao que pode ser inferido; interpretação refere-se ao que está literalmente escrito, sem margem para dedução.' },
+          { id: 'D', texto: 'Compreensão e interpretação dependem exclusivamente do repertório do leitor, independentemente das marcas textuais.' },
+          { id: 'E', texto: 'Compreensão refere-se à identificação do tema; interpretação refere-se à identificação da ideia central.' }
         ],
         gabarito: 'B',
-        explicacao: 'O texto NÃO diz "ficou com medo" — essa é uma INFERÊNCIA autorizada pelos sinais (palidez, mãos trêmulas). As alternativas A, C e D são extrapolações: acrescentam informações que o texto não sustenta.'
+        explicacao: 'COMPREENSÃO: o que está ESCRITO (informação literal). INTERPRETAÇÃO: o que está IMPLÍCITO (deduções autorizadas pelo texto). A) confunde os conceitos (ambos são explícitos); C) inverte os conceitos; D) nega o papel das marcas textuais; E) confunde a distinção com tema/ideia central.'
       },
+
+      /* ---------- Item 2 (fácil) — V/F simples ---------- */
       {
-        id: 'D-PT-01-02',
+        id: 'D-POR-01-02',
         tipo: 'verdadeiro_falso',
-        subtopico: 'Fato x opinião',
-        pergunta: 'A frase "A taxa de desemprego caiu 2 pontos percentuais no último trimestre" é um exemplo de opinião do autor.',
+        subtopico: 'Informação implícita x invenção',
+        pergunta: 'Informações implícitas são aquelas que o leitor pode criar livremente, desde que a interpretação faça sentido no contexto.',
         alternativas: [
           { id: 'V', texto: 'Verdadeiro' },
           { id: 'F', texto: 'Falso' }
         ],
         gabarito: 'F',
-        explicacao: 'Falso. Trata-se de um FATO — dado objetivo e verificável. Opinião seria algo como "a queda do desemprego é insuficiente" ou "o governo acertou na política econômica". A distinção fato x opinião é cobrança clássica em textos argumentativos.'
+        explicacao: 'FALSO. Implícito NÃO é invenção livre do leitor — é conclusão SUSTENTADA pelo texto (inferências autorizadas, pressupostos, subentendidos). O leitor não "cria" livremente; apoia-se em marcas textuais. Criar sem base textual é extrapolação — proibida em interpretação.'
       },
-      {
-        id: 'D-PT-01-03',
-        tipo: 'situacao',
-        subtopico: 'Pressuposto',
-        pergunta: 'A frase "Ana voltou a estudar para concursos" apresenta qual informação implícita (pressuposto)?',
-        alternativas: [
-          { id: 'A', texto: 'Ana nunca estudou para concursos antes.' },
-          { id: 'B', texto: 'Ana já havia estudado para concursos antes e parou.' },
-          { id: 'C', texto: 'Ana vai ser aprovada em breve.' },
-          { id: 'D', texto: 'Ana estuda por obrigação.' }
-        ],
-        gabarito: 'B',
-        explicacao: 'O verbo "voltar a" pressupõe que a ação já ocorreu antes e foi interrompida. Pressuposto = informação implícita marcada por palavras específicas. As demais alternativas são extrapolações (C) ou não têm apoio no texto (A, D).'
-      },
-      {
-        id: 'D-PT-01-04',
-        tipo: 'autoavaliacao',
-        subtopico: 'Estratégias de interpretação',
-        pergunta: 'Você consegue diferenciar, com segurança, informação EXPLÍCITA (compreensão) de informação IMPLÍCITA (inferência), e reconhecer uma EXTRAPOLAÇÃO quando ela aparece?',
-        resposta: 'EXPLÍCITA: está literalmente no texto — basta localizar. IMPLÍCITA (inferência): deduzida a partir de pistas e sinais do texto — NÃO está escrita, mas é autorizada. EXTRAPOLAÇÃO: informação acrescentada pelo leitor, SEM apoio no texto — é o erro mais comum em questões de interpretação. Ex.: se o texto diz "Carlos empalideceu", podemos inferir susto (autorizado pelos sinais), mas NÃO podemos afirmar que ele é cardíaco (extrapolação).'
-      }
-    ]
-  },
 
-  /* ============================================================
-     PT-08 — Pontuação
-  ============================================================ */
-  'PT-08': {
-    id: 'D-PT-08',
-    moduloId: 'PT-08',
-    itens: [
+      /* ---------- Item 3 (médio) — MC V/F sequencial ---------- */
       {
-        id: 'D-PT-08-01',
+        id: 'D-POR-01-03',
         tipo: 'multipla_escolha',
-        subtopico: 'Vírgula entre sujeito e verbo',
-        pergunta: 'Assinale a alternativa em que a pontuação está CORRETA:',
+        subtopico: 'Tema, ideia central, explícita/implícita, extrapolação',
+        pergunta: 'Julgue as afirmações sobre conceitos de leitura e interpretação:\n(__) O tema é o assunto geral do texto — sobre o que se fala; a ideia central é o que se diz sobre o tema — a posição defendida.\n(__) Tema e ideia central são sinônimos, pois ambos se referem ao conteúdo global do texto.\n(__) Informações explícitas estão literalmente escritas, dispensando dedução; informações implícitas são autorizadas pelo texto, mas não estão escritas.\n(__) Conclusão que o texto não autoriza, ainda que verdadeira no mundo real, é chamada de extrapolação.\nAssinale a alternativa com a sequência CORRETA, de cima para baixo:',
         alternativas: [
-          { id: 'A', texto: 'Os alunos do terceiro ano, foram aprovados no vestibular.' },
-          { id: 'B', texto: 'Os alunos do terceiro ano foram aprovados no vestibular.' },
-          { id: 'C', texto: 'Os alunos, do terceiro ano foram aprovados no vestibular.' },
-          { id: 'D', texto: 'Os alunos do terceiro ano foram aprovados, no vestibular.' }
+          { id: 'A', texto: 'V, V, F, V.' },
+          { id: 'B', texto: 'V, F, V, V.' },
+          { id: 'C', texto: 'V, V, V, F.' },
+          { id: 'D', texto: 'F, V, V, F.' },
+          { id: 'E', texto: 'F, F, V, V.' }
         ],
         gabarito: 'B',
-        explicacao: 'É PROIBIDO separar o sujeito do verbo com vírgula (alternativa A) e o verbo do complemento (alternativa D). A alternativa C quebra o sujeito em lugar errado. A B está correta — sujeito, verbo e complemento ficam juntos.'
+        explicacao: '(__1) V: definição correta de tema e ideia central. (__2) F: tema (assunto) e ideia central (tese) NÃO são sinônimos. (__3) V: explícita = escrita; implícita = autorizada, não escrita. (__4) V: extrapolação = conclusão não autorizada pelo texto.'
       },
-      {
-        id: 'D-PT-08-02',
-        tipo: 'verdadeiro_falso',
-        subtopico: 'Vírgula antes de "e"',
-        pergunta: 'Usa-se vírgula antes do "e" quando ele liga orações com o mesmo sujeito, para marcar pausa.',
-        alternativas: [
-          { id: 'V', texto: 'Verdadeiro' },
-          { id: 'F', texto: 'Falso' }
-        ],
-        gabarito: 'F',
-        explicacao: 'Falso. A vírgula antes do "e" só é admitida quando ele liga orações com SUJEITOS DIFERENTES: "Pedro estuda, e Maria trabalha." Se o sujeito é o mesmo, NÃO se usa vírgula: "Pedro estuda e trabalha." Vírgula antes de "e" com mesmo sujeito é ERRO clássico.'
-      },
-      {
-        id: 'D-PT-08-03',
-        tipo: 'situacao',
-        subtopico: 'Mudança de sentido',
-        pergunta: 'Qual a diferença de sentido entre "Meu irmão, que mora em Natal, é médico" e "Meu irmão que mora em Natal é médico"?',
-        alternativas: [
-          { id: 'A', texto: 'Não há diferença de sentido — apenas estilística.' },
-          { id: 'B', texto: 'A primeira (com vírgulas) é explicativa: tenho UM irmão e ele mora em Natal. A segunda (sem vírgulas) é restritiva: tenho VÁRIOS irmãos e estou me referindo ao que mora em Natal.' },
-          { id: 'C', texto: 'A primeira é errada e a segunda é certa.' },
-          { id: 'D', texto: 'A primeira é restritiva e a segunda é explicativa.' }
-        ],
-        gabarito: 'B',
-        explicacao: 'A vírgula muda o sentido. Explicativa (com vírgulas): informação adicional, generaliza — há um só irmão. Restritiva (sem vírgulas): restringe, especifica — há vários irmãos e destaco o que mora em Natal. Alternativa D inverte os conceitos.'
-      },
-      {
-        id: 'D-PT-08-04',
-        tipo: 'autoavaliacao',
-        subtopico: 'Regras gerais',
-        pergunta: 'Você sabe dizer quando a vírgula é OBRIGATÓRIA (ex.: separar aposto, vocativo, adjunto adverbial deslocado), quando é PROIBIDA (ex.: entre sujeito e verbo) e quando é FACULTATIVA (ex.: adjunto adverbial curto)?',
-        resposta: 'OBRIGATÓRIA: separar aposto ("Pedro, meu vizinho, é médico"), vocativo ("Maria, venha cá"), adjunto adverbial deslocado de longa extensão ("Ontem à noite, choveu muito"), orações coordenadas assindéticas ("Cheguei, vi, venci"), adjetivas explicativas ("O aluno, que estudou, passou"). PROIBIDA: entre sujeito e verbo, entre verbo e complemento, entre nome e complemento nominal, antes de "e" com mesmo sujeito, antes de "que" em subordinadas substantivas. FACULTATIVA: adjunto adverbial curto ("Hoje(,) choveu"), antes de "e" com sujeitos diferentes, em algumas intercalações.'
-      }
-    ]
-  },
 
-  /* ============================================================
-     PT-09 — Concordância Verbal e Nominal
-  ============================================================ */
-  'PT-09': {
-    id: 'D-PT-09',
-    moduloId: 'PT-09',
-    itens: [
+      /* ---------- Item 4 (médio) — V/F simples ---------- */
       {
-        id: 'D-PT-09-01',
-        tipo: 'multipla_escolha',
-        subtopico: 'Haver x existir',
-        pergunta: 'Assinale a alternativa CORRETA quanto à concordância:',
-        alternativas: [
-          { id: 'A', texto: 'Haviam muitos alunos na sala.' },
-          { id: 'B', texto: 'Havia muitos alunos na sala.' },
-          { id: 'C', texto: 'Houveram muitos alunos na sala.' },
-          { id: 'D', texto: 'Hão de haver muitos alunos na sala.' }
-        ],
-        gabarito: 'B',
-        explicacao: 'O verbo HAVER, no sentido de EXISTIR, é IMPESSOAL — fica sempre na 3ª pessoa do SINGULAR: "Havia muitos alunos." NUNCA "haviam". Já o verbo EXISTIR é pessoal e concorda com o sujeito: "Existiam muitos alunos." É o erro mais clássico de concordância em provas.'
-      },
-      {
-        id: 'D-PT-09-02',
+        id: 'D-POR-01-04',
         tipo: 'verdadeiro_falso',
-        subtopico: 'Expressões especiais',
-        pergunta: 'A expressão "mais de um" exige o verbo no PLURAL, pois indica quantidade superior a um.',
-        alternativas: [
-          { id: 'V', texto: 'Verdadeiro' },
-          { id: 'F', texto: 'Falso' }
-        ],
-        gabarito: 'F',
-        explicacao: 'Falso. "Mais de um" exige o verbo no SINGULAR: "Mais de um aluno faltou." (Exceção: se a expressão se repetir, o verbo vai para o plural: "Mais de um aluno, mais de um professor faltaram.") A banca cobra muito essa regra.'
-      },
-      {
-        id: 'D-PT-09-03',
-        tipo: 'situacao',
-        subtopico: 'Fazer impessoal',
-        pergunta: 'Qual a concordância CORRETA na frase que indica tempo decorrido?',
-        alternativas: [
-          { id: 'A', texto: 'Fazem cinco anos que ele partiu.' },
-          { id: 'B', texto: 'Faz cinco anos que ele partiu.' },
-          { id: 'C', texto: 'Fazem-se cinco anos que ele partiu.' },
-          { id: 'D', texto: 'Fazem cinco anos desde que ele partiu.' }
-        ],
-        gabarito: 'B',
-        explicacao: 'O verbo FAZER, indicando TEMPO DECORRIDO, é IMPESSOAL — fica sempre na 3ª pessoa do SINGULAR: "Faz cinco anos." NUNCA "Fazem". Mesma regra para "haver" (existir): ambos são impessoais.'
-      },
-      {
-        id: 'D-PT-09-04',
-        tipo: 'autoavaliacao',
-        subtopico: 'Casos especiais',
-        pergunta: 'Você consegue reconhecer rapidamente os casos especiais de concordância: haver/existir, fazer (tempo), "mais de um", "um ou outro", "nem um nem outro", partitivas ("a maioria de"), porcentagens, sujeito composto posposto?',
-        resposta: 'HAVER (existir): sempre singular. FAZER (tempo): sempre singular. "MAIS DE UM": singular. "UM OU OUTRO": singular. "NEM UM NEM OUTRO": singular. PARTITIVAS ("a maioria de", "grande parte de"): singular OU plural. PORCENTAGEM: concorda com o número ou com o termo posposto. SUJEITO COMPOSTO POSPOSTO: plural ou concordando com o mais próximo. Sujeito coletivo: singular. Verbo + SE apassivador: concorda com o sujeito paciente.'
-      }
-    ]
-  },
-
-  /* ============================================================
-     PT-11 — Coesão e Coerência Textual
-  ============================================================ */
-  'PT-11': {
-    id: 'D-PT-11',
-    moduloId: 'PT-11',
-    itens: [
-      {
-        id: 'D-PT-11-01',
-        tipo: 'multipla_escolha',
-        subtopico: 'Coesão x coerência',
-        pergunta: 'Sobre a diferença entre coesão e coerência, é correto afirmar que:',
-        alternativas: [
-          { id: 'A', texto: 'São sinônimos.' },
-          { id: 'B', texto: 'Coesão é a ligação linguística entre as partes do texto (pronomes, conectores); coerência é o sentido global, a lógica interna.' },
-          { id: 'C', texto: 'Coerência é apenas ortografia e pontuação corretas.' },
-          { id: 'D', texto: 'Um texto com coesão sempre tem coerência.' }
-        ],
-        gabarito: 'B',
-        explicacao: 'Coesão = mecanismos linguísticos (pronomes, sinônimos, conectores). Coerência = sentido global. Um texto pode ter coesão e NÃO ter coerência: "Comprei pão porque estava frio" — bem ligado por "porque", mas incoerente.'
-      },
-      {
-        id: 'D-PT-11-02',
-        tipo: 'verdadeiro_falso',
-        subtopico: 'Conectores',
-        pergunta: 'Os conectores "portanto" e "porque" estabelecem a mesma relação de sentido entre as ideias de um texto.',
-        alternativas: [
-          { id: 'V', texto: 'Verdadeiro' },
-          { id: 'F', texto: 'Falso' }
-        ],
-        gabarito: 'F',
-        explicacao: 'Falso. "PORQUE" introduz CAUSA ("Não saiu porque chovia"). "PORTANTO" introduz CONSEQUÊNCIA ("Chovia, portanto não saiu"). São lados opostos da mesma relação. Trocar um pelo outro muda o sentido do texto.'
-      },
-      {
-        id: 'D-PT-11-03',
-        tipo: 'situacao',
-        subtopico: 'Referência anafórica',
-        pergunta: 'No trecho "Comprei um carro novo. Ele é econômico e confortável.", o pronome "Ele" retoma:',
-        alternativas: [
-          { id: 'A', texto: 'A compra.' },
-          { id: 'B', texto: 'O carro novo.' },
-          { id: 'C', texto: 'Um sujeito indeterminado.' },
-          { id: 'D', texto: 'O autor do texto.' }
-        ],
-        gabarito: 'B',
-        explicacao: 'O pronome "Ele" é uma REFERÊNCIA ANAFÓRICA — retoma o termo "um carro novo", mencionado antes. Identificar o referente de um pronome é fundamental para interpretar corretamente o texto.'
-      },
-      {
-        id: 'D-PT-11-04',
-        tipo: 'autoavaliacao',
-        subtopico: 'Tipos de coesão',
-        pergunta: 'Você sabe identificar os principais mecanismos de coesão textual: referência (anafórica e catafórica), substituição, elipse, conjunção e coesão lexical?',
-        resposta: 'REFERÊNCIA: retomada por pronomes ou expressões. ANAFÓRICA: termo que retoma vem DEPOIS ("Comprei um livro. Ele é ótimo."). CATAFÓRICA: termo que retoma vem ANTES ("Só quero isto: descansar."). SUBSTITUIÇÃO: troca de uma palavra por outra ("meu carro" → "o seu"). ELIPSE: omissão de termo já mencionado ("Maria estuda; (Maria) trabalha."). CONJUNÇÃO: uso de conectores. COESÃO LEXICAL: repetição controlada ou uso de sinônimos/hiperônimos.'
-      }
-    ]
-  },
-
-  /* ============================================================
-     PT-16 — Argumentação, Análise Textual e Questões Integradas
-  ============================================================ */
-  'PT-16': {
-    id: 'D-PT-16',
-    moduloId: 'PT-16',
-    itens: [
-      {
-        id: 'D-PT-16-01',
-        tipo: 'multipla_escolha',
-        subtopico: 'Tese x argumento',
-        pergunta: 'Leia: "O transporte público no Brasil precisa ser priorizado. Enquanto poucos desfrutam de carros particulares subsidiados, milhões dependem diariamente de ônibus lotados e metrôs insuficientes." Sobre o trecho, é correto afirmar que:',
-        alternativas: [
-          { id: 'A', texto: 'A tese é "milhões dependem de ônibus lotados"; o argumento é "o transporte público precisa ser priorizado".' },
-          { id: 'B', texto: 'A tese é "o transporte público no Brasil precisa ser priorizado"; o argumento é a comparação entre poucos donos de carros e milhões de usuários de transporte público.' },
-          { id: 'C', texto: 'Não há tese, apenas fatos.' },
-          { id: 'D', texto: 'A tese é "o transporte público é ruim no Brasil".' }
-        ],
-        gabarito: 'B',
-        explicacao: 'TESE = ideia principal defendida ("o transporte público precisa ser priorizado"). ARGUMENTO = razão que sustenta a tese (comparação entre poucos donos de carros e milhões de usuários). A alternativa A inverte; C ignora a argumentação; D troca a tese por opinião vaga.'
-      },
-      {
-        id: 'D-PT-16-02',
-        tipo: 'verdadeiro_falso',
-        subtopico: 'Intertextualidade',
-        pergunta: 'A intertextualidade ocorre quando um texto dialoga com outro, por meio de citação, paródia, paráfrase ou alusão, e é um recurso legítimo da argumentação.',
+        subtopico: 'Pressuposto x subentendido',
+        pergunta: 'O pressuposto é uma informação implícita marcada linguisticamente (por palavras como "voltou a", "parou de"), enquanto o subentendido é deduzido do contexto, sem marca lexical específica.',
         alternativas: [
           { id: 'V', texto: 'Verdadeiro' },
           { id: 'F', texto: 'Falso' }
         ],
         gabarito: 'V',
-        explicacao: 'Verdadeiro. Intertextualidade é o diálogo consciente entre textos. Citação (menção direta), paródia (imitação cômica), paráfrase (reescrita com mesmas ideias) e alusão (referência indireta) são formas legítimas. Diferente do PLÁGIO, que é apropriação indevida SEM crédito.'
+        explicacao: 'VERDADEIRO. PRESSUPOSTO: implícito marcado por palavra/expressão ("Ele PAROU DE fumar" pressupõe que fumava; "Ele VOLTOU A atender bem" pressupõe que já atendia). SUBENTENDIDO: implícito deduzido do contexto, sem marca lexical (insinuação, ironia, entrelinha). A presença/ausência de marca é a chave.'
       },
+
+      /* ---------- Item 5 (médio-difícil) — Situação ---------- */
       {
-        id: 'D-PT-16-03',
+        id: 'D-POR-01-05',
         tipo: 'situacao',
-        subtopico: 'Reescrita — sentido + gramática',
-        pergunta: 'Considere a reescrita: "Os alunos do terceiro ano, foram aprovados no vestibular, segundo a diretora." Sobre essa reescrita, é correto afirmar que:',
+        subtopico: 'Aplicação: identificar o erro de leitura',
+        pergunta: 'Em uma prova, o enunciado pede: "Infere-se do texto que...". O texto descrevia uma medida administrativa sem juízo de valor do autor. O candidato marcou "O autor considera a medida injusta" e descobriu, no gabarito, que errou. O erro do candidato foi classificado corretamente como:',
         alternativas: [
-          { id: 'A', texto: 'Está correta — mantém o sentido e a gramática.' },
-          { id: 'B', texto: 'Está incorreta — há vírgula separando o sujeito do verbo.' },
-          { id: 'C', texto: 'Está correta, mas o sentido mudou.' },
-          { id: 'D', texto: 'Está incorreta — o verbo deveria estar no singular.' }
+          { id: 'A', texto: 'Falha de compreensão — ele não identificou a informação explícita, apesar de lê-la corretamente no texto.' },
+          { id: 'B', texto: 'Extrapolação — ele atribuiu ao autor uma opinião que o texto não sustenta, indo além das marcas textuais.' },
+          { id: 'C', texto: 'Ambiguidade textual — o texto permitia dupla leitura, e o candidato escolheu a interpretação menos provável.' },
+          { id: 'D', texto: 'Inferência legítima — ele deduziu corretamente, mas a banca adotou outra interpretação igualmente válida.' },
+          { id: 'E', texto: 'Interpretação contextual — ele interpretou o texto conforme seu repertório prévio sobre o tema abordado.' }
         ],
         gabarito: 'B',
-        explicacao: 'A vírgula após "terceiro ano" separa o sujeito ("Os alunos do terceiro ano") do verbo ("foram") — PROIBIDO. É o erro mais clássico em questões de reescrita. A alternativa A ignora o erro; C erra o diagnóstico; D aplica regra de concordância indevida.'
+        explicacao: 'EXTRAPOLAÇÃO: o candidato atribuiu ao autor uma opinião ("injusta") que o texto NÃO sustenta. O texto apenas descrevia a medida. Inferência autorizada exige base textual. A) não é falha de compreensão — o texto era claro. C) não há ambiguidade. D) não houve inferência legítima — houve invenção. E) "interpretação contextual" é rótulo vago que não classifica o erro.'
       },
-      {
-        id: 'D-PT-16-04',
-        tipo: 'autoavaliacao',
-        subtopico: 'Estratégias integradas',
-        pergunta: 'Diante de uma questão integrada (reescrita, interpretação com gramática), você confere SEMPRE duas coisas: (a) se o sentido original foi mantido; (b) se a alternativa está gramaticalmente correta?',
-        resposta: 'Sim, essa é a estratégia correta. Nas questões de reescrita, a banca coloca armadilhas duplas: alternativas que mantêm o sentido, mas contêm erro gramatical (ex.: vírgula entre sujeito e verbo, "haviam" por "havia"); ou alternativas gramaticalmente corretas, mas com sentido alterado (troca de conector, mudança de tempo verbal). Estratégia: ler o enunciado, localizar o que se pede, eliminar alternativas com erro gramatical e depois conferir o sentido das restantes. Sempre voltar ao texto.'
-      }
-    ]
-  },
 
-  /* ============================================================
-     PT-02 — Tipologia, Gêneros Textuais e Comunicação
-  ============================================================ */
-  'PT-02': {
-    id: 'D-PT-02',
-    moduloId: 'PT-02',
-    itens: [
+      /* ---------- Item 6 (difícil) — MC I/II/III ---------- */
       {
-        id: 'D-PT-02-01',
+        id: 'D-POR-01-06',
         tipo: 'multipla_escolha',
-        subtopico: 'Tipo textual',
-        pergunta: 'Uma receita de bolo, um manual de instruções e uma bula de remédio são exemplos predominantes de qual tipo textual?',
+        subtopico: 'Inferência x extrapolação em texto',
+        pergunta: 'Considere o texto: "O novo sistema de protocolo reduziu o tempo de tramitação em 40%, mas o número de servidores permaneceu o mesmo." Sobre o que é autorizado concluir:\nI — É possível inferir que o sistema aumentou a produtividade por servidor.\nII — É possível concluir que o órgão está satisfeito com o resultado.\nIII — É possível inferir que o tempo de tramitação, antes do sistema, era maior do que o atual.\nEstá CORRETO apenas o que se afirma em:',
         alternativas: [
-          { id: 'A', texto: 'Narração.' },
-          { id: 'B', texto: 'Descrição.' },
-          { id: 'C', texto: 'Argumentação.' },
-          { id: 'D', texto: 'Injunção (instrucional).' }
+          { id: 'A', texto: 'I.' },
+          { id: 'B', texto: 'II.' },
+          { id: 'C', texto: 'III.' },
+          { id: 'D', texto: 'I e III.' },
+          { id: 'E', texto: 'II e III.' }
         ],
         gabarito: 'D',
-        explicacao: 'INJUNÇÃO: textos que instruem, orientam, apresentam sequência de passos. Uso de verbos no imperativo ("misture", "leve ao forno"). Narração conta fatos; descrição caracteriza; argumentação defende tese.'
+        explicacao: 'I: INFERÊNCIA autorizada (tempo reduzido + mesmo efetivo = aumento de produtividade por servidor). II: EXTRAPOLAÇÃO (o texto não menciona satisfação nem insatisfação — apenas descreve dados). III: INFERÊNCIA autorizada (se o tempo foi reduzido em 40%, o anterior era maior que o atual).'
       },
+
+      /* ---------- Item 7 (difícil-meta) — Autoavaliação ---------- */
       {
-        id: 'D-PT-02-02',
-        tipo: 'verdadeiro_falso',
-        subtopico: 'Tipo x gênero',
-        pergunta: 'Tipo textual e gênero textual são sinônimos: ambos designam a mesma realidade.',
-        alternativas: [
-          { id: 'V', texto: 'Verdadeiro' },
-          { id: 'F', texto: 'Falso' }
-        ],
-        gabarito: 'F',
-        explicacao: 'Falso. TIPO: categoria abstrata de organização do discurso (narração, descrição, exposição, argumentação, injunção). GÊNERO: forma concreta e social (notícia, receita, e-mail). Todo gênero contém um ou mais tipos.'
-      },
-      {
-        id: 'D-PT-02-03',
-        tipo: 'situacao',
-        subtopico: 'Funções da linguagem',
-        pergunta: 'Em uma propaganda de tênis com o slogan "Compre agora e transforme seu treino!", qual a função da linguagem predominante?',
-        alternativas: [
-          { id: 'A', texto: 'Referencial (informar).' },
-          { id: 'B', texto: 'Apelativa (conativa), pois busca influenciar o leitor a agir.' },
-          { id: 'C', texto: 'Metalinguística.' },
-          { id: 'D', texto: 'Fática.' }
-        ],
-        gabarito: 'B',
-        explicacao: 'A propaganda usa verbos no imperativo ("compre", "transforme") para persuadir o leitor. É a função APELATIVA (conativa). Referencial informa; metalinguística fala da própria linguagem; fática mantém contato.'
-      },
-      {
-        id: 'D-PT-02-04',
+        id: 'D-POR-01-07',
         tipo: 'autoavaliacao',
-        subtopico: 'Distinção geral',
-        pergunta: 'Você consegue distinguir os 5 tipos textuais (narração, descrição, exposição, argumentação, injunção) e reconhecer, em um texto, qual o predominante?',
-        resposta: 'NARRAÇÃO: conta fatos com personagens, tempo, espaço, conflito — verbos no passado. DESCRIÇÃO: caracteriza seres, objetos, lugares — adjetivos, verbos de estado. EXPOSIÇÃO: apresenta informação de forma neutra — linguagem impessoal, dados. ARGUMENTAÇÃO: defende tese com argumentos — conectores lógicos, opiniões. INJUNÇÃO: instrui, orienta — verbos no imperativo, sequência de passos. Muitos textos são mistos.'
+        subtopico: 'Distinções fundamentais da leitura',
+        pergunta: 'Você consegue, sem consultar, distinguir: (a) compreensão (literal) x interpretação (inferencial); (b) tema (assunto) x ideia central (tese); (c) informação explícita x implícita; (d) pressuposto (marcado por palavra) x subentendido (deduzido do contexto); (e) inferência autorizada x extrapolação?',
+        resposta: 'COMPREENSÃO: o que está escrito. INTERPRETAÇÃO: o que é autorizado a inferir. TEMA: assunto. IDEIA CENTRAL: tese sobre o tema. EXPLÍCITA: literal. IMPLÍCITA: autorizada (pressuposto, subentendido, inferência). PRESSUPOSTO: marcado por palavra ("voltou a", "parou de"). SUBENTENDIDO: deduzido do contexto, sem marca lexical. INFERÊNCIA: conclusão autorizada pelo texto. EXTRAPOLAÇÃO: conclusão não autorizada — inventada pelo leitor.'
       }
     ]
   },
 
   /* ============================================================
-     PT-03 — Semântica e Sentido das Palavras
+     POR-02 — Tipologia textual e gêneros textuais
   ============================================================ */
-  'PT-03': {
-    id: 'D-PT-03',
-    moduloId: 'PT-03',
+  'POR-02': {
+    id: 'D-POR-02',
+    moduloId: 'POR-02',
     itens: [
+      /* ---------- Item 1 (fácil) — MC clássica ---------- */
       {
-        id: 'D-PT-03-01',
+        id: 'D-POR-02-01',
         tipo: 'multipla_escolha',
-        subtopico: 'Denotação x conotação',
-        pergunta: 'Na frase "Ele tem um coração de pedra", o termo "coração de pedra" está empregado em sentido:',
+        subtopico: 'Tipo textual x gênero textual',
+        pergunta: 'Sobre a distinção entre tipo textual e gênero textual, assinale a alternativa CORRETA:',
         alternativas: [
-          { id: 'A', texto: 'Denotativo (literal).' },
-          { id: 'B', texto: 'Conotativo (figurado).' },
-          { id: 'C', texto: 'Científico.' },
-          { id: 'D', texto: 'Técnico.' }
+          { id: 'A', texto: 'Tipo textual e gênero textual são sinônimos: ambos se referem à estrutura linguística interna dos textos.' },
+          { id: 'B', texto: 'Tipo textual é a estrutura linguística (narração, descrição, exposição, argumentação, injunção); gênero textual é a forma social estabilizada (ofício, crônica, editorial), que pode combinar tipos diferentes.' },
+          { id: 'C', texto: 'Tipo textual é a forma social estabilizada (ofício, crônica); gênero textual é a estrutura linguística (narração, argumentação).' },
+          { id: 'D', texto: 'Tipo textual depende exclusivamente do suporte (jornal, livro); gênero textual depende exclusivamente da extensão (texto curto ou longo).' },
+          { id: 'E', texto: 'Tipo textual e gênero textual são determinados pelo autor, sem qualquer relação com a função social do texto.' }
         ],
         gabarito: 'B',
-        explicacao: 'O sentido é CONOTATIVO (figurado): "coração de pedra" significa pessoa fria, insensível — não um coração literal de pedra. É também uma METÁFORA.'
+        explicacao: 'TIPO: estrutura linguística (como). GÊNERO: forma social (onde/com qual finalidade). A) iguala indevidamente; C) inverte; D) confunde com suporte/extensão; E) nega a função social.'
       },
-      {
-        id: 'D-PT-03-02',
-        tipo: 'verdadeiro_falso',
-        subtopico: 'Homônimos x parônimos',
-        pergunta: 'As palavras "eminente" (importante) e "iminente" (que está por vir) são exemplos de homônimos.',
-        alternativas: [
-          { id: 'V', texto: 'Verdadeiro' },
-          { id: 'F', texto: 'Falso' }
-        ],
-        gabarito: 'F',
-        explicacao: 'Falso. São PARÔNIMOS — parecidos, mas com pronúncia e escrita ligeiramente diferentes e significados diferentes. Homônimos têm a MESMA pronúncia/escrita (ex.: "cela" e "sela").'
-      },
-      {
-        id: 'D-PT-03-03',
-        tipo: 'situacao',
-        subtopico: 'Figuras de linguagem',
-        pergunta: 'Em "Chorei rios de lágrimas", a figura de linguagem presente é:',
-        alternativas: [
-          { id: 'A', texto: 'Metáfora.' },
-          { id: 'B', texto: 'Metonímia.' },
-          { id: 'C', texto: 'Hipérbole (exagero).' },
-          { id: 'D', texto: 'Eufemismo.' }
-        ],
-        gabarito: 'C',
-        explicacao: 'HIPÉRBOLE: exagero intencional. "Rios de lágrimas" não é literal. Metáfora é comparação implícita; metonímia é substituição por proximidade; eufemismo suaviza.'
-      },
-      {
-        id: 'D-PT-03-04',
-        tipo: 'autoavaliacao',
-        subtopico: 'Ambigüidade x polissemia',
-        pergunta: 'Você consegue distinguir POLISSEMIA (uma palavra com vários sentidos) de AMBIGUIDADE (dupla interpretação em um mesmo contexto)?',
-        resposta: 'POLISSEMIA: uma palavra tem vários sentidos, todos válidos em contextos DISTINTOS. Ex.: "banco" (assento / instituição financeira). AMBIGUIDADE: em um MESMO contexto, a palavra ou frase permite DUAS interpretações. Ex.: "João disse a Pedro que ele era culpado." — quem é "ele"? A polissemia é característica natural da palavra; a ambiguidade é um problema de clareza (ou recurso estilístico).'
-      }
-    ]
-  },
 
-  /* ============================================================
-     PT-04 — Ortografia Oficial e Acentuação
-  ============================================================ */
-  'PT-04': {
-    id: 'D-PT-04',
-    moduloId: 'PT-04',
-    itens: [
+      /* ---------- Item 2 (fácil) — V/F simples ---------- */
       {
-        id: 'D-PT-04-01',
-        tipo: 'multipla_escolha',
-        subtopico: 'Acentuação',
-        pergunta: 'Assinale a alternativa em que TODAS as palavras estão corretamente acentuadas:',
-        alternativas: [
-          { id: 'A', texto: 'Café, fácil, árvore, saída.' },
-          { id: 'B', texto: 'Café, facil, arvore, saida.' },
-          { id: 'C', texto: 'Cafe, fácil, árvore, saída.' },
-          { id: 'D', texto: 'Café, fácil, arvore, saida.' }
-        ],
-        gabarito: 'A',
-        explicacao: 'Todas as palavras da alternativa A estão corretas: "café" (oxítona terminada em E), "fácil" (paroxítona em L), "árvore" (proparoxítona — sempre acentuada), "saída" (hiato).'
-      },
-      {
-        id: 'D-PT-04-02',
+        id: 'D-POR-02-02',
         tipo: 'verdadeiro_falso',
-        subtopico: 'Proparoxítonas',
-        pergunta: 'Todas as palavras proparoxítonas são acentuadas graficamente na língua portuguesa.',
+        subtopico: 'Narração x descrição',
+        pergunta: 'A narração apresenta fatos em sucessão, com transformação de estado, enquanto a descrição retrata um estado, sem transformação obrigatória.',
         alternativas: [
           { id: 'V', texto: 'Verdadeiro' },
           { id: 'F', texto: 'Falso' }
         ],
         gabarito: 'V',
-        explicacao: 'Verdadeiro. A regra das proparoxítonas não tem exceção: TODAS são acentuadas (árvore, médico, lâmpada, próximo, ônibus).'
+        explicacao: 'VERDADEIRO. NARRAÇÃO: fatos em SUCESSÃO (tempo, causa, transformação — "chegou, protocolou, saiu"). DESCRIÇÃO: retrato de um ESTADO (seres, objetos, cenas — "a sala é ampla, com paredes brancas"). A narração avança; a descrição pausa.'
       },
+
+      /* ---------- Item 3 (médio) — MC I/II/III ---------- */
       {
-        id: 'D-PT-04-03',
-        tipo: 'situacao',
-        subtopico: 'Uso dos porquês',
-        pergunta: 'Complete a frase: "Não sei ___ ele não veio, mas imagino o ___."',
+        id: 'D-POR-02-03',
+        tipo: 'multipla_escolha',
+        subtopico: 'Dissertação expositiva x argumentativa',
+        pergunta: 'Sobre a diferença entre dissertação expositiva e dissertação argumentativa, analise:\nI — A dissertação expositiva apresenta, explica e informa, sem defender uma posição.\nII — A dissertação argumentativa defende uma tese com argumentos e conclusão.\nIII — A dissertação expositiva e a argumentativa se distinguem pelo tempo verbal predominante: a primeira usa o passado; a segunda, o presente.\nEstá CORRETO apenas o que se afirma em:',
         alternativas: [
-          { id: 'A', texto: 'porque / porquê' },
-          { id: 'B', texto: 'por que / porquê' },
-          { id: 'C', texto: 'porquê / porque' },
-          { id: 'D', texto: 'por que / por que' }
+          { id: 'A', texto: 'I.' },
+          { id: 'B', texto: 'II.' },
+          { id: 'C', texto: 'III.' },
+          { id: 'D', texto: 'I e II.' },
+          { id: 'E', texto: 'II e III.' }
+        ],
+        gabarito: 'D',
+        explicacao: 'I e II corretas. III errada: a distinção NÃO é pelo tempo verbal, mas pela PRESENÇA/AUSÊNCIA de tese defendida. A expositiva informa; a argumentativa defende. O tempo verbal varia em ambas, sem relação com a classificação.'
+      },
+
+      /* ---------- Item 4 (médio) — V/F simples ---------- */
+      {
+        id: 'D-POR-02-04',
+        tipo: 'verdadeiro_falso',
+        subtopico: 'Combinação de tipos em um gênero',
+        pergunta: 'Um mesmo gênero textual pode combinar vários tipos textuais — por exemplo, um relatório administrativo pode conter descrição, exposição e argumentação.',
+        alternativas: [
+          { id: 'V', texto: 'Verdadeiro' },
+          { id: 'F', texto: 'Falso' }
+        ],
+        gabarito: 'V',
+        explicacao: 'VERDADEIRO. Tipos e gêneros não são exclusivos entre si: um gênero (relatório, crônica, editorial) pode combinar tipos (descrição, exposição, argumentação, narração). A classificação é sempre pela PREDOMINÂNCIA, não pela exclusividade.'
+      },
+
+      /* ---------- Item 5 (médio-difícil) — Situação ---------- */
+      {
+        id: 'D-POR-02-05',
+        tipo: 'situacao',
+        subtopico: 'Aplicação: classificar tipo predominante',
+        pergunta: 'Considere o texto: "O servidor chegou às 8h, protocolou o pedido, conferiu os documentos e saiu às 9h." Sobre a tipologia predominante, é CORRETO afirmar que o trecho é predominantemente:',
+        alternativas: [
+          { id: 'A', texto: 'Descritivo, pois apresenta características do servidor, do pedido e do setor onde a ação ocorreu.' },
+          { id: 'B', texto: 'Narrativo, pois relata fatos em sucessão temporal, com personagem e deslocamento de estado.' },
+          { id: 'C', texto: 'Dissertativo expositivo, pois informa objetivamente os horários de chegada e de saída do servidor.' },
+          { id: 'D', texto: 'Injuntivo, pois orienta o servidor a chegar às 8h, protocolar, conferir documentos e sair às 9h.' },
+          { id: 'E', texto: 'Argumentativo, pois defende a tese de que o servidor executou o protocolo com eficiência.' }
         ],
         gabarito: 'B',
-        explicacao: '"POR QUE" (separado, sem acento): pergunta indireta, equivale a "por qual razão". "PORQUÊ" (junto, com acento): substantivo, equivale a "motivo". Frase: "Não sei POR QUE ele não veio, mas imagino o PORQUÊ."'
+        explicacao: 'NARRATIVO: fatos em SUCESSÃO temporal ("chegou, protocolou, conferiu, saiu"), com personagem e transformação. A) descrição retrataria estado sem avanço temporal. C) exposição não tem o encadeamento de fatos. D) injunção usaria imperativo ("chegue, protocole") — o texto relata, não orienta. E) argumentação exigiria tese defendida — o texto apenas relata.'
       },
+
+      /* ---------- Item 6 (difícil) — MC associação ---------- */
       {
-        id: 'D-PT-04-04',
+        id: 'D-POR-02-06',
+        tipo: 'multipla_escolha',
+        subtopico: 'Associação: fragmentos x tipos textuais',
+        pergunta: 'Associe os fragmentos aos tipos textuais predominantes:\n1 — "O servidor chegou, protocolou o pedido e saiu."\n2 — "A sala é ampla, com paredes brancas, janelas grandes e mesas alinhadas."\n3 — "A Lei 14.133/2021 substituiu a Lei 8.666/93, trazendo novas regras para as licitações."\n4 — "Preencha o formulário, anexe os documentos e protocole no setor responsável."\nTIPOS\n( ) Narrativo.\n( ) Descritivo.\n( ) Expositivo.\n( ) Injuntivo.\nA sequência CORRETA, de cima para baixo, é:',
+        alternativas: [
+          { id: 'A', texto: '1, 2, 3, 4.' },
+          { id: 'B', texto: '2, 1, 3, 4.' },
+          { id: 'C', texto: '1, 3, 2, 4.' },
+          { id: 'D', texto: '4, 3, 2, 1.' },
+          { id: 'E', texto: '1, 2, 4, 3.' }
+        ],
+        gabarito: 'A',
+        explicacao: '(1) NARRATIVO: fatos em sucessão ("chegou, protocolou, saiu"). (2) DESCRITIVO: retrato de estado ("ampla, paredes brancas, janelas grandes"). (3) EXPOSITIVO: informa sem defender tese. (4) INJUNTIVO: orienta como fazer (imperativo "preencha, anexe, protocole").'
+      },
+
+      /* ---------- Item 7 (difícil-meta) — Autoavaliação ---------- */
+      {
+        id: 'D-POR-02-07',
         tipo: 'autoavaliacao',
-        subtopico: 'Regras gerais',
-        pergunta: 'Você conhece as regras de acentuação de oxítonas, paroxítonas e proparoxítonas e sabe aplicar o teste da palavra masculina para saber quando há crase?',
-        resposta: 'OXÍTONAS: acentuam-se as terminadas em A, E, O, EM, ENS (café, jiló, também). PAROXÍTONAS: acentuam-se as terminadas em L, N, R, X, I, IS, UM, UNS, PS, ditongo, Ã, ÃS, ÃO, ÃOS, ON, ONS, US (fácil, hífen, tórax, vírus). PROPAROXÍTONAS: TODAS (árvore). CRASE: teste da palavra masculina — se, substituindo por palavra masculina, aparecer "ao", há crase; se aparecer "o", não há. Ex.: "Vou à escola" → "Vou ao colégio" (tem crase).'
+        subtopico: 'Tipologia e gêneros — distinções fundamentais',
+        pergunta: 'Você consegue, sem consultar, distinguir: (a) tipo textual x gênero textual; (b) narração x descrição; (c) dissertação expositiva x argumentativa; (d) injunção x exposição; (e) função social de um gênero?',
+        resposta: 'TIPO: estrutura linguística (como). GÊNERO: forma social (onde/com qual finalidade). NARRAÇÃO: fatos em sucessão (transformação). DESCRIÇÃO: retrato de estado (sem transformação). EXPOSITIVA: informa, não defende tese. ARGUMENTATIVA: defende tese com argumentos. INJUNÇÃO: orienta como fazer (imperativo, passos). EXPOSIÇÃO: informa. FUNÇÃO SOCIAL: finalidade comunicativa do gênero (ofício comunica institucionalmente; crônica, no jornal; receita, na cozinha).'
       }
     ]
   },
 
   /* ============================================================
-     PT-05 — Classes de Palavras: Visão Geral
+     POR-03 — Coesão e coerência textual
   ============================================================ */
-  'PT-05': {
-    id: 'D-PT-05',
-    moduloId: 'PT-05',
+  'POR-03': {
+    id: 'D-POR-03',
+    moduloId: 'POR-03',
     itens: [
+      /* ---------- Item 1 (fácil) — MC clássica ---------- */
       {
-        id: 'D-PT-05-01',
+        id: 'D-POR-03-01',
         tipo: 'multipla_escolha',
-        subtopico: 'Advérbio x adjetivo',
-        pergunta: 'Na frase "Ele fala muito bem", a palavra "muito" pertence à classe:',
+        subtopico: 'Coesão x coerência',
+        pergunta: 'Sobre a diferença entre coesão e coerência textuais, assinale a alternativa CORRETA:',
         alternativas: [
-          { id: 'A', texto: 'Adjetivo.' },
-          { id: 'B', texto: 'Substantivo.' },
-          { id: 'C', texto: 'Advérbio.' },
-          { id: 'D', texto: 'Pronome.' }
+          { id: 'A', texto: 'Coesão é a ligação de sentido global do texto; coerência é a ligação formal entre as partes, feita por pronomes e conectivos.' },
+          { id: 'B', texto: 'Coesão é a ligação formal (pronomes, conectivos, retomadas); coerência é a ligação de sentido, que garante que o texto faça sentido globalmente.' },
+          { id: 'C', texto: 'Coesão e coerência são sinônimos: ambas se referem à organização global do texto e à progressão temática.' },
+          { id: 'D', texto: 'Coesão depende exclusivamente do leitor, que reconstrói os elos; coerência depende exclusivamente do autor, que os estabelece.' },
+          { id: 'E', texto: 'Coesão se refere apenas a conectivos; coerência se refere apenas a pronomes e a retomadas anafóricas.' }
         ],
-        gabarito: 'C',
-        explicacao: '"Muito" aqui modifica o advérbio "bem" (intensificando). É ADVÉRBIO — invariável. Não confundir com "muitos alunos" (adjetivo/pronome indefinido, variável).'
+        gabarito: 'B',
+        explicacao: 'COESÃO: ligação FORMAL (pronomes, conectivos, substituições). COERÊNCIA: ligação de SENTIDO (o texto faz sentido global e local). A) inverte; C) iguala; D) separa indevidamente (autor e leitor participam de ambas); E) reduz coesão a conectivos e coerência a pronomes — ambas envolvem mais elementos.'
       },
+
+      /* ---------- Item 2 (fácil) — V/F simples ---------- */
       {
-        id: 'D-PT-05-02',
+        id: 'D-POR-03-02',
         tipo: 'verdadeiro_falso',
-        subtopico: 'Preposição x conjunção',
-        pergunta: 'A palavra "e" em "Pedro e Maria estudam" é uma preposição, pois liga dois termos.',
+        subtopico: 'Anáfora x catáfora',
+        pergunta: 'Anáfora e catáfora são mecanismos de coesão referencial: a anáfora retoma um termo já dito, e a catáfora antecipa um termo que ainda será dito.',
+        alternativas: [
+          { id: 'V', texto: 'Verdadeiro' },
+          { id: 'F', texto: 'Falso' }
+        ],
+        gabarito: 'V',
+        explicacao: 'VERDADEIRO. ANÁFORA: retoma termo JÁ DITO ("O servidor chegou. Ele estava atrasado"). CATÁFORA: antecipa termo que VIRÁ ("Era isto o que importava: o prazo"). A anáfora olha para trás; a catáfora, para frente.'
+      },
+
+      /* ---------- Item 3 (médio) — MC I/II/III ---------- */
+      {
+        id: 'D-POR-03-03',
+        tipo: 'multipla_escolha',
+        subtopico: 'Valor semântico dos conectivos',
+        pergunta: 'Sobre o valor semântico dos conectivos, analise:\nI — Em "Estudou muito, PORQUE queria passar", o conectivo introduz causa.\nII — Em "Estudou muito, PORTANTO passou", o conectivo introduz conclusão.\nIII — Em "Estudou muito, EMBORA tenha sido reprovado", o conectivo introduz causa.\nEstá CORRETO apenas o que se afirma em:',
+        alternativas: [
+          { id: 'A', texto: 'I.' },
+          { id: 'B', texto: 'II.' },
+          { id: 'C', texto: 'III.' },
+          { id: 'D', texto: 'I e II.' },
+          { id: 'E', texto: 'II e III.' }
+        ],
+        gabarito: 'D',
+        explicacao: 'I correta: "porque" = causa. II correta: "portanto" = conclusão. III errada: "embora" introduz CONCESSÃO (admite o fato contrário: estudou, mas foi reprovado) — não causa. A concessão admite e supera; a causa explica.'
+      },
+
+      /* ---------- Item 4 (médio) — V/F simples ---------- */
+      {
+        id: 'D-POR-03-04',
+        tipo: 'verdadeiro_falso',
+        subtopico: 'Coesão x coerência (relação)',
+        pergunta: 'Um texto coeso é necessariamente um texto coerente, pois a presença de conectivos e retomadas formais garante a coerência global.',
         alternativas: [
           { id: 'V', texto: 'Verdadeiro' },
           { id: 'F', texto: 'Falso' }
         ],
         gabarito: 'F',
-        explicacao: 'Falso. "E" é CONJUNÇÃO (coordenativa aditiva) — liga termos de mesma função ou orações. Preposição liga termos com relação de dependência (ex.: "casa DE pedra").'
+        explicacao: 'FALSO. Coesão ≠ coerência. Um texto pode ser COESO e INCOERENTE: "Estudou muito, portanto foi reprovado" — o conectivo "portanto" (coesão) liga as orações, mas a relação lógica está errada (incoerência semântica). A coesão formal não garante coerência de sentido.'
       },
+
+      /* ---------- Item 5 (médio-difícil) — Situação ---------- */
       {
-        id: 'D-PT-05-03',
+        id: 'D-POR-03-05',
         tipo: 'situacao',
-        subtopico: 'Palavra que muda de classe',
-        pergunta: 'Na frase "O jantar está pronto", a palavra "jantar" pertence à classe:',
+        subtopico: 'Aplicação: detectar incoerência',
+        pergunta: 'Considere o trecho: "O prazo não foi cumprido, portanto faltaram servidores." Sobre o trecho, é CORRETO afirmar que:',
         alternativas: [
-          { id: 'A', texto: 'Verbo.' },
-          { id: 'B', texto: 'Substantivo.' },
-          { id: 'C', texto: 'Adjetivo.' },
-          { id: 'D', texto: 'Advérbio.' }
+          { id: 'A', texto: 'Há coesão e coerência: o conectivo "portanto" liga corretamente causa e consequência, explicitando a relação lógica.' },
+          { id: 'B', texto: 'Há coesão formal (o conectivo liga as orações), mas há incoerência semântica: "portanto" indica conclusão, mas a falta de servidores é a CAUSA do descumprimento, não a conclusão dele.' },
+          { id: 'C', texto: 'Há incoerência apenas por falta de coesão: nenhum conectivo liga as orações, o que impede a progressão temática.' },
+          { id: 'D', texto: 'Há apenas problema de pontuação: a vírgula antes de "portanto" está mal colocada e compromete a coesão.' },
+          { id: 'E', texto: 'Há apenas problema gramatical: "portanto" deveria concordar com "servidores" em número e pessoa.' }
         ],
         gabarito: 'B',
-        explicacao: 'Aqui "jantar" está precedido do artigo "o" — função de SUBSTANTIVO (nomeia a refeição). Em "Vou jantar agora", a palavra é VERBO (ação). A classe depende do contexto.'
+        explicacao: 'Há COESÃO (o conectivo liga as orações), mas há INCOERÊNCIA (o conectivo correto seria "porque" — a falta de servidores é a CAUSA do descumprimento). "Portanto" indica conclusão, e a relação é de causa → incoerência semântica. A) não há coerência. C) há conectivo. D) a vírgula está correta. E) "portanto" é conjunção invariável — não concorda.'
       },
+
+      /* ---------- Item 6 (difícil) — MC complete lacunas ---------- */
       {
-        id: 'D-PT-05-04',
+        id: 'D-POR-03-06',
+        tipo: 'multipla_escolha',
+        subtopico: 'Complete as lacunas com conectivos',
+        pergunta: 'Complete as lacunas com os conectivos ADEQUADOS:\n"O prazo não foi cumprido ____ faltaram servidores. ____, o processo foi reaberto para análise."',
+        alternativas: [
+          { id: 'A', texto: 'porque / Portanto.' },
+          { id: 'B', texto: 'embora / No entanto.' },
+          { id: 'C', texto: 'portanto / Porque.' },
+          { id: 'D', texto: 'caso / Logo.' },
+          { id: 'E', texto: 'conforme / Assim.' }
+        ],
+        gabarito: 'A',
+        explicacao: '1ª lacuna: "porque" (CAUSA — a falta de servidores causou o não cumprimento). 2ª lacuna: "Portanto" (CONCLUSÃO — a reabertura decorre do não cumprimento). B) "embora" (concessão) não cabe — a falta foi causa. C) inverte causa e conclusão. D) "caso" (condição) não cabe. E) "conforme" (conformidade) não cabe.'
+      },
+
+      /* ---------- Item 7 (difícil-meta) — Autoavaliação ---------- */
+      {
+        id: 'D-POR-03-07',
         tipo: 'autoavaliacao',
-        subtopico: 'Classes de palavras',
-        pergunta: 'Você consegue listar e reconhecer as 10 classes de palavras, e distinguir substantivo de adjetivo, advérbio de adjetivo, preposição de conjunção?',
-        resposta: 'As 10 classes: substantivo (nomeia), artigo (determina), adjetivo (caracteriza), numeral (quantifica), pronome (substitui/acompanha), verbo (ação/estado), advérbio (modifica verbo/adjetivo/advérbio — invariável), preposição (liga termos com dependência), conjunção (liga orações ou termos de mesma função), interjeição (expressa emoção). Substantivo x adjetivo: nomeia x caracteriza. Advérbio x adjetivo: invariável x variável. Preposição x conjunção: liga termos x liga orações.'
+        subtopico: 'Coesão e coerência — distinções fundamentais',
+        pergunta: 'Você consegue, sem consultar, distinguir: (a) coesão referencial x sequencial; (b) anáfora x catáfora; (c) causa x consequência x concessão x finalidade; (d) coerência global x local; (e) incoerência x ambiguidade?',
+        resposta: 'COESÃO REFERENCIAL: retomada/antecipação de termos (anáfora, catáfora, pronomes, substituições). COESÃO SEQUENCIAL: ligação entre orações/parágrafos por conectivos. ANÁFORA: retoma termo já dito. CATÁFORA: antecipa termo que virá. CAUSA: "porque". CONSEQUÊNCIA: "portanto". CONCESSÃO: "embora" (admite e supera). FINALIDADE: "para que" (intenção). COERÊNCIA GLOBAL: o texto faz sentido como um todo. LOCAL: as relações entre frases/parágrafos são lógicas. INCOERÊNCIA: quebra de sentido (contradição, salto). AMBIGUIDADE: duplo sentido involuntário.'
       }
     ]
   },
 
   /* ============================================================
-     PT-07 — Sintaxe da Oração e do Período
+     POR-04 — Semântica, significação e relações entre palavras
   ============================================================ */
-  'PT-07': {
-    id: 'D-PT-07',
-    moduloId: 'PT-07',
+  'POR-04': {
+    id: 'D-POR-04',
+    moduloId: 'POR-04',
     itens: [
+      /* ---------- Item 1 (fácil) — MC clássica ---------- */
       {
-        id: 'D-PT-07-01',
+        id: 'D-POR-04-01',
         tipo: 'multipla_escolha',
-        subtopico: 'Objeto direto x indireto',
-        pergunta: 'Na frase "Entreguei o livro ao professor", os termos "o livro" e "ao professor" são, respectivamente:',
+        subtopico: 'Denotação x conotação',
+        pergunta: 'Sobre denotação e conotação, assinale a alternativa CORRETA:',
         alternativas: [
-          { id: 'A', texto: 'Objeto indireto e objeto direto.' },
-          { id: 'B', texto: 'Objeto direto e objeto indireto.' },
-          { id: 'C', texto: 'Complemento nominal e agente da passiva.' },
-          { id: 'D', texto: 'Sujeito e predicativo.' }
+          { id: 'A', texto: 'Denotação é o sentido figurado, subjetivo; conotação é o sentido literal, objetivo e dicionarizado.' },
+          { id: 'B', texto: 'Denotação é o sentido literal, dicionarizado; conotação é o sentido figurado, subjetivo, dependente do contexto de uso.' },
+          { id: 'C', texto: 'Denotação e conotação são sinônimos: ambas se referem ao sentido contextual das palavras em uso.' },
+          { id: 'D', texto: 'Denotação é o sentido subjetivo; conotação é o sentido objetivo, compartilhado por todos os falantes.' },
+          { id: 'E', texto: 'Denotação é usada apenas em textos literários; conotação é usada apenas em textos científicos e administrativos.' }
         ],
         gabarito: 'B',
-        explicacao: '"O livro" é OBJETO DIRETO (sem preposição obrigatória). "Ao professor" é OBJETO INDIRETO (com preposição "a"). O verbo "entregar" é transitivo direto e indireto.'
+        explicacao: 'DENOTAÇÃO: sentido LITERAL, dicionarizado, objetivo. CONOTAÇÃO: sentido FIGURADO, subjetivo, dependente do contexto. A) inverte; C) iguala; D) inverte; E) inverte os usos (ambas ocorrem em qualquer gênero, com predominâncias distintas).'
       },
+
+      /* ---------- Item 2 (fácil) — V/F simples ---------- */
       {
-        id: 'D-PT-07-02',
+        id: 'D-POR-04-02',
         tipo: 'verdadeiro_falso',
-        subtopico: 'Sujeito oculto x indeterminado',
-        pergunta: 'Na frase "Roubaram minha bolsa", o sujeito é classificado como oculto, pois existe mas não está expresso.',
+        subtopico: 'Paronímia',
+        pergunta: 'As palavras "emergir" (subir à superfície) e "imergir" (afundar) são parônimas: têm forma parecida e sentido diferente.',
         alternativas: [
           { id: 'V', texto: 'Verdadeiro' },
           { id: 'F', texto: 'Falso' }
         ],
-        gabarito: 'F',
-        explicacao: 'Falso. O sujeito é INDETERMINADO (verbo na 3ª pessoa do plural sem sujeito expresso). O sujeito OCULTO existe e pode ser identificado pelo contexto ou desinência. Ex.: "(Eu) Estudei muito."'
+        gabarito: 'V',
+        explicacao: 'VERDADEIRO. PARONÍMIA: forma parecida, sentido diferente. "Emergir" (vir à tona) x "imergir" (afundar). Outros exemplos: "eminente" (ilustre) x "iminente" (que está para acontecer); "despercebido" (não notado) x "desapercebido" (desprovido). Parônimos são fonte clássica de erro em prova.'
       },
+
+      /* ---------- Item 3 (médio) — MC I/II/III ---------- */
       {
-        id: 'D-PT-07-03',
-        tipo: 'situacao',
-        subtopico: 'Adjunto adnominal x complemento nominal',
-        pergunta: 'Na expressão "o medo de altura", o termo "de altura" é classificado como:',
+        id: 'D-POR-04-03',
+        tipo: 'multipla_escolha',
+        subtopico: 'Polissemia x homonímia',
+        pergunta: 'Sobre polissemia e homonímia, analise:\nI — Polissemia é a propriedade de uma palavra ter vários sentidos RELACIONADOS entre si, como "banco" (assento e instituição financeira).\nII — Homonímia é a coincidência de forma (som ou escrita) entre palavras de sentidos NÃO relacionados, como "cela" (prisão) e "sela" (arreio).\nIII — Polissemia e homonímia são sinônimos, pois ambas se referem à multiplicidade de sentidos de uma palavra.\nEstá CORRETO apenas o que se afirma em:',
         alternativas: [
-          { id: 'A', texto: 'Adjunto adnominal.' },
-          { id: 'B', texto: 'Complemento nominal.' },
-          { id: 'C', texto: 'Aposto.' },
-          { id: 'D', texto: 'Vocativo.' }
+          { id: 'A', texto: 'I.' },
+          { id: 'B', texto: 'II.' },
+          { id: 'C', texto: 'III.' },
+          { id: 'D', texto: 'I e II.' },
+          { id: 'E', texto: 'II e III.' }
+        ],
+        gabarito: 'D',
+        explicacao: 'I correta: polissemia = sentidos relacionados ("banco" — assento e instituição financeira têm relação histórica). II correta: homonímia = forma igual, sentidos não relacionados ("cela" x "sela"). III errada: NÃO são sinônimos — a polissemia tem relação entre os sentidos; a homonímia, não.'
+      },
+
+      /* ---------- Item 4 (médio) — V/F simples ---------- */
+      {
+        id: 'D-POR-04-04',
+        tipo: 'verdadeiro_falso',
+        subtopico: 'Hiperônimo x hipônimo',
+        pergunta: 'Em "Comprei flores: rosas, margaridas e violetas", "flores" é hiperônimo de "rosas", "margaridas" e "violetas".',
+        alternativas: [
+          { id: 'V', texto: 'Verdadeiro' },
+          { id: 'F', texto: 'Falso' }
+        ],
+        gabarito: 'V',
+        explicacao: 'VERDADEIRO. HIPERÔNIMO: termo geral que engloba outros ("flores" engloba "rosas, margaridas, violetas"). HIPÔNIMO: termo específico do conjunto ("rosas" pertence ao conjunto "flores"). A relação gênero-espécie é útil para substituição coesiva (evitar repetição).'
+      },
+
+      /* ---------- Item 5 (médio-difícil) — Situação ---------- */
+      {
+        id: 'D-POR-04-05',
+        tipo: 'situacao',
+        subtopico: 'Aplicação: detectar ambiguidade',
+        pergunta: 'Considere a frase: "O diretor informou ao servidor que seu pedido foi negado." Sobre a frase, é CORRETO afirmar que:',
+        alternativas: [
+          { id: 'A', texto: 'Há clareza total: "seu" refere-se inequivocamente ao diretor, pois é o sujeito da oração principal.' },
+          { id: 'B', texto: 'Há clareza total: "seu" refere-se inequivocamente ao servidor, pois é o objeto indireto da oração.' },
+          { id: 'C', texto: 'Há ambiguidade estrutural: "seu" pode referir-se tanto ao diretor quanto ao servidor, o que compromete a clareza do enunciado.' },
+          { id: 'D', texto: 'Há erro de concordância: "seu" deveria concordar com "diretor" em gênero e número, o que não ocorre na frase.' },
+          { id: 'E', texto: 'Há erro de regência: "informou ao servidor" deveria ser "informou o servidor", sem preposição obrigatória.' }
+        ],
+        gabarito: 'C',
+        explicacao: 'AMBIGUIDADE: "seu" pode se referir ao diretor (o pedido do diretor) ou ao servidor (o pedido do servidor) — duplo sentido involuntário. A) não há clareza. B) não há clareza. D) "seu" é possessivo — concorda com o termo possuído (pedido), não com o possuidor. E) "informar" admite "informar algo a alguém" (com "a") — não há erro de regência.'
+      },
+
+      /* ---------- Item 6 (difícil) — MC sinônimo contextual ---------- */
+      {
+        id: 'D-POR-04-06',
+        tipo: 'multipla_escolha',
+        subtopico: 'Sinônimo contextual',
+        pergunta: 'Substitua o termo em destaque por sinônimo ADEQUADO ao contexto:\n"O parecer foi ACOLHIDO pela autoridade competente, que deferiu o pedido."',
+        alternativas: [
+          { id: 'A', texto: 'rejeitado — a autoridade competente não aceitou o parecer técnico apresentado pela área responsável.' },
+          { id: 'B', texto: 'aceito — a autoridade competente aceitou o parecer técnico e, com base nele, deferiu o pedido do cidadão.' },
+          { id: 'C', texto: 'criticado — a autoridade competente questionou o parecer técnico e, por isso, decidiu deferir o pedido do cidadão.' },
+          { id: 'D', texto: 'ignorado — a autoridade competente desconsiderou o parecer técnico e decidiu o pedido por critério próprio de conveniência.' },
+          { id: 'E', texto: 'anulado — a autoridade competente invalidou o parecer técnico e, em razão disso, deferiu o pedido do cidadão.' }
         ],
         gabarito: 'B',
-        explicacao: '"De altura" completa o sentido do substantivo abstrato "medo" com preposição, indicando o ALVO do medo. É COMPLEMENTO NOMINAL. Adjunto adnominal caracteriza (posse, qualidade) — não completa o sentido.'
+        explicacao: '"ACOLHIDO" = aceito, aprovado. No contexto, a autoridade acolheu o parecer (= aceitou) e deferiu o pedido. A) "rejeitado" = antônimo. C) "criticado" e "deferido" são incoerentes (se criticou, não deferiu por ele). D) "ignorado" contradiz o deferimento. E) "anulado" e "deferido" são incoerentes.'
       },
+
+      /* ---------- Item 7 (difícil-meta) — Autoavaliação ---------- */
       {
-        id: 'D-PT-07-04',
+        id: 'D-POR-04-07',
         tipo: 'autoavaliacao',
-        subtopico: 'Análise sintática',
-        pergunta: 'Você consegue identificar, em uma oração, o sujeito, o predicado, os objetos, o complemento nominal, os adjuntos e distinguir orações coordenadas de subordinadas?',
-        resposta: 'SUJEITO: quem faz ou de quem se fala. PREDICADO: o que se diz do sujeito (verbal, nominal, verbo-nominal). OBJETO DIRETO: completa verbo transitivo direto, sem preposição obrigatória. OBJETO INDIRETO: completa verbo transitivo indireto, com preposição. COMPLEMENTO NOMINAL: completa nome (substantivo, adjetivo, advérbio) com preposição. ADJUNTO ADNOMINAL: caracteriza substantivo. ADJUNTO ADVERBIAL: modifica verbo (circunstância). APOSTO: explica. VOCATIVO: chama. COORDENADAS: independentes. SUBORDINADAS: dependem de outra oração.'
+        subtopico: 'Semântica — distinções fundamentais',
+        pergunta: 'Você consegue, sem consultar, distinguir: (a) denotação x conotação; (b) sinonímia x paronímia; (c) polissemia x homonímia; (d) hiperônimo x hipônimo; (e) ambiguidade lexical x estrutural?',
+        resposta: 'DENOTAÇÃO: literal. CONOTAÇÃO: figurado. SINONÍMIA: sentido próximo (casa/moradia). PARONÍMIA: forma parecida, sentido diferente (emergir/imergir). POLISSEMIA: mesma palavra, sentidos RELACIONADOS (banco). HOMONÍMIA: forma igual, sentidos NÃO relacionados (cela/sela). HIPERÔNIMO: geral (flor). HIPÔNIMO: específico (rosa). AMBIGUIDADE LEXICAL: palavra polissêmica no contexto. ESTRUTURAL: a construção da frase gera duplo sentido.'
       }
     ]
   },
 
   /* ============================================================
-     PT-10 — Regência Verbal, Regência Nominal e Crase
+     POR-05 — Figuras de linguagem e funções da linguagem
   ============================================================ */
-  'PT-10': {
-    id: 'D-PT-10',
-    moduloId: 'PT-10',
+  'POR-05': {
+    id: 'D-POR-05',
+    moduloId: 'POR-05',
     itens: [
+      /* ---------- Item 1 (fácil) — MC clássica ---------- */
       {
-        id: 'D-PT-10-01',
+        id: 'D-POR-05-01',
         tipo: 'multipla_escolha',
-        subtopico: 'Crase',
-        pergunta: 'Assinale a alternativa em que a crase está empregada CORRETAMENTE:',
+        subtopico: 'Metáfora x comparação',
+        pergunta: 'Sobre metáfora e comparação, assinale a alternativa CORRETA:',
         alternativas: [
-          { id: 'A', texto: 'Vou à pé até a escola.' },
-          { id: 'B', texto: 'Começou à chover forte.' },
-          { id: 'C', texto: 'Entreguei o livro à professora.' },
-          { id: 'D', texto: 'Fiquei cara à cara com ele.' }
+          { id: 'A', texto: 'Metáfora é a comparação explícita, com conectivo "como"; comparação é a comparação implícita, sem conectivo.' },
+          { id: 'B', texto: 'Metáfora é a comparação implícita, sem conectivo; comparação é a explícita, com "como", "tal qual" ou equivalentes.' },
+          { id: 'C', texto: 'Metáfora e comparação são sinônimos: ambas se referem a figuras de linguagem que aproximam dois termos.' },
+          { id: 'D', texto: 'Metáfora é usada apenas em poesia; comparação é usada apenas em textos jornalísticos e administrativos.' },
+          { id: 'E', texto: 'Metáfora e comparação se distinguem pelo tempo verbal predominante: a primeira usa o presente; a segunda, o passado.' }
         ],
-        gabarito: 'C',
-        explicacao: 'A crase é correta em "à professora" (preposição "a" + artigo "a" + palavra feminina). As demais estão erradas: A (palavra masculina "pé"), B (antes de verbo), D (palavras repetidas).'
+        gabarito: 'B',
+        explicacao: 'METÁFORA: comparação IMPLÍCITA, sem conectivo ("Ele é um leão"). COMPARAÇÃO: EXPLÍCITA, com "como", "tal qual" ("Ele é forte como um leão"). A) inverte; C) iguala; D) restringe indevidamente os usos; E) inventa critério inexistente.'
       },
+
+      /* ---------- Item 2 (fácil) — V/F simples ---------- */
       {
-        id: 'D-PT-10-02',
+        id: 'D-POR-05-02',
         tipo: 'verdadeiro_falso',
-        subtopico: 'Verbos de dupla regência',
-        pergunta: 'O verbo "assistir" tem o mesmo sentido e a mesma regência em "Assisti ao filme" e "O médico assistiu o paciente".',
+        subtopico: 'Função conativa',
+        pergunta: 'A função conativa (ou apelativa) da linguagem concentra-se no receptor, buscando influenciar seu comportamento, como em "Compre agora!" ou "Vote em...".',
         alternativas: [
           { id: 'V', texto: 'Verdadeiro' },
           { id: 'F', texto: 'Falso' }
         ],
-        gabarito: 'F',
-        explicacao: 'Falso. "ASSISTIR" (= ver) pede preposição "a": "Assisti AO filme." "ASSISTIR" (= ajudar/socorrer) NÃO pede preposição: "O médico assistiu O paciente." Sentidos e regências diferentes.'
+        gabarito: 'V',
+        explicacao: 'VERDADEIRO. FUNÇÃO CONATIVA (ou apelativa): foco no RECEPTOR, com verbos no imperativo, vocativos, 2ª pessoa — busca influenciar comportamento ("Compre!", "Vote!"). Típica de publicidade, campanhas e discursos. Não confundir com emotiva (foco no emissor).'
       },
+
+      /* ---------- Item 3 (médio) — MC I/II/III ---------- */
       {
-        id: 'D-PT-10-03',
-        tipo: 'situacao',
-        subtopico: 'Crase proibida',
-        pergunta: 'Em qual das alternativas a crase é PROIBIDA?',
+        id: 'D-POR-05-03',
+        tipo: 'multipla_escolha',
+        subtopico: 'Identificação de figuras',
+        pergunta: 'Sobre figuras de linguagem, analise:\nI — "Ele é um leão" é exemplo de metáfora (comparação implícita).\nII — "Ele é forte como um touro" é exemplo de comparação (comparação explícita com "como").\nIII — "Chorei rios de lágrimas" é exemplo de metonímia (troca por proximidade).\nEstá CORRETO apenas o que se afirma em:',
         alternativas: [
-          { id: 'A', texto: 'Referi-me àquele episódio.' },
-          { id: 'B', texto: 'Cheguei à noite.' },
-          { id: 'C', texto: 'Vou a Brasília.' },
-          { id: 'D', texto: 'Entreguei o livro à Maria.' }
+          { id: 'A', texto: 'I.' },
+          { id: 'B', texto: 'II.' },
+          { id: 'C', texto: 'III.' },
+          { id: 'D', texto: 'I e II.' },
+          { id: 'E', texto: 'II e III.' }
         ],
-        gabarito: 'C',
-        explicacao: 'É PROIBIDA crase antes de nome de cidade que NÃO admite artigo: "Vou a Brasília" (sem crase). "Vou à Bahia" (com crase, pois "a Bahia" admite artigo). Nos demais casos: A e B são obrigatórias; D é facultativa.'
+        gabarito: 'D',
+        explicacao: 'I correta: metáfora (implícita). II correta: comparação (explícita com "como"). III errada: "chorei rios de lágrimas" é HIPÉRBOLE (exagero intencional), não metonímia. Metonímia é troca por proximidade ("Li Machado" = autor pela obra; "Comprei um Portinari" = autor pela obra).'
       },
+
+      /* ---------- Item 4 (médio) — V/F simples ---------- */
       {
-        id: 'D-PT-10-04',
+        id: 'D-POR-05-04',
+        tipo: 'verdadeiro_falso',
+        subtopico: 'Ironia',
+        pergunta: 'A ironia consiste em dizer o contrário do que se quer significar, geralmente com carga crítica, como em "Que belo serviço!" para algo malfeito.',
+        alternativas: [
+          { id: 'V', texto: 'Verdadeiro' },
+          { id: 'F', texto: 'Falso' }
+        ],
+        gabarito: 'V',
+        explicacao: 'VERDADEIRO. IRONIA: dizer o CONTRÁRIO do que se quer significar, geralmente com carga crítica ("Que belo serviço!" para algo malfeito). Não confundir com EUFEMISMO (suavização — "ele nos deixou" por "morreu"). A ironia ataca; o eufemismo amortece.'
+      },
+
+      /* ---------- Item 5 (médio-difícil) — Situação ---------- */
+      {
+        id: 'D-POR-05-05',
+        tipo: 'situacao',
+        subtopico: 'Aplicação: função predominante',
+        pergunta: 'Um anúncio publicitário diz: "Corra! A promoção termina hoje!" Sobre a função da linguagem predominante, é CORRETO afirmar que:',
+        alternativas: [
+          { id: 'A', texto: 'É a função referencial, pois o anúncio informa objetivamente o prazo final da promoção, com dados verificáveis.' },
+          { id: 'B', texto: 'É a função conativa, pois o anúncio busca influenciar o comportamento do receptor, com imperativo ("corra") e apelo direto.' },
+          { id: 'C', texto: 'É a função poética, pois o anúncio elabora a forma da mensagem, com ritmo e sonoridade que atraem o leitor.' },
+          { id: 'D', texto: 'É a função fática, pois o anúncio testa o canal de comunicação, verificando se o receptor está ouvindo a mensagem.' },
+          { id: 'E', texto: 'É a função metalinguística, pois o anúncio fala sobre a própria linguagem publicitária, refletindo sobre seu código.' }
+        ],
+        gabarito: 'B',
+        explicacao: 'FUNÇÃO CONATIVA (predominante): foco no RECEPTOR, com imperativo ("Corra!") e apelo direto. A) a referencial informa objetivamente, mas o anúncio VISA À AÇÃO. C) a poética pode estar presente, mas não predomina. D) a fática testa o canal — não é o caso. E) a metalinguística fala sobre o código — não é o caso.'
+      },
+
+      /* ---------- Item 6 (difícil) — MC associação ---------- */
+      {
+        id: 'D-POR-05-06',
+        tipo: 'multipla_escolha',
+        subtopico: 'Associação: funções x elementos da comunicação',
+        pergunta: 'Associe as funções da linguagem aos elementos da comunicação que cada uma enfatiza:\n1 — Função referencial.\n2 — Função emotiva.\n3 — Função conativa.\n4 — Função metalinguística.\nELEMENTOS\n( ) Emissor.\n( ) Receptor.\n( ) Código.\n( ) Referente.\nA sequência CORRETA, de cima para baixo, é:',
+        alternativas: [
+          { id: 'A', texto: '1, 2, 3, 4.' },
+          { id: 'B', texto: '2, 3, 4, 1.' },
+          { id: 'C', texto: '3, 4, 1, 2.' },
+          { id: 'D', texto: '4, 1, 2, 3.' },
+          { id: 'E', texto: '2, 1, 4, 3.' }
+        ],
+        gabarito: 'B',
+        explicacao: 'EMISSOR → 2 (emotiva, foco no eu). RECEPTOR → 3 (conativa, foco no outro). CÓDIGO → 4 (metalinguística, linguagem falando de si). REFERENTE → 1 (referencial, foco na informação objetiva).'
+      },
+
+      /* ---------- Item 7 (difícil-meta) — Autoavaliação ---------- */
+      {
+        id: 'D-POR-05-07',
         tipo: 'autoavaliacao',
-        subtopico: 'Regência e crase',
-        pergunta: 'Você sabe usar o teste da palavra masculina para saber quando há crase, e conhece os principais verbos de dupla regência (assistir, aspirar, visar, implicar)?',
-        resposta: 'TESTE DA PALAVRA MASCULINA: substitua o termo feminino por um masculino. Se aparecer "AO", há crase. Se aparecer "O", não há. Ex.: "Vou à escola" → "Vou ao colégio" (tem crase). "Vou a São Paulo" → "Vou a (o) Rio"? Atenção: nem toda cidade admite artigo. VERBOS DE DUPLA REGÊNCIA: ASSISTIR (= ver) → a / (= ajudar) → sem preposição. ASPIRAR (= desejar) → a / (= respirar) → sem preposição. VISAR (= pretender) → a / (= assinar) → sem preposição. IMPLICAR (= acarretar) → sem preposição / (= envolver-se) → em. ESQUECER/LEMBRAR (pronominal) → de / (não pronominal) → sem preposição.'
+        subtopico: 'Figuras e funções — distinções fundamentais',
+        pergunta: 'Você consegue, sem consultar, distinguir: (a) metáfora x comparação; (b) antítese x paradoxo; (c) ironia x eufemismo; (d) as seis funções da linguagem; (e) os elementos da comunicação associados a cada função?',
+        resposta: 'METÁFORA: implícita. COMPARAÇÃO: explícita (com "como"). ANTÍTESE: oposição justaposta ("doce e tirano"). PARADOXO: contradição numa mesma expressão ("silêncio ensurdecedor"). IRONIA: dizer o contrário, com crítica. EUFEMISMO: suavização. FUNÇÕES: referencial (referente), emotiva (emissor), conativa (receptor), fática (canal), metalinguística (código), poética (mensagem).'
       }
     ]
   }
