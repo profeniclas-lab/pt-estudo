@@ -579,6 +579,462 @@ window.DIAGNOSTICS_ALTA = {
         resposta: 'METÁFORA: implícita. COMPARAÇÃO: explícita (com "como"). ANTÍTESE: oposição justaposta ("doce e tirano"). PARADOXO: contradição numa mesma expressão ("silêncio ensurdecedor"). IRONIA: dizer o contrário, com crítica. EUFEMISMO: suavização. FUNÇÕES: referencial (referente), emotiva (emissor), conativa (receptor), fática (canal), metalinguística (código), poética (mensagem).'
       }
     ]
+  },
+  /* ============================================================
+     POR-07 — Acentuação gráfica
+  ============================================================ */
+  'POR-07': {
+    id: 'D-POR-07',
+    moduloId: 'POR-07',
+    itens: [
+      /* ---------- Item 1 (fácil) — MC clássica ---------- */
+      {
+        id: 'D-POR-07-01',
+        tipo: 'multipla_escolha',
+        subtopico: 'Classificação quanto à sílaba tônica',
+        pergunta: 'Sobre a classificação das palavras quanto à posição da sílaba tônica, assinale a alternativa CORRETA:',
+        alternativas: [
+          { id: 'A', texto: 'Oxítona é a palavra cuja sílaba tônica é a penúltima; paroxítona é a última; proparoxítona é a antepenúltima.' },
+          { id: 'B', texto: 'Oxítona é a palavra cuja sílaba tônica é a última; paroxítona é a penúltima; proparoxítona é a antepenúltima.' },
+          { id: 'C', texto: 'Oxítona é a palavra cuja sílaba tônica é a antepenúltima; paroxítona é a penúltima; proparoxítona é a última.' },
+          { id: 'D', texto: 'Oxítona, paroxítona e proparoxítona são sinônimos: todas se referem a palavras com mais de uma sílaba tônica.' },
+          { id: 'E', texto: 'Oxítona é a palavra com apenas uma sílaba; paroxítona é a com duas; proparoxítona é a com três ou mais sílabas.' }
+        ],
+        gabarito: 'B',
+        explicacao: 'OXÍTONA: tônica na ÚLTIMA (ca-FÉ). PAROXÍTONA: tônica na PENÚLTIMA (CA-sa). PROPAROXÍTONA: tônica na ANTEPENÚLTIMA (MÉ-di-co). A) inverte tudo. C) inverte. D) confunde com "mais de uma sílaba tônica" (toda palavra tem uma tônica principal). E) confunde com número de sílabas (monossílabo, dissílabo, polissílabo).'
+      },
+
+      /* ---------- Item 2 (fácil) — V/F simples ---------- */
+      {
+        id: 'D-POR-07-02',
+        tipo: 'verdadeiro_falso',
+        subtopico: 'Proparoxítonas',
+        pergunta: 'Todas as palavras proparoxítonas são acentuadas graficamente, sem exceção.',
+        alternativas: [
+          { id: 'V', texto: 'Verdadeiro' },
+          { id: 'F', texto: 'Falso' }
+        ],
+        gabarito: 'V',
+        explicacao: 'VERDADEIRO. TODAS as proparoxítonas são acentuadas: médico, lâmpada, próximo, século, público, último, básico, ônibus, xícara. Não há exceção — é a única regra de acentuação que não depende de terminação.'
+      },
+
+      /* ---------- Item 3 (médio) — V/F sequencial ---------- */
+      {
+        id: 'D-POR-07-03',
+        tipo: 'multipla_escolha',
+        subtopico: 'Regras de acentuação (oxítonas, paroxítonas, monossílabos)',
+        pergunta: 'Julgue as afirmações sobre acentuação gráfica:\n(__) Acentuam-se as oxítonas terminadas em A, E, O (seguidos ou não de S) e em EM/ENS, como "café", "cipó" e "armazém".\n(__) Acentuam-se as paroxítonas terminadas em A, E, O, EM e AM, como "casa", "verde" e "jovem".\n(__) Acentuam-se os monossílabos tônicos terminados em A, E, O (seguidos ou não de S), como "pá", "pé" e "pó".\n(__) Acentuam-se as paroxítonas terminadas em I, IS, US, UM, UNS, L, N, R, X, PS e ditongos, como "lápis", "álbum", "fácil" e "história".\nAssinale a alternativa com a sequência CORRETA, de cima para baixo:',
+        alternativas: [
+          { id: 'A', texto: 'V, V, V, V.' },
+          { id: 'B', texto: 'V, F, V, V.' },
+          { id: 'C', texto: 'V, F, F, V.' },
+          { id: 'D', texto: 'F, V, V, F.' },
+          { id: 'E', texto: 'F, F, V, V.' }
+        ],
+        gabarito: 'B',
+        explicacao: '(__1) V: regra correta das oxítonas. (__2) F: as paroxítonas terminadas em A, E, O, EM e AM NÃO são acentuadas — "casa", "verde", "jovem", "falam" ficam sem acento. (__3) V: regra correta dos monossílabos tônicos. (__4) V: regra correta das paroxítonas (I, IS, US, UM, UNS, L, N, R, X, PS, ditongos).'
+      },
+
+      /* ---------- Item 4 (médio) — V/F simples ---------- */
+      {
+        id: 'D-POR-07-04',
+        tipo: 'verdadeiro_falso',
+        subtopico: 'Acordo Ortográfico — ditongos e hiatos',
+        pergunta: 'Após o Acordo Ortográfico vigente, palavras como "ideia", "heroico" e "jiboia" NÃO recebem mais acento, pois o acento dos ditongos abertos ÉU, ÉI, ÓI foi eliminado nas paroxítonas.',
+        alternativas: [
+          { id: 'V', texto: 'Verdadeiro' },
+          { id: 'F', texto: 'Falso' }
+        ],
+        gabarito: 'V',
+        explicacao: 'VERDADEIRO. O Acordo eliminou o acento dos ditongos abertos ÉU, ÉI, ÓI em PAROXÍTONAS: ideia (antes idéia), heroico (antes heróico), jiboia (antes jibóia), assembleia (antes assembléia). Em OXÍTONAS, o acento permanece: céu, papéis, herói.'
+      },
+
+      /* ---------- Item 5 (médio-difícil) — Situação ---------- */
+      {
+        id: 'D-POR-07-05',
+        tipo: 'situacao',
+        subtopico: 'Aplicação: identificar erro de acentuação',
+        pergunta: 'Um candidato redigiu a frase: "O servidor protocolou o requerimento, mas a análise ainda não foi concluída, pois faltam documentos." Sobre a acentuação das palavras, é CORRETO afirmar que:',
+        alternativas: [
+          { id: 'A', texto: 'A frase contém erro: "análise" deveria ser grafada sem acento, pois é paroxítona terminada em E.' },
+          { id: 'B', texto: 'A frase contém erro: "concluída" deveria ser grafada sem acento, pois o hiato "uí" não é acentuado após o Acordo Ortográfico.' },
+          { id: 'C', texto: 'A frase está integralmente correta: "análise" é proparoxítona (todas são acentuadas); "concluída" tem hiato "uí" tônico, acentuado; "ainda" não recebe acento (paroxítona terminada em A).' },
+          { id: 'D', texto: 'A frase contém erro: "ainda" deveria receber acento, pois é paroxítona terminada em A.' },
+          { id: 'E', texto: 'A frase contém erro: "documentos" deveria ser grafada sem acento, pois é proparoxítona aparente.' }
+        ],
+        gabarito: 'C',
+        explicacao: 'A frase está CORRETA. "Análise" é proparoxítona (todas acentuadas). "Concluída" tem hiato "uí" tônico (acentua-se). "Ainda" é paroxítona terminada em A (não acentuada). A) análise é proparoxítona, não paroxítona. B) hiatos I/U tônicos continuam acentuados. D) paroxítonas em A NÃO são acentuadas. E) "documentos" é paroxítona, não proparoxítona.'
+      },
+
+      /* ---------- Item 6 (difícil) — MC I/II/III ---------- */
+      {
+        id: 'D-POR-07-06',
+        tipo: 'multipla_escolha',
+        subtopico: 'Acentos diferenciais',
+        pergunta: 'Sobre os acentos diferenciais que permaneceram após o Acordo Ortográfico, analise:\nI — "Pôde" (passado) recebe circunflexo para se diferenciar de "pode" (presente).\nII — "Pôr" (verbo) recebe circunflexo para se diferenciar de "por" (preposição).\nIII — "Pêlo" (substantivo) recebe circunflexo para se diferenciar de "pelo" (preposição), assim como "pólo" e "pêra".\nEstá CORRETO apenas o que se afirma em:',
+        alternativas: [
+          { id: 'A', texto: 'I.' },
+          { id: 'B', texto: 'II.' },
+          { id: 'C', texto: 'III.' },
+          { id: 'D', texto: 'I e II.' },
+          { id: 'E', texto: 'I, II e III.' }
+        ],
+        gabarito: 'D',
+        explicacao: 'I correta: "pôde" (passado) x "pode" (presente) — acento diferencial mantido. II correta: "pôr" (verbo) x "por" (preposição) — acento diferencial mantido. III errada: "pêlo", "pólo", "pêra" PERDERAM o acento com o Acordo Ortográfico (agora: pelo, polo, pera). Também "para" (verbo/preposição) e "pela" perderam o acento.'
+      },
+
+      /* ---------- Item 7 (difícil-meta) — Autoavaliação ---------- */
+      {
+        id: 'D-POR-07-07',
+        tipo: 'autoavaliacao',
+        subtopico: 'Acentuação — distinções fundamentais',
+        pergunta: 'Você consegue, sem consultar, classificar palavras em oxítonas, paroxítonas e proparoxítonas e aplicar as regras de acentuação — incluindo as mudanças do Acordo Ortográfico (ditongos abertos em paroxítonas, hiatos EE/OO, acentos diferenciais)?',
+        resposta: 'Primeiro classifique (última/penúltima/antepenúltima tônica). OXÍTONAS: acentuam A, E, O (+S) e EM/ENS. PAROXÍTONAS: acentuam I, IS, US, UM, UNS, Ã, ÃS, ÃO, ÃOS, ON, ONS, L, N, R, X, PS, ditongos. PROPAROXÍTONAS: todas. MONOSSÍLABOS: A, E, O (+S). ACORDO: ditongos abertos ÉU, ÉI, ÓI — acentuados em oxítonas (céu, papéis, herói), NÃO em paroxítonas (ideia, heroico, jiboia). Hiatos EE/OO — não acentuados (creem, voo). ACENTOS DIFERENCIAIS MANTIDOS: pôde/pode, têm/tem, vêm/vem, pôr/por, côa/coa.'
+      }
+    ]
+  },
+
+  /* ============================================================
+     POR-10 — Pronomes
+  ============================================================ */
+  'POR-10': {
+    id: 'D-POR-10',
+    moduloId: 'POR-10',
+    itens: [
+      /* ---------- Item 1 (fácil) — MC clássica ---------- */
+      {
+        id: 'D-POR-10-01',
+        tipo: 'multipla_escolha',
+        subtopico: 'Pronomes de tratamento',
+        pergunta: 'Sobre o emprego dos pronomes de tratamento, assinale a alternativa CORRETA:',
+        alternativas: [
+          { id: 'A', texto: 'Os pronomes de tratamento exigem o verbo na 2ª pessoa do singular, pois se referem diretamente ao interlocutor.' },
+          { id: 'B', texto: 'Os pronomes de tratamento exigem o verbo na 3ª pessoa, ainda que se refiram ao interlocutor, como em "Vossa Excelência despachou o processo".' },
+          { id: 'C', texto: 'Os pronomes de tratamento exigem o verbo na 1ª pessoa do plural, pois representam a instituição que o destinatário chefia.' },
+          { id: 'D', texto: 'Os pronomes de tratamento variam livremente conforme a preferência do redator, sem regra fixa de concordância.' },
+          { id: 'E', texto: 'Os pronomes de tratamento só podem ser usados em comunicações orais, sendo vedados em documentos escritos oficiais.' }
+        ],
+        gabarito: 'B',
+        explicacao: 'Pronomes de tratamento (V.Ex.ª, V.S.ª, V.Mag.ª) exigem verbo na 3ª pessoa: "Vossa Excelência DESPACHOU" (não "despachastes"). A) inverte (2ª pessoa é erro clássico). C) 1ª pessoa não cabe. D) há regra fixa. E) são usados justamente em documentos oficiais (RED-21).'
+      },
+
+      /* ---------- Item 2 (fácil) — V/F simples ---------- */
+      {
+        id: 'D-POR-10-02',
+        tipo: 'verdadeiro_falso',
+        subtopico: 'Pronome relativo "cujo"',
+        pergunta: 'O pronome relativo "cujo" indica posse e não pode ser seguido de artigo: deve-se escrever "o servidor cujo pedido foi negado" (e não "cujo o pedido").',
+        alternativas: [
+          { id: 'V', texto: 'Verdadeiro' },
+          { id: 'F', texto: 'Falso' }
+        ],
+        gabarito: 'V',
+        explicacao: 'VERDADEIRO. "CUJO" indica posse e NUNCA é seguido de artigo. Correto: "o servidor cujo pedido" / "a servidora cuja proposta". Errado: "cujo o pedido", "cuja a proposta". Outro ponto: "cujo" concorda com o termo POSSUÍDO (pedido/proposta), não com o possuidor (servidor/servidora).'
+      },
+
+      /* ---------- Item 3 (médio) — MC I/II/III ---------- */
+      {
+        id: 'D-POR-10-03',
+        tipo: 'multipla_escolha',
+        subtopico: 'Este x esse x aquele',
+        pergunta: 'Sobre o emprego dos pronomes demonstrativos, analise:\nI — "Este" refere-se ao que está perto de quem fala, ao tempo presente ou ao que ainda será dito.\nII — "Esse" refere-se ao que está perto de quem ouve, ao passado recente ou ao que já foi dito.\nIII — "Aquele" refere-se ao que está longe de ambos os interlocutores, ao passado remoto ou a um antecedente distante.\nEstá CORRETO apenas o que se afirma em:',
+        alternativas: [
+          { id: 'A', texto: 'I.' },
+          { id: 'B', texto: 'II.' },
+          { id: 'C', texto: 'III.' },
+          { id: 'D', texto: 'I e II.' },
+          { id: 'E', texto: 'I, II e III.' }
+        ],
+        gabarito: 'E',
+        explicacao: 'Todas corretas. ESTE: perto de quem fala, presente, o que será dito. ESSE: perto de quem ouve, passado recente, o que já foi dito. AQUELE: longe de ambos, passado remoto, antecedente distante. Essa distinção é essencial em redação oficial (referência a documentos citados) e é cobrada em interpretação.'
+      },
+
+      /* ---------- Item 4 (médio) — V/F simples ---------- */
+      {
+        id: 'D-POR-10-04',
+        tipo: 'verdadeiro_falso',
+        subtopico: 'Colocação pronominal — início de frase',
+        pergunta: 'É correto iniciar uma frase com pronome oblíquo átono, como em "Me entregaram o documento ontem", pois a ordem dos termos é livre na língua portuguesa.',
+        alternativas: [
+          { id: 'V', texto: 'Verdadeiro' },
+          { id: 'F', texto: 'Falso' }
+        ],
+        gabarito: 'F',
+        explicacao: 'FALSO. A norma culta NÃO admite iniciar frase com pronome oblíquo átono (me, te, se, o, a, lhe, nos, vos). O correto é ênclise: "ENTREGARAM-ME o documento ontem" ou "Entregaram-me o documento ontem" (dentro de contexto). Iniciar com "me" é erro clássico de colocação pronominal.'
+      },
+
+      /* ---------- Item 5 (médio-difícil) — Situação ---------- */
+      {
+        id: 'D-POR-10-05',
+        tipo: 'situacao',
+        subtopico: 'Aplicação: reescrever com colocação correta',
+        pergunta: 'Um candidato reescreveu a frase "Nunca entregaram o documento ao servidor" como "Nunca entregaram-lhe o documento". Sobre a reescrita, é CORRETO afirmar que:',
+        alternativas: [
+          { id: 'A', texto: 'A reescrita está correta: o pronome "lhe" retoma "ao servidor" e a colocação está adequada ao contexto.' },
+          { id: 'B', texto: 'A reescrita está errada: a palavra atrativa "nunca" exige PRÓCLISE, e o correto seria "Nunca LHE entregaram o documento".' },
+          { id: 'C', texto: 'A reescrita está errada: "lhe" não pode substituir "ao servidor", que exige o pronome "o" — correto seria "Nunca entregaram-no".' },
+          { id: 'D', texto: 'A reescrita está errada: o verbo "entregar" não admite pronome oblíquo, exigindo sempre o objeto direto expresso.' },
+          { id: 'E', texto: 'A reescrita está errada: "lhe" deveria vir antes do verbo "entregar" apenas em frases interrogativas, não em afirmativas.' }
+        ],
+        gabarito: 'B',
+        explicacao: 'A palavra "nunca" é ATRATIVA — exige PRÓCLISE. Correto: "Nunca LHE entregaram o documento". A) "entregaram-lhe" (ênclise) é inadequado quando há atrativa. C) "lhe" substitui "ao servidor" (objeto indireto) corretamente. D) "entregar" admite "lhe" no sentido de entregar a alguém. E) a regra de próclise não depende de interrogação.'
+      },
+
+      /* ---------- Item 6 (difícil) — MC complete lacunas ---------- */
+      {
+        id: 'D-POR-10-06',
+        tipo: 'multipla_escolha',
+        subtopico: 'Complete as lacunas com colocação pronominal',
+        pergunta: 'Complete as lacunas com a colocação pronominal ADEQUADA:\n"____ entregaram o documento ontem. ____ ele entregou o documento? Se ____ entregassem antes, o prazo seria cumprido."',
+        alternativas: [
+          { id: 'A', texto: 'Me / Quando / lhe.' },
+          { id: 'B', texto: 'Entregaram-me / Quando / lhe.' },
+          { id: 'C', texto: 'Entregaram-me / Quando lhe / se.' },
+          { id: 'D', texto: 'Entregaram-me / Quando / se.' },
+          { id: 'E', texto: 'Me / Quando / se.' }
+        ],
+        gabarito: 'D',
+        explicacao: '1ª lacuna: início de frase exige ÊNCLISE — "ENTREGARAM-ME". 2ª lacuna: com a atrativa "quando", próclise — "QUANDO ele entregou" (ou "Quando lhe entregou" se "lhe" fosse retomado; aqui a frase não retoma ninguém — mantém-se "Quando ele entregou"). 3ª lacuna: com a atrativa "se" (conjunção condicional), próclise — "SE LHE ENTREGASSEM". A) "Me entregaram" (início com átono) é erro. B) "Quando lhe" não se aplica (não há termo retomado). C) mistura inadequada. E) erro na 1ª lacuna.'
+      },
+
+      /* ---------- Item 7 (difícil-meta) — Autoavaliação ---------- */
+      {
+        id: 'D-POR-10-07',
+        tipo: 'autoavaliacao',
+        subtopico: 'Pronomes — distinções fundamentais',
+        pergunta: 'Você consegue, sem consultar, distinguir: (a) pronome pessoal reto x oblíquo; (b) este x esse x aquele; (c) pronome relativo "que" x "cujo"; (d) próclise x mesóclise x ênclise; (e) palavras atrativas que exigem próclise?',
+        resposta: 'RETO: sujeito (eu, tu, ele). OBLÍQUO: complemento (me, te, o, a, lhe). ESTE: perto/presente/futuro do texto. ESSE: perto do ouvinte/passado recente/já dito. AQUELE: longe/passado remoto. QUE: retoma antecedente (sujeito/objeto). CUJO: indica posse (sem artigo depois). PRÓCLISE: antes do verbo (obrigatória com "não, nunca, que, se, quando, embora"). MESÓCLISE: no meio (futuro do presente/pretérito sem atrativa). ÊNCLISE: depois do verbo (caso geral, início de frase, imperativo afirmativo). ATRATIVAS: não, nunca, jamais, ninguém, nada, nenhum, só, apenas, também, já, ainda, sempre, que, quem, qual, onde, quando, se, embora, conforme, segundo, consoante.'
+      }
+    ]
+  },
+
+  /* ============================================================
+     POR-11 — Verbos
+  ============================================================ */
+  'POR-11': {
+    id: 'D-POR-11',
+    moduloId: 'POR-11',
+    itens: [
+      /* ---------- Item 1 (fácil) — MC clássica ---------- */
+      {
+        id: 'D-POR-11-01',
+        tipo: 'multipla_escolha',
+        subtopico: 'Modos verbais',
+        pergunta: 'Sobre os modos verbais, assinale a alternativa CORRETA:',
+        alternativas: [
+          { id: 'A', texto: 'O indicativo expressa dúvida ou hipótese; o subjuntivo expressa certeza; o imperativo expressa ordem ou pedido.' },
+          { id: 'B', texto: 'O indicativo expressa certeza; o subjuntivo expressa dúvida, desejo ou hipótese; o imperativo expressa ordem, pedido ou conselho.' },
+          { id: 'C', texto: 'O indicativo e o subjuntivo expressam certeza; apenas o imperativo expressa dúvida ou hipótese.' },
+          { id: 'D', texto: 'O subjuntivo expressa ordem; o imperativo expressa dúvida; o indicativo expressa hipótese.' },
+          { id: 'E', texto: 'Os três modos verbais são sinônimos: todos expressam ação ou estado, sem distinção de valor.' }
+        ],
+        gabarito: 'B',
+        explicacao: 'INDICATIVO: certeza, fato real. SUBJUNTIVO: dúvida, desejo, hipótese. IMPERATIVO: ordem, pedido, conselho. A) inverte; C) confunde; D) inverte; E) nega a distinção.'
+      },
+
+      /* ---------- Item 2 (fácil) — V/F simples ---------- */
+      {
+        id: 'D-POR-11-02',
+        tipo: 'verdadeiro_falso',
+        subtopico: 'Pretérito perfeito x imperfeito',
+        pergunta: 'O pretérito perfeito indica fato concluído ("Ontem falei com ele"), enquanto o pretérito imperfeito indica fato habitual no passado ou ação em curso no passado ("Todos os dias falava com ele").',
+        alternativas: [
+          { id: 'V', texto: 'Verdadeiro' },
+          { id: 'F', texto: 'Falso' }
+        ],
+        gabarito: 'V',
+        explicacao: 'VERDADEIRO. PERFEITO: fato CONCLUÍDO, pontual ("Ontem falei com ele"). IMPERFEITO: fato HABITUAL no passado ou ação em curso ("Todos os dias falava com ele"; "Enquanto lia, ouvia música"). A distinção é a linha do tempo: pontual x durativo/habitual.'
+      },
+
+      /* ---------- Item 3 (médio) — MC I/II/III ---------- */
+      {
+        id: 'D-POR-11-03',
+        tipo: 'multipla_escolha',
+        subtopico: 'Vozes verbais',
+        pergunta: 'Sobre as vozes verbais, analise:\nI — Na voz ativa, o sujeito pratica a ação ("O servidor protocolou o pedido").\nII — Na voz passiva analítica, o sujeito sofre a ação ("O pedido foi protocolado pelo servidor").\nIII — Na voz passiva sintética, o sujeito sofre a ação com verbo + "se" ("Protocolou-se o pedido").\nEstá CORRETO apenas o que se afirma em:',
+        alternativas: [
+          { id: 'A', texto: 'I.' },
+          { id: 'B', texto: 'II.' },
+          { id: 'C', texto: 'III.' },
+          { id: 'D', texto: 'I e II.' },
+          { id: 'E', texto: 'I, II e III.' }
+        ],
+        gabarito: 'E',
+        explicacao: 'Todas corretas. ATIVA: sujeito PRATICA ("O servidor protocolou"). PASSIVA ANALÍTICA: sujeito SOFRE + verbo "ser" + particípio + agente com "por" ("O pedido foi protocolado pelo servidor"). PASSIVA SINTÉTICA: sujeito SOFRE + verbo + "se" ("Protocolou-se o pedido"). As três formas são corretas.'
+      },
+
+      /* ---------- Item 4 (médio) — V/F simples ---------- */
+      {
+        id: 'D-POR-11-04',
+        tipo: 'verdadeiro_falso',
+        subtopico: 'Verbos impessoais',
+        pergunta: 'O verbo "haver", no sentido de "existir", e o verbo "fazer", indicando tempo decorrido, são impessoais: ficam sempre na 3ª pessoa do singular.',
+        alternativas: [
+          { id: 'V', texto: 'Verdadeiro' },
+          { id: 'F', texto: 'Falso' }
+        ],
+        gabarito: 'V',
+        explicacao: 'VERDADEIRO. "Haver" no sentido de existir é IMPESSOAL: "Havia muitos servidores" (não "haviam"). "Fazer" indicando tempo decorrido é IMPESSOAL: "Faz dois anos" (não "fazem"). Já "existir" é pessoal: "Existiam muitos servidores". A confusão é armadilha clássica.'
+      },
+
+      /* ---------- Item 5 (médio-difícil) — Situação ---------- */
+      {
+        id: 'D-POR-11-05',
+        tipo: 'situacao',
+        subtopico: 'Aplicação: transpor para voz passiva',
+        pergunta: 'Um candidato reescreveu a frase "O diretor elogiou os servidores" como "Os servidores foi elogiado pelo diretor". Sobre a reescrita, é CORRETO afirmar que:',
+        alternativas: [
+          { id: 'A', texto: 'A reescrita está correta: a transposição para voz passiva foi feita sem alteração de sentido.' },
+          { id: 'B', texto: 'A reescrita está errada: o verbo "ser" deveria concordar com o sujeito "os servidores", e o correto seria "Os servidores FORAM elogiados pelo diretor".' },
+          { id: 'C', texto: 'A reescrita está errada: o agente da passiva "pelo diretor" deveria ser omitido, pois a voz passiva analítica não admite agente expresso.' },
+          { id: 'D', texto: 'A reescrita está errada: o verbo "elogiar" é intransitivo e não admite transposição para voz passiva.' },
+          { id: 'E', texto: 'A reescrita está errada: a voz passiva analítica não admite tempo passado, apenas presente.' }
+        ],
+        gabarito: 'B',
+        explicacao: 'Erro de CONCORDÂNCIA: o sujeito é "os servidores" (plural) — o verbo "ser" deveria ser "foram" e o particípio "elogiados". Correto: "Os servidores FORAM ELONGIADOS pelo diretor". A) há erro de concordância. C) a passiva analítica admite agente ("pelo diretor"). D) "elogiar" é transitivo direto — admite passiva. E) a passiva analítica admite qualquer tempo.'
+      },
+
+      /* ---------- Item 6 (difícil) — MC associação ---------- */
+      {
+        id: 'D-POR-11-06',
+        tipo: 'multipla_escolha',
+        subtopico: 'Associação: tempos verbais e valores',
+        pergunta: 'Associe os tempos verbais aos valores que expressam:\n1 — Pretérito imperfeito ("falava").\n2 — Pretérito mais-que-perfeito ("falara").\n3 — Futuro do presente ("falarei").\n4 — Futuro do pretérito ("falaria").\nVALORES\n( ) Fato futuro em relação a um passado, ou hipótese.\n( ) Ação anterior a outra ação no passado.\n( ) Fato habitual no passado ou ação em curso no passado.\n( ) Fato posterior ao momento atual.\nA sequência CORRETA, de cima para baixo, é:',
+        alternativas: [
+          { id: 'A', texto: '1, 2, 3, 4.' },
+          { id: 'B', texto: '2, 3, 4, 1.' },
+          { id: 'C', texto: '3, 4, 1, 2.' },
+          { id: 'D', texto: '4, 2, 1, 3.' },
+          { id: 'E', texto: '4, 3, 2, 1.' }
+        ],
+        gabarito: 'D',
+        explicacao: 'FUTURO DO PRETÉRITO → 4 ("falaria": hipótese ou futuro em relação ao passado). MAIS-QUE-PERFEITO → 2 ("falara": anterior a outra ação passada). IMPERFEITO → 1 ("falava": habitual/em curso no passado). FUTURO DO PRESENTE → 3 ("falarei": posterior ao momento atual).'
+      },
+
+      /* ---------- Item 7 (difícil-meta) — Autoavaliação ---------- */
+      {
+        id: 'D-POR-11-07',
+        tipo: 'autoavaliacao',
+        subtopico: 'Verbos — distinções fundamentais',
+        pergunta: 'Você consegue, sem consultar, distinguir: (a) os três modos verbais; (b) pretérito perfeito x imperfeito x mais-que-perfeito; (c) voz ativa x passiva analítica x passiva sintética; (d) verbos regulares x irregulares x auxiliares; (e) verbos impessoais (haver, fazer, ser no tempo)?',
+        resposta: 'MODOS: indicativo (certeza), subjuntivo (dúvida), imperativo (ordem). PRETÉRITOS: perfeito (pontual, concluído), imperfeito (habitual/em curso), mais-que-perfeito (anterior a outro passado). VOZES: ativa (sujeito age), passiva analítica (ser + particípio + agente), passiva sintética (verbo + se). VERBOS: regulares (paradigma), irregulares (alteram radical/terminações), auxiliares (formam locuções). IMPESSOAIS: haver (existir), fazer (tempo), ser (tempo/hora) — 3ª pessoa do singular.'
+      }
+    ]
+  },
+
+  /* ============================================================
+     POR-15 — Concordância verbal e nominal
+  ============================================================ */
+  'POR-15': {
+    id: 'D-POR-15',
+    moduloId: 'POR-15',
+    itens: [
+      /* ---------- Item 1 (fácil) — MC clássica ---------- */
+      {
+        id: 'D-POR-15-01',
+        tipo: 'multipla_escolha',
+        subtopico: 'Regra geral da concordância verbal',
+        pergunta: 'Sobre a concordância verbal, assinale a alternativa CORRETA:',
+        alternativas: [
+          { id: 'A', texto: 'O verbo concorda com o objeto direto em número e pessoa, independentemente do sujeito da oração.' },
+          { id: 'B', texto: 'O verbo concorda com o sujeito em número e pessoa — "O servidor protocolou" / "Os servidores protocolaram".' },
+          { id: 'C', texto: 'O verbo concorda com o predicativo do sujeito em gênero e número, independentemente do núcleo do sujeito.' },
+          { id: 'D', texto: 'O verbo permanece sempre na 3ª pessoa do singular, independentemente do sujeito.' },
+          { id: 'E', texto: 'O verbo concorda com o termo mais próximo, seja ele sujeito, objeto ou adjunto.' }
+        ],
+        gabarito: 'B',
+        explicacao: 'Regra geral: o verbo concorda com o SUJEITO em número e pessoa. A) concorda com o sujeito, não com o objeto. C) concorda com o sujeito, não com o predicativo. D) há flexão de acordo com o sujeito. E) a concordância é com o sujeito, não com o termo mais próximo (salvo casos especiais como sujeito composto posposto).'
+      },
+
+      /* ---------- Item 2 (fácil) — V/F simples ---------- */
+      {
+        id: 'D-POR-15-02',
+        tipo: 'verdadeiro_falso',
+        subtopico: 'Verbos impessoais',
+        pergunta: 'Nas orações com verbos impessoais (haver = existir, fazer = tempo), o verbo permanece na 3ª pessoa do singular, sem sujeito: "Havia servidores" e "Faz dois anos".',
+        alternativas: [
+          { id: 'V', texto: 'Verdadeiro' },
+          { id: 'F', texto: 'Falso' }
+        ],
+        gabarito: 'V',
+        explicacao: 'VERDADEIRO. Verbos impessoais NÃO têm sujeito e ficam na 3ª pessoa do singular: "Havia servidores" (não "haviam"), "Faz dois anos" (não "fazem"), "Houve problemas" (não "houveram"). Essa regra é uma das mais cobradas em concordância.'
+      },
+
+      /* ---------- Item 3 (médio) — V/F sequencial ---------- */
+      {
+        id: 'D-POR-15-03',
+        tipo: 'multipla_escolha',
+        subtopico: 'Casos especiais de concordância',
+        pergunta: 'Julgue as afirmações sobre casos especiais de concordância:\n(__) Com sujeito composto anteposto ao verbo, o verbo fica no plural ("O diretor e o coordenador chegaram").\n(__) Com sujeito composto posposto ao verbo, o verbo pode ficar no singular ou no plural ("Chegou o diretor e o coordenador" / "Chegaram o diretor e o coordenador").\n(__) Com "mais de um", o verbo fica no plural, pois a expressão indica mais de um ser ("Mais de um servidor faltaram").\n(__) Com pronomes de tratamento, o verbo fica na 3ª pessoa ("Vossa Excelência despachou").\nAssinale a alternativa com a sequência CORRETA, de cima para baixo:',
+        alternativas: [
+          { id: 'A', texto: 'V, V, V, V.' },
+          { id: 'B', texto: 'V, V, F, V.' },
+          { id: 'C', texto: 'V, F, V, V.' },
+          { id: 'D', texto: 'F, V, V, F.' },
+          { id: 'E', texto: 'F, F, V, V.' }
+        ],
+        gabarito: 'B',
+        explicacao: '(__1) V: sujeito composto anteposto → plural. (__2) V: sujeito composto posposto → singular ou plural. (__3) F: "mais de um" → verbo no SINGULAR ("Mais de um servidor faltou"), salvo reciprocidade. (__4) V: pronomes de tratamento → 3ª pessoa.'
+      },
+
+      /* ---------- Item 4 (médio) — V/F simples ---------- */
+      {
+        id: 'D-POR-15-04',
+        tipo: 'verdadeiro_falso',
+        subtopico: '"É necessário" com e sem artigo',
+        pergunta: 'A expressão "é necessário" varia em gênero e número quando o sujeito tem determinante (artigo): "É necessária a paciência" (com artigo) e "É necessário paciência" (sem artigo).',
+        alternativas: [
+          { id: 'V', texto: 'Verdadeiro' },
+          { id: 'F', texto: 'Falso' }
+        ],
+        gabarito: 'V',
+        explicacao: 'VERDADEIRO. SEM artigo, a expressão é INVARIÁVEL: "É necessário paciência", "É proibido entrada". COM artigo, CONCORDA: "É necessária A paciência", "É proibida A entrada". A mesma regra vale para "é bom/boa", "é permitido/permitida".'
+      },
+
+      /* ---------- Item 5 (médio-difícil) — Situação ---------- */
+      {
+        id: 'D-POR-15-05',
+        tipo: 'situacao',
+        subtopico: 'Aplicação: corrigir concordância em texto',
+        pergunta: 'Um candidato redigiu: "Fazem dois anos que o servidor foi nomeado; desde então, haviam muitos desafios a enfrentar." Sobre a concordância, é CORRETO afirmar que:',
+        alternativas: [
+          { id: 'A', texto: 'A frase está integralmente correta: "fazem" e "haviam" concordam com seus respectivos sujeitos.' },
+          { id: 'B', texto: 'A frase contém dois erros: "fazem" e "haviam" deveriam ser, respectivamente, "faz" e "havia", pois ambos os verbos são impessoais e ficam na 3ª pessoa do singular.' },
+          { id: 'C', texto: 'A frase contém apenas um erro: "fazem" deveria ser "faz", mas "haviam" está correto porque "muitos desafios" é o sujeito.' },
+          { id: 'D', texto: 'A frase contém apenas um erro: "haviam" deveria ser "havia", mas "fazem" está correto porque "dois anos" é plural.' },
+          { id: 'E', texto: 'A frase está correta, mas apenas porque o autor usou o plural para indicar ênfase no tempo decorrido e na quantidade de desafios.' }
+        ],
+        gabarito: 'B',
+        explicacao: 'DOIS ERROS. "Fazer" indicando tempo é IMPESSOAL: "FAZ dois anos" (não "fazem"). "Haver" no sentido de existir é IMPESSOAL: "HAVIA muitos desafios" (não "haviam"). A) ambos são impessoais. C) "haviam" também é erro. D) "fazem" também é erro. E) a norma culta não admite ênfase que viole a impessoalidade.'
+      },
+
+      /* ---------- Item 6 (difícil) — MC clássica (casos especiais) ---------- */
+      {
+        id: 'D-POR-15-06',
+        tipo: 'multipla_escolha',
+        subtopico: 'Concordância com expressões partitivas e porcentagens',
+        pergunta: 'Sobre a concordância com expressões partitivas (a maioria de, grande parte de) e porcentagens, assinale a alternativa CORRETA:',
+        alternativas: [
+          { id: 'A', texto: 'Com expressões partitivas e com porcentagens, o verbo deve ficar sempre no singular, pois a quantidade é tratada como um todo, sem exceções na norma culta.' },
+          { id: 'B', texto: 'Com expressões partitivas e com porcentagens, o verbo pode ficar no singular ou no plural, havendo, no caso das porcentagens, a possibilidade de concordar com o número ou com o determinante que o acompanha.' },
+          { id: 'C', texto: 'Com expressões partitivas, o verbo deve ficar sempre no plural; com porcentagens, sempre no singular, sem exceções na norma culta.' },
+          { id: 'D', texto: 'Com expressões partitivas, o verbo deve ficar sempre no plural; com porcentagens, sempre no plural, pois o número expressa quantidade maior que um.' },
+          { id: 'E', texto: 'Com expressões partitivas e com porcentagens, o verbo deve concordar com o termo mais distante, independentemente do determinante e do número.' }
+        ],
+        gabarito: 'B',
+        explicacao: 'PARTITIVAS (a maioria de, grande parte de): verbo no SINGULAR ou PLURAL — "A maioria dos servidores compareceu/compareceram". PORCENTAGENS: concorda com o NÚMERO — "1% faltou" / "30% faltaram" — ou com o DETERMINANTE — "Os 30% dos servidores faltaram". A) nega a flexibilidade. C) e D) generalizam indevidamente. E) inventa critério.'
+      },
+
+      /* ---------- Item 7 (difícil-meta) — Autoavaliação ---------- */
+      {
+        id: 'D-POR-15-07',
+        tipo: 'autoavaliacao',
+        subtopico: 'Concordância — distinções fundamentais',
+        pergunta: 'Você consegue, sem consultar, aplicar as regras de concordância verbal (sujeito composto, partitivos, verbos impessoais, porcentagens, "mais de um", "um dos que", pronomes de tratamento) e nominal (adjetivo + substantivo, "é necessário", "bastante", "meio", "anexo", cores)?',
+        resposta: 'VERBAL: verbo concorda com o sujeito em número e pessoa. Composto anteposto: plural; posposto: singular ou plural. Partitivo: singular ou plural. Impessoais (haver, fazer): 3ª do singular. Porcentagem: concorda com o número ou com o determinante. "Mais de um": singular. "Um dos que": plural ou singular. Tratamento: 3ª pessoa. NOMINAL: adjetivo concorda com o substantivo. "É necessário" (sem artigo) invariável x "é necessária" (com artigo) variável. "Bastante": adjetivo (varia) x advérbio (invariável). "Meio": numeral (varia) x advérbio (invariável). "Anexo" (varia) x "em anexo" (não varia). Cores: adjetivo (invariável) x substantivo (invariável) x "cor de" (invariável).'
+      }
+    ]
   }
 
+   
 };
