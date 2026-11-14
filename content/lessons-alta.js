@@ -867,7 +867,7 @@ window.LESSONS_ALTA = {
       'Dois-pontos: "Só havia uma saída: recorrer."',
       'Travessão: "O diretor — homem experiente — decidiu."',
       'Parênteses: "O diretor (homem experiente) decidiu."',
-      'Aspas: "Ele disse: 'não vou'." / "O termo 'feedback' está em inglês."'
+      'Aspas: "Ele disse: não vou." / "O termo feedback está em inglês."'
     ],
     comparacoes: [
       { termoA: 'Oração adjetiva explicativa', termoB: 'Oração adjetiva restritiva', diferenca: 'EXPLICATIVA (com vírgula): comenta o antecedente, generaliza, não restringe — "Os candidatos, que estudaram muito, foram aprovados" (TODOS estudaram e todos foram aprovados). RESTRITIVA (sem vírgula): restringe o antecedente — "Os candidatos que estudaram muito foram aprovados" (APENAS os que estudaram foram aprovados). A vírgula muda o sentido.' },
