@@ -1489,6 +1489,460 @@ window.DIAGNOSTICS_ALTA = {
         resposta: 'REESCRITA: mesmo sentido + outras palavras + correção gramatical. TRANSPOSIÇÃO DE VOZ: ativa ↔ passiva, mantendo agente, tempo e sentido. SUBSTITUIÇÃO DE CONECTIVOS: manter a relação (causa → porque/como; conclusão → portanto; concessão → embora; oposição → mas). NOMINALIZAÇÃO: verbo → substantivo. Verificar sempre: (a) concordância; (b) regência; (c) crase; (d) pontuação; (e) manutenção do sentido. Erros que quebram a equivalência: trocar causa por consequência; trocar concessão por oposição; mudar o tempo verbal; mudar o agente; suprimir informação essencial; criar ambiguidade.'
       }
     ]
-  }
-   
+  },
+  /* ============================================================
+     RED-20 — Fundamentos da Redação Oficial
+  ============================================================ */
+  'RED-20': {
+    id: 'D-RED-20',
+    moduloId: 'RED-20',
+    itens: [
+      /* ---------- Item 1 (fácil) — MC clássica ---------- */
+      {
+        id: 'D-RED-20-01',
+        tipo: 'multipla_escolha',
+        subtopico: 'Princípios da Redação Oficial',
+        pergunta: 'Sobre os princípios da Redação Oficial, assinale a alternativa CORRETA:',
+        alternativas: [
+          { id: 'A', texto: 'A Redação Oficial prioriza a linguagem rebuscada e as construções indiretas, com o objetivo de conferir solenidade ao texto administrativo, ainda que isso dificulte a compreensão do cidadão.' },
+          { id: 'B', texto: 'A Redação Oficial exige impessoalidade, clareza, precisão, objetividade, concisão, coesão, coerência, formalidade e padronização, com uso do padrão culto da língua.' },
+          { id: 'C', texto: 'A Redação Oficial admite linguagem informal e abreviações, pois o foco é a comunicação rápida entre servidores, e não a correção gramatical do texto.' },
+          { id: 'D', texto: 'A Redação Oficial valoriza a opinião pessoal do redator, pois o texto administrativo deve refletir a perspectiva de quem o escreve, com marcas subjetivas claras.' },
+          { id: 'E', texto: 'A Redação Oficial depende apenas da correção gramatical, dispensando padronização de formatos e uniformidade de estruturas entre os órgãos públicos.' }
+        ],
+        gabarito: 'B',
+        explicacao: 'Redação Oficial: impessoalidade, clareza, precisão, objetividade, concisão, coesão, coerência, formalidade, padronização + padrão culto. A) rebuscamento NÃO é formalidade. C) informalidade é vedada. D) impessoalidade — sem opinião pessoal. E) padronização é exigência — não se dispensa.'
+      },
+
+      /* ---------- Item 2 (fácil) — V/F simples ---------- */
+      {
+        id: 'D-RED-20-02',
+        tipo: 'verdadeiro_falso',
+        subtopico: 'Formalidade x rebuscamento',
+        pergunta: 'Na Redação Oficial, a formalidade se confunde com o rebuscamento: usar palavras difíceis e construções empoladas é a marca da formalidade exigida nos documentos oficiais.',
+        alternativas: [
+          { id: 'V', texto: 'Verdadeiro' },
+          { id: 'F', texto: 'Falso' }
+        ],
+        gabarito: 'F',
+        explicacao: 'FALSO. FORMALIDADE ≠ REBUSCAMENTO. A formalidade exige o padrão culto com CLAREZA — o oposto de obscuridade. O rebuscamento ("Cumpre-nos mui respeitosamente rogar...") é rejeitado pelo Manual de Redação da Presidência da República. A formalidade está em seguir a norma culta com objetividade, não em dificultar a compreensão.'
+      },
+
+      /* ---------- Item 3 (médio) — V/F sequencial ---------- */
+      {
+        id: 'D-RED-20-03',
+        tipo: 'multipla_escolha',
+        subtopico: 'Princípios aplicados',
+        pergunta: 'Julgue as afirmações sobre os princípios da Redação Oficial:\n(__) A impessoalidade exige que o texto não expresse opinião ou marca pessoal do redator, pois a comunicação é do órgão, não do servidor.\n(__) A clareza exige que o texto seja compreensível por qualquer leitor, sem ambiguidade nem duplo sentido involuntário.\n(__) A concisão autoriza a supressão de informações essenciais do texto, com o objetivo de reduzir o número de palavras, ainda que isso prejudique a compreensão.\n(__) A padronização exige o uso uniforme de estruturas, formatos e fórmulas em todo o serviço público, garantindo identidade e previsibilidade.\nAssinale a alternativa com a sequência CORRETA, de cima para baixo:',
+        alternativas: [
+          { id: 'A', texto: 'V, V, V, V.' },
+          { id: 'B', texto: 'V, V, F, V.' },
+          { id: 'C', texto: 'V, F, V, V.' },
+          { id: 'D', texto: 'F, V, V, F.' },
+          { id: 'E', texto: 'F, F, V, V.' }
+        ],
+        gabarito: 'B',
+        explicacao: '(__1) V: impessoalidade — texto é do órgão. (__2) V: clareza — texto compreensível. (__3) F: concisão NÃO autoriza suprimir informação essencial — dizer o máximo com o mínimo, sem perder conteúdo. (__4) V: padronização — uniformidade de estruturas.'
+      },
+
+      /* ---------- Item 4 (médio) — V/F simples ---------- */
+      {
+        id: 'D-RED-20-04',
+        tipo: 'verdadeiro_falso',
+        subtopico: 'Impessoalidade',
+        pergunta: 'Na Redação Oficial, o uso de expressões como "eu solicito", "nós informamos" e "na minha opinião" é adequado, pois confere proximidade e humaniza a comunicação com o cidadão.',
+        alternativas: [
+          { id: 'V', texto: 'Verdadeiro' },
+          { id: 'F', texto: 'Falso' }
+        ],
+        gabarito: 'F',
+        explicacao: 'FALSO. A impessoalidade EXIGE a supressão de marcas pessoais: em vez de "eu solicito", usa-se "SOLICITA-SE"; em vez de "nós informamos", "INFORMA-SE"; "na minha opinião" não cabe em documento oficial. O texto é do ÓRGÃO, não do servidor — a proximidade se constrói pela clareza e cordialidade, não pela 1ª pessoa.'
+      },
+
+      /* ---------- Item 5 (médio-difícil) — Situação ---------- */
+      {
+        id: 'D-RED-20-05',
+        tipo: 'situacao',
+        subtopico: 'Aplicação: corrigir texto prolixo',
+        pergunta: 'Um candidato redigiu: "Vimos, por meio deste, encaminhar o processo para que seja devidamente analisado pelos setores competentes, com a maior brevidade possível, a fim de que se possa dar prosseguimento ao feito." Sobre o texto, é CORRETO afirmar que:',
+        alternativas: [
+          { id: 'A', texto: 'O texto está adequado: mantém formalidade e clareza, e a extensão é compatível com a solenidade do documento administrativo.' },
+          { id: 'B', texto: 'O texto deve ser reescrito por prolixidade e redundância, e a versão oficial mais adequada seria "Encaminha-se o processo para análise", em conformidade com a concisão.' },
+          { id: 'C', texto: 'O texto deve ser mantido, mas com a substituição de "Vimos" por "Nós vimos" — a explicitação do sujeito reforça a legitimidade do ato administrativo.' },
+          { id: 'D', texto: 'O texto deve ser reescrito apenas para corrigir "por meio deste" por "por meio deste documento", pois a explicitação do referente é exigência da norma culta.' },
+          { id: 'E', texto: 'O texto deve ser mantido, desde que se substitua "a fim de que" por "para que", pois a primeira é uma construção vedada pela norma culta.' }
+        ],
+        gabarito: 'B',
+        explicacao: 'O texto é prolixo e redundante ("vimos, por meio deste", "devidamente", "com a maior brevidade possível", "a fim de que se possa dar prosseguimento ao feito" — tudo isso para dizer "Encaminha-se o processo para análise"). A) prolixidade não é formalidade. C) "Nós vimos" agrava o problema (impessoalidade exige "Encaminha-se"). D) "por meio deste" está correto, mas o problema é o excesso. E) "a fim de que" é construção correta — o problema é a extensão.'
+      },
+
+      /* ---------- Item 6 (difícil) — MC I/II/III ---------- */
+      {
+        id: 'D-RED-20-06',
+        tipo: 'multipla_escolha',
+        subtopico: 'Fundamentos constitucionais',
+        pergunta: 'Sobre os fundamentos constitucionais da Redação Oficial, analise:\nI — A Redação Oficial se ancora nos princípios da impessoalidade, da publicidade e da eficiência (art. 37, CF), que condicionam a forma e o conteúdo da comunicação pública.\nII — A impessoalidade exige que a comunicação não expresse opinião pessoal do redator nem favoreça pessoas ou grupos, mantendo o foco no interesse público.\nIII — A publicidade autoriza a divulgação irrestrita de qualquer informação, ainda que classificada como sigilosa, em nome da transparência.\nEstá CORRETO apenas o que se afirma em:',
+        alternativas: [
+          { id: 'A', texto: 'I.' },
+          { id: 'B', texto: 'II.' },
+          { id: 'C', texto: 'III.' },
+          { id: 'D', texto: 'I e II.' },
+          { id: 'E', texto: 'II e III.' }
+        ],
+        gabarito: 'D',
+        explicacao: 'I correta: fundamento constitucional (art. 37 — impessoalidade, publicidade, eficiência). II correta: impessoalidade — sem opinião pessoal nem favorecimento. III errada: a publicidade NÃO autoriza divulgação de informação sigilosa — há limites legais (LAI, sigilos específicos).'
+      },
+
+      /* ---------- Item 7 (difícil-meta) — Autoavaliação ---------- */
+      {
+        id: 'D-RED-20-07',
+        tipo: 'autoavaliacao',
+        subtopico: 'Fundamentos — distinções fundamentais',
+        pergunta: 'Você consegue, sem consultar, distinguir: (a) linguagem formal x linguagem rebuscada; (b) impessoalidade x informalidade; (c) clareza x precisão; (d) objetividade x concisão; (e) os princípios da Redação Oficial e seus fundamentos constitucionais?',
+        resposta: 'FORMAL: norma culta, clara. REBUSCADA: artificial, obscura (rejeitada). IMPESSOAL: texto do órgão. INFORMAL: gírias, 1ª pessoa. CLAREZA: compreensível. PRECISÃO: termos exatos. OBJETIVIDADE: foco no conteúdo. CONCISÃO: forma enxuta. PRINCÍPIOS: impessoalidade, clareza, precisão, objetividade, concisão, coesão, coerência, formalidade, padronização. FUNDAMENTO: art. 37 CF (impessoalidade, publicidade, eficiência).'
+      }
+    ]
+  },
+
+  /* ============================================================
+     RED-21 — Manual de Redação da Presidência da República
+  ============================================================ */
+  'RED-21': {
+    id: 'D-RED-21',
+    moduloId: 'RED-21',
+    itens: [
+      /* ---------- Item 1 (fácil) — MC clássica ---------- */
+      {
+        id: 'D-RED-21-01',
+        tipo: 'multipla_escolha',
+        subtopico: 'Pronomes de tratamento',
+        pergunta: 'Sobre o emprego dos pronomes de tratamento no padrão ofício, assinale a alternativa CORRETA:',
+        alternativas: [
+          { id: 'A', texto: 'Vossa Excelência (V.Ex.ª) é usada para as altas autoridades (Presidente, Ministros, Governadores, Prefeitos, Deputados, Senadores); Vossa Senhoria (V.S.ª) é usada para as demais autoridades, servidores e particulares.' },
+          { id: 'B', texto: 'Vossa Senhoria (V.S.ª) é usada para as altas autoridades; Vossa Excelência (V.Ex.ª) é usada para os demais servidores e particulares, em ordem crescente de hierarquia.' },
+          { id: 'C', texto: 'Vossa Excelência e Vossa Senhoria são sinônimos: ambas podem ser usadas para qualquer autoridade, sem critério hierárquico definido.' },
+          { id: 'D', texto: 'Vossa Excelência é usada apenas para o Presidente da República; todas as demais autoridades recebem o tratamento de Vossa Senhoria.' },
+          { id: 'E', texto: 'Vossa Excelência e Vossa Senhoria dependem do sexo do destinatário: V.Ex.ª para homens, V.S.ª para mulheres, em qualquer cargo.' }
+        ],
+        gabarito: 'A',
+        explicacao: 'V.Ex.ª: altas autoridades (Presidente, Ministros, Governadores, Prefeitos, Deputados, Senadores, Ministros de Tribunais, membros do MP). V.S.ª: demais autoridades, servidores e particulares. B) inverte; C) iguala; D) restringe indevidamente; E) confunde com "Sua Excelência" (que concorda com o gênero do referido).'
+      },
+
+      /* ---------- Item 2 (fácil) — V/F simples ---------- */
+      {
+        id: 'D-RED-21-02',
+        tipo: 'verdadeiro_falso',
+        subtopico: 'Concordância com pronomes de tratamento',
+        pergunta: 'Os pronomes de tratamento exigem o verbo na 3ª pessoa: "Vossa Excelência despachou o processo" (e não "despachastes"), pois, embora se refiram ao interlocutor, são formas de tratamento indireto.',
+        alternativas: [
+          { id: 'V', texto: 'Verdadeiro' },
+          { id: 'F', texto: 'Falso' }
+        ],
+        gabarito: 'V',
+        explicacao: 'VERDADEIRO. Os pronomes de tratamento exigem verbo na 3ª pessoa — "Vossa Excelência DESPACHOU", "Vossa Senhoria SOLICITOU". Não se usa 2ª pessoa ("despachastes", "solicitastes"), embora o pronome se refira ao interlocutor. A regra é fixa no padrão ofício.'
+      },
+
+      /* ---------- Item 3 (médio) — V/F sequencial ---------- */
+      {
+        id: 'D-RED-21-03',
+        tipo: 'multipla_escolha',
+        subtopico: 'Fechos e estrutura do padrão ofício',
+        pergunta: 'Julgue as afirmações sobre o padrão ofício da 3ª edição do Manual de Redação da Presidência da República:\n(__) O fecho "Respeitosamente" é usado para autoridades superiores; o fecho "Atenciosamente" é usado para autoridades de mesma hierarquia ou inferiores.\n(__) A 3ª edição unificou ofício, memorando e aviso em um único "padrão ofício", extinguindo o memorando como documento autônomo.\n(__) A estrutura do padrão ofício inclui cabeçalho, identificação do expediente (tipo e número/sigla/ano), endereçamento, assunto, texto, fecho e assinatura com nome e cargo.\n(__) O fecho "Att." é admitido como forma abreviada de "Atenciosamente", desde que o documento seja de baixa formalidade.\nAssinale a alternativa com a sequência CORRETA, de cima para baixo:',
+        alternativas: [
+          { id: 'A', texto: 'V, V, V, V.' },
+          { id: 'B', texto: 'V, V, V, F.' },
+          { id: 'C', texto: 'V, F, V, V.' },
+          { id: 'D', texto: 'F, V, V, F.' },
+          { id: 'E', texto: 'F, F, V, V.' }
+        ],
+        gabarito: 'B',
+        explicacao: '(__1) V: Respeitosamente (superior) x Atenciosamente (mesma/lower). (__2) V: unificação no padrão ofício; memorando abolido. (__3) V: estrutura completa. (__4) F: "Att." foi ABOLIDO pela 3ª edição — usar "Atenciosamente" ou "Respeitosamente" por extenso.'
+      },
+
+      /* ---------- Item 4 (médio) — V/F simples ---------- */
+      {
+        id: 'D-RED-21-04',
+        tipo: 'verdadeiro_falso',
+        subtopico: 'Abolições da 3ª edição',
+        pergunta: 'A 3ª edição do Manual de Redação da Presidência da República aboliu o uso de "Ilustríssimo", "Digníssimo", "D." (Doutor) e "DD.", por serem tratamentos que geram distinção indevida entre cidadãos.',
+        alternativas: [
+          { id: 'V', texto: 'Verdadeiro' },
+          { id: 'F', texto: 'Falso' }
+        ],
+        gabarito: 'V',
+        explicacao: 'VERDADEIRO. A 3ª edição ABOLIU: "Ilustríssimo", "Digníssimo", "D." (Doutor), "DD." — tratamentos que geram distinção indevida. Também aboliu "Att." e o memorando/aviso como documentos autônomos. Permanecem: "Senhor", "Senhora", V.Ex.ª, V.S.ª e demais pronomes de tratamento padronizados.'
+      },
+
+      /* ---------- Item 5 (médio-difícil) — Situação ---------- */
+      {
+        id: 'D-RED-21-05',
+        tipo: 'situacao',
+        subtopico: 'Aplicação: escolher tratamento e fecho',
+        pergunta: 'Um Diretor de Administração precisa enviar um ofício a um Ministro de Estado. Sobre o pronome de tratamento, o vocativo, o endereçamento e o fecho, é CORRETO afirmar que:',
+        alternativas: [
+          { id: 'A', texto: 'Deve usar Vossa Senhoria (V.S.ª), vocativo "Senhor Ministro", endereçamento "Ao Senhor Ministro" e fecho "Atenciosamente".' },
+          { id: 'B', texto: 'Deve usar Vossa Excelência (V.Ex.ª), vocativo "Excelentíssimo Senhor Ministro", endereçamento "A Sua Excelência o Senhor Ministro" e fecho "Respeitosamente".' },
+          { id: 'C', texto: 'Deve usar Vossa Excelência (V.Ex.ª), vocativo "Prezado Senhor Ministro", endereçamento "Ao Ministro" e fecho "Atenciosamente".' },
+          { id: 'D', texto: 'Deve usar Vossa Senhoria (V.S.ª), vocativo "Ilustríssimo Senhor Ministro", endereçamento "Ao Ilustríssimo Senhor Ministro" e fecho "Respeitosamente".' },
+          { id: 'E', texto: 'Deve usar Vossa Excelência (V.Ex.ª), vocativo "Senhor Ministro", endereçamento "Ao Senhor Ministro" e fecho "Cordialmente".' }
+        ],
+        gabarito: 'B',
+        explicacao: 'Ministro é alta autoridade → V.Ex.ª. Vocativo: "Excelentíssimo Senhor Ministro". Endereçamento: "A Sua Excelência o Senhor Ministro". Fecho: "Respeitosamente" (o remetente — Diretor — é inferior hierárquico). A) V.S.ª está errada (é V.Ex.ª). C) fecho errado (superior exige Respeitosamente). D) "Ilustríssimo" foi abolido; V.S.ª errada. E) fecho "Cordialmente" não é padrão; e o vocativo "Senhor Ministro" (sem "Excelentíssimo") não é o padrão.'
+      },
+
+      /* ---------- Item 6 (difícil) — MC associação ---------- */
+      {
+        id: 'D-RED-21-06',
+        tipo: 'multipla_escolha',
+        subtopico: 'Associação: autoridades e pronomes de tratamento',
+        pergunta: 'Associe as autoridades ao pronome de tratamento adequado:\n1 — Presidente da República.\n2 — Reitor de universidade.\n3 — Cardeal.\n4 — Sacerdote em geral.\nPRONOMES\n( ) Vossa Magnificência.\n( ) Vossa Eminência.\n( ) Vossa Reverendíssima.\n( ) Vossa Excelência.\nA sequência CORRETA, de cima para baixo, é:',
+        alternativas: [
+          { id: 'A', texto: '1, 2, 3, 4.' },
+          { id: 'B', texto: '2, 3, 4, 1.' },
+          { id: 'C', texto: '3, 4, 1, 2.' },
+          { id: 'D', texto: '4, 1, 2, 3.' },
+          { id: 'E', texto: '2, 4, 3, 1.' }
+        ],
+        gabarito: 'B',
+        explicacao: 'REITOR → 2 (Vossa Magnificência). CARDEAL → 3 (Vossa Eminência). SACERDOTE → 4 (Vossa Reverendíssima). PRESIDENTE → 1 (Vossa Excelência). A associação correta é 2, 3, 4, 1.'
+      },
+
+      /* ---------- Item 7 (difícil-meta) — Autoavaliação ---------- */
+      {
+        id: 'D-RED-21-07',
+        tipo: 'autoavaliacao',
+        subtopico: 'Manual de Redação — distinções fundamentais',
+        pergunta: 'Você consegue, sem consultar, aplicar o padrão ofício da 3ª edição do MRPR: pronomes de tratamento (V.Ex.ª, V.S.ª, V.Mag.ª, V.Em.ª, V.S., V.Rev.ma), concordância (3ª pessoa), vocativo, endereçamento, fechos (Respeitosamente/Atenciosamente), estrutura do padrão ofício e abolições ("D.", "Ilustríssimo", "DD.", "Att.", memorando, aviso)?',
+        resposta: 'PRONOMES: V.Ex.ª (altas autoridades), V.S.ª (demais), V.Mag.ª (reitores), V.Em.ª (cardeais), V.S. (Papa), V.Rev.ma (sacerdotes). CONCORDÂNCIA: verbo sempre 3ª pessoa. VOCATIVO: chama o destinatário, com vírgula. ENDEREÇAMENTO: nome, cargo, endereço. FECHOS: Respeitosamente (superior) x Atenciosamente (mesma/lower). ESTRUTURA: cabeçalho, identificação, endereçamento, assunto, texto, fecho, assinatura. ABOLIÇÕES: "D.", "Ilustríssimo", "Digníssimo", "DD.", "Att.", memorando, aviso (unificados no padrão ofício).'
+      }
+    ]
+  },
+
+  /* ============================================================
+     RED-22 — Documentos e comunicações administrativas
+  ============================================================ */
+  'RED-22': {
+    id: 'D-RED-22',
+    moduloId: 'RED-22',
+    itens: [
+      /* ---------- Item 1 (fácil) — MC clássica ---------- */
+      {
+        id: 'D-RED-22-01',
+        tipo: 'multipla_escolha',
+        subtopico: 'Finalidade dos documentos',
+        pergunta: 'Sobre a finalidade dos documentos administrativos, assinale a alternativa CORRETA:',
+        alternativas: [
+          { id: 'A', texto: 'Ofício é o pedido do particular ao órgão; requerimento é a comunicação entre órgãos ou destes com particulares; declaração é a transcrição fiel de registro existente.' },
+          { id: 'B', texto: 'Ofício é a comunicação entre órgãos ou destes com particulares; requerimento é o pedido do particular ao órgão; declaração é a afirmação de fato ou situação; certidão é a transcrição fiel de registro existente.' },
+          { id: 'C', texto: 'Ofício, requerimento, declaração e certidão são sinônimos: todos servem para o particular solicitar algo ao órgão público.' },
+          { id: 'D', texto: 'Ofício é a decisão da autoridade; requerimento é a opinião técnica; declaração é a transcrição de registro; certidão é o pedido do particular ao órgão.' },
+          { id: 'E', texto: 'Ofício é o registro de reunião; requerimento é a comunicação entre órgãos; declaração é a descrição de fatos; certidão é a decisão da autoridade.' }
+        ],
+        gabarito: 'B',
+        explicacao: 'OFÍCIO: comunicação entre órgãos ou destes com particulares. REQUERIMENTO: pedido do particular ao órgão. DECLARAÇÃO: afirmação de fato/situação. CERTIDÃO: transcrição fiel de registro. A) inverte ofício e requerimento; C) iguala indevidamente; D) inverte vários; E) confunde com ata, relatório, despacho.'
+      },
+
+      /* ---------- Item 2 (fácil) — V/F simples ---------- */
+      {
+        id: 'D-RED-22-02',
+        tipo: 'verdadeiro_falso',
+        subtopico: 'Memorando — abolição',
+        pergunta: 'A 3ª edição do Manual de Redação da Presidência da República aboliu o memorando como documento autônomo, unificando ofício, memorando e aviso em um único "padrão ofício".',
+        alternativas: [
+          { id: 'V', texto: 'Verdadeiro' },
+          { id: 'F', texto: 'Falso' }
+        ],
+        gabarito: 'V',
+        explicacao: 'VERDADEIRO. A 3ª edição (2018) unificou ofício, memorando e aviso no "padrão ofício". O memorando — historicamente usado para comunicação interna, com estrutura simplificada — deixou de ser documento autônomo. Hoje, todas as comunicações formais usam o padrão ofício.'
+      },
+
+      /* ---------- Item 3 (médio) — V/F sequencial ---------- */
+      {
+        id: 'D-RED-22-03',
+        tipo: 'multipla_escolha',
+        subtopico: 'Documentos: finalidade e uso',
+        pergunta: 'Julgue as afirmações sobre documentos administrativos:\n(__) Ata é o registro formal e resumido do que ocorreu em reunião, assembleia ou sessão, com data, local, participantes e deliberações.\n(__) Relatório é a descrição ordenada de fatos, atividades ou resultados, com introdução, desenvolvimento e conclusão.\n(__) Despacho é a opinião técnica sobre matéria, fundamentada, que não vincula a autoridade competente.\n(__) Parecer é a decisão da autoridade sobre processo ou requerimento, com efeitos vinculantes para as partes.\nAssinale a alternativa com a sequência CORRETA, de cima para baixo:',
+        alternativas: [
+          { id: 'A', texto: 'V, V, V, V.' },
+          { id: 'B', texto: 'V, V, F, F.' },
+          { id: 'C', texto: 'V, F, V, F.' },
+          { id: 'D', texto: 'F, V, V, F.' },
+          { id: 'E', texto: 'F, F, V, V.' }
+        ],
+        gabarito: 'B',
+        explicacao: '(__1) V: ata — registro de reunião. (__2) V: relatório — descrição de fatos/atividades. (__3) F: DESPACHO = decisão/encaminhamento da autoridade. A descrição dada é de PARECER. (__4) F: PARECER = opinião técnica; a descrição dada é de DESPACHO. A banca troca as definições.'
+      },
+
+      /* ---------- Item 4 (médio) — V/F simples ---------- */
+      {
+        id: 'D-RED-22-04',
+        tipo: 'verdadeiro_falso',
+        subtopico: 'Declaração x certidão',
+        pergunta: 'Declaração e certidão têm a mesma natureza: ambas transcrevem fielmente o conteúdo de registros existentes, com fé pública.',
+        alternativas: [
+          { id: 'V', texto: 'Verdadeiro' },
+          { id: 'F', texto: 'Falso' }
+        ],
+        gabarito: 'F',
+        explicacao: 'FALSO. DECLARAÇÃO: AFIRMA um fato ou situação, com base no conhecimento de quem assina ("Declaro que o servidor está lotado nesta unidade desde 2020"). CERTIDÃO: TRANSCREVE fielmente o que consta em registro, com fé pública ("Certifico que, revendo os livros, consta o assentamento nº 123"). A certidão reproduz registro; a declaração afirma fato. Não são sinônimos.'
+      },
+
+      /* ---------- Item 5 (médio-difícil) — Situação ---------- */
+      {
+        id: 'D-RED-22-05',
+        tipo: 'situacao',
+        subtopico: 'Aplicação: escolher o documento',
+        pergunta: 'Um cidadão precisa pedir a revisão de um processo administrativo. Paralelamente, o setor de compras precisa comunicar ao setor de finanças sobre o andamento do mesmo processo. Os documentos ADEQUADOS são, respectivamente:',
+        alternativas: [
+          { id: 'A', texto: 'Ofício e requerimento — o ofício é o pedido do cidadão; o requerimento é a comunicação entre setores.' },
+          { id: 'B', texto: 'Requerimento e ofício — o requerimento formaliza o pedido do particular; o ofício comunica entre órgãos ou destes com particulares.' },
+          { id: 'C', texto: 'Ata e relatório — a ata registra o pedido do cidadão; o relatório comunica o andamento entre setores.' },
+          { id: 'D', texto: 'Declaração e certidão — a declaração formaliza o pedido; a certidão comprova o andamento do processo.' },
+          { id: 'E', texto: 'Parecer e despacho — o parecer formaliza o pedido; o despacho comunica entre setores.' }
+        ],
+        gabarito: 'B',
+        explicacao: 'REQUERIMENTO: pedido do PARTICULAR ao órgão (qualificação, exposição, fundamentação, fecho). OFÍCIO: comunicação entre ÓRGÃOS ou destes com particulares. A) inverte; C) ata/relatório não servem; D) declaração/certidão não servem; E) parecer/despacho não servem. A escolha depende da FINALIDADE e de QUEM INICIA.'
+      },
+
+      /* ---------- Item 6 (difícil) — MC associação ---------- */
+      {
+        id: 'D-RED-22-06',
+        tipo: 'multipla_escolha',
+        subtopico: 'Associação: documentos x finalidades',
+        pergunta: 'Associe os documentos às suas finalidades:\n1 — Ofício.\n2 — Requerimento.\n3 — Ata.\n4 — Parecer.\nFINALIDADES\n( ) Opinião técnica fundamentada sobre matéria.\n( ) Registro de reunião, com data, participantes e deliberações.\n( ) Comunicação entre órgãos ou destes com particulares.\n( ) Pedido do particular ao órgão.\nA sequência CORRETA, de cima para baixo, é:',
+        alternativas: [
+          { id: 'A', texto: '1, 2, 3, 4.' },
+          { id: 'B', texto: '4, 3, 1, 2.' },
+          { id: 'C', texto: '2, 1, 4, 3.' },
+          { id: 'D', texto: '3, 4, 2, 1.' },
+          { id: 'E', texto: '4, 1, 3, 2.' }
+        ],
+        gabarito: 'B',
+        explicacao: 'PARECER → 4 (opinião técnica). ATA → 3 (registro de reunião). OFÍCIO → 1 (comunicação entre órgãos/particulares). REQUERIMENTO → 2 (pedido do particular). Sequência: 4, 3, 1, 2.'
+      },
+
+      /* ---------- Item 7 (difícil-meta) — Autoavaliação ---------- */
+      {
+        id: 'D-RED-22-07',
+        tipo: 'autoavaliacao',
+        subtopico: 'Documentos — distinções fundamentais',
+        pergunta: 'Você consegue, sem consultar, distinguir: (a) ofício x requerimento; (b) declaração x certidão; (c) despacho x parecer; (d) ata x relatório; (e) circular x comunicado; (f) a abolição do memorando pela 3ª edição do MRPR?',
+        resposta: 'OFÍCIO: comunicação entre órgãos/particulares. REQUERIMENTO: pedido do particular. DECLARAÇÃO: afirma fato. CERTIDÃO: transcreve registro (fé pública). DESPACHO: decisão/encaminhamento. PARECER: opinião técnica (não vincula). ATA: registro de reunião. RELATÓRIO: descrição de fatos/atividades. CIRCULAR: mesmo assunto a vários destinatários. COMUNICADO: aviso breve. MEMORANDO: ABOLIDO pela 3ª edição (unificado no padrão ofício).'
+      }
+    ]
+  },
+
+  /* ============================================================
+     RED-23 — Elaboração e interpretação de documentos oficiais
+  ============================================================ */
+  'RED-23': {
+    id: 'D-RED-23',
+    moduloId: 'RED-23',
+    itens: [
+      /* ---------- Item 1 (fácil) — MC clássica ---------- */
+      {
+        id: 'D-RED-23-01',
+        tipo: 'multipla_escolha',
+        subtopico: 'Escolha do documento',
+        pergunta: 'Sobre a escolha do documento adequado a cada situação, assinale a alternativa CORRETA:',
+        alternativas: [
+          { id: 'A', texto: 'Para comunicação entre órgãos, usa-se requerimento; para pedido do particular, usa-se ofício; para registro de reunião, usa-se relatório.' },
+          { id: 'B', texto: 'Para comunicação entre órgãos, usa-se ofício; para pedido do particular, usa-se requerimento; para registro de reunião, usa-se ata.' },
+          { id: 'C', texto: 'Para comunicação entre órgãos, usa-se ata; para pedido do particular, usa-se declaração; para registro de reunião, usa-se ofício.' },
+          { id: 'D', texto: 'Para comunicação entre órgãos, usa-se parecer; para pedido do particular, usa-se despacho; para registro de reunião, usa-se certidão.' },
+          { id: 'E', texto: 'Para comunicação entre órgãos, usa-se memorando; para pedido do particular, usa-se ofício; para registro de reunião, usa-se ata.' }
+        ],
+        gabarito: 'B',
+        explicacao: 'OFÍCIO: comunicação entre órgãos. REQUERIMENTO: pedido do particular. ATA: registro de reunião. A) inverte; C) e D) confundem; E) memorando foi abolido como documento autônomo pela 3ª edição do MRPR.'
+      },
+
+      /* ---------- Item 2 (fácil) — V/F simples ---------- */
+      {
+        id: 'D-RED-23-02',
+        tipo: 'verdadeiro_falso',
+        subtopico: 'Estrutura do padrão ofício',
+        pergunta: 'A estrutura do padrão ofício, na 3ª edição do MRPR, inclui cabeçalho, identificação do expediente (tipo e número/sigla/ano), endereçamento, assunto, texto, fecho e assinatura com nome e cargo.',
+        alternativas: [
+          { id: 'V', texto: 'Verdadeiro' },
+          { id: 'F', texto: 'Falso' }
+        ],
+        gabarito: 'V',
+        explicacao: 'VERDADEIRO. A estrutura do padrão ofício (3ª edição do MRPR) inclui: CABEÇALHO (brasão, órgão, endereço), IDENTIFICAÇÃO DO EXPEDIENTE (tipo, número, sigla, ano), ENDEREÇAMENTO (nome, cargo, endereço), ASSUNTO (resumo em uma linha), TEXTO (introdução, desenvolvimento, conclusão), FECHO (Respeitosamente/Atenciosamente) e ASSINATURA (nome e cargo).'
+      },
+
+      /* ---------- Item 3 (médio) — V/F sequencial ---------- */
+      {
+        id: 'D-RED-23-03',
+        tipo: 'multipla_escolha',
+        subtopico: 'Elaboração: cuidados essenciais',
+        pergunta: 'Julgue as afirmações sobre a elaboração de documentos oficiais:\n(__) Deve-se usar linguagem formal, impessoal, clara, precisa e concisa, seguindo o padrão culto da língua.\n(__) Deve-se preencher o campo "Assunto" com um resumo em uma linha, que permita ao destinatário identificar rapidamente o teor do documento.\n(__) Pode-se iniciar a frase com pronome oblíquo átono ("Me envie o documento"), pois a colocação pronominal é livre na redação oficial.\n(__) Deve-se incluir fecho e assinatura com nome e cargo — elementos essenciais do padrão ofício.\nAssinale a alternativa com a sequência CORRETA, de cima para baixo:',
+        alternativas: [
+          { id: 'A', texto: 'V, V, V, V.' },
+          { id: 'B', texto: 'V, V, F, V.' },
+          { id: 'C', texto: 'V, F, V, V.' },
+          { id: 'D', texto: 'F, V, V, F.' },
+          { id: 'E', texto: 'F, F, V, V.' }
+        ],
+        gabarito: 'B',
+        explicacao: '(__1) V: linguagem formal, impessoal, clara, precisa, concisa. (__2) V: assunto = resumo em uma linha. (__3) F: NÃO se inicia frase com pronome oblíquo átono ("Me envie" é erro — correto: "ENVIE-ME" ou "Solicita-se o envio"). (__4) V: fecho e assinatura são essenciais.'
+      },
+
+      /* ---------- Item 4 (médio) — V/F simples ---------- */
+      {
+        id: 'D-RED-23-04',
+        tipo: 'verdadeiro_falso',
+        subtopico: 'Impessoalidade em documento oficial',
+        pergunta: 'Em um ofício, é adequado escrever "Solicito a revisão do processo", com o verbo na 1ª pessoa, pois a proximidade com o destinatário confere maior cordialidade ao atendimento.',
+        alternativas: [
+          { id: 'V', texto: 'Verdadeiro' },
+          { id: 'F', texto: 'Falso' }
+        ],
+        gabarito: 'F',
+        explicacao: 'FALSO. A impessoalidade exige o verbo na 3ª pessoa com partícula "se": "SOLICITA-SE a revisão do processo". A 1ª pessoa ("solicito", "informo") expressa marca pessoal do redator — o texto é do ÓRGÃO, não do servidor. A cordialidade vem do padrão culto e da clareza, não do uso da 1ª pessoa.'
+      },
+
+      /* ---------- Item 5 (médio-difícil) — Situação ---------- */
+      {
+        id: 'D-RED-23-05',
+        tipo: 'situacao',
+        subtopico: 'Aplicação: identificar erros em documento',
+        pergunta: 'Um candidato redigiu o trecho inicial de um ofício: "Oi, chefe, tudo bem? Solicito a revisão do processo, pois o mesmo está parado há semanas. Att." Sobre o trecho, é CORRETO afirmar que contém:',
+        alternativas: [
+          { id: 'A', texto: 'Apenas um erro: o fecho "Att." deveria ser "Atenciosamente" por extenso, mas o restante está adequado.' },
+          { id: 'B', texto: 'Múltiplos erros: informalidade ("Oi, chefe, tudo bem?"), uso inadequado de "o mesmo" como pronome de retomada, e fecho "Att." (abolido) — todos incompatíveis com o padrão ofício.' },
+          { id: 'C', texto: 'Apenas dois erros: a informalidade e o uso de "o mesmo" como pronome de retomada — o fecho "Att." é admitido como forma abreviada.' },
+          { id: 'D', texto: 'Apenas dois erros: o fecho "Att." (abolido) e a informalidade — o uso de "o mesmo" como pronome de retomada é correto na redação oficial.' },
+          { id: 'E', texto: 'Nenhum erro: o texto é claro e objetivo, e a informalidade confere proximidade com o destinatário, o que é valorizado na redação oficial.' }
+        ],
+        gabarito: 'B',
+        explicacao: 'MÚLTIPLOS ERROS: (1) informalidade — "Oi, chefe, tudo bem?" é inadequado; (2) "o mesmo" como pronome de retomada é vicioso e desaconselhado — o correto é "pois o processo está parado"; (3) "Att." foi abolido pela 3ª edição do MRPR — usar "Atenciosamente" ou "Respeitosamente". A) omite dois erros. C) e D) omitem um erro cada. E) nega os erros.'
+      },
+
+      /* ---------- Item 6 (difícil) — MC I/II/III ---------- */
+      {
+        id: 'D-RED-23-06',
+        tipo: 'multipla_escolha',
+        subtopico: 'Análise de comunicação administrativa',
+        pergunta: 'Sobre a elaboração e a interpretação de documentos oficiais, analise:\nI — Na elaboração, é preciso verificar sentido, correção gramatical, adequação ao padrão ofício e clareza para o destinatário antes de enviar o documento.\nII — Na interpretação, é preciso identificar remetente, destinatário, assunto, finalidade, prazo e providências solicitadas no documento.\nIII — A reescrita de documento inadequado deve corrigir estrutura, vocabulário, tratamento e gramática, mantendo o conteúdo essencial do texto original.\nEstá CORRETO apenas o que se afirma em:',
+        alternativas: [
+          { id: 'A', texto: 'I.' },
+          { id: 'B', texto: 'II.' },
+          { id: 'C', texto: 'III.' },
+          { id: 'D', texto: 'I e II.' },
+          { id: 'E', texto: 'I, II e III.' }
+        ],
+        gabarito: 'E',
+        explicacao: 'Todas corretas. I: revisão (sentido, gramática, padrão, clareza). II: interpretação (remetente, destinatário, assunto, finalidade, prazo, providências). III: reescrita de documento inadequado (corrige estrutura, vocabulário, tratamento, gramática — mantendo conteúdo essencial).'
+      },
+
+      /* ---------- Item 7 (difícil-meta) — Autoavaliação ---------- */
+      {
+        id: 'D-RED-23-07',
+        tipo: 'autoavaliacao',
+        subtopico: 'Elaboração e interpretação — distinções fundamentais',
+        pergunta: 'Você consegue, sem consultar, escolher o documento adequado a cada situação, aplicar a estrutura do padrão ofício, revisar textos (gramática, semântica, estrutura), interpretar comunicações administrativas e reescrever documentos inadequados — mantendo o conteúdo essencial?',
+        resposta: 'ESCOLHA: ofício (comunicação entre órgãos), requerimento (pedido do particular), ata (registro de reunião), relatório (descrição de fatos), declaração (afirmação), certidão (transcrição de registro), despacho (decisão), parecer (opinião), circular (vários destinatários), comunicado (aviso breve). ESTRUTURA: cabeçalho, identificação, endereçamento, assunto, texto, fecho, assinatura. REVISÃO: sentido, gramática (concordância, regência, crase, pontuação), adequação ao padrão, clareza. INTERPRETAÇÃO: remetente, destinatário, assunto, finalidade, prazo, providências. REESCRITA: corrigir estrutura, vocabulário, tratamento e gramática, mantendo o conteúdo. Este app NÃO corrige redação — apenas analisa e reescreve.'
+      }
+    ]
+  }   
 };
