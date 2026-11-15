@@ -1298,7 +1298,7 @@ window.EXERCISE_EXTRA_QUESTIONS = [
       { id: 'B', texto: 'Já falei isso um milhão de vezes.' },
       { id: 'C', texto: 'Ele é forte como um touro.' },
       { id: 'D', texto: 'O vento sussurrava segredos.' },
-      { id: 'E', texto: 'Que belo serviço você fez!' (para algo malfeito) }
+      { id: 'E', texto: 'Que belo serviço você fez!' }
     ],
     gabarito: 'B',
     explicacao: {
