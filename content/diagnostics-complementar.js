@@ -1,177 +1,122 @@
 /* ============================================================
-   DIAGNÓSTICOS — Módulos de prioridade CONDICIONAL
-   Preenchidos: PT-13, PT-14, PT-15
+   DIAGNÓSTICOS — Módulos de prioridade COMPLEMENTAR
+   Português e Redação Oficial para Concursos
+   Entregue: POR-08
+   Fase 3 — fechamento dos diagnósticos (24/24)
    ============================================================ */
 
 window.DIAGNOSTICS_COMPLEMENTAR = {
 
   /* ============================================================
-     PT-13 — Formação e Estrutura das Palavras
+     POR-08 — Estrutura e formação de palavras
   ============================================================ */
-  'PT-13': {
-    id: 'D-PT-13',
-    moduloId: 'PT-13',
+  'POR-08': {
+    id: 'D-POR-08',
+    moduloId: 'POR-08',
     itens: [
+      /* ---------- Item 1 (fácil) — MC clássica ---------- */
       {
-        id: 'D-PT-13-01',
+        id: 'D-POR-08-01',
         tipo: 'multipla_escolha',
-        subtopico: 'Derivação',
-        pergunta: 'A palavra "entardecer" (en + tarde + ecer) é formada por qual processo?',
+        subtopico: 'Elementos mórficos',
+        pergunta: 'Sobre os elementos mórficos das palavras, assinale a alternativa CORRETA:',
         alternativas: [
-          { id: 'A', texto: 'Derivação prefixal, pois só tem prefixo.' },
-          { id: 'B', texto: 'Derivação sufixal, pois só tem sufixo.' },
-          { id: 'C', texto: 'Derivação parassintética, pois o prefixo e o sufixo são dependentes — não existem "entarde" nem "tardecer".' },
-          { id: 'D', texto: 'Composição por aglutinação, pois une dois radicais.' }
+          { id: 'A', texto: 'Radical é a parte que carrega o sentido básico da palavra; prefixo é o elemento que vem antes do radical; sufixo é o elemento que vem depois do radical.' },
+          { id: 'B', texto: 'Radical é o elemento que vem antes do prefixo; prefixo é a terminação que indica flexão; sufixo é a parte que carrega o sentido básico.' },
+          { id: 'C', texto: 'Radical, prefixo e sufixo são sinônimos: todos se referem à mesma parte da palavra, sem distinção de posição.' },
+          { id: 'D', texto: 'Radical é a terminação flexional; prefixo é a vogal temática; sufixo é a consoante de ligação.' },
+          { id: 'E', texto: 'Radical é o elemento que só existe em verbos; prefixo só existe em substantivos; sufixo só existe em adjetivos.' }
         ],
-        gabarito: 'C',
-        explicacao: 'A derivação PARASSINTÉTICA ocorre quando prefixo e sufixo são adicionados SIMULTANEAMENTE e NÃO existem isoladamente. Teste: "entarde" não existe, "tardecer" não existe. Portanto, é parassintética. Compare com "deslealdade" — existem "desleal" e "lealdade" — logo, é prefixal e sufixal.'
+        gabarito: 'A',
+        explicacao: 'RADICAL: sentido básico ("livr-" em livro, livraria, livreiro). PREFIXO: antes do radical ("des-" em desfazer). SUFIXO: depois do radical ("-eiro" em livreiro). B) confunde as posições; C) iguala; D) confunde com desinências, vogal temática e consoante de ligação; E) inventa restrições por classe.'
       },
-      {
-        id: 'D-PT-13-02',
-        tipo: 'verdadeiro_falso',
-        subtopico: 'Derivação',
-        pergunta: 'A palavra "infelizmente" é formada por derivação parassintética, pois apresenta prefixo ("in-") e sufixo ("-mente") ao mesmo tempo.',
-        alternativas: [
-          { id: 'V', texto: 'Verdadeiro' },
-          { id: 'F', texto: 'Falso' }
-        ],
-        gabarito: 'F',
-        explicacao: 'Falso. "Infelizmente" é derivação PREFIXAL E SUFIXAL, pois existem as formas intermediárias "infeliz" e "felizmente". Para ser PARASSINTÉTICA, a palavra não poderia existir sem os dois afixos simultaneamente — o que não é o caso aqui. É a pegadinha clássica para distinguir os dois tipos de derivação.'
-      },
-      {
-        id: 'D-PT-13-03',
-        tipo: 'situacao',
-        subtopico: 'Composição',
-        pergunta: 'A palavra "planalto" (plano + alto) e a palavra "passatempo" (passa + tempo) são formadas, respectivamente, por:',
-        alternativas: [
-          { id: 'A', texto: 'Justaposição e aglutinação.' },
-          { id: 'B', texto: 'Aglutinação e justaposição.' },
-          { id: 'C', texto: 'Derivação prefixal e sufixal em ambos os casos.' },
-          { id: 'D', texto: 'Parassíntese em ambos os casos.' }
-        ],
-        gabarito: 'B',
-        explicacao: '"PLANALTO" é AGLUTINAÇÃO (plano + alto, com perda de letras — "plan" + "alto"). "PASSATEMPO" é JUSTAPOSIÇÃO (passa + tempo, sem alteração fonética). Critério: houve alteração na união dos radicais? Se sim → aglutinação. Se não → justaposição.'
-      },
-      {
-        id: 'D-PT-13-04',
-        tipo: 'autoavaliacao',
-        subtopico: 'Estrutura das palavras',
-        pergunta: 'Você consegue reconhecer os elementos mórficos (radical, prefixo, sufixo, desinência, vogal temática) e distinguir os processos de derivação (prefixal, sufixal, prefixal e sufixal, regressiva, imprópria, parassintética) dos de composição (justaposição e aglutinação)?',
-        resposta: 'ESTRUTURA: RADICAL — morfema com significado básico ("pedr-" de pedra). PREFIXO — antes do radical ("re-" em refazer). SUFIXO — depois do radical ("-eiro" em pedreiro). DESINÊNCIAS — indicam gênero, número e tempo verbal. VOGAL TEMÁTICA — liga radical às desinências. DERIVAÇÃO: PREFIXAL (refazer), SUFIXAL (pedreiro), PREFIXAL E SUFIXAL (deslealdade — existem "desleal" e "lealdade"), REGRESSIVA (retirar sufixo — "combate" de combater), IMPRÓPRIA (mudança de classe sem alterar forma — "o jantar" como substantivo), PARASSINTÉTICA (prefixo e sufixo dependentes — "entardecer"). COMPOSIÇÃO: JUSTAPOSIÇÃO (passatempo — sem alteração) e AGLUTINAÇÃO (planalto — com alteração).'
-      }
-    ]
-  },
 
-  /* ============================================================
-     PT-14 — Fonética, Fonologia e Divisão Silábica
-  ============================================================ */
-  'PT-14': {
-    id: 'D-PT-14',
-    moduloId: 'PT-14',
-    itens: [
+      /* ---------- Item 2 (fácil) — V/F simples ---------- */
       {
-        id: 'D-PT-14-01',
-        tipo: 'multipla_escolha',
-        subtopico: 'Fonema, letra e sílaba',
-        pergunta: 'Quantos FONEMAS tem a palavra "táxi"?',
-        alternativas: [
-          { id: 'A', texto: '4 fonemas, pois tem 4 letras.' },
-          { id: 'B', texto: '5 fonemas: /t/ /á/ /k/ /s/ /i/ — a letra "x" representa dois sons.' },
-          { id: 'C', texto: '6 fonemas.' },
-          { id: 'D', texto: '3 fonemas.' }
-        ],
-        gabarito: 'B',
-        explicacao: '"TÁXI" tem 4 LETRAS, mas 5 FONEMAS: /t/, /á/, /k/, /s/, /i/. A letra "x" tem som de "ks" (dois fonemas). Casos assim mostram que nem sempre há correspondência entre letra e fonema. Outro exemplo: "hora" tem 4 letras e 3 fonemas (o "h" é mudo).'
-      },
-      {
-        id: 'D-PT-14-02',
+        id: 'D-POR-08-02',
         tipo: 'verdadeiro_falso',
-        subtopico: 'Dígrafos',
-        pergunta: 'Na palavra "guerra", as letras "gu" e "rr" são dígrafos, pois cada par representa um único som.',
+        subtopico: 'Derivação x composição',
+        pergunta: 'Derivação é a formação de palavra nova a partir de uma palavra primitiva (com acréscimo ou retirada de elementos); composição é a formação de palavra nova a partir de duas ou mais palavras (radicais).',
         alternativas: [
           { id: 'V', texto: 'Verdadeiro' },
           { id: 'F', texto: 'Falso' }
         ],
         gabarito: 'V',
-        explicacao: 'Verdadeiro. "GUERRA" tem 6 letras, mas 4 fonemas (/g/, /e/, /r/, /a/). O "gu" tem um único som (/g/) e o "rr" também tem um único som (/r/). Dígrafo é quando DUAS LETRAS representam UM SOM — não confundir com encontro consonantal (dois sons distintos, como "cr" em "cravo").'
+        explicacao: 'VERDADEIRO. DERIVAÇÃO: parte de 1 palavra primitiva (desfazer, livreiro, entardecer, caça, o jantar). COMPOSIÇÃO: parte de 2+ palavras/radicais (girassol, passatempo, planalto). A diferença é o número de bases.'
       },
-      {
-        id: 'D-PT-14-03',
-        tipo: 'situacao',
-        subtopico: 'Encontros vocálicos',
-        pergunta: 'Nas palavras "saúde", "pai" e "Uruguai", os encontros vocálicos destacados são, respectivamente:',
-        alternativas: [
-          { id: 'A', texto: 'Ditongo, hiato e tritongo.' },
-          { id: 'B', texto: 'Hiato, ditongo e tritongo.' },
-          { id: 'C', texto: 'Tritongo, ditongo e hiato.' },
-          { id: 'D', texto: 'Ditongo, ditongo e ditongo.' }
-        ],
-        gabarito: 'B',
-        explicacao: '"SAÚDE": o "u" e o "i" (escrito "ú" e "i") ficam em sílabas SEPARADAS (sa-ú-de) → HIATO. "PAI": duas vogais na MESMA sílaba → DITONGO. "URUGUAI": três vogais na mesma sílaba (U-ru-guai) → TRITONGO. Palavras-chave: ditongo = mesma sílaba; hiato = sílabas separadas; tritongo = três vogais juntas.'
-      },
-      {
-        id: 'D-PT-14-04',
-        tipo: 'autoavaliacao',
-        subtopico: 'Classificação quanto à tonicidade',
-        pergunta: 'Você consegue classificar qualquer palavra como OXÍTONA, PAROXÍTONA ou PROPAROXÍTONA e relacionar essa classificação com as regras de acentuação?',
-        resposta: 'OXÍTONA: a última sílaba é a tônica. Ex.: café, jiló, também. Acentuam-se as terminadas em A, E, O, EM, ENS. PAROXÍTONA: a penúltima sílaba é tônica. Ex.: fácil, caderno, hífen. Acentuam-se as terminadas em L, N, R, X, I, IS, UM, UNS, PS, ditongo, Ã, ÃS, ÃO, ÃOS, ON, ONS, US. PROPAROXÍTONA: a antepenúltima é a tônica. TODAS são acentuadas — sem exceção. Ex.: árvore, médico, lâmpada. Saber a tonicidade é pré-requisito para aplicar as regras de acentuação.'
-      }
-    ]
-  },
 
-  /* ============================================================
-     PT-15 — Redação Oficial e Comunicação Administrativa
-  ============================================================ */
-  'PT-15': {
-    id: 'D-PT-15',
-    moduloId: 'PT-15',
-    itens: [
+      /* ---------- Item 3 (médio) — V/F sequencial ---------- */
       {
-        id: 'D-PT-15-01',
+        id: 'D-POR-08-03',
         tipo: 'multipla_escolha',
-        subtopico: 'Clareza, concisão, impessoalidade',
-        pergunta: 'Sobre os princípios da redação oficial, é correto afirmar que:',
+        subtopico: 'Tipos de derivação',
+        pergunta: 'Julgue as afirmações sobre os tipos de derivação:\n(__) Derivação prefixal: acréscimo de prefixo ao radical ("desfazer" = des + fazer).\n(__) Derivação sufixal: acréscimo de sufixo ao radical ("livreiro" = livr + eiro).\n(__) Derivação regressiva: retirada de elemento para formar nova palavra ("a caça" deriva de "caçar").\n(__) Derivação imprópria: mudança de classe sem alteração na forma ("o jantar" substantivo deriva de "jantar" verbo).\nAssinale a alternativa com a sequência CORRETA, de cima para baixo:',
         alternativas: [
-          { id: 'A', texto: 'Impessoalidade significa escrever de forma fria e distante, sem cordialidade.' },
-          { id: 'B', texto: 'Clareza e concisão se complementam: o texto oficial deve ser compreendido sem esforço e dizer o máximo com o mínimo de palavras.' },
-          { id: 'C', texto: 'Formalidade significa usar linguagem difícil e jargões técnicos.' },
-          { id: 'D', texto: 'A redação oficial pode usar primeira pessoa, pois o servidor assina o documento.' }
+          { id: 'A', texto: 'V, V, V, V.' },
+          { id: 'B', texto: 'V, F, V, V.' },
+          { id: 'C', texto: 'V, V, F, V.' },
+          { id: 'D', texto: 'F, V, V, F.' },
+          { id: 'E', texto: 'F, F, V, V.' }
         ],
-        gabarito: 'B',
-        explicacao: 'CLAREZA e CONCISÃO são princípios que se complementam: clareza = texto compreensível sem esforço; concisão = máximo de informação com mínimo de palavras. A impessoalidade (A) NÃO significa frieza — o texto pode ser cordial e impessoal. Formalidade (C) NÃO é linguagem difícil — é uso do padrão culto, sem gírias ou informalidades. Redação oficial (D) é IMPESSOAL: "Este órgão decidiu..." em vez de "Eu decidi...".'
+        gabarito: 'A',
+        explicacao: 'Todas corretas. (__1) V: prefixal — acréscimo antes do radical. (__2) V: sufixal — acréscimo depois do radical. (__3) V: regressiva — retirada ("caça" deriva de "caçar"). (__4) V: imprópria — mudança de classe sem alteração de forma ("jantar" verbo → "o jantar" substantivo).'
       },
+
+      /* ---------- Item 4 (médio) — V/F simples ---------- */
       {
-        id: 'D-PT-15-02',
+        id: 'D-POR-08-04',
         tipo: 'verdadeiro_falso',
-        subtopico: 'Documentos oficiais',
-        pergunta: 'O ofício é usado para comunicação INTERNA entre unidades administrativas do mesmo órgão; o memorando, para comunicação EXTERNA entre órgãos diferentes.',
+        subtopico: 'Parassíntese x derivação prefixal e sufixal',
+        pergunta: 'Em "entardecer", há parassíntese (prefixo e sufixo entram simultaneamente, sem que existam "entarde" nem "tardecer"); em "infelizmente", há derivação prefixal e sufixal (existem "infeliz" e "felizmente" isoladamente).',
         alternativas: [
           { id: 'V', texto: 'Verdadeiro' },
           { id: 'F', texto: 'Falso' }
         ],
-        gabarito: 'F',
-        explicacao: 'Falso — está INVERTIDO. OFÍCIO: comunicação EXTERNA, entre órgãos diferentes ou entre órgão e particulares (mais solene, em papel timbrado). MEMORANDO: comunicação INTERNA, entre unidades do mesmo órgão (mais simples e direto). É a pegadinha clássica em provas de redação oficial.'
+        gabarito: 'V',
+        explicacao: 'VERDADEIRO. Teste da EXISTÊNCIA: "entardecer" — não existem "entarde" nem "tardecer" com esse sentido → PARASSÍNTESE (prefixo e sufixo simultâneos). "infelizmente" — existem "infeliz" e "felizmente" → DERIVAÇÃO PREFIXAL E SUFIXAL. A chave é verificar se a palavra existe SEM um dos afixos.'
       },
+
+      /* ---------- Item 5 (médio-difícil) — Situação ---------- */
       {
-        id: 'D-PT-15-03',
+        id: 'D-POR-08-05',
         tipo: 'situacao',
-        subtopico: 'Tratamento e fecho',
-        pergunta: 'Um servidor precisa encaminhar um ofício a um Ministro de Estado. Qual tratamento e fecho são ADEQUADOS?',
+        subtopico: 'Aplicação: identificar processo de formação',
+        pergunta: 'Um candidato analisou quatro palavras: "girassol" (gira + sol), "planalto" (plano + alto), "entardecer" (en + tarde + ecer) e "a caça" (de "caçar"). Sobre os processos de formação, é CORRETO afirmar que:',
         alternativas: [
-          { id: 'A', texto: 'Tratamento "Vossa Senhoria" e fecho "Atenciosamente".' },
-          { id: 'B', texto: 'Tratamento "Vossa Excelência" e fecho "Respeitosamente".' },
-          { id: 'C', texto: 'Tratamento "Vossa Excelência" e fecho "Atenciosamente".' },
-          { id: 'D', texto: 'Tratamento "Senhor" e fecho "Cordialmente".' }
+          { id: 'A', texto: '"Girassol" e "planalto" são composição por justaposição, pois ambos mantêm os radicais intactos e sem perda de elementos.' },
+          { id: 'B', texto: '"Girassol" é composição por justaposição (radicais sem perda); "planalto" é composição por aglutinação (radicais com perda); "entardecer" é parassíntese; "a caça" é derivação regressiva.' },
+          { id: 'C', texto: '"Girassol" e "planalto" são composição por aglutinação, pois ambos perdem elementos fonéticos na fusão dos radicais.' },
+          { id: 'D', texto: '"Entardecer" é derivação prefixal e sufixal (existem "entarde" e "tardecer"); "a caça" é derivação imprópria (mudança de classe sem alteração de forma).' },
+          { id: 'E', texto: 'Todos os quatro processos são de derivação, pois envolvem acréscimo de afixos a um radical primitivo.' }
         ],
         gabarito: 'B',
-        explicacao: 'Ministros de Estado são ALTAS AUTORIDADES — usam "VOSSA EXCELÊNCIA" (V. Exa.). E, por serem autoridades SUPERIORES, o fecho adequado é "RESPEITOSAMENTE". "Atenciosamente" é usado para autoridades de mesma hierarquia ou inferiores. "Vossa Senhoria" é para demais autoridades e particulares.'
+        explicacao: 'GIRASSOL: gira + sol, sem perda → JUSTAPOSIÇÃO. PLANALTO: plano + alto, com perda → AGLUTINAÇÃO. ENTARDECER: en + tarde + ecer, sem existir "entarde" nem "tardecer" → PARASSÍNTESE. A CAÇA: de "caçar", com retirada → REGRESSIVA. A) confunde planalto com justaposição. C) confunde girassol com aglutinação. D) entardecer é parassíntese (não existem "entarde" nem "tardecer"); "a caça" é regressiva (não imprópria). E) "girassol" e "planalto" são composição, não derivação.'
       },
+
+      /* ---------- Item 6 (difícil) — MC associação ---------- */
       {
-        id: 'D-PT-15-04',
+        id: 'D-POR-08-06',
+        tipo: 'multipla_escolha',
+        subtopico: 'Associação: palavras x processos de formação',
+        pergunta: 'Associe cada palavra ao seu processo de formação:\n1 — "Girassol".\n2 — "Entardecer".\n3 — "Moto".\n4 — "IBGE".\nPROCESSOS\n( ) Parassíntese.\n( ) Abreviação.\n( ) Sigla.\n( ) Composição por justaposição.\nA sequência CORRETA, de cima para baixo, é:',
+        alternativas: [
+          { id: 'A', texto: '1, 2, 3, 4.' },
+          { id: 'B', texto: '2, 3, 4, 1.' },
+          { id: 'C', texto: '3, 4, 1, 2.' },
+          { id: 'D', texto: '4, 1, 2, 3.' },
+          { id: 'E', texto: '2, 4, 3, 1.' }
+        ],
+        gabarito: 'B',
+        explicacao: 'ENTARDECER → 2 (parassíntese — prefixo e sufixo simultâneos). MOTO → 3 (abreviação de "motocicleta"). IBGE → 4 (sigla). GIRASSOL → 1 (composição por justaposição — gira + sol). Sequência: 2, 3, 4, 1.'
+      },
+
+      /* ---------- Item 7 (difícil-meta) — Autoavaliação ---------- */
+      {
+        id: 'D-POR-08-07',
         tipo: 'autoavaliacao',
-        subtopico: 'Documentos oficiais',
-        pergunta: 'Você conhece os principais documentos oficiais (ofício, memorando, e-mail profissional, comunicado, requerimento), sua finalidade e os elementos essenciais da estrutura do padrão ofício (tipo e número, local e data, destinatário, assunto, vocativo, texto, fecho, assinatura, identificação)?',
-        resposta: 'OFÍCIO: comunicação EXTERNA entre órgãos ou destes para particulares — mais solene. MEMORANDO: comunicação INTERNA entre unidades do mesmo órgão — mais simples. E-MAIL PROFISSIONAL: comunicação eletrônica formal, com a mesma impessoalidade e clareza dos demais. COMUNICADO: informação oficial a vários destinatários. REQUERIMENTO: pedido formal do cidadão ao poder público. ESTRUTURA DO PADRÃO OFÍCIO (Manual da Presidência): tipo e número, local e data, destinatário (nome, cargo, endereço), assunto (resumo), vocativo (tratamento), texto (claro e objetivo), fecho ("Atenciosamente" ou "Respeitosamente"), assinatura e identificação do remetente. Base: Manual de Redação da Presidência da República (3ª edição, 2018).'
+        subtopico: 'Estrutura e formação — distinções fundamentais',
+        pergunta: 'Você consegue, sem consultar, distinguir: (a) radical, prefixo, sufixo, desinência, vogal temática e vogal de ligação; (b) derivação x composição; (c) parassíntese x derivação prefixal e sufixal; (d) justaposição x aglutinação; (e) regressiva x imprópria; (f) abreviação x sigla; (g) hibridismo x empréstimo?',
+        resposta: 'RADICAL: sentido básico. PREFIXO: antes do radical. SUFIXO: depois do radical. DESINÊNCIA: flexão. VOGAL TEMÁTICA: liga radical a desinência. VOGAL DE LIGAÇÃO: eufônica. DERIVAÇÃO: 1 palavra. COMPOSIÇÃO: 2+ palavras. PARASSÍNTESE: prefixo + sufixo simultâneos (não existem sem um dos afixos). PREFIXAL E SUFIXAL: existem sem um dos afixos. JUSTAPOSIÇÃO: sem perda. AGLUTINAÇÃO: com perda. REGRESSIVA: retirada ("caça" de "caçar"). IMPRÓPRIA: mudança de classe ("o jantar"). ABREVIAÇÃO: redução ("moto"). SIGLA: letras iniciais ("IBGE"). HIBRIDISMO: radicais de línguas diferentes ("automóvel"). EMPRÉSTIMO: palavra de outra língua ("feedback").'
       }
     ]
   }
