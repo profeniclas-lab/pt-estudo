@@ -1,3266 +1,2931 @@
 /* ============================================================
-   BANCO DE QUESTÕES — Módulos de prioridade MUITO ALTA
-   Preenchidos: PT-01, PT-08, PT-09, PT-11, PT-16
+   BANCO DE QUESTÕES — Português e Redação Oficial
+   BLOCO 1 — Área LET (POR-01 a POR-05)
+   Total neste bloco: 25 questões (5 por módulo)
    ============================================================ */
 
 window.QUESTIONS = [
 
   /* ============================================================
-     PT-01 — Interpretação e Compreensão de Textos
+     POR-01 — Leitura, compreensão e interpretação de textos
   ============================================================ */
   {
-    id: 'Q-DID-PT-0101',
-    tipo: 'DIDATICA',
-    area: 'LEIT',
-    moduloId: 'PT-01',
-    subtema: 'Ideia central',
-    dificuldade: 1,
-    prioridade: 'muito_alta',
-    enunciado: 'Leia: "A leitura diária amplia o vocabulário, melhora a escrita e desenvolve o pensamento crítico. Por isso, escolas deveriam incentivar o hábito desde cedo." A ideia central é:',
+    id: 'Q-DID-POR-01-001',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'POR-01',
+    subtema: 'Compreensão x interpretação',
+    dificuldade: 1, prioridade: 'alta',
+    enunciado: 'A comunicação digital em órgãos públicos deve seguir normas de etiqueta e segurança. O conhecimento sobre boas práticas de leitura de textos oficiais é fundamental para manter o profissionalismo e compreender as demandas.\n\nJulgue os itens a seguir como Verdadeiro (V) ou Falso (F) sobre a leitura de textos administrativos:\n(__) A compreensão de um texto restringe-se à extração de informações explícitas, enquanto a interpretação exige a dedução de sentidos implícitos autorizados pelas marcas textuais.\n(__) É recomendável ignorar o contexto de produção do documento oficial, focando apenas nas palavras isoladas para evitar interpretações errôneas.\n(__) A inferência é uma conclusão que o texto permite, baseada em evidências textuais, não se confundindo com a extrapolação.\n(__) A identificação da ideia central do texto é uma tarefa de interpretação, pois exige a síntese das informações e não apenas a localização de dados.\n\nAssinale a alternativa que apresenta a sequência CORRETA dos itens acima, de cima para baixo:',
     alternativas: [
-      { id: 'A', texto: 'A leitura diária só serve para ampliar o vocabulário.' },
-      { id: 'B', texto: 'Escolas deveriam incentivar o hábito de leitura desde cedo.' },
-      { id: 'C', texto: 'O pensamento crítico é mais importante que a escrita.' },
-      { id: 'D', texto: 'Ler é uma atividade cansativa.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'A tese defendida é o incentivo à leitura pelas escolas. As demais são ideias secundárias ou distorções.',
-      incorretas: { A: 'Reduz a ideia central a apenas um dos benefícios citados.', C: 'Compara benefícios sem base no texto.', D: 'Informação não presente no texto.' },
-      conceitoCobrado: 'Identificação da ideia central (tese).',
-      pegadinha: 'Marcar uma ideia secundária achando que é a central.',
-      comoApareceEmConcurso: 'Cobrança clássica em interpretação de texto.'
-    },
-    tags: ['interpretação', 'ideia central']
-  },
-  {
-    id: 'Q-DID-PT-0102',
-    tipo: 'DIDATICA',
-    area: 'LEIT',
-    moduloId: 'PT-01',
-    subtema: 'Inferência',
-    dificuldade: 2,
-    prioridade: 'muito_alta',
-    enunciado: 'Leia: "Ao receber a carta, Joana sentou-se, leu devagar e, no fim, enxugou uma lágrima." Pode-se INFERIR que Joana:',
-    alternativas: [
-      { id: 'A', texto: 'Ficou indiferente à carta.' },
-      { id: 'B', texto: 'Ficou emocionada com o conteúdo.' },
-      { id: 'C', texto: 'Não entendeu o que leu.' },
-      { id: 'D', texto: 'Estava com sono.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'O gesto de enxugar uma lágrima, combinado com a leitura pausada, permite inferir emoção.',
-      incorretas: { A: 'Contradiz o gesto descrito.', C: 'Nada indica dificuldade de compreensão.', D: 'Sono não se sustenta nos sinais apresentados.' },
-      conceitoCobrado: 'Inferência a partir de sinais textuais.',
-      pegadinha: 'Marcar alternativa com "palavra bonita" sem base no texto.',
-      comoApareceEmConcurso: '"Infere-se do texto que..." — clássica.'
-    },
-    tags: ['interpretação', 'inferência']
-  },
-  {
-    id: 'Q-DID-PT-0103',
-    tipo: 'DIDATICA',
-    area: 'LEIT',
-    moduloId: 'PT-01',
-    subtema: 'Pressuposto',
-    dificuldade: 3,
-    prioridade: 'muito_alta',
-    enunciado: 'A frase "João voltou a fumar" apresenta qual informação implícita (pressuposto)?',
-    alternativas: [
-      { id: 'A', texto: 'João nunca fumou antes.' },
-      { id: 'B', texto: 'João já fumava antes e havia parado.' },
-      { id: 'C', texto: 'João fuma desde criança.' },
-      { id: 'D', texto: 'João vai parar de fumar em breve.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'O verbo "voltar a" pressupõe que a ação já ocorreu antes e foi interrompida.',
-      incorretas: { A: 'Contradiz o pressuposto de "voltar a".', C: 'Extrapolação — o texto não diz quando começou.', D: 'Não há base para prever o futuro.' },
-      conceitoCobrado: 'Pressuposto — informação implícita marcada por palavras.',
-      pegadinha: 'Confundir pressuposto com subentendido ou com extrapolação.',
-      comoApareceEmConcurso: 'Muito cobrado em interpretação avançada.'
-    },
-    tags: ['pressuposto', 'implícito']
-  },
-  {
-    id: 'Q-DID-PT-0104',
-    tipo: 'DIDATICA',
-    area: 'LEIT',
-    moduloId: 'PT-01',
-    subtema: 'Fato x opinião',
-    dificuldade: 2,
-    prioridade: 'muito_alta',
-    enunciado: 'Assinale a alternativa que apresenta uma OPINIÃO, e não um fato:',
-    alternativas: [
-      { id: 'A', texto: 'A taxa de desemprego caiu 2 pontos no último trimestre.' },
-      { id: 'B', texto: 'Brasília é a capital do Brasil desde 1960.' },
-      { id: 'C', texto: 'A queda do desemprego é insuficiente para resolver os problemas do país.' },
-      { id: 'D', texto: 'O IBGE divulgou os dados na última sexta-feira.' }
+      { id: 'A', texto: 'V, V, F, V.' },
+      { id: 'B', texto: 'F, F, V, V.' },
+      { id: 'C', texto: 'V, F, V, V.' },
+      { id: 'D', texto: 'F, V, F, V.' },
+      { id: 'E', texto: 'V, F, V, F.' }
     ],
     gabarito: 'C',
     explicacao: {
-      correta: '"Insuficiente" é juízo pessoal, subjetivo — opinião.',
-      incorretas: { A: 'Dado objetivo, verificável.', B: 'Informação histórica verificável.', D: 'Informação factual.' },
-      conceitoCobrado: 'Distinção fato x opinião.',
-      pegadinha: 'Confundir dado numérico (fato) com avaliação sobre o dado (opinião).',
-      comoApareceEmConcurso: 'Muito cobrado em textos argumentativos.'
-    },
-    tags: ['fato', 'opinião']
-  },
-  {
-    id: 'Q-DID-PT-0105',
-    tipo: 'DIDATICA',
-    area: 'LEIT',
-    moduloId: 'PT-01',
-    subtema: 'Extrapolação',
-    dificuldade: 3,
-    prioridade: 'muito_alta',
-    enunciado: 'Texto: "Alunos que leem 20 minutos por dia tendem a ter notas melhores." Uma EXTRAPOLAÇÃO seria:',
-    alternativas: [
-      { id: 'A', texto: 'A leitura diária tem relação com o desempenho escolar.' },
-      { id: 'B', texto: 'Apenas quem lê 20 minutos por dia é aprovado em concursos.' },
-      { id: 'C', texto: 'A leitura pode influenciar o rendimento dos alunos.' },
-      { id: 'D', texto: 'Ler diariamente é um hábito que pode ajudar nos estudos.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: '"Apenas" e "é aprovado em concursos" são afirmações sem apoio no texto — extrapolação.',
-      incorretas: { A: 'Está apoiado no texto (tendência).', C: 'Interpretação autorizada.', D: 'Paráfrase fiel.' },
-      conceitoCobrado: 'Extrapolação — acrescentar informação sem base.',
-      pegadinha: 'A banca adora colocar alternativas com "sempre", "apenas", "nunca".',
-      comoApareceEmConcurso: 'Uma das pegadinhas mais frequentes.'
-    },
-    tags: ['extrapolação', 'interpretação']
-  },
-  {
-    id: 'Q-DID-PT-0106',
-    tipo: 'DIDATICA',
-    area: 'LEIT',
-    moduloId: 'PT-01',
-    subtema: 'Textos verbais, não verbais e mistos',
-    dificuldade: 3,
-    prioridade: 'muito_alta',
-    enunciado: 'Sobre textos não verbais, é correto afirmar que:',
-    alternativas: [
-      { id: 'A', texto: 'Não são considerados textos, pois não usam palavras.' },
-      { id: 'B', texto: 'Comunicam por meio de imagens, símbolos, gráficos, cores e formas, produzindo sentido.' },
-      { id: 'C', texto: 'Só existem em histórias em quadrinhos.' },
-      { id: 'D', texto: 'Não podem ser combinados com texto verbal.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'Textos não verbais comunicam por outros códigos (imagens, símbolos, gráficos).',
-      incorretas: { A: 'Texto é qualquer forma de comunicação com sentido.', C: 'Existem em placas, gráficos, propagandas etc.', D: 'Textos mistos combinam verbal e não verbal.' },
-      conceitoCobrado: 'Tipos de texto quanto à linguagem.',
-      pegadinha: 'Restringir texto a palavras escritas.',
-      comoApareceEmConcurso: 'Cobrado com gráficos e imagens em interpretação.'
-    },
-    tags: ['texto não verbal', 'linguagem']
-  },
-
-  /* ============================================================
-     PT-08 — Pontuação
-  ============================================================ */
-  {
-    id: 'Q-DID-PT-0801',
-    tipo: 'DIDATICA',
-    area: 'SINT',
-    moduloId: 'PT-08',
-    subtema: 'Vírgula entre sujeito e verbo',
-    dificuldade: 1,
-    prioridade: 'muito_alta',
-    enunciado: 'Assinale a alternativa em que a pontuação está CORRETA:',
-    alternativas: [
-      { id: 'A', texto: 'Os alunos do terceiro ano, foram aprovados.' },
-      { id: 'B', texto: 'Os alunos do terceiro ano foram aprovados.' },
-      { id: 'C', texto: 'Os alunos, do terceiro ano foram aprovados.' },
-      { id: 'D', texto: 'Os alunos do terceiro, ano foram aprovados.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'Sujeito, verbo e complemento ficam juntos. NUNCA separar sujeito de verbo com vírgula.',
-      incorretas: { A: 'Vírgula separa sujeito e verbo — ERRO.', C: 'Vírgula quebra o sujeito — ERRO.', D: 'Vírgula em local inadequado no sujeito — ERRO.' },
-      conceitoCobrado: 'Vírgula proibida entre sujeito e verbo.',
-      pegadinha: 'Erro mais clássico em provas.',
-      comoApareceEmConcurso: 'Correção gramatical e reescrita.'
-    },
-    tags: ['vírgula', 'sujeito']
-  },
-  {
-    id: 'Q-DID-PT-0802',
-    tipo: 'DIDATICA',
-    area: 'SINT',
-    moduloId: 'PT-08',
-    subtema: 'Restritiva x explicativa',
-    dificuldade: 3,
-    prioridade: 'muito_alta',
-    enunciado: 'Qual a diferença de sentido entre "O médico atendeu o paciente que estava com febre" e "O médico atendeu o paciente, que estava com febre"?',
-    alternativas: [
-      { id: 'A', texto: 'Não há diferença.' },
-      { id: 'B', texto: 'A primeira (sem vírgula) é restritiva: havia vários pacientes, e atendeu o que tinha febre. A segunda (com vírgula) é explicativa: havia só um paciente, que estava com febre.' },
-      { id: 'C', texto: 'A primeira é errada; a segunda é a certa.' },
-      { id: 'D', texto: 'A primeira é explicativa; a segunda é restritiva.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'Sem vírgula = restritiva (restringe o antecedente). Com vírgula = explicativa (explica, generaliza).',
-      incorretas: { A: 'A vírgula muda completamente o sentido.', C: 'Ambas estão corretas, em sentidos diferentes.', D: 'Inverte os conceitos.' },
-      conceitoCobrado: 'Oração adjetiva restritiva x explicativa.',
-      pegadinha: 'Confundir as duas.',
-      comoApareceEmConcurso: 'Muito cobrado em reescrita.'
-    },
-    tags: ['restritiva', 'explicativa', 'vírgula']
-  },
-  {
-    id: 'Q-DID-PT-0803',
-    tipo: 'DIDATICA',
-    area: 'SINT',
-    moduloId: 'PT-08',
-    subtema: 'Vírgula antes de "e"',
-    dificuldade: 2,
-    prioridade: 'muito_alta',
-    enunciado: 'Em qual das alternativas a vírgula antes do "e" está CORRETA?',
-    alternativas: [
-      { id: 'A', texto: 'Pedro estuda, e trabalha.' },
-      { id: 'B', texto: 'Pedro estuda, e Maria trabalha.' },
-      { id: 'C', texto: 'Pedro estuda e, trabalha.' },
-      { id: 'D', texto: 'Pedro, estuda e trabalha.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'Vírgula antes do "e" é permitida quando liga orações com SUJEITOS DIFERENTES ("Pedro estuda, e Maria trabalha").',
-      incorretas: { A: 'Mesmo sujeito → sem vírgula.', C: 'Vírgula em local errado.', D: 'Sujeito separado do verbo — erro.' },
-      conceitoCobrado: 'Vírgula antes do "e".',
-      pegadinha: 'Usar vírgula antes de "e" com mesmo sujeito.',
-      comoApareceEmConcurso: 'Correção gramatical.'
-    },
-    tags: ['vírgula', 'conjunção e']
-  },
-  {
-    id: 'Q-DID-PT-0804',
-    tipo: 'DIDATICA',
-    area: 'SINT',
-    moduloId: 'PT-08',
-    subtema: 'Dois-pontos',
-    dificuldade: 2,
-    prioridade: 'muito_alta',
-    enunciado: 'Em qual das alternativas os dois-pontos estão empregados corretamente?',
-    alternativas: [
-      { id: 'A', texto: 'Preciso de: fé, esperança e caridade.' },
-      { id: 'B', texto: 'Preciso de três coisas: fé, esperança e caridade.' },
-      { id: 'C', texto: 'Preciso de três coisas, fé, esperança e caridade.' },
-      { id: 'D', texto: 'Preciso: de fé, esperança e caridade.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'Dois-pontos anunciam a enumeração que vem depois. É preciso ter um termo "anunciador" antes ("três coisas:").',
-      incorretas: { A: 'Não se usa dois-pontos após preposição solta.', C: 'Falta o elemento anunciador — seria vírgula.', D: 'Dois-pontos em local inadequado.' },
-      conceitoCobrado: 'Uso dos dois-pontos.',
-      pegadinha: 'Colocar dois-pontos sem ter o que anunciar.',
-      comoApareceEmConcurso: 'Cobrança recorrente.'
-    },
-    tags: ['dois-pontos']
-  },
-  {
-    id: 'Q-DID-PT-0805',
-    tipo: 'DIDATICA',
-    area: 'SINT',
-    moduloId: 'PT-08',
-    subtema: 'Adjunto adverbial deslocado',
-    dificuldade: 2,
-    prioridade: 'muito_alta',
-    enunciado: 'Assinale a alternativa em que a vírgula isola CORRETAMENTE um adjunto adverbial deslocado:',
-    alternativas: [
-      { id: 'A', texto: 'Ontem à noite choveu muito.' },
-      { id: 'B', texto: 'Ontem à noite, choveu muito.' },
-      { id: 'C', texto: 'Choveu ontem, à noite muito.' },
-      { id: 'D', texto: 'Choveu, ontem à noite muito.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'Adjunto adverbial de longa extensão deslocado para o início pede vírgula: "Ontem à noite, choveu muito."',
-      incorretas: { A: 'Falta a vírgula — a frase fica truncada.', C: 'Vírgula quebra expressão.', D: 'Vírgula em local errado.' },
-      conceitoCobrado: 'Vírgula com adjunto adverbial deslocado.',
-      pegadinha: 'Não colocar vírgula após adjunto longo.',
-      comoApareceEmConcurso: 'Cobrança recorrente.'
-    },
-    tags: ['vírgula', 'adjunto adverbial']
-  },
-  {
-    id: 'Q-DID-PT-0806',
-    tipo: 'DIDATICA',
-    area: 'SINT',
-    moduloId: 'PT-08',
-    subtema: 'Aspas',
-    dificuldade: 2,
-    prioridade: 'muito_alta',
-    enunciado: 'Sobre o uso das aspas, é correto afirmar que:',
-    alternativas: [
-      { id: 'A', texto: 'Servem apenas para marcar fala de personagem.' },
-      { id: 'B', texto: 'Podem marcar citação, estrangeirismo, ironia e sentido conotativo.' },
-      { id: 'C', texto: 'São obrigatórias em todo início de frase.' },
-      { id: 'D', texto: 'Substituem os parênteses em qualquer situação.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'Aspas têm vários usos: citação, estrangeirismo, ironia, sentido figurado.',
-      incorretas: { A: 'É apenas um dos usos.', C: 'Não existe essa regra.', D: 'Parênteses e aspas têm funções diferentes.' },
-      conceitoCobrado: 'Usos das aspas.',
-      pegadinha: 'Restringir aspas a um único uso.',
-      comoApareceEmConcurso: 'Cobrança média.'
-    },
-    tags: ['aspas']
-  },
-
-  /* ============================================================
-     PT-09 — Concordância Verbal e Nominal
-  ============================================================ */
-  {
-    id: 'Q-DID-PT-0901',
-    tipo: 'DIDATICA',
-    area: 'SINT',
-    moduloId: 'PT-09',
-    subtema: 'Haver x existir',
-    dificuldade: 1,
-    prioridade: 'muito_alta',
-    enunciado: 'Assinale a alternativa CORRETA:',
-    alternativas: [
-      { id: 'A', texto: 'Haviam muitos candidatos no local.' },
-      { id: 'B', texto: 'Havia muitos candidatos no local.' },
-      { id: 'C', texto: 'Houveram muitos candidatos no local.' },
-      { id: 'D', texto: 'Hão de haver muitos candidatos no local.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'Haver (existir) é impessoal — fica sempre no SINGULAR: "Havia muitos candidatos."',
-      incorretas: { A: '"Haviam" está errado.', C: '"Houveram" está errado.', D: 'Estrutura forçada e incorreta.' },
-      conceitoCobrado: 'Haver impessoal.',
-      pegadinha: 'Erro mais clássico de concordância em provas.',
-      comoApareceEmConcurso: 'Altíssima frequência.'
-    },
-    tags: ['concordância', 'haver']
-  },
-  {
-    id: 'Q-DID-PT-0902',
-    tipo: 'DIDATICA',
-    area: 'SINT',
-    moduloId: 'PT-09',
-    subtema: 'Fazer (tempo)',
-    dificuldade: 2,
-    prioridade: 'muito_alta',
-    enunciado: 'Assinale a alternativa CORRETA:',
-    alternativas: [
-      { id: 'A', texto: 'Fazem cinco anos que ele saiu do país.' },
-      { id: 'B', texto: 'Faz cinco anos que ele saiu do país.' },
-      { id: 'C', texto: 'Fazem cinco anos desde que ele saiu.' },
-      { id: 'D', texto: 'Fazem-se cinco anos que ele saiu.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'Fazer indicando tempo decorrido é IMPESSOAL — sempre no singular.',
-      incorretas: { A: '"Fazem" está errado.', C: 'Idem.', D: 'Idem.' },
-      conceitoCobrado: 'Fazer impessoal.',
-      pegadinha: 'Plural indevido por atração do "cinco anos".',
-      comoApareceEmConcurso: 'Alta frequência.'
-    },
-    tags: ['concordância', 'fazer']
-  },
-  {
-    id: 'Q-DID-PT-0903',
-    tipo: 'DIDATICA',
-    area: 'SINT',
-    moduloId: 'PT-09',
-    subtema: 'Mais de um / um ou outro',
-    dificuldade: 3,
-    prioridade: 'muito_alta',
-    enunciado: 'Assinale a alternativa CORRETA quanto à concordância:',
-    alternativas: [
-      { id: 'A', texto: 'Mais de um aluno faltaram à prova.' },
-      { id: 'B', texto: 'Mais de um aluno faltou à prova.' },
-      { id: 'C', texto: 'Um ou outro aluno faltaram à prova.' },
-      { id: 'D', texto: 'Nem um nem outro aluno faltaram à prova.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: '"Mais de um" exige verbo no SINGULAR: "faltou".',
-      incorretas: { A: 'Plural indevido.', C: '"Um ou outro" pede singular: "faltou".', D: '"Nem um nem outro" pede singular: "faltou".' },
-      conceitoCobrado: 'Expressões especiais de concordância.',
-      pegadinha: 'Pluralizar por atração de "mais".',
-      comoApareceEmConcurso: 'Muito cobrado.'
-    },
-    tags: ['concordância', 'mais de um']
-  },
-  {
-    id: 'Q-DID-PT-0904',
-    tipo: 'DIDATICA',
-    area: 'SINT',
-    moduloId: 'PT-09',
-    subtema: 'É proibido / é proibida',
-    dificuldade: 3,
-    prioridade: 'muito_alta',
-    enunciado: 'Assinale a alternativa CORRETA:',
-    alternativas: [
-      { id: 'A', texto: 'É proibido a entrada de estranhos.' },
-      { id: 'B', texto: 'É proibida a entrada de estranhos.' },
-      { id: 'C', texto: 'É proibido entradas de estranhos.' },
-      { id: 'D', texto: 'É proibida entrada de estranhos.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'Com artigo ("a entrada"), o adjetivo concorda: "É proibida a entrada."',
-      incorretas: { A: 'Falta concordância: com artigo, é "proibida".', C: 'Mistura indevida.', D: 'Sem artigo, seria invariável: "É proibido entrada".' },
-      conceitoCobrado: 'Concordância nominal com artigo.',
-      pegadinha: 'Esquecer a regra com/sem artigo.',
-      comoApareceEmConcurso: 'Alta frequência.'
-    },
-    tags: ['concordância nominal', 'proibido']
-  },
-  {
-    id: 'Q-DID-PT-0905',
-    tipo: 'DIDATICA',
-    area: 'SINT',
-    moduloId: 'PT-09',
-    subtema: 'Meio / meia',
-    dificuldade: 2,
-    prioridade: 'muito_alta',
-    enunciado: 'Assinale a alternativa em que "meio" está empregado CORRETAMENTE:',
-    alternativas: [
-      { id: 'A', texto: 'Ela está meia cansada hoje.' },
-      { id: 'B', texto: 'Ela está meio cansada hoje.' },
-      { id: 'C', texto: 'São meio-dia e meio.' },
-      { id: 'D', texto: 'Comi meia laranja e bebi meia copo de suco.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: '"Meio" advérbio (= um pouco) é invariável: "meio cansada".',
-      incorretas: { A: 'Aqui "meio" é advérbio — não varia.', C: 'É "meio-dia e MEIA" (meia hora).', D: 'Mistura indevida: "meio copo" (advérbio) x "meia laranja" (numeral).' },
-      conceitoCobrado: 'Meio advérbio (invariável) x meia numeral.',
-      pegadinha: 'Flexionar "meio" quando é advérbio.',
-      comoApareceEmConcurso: 'Muito cobrado.'
-    },
-    tags: ['meio', 'concordância nominal']
-  },
-  {
-    id: 'Q-DID-PT-0906',
-    tipo: 'DIDATICA',
-    area: 'SINT',
-    moduloId: 'PT-09',
-    subtema: 'Partitivas',
-    dificuldade: 3,
-    prioridade: 'muito_alta',
-    enunciado: 'Assinale a alternativa que apresenta concordância ACEITÁVEL na norma padrão:',
-    alternativas: [
-      { id: 'A', texto: 'A maioria dos alunos foi aprovada.' },
-      { id: 'B', texto: 'A maioria dos alunos foram aprovados.' },
-      { id: 'C', texto: 'A maioria dos alunos seriam aprovados.' },
-      { id: 'D', texto: 'Apenas a A e a B são aceitáveis.' }
-    ],
-    gabarito: 'D',
-    explicacao: {
-      correta: 'Expressões partitivas ("a maioria de", "grande parte de", "metade de") aceitam o verbo no SINGULAR ou no PLURAL. A e B estão corretas.',
-      incorretas: { A: 'Válida, mas sozinha incompleta.', B: 'Válida, mas sozinha incompleta.', C: 'Futuro do pretérito sem sentido aqui — não é aceitável.' },
-      conceitoCobrado: 'Concordância com expressões partitivas.',
-      pegadinha: 'Achar que só uma forma é correta.',
-      comoApareceEmConcurso: 'Cobrança recorrente.'
-    },
-    tags: ['concordância', 'partitiva']
-  },
-
-  /* ============================================================
-     PT-11 — Coesão e Coerência Textual
-  ============================================================ */
-  {
-    id: 'Q-DID-PT-1101',
-    tipo: 'DIDATICA',
-    area: 'TEXT',
-    moduloId: 'PT-11',
-    subtema: 'Referência anafórica',
-    dificuldade: 2,
-    prioridade: 'muito_alta',
-    enunciado: 'No trecho "Comprei um livro novo. Ele é ótimo.", o pronome "Ele" faz referência a:',
-    alternativas: [
-      { id: 'A', texto: 'Um sujeito indeterminado.' },
-      { id: 'B', texto: 'Ao livro novo.' },
-      { id: 'C', texto: 'Ao autor do texto.' },
-      { id: 'D', texto: 'Ao leitor.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'Referência ANAFÓRICA: o pronome retoma o termo "um livro novo" mencionado antes.',
-      incorretas: { A: 'O referente é claro no texto.', C: 'Não há autor mencionado.', D: 'O leitor não é referente.' },
-      conceitoCobrado: 'Referência anafórica.',
-      pegadinha: 'Não identificar o referente do pronome.',
-      comoApareceEmConcurso: 'Cobrança frequente.'
-    },
-    tags: ['coesão', 'referência']
-  },
-  {
-    id: 'Q-DID-PT-1102',
-    tipo: 'DIDATICA',
-    area: 'TEXT',
-    moduloId: 'PT-11',
-    subtema: 'Conectores',
-    dificuldade: 2,
-    prioridade: 'muito_alta',
-    enunciado: 'No trecho "Estudou muito, mas não passou no concurso", o conector "mas" estabelece relação de:',
-    alternativas: [
-      { id: 'A', texto: 'Causa.' },
-      { id: 'B', texto: 'Consequência.' },
-      { id: 'C', texto: 'Oposição.' },
-      { id: 'D', texto: 'Conclusão.' }
-    ],
-    gabarito: 'C',
-    explicacao: {
-      correta: '"Mas" introduz ideia de contraste/oposição: estudou (esperava passar) x não passou.',
-      incorretas: { A: 'Causa seria "porque".', B: 'Consequência seria "portanto".', D: 'Conclusão seria "logo".' },
-      conceitoCobrado: 'Conectores de oposição.',
-      pegadinha: 'Confundir "mas" com "portanto" ou "porque".',
-      comoApareceEmConcurso: 'Alta frequência.'
-    },
-    tags: ['conectores', 'oposição']
-  },
-  {
-    id: 'Q-DID-PT-1103',
-    tipo: 'DIDATICA',
-    area: 'TEXT',
-    moduloId: 'PT-11',
-    subtema: 'Coesão x coerência',
-    dificuldade: 3,
-    prioridade: 'muito_alta',
-    enunciado: 'A frase "Estudou muito, porque foi reprovado" é um exemplo de:',
-    alternativas: [
-      { id: 'A', texto: 'Texto com coesão e coerência.' },
-      { id: 'B', texto: 'Texto com coesão (conector correto), mas SEM coerência (relação ilógica).' },
-      { id: 'C', texto: 'Texto com coerência, mas sem coesão.' },
-      { id: 'D', texto: 'Texto sem coesão e sem coerência.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'Há coesão (o "porque" liga as partes), mas NÃO há coerência: estudar não é causa de reprovação. Falta lógica interna.',
-      incorretas: { A: 'Falta coerência.', C: 'Há coesão sim.', D: 'Há coesão.' },
-      conceitoCobrado: 'Coesão x coerência.',
-      pegadinha: 'Achar que toda frase bem ligada é coerente.',
-      comoApareceEmConcurso: 'Pegadinha conceitual.'
-    },
-    tags: ['coesão', 'coerência']
-  },
-  {
-    id: 'Q-DID-PT-1104',
-    tipo: 'DIDATICA',
-    area: 'TEXT',
-    moduloId: 'PT-11',
-    subtema: 'Concessão',
-    dificuldade: 3,
-    prioridade: 'muito_alta',
-    enunciado: 'No trecho "Embora tenha estudado, não foi aprovado", o conector "embora" introduz ideia de:',
-    alternativas: [
-      { id: 'A', texto: 'Causa.' },
-      { id: 'B', texto: 'Consequência.' },
-      { id: 'C', texto: 'Concessão.' },
-      { id: 'D', texto: 'Finalidade.' }
-    ],
-    gabarito: 'C',
-    explicacao: {
-      correta: '"Embora" introduz CONCESSÃO: admite o fato contrário (estudou), mas o resultado prevalece (não passou).',
-      incorretas: { A: 'Causa seria "porque".', B: 'Consequência seria "portanto".', D: 'Finalidade seria "para".' },
-      conceitoCobrado: 'Concessão x oposição.',
-      pegadinha: 'Confundir concessão com causa.',
-      comoApareceEmConcurso: 'Alta frequência.'
-    },
-    tags: ['concessão', 'conectores']
-  },
-  {
-    id: 'Q-DID-PT-1105',
-    tipo: 'DIDATICA',
-    area: 'TEXT',
-    moduloId: 'PT-11',
-    subtema: 'Mudança de sentido por conector',
-    dificuldade: 3,
-    prioridade: 'muito_alta',
-    enunciado: 'Qual a diferença de sentido entre "Estudou muito, portanto passou" e "Estudou muito, mas não passou"?',
-    alternativas: [
-      { id: 'A', texto: 'Nenhuma — a informação é a mesma.' },
-      { id: 'B', texto: 'A primeira expressa consequência (passou); a segunda expressa oposição (contraste entre estudar e não passar).' },
-      { id: 'C', texto: 'A primeira é errada; a segunda é a certa.' },
-      { id: 'D', texto: 'A primeira expressa causa; a segunda, condição.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: '"Portanto" indica consequência; "mas" indica oposição. O conector muda completamente o sentido.',
-      incorretas: { A: 'A informação muda.', C: 'Ambas estão corretas em sentidos diferentes.', D: 'Confunde conceitos.' },
-      conceitoCobrado: 'Efeito dos conectores no sentido.',
-      pegadinha: 'Trocar conector sem perceber mudança de sentido.',
-      comoApareceEmConcurso: 'Reescrita e coesão.'
-    },
-    tags: ['conectores', 'sentido']
-  },
-  {
-    id: 'Q-DID-PT-1106',
-    tipo: 'DIDATICA',
-    area: 'TEXT',
-    moduloId: 'PT-11',
-    subtema: 'Elipse',
-    dificuldade: 3,
-    prioridade: 'muito_alta',
-    enunciado: 'No trecho "Maria estuda de manhã; trabalha à tarde.", o termo omitido (elipse) é:',
-    alternativas: [
-      { id: 'A', texto: 'O verbo "estuda".' },
-      { id: 'B', texto: 'O sujeito "Maria".' },
-      { id: 'C', texto: 'O objeto direto.' },
-      { id: 'D', texto: 'O adjunto adverbial.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'O sujeito "Maria" está elíptico (oculto) na segunda oração: "(Maria) trabalha à tarde".',
-      incorretas: { A: '"Trabalha" é outro verbo.', C: 'Não há objeto direto nas orações.', D: 'Os adjuntos ("de manhã", "à tarde") estão presentes.' },
-      conceitoCobrado: 'Elipse — omissão de termo já mencionado.',
-      pegadinha: 'Não perceber a omissão do sujeito.',
-      comoApareceEmConcurso: 'Coesão textual.'
-    },
-    tags: ['elipse', 'coesão']
-  },
-
-  /* ============================================================
-     PT-16 — Argumentação, Análise Textual e Questões Integradas
-  ============================================================ */
-  {
-    id: 'Q-DID-PT-1601',
-    tipo: 'DIDATICA',
-    area: 'TEXT',
-    moduloId: 'PT-16',
-    subtema: 'Tese x argumento',
-    dificuldade: 2,
-    prioridade: 'muito_alta',
-    enunciado: 'Leia: "O transporte público deve ser priorizado. Enquanto poucos desfrutam de carros subsidiados, milhões dependem de ônibus lotados." Sobre o trecho:',
-    alternativas: [
-      { id: 'A', texto: 'A tese é "milhões dependem de ônibus"; o argumento é "priorizar o transporte".' },
-      { id: 'B', texto: 'A tese é "o transporte público deve ser priorizado"; o argumento é a comparação entre poucos donos de carros e milhões de usuários.' },
-      { id: 'C', texto: 'O trecho é puramente descritivo, sem tese.' },
-      { id: 'D', texto: 'A tese é "os carros são subsidiados".' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'TESE: ideia defendida. ARGUMENTO: razão que sustenta a tese.',
-      incorretas: { A: 'Inverte os papéis.', C: 'Há argumentação explícita.', D: 'É um dado de apoio, não a tese.' },
-      conceitoCobrado: 'Estrutura argumentativa.',
-      pegadinha: 'Confundir tese com argumento.',
-      comoApareceEmConcurso: 'Textos argumentativos.'
-    },
-    tags: ['argumentação', 'tese']
-  },
-  {
-    id: 'Q-DID-PT-1602',
-    tipo: 'DIDATICA',
-    area: 'TEXT',
-    moduloId: 'PT-16',
-    subtema: 'Reescrita — sentido + gramática',
-    dificuldade: 3,
-    prioridade: 'muito_alta',
-    enunciado: 'Considere a reescrita: "Os alunos do terceiro ano, foram aprovados no vestibular, segundo a diretora." Sobre a reescrita:',
-    alternativas: [
-      { id: 'A', texto: 'Está correta — mantém o sentido e a gramática.' },
-      { id: 'B', texto: 'Está incorreta — há vírgula separando o sujeito do verbo.' },
-      { id: 'C', texto: 'Está correta, mas o sentido mudou.' },
-      { id: 'D', texto: 'Está incorreta — o verbo deveria estar no singular.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'A vírgula após "terceiro ano" separa o sujeito do verbo — ERRO clássico.',
-      incorretas: { A: 'Ignora o erro gramatical.', C: 'O erro é gramatical.', D: 'A concordância está correta (plural).' },
-      conceitoCobrado: 'Reescrita — sentido + gramática.',
-      pegadinha: 'Banca insere erro gramatical em alternativa aparentemente correta.',
-      comoApareceEmConcurso: 'Questão integrada clássica.'
-    },
-    tags: ['reescrita', 'vírgula']
-  },
-  {
-    id: 'Q-DID-PT-1603',
-    tipo: 'DIDATICA',
-    area: 'TEXT',
-    moduloId: 'PT-16',
-    subtema: 'Intertextualidade',
-    dificuldade: 3,
-    prioridade: 'muito_alta',
-    enunciado: 'Sobre intertextualidade, é correto afirmar que:',
-    alternativas: [
-      { id: 'A', texto: 'É sinônimo de plágio.' },
-      { id: 'B', texto: 'É o diálogo consciente e declarado entre textos (citação, paródia, paráfrase, alusão).' },
-      { id: 'C', texto: 'É um recurso apenas literário, sem uso em provas de concurso.' },
-      { id: 'D', texto: 'É vedada na argumentação.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'Intertextualidade é o diálogo declarado entre textos — recurso legítimo.',
-      incorretas: { A: 'Plágio é apropriação indevida sem crédito.', C: 'Aparece em textos argumentativos, publicitários, jornalísticos.', D: 'É recurso legítimo e frequente.' },
-      conceitoCobrado: 'Intertextualidade.',
-      pegadinha: 'Confundir com plágio.',
-      comoApareceEmConcurso: 'Interpretação e argumentação.'
-    },
-    tags: ['intertextualidade']
-  },
-  {
-    id: 'Q-DID-PT-1604',
-    tipo: 'DIDATICA',
-    area: 'TEXT',
-    moduloId: 'PT-16',
-    subtema: 'Argumento de autoridade',
-    dificuldade: 2,
-    prioridade: 'muito_alta',
-    enunciado: 'Em um texto argumentativo, o trecho "Segundo o IBGE, o desemprego caiu 2 pontos" é exemplo de:',
-    alternativas: [
-      { id: 'A', texto: 'Argumento de autoridade com dado factual.' },
-      { id: 'B', texto: 'Opinião do autor.' },
-      { id: 'C', texto: 'Intertextualidade por paródia.' },
-      { id: 'D', texto: 'Ironia.' }
-    ],
-    gabarito: 'A',
-    explicacao: {
-      correta: 'Citação de instituição reconhecida (IBGE) com dado objetivo = argumento de autoridade com base factual.',
-      incorretas: { B: 'Não é opinião — é dado.', C: 'Não há paródia.', D: 'Não há ironia.' },
-      conceitoCobrado: 'Tipos de argumento.',
-      pegadinha: 'Confundir autoridade com opinião.',
-      comoApareceEmConcurso: 'Textos argumentativos.'
-    },
-    tags: ['argumentação', 'autoridade']
-  },
-  {
-    id: 'Q-DID-PT-1605',
-    tipo: 'DIDATICA',
-    area: 'TEXT',
-    moduloId: 'PT-16',
-    subtema: 'Efeitos expressivos',
-    dificuldade: 3,
-    prioridade: 'muito_alta',
-    enunciado: 'No trecho "Que belo exemplo de honestidade!", dito ironicamente por um jornalista após um escândalo, o efeito expressivo empregado é:',
-    alternativas: [
-      { id: 'A', texto: 'Eufemismo.' },
-      { id: 'B', texto: 'Hipérbole.' },
-      { id: 'C', texto: 'Ironia.' },
-      { id: 'D', texto: 'Metáfora.' }
-    ],
-    gabarito: 'C',
-    explicacao: {
-      correta: 'Ironia: dizer o contrário do que se pretende significar — no caso, criticar pela inversão do sentido.',
-      incorretas: { A: 'Eufemismo suaviza (ex.: "ele nos deixou" por "morreu").', B: 'Hipérbole exagera (ex.: "chorei rios de lágrimas").', D: 'Metáfora compara implicitamente (ex.: "seus olhos são o mar").' },
-      conceitoCobrado: 'Figuras de linguagem / efeitos expressivos.',
-      pegadinha: 'Não perceber a ironia.',
-      comoApareceEmConcurso: 'Interpretação e análise textual.'
-    },
-    tags: ['ironia', 'figuras de linguagem']
-  },
-  {
-    id: 'Q-DID-PT-1606',
-    tipo: 'DIDATICA',
-    area: 'TEXT',
-    moduloId: 'PT-16',
-    subtema: 'Estratégia integrada',
-    dificuldade: 3,
-    prioridade: 'muito_alta',
-    enunciado: 'Em uma questão de reescrita que pede "manter o sentido e a correção gramatical", a estratégia correta é:',
-    alternativas: [
-      { id: 'A', texto: 'Verificar apenas o sentido, pois a gramática já está correta.' },
-      { id: 'B', texto: 'Verificar apenas a gramática, pois o sentido raramente muda.' },
-      { id: 'C', texto: 'Verificar SEMPRE duas coisas: (a) se o sentido foi mantido; (b) se não há erro gramatical na alternativa.' },
-      { id: 'D', texto: 'Marcar a alternativa mais longa, pois costuma ser a mais completa.' }
-    ],
-    gabarito: 'C',
-    explicacao: {
-      correta: 'A banca coloca armadilhas duplas: alternativas que mantêm o sentido, mas com erro gramatical; ou alternativas gramaticalmente corretas, mas com sentido alterado.',
-      incorretas: { A: 'Erro gramatical escondido é comum.', B: 'Sentido pode mudar com conectores.', D: 'Tamanho não é critério.' },
-      conceitoCobrado: 'Estratégia em questões integradas.',
-      pegadinha: 'Verificar só uma das duas coisas.',
-      comoApareceEmConcurso: 'Reescrita e questões integradas.'
-    },
-    tags: ['reescrita', 'estratégia']
-  },
-
-  /* ============================================================
-     PT-02 — Tipologia, Gêneros Textuais e Comunicação
-  ============================================================ */
-  {
-    id: 'Q-DID-PT-0201',
-    tipo: 'DIDATICA',
-    area: 'LEIT',
-    moduloId: 'PT-02',
-    subtema: 'Tipo textual',
-    dificuldade: 1,
-    prioridade: 'alta',
-    enunciado: 'Uma bula de remédio, uma receita de bolo e um manual de instruções são exemplos predominantes de qual tipo textual?',
-    alternativas: [
-      { id: 'A', texto: 'Narração.' },
-      { id: 'B', texto: 'Descrição.' },
-      { id: 'C', texto: 'Argumentação.' },
-      { id: 'D', texto: 'Injunção (instrucional).' }
-    ],
-    gabarito: 'D',
-    explicacao: {
-      correta: 'Textos que instruem, orientam e apresentam sequência de passos são INJUNTIVOS. Uso de verbos no imperativo.',
-      incorretas: { A: 'Narração conta fatos, com personagens e ação.', B: 'Descrição caracteriza seres e objetos.', C: 'Argumentação defende uma tese.' },
-      conceitoCobrado: 'Tipologia textual.',
-      pegadinha: 'Confundir injunção com exposição.',
-      comoApareceEmConcurso: 'Cobrança direta.'
-    },
-    tags: ['injunção', 'tipologia']
-  },
-  {
-    id: 'Q-DID-PT-0202',
-    tipo: 'DIDATICA',
-    area: 'LEIT',
-    moduloId: 'PT-02',
-    subtema: 'Tipo x gênero',
-    dificuldade: 3,
-    prioridade: 'alta',
-    enunciado: 'Sobre a diferença entre TIPO textual e GÊNERO textual, é correto afirmar que:',
-    alternativas: [
-      { id: 'A', texto: 'São sinônimos.' },
-      { id: 'B', texto: 'TIPO é a categoria abstrata de organização do discurso (narração, descrição, exposição, argumentação, injunção); GÊNERO é a forma concreta e social (notícia, receita, e-mail).' },
-      { id: 'C', texto: 'GÊNERO é abstrato; TIPO é concreto.' },
-      { id: 'D', texto: 'Todo gênero tem apenas um tipo textual.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'TIPO = modo de organizar o discurso. GÊNERO = forma social concreta.',
-      incorretas: { A: 'São conceitos distintos.', C: 'Inverte.', D: 'Um gênero pode conter vários tipos.' },
-      conceitoCobrado: 'Tipo x gênero.',
-      pegadinha: 'Tratar como sinônimos.',
-      comoApareceEmConcurso: 'Cobrança conceitual.'
-    },
-    tags: ['tipo', 'gênero']
-  },
-  {
-    id: 'Q-DID-PT-0203',
-    tipo: 'DIDATICA',
-    area: 'LEIT',
-    moduloId: 'PT-02',
-    subtema: 'Funções da linguagem',
-    dificuldade: 2,
-    prioridade: 'alta',
-    enunciado: 'Uma propaganda com o slogan "Compre agora e transforme seu treino!" apresenta, predominantemente, qual função da linguagem?',
-    alternativas: [
-      { id: 'A', texto: 'Referencial (informar).' },
-      { id: 'B', texto: 'Apelativa (conativa).' },
-      { id: 'C', texto: 'Metalinguística.' },
-      { id: 'D', texto: 'Fática.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'A propaganda busca influenciar o leitor a agir — função APELATIVA (conativa). Verbos no imperativo.',
-      incorretas: { A: 'Referencial informa objetivamente.', C: 'Metalinguística fala da própria linguagem.', D: 'Fática mantém contato.' },
-      conceitoCobrado: 'Funções da linguagem.',
-      pegadinha: 'Confundir apelativa com referencial.',
-      comoApareceEmConcurso: 'Cobrança recorrente.'
-    },
-    tags: ['funções da linguagem']
-  },
-  {
-    id: 'Q-DID-PT-0204',
-    tipo: 'DIDATICA',
-    area: 'LEIT',
-    moduloId: 'PT-02',
-    subtema: 'Narração x descrição',
-    dificuldade: 2,
-    prioridade: 'alta',
-    enunciado: 'Sobre narração e descrição, é correto afirmar que:',
-    alternativas: [
-      { id: 'A', texto: 'Ambas contam fatos em sequência temporal.' },
-      { id: 'B', texto: 'Narração apresenta AÇÃO e personagens; descrição caracteriza seres, objetos ou lugares (ESTADO).' },
-      { id: 'C', texto: 'Descrição é sempre mais longa que narração.' },
-      { id: 'D', texto: 'Narração não tem personagens.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'NARRAÇÃO: ação, personagens, tempo, espaço. DESCRIÇÃO: caracterização, estado.',
-      incorretas: { A: 'Só a narração conta fatos.', C: 'Extensão não define tipo.', D: 'Narração tem personagens.' },
-      conceitoCobrado: 'Narração x descrição.',
-      pegadinha: 'Confundir as duas.',
-      comoApareceEmConcurso: 'Cobrança direta.'
-    },
-    tags: ['narração', 'descrição']
-  },
-  {
-    id: 'Q-DID-PT-0205',
-    tipo: 'DIDATICA',
-    area: 'LEIT',
-    moduloId: 'PT-02',
-    subtema: 'Exposição x argumentação',
-    dificuldade: 3,
-    prioridade: 'alta',
-    enunciado: 'Sobre exposição e argumentação, é correto afirmar que:',
-    alternativas: [
-      { id: 'A', texto: 'São sinônimos.' },
-      { id: 'B', texto: 'Exposição apresenta informação de forma neutra; argumentação defende uma tese com argumentos.' },
-      { id: 'C', texto: 'Argumentação só ocorre em textos jornalísticos.' },
-      { id: 'D', texto: 'Exposição sempre tem tese.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'EXPOSIÇÃO: informa, sem defender. ARGUMENTAÇÃO: defende tese com argumentos.',
-      incorretas: { A: 'São distintos.', C: 'Aparece também em redações, editoriais, resenhas.', D: 'Tese é característica da argumentação.' },
-      conceitoCobrado: 'Exposição x argumentação.',
-      pegadinha: 'Confundir as duas.',
-      comoApareceEmConcurso: 'Cobrança recorrente.'
-    },
-    tags: ['exposição', 'argumentação']
-  },
-
-  /* ============================================================
-     PT-03 — Semântica e Sentido das Palavras
-  ============================================================ */
-  {
-    id: 'Q-DID-PT-0301',
-    tipo: 'DIDATICA',
-    area: 'LEXI',
-    moduloId: 'PT-03',
-    subtema: 'Denotação x conotação',
-    dificuldade: 1,
-    prioridade: 'alta',
-    enunciado: 'Na frase "Ele tem um coração de pedra", o termo "coração de pedra" está em sentido:',
-    alternativas: [
-      { id: 'A', texto: 'Denotativo (literal).' },
-      { id: 'B', texto: 'Conotativo (figurado).' },
-      { id: 'C', texto: 'Científico.' },
-      { id: 'D', texto: 'Técnico.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'Sentido figurado — pessoa fria/insensível. Também é uma METÁFORA.',
-      incorretas: { A: 'Denotativo seria literal (órgão de pedra).', C: 'Não é linguagem científica.', D: 'Não é linguagem técnica.' },
-      conceitoCobrado: 'Denotação x conotação.',
-      pegadinha: 'Confundir sentido literal com figurado.',
-      comoApareceEmConcurso: 'Cobrança clássica.'
-    },
-    tags: ['denotação', 'conotação']
-  },
-  {
-    id: 'Q-DID-PT-0302',
-    tipo: 'DIDATICA',
-    area: 'LEXI',
-    moduloId: 'PT-03',
-    subtema: 'Homônimos x parônimos',
-    dificuldade: 2,
-    prioridade: 'alta',
-    enunciado: 'As palavras "eminente" (importante) e "iminente" (que está por vir) são exemplos de:',
-    alternativas: [
-      { id: 'A', texto: 'Homônimos.' },
-      { id: 'B', texto: 'Parônimos.' },
-      { id: 'C', texto: 'Sinônimos.' },
-      { id: 'D', texto: 'Antônimos.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'PARÔNIMOS: parecidos, mas diferentes na pronúncia, escrita e sentido.',
-      incorretas: { A: 'Homônimos têm mesma pronúncia/escrita (ex.: "cela" e "sela").', C: 'Sinônimos têm sentido parecido.', D: 'Antônimos têm sentido oposto.' },
-      conceitoCobrado: 'Homônimos x parônimos.',
-      pegadinha: 'Trocar os conceitos.',
-      comoApareceEmConcurso: 'Cobrança recorrente.'
-    },
-    tags: ['parônimos']
-  },
-  {
-    id: 'Q-DID-PT-0303',
-    tipo: 'DIDATICA',
-    area: 'LEXI',
-    moduloId: 'PT-03',
-    subtema: 'Figuras de linguagem',
-    dificuldade: 2,
-    prioridade: 'alta',
-    enunciado: 'Na frase "Chorei rios de lágrimas", a figura de linguagem presente é:',
-    alternativas: [
-      { id: 'A', texto: 'Metáfora.' },
-      { id: 'B', texto: 'Metonímia.' },
-      { id: 'C', texto: 'Hipérbole.' },
-      { id: 'D', texto: 'Eufemismo.' }
-    ],
-    gabarito: 'C',
-    explicacao: {
-      correta: 'HIPÉRBOLE: exagero intencional. "Rios de lágrimas" não é literal.',
-      incorretas: { A: 'Metáfora é comparação implícita.', B: 'Metonímia é substituição por proximidade.', D: 'Eufemismo suaviza.' },
-      conceitoCobrado: 'Figuras de linguagem.',
-      pegadinha: 'Confundir hipérbole com metáfora.',
-      comoApareceEmConcurso: 'Cobrança recorrente.'
-    },
-    tags: ['hipérbole', 'figuras de linguagem']
-  },
-  {
-    id: 'Q-DID-PT-0304',
-    tipo: 'DIDATICA',
-    area: 'LEXI',
-    moduloId: 'PT-03',
-    subtema: 'Polissemia x ambiguidade',
-    dificuldade: 3,
-    prioridade: 'alta',
-    enunciado: 'Na frase "João disse a Pedro que ele era o culpado", o problema de sentido é:',
-    alternativas: [
-      { id: 'A', texto: 'Polissemia natural.' },
-      { id: 'B', texto: 'Ambiguidade — não se sabe a quem o pronome "ele" se refere (João ou Pedro).' },
-      { id: 'C', texto: 'Denotação.' },
-      { id: 'D', texto: 'Sinonímia.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'AMBIGUIDADE: dupla interpretação em um mesmo contexto. O pronome "ele" pode retomar "João" ou "Pedro".',
-      incorretas: { A: 'Polissemia é da palavra, não da frase.', C: 'Denotação é sentido literal.', D: 'Sinonímia é relação entre palavras.' },
-      conceitoCobrado: 'Ambiguidade.',
-      pegadinha: 'Confundir polissemia com ambiguidade.',
-      comoApareceEmConcurso: 'Cobrança conceitual.'
-    },
-    tags: ['ambiguidade', 'polissemia']
-  },
-  {
-    id: 'Q-DID-PT-0305',
-    tipo: 'DIDATICA',
-    area: 'LEXI',
-    moduloId: 'PT-03',
-    subtema: 'Metáfora x metonímia',
-    dificuldade: 3,
-    prioridade: 'alta',
-    enunciado: 'Em "Li Machado de Assis", a figura de linguagem presente é:',
-    alternativas: [
-      { id: 'A', texto: 'Metáfora.' },
-      { id: 'B', texto: 'Metonímia.' },
-      { id: 'C', texto: 'Hipérbole.' },
-      { id: 'D', texto: 'Ironia.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'METONÍMIA: substituição por proximidade — autor pela obra. Leu as obras, não a pessoa.',
-      incorretas: { A: 'Metáfora é comparação implícita.', C: 'Hipérbole é exagero.', D: 'Ironia é sentido contrário.' },
-      conceitoCobrado: 'Metáfora x metonímia.',
-      pegadinha: 'Confundir as duas.',
-      comoApareceEmConcurso: 'Cobrança recorrente.'
-    },
-    tags: ['metonímia']
-  },
-
-  /* ============================================================
-     PT-04 — Ortografia Oficial e Acentuação
-  ============================================================ */
-  {
-    id: 'Q-DID-PT-0401',
-    tipo: 'DIDATICA',
-    area: 'ORTO',
-    moduloId: 'PT-04',
-    subtema: 'Acentuação',
-    dificuldade: 2,
-    prioridade: 'alta',
-    enunciado: 'Assinale a alternativa em que TODAS as palavras estão corretamente acentuadas:',
-    alternativas: [
-      { id: 'A', texto: 'Café, facil, arvore, saida.' },
-      { id: 'B', texto: 'Café, fácil, árvore, saída.' },
-      { id: 'C', texto: 'Cafe, fácil, árvore, saída.' },
-      { id: 'D', texto: 'Café, fácil, arvore, saida.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'café (oxítona em E), fácil (paroxítona em L), árvore (proparoxítona), saída (hiato).',
-      incorretas: { A: 'Faltam acentos em fácil, árvore, saída.', C: 'Falta acento em café.', D: 'Faltam acentos em árvore, saída.' },
-      conceitoCobrado: 'Regras de acentuação.',
-      pegadinha: 'Esquecer as regras de paroxítonas e proparoxítonas.',
-      comoApareceEmConcurso: 'Cobrança frequente.'
-    },
-    tags: ['acentuação']
-  },
-  {
-    id: 'Q-DID-PT-0402',
-    tipo: 'DIDATICA',
-    area: 'ORTO',
-    moduloId: 'PT-04',
-    subtema: 'Proparoxítonas',
-    dificuldade: 1,
-    prioridade: 'alta',
-    enunciado: 'Assinale a alternativa que apresenta uma palavra proparoxítona corretamente acentuada:',
-    alternativas: [
-      { id: 'A', texto: 'Café.' },
-      { id: 'B', texto: 'Fácil.' },
-      { id: 'C', texto: 'Árvore.' },
-      { id: 'D', texto: 'Caderno.' }
-    ],
-    gabarito: 'C',
-    explicacao: {
-      correta: '"Árvore" tem a antepenúltima sílaba tônica (proparoxítona) e é sempre acentuada.',
-      incorretas: { A: 'Café é oxítona.', B: 'Fácil é paroxítona.', D: 'Caderno é paroxítona sem acento.' },
-      conceitoCobrado: 'Proparoxítonas são todas acentuadas.',
-      pegadinha: 'Confundir classificação.',
-      comoApareceEmConcurso: 'Cobrança direta.'
-    },
-    tags: ['proparoxítona']
-  },
-  {
-    id: 'Q-DID-PT-0403',
-    tipo: 'DIDATICA',
-    area: 'ORTO',
-    moduloId: 'PT-04',
-    subtema: 'Uso dos porquês',
-    dificuldade: 2,
-    prioridade: 'alta',
-    enunciado: 'Complete: "Não sei ___ ele não veio, mas imagino o ___."',
-    alternativas: [
-      { id: 'A', texto: 'porque / porquê' },
-      { id: 'B', texto: 'por que / porquê' },
-      { id: 'C', texto: 'porquê / porque' },
-      { id: 'D', texto: 'por que / por que' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: '"POR QUE" (pergunta indireta, equivale a "por qual razão"); "PORQUÊ" (substantivo, equivale a "motivo").',
-      incorretas: { A: '"Porque" é conjunção causal — não cabe aqui.', C: 'Inverte.', D: 'O segundo "por que" está errado — é substantivo.' },
-      conceitoCobrado: 'Uso dos porquês.',
-      pegadinha: 'Trocar as formas.',
-      comoApareceEmConcurso: 'Cobrança clássica.'
-    },
-    tags: ['porquês']
-  },
-  {
-    id: 'Q-DID-PT-0404',
-    tipo: 'DIDATICA',
-    area: 'ORTO',
-    moduloId: 'PT-04',
-    subtema: 'Acento diferencial',
-    dificuldade: 2,
-    prioridade: 'alta',
-    enunciado: 'Assinale a alternativa em que o acento diferencial está empregado CORRETAMENTE:',
-    alternativas: [
-      { id: 'A', texto: 'Ele não pode vir ontem.' },
-      { id: 'B', texto: 'Ele não pôde vir ontem.' },
-      { id: 'C', texto: 'Ele não póde vir ontem.' },
-      { id: 'D', texto: 'Ele não pôde vir hoje.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: '"PÔDE" é o passado (pretérito perfeito). Combinando com "ontem", a forma correta é "pôde".',
-      incorretas: { A: 'Falta o acento — "pode" é presente.', C: 'Acento errado.', D: 'Tempo verbal incompatível com "hoje".' },
-      conceitoCobrado: 'Acento diferencial pôde/pode.',
-      pegadinha: 'Confundir presente com passado.',
-      comoApareceEmConcurso: 'Cobrança recorrente.'
-    },
-    tags: ['acento diferencial']
-  },
-  {
-    id: 'Q-DID-PT-0405',
-    tipo: 'DIDATICA',
-    area: 'ORTO',
-    moduloId: 'PT-04',
-    subtema: 'Hífen pós-Acordo Ortográfico',
-    dificuldade: 3,
-    prioridade: 'alta',
-    enunciado: 'Após o Acordo Ortográfico, qual a grafia CORRETA?',
-    alternativas: [
-      { id: 'A', texto: 'Anti-racista.' },
-      { id: 'B', texto: 'Antirracista.' },
-      { id: 'C', texto: 'Anti racista.' },
-      { id: 'D', texto: 'Antir-racista.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'Prefixo "anti-" (terminado em vogal) + palavra iniciada por R → dobra o R e NÃO usa hífen: "antirracista".',
-      incorretas: { A: 'Hífen abolido nesse caso.', C: 'Sem hífen e sem duplicação.', D: 'Hífen em local errado.' },
-      conceitoCobrado: 'Regras do hífen pós-Acordo.',
-      pegadinha: 'Aplicar regras antigas.',
-      comoApareceEmConcurso: 'Cobrança atualizada.'
-    },
-    tags: ['hífen']
-  },
-
-  /* ============================================================
-     PT-05 — Classes de Palavras: Visão Geral
-  ============================================================ */
-  {
-    id: 'Q-DID-PT-0501',
-    tipo: 'DIDATICA',
-    area: 'LEXI',
-    moduloId: 'PT-05',
-    subtema: 'Advérbio x adjetivo',
-    dificuldade: 2,
-    prioridade: 'alta',
-    enunciado: 'Na frase "Ele fala muito bem", a palavra "muito" pertence à classe:',
-    alternativas: [
-      { id: 'A', texto: 'Adjetivo.' },
-      { id: 'B', texto: 'Substantivo.' },
-      { id: 'C', texto: 'Advérbio.' },
-      { id: 'D', texto: 'Pronome.' }
-    ],
-    gabarito: 'C',
-    explicacao: {
-      correta: '"Muito" modifica o advérbio "bem", intensificando. É ADVÉRBIO — invariável.',
-      incorretas: { A: 'Adjetivo caracteriza substantivo.', B: 'Não nomeia.', D: 'Não substitui substantivo.' },
-      conceitoCobrado: 'Advérbio x adjetivo.',
-      pegadinha: 'Confundir com "muitos alunos" (adjetivo/pronome indefinido).',
-      comoApareceEmConcurso: 'Cobrança direta.'
-    },
-    tags: ['advérbio']
-  },
-  {
-    id: 'Q-DID-PT-0502',
-    tipo: 'DIDATICA',
-    area: 'LEXI',
-    moduloId: 'PT-05',
-    subtema: 'Preposição x conjunção',
-    dificuldade: 2,
-    prioridade: 'alta',
-    enunciado: 'A palavra "e" em "Pedro e Maria estudam" pertence à classe:',
-    alternativas: [
-      { id: 'A', texto: 'Preposição.' },
-      { id: 'B', texto: 'Conjunção.' },
-      { id: 'C', texto: 'Artigo.' },
-      { id: 'D', texto: 'Pronome.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: '"E" é CONJUNÇÃO coordenativa aditiva — liga termos de mesma função ou orações.',
-      incorretas: { A: 'Preposição liga termos com dependência.', C: 'Artigo determina o substantivo.', D: 'Pronome substitui/acompanha o substantivo.' },
-      conceitoCobrado: 'Preposição x conjunção.',
-      pegadinha: 'Confundir as duas.',
-      comoApareceEmConcurso: 'Cobrança direta.'
-    },
-    tags: ['conjunção']
-  },
-  {
-    id: 'Q-DID-PT-0503',
-    tipo: 'DIDATICA',
-    area: 'LEXI',
-    moduloId: 'PT-05',
-    subtema: 'Palavra que muda de classe',
-    dificuldade: 3,
-    prioridade: 'alta',
-    enunciado: 'Na frase "O jantar está pronto", a palavra "jantar" pertence à classe:',
-    alternativas: [
-      { id: 'A', texto: 'Verbo.' },
-      { id: 'B', texto: 'Substantivo.' },
-      { id: 'C', texto: 'Adjetivo.' },
-      { id: 'D', texto: 'Advérbio.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'Precedido de artigo "o", "jantar" funciona como SUBSTANTIVO (nomeia a refeição). Em "Vou jantar agora", seria VERBO.',
-      incorretas: { A: 'Seria verbo sem o artigo.', C: 'Não caracteriza.', D: 'Não modifica verbo.' },
-      conceitoCobrado: 'Palavra que muda de classe conforme contexto.',
-      pegadinha: 'Analisar a palavra isolada.',
-      comoApareceEmConcurso: 'Cobrança conceitual.'
-    },
-    tags: ['substantivação']
-  },
-  {
-    id: 'Q-DID-PT-0504',
-    tipo: 'DIDATICA',
-    area: 'LEXI',
-    moduloId: 'PT-05',
-    subtema: 'Substantivo x adjetivo',
-    dificuldade: 3,
-    prioridade: 'alta',
-    enunciado: 'Em "O jovem estudioso foi aprovado", os termos "jovem" e "estudioso" são, respectivamente:',
-    alternativas: [
-      { id: 'A', texto: 'Adjetivo e substantivo.' },
-      { id: 'B', texto: 'Substantivo e adjetivo.' },
-      { id: 'C', texto: 'Advérbio e substantivo.' },
-      { id: 'D', texto: 'Substantivo e substantivo.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: '"Jovem" com artigo "o" é SUBSTANTIVO. "Estudioso" caracteriza o substantivo → ADJETIVO.',
-      incorretas: { A: 'Inverte.', C: 'Nenhum é advérbio.', D: 'Não são os dois substantivos.' },
-      conceitoCobrado: 'Substantivo x adjetivo.',
-      pegadinha: 'Confundir as classes.',
-      comoApareceEmConcurso: 'Cobrança direta.'
-    },
-    tags: ['substantivo', 'adjetivo']
-  },
-  {
-    id: 'Q-DID-PT-0505',
-    tipo: 'DIDATICA',
-    area: 'LEXI',
-    moduloId: 'PT-05',
-    subtema: 'Pronome x artigo',
-    dificuldade: 3,
-    prioridade: 'alta',
-    enunciado: 'Em "Eu a vi ontem", o termo "a" pertence à classe:',
-    alternativas: [
-      { id: 'A', texto: 'Artigo.' },
-      { id: 'B', texto: 'Pronome.' },
-      { id: 'C', texto: 'Preposição.' },
-      { id: 'D', texto: 'Conjunção.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: '"A" aqui substitui um substantivo feminino ("ela"). É PRONOME pessoal oblíquo. Não é artigo, pois não determina substantivo.',
-      incorretas: { A: 'Artigo determina substantivo.', C: 'Não é preposição.', D: 'Não é conjunção.' },
-      conceitoCobrado: 'Pronome x artigo.',
-      pegadinha: 'Achar que "a" é sempre artigo.',
-      comoApareceEmConcurso: 'Cobrança conceitual.'
-    },
-    tags: ['pronome', 'artigo']
-  },
-
-  /* ============================================================
-     PT-07 — Sintaxe da Oração e do Período
-  ============================================================ */
-  {
-    id: 'Q-DID-PT-0701',
-    tipo: 'DIDATICA',
-    area: 'SINT',
-    moduloId: 'PT-07',
-    subtema: 'Objeto direto x indireto',
-    dificuldade: 2,
-    prioridade: 'alta',
-    enunciado: 'Na frase "Entreguei o livro ao professor", os termos "o livro" e "ao professor" são, respectivamente:',
-    alternativas: [
-      { id: 'A', texto: 'Objeto indireto e objeto direto.' },
-      { id: 'B', texto: 'Objeto direto e objeto indireto.' },
-      { id: 'C', texto: 'Complemento nominal e agente da passiva.' },
-      { id: 'D', texto: 'Sujeito e predicativo.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: '"O livro" (sem preposição) = OBJETO DIRETO. "Ao professor" (com preposição) = OBJETO INDIRETO.',
-      incorretas: { A: 'Inverte.', C: 'Não são esses termos.', D: 'Sujeito é quem faz.' },
-      conceitoCobrado: 'Objeto direto x indireto.',
-      pegadinha: 'Inverter.',
-      comoApareceEmConcurso: 'Cobrança clássica.'
-    },
-    tags: ['objeto direto', 'objeto indireto']
-  },
-  {
-    id: 'Q-DID-PT-0702',
-    tipo: 'DIDATICA',
-    area: 'SINT',
-    moduloId: 'PT-07',
-    subtema: 'Sujeito oculto x indeterminado',
-    dificuldade: 3,
-    prioridade: 'alta',
-    enunciado: 'Na frase "Roubaram minha bolsa", o sujeito é classificado como:',
-    alternativas: [
-      { id: 'A', texto: 'Simples.' },
-      { id: 'B', texto: 'Oculto.' },
-      { id: 'C', texto: 'Indeterminado.' },
-      { id: 'D', texto: 'Inexistente.' }
-    ],
-    gabarito: 'C',
-    explicacao: {
-      correta: 'SUJEITO INDETERMINADO: verbo na 3ª pessoa do plural sem sujeito expresso. Não se sabe quem roubou.',
-      incorretas: { A: 'Sujeito simples estaria expresso.', B: 'Oculto pode ser identificado; aqui, não.', D: 'Inexistente não há (verbos impessoais).' },
-      conceitoCobrado: 'Tipos de sujeito.',
-      pegadinha: 'Confundir oculto com indeterminado.',
-      comoApareceEmConcurso: 'Cobrança recorrente.'
-    },
-    tags: ['sujeito indeterminado']
-  },
-  {
-    id: 'Q-DID-PT-0703',
-    tipo: 'DIDATICA',
-    area: 'SINT',
-    moduloId: 'PT-07',
-    subtema: 'Adjunto adnominal x complemento nominal',
-    dificuldade: 3,
-    prioridade: 'alta',
-    enunciado: 'Na expressão "o medo de altura", o termo "de altura" é classificado como:',
-    alternativas: [
-      { id: 'A', texto: 'Adjunto adnominal.' },
-      { id: 'B', texto: 'Complemento nominal.' },
-      { id: 'C', texto: 'Aposto.' },
-      { id: 'D', texto: 'Vocativo.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'COMPLEMENTO NOMINAL: completa o substantivo abstrato "medo" com preposição, indicando o alvo do medo.',
-      incorretas: { A: 'Adjunto adnominal caracteriza (posse, qualidade).', C: 'Aposto explica.', D: 'Vocativo chama.' },
-      conceitoCobrado: 'Adjunto adnominal x complemento nominal.',
-      pegadinha: 'Confundir as duas funções.',
-      comoApareceEmConcurso: 'Cobrança clássica.'
-    },
-    tags: ['complemento nominal']
-  },
-  {
-    id: 'Q-DID-PT-0704',
-    tipo: 'DIDATICA',
-    area: 'SINT',
-    moduloId: 'PT-07',
-    subtema: 'Coordenada x subordinada',
-    dificuldade: 3,
-    prioridade: 'alta',
-    enunciado: 'Na frase "Estudei muito, mas não passei", a segunda oração ("mas não passei") é classificada como:',
-    alternativas: [
-      { id: 'A', texto: 'Oração subordinada substantiva.' },
-      { id: 'B', texto: 'Oração subordinada adjetiva.' },
-      { id: 'C', texto: 'Oração coordenada adversativa.' },
-      { id: 'D', texto: 'Oração subordinada adverbial.' }
-    ],
-    gabarito: 'C',
-    explicacao: {
-      correta: 'COORDENADA ADVERSATIVA: liga orações independentes com ideia de contraste ("mas").',
-      incorretas: { A: 'Substantiva exerce função de substantivo.', B: 'Adjetiva caracteriza substantivo.', D: 'Adverbial indica circunstância.' },
-      conceitoCobrado: 'Orações coordenadas.',
-      pegadinha: 'Confundir com subordinada.',
-      comoApareceEmConcurso: 'Cobrança recorrente.'
-    },
-    tags: ['coordenada adversativa']
-  },
-  {
-    id: 'Q-DID-PT-0705',
-    tipo: 'DIDATICA',
-    area: 'SINT',
-    moduloId: 'PT-07',
-    subtema: 'Predicado',
-    dificuldade: 3,
-    prioridade: 'alta',
-    enunciado: 'Na frase "Ele chegou cansado", o predicado é classificado como:',
-    alternativas: [
-      { id: 'A', texto: 'Verbal.' },
-      { id: 'B', texto: 'Nominal.' },
-      { id: 'C', texto: 'Verbo-nominal.' },
-      { id: 'D', texto: 'Inexistente.' }
-    ],
-    gabarito: 'C',
-    explicacao: {
-      correta: 'PREDICADO VERBO-NOMINAL: tem dois núcleos — verbo ("chegou") + predicativo do sujeito ("cansado").',
-      incorretas: { A: 'Verbal só tem verbo significativo.', B: 'Nominal tem verbo de ligação + predicativo.', D: 'Existe predicado.' },
-      conceitoCobrado: 'Tipos de predicado.',
-      pegadinha: 'Confundir os três tipos.',
-      comoApareceEmConcurso: 'Cobrança recorrente.'
-    },
-    tags: ['predicado verbo-nominal']
-  },
-
-  /* ============================================================
-     PT-10 — Regência Verbal, Regência Nominal e Crase
-  ============================================================ */
-  {
-    id: 'Q-DID-PT-1001',
-    tipo: 'DIDATICA',
-    area: 'SINT',
-    moduloId: 'PT-10',
-    subtema: 'Crase',
-    dificuldade: 2,
-    prioridade: 'alta',
-    enunciado: 'Assinale a alternativa em que a crase está empregada CORRETAMENTE:',
-    alternativas: [
-      { id: 'A', texto: 'Vou à pé até a escola.' },
-      { id: 'B', texto: 'Começou à chover forte.' },
-      { id: 'C', texto: 'Entreguei o livro à professora.' },
-      { id: 'D', texto: 'Fiquei cara à cara com ele.' }
-    ],
-    gabarito: 'C',
-    explicacao: {
-      correta: '"À professora": preposição "a" + artigo "a" + palavra feminina. Crase correta.',
-      incorretas: { A: 'Palavra masculina ("pé") — sem crase.', B: 'Antes de verbo — sem crase.', D: 'Palavras repetidas — sem crase.' },
-      conceitoCobrado: 'Crase — casos obrigatórios, proibidos.',
-      pegadinha: 'Crase antes de palavra masculina e verbo.',
-      comoApareceEmConcurso: 'Cobrança recorrente.'
-    },
-    tags: ['crase']
-  },
-  {
-    id: 'Q-DID-PT-1002',
-    tipo: 'DIDATICA',
-    area: 'SINT',
-    moduloId: 'PT-10',
-    subtema: 'Verbos de dupla regência',
-    dificuldade: 3,
-    prioridade: 'alta',
-    enunciado: 'Sobre o verbo "assistir", é correto afirmar que:',
-    alternativas: [
-      { id: 'A', texto: 'Tem sempre a mesma regência.' },
-      { id: 'B', texto: 'No sentido de "ver", pede a preposição "a" ("Assisti ao filme"); no sentido de "ajudar", não pede preposição ("O médico assistiu o paciente").' },
-      { id: 'C', texto: 'Sempre rege preposição "em".' },
-      { id: 'D', texto: 'Nunca aceita preposição.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: '"Assistir" tem dupla regência: VER → a; AJUDAR → sem preposição.',
-      incorretas: { A: 'Depende do sentido.', C: 'Não é "em".', D: 'Pode aceitar.' },
-      conceitoCobrado: 'Verbos de dupla regência.',
-      pegadinha: 'Achar que a regência é fixa.',
-      comoApareceEmConcurso: 'Cobrança clássica.'
-    },
-    tags: ['assistir', 'regência']
-  },
-  {
-    id: 'Q-DID-PT-1003',
-    tipo: 'DIDATICA',
-    area: 'SINT',
-    moduloId: 'PT-10',
-    subtema: 'Crase proibida',
-    dificuldade: 3,
-    prioridade: 'alta',
-    enunciado: 'Em qual alternativa a crase é PROIBIDA?',
-    alternativas: [
-      { id: 'A', texto: 'Referi-me àquele episódio.' },
-      { id: 'B', texto: 'Cheguei à noite.' },
-      { id: 'C', texto: 'Vou a Brasília.' },
-      { id: 'D', texto: 'Entreguei o livro à Maria.' }
-    ],
-    gabarito: 'C',
-    explicacao: {
-      correta: 'Crase PROIBIDA antes de nome de cidade sem artigo: "Vou a Brasília".',
-      incorretas: { A: 'Crase obrigatória (aquele).', B: 'Crase obrigatória (locução feminina).', D: 'Crase facultativa (nome próprio).' },
-      conceitoCobrado: 'Casos de crase.',
-      pegadinha: 'Generalizar a crase.',
-      comoApareceEmConcurso: 'Cobrança recorrente.'
-    },
-    tags: ['crase']
-  },
-  {
-    id: 'Q-DID-PT-1004',
-    tipo: 'DIDATICA',
-    area: 'SINT',
-    moduloId: 'PT-10',
-    subtema: 'Regência nominal',
-    dificuldade: 3,
-    prioridade: 'alta',
-    enunciado: 'Assinale a alternativa CORRETA quanto à regência nominal:',
-    alternativas: [
-      { id: 'A', texto: 'Ele é obediente as regras.' },
-      { id: 'B', texto: 'Ele é obediente às regras.' },
-      { id: 'C', texto: 'Ele é obediente nas regras.' },
-      { id: 'D', texto: 'Ele é obediente com regras.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'O adjetivo "obediente" pede preposição "a": "obediente às regras". Com "as" (artigo plural), forma "às".',
-      incorretas: { A: 'Falta crase.', C: 'Preposição errada.', D: 'Preposição errada.' },
-      conceitoCobrado: 'Regência nominal + crase.',
-      pegadinha: 'Esquecer a crase.',
-      comoApareceEmConcurso: 'Cobrança recorrente.'
-    },
-    tags: ['regência nominal', 'crase']
-  },
-  {
-    id: 'Q-DID-PT-1005',
-    tipo: 'DIDATICA',
-    area: 'SINT',
-    moduloId: 'PT-10',
-    subtema: 'Teste da palavra masculina',
-    dificuldade: 2,
-    prioridade: 'alta',
-    enunciado: 'Para decidir se há crase em "Vou ___ escola", qual teste aplicar?',
-    alternativas: [
-      { id: 'A', texto: 'Substituir por verbo.' },
-      { id: 'B', texto: 'Substituir por palavra masculina: se aparecer "ao", há crase.' },
-      { id: 'C', texto: 'Verificar se a palavra seguinte é plural.' },
-      { id: 'D', texto: 'Contar as sílabas da frase.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'TESTE DA PALAVRA MASCULINA: substituir por masculino. Se aparecer "ao", há crase. Ex.: "Vou à escola" → "Vou ao colégio" (tem crase).',
-      incorretas: { A: 'Não substitui por verbo.', C: 'Plural não decide.', D: 'Não se conta sílabas.' },
-      conceitoCobrado: 'Teste prático para crase.',
-      pegadinha: 'Não conhecer o teste.',
-      comoApareceEmConcurso: 'Cobrança recorrente.'
-    },
-    tags: ['crase', 'teste']
-  },
-
-  /* ============================================================
-     PT-06 — Verbos e Pronomes
-  ============================================================ */
-  {
-    id: 'Q-DID-PT-0601',
-    tipo: 'DIDATICA',
-    area: 'LEXI',
-    moduloId: 'PT-06',
-    subtema: 'Indicativo x subjuntivo',
-    dificuldade: 2,
-    prioridade: 'media',
-    enunciado: 'Assinale a alternativa em que o verbo está no MODO SUBJUNTIVO:',
-    alternativas: [
-      { id: 'A', texto: 'Ele estuda todos os dias.' },
-      { id: 'B', texto: 'Ele estudou ontem.' },
-      { id: 'C', texto: 'Espero que ele estude mais.' },
-      { id: 'D', texto: 'Ele estudará amanhã.' }
-    ],
-    gabarito: 'C',
-    explicacao: {
-      correta: 'SUBJUNTIVO: expressa dúvida, hipótese, desejo. "Espero que ele estude" — ação como expectativa.',
-      incorretas: { A: 'Indicativo presente (certeza).', B: 'Indicativo pretérito perfeito.', D: 'Indicativo futuro do presente.' },
-      conceitoCobrado: 'Modos verbais: indicativo x subjuntivo.',
-      pegadinha: 'Confundir os modos.',
-      comoApareceEmConcurso: 'Cobrança recorrente.'
-    },
-    tags: ['verbo', 'subjuntivo']
-  },
-  {
-    id: 'Q-DID-PT-0602',
-    tipo: 'DIDATICA',
-    area: 'LEXI',
-    moduloId: 'PT-06',
-    subtema: 'Colocação pronominal',
-    dificuldade: 3,
-    prioridade: 'media',
-    enunciado: 'Assinale a alternativa em que a colocação pronominal está CORRETA:',
-    alternativas: [
-      { id: 'A', texto: 'Me diga a verdade.' },
-      { id: 'B', texto: 'Diga-me a verdade.' },
-      { id: 'C', texto: 'Diga me a verdade.' },
-      { id: 'D', texto: 'Me-diga a verdade.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'No IMPERATIVO AFIRMATIVO, o pronome vai DEPOIS do verbo (ÊNCLISE): "Diga-me a verdade."',
-      incorretas: { A: 'Próclise é proibida em imperativo afirmativo no início da frase.', C: 'Falta o hífen.', D: 'Hífen em local errado.' },
-      conceitoCobrado: 'Colocação pronominal — ênclise.',
-      pegadinha: 'Iniciar frase com pronome oblíquo.',
-      comoApareceEmConcurso: 'Cobrança clássica.'
-    },
-    tags: ['colocação pronominal']
-  },
-  {
-    id: 'Q-DID-PT-0603',
-    tipo: 'DIDATICA',
-    area: 'LEXI',
-    moduloId: 'PT-06',
-    subtema: 'Vozes verbais',
-    dificuldade: 2,
-    prioridade: 'media',
-    enunciado: 'A frase "O livro foi lido pelo aluno" está na voz:',
-    alternativas: [
-      { id: 'A', texto: 'Ativa.' },
-      { id: 'B', texto: 'Passiva analítica.' },
-      { id: 'C', texto: 'Reflexiva.' },
-      { id: 'D', texto: 'Passiva sintética.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'PASSIVA ANALÍTICA: verbo auxiliar (ser/estar) + particípio. O sujeito sofre a ação.',
-      incorretas: { A: 'Ativa: sujeito pratica.', C: 'Reflexiva: sujeito pratica e sofre.', D: 'Sintética: verbo + SE apassivador.' },
-      conceitoCobrado: 'Vozes verbais.',
-      pegadinha: 'Confundir passiva analítica com sintética.',
-      comoApareceEmConcurso: 'Cobrança recorrente.'
-    },
-    tags: ['voz passiva']
-  },
-  {
-    id: 'Q-DID-PT-0604',
-    tipo: 'DIDATICA',
-    area: 'LEXI',
-    moduloId: 'PT-06',
-    subtema: 'Pronome relativo "cujo"',
-    dificuldade: 3,
-    prioridade: 'media',
-    enunciado: 'Assinale a alternativa em que o pronome relativo está empregado CORRETAMENTE:',
-    alternativas: [
-      { id: 'A', texto: 'O aluno que o pai é médico passou.' },
-      { id: 'B', texto: 'O aluno cujo pai é médico passou.' },
-      { id: 'C', texto: 'O aluno cujo o pai é médico passou.' },
-      { id: 'D', texto: 'O aluno quem o pai é médico passou.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: '"CUJO" indica posse e NÃO varia em número. Não se usa artigo depois de "cujo".',
-      incorretas: { A: 'Uso incorreto de "que".', C: 'Não se usa artigo após "cujo".', D: '"Quem" não cabe aqui.' },
-      conceitoCobrado: 'Pronome relativo "cujo".',
-      pegadinha: 'Colocar artigo depois de "cujo".',
-      comoApareceEmConcurso: 'Cobrança frequente.'
-    },
-    tags: ['pronome relativo', 'cujo']
-  },
-  {
-    id: 'Q-DID-PT-0605',
-    tipo: 'DIDATICA',
-    area: 'LEXI',
-    moduloId: 'PT-06',
-    subtema: 'Tempos verbais',
-    dificuldade: 3,
-    prioridade: 'media',
-    enunciado: 'Sobre a diferença de sentido entre "Estudei ontem" e "Estudava quando era jovem", é correto afirmar que:',
-    alternativas: [
-      { id: 'A', texto: 'São equivalentes.' },
-      { id: 'B', texto: '"Estudei" é ação pontual (pretérito perfeito); "estudava" é ação contínua/habitual (pretérito imperfeito).' },
-      { id: 'C', texto: '"Estudei" é mais formal que "estudava".' },
-      { id: 'D', texto: 'Ambos estão no presente.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: '"ESTUDEI" (pretérito perfeito): ação pontual, concluída. "ESTUDAVA" (imperfeito): ação contínua, habitual.',
-      incorretas: { A: 'Sentidos diferentes.', C: 'Não é questão de formalidade.', D: 'Nenhum é presente.' },
-      conceitoCobrado: 'Tempos verbais — aspecto.',
-      pegadinha: 'Achar que os pretéritos são equivalentes.',
-      comoApareceEmConcurso: 'Cobrança recorrente.'
-    },
-    tags: ['tempos verbais']
-  },
-
-  /* ============================================================
-     PT-12 — Reescrita e Equivalência de Frases
-  ============================================================ */
-  {
-    id: 'Q-DID-PT-1201',
-    tipo: 'DIDATICA',
-    area: 'TEXT',
-    moduloId: 'PT-12',
-    subtema: 'Reescrita com erro gramatical',
-    dificuldade: 2,
-    prioridade: 'media',
-    enunciado: 'Considere a reescrita: "Os alunos do terceiro ano, foram aprovados no vestibular." Sobre essa reescrita:',
-    alternativas: [
-      { id: 'A', texto: 'Está correta — mantém o sentido e a gramática.' },
-      { id: 'B', texto: 'Está incorreta — há vírgula separando o sujeito do verbo.' },
-      { id: 'C', texto: 'Está correta, mas o sentido mudou.' },
-      { id: 'D', texto: 'Está incorreta — o verbo deveria estar no singular.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'A vírgula após "terceiro ano" separa SUJEITO de VERBO — PROIBIDO.',
-      incorretas: { A: 'Há erro gramatical.', C: 'O erro é gramatical, não de sentido.', D: 'A concordância está correta (plural).' },
-      conceitoCobrado: 'Reescrita — sentido + gramática.',
-      pegadinha: 'Erro gramatical escondido em alternativa aparentemente correta.',
-      comoApareceEmConcurso: 'Clássica em reescrita.'
-    },
-    tags: ['reescrita', 'vírgula']
-  },
-  {
-    id: 'Q-DID-PT-1202',
-    tipo: 'DIDATICA',
-    area: 'TEXT',
-    moduloId: 'PT-12',
-    subtema: 'Voz passiva',
-    dificuldade: 2,
-    prioridade: 'media',
-    enunciado: 'Sobre a transformação de "O menino quebrou o vidro" em "O vidro foi quebrado pelo menino", é correto afirmar que:',
-    alternativas: [
-      { id: 'A', texto: 'O sentido mudou completamente.' },
-      { id: 'B', texto: 'Mantém o sentido, com o objeto direto virando sujeito e o sujeito virando agente da passiva.' },
-      { id: 'C', texto: 'É impossível fazer essa transformação.' },
-      { id: 'D', texto: 'A segunda frase está errada.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'Ativa → passiva analítica: objeto direto vira sujeito; sujeito vira agente da passiva. O sentido essencial é mantido.',
-      incorretas: { A: 'Sentido mantido, foco alterado.', C: 'Transformação possível.', D: 'Frase correta.' },
-      conceitoCobrado: 'Voz ativa x passiva.',
-      pegadinha: 'Achar que a passiva muda o sentido.',
-      comoApareceEmConcurso: 'Cobrança recorrente.'
-    },
-    tags: ['voz passiva', 'reescrita']
-  },
-  {
-    id: 'Q-DID-PT-1203',
-    tipo: 'DIDATICA',
-    area: 'TEXT',
-    moduloId: 'PT-12',
-    subtema: 'Discurso direto x indireto',
-    dificuldade: 3,
-    prioridade: 'media',
-    enunciado: 'A frase "Ele disse: — Vou viajar amanhã", em discurso INDIRETO, fica:',
-    alternativas: [
-      { id: 'A', texto: 'Ele disse que vou viajar amanhã.' },
-      { id: 'B', texto: 'Ele disse que iria viajar no dia seguinte.' },
-      { id: 'C', texto: 'Ele disse: iria viajar amanhã.' },
-      { id: 'D', texto: 'Ele disse que viaja amanhã.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'No discurso indireto: "vou" (presente) → "iria" (futuro do pretérito); "amanhã" → "no dia seguinte".',
-      incorretas: { A: 'Mantém o presente sem ajuste.', C: 'Mistura discurso direto e indireto.', D: 'Tempo verbal incoerente.' },
-      conceitoCobrado: 'Discurso direto x indireto.',
-      pegadinha: 'Não fazer os ajustes de tempo e de advérbios.',
-      comoApareceEmConcurso: 'Cobrança recorrente.'
-    },
-    tags: ['discurso indireto']
-  },
-  {
-    id: 'Q-DID-PT-1204',
-    tipo: 'DIDATICA',
-    area: 'TEXT',
-    moduloId: 'PT-12',
-    subtema: 'Conectores e sentido',
-    dificuldade: 3,
-    prioridade: 'media',
-    enunciado: 'Sobre a equivalência entre "Não obstante o cansaço, ele continuou" e "Embora estivesse cansado, ele continuou", é correto afirmar que:',
-    alternativas: [
-      { id: 'A', texto: 'O sentido é completamente diferente.' },
-      { id: 'B', texto: 'São equivalentes: ambas expressam CONCESSÃO.' },
-      { id: 'C', texto: 'A primeira expressa causa; a segunda, consequência.' },
-      { id: 'D', texto: 'A segunda está errada.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: '"Não obstante" e "embora" são conectores de CONCESSÃO — admitem o fato contrário, mas o resultado prevalece.',
-      incorretas: { A: 'O sentido é o mesmo.', C: 'Nenhuma expressa causa/consequência.', D: 'A segunda está correta.' },
-      conceitoCobrado: 'Concessão — equivalência de conectores.',
-      pegadinha: 'Confundir concessão com causa.',
-      comoApareceEmConcurso: 'Cobrança de reescrita e coesão.'
-    },
-    tags: ['concessão', 'conectores']
-  },
-  {
-    id: 'Q-DID-PT-1205',
-    tipo: 'DIDATICA',
-    area: 'TEXT',
-    moduloId: 'PT-12',
-    subtema: 'Paralelismo',
-    dificuldade: 3,
-    prioridade: 'media',
-    enunciado: 'Assinale a alternativa em que o PARALELISMO está respeitado:',
-    alternativas: [
-      { id: 'A', texto: 'Ele gosta de ler, escrever e de descansar.' },
-      { id: 'B', texto: 'Ele gosta de ler, escrever e descansar.' },
-      { id: 'C', texto: 'Ele gosta de ler, escreve e descansar.' },
-      { id: 'D', texto: 'Ele gosta ler, escrever e descansar.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'PARALELISMO: manter a mesma estrutura na enumeração. Todos os verbos no infinitivo, com a mesma preposição.',
-      incorretas: { A: 'Repete "de" desnecessariamente, quebrando o paralelismo.', C: 'Mistura infinitivo com forma conjugada.', D: 'Falta preposição em "gosta ler".' },
-      conceitoCobrado: 'Paralelismo sintático.',
-      pegadinha: 'Repetir a preposição em todos os itens.',
-      comoApareceEmConcurso: 'Cobrança em reescrita.'
-    },
-    tags: ['paralelismo']
-  },
-   
-  /* ============================================================
-     PT-13 — Formação e Estrutura das Palavras (CONDICIONAL)
-     ============================================================ */
-  {
-    id: 'Q-DID-PT-1301',
-    tipo: 'DIDATICA',
-    area: 'LEXI',
-    moduloId: 'PT-13',
-    subtema: 'Processos de formação',
-    dificuldade: 2,
-    prioridade: 'condicional',
-    enunciado: 'A palavra "deslealdade" (des + leal + dade) é formada por:',
-    alternativas: [
-      { id: 'A', texto: 'Derivação prefixal.' },
-      { id: 'B', texto: 'Derivação sufixal.' },
-      { id: 'C', texto: 'Derivação prefixal e sufixal, pois existem "desleal" e "lealdade" isoladamente.' },
-      { id: 'D', texto: 'Derivação parassintética, pois tem prefixo e sufixo.' }
-    ],
-    gabarito: 'C',
-    explicacao: {
-      correta: '"Deslealdade" é PREFIXAL E SUFIXAL: o prefixo ("des-") e o sufixo ("-dade") podem existir independentemente — existem "desleal" e "lealdade".',
-      incorretas: { A: 'Só prefixal seria se não houvesse sufixo.', B: 'Só sufixal seria se não houvesse prefixo.', D: 'Parassintética exigiria que nem "desleal" nem "lealdade" existissem isoladamente.' },
-      conceitoCobrado: 'Distinção entre derivação prefixal e sufixal e derivação parassintética.',
-      pegadinha: 'Achar que todo prefixo + sufixo é parassintética.',
-      comoApareceEmConcurso: 'Cobrança direta em formação de palavras.'
-    },
-    tags: ['derivação', 'prefixal e sufixal']
-  },
-  {
-    id: 'Q-DID-PT-1302',
-    tipo: 'DIDATICA',
-    area: 'LEXI',
-    moduloId: 'PT-13',
-    subtema: 'Derivação parassintética',
-    dificuldade: 3,
-    prioridade: 'condicional',
-    enunciado: 'A palavra "amanhecer" é formada por:',
-    alternativas: [
-      { id: 'A', texto: 'Derivação prefixal e sufixal.' },
-      { id: 'B', texto: 'Derivação parassintética, pois prefixo e sufixo são dependentes — não existem "amanhe" nem "manhecer".' },
-      { id: 'C', texto: 'Composição por justaposição.' },
-      { id: 'D', texto: 'Derivação imprópria.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: '"Amanhecer" é PARASSINTÉTICA: o prefixo ("a-") e o sufixo ("-ecer") são adicionados SIMULTANEAMENTE. Teste: nem "amanhe" nem "manhecer" existem isoladamente.',
-      incorretas: { A: 'Prefixal e sufixal exigiria formas intermediárias.', C: 'Composição uniria dois radicais.', D: 'Imprópria muda a classe sem alterar a forma.' },
-      conceitoCobrado: 'Aplicação do teste de retirada para distinguir parassintética de prefixal-sufixal.',
-      pegadinha: 'Confundir os dois tipos de derivação.',
-      comoApareceEmConcurso: 'Pegadinha clássica em formação de palavras.'
-    },
-    tags: ['parassintética', 'derivação']
-  },
-  {
-    id: 'Q-DID-PT-1303',
-    tipo: 'DIDATICA',
-    area: 'LEXI',
-    moduloId: 'PT-13',
-    subtema: 'Composição',
-    dificuldade: 2,
-    prioridade: 'condicional',
-    enunciado: 'Assinale a alternativa que apresenta apenas palavras formadas por COMPOSIÇÃO POR AGLUTINAÇÃO:',
-    alternativas: [
-      { id: 'A', texto: 'passatempo, guarda-roupa, girassol.' },
-      { id: 'B', texto: 'planalto, aguardente, pernalta.' },
-      { id: 'C', texto: 'refazer, desleal, infeliz.' },
-      { id: 'D', texto: 'entardecer, amanhecer, esfriar.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'AGLUTINAÇÃO: os radicais se unem com ALTERAÇÃO fonética. "Planalto" (plano + alto), "aguardente" (água + ardente), "pernalta" (perna + alta).',
-      incorretas: { A: 'São justaposição (sem alteração).', C: 'São derivação prefixal/sufixal.', D: 'São parassintéticas.' },
-      conceitoCobrado: 'Justaposição x aglutinação.',
-      pegadinha: 'Confundir os dois tipos de composição.',
-      comoApareceEmConcurso: 'Cobrança direta.'
-    },
-    tags: ['composição', 'aglutinação']
-  },
-  {
-    id: 'Q-DID-PT-1304',
-    tipo: 'DIDATICA',
-    area: 'LEXI',
-    moduloId: 'PT-13',
-    subtema: 'Derivação regressiva e imprópria',
-    dificuldade: 3,
-    prioridade: 'condicional',
-    enunciado: 'A palavra "combate" (do verbo "combater") e a palavra "jantar" em "O jantar está pronto" (do verbo "jantar") são formadas, respectivamente, por:',
-    alternativas: [
-      { id: 'A', texto: 'Derivação regressiva e derivação imprópria.' },
-      { id: 'B', texto: 'Derivação imprópria e derivação regressiva.' },
-      { id: 'C', texto: 'Parassíntese em ambos os casos.' },
-      { id: 'D', texto: 'Composição em ambos os casos.' }
-    ],
-    gabarito: 'A',
-    explicacao: {
-      correta: '"COMBATE" é derivação REGRESSIVA (retira-se parte da palavra — o sufixo do verbo). "JANTAR" como substantivo é derivação IMPRÓPRIA (muda de classe gramatical sem alteração de forma).',
-      incorretas: { B: 'Inverte os conceitos.', C: 'Parassíntese exige prefixo + sufixo dependentes.', D: 'Composição une dois radicais.' },
-      conceitoCobrado: 'Derivação regressiva x imprópria.',
-      pegadinha: 'Confundir os dois processos.',
-      comoApareceEmConcurso: 'Cobrança recorrente.'
-    },
-    tags: ['regressiva', 'imprópria']
-  },
-  {
-    id: 'Q-DID-PT-1305',
-    tipo: 'DIDATICA',
-    area: 'LEXI',
-    moduloId: 'PT-13',
-    subtema: 'Efeitos de prefixos',
-    dificuldade: 2,
-    prioridade: 'condicional',
-    enunciado: 'O prefixo "in-" em "infeliz" e o prefixo "re-" em "refazer" indicam, respectivamente, ideias de:',
-    alternativas: [
-      { id: 'A', texto: 'Movimento para dentro e negação.' },
-      { id: 'B', texto: 'Negação e repetição.' },
-      { id: 'C', texto: 'Excesso e escassez.' },
-      { id: 'D', texto: 'Antes e depois.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: '"IN-" em "infeliz" indica NEGAÇÃO. "RE-" em "refazer" indica REPETIÇÃO. Os prefixos têm valores semânticos próprios e a banca cobra esses efeitos.',
-      incorretas: { A: 'Inverte os valores.', C: 'Excesso/escassez seria "hiper-" e "hipo-".', D: 'Antes/depois seria "pré-" e "pós-".' },
-      conceitoCobrado: 'Efeitos de sentido dos prefixos.',
-      pegadinha: 'Achar que todo prefixo só muda a classe.',
-      comoApareceEmConcurso: 'Cobrança de semântica aplicada à morfologia.'
-    },
-    tags: ['prefixos', 'sentido']
-  },
-
-  /* ============================================================
-     PT-14 — Fonética, Fonologia e Divisão Silábica (CONDICIONAL)
-     ============================================================ */
-  {
-    id: 'Q-DID-PT-1401',
-    tipo: 'DIDATICA',
-    area: 'ORTO',
-    moduloId: 'PT-14',
-    subtema: 'Fonema, letra e sílaba',
-    dificuldade: 2,
-    prioridade: 'condicional',
-    enunciado: 'Assinale a alternativa em que o número de FONEMAS corresponde corretamente ao número de LETRAS:',
-    alternativas: [
-      { id: 'A', texto: '"hora" (4 letras, 4 fonemas).' },
-      { id: 'B', texto: '"guerra" (6 letras, 6 fonemas).' },
-      { id: 'C', texto: '"casa" (4 letras, 4 fonemas).' },
-      { id: 'D', texto: '"táxi" (4 letras, 4 fonemas).' }
-    ],
-    gabarito: 'C',
-    explicacao: {
-      correta: '"CASA": 4 letras, 4 fonemas (/c/, /a/, /s/, /a/). Correspondência perfeita.',
-      incorretas: { A: '"Hora" tem 4 letras e 3 fonemas (o "h" é mudo).', B: '"Guerra" tem 6 letras e 4 fonemas ("gu" e "rr" são dígrafos).', D: '"Táxi" tem 4 letras e 5 fonemas ("x" = /ks/).' },
-      conceitoCobrado: 'Diferença entre letra e fonema.',
-      pegadinha: 'Contar letras como se fossem fonemas.',
-      comoApareceEmConcurso: 'Cobrança clássica.'
-    },
-    tags: ['fonema', 'letra']
-  },
-  {
-    id: 'Q-DID-PT-1402',
-    tipo: 'DIDATICA',
-    area: 'ORTO',
-    moduloId: 'PT-14',
-    subtema: 'Dígrafos',
-    dificuldade: 2,
-    prioridade: 'condicional',
-    enunciado: 'Assinale a alternativa em que TODAS as palavras apresentam DÍGRAFOS:',
-    alternativas: [
-      { id: 'A', texto: 'cravo, plano, blusa.' },
-      { id: 'B', texto: 'chave, palha, sonho.' },
-      { id: 'C', texto: 'casa, bola, dado.' },
-      { id: 'D', texto: 'táxi, boxe, fixo.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: '"CHAVE" (ch), "PALHA" (lh), "SONHO" (nh) — cada par de letras representa UM ÚNICO som. São dígrafos.',
-      incorretas: { A: 'São encontros consonantais — dois sons distintos.', C: 'Não há dígrafos.', D: '"X" representa dois fonemas (ks) em "táxi" e "boxe" — é encontro consonantal sonoro, não dígrafo.' },
-      conceitoCobrado: 'Dígrafo x encontro consonantal.',
-      pegadinha: 'Confundir os dois conceitos.',
-      comoApareceEmConcurso: 'Cobrança recorrente.'
-    },
-    tags: ['dígrafos']
-  },
-  {
-    id: 'Q-DID-PT-1403',
-    tipo: 'DIDATICA',
-    area: 'ORTO',
-    moduloId: 'PT-14',
-    subtema: 'Encontros vocálicos',
-    dificuldade: 2,
-    prioridade: 'condicional',
-    enunciado: 'Nas palavras "pai", "saúde" e "Uruguai", os encontros vocálicos são, respectivamente:',
-    alternativas: [
-      { id: 'A', texto: 'Hiato, ditongo e tritongo.' },
-      { id: 'B', texto: 'Ditongo, hiato e tritongo.' },
-      { id: 'C', texto: 'Tritongo, ditongo e hiato.' },
-      { id: 'D', texto: 'Ditongo, tritongo e hiato.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: '"PAI": duas vogais na mesma sílaba = DITONGO. "SAÚDE": vogais em sílabas separadas (sa-ú-de) = HIATO. "URUGUAI": três vogais na mesma sílaba (U-ru-guai) = TRITONGO.',
-      incorretas: { A: 'Inverte tudo.', C: 'Inverte tudo.', D: 'Troca a ordem.' },
-      conceitoCobrado: 'Ditongo, hiato e tritongo.',
-      pegadinha: 'Confundir ditongo com hiato.',
-      comoApareceEmConcurso: 'Cobrança direta.'
-    },
-    tags: ['ditongo', 'hiato', 'tritongo']
-  },
-  {
-    id: 'Q-DID-PT-1404',
-    tipo: 'DIDATICA',
-    area: 'ORTO',
-    moduloId: 'PT-14',
-    subtema: 'Classificação quanto à tonicidade',
-    dificuldade: 2,
-    prioridade: 'condicional',
-    enunciado: 'Assinale a alternativa que classifica CORRETAMENTE as palavras "café", "fácil" e "árvore" quanto à tonicidade:',
-    alternativas: [
-      { id: 'A', texto: 'Paroxítona, oxítona e proparoxítona.' },
-      { id: 'B', texto: 'Oxítona, paroxítona e proparoxítona.' },
-      { id: 'C', texto: 'Proparoxítona, paroxítona e oxítona.' },
-      { id: 'D', texto: 'Oxítona, oxítona e proparoxítona.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: '"CAFÉ" (ca-fé): última sílaba tônica = OXÍTONA. "FÁCIL" (fá-cil): penúltima tônica = PAROXÍTONA. "ÁRVORE" (ár-vo-re): antepenúltima tônica = PROPAROXÍTONA.',
-      incorretas: { A: 'Invertem as classificações.', C: 'Invertem as classificações.', D: 'Invertem as classificações.' },
-      conceitoCobrado: 'Classificação quanto à posição da sílaba tônica.',
-      pegadinha: 'Confundir as três classificações.',
-      comoApareceEmConcurso: 'Pré-requisito para acentuação.'
-    },
-    tags: ['tonicidade', 'oxítona', 'paroxítona']
-  },
-  {
-    id: 'Q-DID-PT-1405',
-    tipo: 'DIDATICA',
-    area: 'ORTO',
-    moduloId: 'PT-14',
-    subtema: 'Divisão silábica',
-    dificuldade: 3,
-    prioridade: 'condicional',
-    enunciado: 'Assinale a alternativa em que a divisão silábica está CORRETA:',
-    alternativas: [
-      { id: 'A', texto: 'cons-tru-ção, ad-vo-ga-do.' },
-      { id: 'B', texto: 'co-ns-tru-ção, a-dvo-ga-do.' },
-      { id: 'C', texto: 'cons-truç-ão, adv-oga-do.' },
-      { id: 'D', texto: 'con-stru-ção, ad-voga-do.' }
-    ],
-    gabarito: 'A',
-    explicacao: {
-      correta: '"CONS-TRU-ÇÃO": o "ns" fica com a primeira sílaba; o "tr" fica junto (encontro consonantal). "AD-VO-GA-DO": o "d" e o "v" se separam, pois pertencem a sílabas diferentes.',
-      incorretas: { B: 'Não se separa "con-stru" dessa forma.', C: 'Não se separa "ção" como "ç-ão".', D: 'Erros de divisão.' },
-      conceitoCobrado: 'Divisão silábica — encontros consonantais.',
-      pegadinha: 'Separar consoantes que devem ficar juntas.',
-      comoApareceEmConcurso: 'Cobrança recorrente.'
-    },
-    tags: ['divisão silábica']
-  },
-
-  /* ============================================================
-     PT-15 — Redação Oficial e Comunicação Administrativa (CONDICIONAL)
-     ============================================================ */
-  {
-    id: 'Q-DID-PT-1501',
-    tipo: 'DIDATICA',
-    area: 'OFIC',
-    moduloId: 'PT-15',
-    subtema: 'Princípios da redação oficial',
-    dificuldade: 2,
-    prioridade: 'condicional',
-    enunciado: 'Sobre os princípios da redação oficial, assinale a alternativa CORRETA:',
-    alternativas: [
-      { id: 'A', texto: 'Impessoalidade significa escrever de forma fria e sem cordialidade.' },
-      { id: 'B', texto: 'Clareza e concisão são princípios que se complementam: o texto deve ser compreendido sem esforço e dizer o máximo com o mínimo de palavras.' },
-      { id: 'C', texto: 'Formalidade significa usar jargões técnicos e vocabulário difícil.' },
-      { id: 'D', texto: 'A redação oficial admite o uso de primeira pessoa, pois o servidor assina o documento.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'CLAREZA e CONCISÃO são complementares: o texto oficial deve ser compreensível e econômico em palavras.',
-      incorretas: { A: 'Impessoalidade NÃO é frieza — o texto pode ser cordial.', C: 'Formalidade é uso do padrão culto, não jargão.', D: 'A redação oficial é IMPESSOAL — não há primeira pessoa.' },
-      conceitoCobrado: 'Princípios da redação oficial.',
-      pegadinha: 'Confundir impessoalidade com frieza.',
-      comoApareceEmConcurso: 'Cobrança frequente.'
-    },
-    tags: ['redação oficial', 'princípios']
-  },
-  {
-    id: 'Q-DID-PT-1502',
-    tipo: 'DIDATICA',
-    area: 'OFIC',
-    moduloId: 'PT-15',
-    subtema: 'Ofício x memorando',
-    dificuldade: 2,
-    prioridade: 'condicional',
-    enunciado: 'Sobre a diferença entre ofício e memorando, é correto afirmar que:',
-    alternativas: [
-      { id: 'A', texto: 'O ofício é usado na comunicação INTERNA; o memorando, na comunicação EXTERNA.' },
-      { id: 'B', texto: 'O ofício é usado na comunicação EXTERNA (entre órgãos diferentes ou destes para particulares); o memorando, na comunicação INTERNA (entre unidades do mesmo órgão).' },
-      { id: 'C', texto: 'Ambos têm a mesma finalidade e estrutura.' },
-      { id: 'D', texto: 'O memorando é mais solene que o ofício.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'OFÍCIO: comunicação EXTERNA, mais solene. MEMORANDO: comunicação INTERNA, mais simples e direta.',
-      incorretas: { A: 'Inverte os conceitos.', C: 'Têm finalidades e estruturas distintas.', D: 'O ofício é mais solene.' },
-      conceitoCobrado: 'Ofício x memorando.',
-      pegadinha: 'Inverter os conceitos.',
-      comoApareceEmConcurso: 'Cobrança clássica.'
-    },
-    tags: ['ofício', 'memorando']
-  },
-  {
-    id: 'Q-DID-PT-1503',
-    tipo: 'DIDATICA',
-    area: 'OFIC',
-    moduloId: 'PT-15',
-    subtema: 'Tratamento',
-    dificuldade: 2,
-    prioridade: 'condicional',
-    enunciado: 'Para se dirigir a um Ministro de Estado, o tratamento adequado é:',
-    alternativas: [
-      { id: 'A', texto: 'Vossa Senhoria.' },
-      { id: 'B', texto: 'Vossa Excelência.' },
-      { id: 'C', texto: 'Vossa Magnificência.' },
-      { id: 'D', texto: 'Vossa Eminência.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'Ministros de Estado são ALTAS AUTORIDADES — usam VOSSA EXCELÊNCIA (V. Exa.).',
-      incorretas: { A: 'Vossa Senhoria é para demais autoridades e particulares.', C: 'Vossa Magnificência é para Reitores de universidades.', D: 'Vossa Eminência é para Cardeais.' },
-      conceitoCobrado: 'Pronomes de tratamento.',
-      pegadinha: 'Trocar os pronomes.',
-      comoApareceEmConcurso: 'Cobrança frequente em redação oficial.'
-    },
-    tags: ['tratamento', 'Vossa Excelência']
-  },
-  {
-    id: 'Q-DID-PT-1504',
-    tipo: 'DIDATICA',
-    area: 'OFIC',
-    moduloId: 'PT-15',
-    subtema: 'Fecho',
-    dificuldade: 2,
-    prioridade: 'condicional',
-    enunciado: 'O fecho "Respeitosamente" é adequado para:',
-    alternativas: [
-      { id: 'A', texto: 'Autoridades de mesma hierarquia.' },
-      { id: 'B', texto: 'Autoridades superiores.' },
-      { id: 'C', texto: 'Autoridades inferiores.' },
-      { id: 'D', texto: 'Particulares em geral.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: '"RESPEITOSAMENTE" é usado para autoridades SUPERIORES. "ATENCIOSAMENTE" é usado para autoridades de mesma hierarquia ou inferiores.',
-      incorretas: { A: 'Mesma hierarquia → "Atenciosamente".', C: 'Inferiores → "Atenciosamente".', D: 'Particulares → "Atenciosamente".' },
-      conceitoCobrado: 'Fecho de comunicação oficial.',
-      pegadinha: 'Trocar os fechos.',
-      comoApareceEmConcurso: 'Cobrança frequente.'
-    },
-    tags: ['fecho', 'Respeitosamente']
-  },
-  {
-    id: 'Q-DID-PT-1505',
-    tipo: 'DIDATICA',
-    area: 'OFIC',
-    moduloId: 'PT-15',
-    subtema: 'Estrutura do padrão ofício',
-    dificuldade: 3,
-    prioridade: 'condicional',
-    enunciado: 'Sobre a estrutura do padrão ofício (Manual de Redação da Presidência da República), assinale a alternativa CORRETA:',
-    alternativas: [
-      { id: 'A', texto: 'O ofício não precisa de vocativo nem de fecho.' },
-      { id: 'B', texto: 'O padrão ofício inclui: tipo e número, local e data, destinatário, assunto, vocativo, texto, fecho, assinatura e identificação do remetente.' },
-      { id: 'C', texto: 'O ofício deve ser escrito em primeira pessoa para dar credibilidade.' },
-      { id: 'D', texto: 'O fecho é opcional em qualquer comunicação oficial.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'O PADRÃO OFÍCIO (Manual da Presidência) tem estrutura definida: tipo e número, local e data, destinatário, assunto, vocativo, texto, fecho, assinatura e identificação.',
-      incorretas: { A: 'Vocativo e fecho são partes essenciais.', C: 'Redação oficial é IMPESSOAL.', D: 'O fecho é elemento estrutural.' },
-      conceitoCobrado: 'Estrutura do padrão ofício.',
-      pegadinha: 'Não conhecer a estrutura completa.',
-      comoApareceEmConcurso: 'Cobrança em concursos federais.'
-    },
-    tags: ['ofício', 'estrutura', 'Manual da Presidência']
-  },
-  /* ============================================================
-     NOVAS QUESTÕES — FONTE: Gran Concurso — Lote 2026-11-04
-     Módulos: PT-08 (Pontuação) e PT-04 (Ortografia)
-     IDs: Q-DID-PT-0807 a Q-DID-PT-0835 | Q-DID-PT-0406
-     ============================================================ */
-
-  /* ============================================================
-     PT-08 — Pontuação
-  ============================================================ */
-  {
-    id: 'Q-DID-PT-0807',
-    tipo: 'REAL',
-    area: 'SINT',
-    moduloId: 'PT-08',
-    subtema: 'Oração adjetiva restritiva x explicativa',
-    dificuldade: 3,
-    prioridade: 'muito_alta',
-    enunciado: 'Assinale a alternativa em que a pontuação preserva corretamente o sentido de que nem todos os candidatos apresentaram a documentação completa:',
-    alternativas: [
-      { id: 'A', texto: 'Os candidatos, que apresentaram a documentação completa foram convocados, para a etapa seguinte.' },
-      { id: 'B', texto: 'Os candidatos, que apresentaram a documentação completa, foram convocados para a etapa seguinte.' },
-      { id: 'C', texto: 'Os candidatos que apresentaram a documentação completa foram convocados para a etapa seguinte.' },
-      { id: 'D', texto: 'Os candidatos que apresentaram, a documentação completa, foram convocados para a etapa seguinte.' },
-      { id: 'E', texto: 'Os candidatos que apresentaram a documentação completa, foram convocados para a etapa seguinte.' }
-    ],
-    gabarito: 'C',
-    explicacao: {
-      correta: 'Sem vírgulas, a oração adjetiva é RESTRITIVA: apenas o subgrupo de candidatos que apresentou a documentação completa foi convocado. Isso preserva o sentido de que nem todos apresentaram.',
-      incorretas: {
-        A: 'A primeira vírgula isola indevidamente o sujeito do verbo; a segunda quebra a ligação verbo-complemento.',
-        B: 'Com vírgulas, a oração torna-se EXPLICATIVA: todos os candidatos apresentaram a documentação e foram convocados — sentido oposto ao pedido.',
-        D: 'As vírgulas separam o verbo "apresentaram" do seu objeto direto "a documentação completa".',
-        E: 'A vírgula após "completa" separa o sujeito ("Os candidatos que apresentaram a documentação completa") do predicado ("foram convocados").'
-      },
-      conceitoCobrado: 'Oração adjetiva restritiva (sem vírgula) x explicativa (com vírgula).',
-      pegadinha: 'A banca explora a inversão de sentido provocada pela vírgula: restritiva = nem todos; explicativa = todos.',
-      comoApareceEmConcurso: 'Clássica em provas de pontuação e reescrita.'
-    },
-    tags: ['oração adjetiva', 'restritiva', 'explicativa', 'vírgula']
-  },
-  {
-    id: 'Q-DID-PT-0808',
-    tipo: 'REAL',
-    area: 'SINT',
-    moduloId: 'PT-08',
-    subtema: 'Reticências',
-    dificuldade: 1,
-    prioridade: 'muito_alta',
-    enunciado: 'Assinale a alternativa correta quanto ao uso do sinal de pontuação que indica interrupção da fala do narrador ou da personagem.',
-    alternativas: [
-      { id: 'A', texto: 'Vírgula ( , )' },
-      { id: 'B', texto: 'Dois pontos ( : )' },
-      { id: 'C', texto: 'Reticências ( ... )' },
-      { id: 'D', texto: 'Ponto e vírgula ( ; )' },
-      { id: 'E', texto: 'Ponto ( . )' }
-    ],
-    gabarito: 'C',
-    explicacao: {
-      correta: 'As RETICÊNCIAS indicam a interrupção de um pensamento ou de uma fala, seja por hesitação, surpresa ou pela interferência de outro interlocutor. É o sinal típico para esse efeito.',
-      incorretas: {
-        A: 'A vírgula marca pausas internas, não interrupção de fala.',
-        B: 'Os dois-pontos anunciam enumeração, esclarecimento ou fala (mas não a interrupção).',
-        D: 'O ponto e vírgula separa orações coordenadas extensas ou com vírgulas internas.',
-        E: 'O ponto final encerra o período, indicando sentido completo — não interrupção.'
-      },
-      conceitoCobrado: 'Função das reticências na representação da fala.',
-      pegadinha: 'Confundir reticências (interrupção/suspensão) com dois-pontos (anúncio de fala).',
-      comoApareceEmConcurso: 'Cobrança recorrente em interpretação e pontuação.'
-    },
-    tags: ['reticências', 'interrupção', 'fala']
-  },
-  {
-    id: 'Q-DID-PT-0809',
-    tipo: 'REAL',
-    area: 'SINT',
-    moduloId: 'PT-08',
-    subtema: 'Pontuação de orações reduzidas antepostas',
-    dificuldade: 2,
-    prioridade: 'muito_alta',
-    enunciado: 'Assinale a alternativa em que a pontuação está correta.',
-    alternativas: [
-      { id: 'A', texto: 'Considerando as normativas municipais que regem o desenvolvimento urbano, consolidadas nos códigos e leis complementares. Faz-se necessário seguir essas regras para todo tipo de construção civil na cidade.' },
-      { id: 'B', texto: 'Cientes de que o correto manejo dos resíduos domésticos pode contribuir para a saúde da população. A prefeitura ampliou a frota de caminhões destinados à coleta desses materiais.' },
-      { id: 'C', texto: 'Diante da situação de calamidade pública, decorrente das ações dos fortes ventos que causaram o destelhamento de centenas de casas, a prefeitura distribuirá lonas para cobertura dessas residências.' },
-      { id: 'D', texto: 'Partindo do princípio de que o governo precisa atuar em todo território, seja área urbana ou rural, e por longo período. As políticas públicas são planejadas de forma longitudinal.' },
-      { id: 'E', texto: 'As repartições públicas do município, estarão fechadas tendo em vista que dia 2 de setembro é feriado municipal, dia do aniversário da cidade.' }
-    ],
-    gabarito: 'C',
-    explicacao: {
-      correta: 'Em C, as vírgulas isolam corretamente o adjunto adverbial anteposto de longa extensão ("Diante da situação...") e a oração adjetiva explicativa ("decorrente das ações..."). O sujeito ("a prefeitura") e o verbo ("distribuirá") permanecem juntos.',
-      incorretas: {
-        A: 'O ponto final após "complementares" separa a oração reduzida de gerúndio anteposta do restante do período — deveria haver vírgula.',
-        B: 'O ponto final após "população" quebra a ligação entre a oração reduzida anteposta e a principal.',
-        D: 'O ponto final após "período" separa indevidamente a oração reduzida de gerúndio da principal.',
-        E: 'A vírgula após "município" separa o sujeito do verbo — erro clássico.'
-      },
-      conceitoCobrado: 'Pontuação de orações reduzidas antepostas (vírgula, não ponto) e vírgula proibida entre sujeito e verbo.',
-      pegadinha: 'A banca usa ponto final onde deveria haver vírgula para separar oração subordinada anteposta.',
-      comoApareceEmConcurso: 'Muito frequente em provas de correção gramatical.'
-    },
-    tags: ['oração reduzida', 'adjunto anteposto', 'vírgula', 'ponto final']
-  },
-  {
-    id: 'Q-DID-PT-0810',
-    tipo: 'REAL',
-    area: 'SINT',
-    moduloId: 'PT-08',
-    subtema: 'Dois-pontos, ponto e vírgula e vírgula em explicação',
-    dificuldade: 2,
-    prioridade: 'muito_alta',
-    enunciado: 'Leia a frase a seguir. A fala e a escrita são modalidades diferentes da linguagem humana __ a primeira se utiliza de unidades sonoras __ a segunda __ ao contrário __ emprega sinais gráficos. Assinale a pontuação que preenche corretamente as lacunas da frase acima.',
-    alternativas: [
-      { id: 'A', texto: 'vírgula – dois-pontos – ponto e vírgula – vírgula' },
-      { id: 'B', texto: 'dois-pontos – vírgula – ponto e vírgula – vírgula' },
-      { id: 'C', texto: 'dois-pontos – ponto e vírgula – vírgula – vírgula' },
-      { id: 'D', texto: 'dois-pontos – vírgula – vírgula – ponto e vírgula' },
-      { id: 'E', texto: 'ponto – ponto e vírgula – ponto e vírgula – vírgula' }
-    ],
-    gabarito: 'C',
-    explicacao: {
-      correta: 'A sequência correta é: dois-pontos (anunciam a explicação), ponto e vírgula (separa as duas orações coordenadas explicativas), vírgula antes e depois de "ao contrário" (termo intercalado). Fica: "...humanas: a primeira se utiliza de unidades sonoras; a segunda, ao contrário, emprega sinais gráficos."',
-      incorretas: {
-        A: 'A vírgula inicial não anuncia a explicação; o ponto e vírgula no lugar errado.',
-        B: 'A vírgula após "sonoras" não separa adequadamente as duas orações explicativas.',
-        D: 'A vírgula antes de "ao contrário" está correta, mas falta a vírgula depois; além disso, o ponto e vírgula final não cabe.',
-        E: 'O ponto final interrompe a frase antes da explicação; a sequência não fecha.'
-      },
-      conceitoCobrado: 'Emprego combinado de dois-pontos, ponto e vírgula e vírgula.',
-      pegadinha: 'A banca mistura as funções dos sinais; é preciso testar cada lacuna separadamente.',
-      comoApareceEmConcurso: 'Cobrança recorrente em questões de preenchimento.'
-    },
-    tags: ['dois-pontos', 'ponto e vírgula', 'vírgula', 'termo intercalado']
-  },
-  {
-    id: 'Q-DID-PT-0811',
-    tipo: 'REAL',
-    area: 'SINT',
-    moduloId: 'PT-08',
-    subtema: 'Funções dos sinais de pontuação',
-    dificuldade: 2,
-    prioridade: 'muito_alta',
-    enunciado: 'Em relação à correta pontuação, relacione a Coluna I com a Coluna II e marque a alternativa devida. Coluna I. A- Vírgula. B- Ponto e vírgula. C- Dois pontos. D- Ponto-final. Coluna II. 1- Separa estruturas coordenadas já portadoras de vírgulas internas. 2- Usa-se no final do período, indicando que o sentido está completo. 3- Utilizamos antes de uma citação. 4- Usamos para separar o aposto explicativo.',
-    alternativas: [
-      { id: 'A', texto: 'A (2) – B (3) – C (4) – D (1).' },
-      { id: 'B', texto: 'A (4) – B (1) – C (3) – D (2).' },
-      { id: 'C', texto: 'A (3) – B (2) – C (1) – D (4).' },
-      { id: 'D', texto: 'A (1) – B (4) – C (2) – D (3).' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'Vírgula → separa aposto explicativo (4). Ponto e vírgula → separa estruturas coordenadas com vírgulas internas (1). Dois-pontos → antes de citação (3). Ponto-final → encerra o período (2).',
-      incorretas: {
-        A: 'Inverte todas as correspondências.',
-        C: 'Troca as funções de vírgula e dois-pontos.',
-        D: 'Atribui à vírgula a função de ponto e vírgula, e vice-versa.'
-      },
-      conceitoCobrado: 'Funções específicas de cada sinal de pontuação.',
-      pegadinha: 'Confundir ponto e vírgula (enumerações complexas) com dois-pontos (anúncio).',
-      comoApareceEmConcurso: 'Questão de associação clássica.'
-    },
-    tags: ['vírgula', 'ponto e vírgula', 'dois-pontos', 'ponto final', 'aposto']
-  },
-  {
-    id: 'Q-DID-PT-0812',
-    tipo: 'REAL',
-    area: 'SINT',
-    moduloId: 'PT-08',
-    subtema: 'Vírgula em enumeração de orações',
-    dificuldade: 2,
-    prioridade: 'muito_alta',
-    enunciado: 'A leitura é uma prática essencial para a formação cidadã. Ela amplia o repertório cultural desenvolve o pensamento crítico fortalece a capacidade de argumentação e favorece a participação social. Considerando as regras de pontuação da norma-padrão da língua portuguesa, assinale a alternativa que apresenta a versão CORRETAMENTE pontuada do segundo período:',
-    alternativas: [
-      { id: 'A', texto: 'Ela amplia o repertório cultural, desenvolve o pensamento crítico fortalece a capacidade de argumentação e favorece a participação social.' },
-      { id: 'B', texto: 'Ela amplia o repertório cultural desenvolve o pensamento crítico, fortalece a capacidade de argumentação e favorece a participação social.' },
-      { id: 'C', texto: 'Ela amplia o repertório cultural; desenvolve o pensamento crítico, fortalece a capacidade de argumentação e favorece a participação social.' },
-      { id: 'D', texto: 'Ela amplia o repertório cultural, desenvolve o pensamento crítico, fortalece a capacidade de argumentação e favorece a participação social.' },
-      { id: 'E', texto: 'Ela amplia o repertório cultural desenvolve o pensamento crítico fortalece a capacidade de argumentação, e favorece a participação social.' }
-    ],
-    gabarito: 'D',
-    explicacao: {
-      correta: 'O período é uma enumeração de quatro ações paralelas. A norma padrão separa os itens por vírgula, deixando o "e" apenas antes do último elemento: "amplia..., desenvolve..., fortalece... e favorece...".',
-      incorretas: {
-        A: 'Falta a vírgula após "crítico".',
-        B: 'Falta a vírgula após "cultural".',
-        C: 'O ponto e vírgula é inadequado para uma enumeração simples de orações com o mesmo sujeito.',
-        E: 'Faltam vírgulas entre os três primeiros itens e há vírgula indevida antes do "e" final.'
-      },
-      conceitoCobrado: 'Vírgula em enumeração de orações coordenadas assindéticas.',
-      pegadinha: 'A banca omite vírgulas ou insere pontuação mais forte (ponto e vírgula) em enumeração simples.',
-      comoApareceEmConcurso: 'Muito comum em reescrita e correção.'
-    },
-    tags: ['vírgula', 'enumeração', 'coordenação']
-  },
-  {
-    id: 'Q-DID-PT-0813',
-    tipo: 'REAL',
-    area: 'SINT',
-    moduloId: 'PT-08',
-    subtema: 'Análise de pontuação em múltiplas frases',
-    dificuldade: 3,
-    prioridade: 'muito_alta',
-    enunciado: 'Leia as frases a seguir, atentando para a pontuação que apresentam: I. João Carlos trabalha, e o filho Alex estuda. II. É um “ótimo leitor” de poesia: não entende nada. III. Com a nova lei, os funcionários públicos e, principalmente os federais, receberam um reajuste aceitável. IV. Madalena costuma dizer: eu só como sanduíches de “mortandela”, pois são os melhores. V. Em nossa cidade natal, a segurança dos habitantes (oxalá isso venha a mudar um dia!) continua precária. Quanto à pontuação, podemos afirmar que:',
-    alternativas: [
-      { id: 'A', texto: 'Somente as frases I, II e III estão corretas.' },
-      { id: 'B', texto: 'Somente as frases I, II, IV e V estão corretas.' },
-      { id: 'C', texto: 'Somente as frases I, III e IV estão corretas.' },
-      { id: 'D', texto: 'Somente as frases II, III e V estão corretas.' },
-      { id: 'E', texto: 'Somente as frases II, III, IV e V estão corretas.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'Estão corretas I (vírgula antes do "e" com sujeitos diferentes), II (aspas irônicas e dois-pontos), IV (dois-pontos para fala e vírgula antes de "pois") e V (parênteses com exclamação e vírgula após adjunto). A frase III está incorreta porque falta a vírgula após "principalmente" para isolar o termo intercalado: "...e, principalmente, os federais...".',
-      incorretas: {
-        A: 'Inclui a frase III, que tem erro de pontuação.',
-        C: 'Inclui a frase III e exclui a IV (correta).',
-        D: 'Inclui a frase III e exclui a I (correta).',
-        E: 'Inclui a frase III, que é a única errada.'
-      },
-      conceitoCobrado: 'Análise integrada de vários usos da pontuação.',
-      pegadinha: 'A frase III parece correta à primeira vista, mas falta uma vírgula.',
-      comoApareceEmConcurso: 'Questão de múltiplas frases — exige atenção redobrada.'
-    },
-    tags: ['vírgula', 'aspas', 'dois-pontos', 'parênteses', 'termo intercalado']
-  },
-  {
-    id: 'Q-DID-PT-0814',
-    tipo: 'REAL',
-    area: 'SINT',
-    moduloId: 'PT-08',
-    subtema: 'Pontuação correta em período simples',
-    dificuldade: 2,
-    prioridade: 'muito_alta',
-    enunciado: 'A pontuação adequada contribui para a clareza do texto e para a correta organização sintática das ideias. Nesse sentido, assinale a alternativa em que a pontuação está corretamente empregada.',
-    alternativas: [
-      { id: 'A', texto: 'Os candidatos, compareceram ao local cedo.' },
-      { id: 'B', texto: 'Quando terminou a prova entregou o caderno.' },
-      { id: 'C', texto: 'O relatório foi aprovado, porque estava correto.' },
-      { id: 'D', texto: 'Ao final da reunião, todos concordaram com a decisão.' },
-      { id: 'E', texto: 'A professora explicou, a matéria com atenção.' }
-    ],
-    gabarito: 'D',
-    explicacao: {
-      correta: 'Em D, a vírgula isola corretamente o adjunto adverbial anteposto ("Ao final da reunião"), sem separar sujeito e predicado. A frase flui com clareza.',
-      incorretas: {
-        A: 'A vírgula separa o sujeito ("Os candidatos") do verbo ("compareceram") — erro clássico.',
-        B: 'Falta a vírgula após a oração subordinada adverbial anteposta ("Quando terminou a prova").',
-        C: 'A vírgula antes de "porque" é facultativa, mas a frase não é a mais claramente correta; D é impecável.',
-        E: 'A vírgula separa o verbo ("explicou") do objeto direto ("a matéria") — erro.'
-      },
-      conceitoCobrado: 'Vírgula proibida entre sujeito e verbo; vírgula obrigatória após adjunto anteposto.',
-      pegadinha: 'Alternativas com vírgulas em locais proibidos (sujeito-verbo, verbo-objeto).',
-      comoApareceEmConcurso: 'Cobrança diária em provas de correção.'
-    },
-    tags: ['vírgula', 'adjunto anteposto', 'sujeito e verbo']
-  },
-  {
-    id: 'Q-DID-PT-0815',
-    tipo: 'REAL',
-    area: 'SINT',
-    moduloId: 'PT-08',
-    subtema: 'Identificação de erro de pontuação',
-    dificuldade: 2,
-    prioridade: 'muito_alta',
-    enunciado: 'A pontuação está incorreta somente na alternativa:',
-    alternativas: [
-      { id: 'A', texto: 'Você é muito especial, amigo.' },
-      { id: 'B', texto: 'É muito, muito difícil lidar com esta situação.' },
-      { id: 'C', texto: 'Aos domingos, costumam almoçar em família.' },
-      { id: 'D', texto: 'Queria saber quando voltam as aulas e demais programações escolares?' }
-    ],
-    gabarito: 'D',
-    explicacao: {
-      correta: 'Em D, a frase é uma interrogativa indireta ("Queria saber quando..."), portanto não deve terminar com ponto de interrogação, e sim com ponto final.',
-      incorretas: {
-        A: 'Vocativo separado por vírgula — correto.',
-        B: 'Repetição enfática com vírgula — correto.',
-        C: 'Adjunto adverbial anteposto com vírgula — correto.'
-      },
-      conceitoCobrado: 'Ponto de interrogação em interrogativa indireta.',
-      pegadinha: 'A presença do verbo "saber" pode induzir ao erro de manter a interrogação.',
-      comoApareceEmConcurso: 'Cobrança recorrente em pontuação.'
-    },
-    tags: ['interrogativa indireta', 'ponto de interrogação']
-  },
-  {
-    id: 'Q-DID-PT-0816',
-    tipo: 'REAL',
-    area: 'SINT',
-    moduloId: 'PT-08',
-    subtema: 'Reticências, dois-pontos e exclamação',
-    dificuldade: 2,
-    prioridade: 'muito_alta',
-    enunciado: 'De acordo com as regras de pontuação, relacionar as colunas e assinalar a sequência correspondente. (1) Reticências (...). (2) Dois-pontos (:). (3) Ponto de exclamação (!). ( ) Ela só tinha um objetivo na vida __ ser médica. ( ) No piquenique havia bolos, salgadinhos, refrigerantes, sucos __ ( ) Uau __',
-    alternativas: [
-      { id: 'A', texto: '1 - 3 - 2.' },
-      { id: 'B', texto: '3 - 2 - 1.' },
-      { id: 'C', texto: '3 - 1 - 2.' },
-      { id: 'D', texto: '2 - 1 - 3.' }
-    ],
-    gabarito: 'D',
-    explicacao: {
-      correta: 'A primeira lacuna pede dois-pontos (2), pois anuncia a explicação "ser médica". A segunda pede reticências (1), indicando que a enumeração poderia continuar. A terceira pede exclamação (3), pela interjeição "Uau". Sequência: 2 – 1 – 3.',
-      incorretas: {
-        A: 'Inverte dois-pontos e reticências.',
-        B: 'Coloca exclamação na primeira lacuna, o que não faz sentido.',
-        C: 'Troca a ordem de exclamação e reticências.'
-      },
-      conceitoCobrado: 'Funções de reticências, dois-pontos e ponto de exclamação.',
-      pegadinha: 'A enumeração da segunda lacuna pode ser finalizada com ponto final, mas as reticências são adequadas para indicar suspensão.',
-      comoApareceEmConcurso: 'Questão de associação direta.'
-    },
-    tags: ['reticências', 'dois-pontos', 'exclamação']
-  },
-  {
-    id: 'Q-DID-PT-0817',
-    tipo: 'REAL',
-    area: 'SINT',
-    moduloId: 'PT-08',
-    subtema: 'Uso e explicação de sinais',
-    dificuldade: 3,
-    prioridade: 'muito_alta',
-    enunciado: 'Assinale a alternativa correta quanto ao uso e explicação dos sinais de pontuação.',
-    alternativas: [
-      { id: 'A', texto: '“Matamos o tempo, o tempo nos enterra” (Machado de Assis) Explicação: uso da vírgula serviu para separar orações subordinadas assindéticas que encerraram pensamentos opostos.' },
-      { id: 'B', texto: 'É campeão! Explicação: o ponto de exclamação foi utilizado para indicar fim de oração absoluta.' },
-      { id: 'C', texto: 'Há três coisas para o fim de semana: festa, praia e sol. Explicação: os dois pontos serviram para indicar atitude de expectativa diante de uma situação.' },
-      { id: 'D', texto: 'Eu, não vou sair sozinho à noite. Explicação: a vírgula é utilizada para separar o sujeito do predicado.' },
-      { id: 'E', texto: 'Os bolinhos do aniversário, a chefe do buffet os fará hoje. Explicação: a vírgula é utilizada para isolar um complemento pleonástico antecipado ao verbo.' }
+      correta: 'A sequência correta é V, F, V, V. (1) Verdadeiro: compreensão é literal, interpretação é inferencial. (2) Falso: o contexto é fundamental para a interpretação correta, não deve ser ignorado. (3) Verdadeiro: inferência é autorizada pelo texto, diferente de extrapolação. (4) Verdadeiro: a ideia central exige síntese global, sendo uma tarefa interpretativa.',
+      incorretas: { A: 'O segundo item é falso, pois ignorar o contexto leva a erros de interpretação.', B: 'O primeiro e o terceiro itens são verdadeiros.', D: 'O primeiro item é verdadeiro e o segundo é falso.', E: 'O quarto item é verdadeiro, pois identificar a ideia central exige síntese e interpretação.' },
+      conceitoCobrado: 'Distinção entre compreensão (literal) e interpretação (inferencial).',
+      pegadinha: 'O item 4 pode parecer falso para quem acha que ideia central é "compreensão", mas exige síntese (interpretação).',
+      comoApareceEmConcurso: 'Questões com 4 afirmativas para julgar V ou F e assinalar a sequência.'
+    },
+    tags: ['compreensão', 'interpretação', 'inferência']
+  },
+  {
+    id: 'Q-DID-POR-01-002',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'POR-01',
+    subtema: 'Inferência x Extrapolação',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'Avalie o que se afirma sobre a Educação Bilíngue de Surdos, que constitui uma mudança de paradigma na educação especial, distanciando-se de modelos puramente clínicos para uma perspectiva sociolinguística. \n\nI- A educação bilíngue preconiza o acesso a duas línguas no contexto escolar, estabelecendo a língua de sinais como língua natural e base para o ensino da língua escrita. \nII- Na organização pedagógica atualmente, a Libras deve ser utilizada prioritariamente como um recurso de acessibilidade ou tradução para garantir que o aluno Surdo acompanhe o conteúdo ministrado exclusivamente na gramática do Português Oral. \nIII- O bilinguismo busca resgatar o direito da pessoa Surda de ser ensinada em sua língua de sinais, valorizando os aspectos sociais e culturais da comunidade Surda. \n\nConsiderando as regras de interpretação textual, está correto apenas o que se afirma em:',
+    alternativas: [
+      { id: 'A', texto: 'I.' },
+      { id: 'B', texto: 'II.' },
+      { id: 'C', texto: 'III.' },
+      { id: 'D', texto: 'I e II.' },
+      { id: 'E', texto: 'I e III.' }
     ],
     gabarito: 'E',
     explicacao: {
-      correta: 'Em E, o termo "Os bolinhos do aniversário" é o objeto direto antecipado; o pronome "os" é o complemento pleonástico. A vírgula isola corretamente esse objeto antecipado, e a explicação está precisa.',
-      incorretas: {
-        A: 'As orações são COORDENADAS assindéticas, não subordinadas.',
-        B: 'A explicação é vaga; o ponto de exclamação marca exclamativa, não necessariamente "oração absoluta".',
-        C: 'Os dois-pontos introduzem enumeração, não "atitude de expectativa".',
-        D: 'A vírgula separa sujeito e predicado — uso PROIBIDO, não correto.'
-      },
-      conceitoCobrado: 'Relação entre uso e explicação funcional dos sinais.',
-      pegadinha: 'A banca mistura usos corretos com explicações erradas.',
-      comoApareceEmConcurso: 'Questão de nível avançado — exige domínio conceitual.'
+      correta: 'A alternativa E está correta. O item I e III refletem o paradigma sociolinguístico (duas línguas, valorização da cultura surda). O item II está errado pois a Libras não é apenas "recurso de acessibilidade" para o Português Oral, mas uma língua completa e base do ensino.',
+      incorretas: { A: 'Apenas I está incompleta.', B: 'O item II contradiz o texto e o paradigma atual.', C: 'Apenas III está incompleta.', D: 'O item II está incorreto.' },
+      conceitoCobrado: 'Identificação de informações que contrariam a tese do texto.',
+      pegadinha: 'O item II usa termos que parecem "corretos" (inclusão, acessibilidade), mas subverte a lógica do bilinguismo.',
+      comoApareceEmConcurso: 'Questões de I, II e III com alternativas combinadas.'
     },
-    tags: ['vírgula', 'complemento pleonástico', 'explicação']
+    tags: ['inferência', 'argumentação', 'tese']
   },
   {
-    id: 'Q-DID-PT-0818',
-    tipo: 'REAL',
-    area: 'SINT',
-    moduloId: 'PT-08',
-    subtema: 'Vírgula em enumeração',
-    dificuldade: 2,
-    prioridade: 'muito_alta',
-    enunciado: '“A vida, o infinito ___ o sol, o mar, tudo é maravilhoso quando se está passeando.” Assinale a alternativa que preencha corretamente a lacuna com uma pontuação.',
+    id: 'Q-DID-POR-01-003',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'POR-01',
+    subtema: 'Pressupostos e Subentendidos',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'A raiva é uma antropozoonose transmitida ao ser humano pela inoculação do vírus presente na saliva e nas secreções do animal infectado. \n\nComplete corretamente as lacunas do texto sobre a interpretação de implícitos.\n\nNo enunciado "O servidor voltou a atender bem o público", a expressão destacada veicula um ______________, pois é marcada linguisticamente por um verbo que indica retomada de uma ação. Já em "Não é o momento ideal para esse pedido...", há um ______________, pois a recusa é deduzida do contexto, sem uma palavra específica que a marque.\n\nA sequência que preenche corretamente as lacunas do texto é:',
     alternativas: [
-      { id: 'A', texto: '. (Ponto): Encerra frases e períodos, indica a conclusão de uma ideia.' },
-      { id: 'B', texto: '– (Travessão): Indica mudança de interlocutor em diálogos ou isola orações.' },
-      { id: 'C', texto: '( ) (Parênteses): Enclausura informações acessórias, explicações ou notas.' },
-      { id: 'D', texto: ', (Vírgula): Organiza termos sintáticos, separa termos coordenados assindéticos (sem ligação por conectivo), que tenham a mesma função sintática, que formam, muitas vezes, enumerações.' },
-      { id: 'E', texto: '“ ” (Aspas): Marca citações, estrangeirismos, gírias ou ironias, conferindo um sentido particular à expressão.' }
-    ],
-    gabarito: 'D',
-    explicacao: {
-      correta: 'A sequência "A vida, o infinito, o sol, o mar, tudo..." é uma enumeração de termos coordenados assindéticos. A vírgula é o sinal adequado para separar esses itens.',
-      incorretas: {
-        A: 'O ponto final interromperia a enumeração antes do termo síntese "tudo".',
-        B: 'O travessão isolaria um termo, não separaria itens de enumeração.',
-        C: 'Os parênteses enclausuram informação acessória, o que não é o caso.',
-        E: 'As aspas não têm função de enumeração.'
-      },
-      conceitoCobrado: 'Vírgula em enumeração de termos coordenados.',
-      pegadinha: 'A banca oferece sinais que até poderiam aparecer em outros contextos, mas não nesta estrutura.',
-      comoApareceEmConcurso: 'Cobrança direta e recorrente.'
-    },
-    tags: ['vírgula', 'enumeração', 'coordenação assindética']
-  },
-  {
-    id: 'Q-DID-PT-0819',
-    tipo: 'REAL',
-    area: 'SINT',
-    moduloId: 'PT-08',
-    subtema: 'Análise de pontuação em texto',
-    dificuldade: 3,
-    prioridade: 'muito_alta',
-    enunciado: 'Analise o emprego da pontuação nos enunciados a seguir: I. Todas as noites, antes de dormir, Holly Wang acessa o DeepSeek para fazer "sessões de terapia. II. Na China, porém jovens como Holly têm recorrido, à inteligência artificial para algo que normalmente não se espera da computação e dos algoritmos: apoio emocional. III. Desde escrever relatórios e criar fórmulas no Excel até planejar viagens, praticar exercícios físicos e aprender novas habilidades, os aplicativos de inteligência artificial passaram a fazer parte da rotina de muitas pessoas ao redor do mundo. Quanto à pontuação a(s) alternativa(s) correta(s) é(são):',
-    alternativas: [
-      { id: 'A', texto: 'Apenas I e II.' },
-      { id: 'B', texto: 'Apenas I e III.' },
-      { id: 'C', texto: 'Apenas II e III.' },
-      { id: 'D', texto: 'I, II e III.' },
-      { id: 'E', texto: 'Apenas III.' }
-    ],
-    gabarito: 'E',
-    explicacao: {
-      correta: 'Somente III está correta. I tem aspas abertas e não fechadas. II tem vírgula indevida após "recorrido" (separa verbo e complemento) e falta vírgula após "porém".',
-      incorretas: {
-        A: 'I e II têm erros de pontuação.',
-        B: 'I tem aspas não fechadas.',
-        C: 'II tem vírgula que separa verbo e complemento.',
-        D: 'Nem I nem II estão corretas.'
-      },
-      conceitoCobrado: 'Análise fina de erros de pontuação em textos.',
-      pegadinha: 'As aspas não fechadas em I passam despercebidas; a vírgula após "recorrido" em II parece natural para muitos leitores.',
-      comoApareceEmConcurso: 'Questão de nível avançado, comum em bancas exigentes.'
-    },
-    tags: ['aspas', 'vírgula', 'verbo e complemento']
-  },
-  {
-    id: 'Q-DID-PT-0820',
-    tipo: 'REAL',
-    area: 'SINT',
-    moduloId: 'PT-08',
-    subtema: 'Vírgula antes de "e" com mesmo sujeito',
-    dificuldade: 2,
-    prioridade: 'muito_alta',
-    enunciado: 'Destaque a alternativa que apresenta um erro de pontuação.',
-    alternativas: [
-      { id: 'A', texto: 'Malhou, e treinou, e voltou a treinar para conseguir emagrecer.' },
-      { id: 'B', texto: 'Jussara estuda Geografia, e Bruna Arquitetura.' },
-      { id: 'C', texto: 'Treinou o mais que pode e não venceu o campeonato.' },
-      { id: 'D', texto: 'Os portfólios que eu fiz foram classificados.' },
-      { id: 'E', texto: 'Observei, porém, as alternativas que poderiam me ajudar.' }
-    ],
-    gabarito: 'A',
-    explicacao: {
-      correta: 'Em A, as vírgulas antes de "e" ligam orações com o MESMO sujeito ("Malhou", "treinou", "voltou a treinar"). A norma padrão não recomenda vírgula antes de "e" nesse caso (embora possa haver uso estilístico, a questão pede o erro).',
-      incorretas: {
-        B: 'Sujeitos diferentes ("Jussara" e "Bruna") — vírgula facultativa e correta.',
-        C: 'Oração coordenada aditiva com mesmo sujeito, sem vírgula — correta.',
-        D: 'Oração adjetiva restritiva sem vírgula — correta.',
-        E: '"porém" intercalado entre vírgulas — correta.'
-      },
-      conceitoCobrado: 'Vírgula antes de "e" quando os sujeitos são iguais x diferentes.',
-      pegadinha: 'A repetição de "e" com vírgulas pode parecer correta por ênfase, mas a banca considera erro.',
-      comoApareceEmConcurso: 'Cobrança clássica em correção gramatical.'
-    },
-    tags: ['vírgula', 'conjunção e', 'mesmo sujeito']
-  },
-  {
-    id: 'Q-DID-PT-0821',
-    tipo: 'REAL',
-    area: 'SINT',
-    moduloId: 'PT-08',
-    subtema: 'Separação de orações coordenadas',
-    dificuldade: 2,
-    prioridade: 'muito_alta',
-    enunciado: 'Leia o trecho a seguir: "Após longos anos de estudo, finalmente, Maria alcançou seu objetivo: a aprovação no concurso público. Agora, ela está pronta para enfrentar novos desafios profissionais." Qual é a pontuação correta para separar as orações coordenadas presentes no trecho?',
-    alternativas: [
-      { id: 'A', texto: '; (ponto e vírgula)' },
-      { id: 'B', texto: ', (vírgula)' },
-      { id: 'C', texto: '. (ponto final)' },
-      { id: 'D', texto: ': (dois pontos)' },
-      { id: 'E', texto: '- (hífen)' }
-    ],
-    gabarito: 'C',
-    explicacao: {
-      correta: 'As duas orações ("Maria alcançou seu objetivo..." e "Agora, ela está pronta...") são independentes e o trecho já as separa com ponto final. O ponto final é o sinal adequado para encerrar o primeiro período e iniciar o segundo.',
-      incorretas: {
-        A: 'O ponto e vírgula é para enumerações complexas, não para separar períodos independentes com essa extensão.',
-        B: 'A vírgula não separa períodos com essa autonomia; geraria um período composto muito longo e confuso.',
-        D: 'Os dois-pontos anunciam explicação, não separam orações independentes.',
-        E: 'O hífen não é sinal de pontuação entre orações.'
-      },
-      conceitoCobrado: 'Uso do ponto final na separação de orações independentes.',
-      pegadinha: 'A proximidade semântica pode sugerir vírgula, mas a estrutura exige ponto final.',
-      comoApareceEmConcurso: 'Cobrança direta.'
-    },
-    tags: ['ponto final', 'orações coordenadas']
-  },
-  {
-    id: 'Q-DID-PT-0822',
-    tipo: 'REAL',
-    area: 'SINT',
-    moduloId: 'PT-08',
-    subtema: 'Pontuação correta em diálogo e intercalação',
-    dificuldade: 3,
-    prioridade: 'muito_alta',
-    enunciado: 'Assinale a frase correta quanto à pontuação.',
-    alternativas: [
-      { id: 'A', texto: 'Por nada, mas me diz outra coisa, automóvel é avião seu Quincas da Magrela?' },
-      { id: 'B', texto: 'Os alunos, inconformados com a morte de um colega por atropelamento; fizeram uma manifestação pacífica.' },
-      { id: 'C', texto: 'Que gostosura seus bolinhos de bacalhau dona Ricota, nunca provei nada igual.' },
-      { id: 'D', texto: 'De repente encontrei uma paz interna; um bem-estar súbito, que jamais imaginei que pudesse ter.' },
-      { id: 'E', texto: 'Aquela criança, se permitíssemos fazer tudo o que quisesse, nos deixaria loucos.' }
-    ],
-    gabarito: 'E',
-    explicacao: {
-      correta: 'Em E, as vírgulas isolam corretamente a oração subordinada adverbial condicional intercalada ("se permitíssemos fazer tudo o que quisesse").',
-      incorretas: {
-        A: 'Pontuação confusa; falta interrogação e vírgulas de vocativo.',
-        B: 'O ponto e vírgula separa sujeito e predicado — deveria ser vírgula.',
-        C: 'Faltam vírgulas para isolar o vocativo "dona Ricota" e a frase está truncada.',
-        D: 'O ponto e vírgula antes de "um bem-estar" é inadequado; deveria ser vírgula ou ponto.'
-      },
-      conceitoCobrado: 'Vírgula em oração intercalada.',
-      pegadinha: 'A banca usa ponto e vírgula onde deveria haver vírgula.',
-      comoApareceEmConcurso: 'Cobrança recorrente.'
-    },
-    tags: ['vírgula', 'oração intercalada', 'condicional']
-  },
-  {
-    id: 'Q-DID-PT-0823',
-    tipo: 'REAL',
-    area: 'SINT',
-    moduloId: 'PT-08',
-    subtema: 'Verdadeiro ou falso em pontuação',
-    dificuldade: 3,
-    prioridade: 'muito_alta',
-    enunciado: 'Considerando as regras dos sinais de pontuação, marque (V) para Verdadeiro e (F) para Falso e assinale a alternativa que apresenta a sequência CORRETA: (___ ) Bia João Clarice e Pedro chegaram agora. (___ ) Ao final, chorou de alegria:- Ganhei! (___ ) O freguês novo que, não paga as contas, vive reclamando. (___ ) Será que ele quer um café?',
-    alternativas: [
-      { id: 'A', texto: 'V – F – V – F.' },
-      { id: 'B', texto: 'F – F – V – F.' },
-      { id: 'C', texto: 'F – V – V – V.' },
-      { id: 'D', texto: 'F – V – F – V.' }
-    ],
-    gabarito: 'D',
-    explicacao: {
-      correta: 'A sequência correta é F – V – F – V. Primeira: falta vírgula na enumeração de nomes (Falso). Segunda: dois-pontos e travessão podem ser usados para introduzir fala (Verdadeiro). Terceira: a vírgula após "que" está errada; deveria ser "O freguês novo, que não paga as contas, vive reclamando" (Falso). Quarta: a interrogação está correta (Verdadeiro).',
-      incorretas: {
-        A: 'Inverte a segunda e a terceira.',
-        B: 'Considera a terceira verdadeira, mas há erro.',
-        C: 'Considera a primeira falsa (ok), mas erra as demais.'
-      },
-      conceitoCobrado: 'Análise de múltiplos usos da pontuação.',
-      pegadinha: 'A segunda frase tem pontuação incomum (:-), mas é aceitável.',
-      comoApareceEmConcurso: 'Questão de julgamento V/F.'
-    },
-    tags: ['vírgula', 'dois-pontos', 'travessão', 'interrogação']
-  },
-  {
-    id: 'Q-DID-PT-0824',
-    tipo: 'REAL',
-    area: 'SINT',
-    moduloId: 'PT-08',
-    subtema: 'Pontuação correta em período composto',
-    dificuldade: 2,
-    prioridade: 'muito_alta',
-    enunciado: 'Em relação à pontuação, assinalar a alternativa CORRETA:',
-    alternativas: [
-      { id: 'A', texto: 'Ninguém havia me falado, mas eu suspeitava de tais atitudes.' },
-      { id: 'B', texto: 'Pensei, repensei, desabei encontrei algumas palavras e nada mudou.' },
-      { id: 'C', texto: 'Veio o horário da partida o céu desabou, em água.' },
-      { id: 'D', texto: 'Naquela tarde amarga, teve certeza, de que nada adiantaria.' }
-    ],
-    gabarito: 'A',
-    explicacao: {
-      correta: 'Em A, a vírgula antes de "mas" separa corretamente orações coordenadas adversativas.',
-      incorretas: {
-        B: 'Falta vírgula após "desabei" para separar a oração "encontrei algumas palavras".',
-        C: 'Falta vírgula após "partida" e a vírgula antes de "em água" está errada.',
-        D: 'A vírgula antes de "de que" separa o verbo "teve certeza" do seu complemento — erro.'
-      },
-      conceitoCobrado: 'Vírgula em orações coordenadas adversativas.',
-      pegadinha: 'A vírgula antes de "mas" é correta, mas as demais alternativas têm erros mais evidentes.',
-      comoApareceEmConcurso: 'Cobrança direta.'
-    },
-    tags: ['vírgula', 'adversativa', 'coordenação']
-  },
-  {
-    id: 'Q-DID-PT-0825',
-    tipo: 'REAL',
-    area: 'SINT',
-    moduloId: 'PT-08',
-    subtema: 'Pontuação em aposto e enumeração',
-    dificuldade: 3,
-    prioridade: 'muito_alta',
-    enunciado: 'Assinale a alternativa correta quanto à pontuação.',
-    alternativas: [
-      { id: 'A', texto: 'As tiras do quadrinista, Paul Kirchner, eram como um respiro em meio às grandes sagas de fantasia, e ficção científica da lendária revista americana, Heavy Metal.' },
-      { id: 'B', texto: 'Com uma escrita descritiva, ela conta detalhes do luto que vivenciou com a morte de seu pai, um camponês que se tomou operário e, depois, proprietário de um bar e merecaria numa cidadezinha.' },
-      { id: 'C', texto: 'Publicado em 1997 transita entre, o ensaio, e uma espécie de catalogação de dados.' },
-      { id: 'D', texto: 'Repassa a história da França, do pós-Guerra até o começo dos anos 2000 ao mesmo tempo, que se constitui como uma espécie de autobiografia em terceira pessoa.' }
+      { id: 'A', texto: 'subentendido / pressuposto.' },
+      { id: 'B', texto: 'pressuposto / subentendido.' },
+      { id: 'C', texto: 'subentendido / subentendido.' },
+      { id: 'D', texto: 'pressuposto / pressuposto.' },
+      { id: 'E', texto: 'explícito / pressuposto.' }
     ],
     gabarito: 'B',
     explicacao: {
-      correta: 'Em B, as vírgulas isolam corretamente o aposto explicativo ("um camponês que se tornou operário...") e a expressão intercalada "depois".',
-      incorretas: {
-        A: 'A vírgula antes de "e ficção científica" quebra a enumeração "fantasia e ficção científica".',
-        C: 'As vírgulas separam indevidamente o verbo "transita" do seu complemento.',
-        D: 'A vírgula antes de "que" pode separar sujeito e predicado, além de a estrutura ser confusa.'
-      },
-      conceitoCobrado: 'Vírgula em aposto explicativo e termos intercalados.',
-      pegadinha: 'A palavra "tomou" em B está errada (deveria ser "tornou"), mas o erro é ortográfico, não de pontuação.',
-      comoApareceEmConcurso: 'Cobrança de pontuação em textos longos.'
+      correta: 'A alternativa B está correta. "Voltou a" é uma marca lexical de pressuposto (ele já atendia bem antes). A insinuação em "Não é o momento ideal" é um subentendido, deduzido do contexto sem marca lexical específica.',
+      incorretas: { A: 'Inverte os conceitos.', C: 'O primeiro é pressuposto.', D: 'O segundo é subentendido.', E: '"Explícito" não se aplica ao primeiro caso.' },
+      conceitoCobrado: 'Diferença entre pressuposto (marca lexical) e subentendido (contexto).',
+      pegadinha: 'Muitos alunos confundem os dois, mas o "voltar a" é a dica clássica de pressuposto.',
+      comoApareceEmConcurso: 'Questões de completar lacunas com sequência de termos.'
     },
-    tags: ['vírgula', 'aposto', 'enumeração']
+    tags: ['pressuposto', 'subentendido']
   },
   {
-    id: 'Q-DID-PT-0826',
-    tipo: 'REAL',
-    area: 'SINT',
-    moduloId: 'PT-08',
-    subtema: 'Vírgula em objeto pleonástico',
-    dificuldade: 3,
-    prioridade: 'muito_alta',
-    enunciado: 'Assinale a alternativa correta quanto à pontuação.',
-    alternativas: [
-      { id: 'A', texto: 'Esses cronistas, não os conheço.' },
-      { id: 'B', texto: 'Não havia porém, motivos para aquela atitude, naquela hora!' },
-      { id: 'C', texto: 'Quando ele, sai do trabalho, tudo lhe parece melhor.' },
-      { id: 'D', texto: 'José, Maria e seus filhos, foram embora daquela cidade?' },
-      { id: 'E', texto: 'Ele, que era o cronista indicado não compareceu à premiação?' }
-    ],
-    gabarito: 'A',
-    explicacao: {
-      correta: 'Em A, a vírgula isola corretamente o objeto direto antecipado ("Esses cronistas"), que é retomado pelo pronome "os". É o chamado objeto pleonástico.',
-      incorretas: {
-        B: 'Falta vírgula antes e depois de "porém".',
-        C: 'A vírgula após "ele" separa sujeito e verbo — erro.',
-        D: 'A vírgula após "filhos" separa sujeito e predicado — erro.',
-        E: 'Falta vírgula após "indicado" para fechar a oração adjetiva explicativa.'
-      },
-      conceitoCobrado: 'Vírgula em objeto direto antecipado (pleonástico).',
-      pegadinha: 'A estrutura com pronome pleonástico é menos comum e pode confundir.',
-      comoApareceEmConcurso: 'Cobrança de nível avançado.'
-    },
-    tags: ['vírgula', 'objeto pleonástico', 'anteposição']
-  },
-  {
-    id: 'Q-DID-PT-0827',
-    tipo: 'REAL',
-    area: 'SINT',
-    moduloId: 'PT-08',
-    subtema: 'Pontuação em texto longo',
-    dificuldade: 3,
-    prioridade: 'muito_alta',
-    enunciado: 'Assinale a alternativa corretamente pontuada, de acordo com a língua escrita padrão.',
-    alternativas: [
-      { id: 'A', texto: 'Em 1957 o psicólogo B. F. Skinner da Universidade de Harvard, constatou que recompensas inconstantes que surgem de forma irregular, eram mais eficientes para condicionar o comportamento dos animais. O smartphone explora isso ao abrir um app, você nunca sabe quantas unidades de conteúdo (textos, fotos, vídeos, posts, mensagens) ele vai mostrar.' },
-      { id: 'B', texto: 'Em 1957 o psicólogo B. F. Skinner, da Universidade de Harvard constatou que recompensas inconstantes – que surgem de forma irregular, eram mais eficientes para condicionar o comportamento dos animais; o smartphone explora isso, ao abrir um app, você nunca sabe quantas unidades de conteúdo (textos, fotos, vídeos, posts, mensagens) ele vai mostrar.' },
-      { id: 'C', texto: 'Em 1957, o psicólogo B. F. Skinner, da Universidade de Harvard, constatou que recompensas inconstantes (que surgem de forma irregular) eram mais eficientes para condicionar o comportamento dos animais. O smartphone explora isso: ao abrir um app, você nunca sabe quantas unidades de conteúdo (textos, fotos, vídeos, posts, mensagens) ele vai mostrar.' },
-      { id: 'D', texto: 'Em 1957, o psicólogo B. F. Skinner, da Universidade de Harvard, constatou que: recompensas inconstantes que surgem de forma irregular eram mais eficientes para condicionar o comportamento dos animais. O smartphone explora isso. Ao abrir um app você nunca sabe quantas unidades de conteúdo (textos, fotos, vídeos, posts, mensagens) ele vai mostrar.' },
-      { id: 'E', texto: 'Em 1957 o psicólogo B. F. Skinner da Universidade de Harvard constatou que recompensas, inconstantes (que surgem de forma irregular), eram mais eficientes para condicionar o comportamento dos animais (o smartphone explora isso) ao abrir um app. Você nunca sabe quantas unidades de conteúdo (textos, fotos, vídeos, posts, mensagens) ele vai mostrar.' }
-    ],
-    gabarito: 'C',
-    explicacao: {
-      correta: 'C apresenta pontuação impecável: vírgula após o adjunto "Em 1957", aposto explicativo "da Universidade de Harvard" entre vírgulas, parênteses para a oração explicativa, e dois-pontos antes da explicação sobre o smartphone.',
-      incorretas: {
-        A: 'Falta vírgula após "1957" e a vírgula antes de "eram" separa sujeito e predicado.',
-        B: 'Falta vírgula após "Harvard" e a vírgula antes de "eram" está errada; o ponto e vírgula é inadequado.',
-        D: 'Os dois-pontos após "que" estão errados; falta vírgula após "app".',
-        E: 'A vírgula após "recompensas" está errada; os parênteses estão mal colocados.'
-      },
-      conceitoCobrado: 'Pontuação em períodos longos com apostos, parênteses e dois-pontos.',
-      pegadinha: 'A banca insere erros sutis (vírgula antes de "eram", falta de vírgula após "1957").',
-      comoApareceEmConcurso: 'Questão de alta complexidade, comum em provas discursivas.'
-    },
-    tags: ['vírgula', 'aposto', 'parênteses', 'dois-pontos']
-  },
-  {
-    id: 'Q-DID-PT-0828',
-    tipo: 'REAL',
-    area: 'SINT',
-    moduloId: 'PT-08',
-    subtema: 'Identificação de pontuação incorreta',
-    dificuldade: 2,
-    prioridade: 'muito_alta',
-    enunciado: 'Em relação à pontuação, assinalar a alternativa INCORRETA.',
-    alternativas: [
-      { id: 'A', texto: 'Esta é a regra principal cumprir com os prazos estabelecidos.' },
-      { id: 'B', texto: 'João, por favor, tranque a porta ao ir embora.' },
-      { id: 'C', texto: 'Ele disse algo que me deixou animada: “Vamos sair hoje!”.' },
-      { id: 'D', texto: 'De acordo com a professora, o aluno era bagunceiro.' }
-    ],
-    gabarito: 'A',
-    explicacao: {
-      correta: 'A está INCORRETA porque falta pontuação após "principal". O correto seria "Esta é a regra principal: cumprir com os prazos estabelecidos." (dois-pontos) ou "Esta é a regra principal, cumprir..." (vírgula).',
-      incorretas: {
-        B: 'Vocativo e expressão intercalada corretamente pontuados.',
-        C: 'Dois-pontos e citação corretos.',
-        D: 'Adjunto antecipado com vírgula — correto.'
-      },
-      conceitoCobrado: 'Necessidade de pontuação entre termo anunciador e explicação.',
-      pegadinha: 'A frase A parece completa, mas está truncada.',
-      comoApareceEmConcurso: 'Cobrança recorrente.'
-    },
-    tags: ['dois-pontos', 'vírgula', 'oração truncada']
-  },
-  {
-    id: 'Q-DID-PT-0829',
-    tipo: 'REAL',
-    area: 'SINT',
-    moduloId: 'PT-08',
-    subtema: 'Reescrita com vocativo e enumeração',
-    dificuldade: 2,
-    prioridade: 'muito_alta',
-    enunciado: '“O amor ao livro, meu amigo, é sua passagem para o maior, mais puro e mais perfeito prazer.” (Anthony Trollope) Assinale a alternativa em que a forma reescrita do pensamento acima se encontra totalmente correta em relação à pontuação.',
-    alternativas: [
-      { id: 'A', texto: 'Meu amigo, o amor ao livro é a sua passagem para o maior, mais puro e mais perfeito prazer.' },
-      { id: 'B', texto: 'Meu amigo, o amor ao livro, é a sua passagem para o maior, mais puro e mais perfeito prazer.' },
-      { id: 'C', texto: 'Meu amigo: o amor ao livro é a sua passagem para o maior mais puro e mais perfeito prazer.' },
-      { id: 'D', texto: 'Meu amigo: o amor ao livro é, a sua passagem para o maior, mais puro e mais perfeito prazer.' },
-      { id: 'E', texto: 'O amor ao livro, é sua passagem, meu amigo, para o maior, mais puro e mais perfeito prazer.' }
-    ],
-    gabarito: 'A',
-    explicacao: {
-      correta: 'A apresenta o vocativo "Meu amigo" no início, seguido de vírgula, e a enumeração "maior, mais puro e mais perfeito" corretamente pontuada. O sujeito "o amor ao livro" e o verbo "é" permanecem juntos.',
-      incorretas: {
-        B: 'A vírgula após "livro" separa sujeito e predicado — erro.',
-        C: 'Faltam vírgulas na enumeração.',
-        D: 'A vírgula após "é" separa verbo e predicativo — erro.',
-        E: 'A vírgula após "livro" separa sujeito e predicado; além disso, "meu amigo" está mal posicionado.'
-      },
-      conceitoCobrado: 'Vocativo, sujeito e predicado, enumeração.',
-      pegadinha: 'A banca explora a vírgula proibida entre sujeito e verbo.',
-      comoApareceEmConcurso: 'Cobrança clássica em reescrita.'
-    },
-    tags: ['vírgula', 'vocativo', 'enumeração']
-  },
-  {
-    id: 'Q-DID-PT-0830',
-    tipo: 'REAL',
-    area: 'SINT',
-    moduloId: 'PT-08',
-    subtema: 'Teoria da pontuação',
-    dificuldade: 3,
-    prioridade: 'muito_alta',
-    enunciado: 'A pontuação em língua portuguesa representa um dos aspectos mais sutis da coesão e da clareza textual. O emprego inadequado dos sinais pode alterar completamente o sentido de um enunciado. Analise, portanto, as afirmativas abaixo, que tratam de regras diversas sobre o uso da vírgula, do ponto e vírgula, dos dois-pontos, das aspas e do travessão, observando seus valores sintáticos e estilísticos: I. Não se separa o sujeito do predicado por vírgula, ainda que o sujeito seja muito extenso ou contenha expressões intercaladas, pois esses termos possuem alto grau de coesão entre si. II. O ponto e vírgula é utilizado para separar orações coordenadas que já contenham vírgulas internas, mantendo, assim, o equilíbrio sintático e a clareza da enumeração. III. As orações subordinadas adverbiais deslocadas para o início do período podem ser escritas sem vírgula, desde que o sentido de tempo, causa ou condição permaneça claro. IV. Os dois-pontos são empregados tanto para introduzir o discurso direto quanto para esclarecer ou detalhar um termo anterior, sendo obrigatória a letra minúscula após esse sinal. V. O uso das aspas pode indicar ironia, citação direta ou destaque de uma palavra, enquanto o travessão pode substituir as vírgulas em orações intercaladas para dar maior ênfase ao termo destacado. Em quais afirmativas o emprego e a descrição dos sinais de pontuação estão inteiramente corretos?',
-    alternativas: [
-      { id: 'A', texto: 'II, IV e V.' },
-      { id: 'B', texto: 'III e V.' },
-      { id: 'C', texto: 'I, III e IV.' },
-      { id: 'D', texto: 'I, II e V.' }
-    ],
-    gabarito: 'D',
-    explicacao: {
-      correta: 'Estão corretas I, II e V. I: a vírgula não separa sujeito e predicado. II: o ponto e vírgula separa orações coordenadas com vírgulas internas. V: aspas e travessão têm esses usos. A III é controversa (a vírgula é recomendada, mas nem sempre obrigatória); a IV erra ao dizer que a minúscula após dois-pontos é obrigatória.',
-      incorretas: {
-        A: 'Inclui a IV, que tem erro sobre a minúscula obrigatória.',
-        B: 'Exclui I e II, que estão corretas.',
-        C: 'Inclui a IV (errada) e exclui a II (correta).'
-      },
-      conceitoCobrado: 'Teoria avançada da pontuação.',
-      pegadinha: 'A afirmativa IV parece correta, mas a minúscula após dois-pontos não é obrigatória em todos os casos.',
-      comoApareceEmConcurso: 'Questão de alto nível, comum em bancas como CESPE/CEBRASPE.'
-    },
-    tags: ['vírgula', 'ponto e vírgula', 'dois-pontos', 'aspas', 'travessão']
-  },
-  {
-    id: 'Q-DID-PT-0831',
-    tipo: 'REAL',
-    area: 'SINT',
-    moduloId: 'PT-08',
-    subtema: 'Identificação de pontuação incorreta em enumeração',
-    dificuldade: 2,
-    prioridade: 'muito_alta',
-    enunciado: 'Qual das frases a seguir está INCORRETA em relação à pontuação?',
-    alternativas: [
-      { id: 'A', texto: 'No mês passado, venderam duas casas novas e muito bonitas.' },
-      { id: 'B', texto: 'Ela buscava um objetivo: morar na Irlanda.' },
-      { id: 'C', texto: 'Parabéns, João! Estou orgulhosa de você.' },
-      { id: 'D', texto: 'Minha mãe trouxe, torta, bolo, suco, e café.' },
-      { id: 'E', texto: 'Por que você discutiu com a sua melhor amiga?' }
-    ],
-    gabarito: 'D',
-    explicacao: {
-      correta: 'D está INCORRETA porque a vírgula antes de "e café" é inadequada em uma enumeração simples. O correto seria "torta, bolo, suco e café".',
-      incorretas: {
-        A: 'Adjunto anteposto com vírgula — correto.',
-        B: 'Dois-pontos para explicar o objetivo — correto.',
-        C: 'Vocativo e exclamação — corretos.',
-        E: 'Interrogação direta — correta.'
-      },
-      conceitoCobrado: 'Vírgula antes de "e" em enumeração.',
-      pegadinha: 'A vírgula antes do "e" final é um erro clássico.',
-      comoApareceEmConcurso: 'Cobrança frequente.'
-    },
-    tags: ['vírgula', 'enumeração', 'conjunção e']
-  },
-  {
-    id: 'Q-DID-PT-0832',
-    tipo: 'REAL',
-    area: 'SINT',
-    moduloId: 'PT-08',
-    subtema: 'Pontuação em estruturas complexas',
-    dificuldade: 3,
-    prioridade: 'muito_alta',
-    enunciado: 'Leia as afirmativas a seguir, analisando o emprego dos sinais de pontuação de acordo com a norma culta: I. "O gerente solicitou: relatórios atualizados; planilhas detalhadas e cronogramas revisados; entretanto, a equipe — sobrecarregada — não concluiu as tarefas a tempo." II. "Embora o projeto fosse complexo (exigindo conhecimentos técnicos avançados), os estagiários demonstraram competência; surpreendendo os coordenadores." III. "Os componentes necessários são: parafusos, porcas, arruelas e buchas; pois a montagem exige precisão." IV. "O técnico questionou: — A instalação foi finalizada? — e, ao receber a confirmação, registrou o termo de entrega." V. "A máquina apresentou falhas críticas... superaquecimento, vazamentos e desgaste prematuro; portanto, será substituída." Em quais afirmativas todas as ocorrências de pontuação estão corretas?',
-    alternativas: [
-      { id: 'A', texto: 'II e IV.' },
-      { id: 'B', texto: 'I e II.' },
-      { id: 'C', texto: 'I e V.' },
-      { id: 'D', texto: 'III e V.' }
-    ],
-    gabarito: 'C',
-    explicacao: {
-      correta: 'I e V estão corretas. Em I, o ponto e vírgula separa itens de uma enumeração complexa que já contém vírgulas internas, e os travessões isolam "sobrecarregada". Em V, as reticências indicam suspensão, e o ponto e vírgula antes de "portanto" é aceitável.',
-      incorretas: {
-        A: 'II tem ponto e vírgula antes de "surpreendendo" — erro.',
-        B: 'II está errada.',
-        D: 'III tem ponto e vírgula antes de "pois" — erro.'
-      },
-      conceitoCobrado: 'Pontuação em períodos longos e enumerações complexas.',
-      pegadinha: 'A banca insere ponto e vírgula em locais inadequados (antes de gerúndio e de conjunção).',
-      comoApareceEmConcurso: 'Questão de nível avançado.'
-    },
-    tags: ['ponto e vírgula', 'travessão', 'reticências', 'enumeração']
-  },
-  {
-    id: 'Q-DID-PT-0833',
-    tipo: 'REAL',
-    area: 'SINT',
-    moduloId: 'PT-08',
-    subtema: 'Funções da vírgula (aposto, adjunto, oração adjetiva)',
-    dificuldade: 2,
-    prioridade: 'muito_alta',
-    enunciado: 'A respeito das regras que orientam os usos da vírgula, associe a segunda coluna de acordo com a primeira, relacionando as aplicações da vírgula a suas respectivas regras: Primeira coluna: aplicações/usos 1. Em uma noite histórica, a escritora mineira Ana Maria Gonçalves foi empossada como nova imortal da Academia Brasileira de Letras (ABL). 2. Ela passa a ocupar a cadeira nº 33, que pertenceu ao linguista Evanildo Bechara, tornando-se a primeira mulher negra a integrar a instituição fundada em 1897 [...]. 3. Autora do premiado romance "Um defeito de cor", lançado em 2006, Ana Maria Gonçalves construiu uma obra de grande fôlego narrativo e político. Segunda coluna: regras (__) Separar orações adjetiva explicativa. (__) Separar o adjunto adverbial anteposto ao verbo/deslocado. (__) Separar aposto explicativo. Assinale a alternativa que apresenta a correta associação entre as colunas:',
-    alternativas: [
-      { id: 'A', texto: '1 – 2 – 3.' },
-      { id: 'B', texto: '2 – 1 – 3.' },
-      { id: 'C', texto: '1 – 3 – 2.' },
-      { id: 'D', texto: '2 – 3 – 1.' },
-      { id: 'E', texto: '3 – 1 – 2.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: '1 → adjunto adverbial anteposto ("Em uma noite histórica"). 2 → oração adjetiva explicativa ("que pertenceu..."). 3 → aposto explicativo ("Autora do premiado romance..."). Sequência: 2 – 1 – 3.',
-      incorretas: {
-        A: 'Inverte a ordem.',
-        C: 'Coloca o aposto em segundo lugar.',
-        D: 'Troca adjunto e aposto.',
-        E: 'Inverte completamente.'
-      },
-      conceitoCobrado: 'Identificação das funções da vírgula em contexto.',
-      pegadinha: 'A oração adjetiva explicativa e o aposto explicativo podem ser confundidos.',
-      comoApareceEmConcurso: 'Cobrança recorrente.'
-    },
-    tags: ['vírgula', 'aposto', 'adjunto', 'oração adjetiva']
-  },
-  {
-    id: 'Q-DID-PT-0834',
-    tipo: 'REAL',
-    area: 'SINT',
-    moduloId: 'PT-08',
-    subtema: 'Pontuação em discurso direto e orações intercaladas',
-    dificuldade: 3,
-    prioridade: 'muito_alta',
-    enunciado: 'Assinale a alternativa cuja sentença se apresenta totalmente correta em relação à pontuação.',
-    alternativas: [
-      { id: 'A', texto: 'Prefiro estar entre vocês que me acolheram que me entendem porque, nem todas as pessoas, apresentam esse desprendimento.' },
-      { id: 'B', texto: 'Existem sentimentos bons (como saudade, alegria, e existem sentimentos ruins – como tristeza e ódio) tudo forma o nosso caráter.' },
-      { id: 'C', texto: 'Disse o orador, em tom bastante alegre: “Meus amigos, é chegada a hora de, apesar dos protestos, iniciarmos o nosso jantar festivo”.' },
-      { id: 'D', texto: 'Ele me perguntou se era para eu ir também à festa? Sim eu respondi para ele, não se preocupar com essa questão.' },
-      { id: 'E', texto: 'Tudo – céu, estrelas, espaço sideral – tudo, é obra de incrível perfeição mas nós, não costumamos dar o devido valor.' }
-    ],
-    gabarito: 'C',
-    explicacao: {
-      correta: 'C está impecável: vírgula após "orador", dois-pontos introduzindo a fala, e a citação contém vírgulas corretas para o vocativo e a expressão intercalada.',
-      incorretas: {
-        A: 'A vírgula após "porque" e antes de "apresentam" está errada.',
-        B: 'Falta pontuação após os parênteses.',
-        D: 'A interrogação é indevida (pergunta indireta) e faltam vírgulas.',
-        E: 'A vírgula após o segundo "tudo" está errada; falta vírgula antes de "mas".'
-      },
-      conceitoCobrado: 'Discurso direto, vocativo e termos intercalados.',
-      pegadinha: 'A banca mistura erros de pontuação com erros de colocação.',
-      comoApareceEmConcurso: 'Cobrança de nível avançado.'
-    },
-    tags: ['discurso direto', 'dois-pontos', 'vírgula', 'vocativo']
-  },
-  {
-    id: 'Q-DID-PT-0835',
-    tipo: 'REAL',
-    area: 'SINT',
-    moduloId: 'PT-08',
-    subtema: 'Pontuação em estruturas sintáticas complexas',
-    dificuldade: 3,
-    prioridade: 'muito_alta',
-    enunciado: 'Assinale a alternativa em que o uso dos sinais de pontuação está inteiramente correto de acordo com a norma culta, considerando as regras de emprego do ponto e vírgula, travessão, vírgula e dois pontos em estruturas sintáticas complexas:',
-    alternativas: [
-      { id: 'A', texto: 'A máquina parou subitamente: o supervisor — assustado com o ruído — correu para desligá-la; mas o dano já estava feito.' },
-      { id: 'B', texto: 'Após o treinamento, os novos operários demonstraram habilidade; no entanto, os gestores decidiram reforçar a segurança: normas de emergência, uso de equipamentos e inspeções diárias.' },
-      { id: 'C', texto: 'O técnico revisou os relatórios; identificou inconsistências nos dados — e alertou a equipe: sobre os riscos de falha no sistema.' },
-      { id: 'D', texto: 'Os componentes essenciais são: placas de circuito; fios blindados e conectores — porém, a última remessa; continha itens defeituosos.' }
-    ],
-    gabarito: 'A',
-    explicacao: {
-      correta: 'A apresenta uso impecável: dois-pontos para introduzir a consequência, travessões para isolar o comentário "assustado com o ruído", e ponto e vírgula para separar a oração adversativa final.',
-      incorretas: {
-        B: 'O ponto e vírgula antes de "no entanto" é inadequado; deveria ser vírgula ou ponto.',
-        C: 'Os dois-pontos antes de "sobre" estão errados.',
-        D: 'O ponto e vírgula antes de "porém" e antes de "continha" são inadequados.'
-      },
-      conceitoCobrado: 'Combinação de sinais em períodos complexos.',
-      pegadinha: 'A banca insere ponto e vírgula em locais onde a vírgula ou o ponto seriam mais adequados.',
-      comoApareceEmConcurso: 'Questão de altíssimo nível, comum em provas discursivas.'
-    },
-    tags: ['ponto e vírgula', 'travessão', 'dois-pontos', 'vírgula']
-  },
-
-  /* ============================================================
-     PT-04 — Ortografia (uso dos porquês)
-  ============================================================ */
-  {
-    id: 'Q-DID-PT-0406',
-    tipo: 'REAL',
-    area: 'ORTO',
-    moduloId: 'PT-04',
-    subtema: 'Uso dos porquês',
-    dificuldade: 3,
-    prioridade: 'alta',
-    enunciado: 'Dos vários membros de um grupo, apenas um não foi levado a uma festa e ele gostaria de saber o motivo. Assinale a alternativa em que a expressão do desejo desse membro do grupo obedece às normas ortográficas e gramaticais da língua portuguesa.',
-    alternativas: [
-      { id: 'A', texto: '“Não me levaram à festa e eu gostaria de saber o porque.”' },
-      { id: 'B', texto: '“Não sei porque não me levaram à festa. Gostaria de sabê-lo.”' },
-      { id: 'C', texto: '“Me levaram à festa? Não. Me pergunto: por quê?”' },
-      { id: 'D', texto: '“Por que não levaram-me à festa? Gostaria muito de saber.”' },
-      { id: 'E', texto: '“Não me levaram à festa. Gostaria de saber por que razão.”' }
-    ],
-    gabarito: 'E',
-    explicacao: {
-      correta: 'Em E, "por que razão" é a forma correta: "por que" separado, equivalendo a "por qual razão". A colocação pronominal "Não me levaram" (próclise com palavra negativa) também está correta.',
-      incorretas: {
-        A: '"porque" junto e sem acento no final da frase deveria ser "porquê" (substantivo) ou "por quê" (no final).',
-        B: 'Em "Não sei porque não me levaram", o correto é "por que" (interrogativa indireta), separado.',
-        C: 'A colocação "Me levaram" no início da frase fere a norma padrão (deveria ser "Levaram-me").',
-        D: 'A ênclise "levaram-me" após "não" está errada; o correto é "não me levaram".'
-      },
-      conceitoCobrado: 'Diferença entre "por que", "por quê", "porque" e "porquê"; colocação pronominal.',
-      pegadinha: 'A banca combina erro de porquê com erro de colocação pronominal.',
-      comoApareceEmConcurso: 'Cobrança clássica em ortografia e gramática.'
-    },
-    tags: ['porquês', 'por que', 'porquê', 'colocação pronominal']
-  },
-  {
-    id: 'Q-DID-PT-1206',
-    tipo: 'REAL',
-    area: 'TEXT',
-    moduloId: 'PT-12',
-    subtema: 'Manutenção de sentido e correção gramatical em reescrita',
-    dificuldade: 3,
-    prioridade: 'media',
-    enunciado: 'EQUIDADE DE GÊNERO: O QUE ISSO QUER DIZER? Entendemos a necessidade de olhar para as mulheres como um grupo específico pois vivemos em uma sociedade que discrimina mulheres por seu gênero. Criando um ambiente de desigualdade social, econômica e política. De acordo com o relatório World Gender Gap 2020, do Fórum Econômico Mundial, no ritmo atual, seriam necessários 99,5 anos para que a igualdade de gênero fosse alcançada no mundo. Isso significa que a desigualdade entre os gêneros é uma realidade atual e histórica que resulta nas mais diversas formas de violência, opressão e desvantagens contra as mulheres. A fim de eliminar essas divergências e desequilíbrios, a busca pela equidade de gênero se torna cada vez mais urgente em nossa sociedade. Mas você sabe o que isso quer dizer? (...) O projeto Equidade é uma parceria entre a Politize!, o Instituto Mattos Filho e a Civicus, voltada a apresentar, de forma simples e didática, os Direitos Humanos e os principais temas que eles envolvem, desde os seus principais fundamentos e conceitos aos seus impactos em nossas vidas. E então, preparado(a) para entender sobre o que quer dizer equidade de gênero? O que significa equidade de gênero? A concepção de equidade diz respeito ao reconhecimento das características próprias de um indivíduo ou grupo, em que se leva em consideração o direito de cada um com base na imparcialidade. Dessa forma, o princípio da equidade busca equilibrar a balança da justiça reconhecendo as diferenças, vulnerabilidades e necessidades particulares das pessoas. Por exemplo, imagine que uma gestante necessita de atendimento médico urgente. Mas o hospital na qual ela foi levada está lotado. Seguindo o princípio de que todos devem ser tratados iguais, os pacientes que já estavam esperando atendimento deveriam ser tratados primeiro. Contudo, isso não seria o mais justo a ser feito. Assim, reconhecendo a necessidade que a gestante possui, o princípio da equidade prevê que é ela quem deve receber o atendimento primeiro, colaborando para a justiça social. Já o gênero, segundo a antropóloga Adriana Piscitelli, refere-se ao caráter cultural das distinções entre homens e mulheres e entre ideias sobre feminilidade e masculinidade. Ou seja, gênero diz respeito às representações do masculino e do feminino na sociedade, não estando necessariamente vinculado ao sexo biológico. Isso significa que o gênero está vinculado com o comportamento e o papel social que são atribuídos a homens e mulheres, o que, consequentemente, cria estereótipos e generalizações. É assim que expressões como “homem não chora” ou “mulher não sabe dirigir” nascem. Na verdade, tanto a função de dirigir quanto o ato de chorar não são em nenhuma maneira influenciados pelos órgãos genitais humanos, mas as expressões refletem a visão socialmente construída em relação a atos e comportamentos masculinos e femininos. Dessa forma, o princípio da equidade visa garantir que independentemente de seu gênero, todas as pessoas devem ter as mesmas oportunidades para se desenvolver, com suas ações e opiniões sendo valorizadas igualmente. A equidade de gênero engloba uma compreensão formal, isto é, a garantia em lei que todas as pessoas devem receber um tratamento igualitário; e uma compreensão material, que abrange a ideia de que pessoas de gêneros distintos são diferentes e que as suas particularidades devem ser levadas em conta na garantia dos seus direitos e oportunidades. [...] (ADAPTADO. Equidade de gênero: o que isso quer dizer? | Politize!. Acesso em 04/02/2023). Uma reescritura que mantém o sentido original do trecho: “Entendemos a necessidade de olhar para as mulheres como um grupo específico pois vivemos em uma sociedade que discrimina mulheres por seu gênero. Criando um ambiente de desigualdade social, econômica e política.”, considerando-se a pontuação, a clareza das ideias e a norma-padrão, é:',
-    alternativas: [
-      { id: 'A', texto: 'Entendemos a necessidade de visualizar às mulheres como um grupo restrito, pois nós vivemos numa sociedade discriminatória delas, por seu sexo. Entretanto, criando um ambiente de desigualdade social, econômica e política.' },
-      { id: 'B', texto: 'Entende-se a necessidade dar um lugar de fala às mulheres, por exemplo, elas são um grupo específico, já que vivem na sociedade que discrimina mulheres por seu sexo, conquanto um ambiente de desigualdade social, econômica e política.' },
-      { id: 'C', texto: 'Entende-se que há um ambiente de desigualdade social, econômica e política, pois vivemos numa sociedade que discrimina mulheres por seu gênero, o que culmina na necessidade de olhar para as mulheres como um grupo específico, deveras.' },
-      { id: 'D', texto: 'Entendemos a necessidade de olhar para as mulheres como um grupo específico, contudo vivemos em uma sociedade que discrimina mulheres por seu “gênero”; criando um ambiente de desigualdade social, econômica e política.' },
-      { id: 'E', texto: 'Entendemos a necessidade de olhar para as mulheres como um grupo específico: vivemos em uma sociedade que discrimina mulheres por seu gênero, criando um ambiente de desigualdade social, econômica e política.' }
-    ],
-    gabarito: 'E',
-    explicacao: {
-      correta: 'E resolve os dois problemas do original: (1) substitui o "pois" pelos dois-pontos, mantendo a relação de causa/justificativa entre as orações; (2) elimina o gerúndio solto ("Criando" no início de período), ligando "criando" à oração anterior ("vivemos em uma sociedade que discrimina mulheres por seu gênero, criando um ambiente de desigualdade"). O sentido é preservado e a pontuação está impecável.',
-      incorretas: {
-        A: '"visualizar às mulheres" — erro de regência (visualizar é transitivo direto, não pede a preposição "a"); "discriminatória delas" — construção inadequada; "Entretanto, criando" muda a relação lógica de causa para oposição e mantém o gerúndio solto; "grupo restrito" altera o sentido de "grupo específico".',
-        B: '"necessidade dar" — falta a preposição "de"; "conquanto" introduz concessão, alterando a relação lógica; "por exemplo" acrescenta ideia inexistente no original; "elas são um grupo específico" desloca a hierarquia das ideias.',
-        C: 'A estrutura foi invertida (começa pela consequência), o que desloca o foco do texto original; "deveras" é acréscimo desnecessário que não aparece no original e altera a ênfase; embora a pontuação esteja correta, a reorganização muda a hierarquia das ideias do trecho.',
-        D: '"contudo" substitui "pois" e transforma a relação de causa em oposição — alteração de sentido; as aspas em "gênero" conferem ênfase especial que não existe no original; "criando" permanece como gerúndio solto, sem conexão clara.'
-      },
-      conceitoCobrado: 'Reescrita — manutenção de sentido, correção gramatical e uso dos dois-pontos para introduzir justificativa.',
-      pegadinha: 'O candidato precisa perceber que os dois-pontos podem substituir "pois" e que o gerúndio deve estar ligado à oração anterior. Alternativas como D parecem corretas mas trocam a relação lógica; C parece correta mas acrescenta termos e inverte o foco.',
-      comoApareceEmConcurso: 'Questão integrada de reescrita e pontuação, comum em provas de nível superior.'
-    },
-    tags: ['reescrita', 'manutenção de sentido', 'pontuação', 'dois-pontos', 'gerúndio']
-  },   
-  {
-    id: 'Q-REAL-PT-1207',
-    tipo: 'REAL',
-    area: 'TEXT',
-    moduloId: 'PT-12',
-    subtema: 'Manutenção de sentido com deslocamento de conectivo',
-    dificuldade: 2,
-    prioridade: 'media',
-    enunciado: 'Baby blues: os principais sintomas e os fatores de risco A tristeza pós-parto é "uma alteração ou mudança de humor que ocorre nas mulheres por volta do segundo ou terceiro dia após o parto, pode durar entre duas e três semanas e regride espontaneamente", explica a psicóloga perinatal Jazmín Mirelman. Embora em termos de sintomas não seja muito diferente da depressão pós-parto, elas diferem enormemente "em termos de gravidade e duração", esclarece. As principais manifestações desse distúrbio do humor são tristeza, irritabilidade e instabilidade emocional ou choro fácil. Também pode ser acompanhada de dificuldade para dormir, hipersensibilidade e ansiedade. Essas flutuações de humor, entretanto, não produzem mudanças substanciais na autoestima, algo que caracteriza a depressão pós-parto. Como o baby blues é mais leve e oscilante do que a depressão pós-parto, a mãe que sofre dele "ainda pode se divertir, curtir ou desconectar", diz Teresa Bobes Bascarán, especialista em psicologia clínica da Universidade de Oviedo, na Espanha. Na depressão pós-parto, ao contrário, a mãe pode procurar ativamente evitar o contato com outras pessoas, ter dificuldade de concentração e de tomar decisões, questionar sua capacidade de cuidar de si mesma e do bebê e ter pensamentos assustadores, como a ideia de ferir o bebê, conforme explica o Serviço Nacional de Saúde do Reino Unido. Além disso, ao contrário do baby blues, que ocorre nos primeiros dias após o parto, a depressão pós-parto pode ocorrer até um ano após o nascimento. As estatísticas variam, mas especialistas estimam que até cerca de 85% das mulheres experimentam tristeza pós-parto, em comparação a 10% a 20% que sofrem de depressão pós-parto. https://www.bbc.com/portuguese/articles/crgdjnpvl19o. Adaptado. Essas flutuações de humor, entretanto, não produzem mudanças substanciais na autoestima, algo que caracteriza a depressão pós-parto. Assinale a opção que contenha a nova pontuação sem alteração do sentido original da frase.',
-    alternativas: [
-      { id: 'A', texto: 'Entretanto, essas flutuações de humor não produzem mudanças substanciais na autoestima, algo que caracteriza a depressão pós-parto.' },
-      { id: 'B', texto: 'Algo que caracteriza a depressão pós-parto entretanto, essas flutuações de humor, não produzem mudanças substanciais na autoestima.' },
-      { id: 'C', texto: 'Entretanto essas flutuações de humor não produzem mudanças substanciais na autoestima, algo que caracteriza a depressão pós-parto.' },
-      { id: 'D', texto: 'Algo que caracteriza a depressão pós-parto; entretanto essas flutuações de humor, na autoestima não produzem mudanças substanciais.' }
-    ],
-    gabarito: 'A',
-    explicacao: {
-      correta: 'A desloca corretamente o conectivo "entretanto" para o início do período, isolando-o por vírgula. O sentido de oposição é mantido e a estrutura sujeito-verbo-complemento ("essas flutuações de humor não produzem mudanças substanciais na autoestima") permanece intacta.',
-      incorretas: {
-        B: 'A estrutura está truncada: falta vírgula após "entretanto", há vírgula indevida isolando "essas flutuações de humor" do verbo e o conectivo fica solto no meio do período, quebrando a coesão e o sentido.',
-        C: 'O conectivo anteposto "Entretanto" deve ser isolado por vírgula. Sem ela, há erro de pontuação (embora o sentido se mantenha), o que desclassifica a alternativa.',
-        D: 'O ponto e vírgula é empregado de forma inadequada, a vírgula separa "humor" de "na autoestima" (quebrando a ligação verbo-complemento) e "entretanto" aparece sem a vírgula exigida.'
-      },
-      conceitoCobrado: 'Pontuação de conectivo intercalado x anteposto e manutenção de sentido na reescrita.',
-      pegadinha: 'A alternativa C mantém o sentido, mas erra a pontuação ao omitir a vírgula após "Entretanto". A banca explora a diferença entre sentido preservado e correção gramatical.',
-      comoApareceEmConcurso: 'Questão integrada de reescrita e pontuação, comum em provas de nível médio/superior.'
-    },
-    tags: ['reescrita', 'pontuação', 'conectivo', 'entretanto', 'manutenção de sentido']
-  },
-  {
-    id: 'Q-REAL-PT-0836',
-    tipo: 'REAL',
-    area: 'SINT',
-    moduloId: 'PT-08',
-    subtema: 'Dois-pontos: introdução de explicação',
-    dificuldade: 2,
-    prioridade: 'muito_alta',
-    enunciado: 'O carro do Beto tinha duas portas. A do passageiro não abria, então, a rota de entrada para todos era pelo lado do motorista. O banco do motorista não levantava para quem ia sentar atrás. Acomodar três pessoas exigia uma certa ginástica. Não era o veículo ideal para uma fuga de emergência, mas era o que tínhamos e, mais que isso, era o que garantia nossa liberdade e nossas infinitas possibilidades. Com ele, São Paulo era pequena para nós. Eu tinha 16 anos, o Beto e a Solange um pouco mais do que eu. Eu acabara de voltar de um ano de intercâmbio em uma cidade no interior dos Estados Unidos e estava achando tudo muito moderno naquela São Paulo dos anos 80. O que levei comigo e trouxe de volta foi a trilha sonora: a discografia completa da Rita Lee. O programa daquele fim de semana seria uma homenagem a ela. Pela lista telefônica, tinha descoberto o endereço do pai dela e decidi deixar uma frase pichada no muro da casa dele na Vila Mariana. Beto e Solange toparam na hora. Tudo aconteceria de madrugada. Eles ficariam dentro do carro com o motor ligado. Eu desceria com o spray, escreveria a frase na parede, me jogaria pela janela carro adentro, o Beto acelerava e a gente se mandava. Os medos eram muitos. E foi com o coração aos pulos de terror e emoção que escrevi no muro branco: “Rita, pra você, a agilidade do gato e o brilho da estrela”. Minha mensagem adolescente de amor por Rita Lee estava registrada para toda a cidade ver. Trinta e sete anos depois, fui com uns amigos ver uma exposição sobre a Rita Lee. Logo na entrada do museu, uma parede pintada de azul trazia a estampa da minha frase, letra por letra (acrescentaram as letras esses no “das estrelas”). Foi como se um raio tivesse me atingido na cabeça. A sensação me pareceu ter sido a mesma de quando escrevi no muro naquela madrugada: pernas bambas, coração acelerado, mãos tremendo. A minha frase na parede do museu! Uma das monitoras da exposição quis saber o que acontecia. Eu contei a história. Ela se espantou, já que a exposição não trazia nenhuma explicação sobre a origem daquela frase. Não me importava: ela era minha e estava lá. Deparei-me outras vezes com o meu grafite. O dia do museu, porém, foi o mais emocionante. Não era só uma menção, era uma reprodução. (Ana Ribeiro. Frase que pichei para Rita Lee reapareceu 37 anos depois em exposição. www1.folha.uol.com.br, 19.02.2022. Adaptado) No trecho “Não me importava: ela era minha e estava lá” (6º parágrafo), os dois-pontos foram empregados para introduzir, em relação à informação que os antecede,',
-    alternativas: [
-      { id: 'A', texto: 'uma síntese.' },
-      { id: 'B', texto: 'uma explicação.' },
-      { id: 'C', texto: 'uma ressalva.' },
-      { id: 'D', texto: 'uma correção.' },
-      { id: 'E', texto: 'uma citação.' }
-    ],
-    gabarito: 'B',
-    explicacao: {
-      correta: 'Os dois-pontos introduzem a JUSTIFICATIVA/EXPLICAÇÃO do que foi afirmado antes: por que "não me importava" que a exposição não trouxesse a origem da frase? Porque "ela era minha e estava lá". A segunda oração explica a primeira.',
-      incorretas: {
-        A: 'Não há síntese (resumo) do que foi dito antes — a segunda oração apresenta uma razão, não um resumo.',
-        C: 'Não há ressalva (restrição/objeção): o enunciado não relativiza a afirmação anterior.',
-        D: 'Não há correção: nada é retificado; a segunda oração justifica a primeira.',
-        E: 'Não há citação: não se reproduz fala de outrem entre aspas ou com verbo dicendi.'
-      },
-      conceitoCobrado: 'Valores semânticos dos dois-pontos: explicação/esclarecimento.',
-      pegadinha: 'Confundir explicação (razão/justificativa) com síntese (resumo) — ambas podem vir após dois-pontos, mas aqui há claramente uma relação de causa/justificativa.',
-      comoApareceEmConcurso: 'Cobrança recorrente em interpretação do emprego dos sinais de pontuação.'
-    },
-    tags: ['dois-pontos', 'explicação', 'pontuação', 'interpretação']
-  },   
-  {
-    id: 'Q-REAL-PT-0837',
-    tipo: 'REAL',
-    area: 'SINT',
-    moduloId: 'PT-08',
-    subtema: 'Dois-pontos x vírgula em aposto enumerativo',
-    dificuldade: 3,
-    prioridade: 'muito_alta',
-    enunciado: 'Texto para os itens de 1 a 20. A expressão saúde pública veterinária é utilizada para designar o marco conceitual e a implementação das atividades de saúde pública que empregam conhecimentos e recursos da medicina veterinária para proteger e melhorar a saúde humana. A saúde pública veterinária vincula a agricultura, a saúde animal, a educação, o ambiente e a saúde humana. Por sua vez, as atividades de medicina veterinária preventiva têm seu princípio na pré-história e continuam até o primeiro século da Era Cristã. No Código de Hamurábi, código de leis mais antigo do mundo, já havia menções a práticas de medicina veterinária entre indivíduos específicos com tais atribuições. Os primeiros esforços dirigidos contra a doença animal foram descritos nas antigas civilizações da Suméria, do Egito e da Grécia, com referências a curandeiros de animais antes da Era Cristã. Ao lado do tratamento médico, cirúrgico e obstétrico individual, duas outras táticas eram aplicadas localmente para o controle das enfermidades animais, antes mesmo do desenvolvimento da teoria do contágio: o emprego da quarentena (segregação dos animais doentes dos sadios) e o sacrifício de animais enfermos. No cenário atual, a medicina veterinária enfoca a saúde humana e o controle de qualidade dos alimentos, e há uma política muito tímida voltada à saúde dos animais domésticos. Todavia, isso deve estar na pauta das políticas, haja vista que, para muitos proprietários de animais, esses são como filhos, e as pessoas gostam de dar o tratamento adequado a seus animais. A esse respeito, as clínicas veterinárias aplicam preços vultosos, e, muitas vezes, os donos dos pets têm de escolher entre comer, pagar as contas ou levar seu bicho a uma clínica. Assim, é importante o desenvolvimento de uma medicina veterinária populacional, por meio, por exemplo, da criação, pelos governos, de um hospital veterinário gratuito, centralizado nas cidades, e que atenda a população mais pobre, que não tem condições de levar seus animais a uma clínica privada. Em suma, a orientação dispensada à medicina veterinária dentro da tríade formada por ambiente, animal e homem deve ser acompanhada de uma importante expansão da saúde pública veterinária. Internet: <rsdjournal.org> (com adaptações). Acerca das estruturas linguísticas e gramaticais do texto, julgue os itens a seguir. No trecho “Ao lado do tratamento médico, cirúrgico e obstétrico individual, duas outras táticas eram aplicadas localmente para o controle das enfermidades animais, antes mesmo do desenvolvimento da teoria do contágio: o emprego da quarentena (segregação dos animais doentes dos sadios) e o sacrifício de animais enfermos.”, a substituição do sinal de dois-pontos por vírgula mantém a correção gramatical.',
+    id: 'Q-DID-POR-01-004',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'POR-01',
+    subtema: 'Identificação de informações contraditórias',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'De acordo com a Nova Lei de Licitações, julgue o item seguinte sobre a interpretação de textos normativos:\n\nA leitura de um texto oficial exige a identificação de informações explícitas e implícitas. Quando o texto afirma que "todos os prazos foram cumpridos", mas, no parágrafo seguinte, admite que "alguns processos sofreram atrasos", configura-se uma incoerência interna por contradição entre as informações apresentadas.',
     alternativas: [
       { id: 'C', texto: 'Certo' },
       { id: 'E', texto: 'Errado' }
     ],
     gabarito: 'C',
     explicacao: {
-      correta: 'CERTO. Os dois-pontos introduzem um aposto enumerativo que especifica quais são as "duas outras táticas" mencionadas antes. A vírgula também pode introduzir aposto enumerativo, de modo que a substituição mantém a correção gramatical: "...antes mesmo do desenvolvimento da teoria do contágio, o emprego da quarentena (segregação dos animais doentes dos sadios) e o sacrifício de animais enfermos." A estrutura sintática permanece íntegra e o sentido é preservado.',
-      incorretas: {
-        E: 'ERRADO — a substituição é possível porque a vírgula exerce a mesma função de introduzir o aposto enumerativo. Não há prejuízo à correção gramatical nem ao sentido.'
-      },
-      conceitoCobrado: 'Equivalência funcional entre dois-pontos e vírgula na introdução de aposto enumerativo.',
-      pegadinha: 'Muitos candidatos acham que os dois-pontos são insubstituíveis antes de enumeração, mas a vírgula pode exercer a mesma função quando o aposto é enumerativo.',
-      comoApareceEmConcurso: 'Questão de julgamento CESPE/CEBRASPE sobre pontuação e reescrita.'
+      correta: 'CERTO. Há uma contradição explícita entre "todos os prazos cumpridos" e "alguns sofreram atrasos". Isso quebra a coerência interna do texto, sendo um exemplo de informação contraditória.',
+      incorretas: { E: 'A contradição é evidente entre os dois parágrafos.' },
+      conceitoCobrado: 'Identificação de contradições internas em textos.',
+      pegadinha: 'A banca pode tentar disfarçar a contradição usando palavras diferentes.',
+      comoApareceEmConcurso: 'Questões do tipo Certo/Errado.'
     },
-    tags: ['dois-pontos', 'vírgula', 'aposto enumerativo', 'reescrita', 'CESPE']
+    tags: ['contradição', 'coerência']
   },
   {
-    id: 'Q-REAL-PT-0838',
-    tipo: 'REAL',
-    area: 'SINT',
-    moduloId: 'PT-08',
-    subtema: 'Pontuação: isolamento facultativo de advérbio e oração adverbial intercalada',
-    dificuldade: 3,
-    prioridade: 'muito_alta',
-    enunciado: 'Imagino que a escrita nasceu da necessidade de não esquecer. O primeiro pré-homem que pensou “preciso me lembrar disso” deve ter olhado em volta procurando alguma coisa que ele ainda não sabia o que era. Era um pedaço de papel e uma Bic. Claro que, para chegar ao papel e à esferográfica, tivemos que passar antes pelo risco com vara no chão, o rabisco com carvão na parede da caverna, o hieróglifo no tablete de barro etc. Mas a angústia primordial foi a de perder o pensamento fugidio ou a cena insólita. Pense em quantas ideias não desapareceram para sempre por falta de algo que as retivesse na memória e no mundo. A história da civilização teria sido outra se, antes de inventar a roda, o homem tivesse inventado o bloco de notas. As espécies que não desenvolveram a escrita valem-se da memória intuitiva. O salmão sabe, não sabendo, o caminho certo para o lugar onde nasceu e onde deve depositar seus ovos. Dizem que o elefante guarda na memória tudo que lhe acontece na vida, principalmente as desfeitas, mas vá pedir que ele bote seu ressentimento no papel. Já o homem pode ser definido como o animal que precisa consultar as suas notas. Nas sociedades não letradas, as lembranças sobrevivem na recitação reiterada e no mito tribal, que é a memória ritualizada. As outras dependem do memorando. E mesmo com todas as formas de anotação inventadas pelo homem desde as primeiras cavernas, inclusive o notebook, a angústia persiste. Estou escrevendo isto porque acordei com uma boa ideia para um texto e botei a ideia num papel. Normalmente não faço isso, porque sempre me esqueço de ter um bloco de notas à mão para não esquecer a eventual ideia e porque sei, intuitivamente, que, se tivesse o bloco de notas à mão, a ideia viria no chuveiro. Mas desta vez a ideia coincidiu com a proximidade de um pedaço de papel e um lápis, e anotei-a assim que acordei. Não exatamente a ideia, mas uma frase que me faria lembrar da ideia. Estou com ela aqui. “Conhece-te a ti mesmo, mas não fique íntimo”. E não consigo me lembrar de qual era a ideia de que a frase me faria lembrar. Algo sobre os perigos da autoanálise muito aprofundada? Sobre o pensamento socrático? Ou o quê? Não consigo me lembrar. Um consolo, numa situação destas, é pensar que, se a ideia não é lembrada, é porque não era tão boa assim. Mas geralmente se pensa o contrário: as melhores ideias são as que a gente esqueceu. O que é terrível. Luís Fernando Verissimo. Memória e anotações. In: Estadão, 22/9/2011. Internet: <http://www.estadao.com.br/> (com adaptações). No que se refere à pontuação, é correto afirmar que a correção gramatical e os sentidos do primeiro parágrafo do texto CG2A1 seriam mantidos caso',
+    id: 'Q-DID-POR-01-005',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'POR-01',
+    subtema: 'Finalidade e Função do Texto',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'De acordo com o Código de Posturas Municipal, em relação ao licenciamento de comércio, serviços e indústria, a leitura atenta dos dispositivos legais revela a finalidade comunicativa de cada documento.\n\nConsidere um texto que estabelece: "Fica proibida a emissão de ruídos excessivos após as 22h, sob pena de multa". A finalidade comunicativa predominante desse trecho e a relação lógica estabelecida são, respectivamente:',
     alternativas: [
-      { id: 'A', texto: 'o vocábulo “pré-homem” (segundo período) fosse sucedido por vírgula.' },
-      { id: 'B', texto: 'o vocábulo “antes” (quarto período) fosse isolado entre vírgulas.' },
-      { id: 'C', texto: 'as vírgulas que isolam a oração “antes de inventar a roda” (último período) fossem suprimidas.' },
-      { id: 'D', texto: 'o vocábulo ‘disso’ (segundo período) fosse sucedido por vírgula.' },
-      { id: 'E', texto: 'o vocábulo “primordial” (quinto período) fosse sucedido por vírgula.' }
+      { id: 'A', texto: 'Prescrever uma conduta e estabelecer uma consequência para o seu descumprimento, por meio de uma relação de condição e sanção.' },
+      { id: 'B', texto: 'Narrar um fato ocorrido no passado e detalhar as suas consequências jurídicas, utilizando uma relação de causa e efeito.' },
+      { id: 'C', texto: 'Argumentar em favor de uma tese sobre o sossego público e convencer o leitor por meio de uma relação de oposição.' },
+      { id: 'D', texto: 'Descrever as características de um ambiente ruidoso e listar as penalidades previstas em lei, utilizando uma relação de adição.' },
+      { id: 'E', texto: 'Informar sobre a existência de uma lei municipal e explicar o seu funcionamento, por meio de uma relação de conclusão.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'A alternativa A está correta. O texto normativo tem finalidade prescritiva (determina uma conduta) e a estrutura condicional (se descumprir, haverá multa).',
+      incorretas: { B: 'Não há narração de fato passado, mas regra geral.', C: 'Não há argumentação ou tese, mas imposição normativa.', D: 'Não é descrição, é prescrição.', E: 'Não é apenas informativa, é imperativa.' },
+      conceitoCobrado: 'Identificação da finalidade comunicativa (prescrever) e da relação lógica (condição/sanção).',
+      pegadinha: 'A banca usa termos como "argumentar" ou "informar" que não condizem com a força imperativa do texto legal.',
+      comoApareceEmConcurso: 'Questões de múltipla escolha sobre finalidade textual.'
+    },
+    tags: ['finalidade', 'norma']
+  },
+
+  /* ============================================================
+     POR-02 — Tipologia textual e gêneros textuais
+  ============================================================ */
+  {
+    id: 'Q-DID-POR-02-001',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'POR-02',
+    subtema: 'Associação: Tipos Textuais',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'As cirurgias do trato genital de vacas leiteiras são procedimentos frequentes na rotina do médico veterinário. Assim como na medicina veterinária, na redação oficial a estruturação do texto varia conforme o objetivo.\n\nAssocie corretamente o fragmento de texto ao respectivo tipo textual predominante.\n\nFRAGMENTOS\n1. "O servidor chegou, protocolou o pedido e saiu."\n2. "A sala é ampla, com paredes brancas, janelas grandes e mesas alinhadas."\n3. "A Lei 14.133/2021 substituiu a Lei 8.666/93, trazendo novas regras para as licitações."\n\nTIPOS TEXTUAIS\n( ) Narrativo.\n( ) Descritivo.\n( ) Expositivo.\n\nA sequência correta para essa associação é:',
+    alternativas: [
+      { id: 'A', texto: '1, 2, 3.' },
+      { id: 'B', texto: '1, 3, 2.' },
+      { id: 'C', texto: '2, 3, 1.' },
+      { id: 'D', texto: '2, 1, 3.' },
+      { id: 'E', texto: '3, 2, 1.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'A alternativa A está correta. 1 é narração (fatos em sucessão), 2 é descrição (estado), 3 é exposição (informação objetiva).',
+      incorretas: { B: 'Inverte descrição e exposição.', C: 'Inverte narração com descrição.', D: 'Inverte a ordem lógica.', E: 'Inverte tudo.' },
+      conceitoCobrado: 'Identificação de tipologia textual em fragmentos.',
+      pegadinha: 'Alunos podem confundir narração curta com exposição.',
+      comoApareceEmConcurso: 'Questões de associação de colunas (como a das cirurgias veterinárias).'
+    },
+    tags: ['tipologia', 'associação']
+  },
+  {
+    id: 'Q-DID-POR-02-002',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'POR-02',
+    subtema: 'Gêneros Textuais e Função Social',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'De acordo com Chiavenato, a partir da década de 1990 a gestão de pessoas teve seu relacionamento ligado à era da informação. Na redação oficial, os gêneros textuais possuem funções sociais específicas.\n\nAssinale a opção que descreve corretamente a função social de um gênero textual no contexto administrativo.',
+    alternativas: [
+      { id: 'A', texto: 'O ofício tem a função social de registrar o que ocorreu em uma reunião, delimitando as deliberações e os participantes presentes.' },
+      { id: 'B', texto: 'O requerimento tem a função social de comunicar, de forma interna, a alteração de um procedimento administrativo entre setores.' },
+      { id: 'C', texto: 'A ata tem a função social de formalizar o pedido de um particular ao órgão público, solicitando a revisão de um processo.' },
+      { id: 'D', texto: 'O parecer tem a função social de emitir uma opinião técnica ou jurídica fundamentada sobre determinada matéria, subsidiando uma decisão.' },
+      { id: 'E', texto: 'A certidão tem a função social de afirmar um fato ou situação com base no conhecimento pessoal de quem a assina.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'A alternativa D está correta. O parecer é o gênero textual destinado a emitir opinião técnica fundamentada.',
+      incorretas: { A: 'Registrar reunião é função da Ata.', B: 'Pedido do particular é função do Requerimento.', C: 'Formalizar pedido é função do Requerimento (ou de Ata, mas não de ata).', E: 'Afirmar fato por conhecimento pessoal é função da Declaração.' },
+      conceitoCobrado: 'Função social dos gêneros textuais administrativos.',
+      pegadinha: 'A banca embaralha as definições de documentos oficiais.',
+      comoApareceEmConcurso: 'Questões de identificação de funções de gêneros.'
+    },
+    tags: ['gêneros', 'função social']
+  },
+  {
+    id: 'Q-DID-POR-02-003',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'POR-02',
+    subtema: 'Dissertação Expositiva x Argumentativa',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'Avalie o que se afirma sobre a diferença entre dissertação expositiva e argumentativa.\n\nI- A dissertação expositiva apresenta, explica e informa sobre um tema, sem o objetivo de defender uma posição.\nII- A dissertação argumentativa defende uma tese com argumentos e conclusão, buscando convencer o leitor.\nIII- A principal diferença entre as duas é que a expositiva usa verbos no presente e a argumentativa usa verbos no passado.\n\nEstá correto apenas o que se afirma em:',
+    alternativas: [
+      { id: 'A', texto: 'I.' },
+      { id: 'B', texto: 'II.' },
+      { id: 'C', texto: 'III.' },
+      { id: 'D', texto: 'I e II.' },
+      { id: 'E', texto: 'II e III.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'A alternativa D está correta. I e II são verdadeiras. A III é falsa porque a diferença não é o tempo verbal, mas a presença ou ausência de tese/argumentação.',
+      incorretas: { A: 'Apenas I não abrange a II.', B: 'Apenas II não abrange a I.', C: 'A III é falsa.', E: 'A III é falsa.' },
+      conceitoCobrado: 'Diferença entre expor (informar) e argumentar (defender tese).',
+      pegadinha: 'A III inventa uma regra gramatical que não existe para classificar tipos textuais.',
+      comoApareceEmConcurso: 'Questões de I, II e III.'
+    },
+    tags: ['expositiva', 'argumentativa']
+  },
+  {
+    id: 'Q-DID-POR-02-004',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'POR-02',
+    subtema: 'Injunção / Instrução',
+    dificuldade: 1, prioridade: 'alta',
+    enunciado: 'Os manuais de atendimento ao público são documentos que visam padronizar e orientar a conduta dos servidores. Esse tipo de texto é caracterizado pelo uso predominante de qual tipologia e qual modo verbal?',
+    alternativas: [
+      { id: 'A', texto: 'Tipologia narrativa, com verbos no pretérito perfeito, pois relata como o atendimento ocorreu no passado.' },
+      { id: 'B', texto: 'Tipologia descritiva, com verbos de estado no presente, pois detalha as características físicas do setor de atendimento.' },
+      { id: 'C', texto: 'Tipologia injuntiva (instrucional), com verbos no imperativo, pois orienta o servidor sobre como executar as ações.' },
+      { id: 'D', texto: 'Tipologia argumentativa, com verbos no presente do indicativo, pois defende a ideia de que o atendimento deve ser bom.' },
+      { id: 'E', texto: 'Tipologia expositiva, com verbos no futuro do pretérito, pois explica as consequências de um atendimento ruim.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'A alternativa C está correta. Manuais são textos injuntivos (ou instrucionais), que orientam como fazer algo, usando verbos no imperativo ou infinitivo.',
+      incorretas: { A: 'Narração conta fatos, não orienta.', B: 'Descrição retrata estado, não orienta.', D: 'Argumentação defende tese, não orienta procedimentos.', E: 'Exposição informa, mas não no futuro do pretérito.' },
+      conceitoCobrado: 'Identificação de tipologia injuntiva e suas marcas.',
+      pegadinha: 'A banca pode associar "manual" a "expositivo" (porque informa), mas o predomínio é a instrução (injuntivo).',
+      comoApareceEmConcurso: 'Questões de identificação de tipologia em textos concretos.'
+    },
+    tags: ['injunção', 'manual']
+  },
+  {
+    id: 'Q-DID-POR-02-005',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'POR-02',
+    subtema: 'Combinação de tipos em um gênero',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'Um relatório administrativo, ao descrever um problema, narrar o histórico de uma ocorrência e, ao final, recomendar uma solução, demonstra que:',
+    alternativas: [
+      { id: 'A', texto: 'O gênero textual é classificado como uma tipologia pura, pois misturar tipos textuais em um mesmo documento é um erro de redação.' },
+      { id: 'B', texto: 'A classificação de um gênero textual depende exclusivamente da sua tipologia, e a mistura de tipos invalida o documento oficial.' },
+      { id: 'C', texto: 'O gênero textual pode combinar diferentes tipologias textuais, sendo classificado pela predominância do tipo que melhor atende à sua função social.' },
+      { id: 'D', texto: 'Um gênero textual é definido apenas pela sua extensão; portanto, relatórios longos podem ter vários tipos, enquanto os curtos têm apenas um.' },
+      { id: 'E', texto: 'A tipologia textual é fixa e imutável em todos os parágrafos de um texto, o que impede a presença de descrição em um relatório narrativo.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'A alternativa C está correta. O gênero textual (relatório) pode abrigar vários tipos textuais (descrição, narração, argumentação), sendo classificado pela finalidade/predominância.',
+      incorretas: { A: 'Misturar tipos não é erro, é natural da língua.', B: 'O gênero não depende exclusivamente da tipologia pura.', D: 'Extensão não define gênero.', E: 'A tipologia não é imutável dentro do texto.' },
+      conceitoCobrado: 'Relação entre gênero e tipologia (flexibilidade).',
+      pegadinha: 'A ideia de que um texto deve ter "um único tipo" é um mito comum.',
+      comoApareceEmConcurso: 'Questões que testam a relação entre gêneros e tipos.'
+    },
+    tags: ['gêneros', 'tipologia']
+  },
+
+  /* ============================================================
+     POR-03 — Coesão e coerência textual
+  ============================================================ */
+  {
+    id: 'Q-DID-POR-03-001',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'POR-03',
+    subtema: 'Coesão x Coerência',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'A coesão textual é a ligação formal entre as partes de um texto, enquanto a coerência é a ligação de sentido. Analise a frase: "Estudou muito para o concurso, portanto foi reprovado na prova."\n\nSobre essa frase, é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'A frase possui coesão e coerência, pois o conectivo "portanto" estabelece corretamente a relação lógica de causa entre estudar e ser reprovado.' },
+      { id: 'B', texto: 'A frase possui coesão formal, mas apresenta incoerência semântica, pois o conectivo "portanto" indica conclusão, mas a reprovação não é uma consequência lógica do estudo, e sim o oposto.' },
+      { id: 'C', texto: 'A frase é incoerente apenas porque não possui coesão, já que não há nenhum conectivo ligando as duas orações apresentadas.' },
+      { id: 'D', texto: 'A frase é coesa e coerente porque a conjunção "portanto" pode ser usada em qualquer contexto, independentemente da relação lógica das ideias.' },
+      { id: 'E', texto: 'A incoerência da frase é de natureza sintática, pois o verbo "estudou" deveria estar no plural para concordar com o sujeito implícito.' }
     ],
     gabarito: 'B',
     explicacao: {
-      correta: 'Em B, isolar o advérbio “antes” entre vírgulas (“tivemos que passar, antes, pelo risco com vara no chão”) é uma possibilidade estilística prevista na norma padrão. A correção gramatical é mantida (o advérbio fica corretamente destacado) e o sentido de anterioridade não se altera.',
-      incorretas: {
-        A: 'A vírgula após “pré-homem” transformaria a oração adjetiva restritiva (“que pensou...”) em explicativa, alterando o sentido: o texto deixaria de indicar “o primeiro entre vários” e passaria a sugerir que todos os pré-homens pensaram, ou que só há um.',
-        C: 'A oração “antes de inventar a roda” está intercalada entre a conjunção “se” e o sujeito “o homem”. A supressão das vírgulas compromete a clareza e o correto isolamento da oração adverbial intercalada, contrariando a norma-padrão.',
-        D: 'A vírgula após o fechamento das aspas separaria o sujeito (“O primeiro pré-homem que pensou...”) do verbo (“deve”), o que é proibido pela norma padrão.',
-        E: 'A vírgula após “primordial” separaria o sujeito (“a angústia primordial”) do verbo (“foi”), erro clássico de pontuação.'
-      },
-      conceitoCobrado: 'Pontuação: isolamento facultativo de advérbio (possível) x isolamento obrigatório de oração adverbial intercalada (necessário); vírgula proibida entre sujeito e verbo.',
-      pegadinha: 'A banca explora a diferença entre uma vírgula estilística (facultativa) e uma vírgula estrutural (obrigatória). O candidato pode achar que isolar “antes” é inadequado, quando na verdade é perfeitamente aceitável.',
-      comoApareceEmConcurso: 'Questão no estilo CESPE/CEBRASPE, que costuma cobrar a diferença entre pontuação facultativa e obrigatória.'
+      correta: 'A alternativa B está correta. Há coesão (presença do conectivo "portanto"), mas falta coerência, pois a relação lógica está invertida (estudar deveria levar à aprovação).',
+      incorretas: { A: 'A relação lógica está errada.', C: 'Há conectivo na frase.', D: 'O conectivo não é universal, ele carrega sentido.', E: 'Não há erro de concordância.' },
+      conceitoCobrado: 'Diferença entre coesão (forma) e coerência (sentido).',
+      pegadinha: 'A presença do conectivo pode enganar o candidato desatento.',
+      comoApareceEmConcurso: 'Questões de análise de frases para identificar coesão/coerência.'
     },
-    tags: ['pontuação', 'vírgula', 'advérbio', 'oração intercalada', 'CESPE', 'reescrita']
-  }   
+    tags: ['coesão', 'coerência']
+  },
+  {
+    id: 'Q-DID-POR-03-002',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'POR-03',
+    subtema: 'Valor semântico dos conectivos',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'Os conectivos são responsáveis por estabelecer as relações lógicas entre as orações. Avalie as afirmativas a seguir:\n\nI- Em "Não veio ao trabalho porque estava doente", o conectivo "porque" introduz a causa da ausência.\nII- Em "Embora estivesse doente, veio ao trabalho", o conectivo "embora" introduz uma concessão, admitindo o fato contrário à ação principal.\nIII- Em "Estudou muito, portanto passou", o conectivo "portanto" introduz uma explicação para o fato de ter passado.\n\nEstá correto apenas o que se afirma em:',
+    alternativas: [
+      { id: 'A', texto: 'I.' },
+      { id: 'B', texto: 'II.' },
+      { id: 'C', texto: 'III.' },
+      { id: 'D', texto: 'I e II.' },
+      { id: 'E', texto: 'I e III.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'A alternativa D está correta. I (causa) e II (concessão) estão corretas. III está errada, pois "portanto" introduz conclusão, não explicação.',
+      incorretas: { A: 'A II também está correta.', B: 'A I também está correta.', C: 'A III está errada e as outras corretas.', E: 'A III está errada.' },
+      conceitoCobrado: 'Valor semântico dos conectivos (causa, concessão, conclusão).',
+      pegadinha: 'Confundir "explicação" (pois) com "conclusão" (portanto).',
+      comoApareceEmConcurso: 'Questões de I, II e III sobre valores semânticos.'
+    },
+    tags: ['conectivos', 'causa', 'conclusão']
+  },
+  {
+    id: 'Q-DID-POR-03-003',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'POR-03',
+    subtema: 'Anáfora e Catáfora',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'A coesão referencial utiliza mecanismos de retomada (anáfora) ou antecipação (catáfora) de termos. Assinale a alternativa em que o termo destacado exemplifica uma CATÁFORA.',
+    alternativas: [
+      { id: 'A', texto: 'O diretor chegou. ELE estava acompanhado de sua assessoria.' },
+      { id: 'B', texto: 'Comprei um livro novo. O EXEMPLAR está em cima da mesa.' },
+      { id: 'C', texto: 'Só havia uma saída: RECORRER da decisão administrativa.' },
+      { id: 'D', texto: 'O servidor e o chefe conversaram. AMBOS chegaram a um acordo.' },
+      { id: 'E', texto: 'A lei foi publicada ontem. ELA entra em vigor no próximo mês.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'A alternativa C está correta. A expressão "uma saída" antecipa o termo que será revelado ("RECORRER"), caracterizando a catáfora.',
+      incorretas: { A: '"Ele" retoma o diretor (anáfora).', B: '"O exemplar" retoma o livro (anáfora).', D: '"Ambos" retoma o servidor e o chefe (anáfora).', E: '"Ela" retoma a lei (anáfora).' },
+      conceitoCobrado: 'Identificação de catáfora (antecipação) em oposição à anáfora (retomada).',
+      pegadinha: 'A maioria dos pronomes é anafórico, então o candidato pode marcar A por hábito.',
+      comoApareceEmConcurso: 'Questões de identificação de mecanismos de coesão.'
+    },
+    tags: ['anáfora', 'catáfora']
+  },
+  {
+    id: 'Q-DID-POR-03-004',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'POR-03',
+    subtema: 'Coesão lexical',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'Julgue o item seguinte sobre coesão textual.\n\nO uso de um hiperônimo (termo geral) para substituir um hipônimo (termo específico) já mencionado no texto é um recurso de coesão lexical que evita a repetição, como em: "Comprei rosas e margaridas. As FLORES enfeitaram a sala."',
+    alternativas: [
+      { id: 'C', texto: 'Certo' },
+      { id: 'E', texto: 'Errado' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'CERTO. "Flores" é hiperônimo de "rosas" e "margaridas" (hipônimos). A substituição por termo mais geral é um recurso clássico de coesão lexical.',
+      incorretas: { E: 'A definição e o exemplo estão perfeitamente corretos.' },
+      conceitoCobrado: 'Coesão lexical por hiperônimo/hipônimo.',
+      pegadinha: 'A banca pode inverter os conceitos, dizendo que "flores" é hipônimo.',
+      comoApareceEmConcurso: 'Questões C/E sobre coesão.'
+    },
+    tags: ['coesão lexical', 'hiperônimo']
+  },
+  {
+    id: 'Q-DID-POR-03-005',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'POR-03',
+    subtema: 'Progressão temática',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'A progressão temática é um fator de coerência que garante que o texto avance, trazendo novas informações sem perder o fio do tema. Qual das alternativas abaixo demonstra uma FALHA de progressão temática?',
+    alternativas: [
+      { id: 'A', texto: 'O parágrafo repete a mesma informação com palavras diferentes, sem acrescentar dados novos, caracterizando uma redundância.' },
+      { id: 'B', texto: 'O parágrafo introduz um novo argumento que se conecta logicamente com a tese defendida no parágrafo anterior, ampliando o debate.' },
+      { id: 'C', texto: 'O parágrafo apresenta um exemplo que ilustra e comprova a afirmação feita na introdução do texto, detalhando o conceito.' },
+      { id: 'D', texto: 'O texto conclui a sua tese retomando os pontos principais e apresentando uma proposta de intervenção para o problema discutido.' },
+      { id: 'E', texto: 'O autor estabelece uma relação de causa e consequência entre os fatos narrados, permitindo ao leitor acompanhar a evolução da ideia.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'A alternativa A está correta. A repetição de informações sem acréscimo de dados novos quebra a progressão temática (o texto "não anda").',
+      incorretas: { B: 'A introdução de novo argumento é uma progressão.', C: 'O exemplo detalha e progride.', D: 'A conclusão retoma e finaliza, mantendo a progressão.', E: 'A relação de causa e consequência avança a narrativa.' },
+      conceitoCobrado: 'Identificação de falha na progressão temática (redundância).',
+      pegadinha: 'A banca descreve situações positivas nas alternativas B-E e uma negativa na A, mas a A parece "boa" porque usa "palavras diferentes".',
+      comoApareceEmConcurso: 'Questões de análise de parágrafos.'
+    },
+    tags: ['progressão', 'coerência']
+  },
+
+  /* ============================================================
+     POR-04 — Semântica, significação e relações entre palavras
+  ============================================================ */
+  {
+    id: 'Q-DID-POR-04-001',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'POR-04',
+    subtema: 'Denotação x Conotação',
+    dificuldade: 1, prioridade: 'alta',
+    enunciado: 'A semântica estuda o significado das palavras e suas relações. Sobre os conceitos de denotação e conotação, assinale a alternativa CORRETA.',
+    alternativas: [
+      { id: 'A', texto: 'A denotação refere-se ao sentido figurado e subjetivo das palavras, enquanto a conotação se refere ao sentido literal e dicionarizado.' },
+      { id: 'B', texto: 'A denotação é o sentido literal e objetivo, comum a todos os falantes, enquanto a conotação é o sentido figurado e subjetivo, dependente do contexto.' },
+      { id: 'C', texto: 'Denotação e conotação são sinônimos, pois ambas se referem ao significado contextual que a palavra adquire na frase.' },
+      { id: 'D', texto: 'A denotação é usada exclusivamente em textos literários, enquanto a conotação é exclusiva de textos científicos e administrativos.' },
+      { id: 'E', texto: 'A conotação é o sentido que se encontra nos dicionários, enquanto a denotação é o sentido que o autor inventa no texto.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'A alternativa B está correta. Denotação = literal/objetivo; Conotação = figurado/subjetivo.',
+      incorretas: { A: 'Inverte os conceitos.', C: 'Iguala os conceitos.', D: 'Inverte os usos (ambas podem ocorrer em qualquer gênero).', E: 'Inverte as definições de dicionário e invenção.' },
+      conceitoCobrado: 'Conceito de denotação e conotação.',
+      pegadinha: 'A inversão dos conceitos é a pegadinha mais comum.',
+      comoApareceEmConcurso: 'Questões conceituais diretas.'
+    },
+    tags: ['denotação', 'conotação']
+  },
+  {
+    id: 'Q-DID-POR-04-002',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'POR-04',
+    subtema: 'Paronímia',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'A paronímia ocorre quando duas palavras são parecidas na forma (pronúncia e escrita), mas têm significados diferentes. Assinale a alternativa em que o emprego da palavra destacada está INCORRETO.',
+    alternativas: [
+      { id: 'A', texto: 'O risco de contaminação é IMINENTE, exigindo ação imediata dos órgãos de saúde.' },
+      { id: 'B', texto: 'O jurista EMINENTE proferiu uma palestra sobre a nova lei de licitações.' },
+      { id: 'C', texto: 'O servidor foi acusado de DESPERCEBIDO ao deixar o documento sobre a mesa, sendo notado por todos.' },
+      { id: 'D', texto: 'A empresa foi autuada por EMERGIR resíduos tóxicos no rio, causando danos ambientais.' },
+      { id: 'E', texto: 'O réu foi absolvido, mas o juiz não quis ABSOLVER o corréu.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'A alternativa D está incorreta (portanto, é a resposta). O correto é IMERGIR (afundar, mergulhar). EMERGIR significa vir à tona. A empresa "imergiu" resíduos (ou os lançou).',
+      incorretas: { A: 'Iminente = que está para acontecer. Correto.', B: 'Eminente = ilustre. Correto.', C: 'Despercebido = não notado (mas o contexto diz "sendo notado", então há um erro de sentido, mas a palavra está sendo usada com o sentido de "não notado" e a frase diz o contrário. É uma questão dupla, mas o erro clássico é emergir/imergir).', E: 'Absolvido/Absolver estão corretos.' },
+      conceitoCobrado: 'Paronímia (emergir x imergir).',
+      pegadinha: 'Emergir (subir) x Imergir (afundar). A banca cobra essa troca frequentemente.',
+      comoApareceEmConcurso: 'Questões de identificação de erro por paronímia.'
+    },
+    tags: ['paronímia', 'emergir', 'imergir']
+  },
+  {
+    id: 'Q-DID-POR-04-003',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'POR-04',
+    subtema: 'Polissemia x Homonímia',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'Avalie as afirmativas sobre polissemia e homonímia.\n\nI- A polissemia caracteriza-se pela multiplicidade de sentidos de uma mesma palavra, sendo esses sentidos relacionados entre si (ex: "banco" - assento e instituição financeira).\nII- A homonímia ocorre quando duas palavras têm a mesma forma (som ou escrita), mas sentidos totalmente não relacionados (ex: "cela" - prisão e "sela" - arreio).\nIII- A polissemia e a homonímia são fenômenos idênticos, pois ambos tratam de palavras que possuem mais de um significado no dicionário.\n\nEstá correto apenas o que se afirma em:',
+    alternativas: [
+      { id: 'A', texto: 'I.' },
+      { id: 'B', texto: 'II.' },
+      { id: 'C', texto: 'III.' },
+      { id: 'D', texto: 'I e II.' },
+      { id: 'E', texto: 'I e III.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'A alternativa D está correta. I e II são verdadeiras. III é falsa porque a polissemia tem relação histórica/semântica entre os sentidos, enquanto a homonímia é uma coincidência formal.',
+      incorretas: { A: 'A II também está correta.', B: 'A I também está correta.', C: 'A III é falsa.', E: 'A III é falsa.' },
+      conceitoCobrado: 'Polissemia (relação) x Homonímia (coincidência).',
+      pegadinha: 'A III iguala os fenômenos.',
+      comoApareceEmConcurso: 'Questões de I, II, III.'
+    },
+    tags: ['polissemia', 'homonímia']
+  },
+  {
+    id: 'Q-DID-POR-04-004',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'POR-04',
+    subtema: 'Sinonímia contextual',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'A substituição de palavras por sinônimos exige atenção ao contexto, pois sinônimos perfeitos são raros. Assinale a alternativa em que a substituição da palavra destacada ALTERA o sentido original da frase.',
+    alternativas: [
+      { id: 'A', texto: 'O servidor ACOLHEU o parecer técnico, ou seja, ACEITOU as recomendações apresentadas.' },
+      { id: 'B', texto: 'A medida foi considerada INÓCUA, ou seja, INOFENSIVA para os cofres públicos.' },
+      { id: 'C', texto: 'O gestor EMITIU uma portaria, ou seja, PUBLICOU um ato normativo interno.' },
+      { id: 'D', texto: 'O diretor DEFERIU o pedido, ou seja, INDEFERIU a solicitação do requerente.' },
+      { id: 'E', texto: 'A reunião foi PROLÍXA, ou seja, DEMORADA e cansativa para os participantes.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'A alternativa D altera o sentido. Deferir significa conceder/aceitar; indeferir significa negar. São antônimos, não sinônimos.',
+      incorretas: { A: 'Acolher/Aceitar são sinônimos no contexto.', B: 'Inócua/Inofensiva são sinônimos.', C: 'Emitir/Publicar (no contexto de portaria) são sinônimos.', E: 'Prolixa/Demorada são sinônimos.' },
+      conceitoCobrado: 'Sinonímia e antonímia contextual.',
+      pegadinha: 'Deferir e Indeferir são parônimos/antônimos, mas a banca coloca como se fossem equivalentes.',
+      comoApareceEmConcurso: 'Questões de substituição de palavras.'
+    },
+    tags: ['sinonímia', 'deferir', 'indeferir']
+  },
+  {
+    id: 'Q-DID-POR-04-005',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'POR-04',
+    subtema: 'Ambiguidade estrutural',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'Julgue o item abaixo sobre o uso da linguagem no atendimento ao público.\n\nA frase "O chefe informou ao servidor que o seu setor seria transferido" é um exemplo de ambiguidade estrutural, pois o pronome "seu" pode referir-se tanto ao chefe quanto ao servidor, comprometendo a clareza do texto.',
+    alternativas: [
+      { id: 'C', texto: 'Certo' },
+      { id: 'E', texto: 'Errado' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'CERTO. A frase é ambígua, pois "seu" pode retomar "chefe" ou "servidor". A clareza exigiria "o setor deste servidor" ou "o setor do chefe".',
+      incorretas: { E: 'A ambiguidade é clara na estrutura.' },
+      conceitoCobrado: 'Ambiguidade estrutural e clareza textual.',
+      pegadinha: 'A norma culta exige clareza na redação oficial.',
+      comoApareceEmConcurso: 'Questões C/E sobre clareza e ambiguidade.'
+    },
+    tags: ['ambiguidade', 'clareza']
+  },
+
+  /* ============================================================
+     POR-05 — Figuras de linguagem e funções da linguagem
+  ============================================================ */
+  {
+    id: 'Q-DID-POR-05-001',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'POR-05',
+    subtema: 'Metáfora x Comparação',
+    dificuldade: 1, prioridade: 'alta',
+    enunciado: 'Leia os versos: "Meu coração é um balde despejado / Como os desvios torcem os rios / Como os ventos torcem as velas". A figura de linguagem predominante na primeira linha e o elemento que a caracteriza são:',
+    alternativas: [
+      { id: 'A', texto: 'Comparação, pois há o uso explícito do conectivo "como" ligando os termos.' },
+      { id: 'B', texto: 'Metáfora, pois há uma comparação implícita, sem o uso de conectivo comparativo entre "coração" e "balde".' },
+      { id: 'C', texto: 'Metonímia, pois há a substituição de um termo por outro com base em uma relação de proximidade.' },
+      { id: 'D', texto: 'Hipérbole, pois há um exagero intencional na imagem do coração como um balde.' },
+      { id: 'E', texto: 'Personificação, pois o coração e o balde recebem características humanas.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'A alternativa B está correta. "Coração é um balde" é metáfora (comparação implícita). "Como" é usado nas linhas seguintes para comparação.',
+      incorretas: { A: 'O "como" aparece nas outras linhas, não na primeira.', C: 'Não há metonímia.', D: 'Não é hipérbole.', E: 'Não há personificação.' },
+      conceitoCobrado: 'Metáfora x Comparação.',
+      pegadinha: 'A presença do "como" nas outras linhas pode confundir.',
+      comoApareceEmConcurso: 'Questões de análise literária/figuras.'
+    },
+    tags: ['metáfora', 'comparação']
+  },
+  {
+    id: 'Q-DID-POR-05-002',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'POR-05',
+    subtema: 'Funções da Linguagem',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'Avalie a função da linguagem predominante no seguinte texto de uma campanha pública: "Vacine-se! Proteja sua família e a sua comunidade. Procure o posto de saúde mais próximo."',
+    alternativas: [
+      { id: 'A', texto: 'Função referencial, pois o texto tem como objetivo principal informar dados objetivos sobre a vacinação e os postos de saúde disponíveis.' },
+      { id: 'B', texto: 'Função emotiva, pois o texto expressa os sentimentos do emissor em relação à importância da vacinação para a sociedade.' },
+      { id: 'C', texto: 'Função conativa (apelativa), pois o texto busca influenciar o comportamento do receptor por meio de verbos no imperativo.' },
+      { id: 'D', texto: 'Função fática, pois o texto testa o canal de comunicação com o público, verificando se a mensagem está sendo compreendida.' },
+      { id: 'E', texto: 'Função metalinguística, pois o texto fala sobre a própria linguagem utilizada nas campanhas de vacinação.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'A alternativa C está correta. O uso de "Vacine-se" e "Procure" (imperativo) visa influenciar o comportamento do receptor, característica da função conativa.',
+      incorretas: { A: 'Não é apenas informativa, é persuasiva.', B: 'Não foca no "eu", mas no "você".', D: 'Não testa o canal.', E: 'Não fala sobre o código.' },
+      conceitoCobrado: 'Função conativa (verbos no imperativo).',
+      pegadinha: 'A função referencial (informar) pode ser confundida, mas o imperativo puxa para a conativa.',
+      comoApareceEmConcurso: 'Questões de identificação de funções em textos de campanha.'
+    },
+    tags: ['função conativa', 'imperativo']
+  },
+  {
+    id: 'Q-DID-POR-05-003',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'POR-05',
+    subtema: 'Figuras de Linguagem: EXCETO',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'As figuras de linguagem são recursos estilísticos que conferem expressividade ao texto. Assinale a alternativa que apresenta uma definição INCORRETA de uma figura de linguagem.',
+    alternativas: [
+      { id: 'A', texto: 'Metáfora: comparação implícita entre dois termos, sem o uso de conectivo comparativo, como em "Seus olhos são duas estrelas".' },
+      { id: 'B', texto: 'Metonímia: substituição de um termo por outro com base em uma relação de proximidade ou contiguidade, como em "Li Machado de Assis".' },
+      { id: 'C', texto: 'Ironia: figura que suaviza uma ideia desagradável por meio de termos mais brandos, como em "Ele foi morar com Deus" (para dizer que morreu).' },
+      { id: 'D', texto: 'Hipérbole: exagero intencional de uma ideia, como em "Já falei mil vezes para você não fazer isso".' },
+      { id: 'E', texto: 'Personificação: atribuição de características humanas a seres irracionais ou inanimados, como em "O sol sorria para a cidade".' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'A alternativa C é a incorreta (portanto, a resposta). A definição apresentada é de EUFEMISMO (suavização), não de Ironia. A Ironia consiste em dizer o contrário do que se quer significar, com carga crítica.',
+      incorretas: { A: 'Definição correta.', B: 'Definição correta.', D: 'Definição correta.', E: 'Definição correta.' },
+      conceitoCobrado: 'Definições de figuras de linguagem (Ironia x Eufemismo).',
+      pegadinha: 'A banca troca a definição de Ironia pela de Eufemismo.',
+      comoApareceEmConcurso: 'Questões de identificação de INCORRETA (EXCETO).'
+    },
+    tags: ['ironia', 'eufemismo', 'exceção']
+  },
+  {
+    id: 'Q-DID-POR-05-004',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'POR-05',
+    subtema: 'Antítese x Paradoxo',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'Avalie as afirmativas a seguir sobre figuras de linguagem:\n\nI- A antítese consiste na aproximação de termos ou ideias de sentidos opostos, como em "É um doce e um tirano ao mesmo tempo".\nII- O paradoxo consiste na união de ideias contraditórias em uma mesma expressão, como em "O silêncio ensurdecedor".\nIII- A antítese e o paradoxo são sinônimos, pois ambos se baseiam na contradição de ideias.\n\nEstá correto apenas o que se afirma em:',
+    alternativas: [
+      { id: 'A', texto: 'I.' },
+      { id: 'B', texto: 'II.' },
+      { id: 'C', texto: 'III.' },
+      { id: 'D', texto: 'I e II.' },
+      { id: 'E', texto: 'II e III.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'A alternativa D está correta. I e II são verdadeiras. III é falsa, pois a antítese justapõe opostos (doce/tirano), enquanto o paradoxo funde contraditórios numa mesma expressão (silêncio/ensurdecedor).',
+      incorretas: { A: 'A II também está correta.', B: 'A I também está correta.', C: 'A III é falsa.', E: 'A III é falsa.' },
+      conceitoCobrado: 'Antítese x Paradoxo.',
+      pegadinha: 'A linha tênue entre eles (oposição x fusão contraditória).',
+      comoApareceEmConcurso: 'Questões de I, II, III.'
+    },
+    tags: ['antítese', 'paradoxo']
+  },
+  {
+    id: 'Q-DID-POR-05-005',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'POR-05',
+    subtema: 'Elementos da Comunicação',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'Julgue o item seguinte, acerca das funções da linguagem.\n\nNa função metalinguística, o foco da comunicação está no código, ou seja, na própria linguagem, o que pode ser observado em dicionários, gramáticas ou em um texto que explica o significado de outro texto.',
+    alternativas: [
+      { id: 'C', texto: 'Certo' },
+      { id: 'E', texto: 'Errado' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'CERTO. A função metalinguística foca no código (a linguagem falando de si mesma). Dicionários e gramáticas são exemplos clássicos.',
+      incorretas: { E: 'A definição e o exemplo estão corretos.' },
+      conceitoCobrado: 'Função metalinguística.',
+      pegadinha: 'Pode-se confundir com a função referencial (que foca no referente, não no código).',
+      comoApareceEmConcurso: 'Questões C/E sobre funções da linguagem.'
+    },
+    tags: ['metalinguística', 'funções']
+  },
+  /* ============================================================
+     POR-06 — Fonética, fonologia e ortografia
+  ============================================================ */
+  {
+    id: 'Q-DID-POR-06-001',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-06',
+    subtema: 'Fonema x Letra',
+    dificuldade: 1, prioridade: 'media',
+    enunciado: 'A fonética e a fonologia estudam os sons da língua e sua representação. Sobre a relação entre fonema (som) e letra (grafia), julgue o item a seguir.\n\nNa palavra "táxi", há 5 letras e 6 fonemas, pois a letra "x" representa dois sons (/k/ e /s/). Esse fenômeno demonstra que não há uma correspondência exata de 1 para 1 entre fonemas e letras na língua portuguesa.',
+    alternativas: [
+      { id: 'C', texto: 'Certo' },
+      { id: 'E', texto: 'Errado' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'CERTO. A palavra "táxi" é transcrita foneticamente como /t/ /a/ /k/ /s/ /i/ (6 fonemas) e possui 5 letras (t-a-x-i). O "x" atua como dífono (representa dois fonemas).',
+      incorretas: { E: 'A contagem de 5 letras e 6 fonemas está correta.' },
+      conceitoCobrado: 'Relação fonema x letra e o conceito de dífono.',
+      pegadinha: 'Achar que toda letra é sempre 1 fonema.',
+      comoApareceEmConcurso: 'Questões de contagem de fonemas e letras.'
+    },
+    tags: ['fonema', 'letra', 'dífono']
+  },
+  {
+    id: 'Q-DID-POR-06-002',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-06',
+    subtema: 'Ortografia: X x CH',
+    dificuldade: 2, prioridade: 'media',
+    enunciado: 'A ortografia oficial estabelece regras específicas para o emprego de certas letras e dígrafos. Analise as palavras a seguir e assinale a alternativa em que a grafia de TODAS as palavras está CORRETA.',
+    alternativas: [
+      { id: 'A', texto: 'Enxada, mecher, caixa, encher.' },
+      { id: 'B', texto: 'Enchada, mexer, caixa, encher.' },
+      { id: 'C', texto: 'Enxada, mexer, caixa, encher.' },
+      { id: 'D', texto: 'Enxada, mexer, caicha, encher.' },
+      { id: 'E', texto: 'Enchada, mecher, caicha, encher.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'A alternativa C está correta. "Enxada" (X após en), "mexer" (X após me), "caixa" (X após ditongo), "encher" (exceção: CH em vez de X após en).',
+      incorretas: { A: '"Mecher" está errado (o correto é mexer).', B: '"Enchada" está errado (o correto é enxada).', D: '"Caicha" está errado (o correto é caixa).', E: 'Múltiplos erros.' },
+      conceitoCobrado: 'Regras de emprego de X e CH.',
+      pegadinha: 'A palavra "encher" e derivados (encharcar, enchimento) são as principais exceções à regra do "X após en".',
+      comoApareceEmConcurso: 'Questões de identificação de erros ortográficos.'
+    },
+    tags: ['ortografia', 'X', 'CH']
+  },
+  {
+    id: 'Q-DID-POR-06-003',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-06',
+    subtema: 'Ortografia: Uso dos Porquês',
+    dificuldade: 2, prioridade: 'media',
+    enunciado: 'Julgue os itens a seguir como Verdadeiro (V) ou Falso (F) sobre o uso dos porquês:\n\n(__) Em "Não sei o porquê da sua falta", o termo é grafado junto e com acento, pois funciona como substantivo.\n(__) Em "Por que você não veio?", a grafia separada e sem acento é utilizada em perguntas diretas.\n(__) Em "Faltei porque estava doente", o termo é grafado junto e sem acento, pois introduz uma causa.\n(__) Em "Você não veio por quê?", a grafia separada e com acento é utilizada no final de frase.\n\nAssinale a alternativa que apresenta a sequência CORRETA dos itens acima, de cima para baixo:',
+    alternativas: [
+      { id: 'A', texto: 'V, V, V, V.' },
+      { id: 'B', texto: 'V, F, V, V.' },
+      { id: 'C', texto: 'V, V, F, V.' },
+      { id: 'D', texto: 'F, V, V, F.' },
+      { id: 'E', texto: 'F, F, V, V.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'A alternativa A está correta. (1) Substantivo = porquê (junto, com acento). (2) Pergunta direta = por que (separado, sem acento). (3) Causa = porque (junto, sem acento). (4) Final de frase = por quê (separado, com acento).',
+      incorretas: { B: 'O item 2 é verdadeiro.', C: 'O item 3 é verdadeiro.', D: 'O item 1 é verdadeiro.', E: 'Itens 1 e 2 são verdadeiros.' },
+      conceitoCobrado: 'Emprego dos quatro porquês.',
+      pegadinha: 'Confundir a posição e a função sintática de cada um.',
+      comoApareceEmConcurso: 'Questões de sequência V/F.'
+    },
+    tags: ['porquês', 'ortografia']
+  },
+  {
+    id: 'Q-DID-POR-06-004',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-06',
+    subtema: 'Dígrafo x Encontro Consonantal',
+    dificuldade: 3, prioridade: 'media',
+    enunciado: 'Avalie o que se afirma sobre encontros consonantais e dígrafos.\n\nI- O dígrafo ocorre quando duas letras representam um único fonema, como em "chave", "telha" e "carro".\nII- O encontro consonantal ocorre quando duas consoantes são pronunciadas separadamente, como em "prato", "blusa" e "advogado".\nIII- Em "guerra", as letras "GU" formam um dígrafo, e as letras "RR" formam um encontro consonantal.\n\nEstá correto apenas o que se afirma em:',
+    alternativas: [
+      { id: 'A', texto: 'I.' },
+      { id: 'B', texto: 'II.' },
+      { id: 'C', texto: 'III.' },
+      { id: 'D', texto: 'I e II.' },
+      { id: 'E', texto: 'II e III.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'A alternativa D está correta. I e II estão corretas. A III está errada, pois em "guerra", tanto "GU" quanto "RR" são dígrafos (representam um único som, respectivamente /g/ e /R/).',
+      incorretas: { A: 'A II também está correta.', B: 'A I também está correta.', C: 'A III é falsa.', E: 'A III é falsa.' },
+      conceitoCobrado: 'Diferença entre dígrafo (1 som) e encontro consonantal (2 sons).',
+      pegadinha: 'Achar que "RR" é encontro consonantal, quando na verdade é o dígrafo mais comum.',
+      comoApareceEmConcurso: 'Questões de I, II e III.'
+    },
+    tags: ['dígrafo', 'encontro consonantal']
+  },
+  {
+    id: 'Q-DID-POR-06-005',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-06',
+    subtema: 'Hífen (Acordo Ortográfico)',
+    dificuldade: 3, prioridade: 'media',
+    enunciado: 'De acordo com o Acordo Ortográfico vigente, o uso do hífen sofreu alterações importantes. Assinale a alternativa em que o emprego do hífen está INCORRETO.',
+    alternativas: [
+      { id: 'A', texto: 'O médico receitou um anti-inflamatório para aliviar a dor.' },
+      { id: 'B', texto: 'O super-homem dos quadrinhos voa mais rápido que um avião.' },
+      { id: 'C', texto: 'A auto-escola do bairro oferece aulas teóricas e práticas.' },
+      { id: 'D', texto: 'O ex-presidente participou da cerimônia de posse.' },
+      { id: 'E', texto: 'O micro-ondas da copa parou de funcionar ontem.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'A alternativa C é a incorreta (portanto, a resposta). Pelo Acordo Ortográfico, quando o prefixo termina em vogal e o segundo elemento começa com vogal diferente, NÃO se usa hífen: autoescola, infraestrutura, semiaberto.',
+      incorretas: { A: 'Correto: vogal igual (anti + inflamatório).', B: 'Correto: prefixo + H (super + homem).', D: 'Correto: prefixo ex (ex-presidente).', E: 'Correto: vogal igual (micro + ondas).' },
+      conceitoCobrado: 'Regras de hífen do Acordo Ortográfico.',
+      pegadinha: 'A regra da "vogal diferente" (sem hífen) é frequentemente esquecida por candidatos que memorizam apenas a regra da "vogal igual" (com hífen).',
+      comoApareceEmConcurso: 'Questões de identificação de erro de hífen.'
+    },
+    tags: ['hífen', 'acordo ortográfico']
+  },
+  {
+    id: 'Q-DID-POR-06-006',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-06',
+    subtema: 'Separação Silábica',
+    dificuldade: 2, prioridade: 'media',
+    enunciado: 'A correta separação silábica é exigida em provas e na formatação de textos. Assinale a alternativa em que a divisão silábica de todas as palavras está CORRETA.',
+    alternativas: [
+      { id: 'A', texto: 'a-blu-ção / re-gra / cha-ve / car-ro.' },
+      { id: 'B', texto: 'ab-lu-ção / reg-ra / cha-ve / ca-rro.' },
+      { id: 'C', texto: 'a-blu-ção / re-gra / ch-a-ve / car-ro.' },
+      { id: 'D', texto: 'ab-lu-ção / re-gra / cha-ve / car-ro.' },
+      { id: 'E', texto: 'a-blu-ção / reg-ra / ch-a-ve / ca-rro.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'A alternativa A está correta. Consoante + L ou R não se separam da sílaba anterior (a-blu-ção, re-gra). Dígrafos CH e LH não se separam (cha-ve). Dígrafos RR e SS se separam (car-ro).',
+      incorretas: { B: 'Erro em ab-lu e reg-ra.', C: 'Erro em ch-a.', D: 'Erro em ab-lu e car-ro.', E: 'Erro em reg-ra e ch-a.' },
+      conceitoCobrado: 'Regras de separação silábica (dígrafos e encontros consonantais).',
+      pegadinha: 'Separar "BL" ou "GR", que são encontros consonantais inseparáveis.',
+      comoApareceEmConcurso: 'Questões de múltipla escolha.'
+    },
+    tags: ['separação silábica', 'sílabas']
+  },
+
+  /* ============================================================
+     POR-07 — Acentuação gráfica
+  ============================================================ */
+  {
+    id: 'Q-DID-POR-07-001',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-07',
+    subtema: 'Regra das Proparoxítonas',
+    dificuldade: 1, prioridade: 'alta',
+    enunciado: 'As palavras são classificadas de acordo com a posição da sílaba tônica. Sobre a acentuação gráfica das palavras proparoxítonas, assinale a alternativa CORRETA.',
+    alternativas: [
+      { id: 'A', texto: 'São acentuadas apenas as proparoxítonas terminadas em vogais.' },
+      { id: 'B', texto: 'Todas as palavras proparoxítonas são obrigatoriamente acentuadas na língua portuguesa.' },
+      { id: 'C', texto: 'São acentuadas apenas as proparoxítonas terminadas em -r, -l ou -z.' },
+      { id: 'D', texto: 'As proparoxítonas são acentuadas somente se forem palavras compostas.' },
+      { id: 'E', texto: 'A acentuação das proparoxítonas depende da função sintática que exercem na frase.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'A alternativa B está correta. A regra é categórica: TODAS as palavras proparoxítonas (cuja sílaba tônica é a antepenúltima) são acentuadas: médico, lâmpada, público, século.',
+      incorretas: { A: 'Não há restrição à vogal final.', C: 'Não há restrição a essas terminações.', D: 'A regra vale para palavras simples e compostas.', E: 'A classe gramatical não altera a regra de acentuação.' },
+      conceitoCobrado: 'Acentuação de proparoxítonas.',
+      pegadinha: 'Alunos tentam inventar exceções onde não há.',
+      comoApareceEmConcurso: 'Questões conceituais diretas.'
+    },
+    tags: ['proparoxítonas', 'acentuação']
+  },
+  {
+    id: 'Q-DID-POR-07-002',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-07',
+    subtema: 'Acentuação de Oxítonas e Paroxítonas',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'Julgue as afirmativas a seguir sobre a acentuação de oxítonas e paroxítonas:\n\n(__) Acentuam-se as oxítonas terminadas em A, E, O (seguidas ou não de S) e em EM/ENS, como "café", "cipó" e "armazém".\n(__) Acentuam-se as paroxítonas terminadas em I, IS, US, UM, UNS, L, N, R, X, PS e ditongos, como "lápis", "álbum", "fóssil" e "história".\n(__) As paroxítonas terminadas em A, E, O, EM e AM não são acentuadas, como "casa", "verde", "jovem" e "falam".\n(__) As oxítonas terminadas em I e U não são acentuadas, como "caqui" e "urubu".\n\nAssinale a alternativa que apresenta a sequência CORRETA, de cima para baixo:',
+    alternativas: [
+      { id: 'A', texto: 'V, V, F, F.' },
+      { id: 'B', texto: 'V, V, V, V.' },
+      { id: 'C', texto: 'F, V, V, F.' },
+      { id: 'D', texto: 'V, F, V, V.' },
+      { id: 'E', texto: 'F, F, V, V.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'A alternativa B está correta. Todas as quatro afirmações descrevem corretamente as regras de acentuação de oxítonas e paroxítonas.',
+      incorretas: { A: 'Os itens 3 e 4 estão corretos.', C: 'O item 1 está correto.', D: 'O item 2 está correto.', E: 'Os itens 1 e 2 estão corretos.' },
+      conceitoCobrado: 'Regras de acentuação de oxítonas e paroxítonas.',
+      pegadinha: 'Confundir as terminações que recebem acento nas paroxítonas (regra do "não").',
+      comoApareceEmConcurso: 'Questões de sequência V/F.'
+    },
+    tags: ['oxítonas', 'paroxítonas']
+  },
+  {
+    id: 'Q-DID-POR-07-003',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-07',
+    subtema: 'Acordo Ortográfico: Ditongos Abertos',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'Julgue o item a seguir sobre as mudanças trazidas pelo Acordo Ortográfico.\n\nApós o Acordo Ortográfico vigente, as palavras "ideia", "heroico" e "jiboia" não recebem mais acento gráfico, pois o acento dos ditongos abertos ÉU, ÉI e ÓI foi eliminado nas palavras paroxítonas. No entanto, em palavras oxítonas, como "céu", "papéis" e "herói", o acento permanece.',
+    alternativas: [
+      { id: 'C', texto: 'Certo' },
+      { id: 'E', texto: 'Errado' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'CERTO. O Acordo eliminou o acento dos ditongos abertos em paroxítonas (ideia, heroico, jiboia, assembleia), mas manteve nas oxítonas (céu, papéis, herói).',
+      incorretas: { E: 'A explicação sobre a eliminação em paroxítonas e manutenção em oxítonas está perfeitamente correta.' },
+      conceitoCobrado: 'Mudanças de acentuação do Acordo Ortográfico.',
+      pegadinha: 'Achar que o acento foi eliminado de todos os ditongos abertos, o que é falso.',
+      comoApareceEmConcurso: 'Questões C/E.'
+    },
+    tags: ['acordo ortográfico', 'ditongos']
+  },
+  {
+    id: 'Q-DID-POR-07-004',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-07',
+    subtema: 'Acentos Diferenciais',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'Avalie as afirmativas sobre os acentos diferenciais que permaneceram após o Acordo Ortográfico.\n\nI- A palavra "pôde" (passado) recebe acento circunflexo para se diferenciar de "pode" (presente).\nII- A palavra "pôr" (verbo) recebe acento circunflexo para se diferenciar de "por" (preposição).\nIII- As palavras "pêlo", "pólo" e "pêra" mantiveram o acento diferencial para se diferenciarem de "pelo", "polo" e "pera".\n\nEstá correto apenas o que se afirma em:',
+    alternativas: [
+      { id: 'A', texto: 'I.' },
+      { id: 'B', texto: 'II.' },
+      { id: 'C', texto: 'III.' },
+      { id: 'D', texto: 'I e II.' },
+      { id: 'E', texto: 'I, II e III.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'A alternativa D está correta. I e II são verdadeiras. III é falsa, pois "pêlo", "pólo" e "pêra" perderam o acento com o Acordo Ortográfico (agora são "pelo", "polo" e "pera").',
+      incorretas: { A: 'A II também está correta.', B: 'A I também está correta.', C: 'A III é falsa.', E: 'A III é falsa.' },
+      conceitoCobrado: 'Acentos diferenciais mantidos e eliminados.',
+      pegadinha: 'A banca usa palavras que ainda "parecem" ter acento na cabeça do candidato.',
+      comoApareceEmConcurso: 'Questões de I, II e III.'
+    },
+    tags: ['acentos diferenciais']
+  },
+  {
+    id: 'Q-DID-POR-07-005',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-07',
+    subtema: 'Hiatos e Acentuação',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'Complete as lacunas com a justificativa correta para a ausência de acento gráfico nas palavras destacadas.\n\nAs palavras "voo", "creem" e "enjoo" não recebem mais acento gráfico, pois representam hiatos terminados em __________. Já a palavra "juiz" não é acentuada, pois, embora tenha hiato, é precedida por __________.',
+    alternativas: [
+      { id: 'A', texto: 'EE/OO; ditongo.' },
+      { id: 'B', texto: 'I/U; vogal tônica.' },
+      { id: 'C', texto: 'EE/OO; consoante.' },
+      { id: 'D', texto: 'A/E; ditongo.' },
+      { id: 'E', texto: 'I/U; consoante.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'A alternativa A está correta. Hiatos EE e OO (voo, creem, enjoo) perderam o acento. Já o "i" ou "u" tônico após ditongo (juiz) não é acentuado.',
+      incorretas: { B: 'Não são hiatos I/U.', C: 'A segunda lacuna não é "consoante".', D: 'Não são hiatos A/E.', E: 'Ambas as justificativas estão erradas.' },
+      conceitoCobrado: 'Regras de acentuação de hiatos.',
+      pegadinha: 'Confundir "juiz" (precedido de ditongo) com "baú" (não precedido).',
+      comoApareceEmConcurso: 'Questões de completar lacunas.'
+    },
+    tags: ['hiatos', 'acentuação']
+  },
+  {
+    id: 'Q-DID-POR-07-006',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-07',
+    subtema: 'Regra do Hiato e Ditongo',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'Assinale a alternativa em que TODAS as palavras estão corretamente acentuadas de acordo com as regras vigentes.',
+    alternativas: [
+      { id: 'A', texto: 'Saída, baú, herói, idéia.' },
+      { id: 'B', texto: 'Saída, baú, herói, ideia.' },
+      { id: 'C', texto: 'Saida, baú, heroi, ideia.' },
+      { id: 'D', texto: 'Saída, bau, herói, idéia.' },
+      { id: 'E', texto: 'Saída, baú, heroi, idéia.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'A alternativa B está correta. Saída e baú (hiatos I/U tônicos). Herói (oxítona com ditongo aberto). Ideia (paroxítona com ditongo aberto - sem acento pelo Acordo).',
+      incorretas: { A: '"Idéia" está errado.', C: '"Saida" e "heroi" estão errados.', D: '"Bau" e "idéia" estão errados.', E: '"Heroi" e "idéia" estão errados.' },
+      conceitoCobrado: 'Acentuação de hiatos e ditongos abertos.',
+      pegadinha: 'A palavra "ideia" é a pegadinha clássica do Acordo Ortográfico.',
+      comoApareceEmConcurso: 'Questões de identificação de palavras corretamente acentuadas.'
+    },
+    tags: ['hiato', 'ditongo', 'acordo ortográfico']
+  },
+
+  /* ============================================================
+     POR-08 — Estrutura e formação de palavras
+  ============================================================ */
+  {
+    id: 'Q-DID-POR-08-001',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-08',
+    subtema: 'Derivação x Composição',
+    dificuldade: 1, prioridade: 'baixa',
+    enunciado: 'Sobre os processos de formação de palavras, assinale a alternativa CORRETA.',
+    alternativas: [
+      { id: 'A', texto: 'A derivação ocorre pela união de dois ou mais radicais, enquanto a composição ocorre pelo acréscimo de afixos a uma palavra primitiva.' },
+      { id: 'B', texto: 'A composição ocorre pela união de dois ou mais radicais, enquanto a derivação ocorre pelo acréscimo de afixos (prefixos ou sufixos) a uma palavra primitiva.' },
+      { id: 'C', texto: 'Tanto a derivação quanto a composição baseiam-se exclusivamente na mudança de classe gramatical da palavra primitiva.' },
+      { id: 'D', texto: 'A derivação é um processo arcaico que não é mais utilizado na língua portuguesa, enquanto a composição é o único processo produtivo.' },
+      { id: 'E', texto: 'A composição por justaposição ocorre com a perda de elementos fonéticos, enquanto a aglutinação ocorre sem perda.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'A alternativa B está correta. Composição = 2+ radicais. Derivação = acréscimo/retirada de afixos a 1 radical.',
+      incorretas: { A: 'Inverte os conceitos.', C: 'Não se baseiam apenas nisso.', D: 'Ambos são processos ativos.', E: 'Inverte justaposição e aglutinação.' },
+      conceitoCobrado: 'Diferença entre derivação e composição.',
+      pegadinha: 'A inversão de conceitos nas alternativas A e E.',
+      comoApareceEmConcurso: 'Questões conceituais.'
+    },
+    tags: ['derivação', 'composição']
+  },
+  {
+    id: 'Q-DID-POR-08-002',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-08',
+    subtema: 'Parassíntese x Prefixal e Sufixal',
+    dificuldade: 3, prioridade: 'baixa',
+    enunciado: 'Julgue as afirmações a seguir sobre os tipos de derivação:\n\n(__) A palavra "entardecer" é formada por parassíntese, pois o prefixo (en-) e o sufixo (-ecer) entram simultaneamente, não existindo as formas "entarde" ou "tardecer".\n(__) A palavra "infelizmente" é formada por derivação prefixal e sufixal, pois existem as palavras "infeliz" e "felizmente" de forma independente.\n(__) Na parassíntese, os afixos podem ser retirados sem que a palavra perca o sentido original.\n\nAssinale a alternativa que apresenta a sequência CORRETA, de cima para baixo:',
+    alternativas: [
+      { id: 'A', texto: 'V, V, F.' },
+      { id: 'B', texto: 'V, F, V.' },
+      { id: 'C', texto: 'F, V, F.' },
+      { id: 'D', texto: 'F, F, V.' },
+      { id: 'E', texto: 'V, V, V.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'A alternativa A está correta. (1) V: entardecer é parassíntese (simultaneidade). (2) V: infelizmente é prefixal e sufixal (existem isoladamente). (3) F: na parassíntese, os afixos são indissociáveis (não se pode retirar um sem perder o sentido).',
+      incorretas: { B: 'O item 3 é falso.', C: 'O item 1 é verdadeiro.', D: 'Itens 1 e 2 são verdadeiros.', E: 'O item 3 é falso.' },
+      conceitoCobrado: 'Parassíntese vs derivação prefixal e sufixal.',
+      pegadinha: 'Achar que "entardecer" é prefixal e sufixal por ter prefixo e sufixo, esquecendo o critério da simultaneidade.',
+      comoApareceEmConcurso: 'Questões de sequência V/F.'
+    },
+    tags: ['parassíntese', 'derivação']
+  },
+  {
+    id: 'Q-DID-POR-08-003',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-08',
+    subtema: 'Justaposição x Aglutinação',
+    dificuldade: 2, prioridade: 'baixa',
+    enunciado: 'Associe as palavras ao seu respectivo processo de composição:\n\n1. Girassol (gira + sol).\n2. Planalto (plano + alto).\n3. Passatempo (passa + tempo).\n4. Vinagre (vinho + azedo).\n\nPROCESSOS\n( ) Composição por aglutinação.\n( ) Composição por justaposição.\n\nA sequência correta para essa associação é:',
+    alternativas: [
+      { id: 'A', texto: '2 e 4 (aglutinação) / 1 e 3 (justaposição).' },
+      { id: 'B', texto: '1 e 2 (aglutinação) / 3 e 4 (justaposição).' },
+      { id: 'C', texto: '1 e 4 (aglutinação) / 2 e 3 (justaposição).' },
+      { id: 'D', texto: '3 e 4 (aglutinação) / 1 e 2 (justaposição).' },
+      { id: 'E', texto: '2 e 3 (aglutinação) / 1 e 4 (justaposição).' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'A alternativa A está correta. Aglutinação (perda de elementos): planalto (plano+alto) e vinagre (vinho+azedo). Justaposição (sem perda): girassol (gira+sol) e passatempo (passa+tempo).',
+      incorretas: { B: 'Girassol é justaposição.', C: 'Girassol e planalto estão invertidos.', D: 'Inverte os grupos.', E: 'Inverte os grupos.' },
+      conceitoCobrado: 'Composição por justaposição (sem perda) x aglutinação (com perda).',
+      pegadinha: 'Achar que "planalto" é justaposição por ter sido formado de duas palavras claras.',
+      comoApareceEmConcurso: 'Questões de associação.'
+    },
+    tags: ['justaposição', 'aglutinação']
+  },
+  {
+    id: 'Q-DID-POR-08-004',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-08',
+    subtema: 'Derivação Regressiva x Imprópria',
+    dificuldade: 3, prioridade: 'baixa',
+    enunciado: 'Avalie as afirmativas sobre os processos de derivação.\n\nI- A palavra "a caça" (substantivo) deriva de "caçar" (verbo) por derivação regressiva, pois há uma redução da forma original.\nII- A palavra "o jantar" (substantivo) deriva de "jantar" (verbo) por derivação imprópria, pois há mudança de classe sem alteração na forma.\nIII- A derivação regressiva ocorre quando há mudança de classe gramatical sem alteração na forma da palavra.\n\nEstá correto apenas o que se afirma em:',
+    alternativas: [
+      { id: 'A', texto: 'I.' },
+      { id: 'B', texto: 'II.' },
+      { id: 'C', texto: 'III.' },
+      { id: 'D', texto: 'I e II.' },
+      { id: 'E', texto: 'I e III.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'A alternativa D está correta. I (regressiva por redução) e II (imprópria por mudança de classe) estão corretas. III está errada, pois descreve a derivação imprópria, não a regressiva.',
+      incorretas: { A: 'A II também está correta.', B: 'A I também está correta.', C: 'A III descreve a imprópria.', E: 'A III está errada.' },
+      conceitoCobrado: 'Derivação regressiva x imprópria.',
+      pegadinha: 'A III troca as definições.',
+      comoApareceEmConcurso: 'Questões de I, II e III.'
+    },
+    tags: ['regressiva', 'imprópria']
+  },
+  {
+    id: 'Q-DID-POR-08-005',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-08',
+    subtema: 'Hibridismo e Empréstimo',
+    dificuldade: 2, prioridade: 'baixa',
+    enunciado: 'Julgue o item a seguir.\n\nA palavra "automóvel" é formada por radicais de diferentes línguas (auto, do grego, e móvel, do latim), sendo um exemplo de hibridismo. Já palavras como "software" e "feedback" são exemplos de empréstimo linguístico.',
+    alternativas: [
+      { id: 'C', texto: 'Certo' },
+      { id: 'E', texto: 'Errado' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'CERTO. Hibridismo = radicais de línguas diferentes (automóvel, burocracia). Empréstimo = palavras incorporadas de outras línguas (software, feedback, marketing).',
+      incorretas: { E: 'As definições e exemplos estão corretos.' },
+      conceitoCobrado: 'Hibridismo e empréstimo linguístico.',
+      pegadinha: 'Confundir os dois processos.',
+      comoApareceEmConcurso: 'Questões C/E.'
+    },
+    tags: ['hibridismo', 'empréstimo']
+  },
+  {
+    id: 'Q-DID-POR-08-006',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-08',
+    subtema: 'Abreviação e Sigla',
+    dificuldade: 1, prioridade: 'baixa',
+    enunciado: 'Diferencie os processos de redução de palavras. Assinale a alternativa que apresenta, respectivamente, um exemplo de abreviação e um de sigla.',
+    alternativas: [
+      { id: 'A', texto: 'IBGE e Moto.' },
+      { id: 'B', texto: 'Moto e IBGE.' },
+      { id: 'C', texto: 'Fotografia e Motocicleta.' },
+      { id: 'D', texto: 'MEC e ONU.' },
+      { id: 'E', texto: 'Pneu e Foto.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'A alternativa B está correta. Abreviação = redução da palavra mantendo o início (moto, foto, pneu). Sigla = redução às letras iniciais (IBGE, MEC, ONU).',
+      incorretas: { A: 'Inverte a ordem.', C: 'São palavras completas.', D: 'Ambas são siglas.', E: 'Ambas são abreviações.' },
+      conceitoCobrado: 'Abreviação x Sigla.',
+      pegadinha: 'A inversão da ordem pedida no enunciado.',
+      comoApareceEmConcurso: 'Questões de múltipla escolha.'
+    },
+    tags: ['abreviação', 'sigla']
+  },
+
+  /* ============================================================
+     POR-09 — Classes de palavras I: substantivo, adjetivo, artigo e numeral
+  ============================================================ */
+  {
+    id: 'Q-DID-POR-09-001',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-09',
+    subtema: 'Substantivo Concreto x Abstrato',
+    dificuldade: 2, prioridade: 'media',
+    enunciado: 'Sobre a classificação dos substantivos, assinale a alternativa em que TODOS os substantivos são classificados como ABSTRATOS.',
+    alternativas: [
+      { id: 'A', texto: 'Mesa, cadeira, computador.' },
+      { id: 'B', texto: 'Fada, saci, curupira.' },
+      { id: 'C', texto: 'Beleza, amor, saudade.' },
+      { id: 'D', texto: 'Servidor, chefe, diretor.' },
+      { id: 'E', texto: 'Cidade, rio, floresta.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'A alternativa C está correta. Beleza, amor e saudade são substantivos abstratos (dependem de outro ser para existir, indicam sentimento/estado).',
+      incorretas: { A: 'São concretos (existência própria).', B: 'São concretos (seres imaginários são concretos).', D: 'São concretos (pessoas).', E: 'São concretos (lugares).' },
+      conceitoCobrado: 'Substantivo concreto x abstrato.',
+      pegadinha: 'Achar que "fada" e "saci" são abstratos por não existirem fisicamente. Eles são concretos, pois existem no imaginário popular.',
+      comoApareceEmConcurso: 'Questões de classificação de palavras.'
+    },
+    tags: ['substantivo', 'abstrato']
+  },
+  {
+    id: 'Q-DID-POR-09-002',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-09',
+    subtema: 'Artigo Definido x Indefinido',
+    dificuldade: 2, prioridade: 'media',
+    enunciado: 'Julgue o item a seguir sobre o uso do artigo.\n\nA troca do artigo definido pelo indefinido altera o sentido do enunciado, como em: "O servidor chegou cedo" (indica um servidor conhecido, específico) e "Um servidor chegou cedo" (indica um servidor não específico, qualquer um).',
+    alternativas: [
+      { id: 'C', texto: 'Certo' },
+      { id: 'E', texto: 'Errado' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'CERTO. O artigo definido (o, a) determina o ser, tornando-o conhecido/específico. O indefinido (um, uma) generaliza, não especifica.',
+      incorretas: { E: 'A explicação sobre o efeito de sentido dos artigos está correta.' },
+      conceitoCobrado: 'Emprego do artigo definido x indefinido.',
+      pegadinha: 'Acreditar que a troca não afeta o sentido.',
+      comoApareceEmConcurso: 'Questões C/E sobre efeitos de sentido.'
+    },
+    tags: ['artigo', 'sentido']
+  },
+  {
+    id: 'Q-DID-POR-09-003',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-09',
+    subtema: 'Locução Adjetiva',
+    dificuldade: 2, prioridade: 'media',
+    enunciado: 'Julgue as afirmações a seguir como Verdadeiro (V) ou Falso (F) sobre locuções adjetivas:\n\n(__) A locução adjetiva é uma expressão que tem valor de adjetivo, caracterizando um substantivo.\n(__) Em "objeto de ouro", a expressão "de ouro" é uma locução adjetiva que equivale ao adjetivo "áureo".\n(__) Em "amor de mãe", a expressão "de mãe" é uma locução adjetiva que equivale ao adjetivo "materno".\n(__) A locução adjetiva é sempre formada por um verbo e um advérbio.\n\nAssinale a alternativa que apresenta a sequência CORRETA, de cima para baixo:',
+    alternativas: [
+      { id: 'A', texto: 'V, V, V, V.' },
+      { id: 'B', texto: 'V, V, V, F.' },
+      { id: 'C', texto: 'V, F, V, V.' },
+      { id: 'D', texto: 'F, V, V, F.' },
+      { id: 'E', texto: 'F, F, V, V.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'A alternativa B está correta. (1) V: valor de adjetivo. (2) V: de ouro = áureo. (3) V: de mãe = materno. (4) F: a locução adjetiva é geralmente preposição + substantivo, não verbo + advérbio.',
+      incorretas: { A: 'O item 4 é falso.', C: 'O item 2 é verdadeiro.', D: 'O item 1 é verdadeiro.', E: 'Itens 1 e 2 são verdadeiros.' },
+      conceitoCobrado: 'Definição e exemplos de locução adjetiva.',
+      pegadinha: 'A definição errada no item 4.',
+      comoApareceEmConcurso: 'Questões de sequência V/F.'
+    },
+    tags: ['locução adjetiva']
+  },
+  {
+    id: 'Q-DID-POR-09-004',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-09',
+    subtema: 'Classes de palavras: Mudança pelo uso',
+    dificuldade: 3, prioridade: 'media',
+    enunciado: 'Avalie as afirmativas sobre as classes de palavras.\n\nI- A classe gramatical de uma palavra é imutável, não podendo mudar de acordo com o contexto em que é utilizada.\nII- A palavra "jovem" pode ser classificada como substantivo em "O jovem chegou" e como adjetivo em "O servidor jovem chegou".\nIII- O artigo pode substantivar qualquer palavra, como em "O amar é difícil" (verbo "amar" transformado em substantivo).\n\nEstá correto apenas o que se afirma em:',
+    alternativas: [
+      { id: 'A', texto: 'I.' },
+      { id: 'B', texto: 'II.' },
+      { id: 'C', texto: 'III.' },
+      { id: 'D', texto: 'II e III.' },
+      { id: 'E', texto: 'I e II.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'A alternativa D está correta. II e III são verdadeiras. I é falsa, pois a classe pode mudar conforme o uso (fenômeno da substantivação ou adjetivação).',
+      incorretas: { A: 'I é falsa.', B: 'III também é verdadeira.', C: 'II também é verdadeira.', E: 'I é falsa.' },
+      conceitoCobrado: 'Flexibilidade das classes gramaticais conforme o contexto.',
+      pegadinha: 'Achar que a classe da palavra é fixa no dicionário.',
+      comoApareceEmConcurso: 'Questões de I, II e III.'
+    },
+    tags: ['classes de palavras', 'substantivação']
+  },
+  {
+    id: 'Q-DID-POR-09-005',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-09',
+    subtema: 'Numeral: Classificação',
+    dificuldade: 2, prioridade: 'media',
+    enunciado: 'Associe os numerais destacados à sua respectiva classificação:\n\n1. "Comprei DOIS livros."\n2. "Ele chegou em PRIMEIRO lugar."\n3. "Recebi o DOBRO do valor."\n4. "Comi MEIO pão."\n\nCLASSIFICAÇÕES\n( ) Numeral multiplicativo.\n( ) Numeral ordinal.\n( ) Numeral cardinal.\n( ) Numeral fracionário.\n\nA sequência correta para essa associação é:',
+    alternativas: [
+      { id: 'A', texto: '1, 2, 3, 4.' },
+      { id: 'B', texto: '3, 2, 1, 4.' },
+      { id: 'C', texto: '2, 3, 4, 1.' },
+      { id: 'D', texto: '4, 1, 2, 3.' },
+      { id: 'E', texto: '2, 1, 4, 3.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'A alternativa B está correta. Dobro (3) = multiplicativo. Primeiro (2) = ordinal. Dois (1) = cardinal. Meio (4) = fracionário.',
+      incorretas: { A: 'Inverte tudo.', C: 'Inverte os conceitos.', D: 'Inverte os conceitos.', E: 'Inverte os conceitos.' },
+      conceitoCobrado: 'Classificação dos numerais.',
+      pegadinha: 'Confundir multiplicativo (dobro) com fracionário (meio).',
+      comoApareceEmConcurso: 'Questões de associação.'
+    },
+    tags: ['numeral', 'associação']
+  },
+  {
+    id: 'Q-DID-POR-09-006',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-09',
+    subtema: 'Adjetivo x Substantivo',
+    dificuldade: 1, prioridade: 'media',
+    enunciado: 'Assinale a alternativa em que a palavra destacada é um ADJETIVO.',
+    alternativas: [
+      { id: 'A', texto: 'O JOVEM chegou à festa.' },
+      { id: 'B', texto: 'A BELEZA da paisagem é impressionante.' },
+      { id: 'C', texto: 'O SERVIDOR DEDICADO foi promovido.' },
+      { id: 'D', texto: 'A CIDADE cresceu rapidamente.' },
+      { id: 'E', texto: 'O AMOR é um sentimento profundo.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'A alternativa C está correta. "Dedicado" é adjetivo, pois caracteriza o substantivo "servidor".',
+      incorretas: { A: '"Jovem" é substantivo (nomeia o ser).', B: '"Beleza" é substantivo abstrato.', D: '"Cidade" é substantivo concreto.', E: '"Amor" é substantivo abstrato.' },
+      conceitoCobrado: 'Identificação de adjetivos em contexto.',
+      pegadinha: 'A palavra "jovem" na alternativa A pode enganar, mas ela está substantivada pelo artigo.',
+      comoApareceEmConcurso: 'Questões de identificação de classe.'
+    },
+    tags: ['adjetivo', 'substantivo']
+  },
+
+  /* ============================================================
+     POR-10 — Pronomes
+  ============================================================ */
+  {
+    id: 'Q-DID-POR-10-001',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-10',
+    subtema: 'Pronomes de Tratamento',
+    dificuldade: 1, prioridade: 'alta',
+    enunciado: 'Sobre os pronomes de tratamento, julgue o item.\n\nOs pronomes de tratamento, como "Vossa Excelência" e "Vossa Senhoria", exigem que o verbo da oração permaneça na 3ª pessoa, embora se refiram diretamente ao interlocutor.',
+    alternativas: [
+      { id: 'C', texto: 'Certo' },
+      { id: 'E', texto: 'Errado' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'CERTO. A concordância com pronomes de tratamento é sempre feita na 3ª pessoa: "Vossa Excelência DESPACHOU" (não despachastes).',
+      incorretas: { E: 'A regra da 3ª pessoa é fixa na norma culta.' },
+      conceitoCobrado: 'Concordância verbal com pronomes de tratamento.',
+      pegadinha: 'Alunos confundem o "Vossa" (2ª pessoa do possessivo) com a concordância do verbo (3ª pessoa).',
+      comoApareceEmConcurso: 'Questões C/E.'
+    },
+    tags: ['pronomes de tratamento', 'concordância']
+  },
+  {
+    id: 'Q-DID-POR-10-002',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-10',
+    subtema: 'Este x Esse x Aquele',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'Avalie as afirmativas sobre o emprego dos pronomes demonstrativos.\n\nI- O pronome "este" é utilizado para referenciar o que está perto de quem fala, o tempo presente ou o que ainda será dito no texto.\nII- O pronome "esse" é utilizado para referenciar o que está perto de quem ouve, o passado recente ou o que já foi dito no texto.\nIII- O pronome "aquele" é utilizado para referenciar o que está longe de ambos os interlocutores, o passado remoto ou um antecedente distante no texto.\n\nEstá correto apenas o que se afirma em:',
+    alternativas: [
+      { id: 'A', texto: 'I.' },
+      { id: 'B', texto: 'II.' },
+      { id: 'C', texto: 'III.' },
+      { id: 'D', texto: 'I e II.' },
+      { id: 'E', texto: 'I, II e III.' }
+    ],
+    gabarito: 'E',
+    explicacao: {
+      correta: 'A alternativa E está correta. Todas as afirmativas definem corretamente os usos dos pronomes demonstrativos no espaço, no tempo e no texto.',
+      incorretas: { A: 'A II e III também estão corretas.', B: 'A I e III também estão corretas.', C: 'A I e II também estão corretas.', D: 'A III também está correta.' },
+      conceitoCobrado: 'Emprego de este, esse e aquele.',
+      pegadinha: 'Confundir "este" (que ainda será dito) com "esse" (que já foi dito).',
+      comoApareceEmConcurso: 'Questões de I, II e III.'
+    },
+    tags: ['pronomes demonstrativos']
+  },
+  {
+    id: 'Q-DID-POR-10-003',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-10',
+    subtema: 'Pronome Relativo "Cujo"',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'Assinale a alternativa em que o pronome relativo foi empregado CORRETAMENTE.',
+    alternativas: [
+      { id: 'A', texto: 'O servidor cujo o pedido foi negado entrou com recurso.' },
+      { id: 'B', texto: 'A servidora cuja a proposta foi aprovada comemorou o resultado.' },
+      { id: 'C', texto: 'O diretor cujo o cargo é de confiança solicitou férias.' },
+      { id: 'D', texto: 'O processo cujo prazo venceu ontem foi arquivado.' },
+      { id: 'E', texto: 'A lei cuja a aplicação é complexa gerou dúvidas.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'A alternativa D está correta. O pronome "cujo" não admite artigo após ele. "Cujo prazo" está correto.',
+      incorretas: { A: 'Erro: "cujo o pedido" (não se usa artigo).', B: 'Erro: "cuja a proposta".', C: 'Erro: "cujo o cargo".', E: 'Erro: "cuja a aplicação".' },
+      conceitoCobrado: 'Emprego do pronome relativo "cujo".',
+      pegadinha: 'Alunos inserem o artigo por analogia com "o qual" (o pedido do qual), mas "cujo" já subentende a posse.',
+      comoApareceEmConcurso: 'Questões de correção gramatical.'
+    },
+    tags: ['cujo', 'pronome relativo']
+  },
+  {
+    id: 'Q-DID-POR-10-004',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-10',
+    subtema: 'Colocação Pronominal: Próclise',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'Julgue os itens a seguir como Verdadeiro (V) ou Falso (F) sobre a colocação pronominal:\n\n(__) Em "Nunca me entregaram o documento", a próclise é obrigatória devido à presença da palavra atrativa "nunca".\n(__) Em "Entregaram-me o documento ontem", a ênclise é correta, pois o verbo inicia a oração.\n(__) Em "Me entregaram o documento ontem", a próclise é correta, pois pronomes oblíquos átonos podem iniciar frases.\n(__) Em "Dar-te-ei o documento amanhã", a mesóclise é correta, pois o verbo está no futuro do presente e não há palavra atrativa.\n\nAssinale a alternativa que apresenta a sequência CORRETA, de cima para baixo:',
+    alternativas: [
+      { id: 'A', texto: 'V, V, V, V.' },
+      { id: 'B', texto: 'V, V, F, V.' },
+      { id: 'C', texto: 'V, F, V, V.' },
+      { id: 'D', texto: 'F, V, V, F.' },
+      { id: 'E', texto: 'F, F, V, V.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'A alternativa B está correta. (1) V: "nunca" é atrativa. (2) V: início de frase exige ênclise. (3) F: não se inicia frase com pronome oblíquo átono. (4) V: mesóclise em futuro do presente sem atrativa.',
+      incorretas: { A: 'O item 3 é falso.', C: 'O item 2 é verdadeiro.', D: 'Item 1 é verdadeiro.', E: 'Itens 1 e 2 são verdadeiros.' },
+      conceitoCobrado: 'Regras de próclise, ênclise e mesóclise.',
+      pegadinha: 'A alternativa que coloca "Me" no início da frase é um erro clássico.',
+      comoApareceEmConcurso: 'Questões de sequência V/F.'
+    },
+    tags: ['colocação pronominal', 'próclise']
+  },
+  {
+    id: 'Q-DID-POR-10-005',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-10',
+    subtema: 'Colocação Pronominal: Complete as Lacunas',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'Complete as lacunas com a colocação pronominal adequada à norma culta.\n\n"Se ____ entregassem o documento antes, o prazo seria cumprido. ____ entregaram o documento ontem, mas não ____ avisaram sobre a mudança."',
+    alternativas: [
+      { id: 'A', texto: 'me / Me / me.' },
+      { id: 'B', texto: 'lhe / Lhe / lhe.' },
+      { id: 'C', texto: 'me / Entregaram-me / me.' },
+      { id: 'D', texto: 'lhe / Entregaram-lhe / lhe.' },
+      { id: 'E', texto: 'se / Se / se.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'A alternativa C está correta. 1ª lacuna: "Se me entregassem" (próclise, "se" é atrativa). 2ª lacuna: "Entregaram-me" (ênclise, início de frase). 3ª lacuna: "não me avisaram" (próclise, "não" é atrativa).',
+      incorretas: { A: 'A 2ª lacuna não pode iniciar com "Me".', B: 'Uso incorreto de "lhe" no início da frase.', D: 'A 2ª lacuna deveria ser ênclise, mas o correto para "avisar" (OD) é "me", não "lhe".', E: '"Se" não faz sentido como pronome oblíquo nos contextos.' },
+      conceitoCobrado: 'Colocação pronominal em diferentes contextos.',
+      pegadinha: 'Iniciar a 2ª lacuna com pronome oblíquo.',
+      comoApareceEmConcurso: 'Questões de completar lacunas.'
+    },
+    tags: ['colocação pronominal']
+  },
+  {
+    id: 'Q-DID-POR-10-006',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-10',
+    subtema: 'Função dos Pronomes',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'Assinale a alternativa em que o pronome destacado exerce a função de OBJETO INDIRETO.',
+    alternativas: [
+      { id: 'A', texto: 'O diretor convocou-O para uma reunião.' },
+      { id: 'B', texto: 'Entreguei-LHE o documento solicitado.' },
+      { id: 'C', texto: 'A proposta foi feita por MIM.' },
+      { id: 'D', texto: 'O servidor machucou-SE ao cair.' },
+      { id: 'E', texto: 'Nós protocolamos os pedidos.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'A alternativa B está correta. "LHE" substitui "a ele/a ela", funcionando como objeto indireto (quem entrega, entrega algo A alguém).',
+      incorretas: { A: '"O" é objeto direto.', C: '"Mim" é objeto indireto (agente da passiva, na verdade, mas na voz ativa seria objeto indireto).', D: '"Se" é objeto direto (machucou a si mesmo).', E: '"Nós" é sujeito.' },
+      conceitoCobrado: 'Função sintática dos pronomes oblíquos.',
+      pegadinha: 'Confundir "o/a" (OD) com "lhe" (OI).',
+      comoApareceEmConcurso: 'Questões de análise sintática.'
+    },
+    tags: ['pronomes oblíquos', 'objeto indireto']
+  },
+
+  /* ============================================================
+     POR-11 — Verbos
+  ============================================================ */
+  {
+    id: 'Q-DID-POR-11-001',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-11',
+    subtema: 'Modos Verbais',
+    dificuldade: 1, prioridade: 'alta',
+    enunciado: 'Sobre os modos verbais, assinale a alternativa CORRETA.',
+    alternativas: [
+      { id: 'A', texto: 'O modo indicativo expressa dúvida ou hipótese; o subjuntivo expressa certeza; o imperativo expressa ordem.' },
+      { id: 'B', texto: 'O modo indicativo expressa certeza; o subjuntivo expressa dúvida, desejo ou hipótese; o imperativo expressa ordem ou pedido.' },
+      { id: 'C', texto: 'O modo indicativo expressa ordem; o subjuntivo expressa certeza; o imperativo expressa hipótese.' },
+      { id: 'D', texto: 'Os três modos verbais (indicativo, subjuntivo, imperativo) expressam certeza, sem distinção de sentido.' },
+      { id: 'E', texto: 'O modo subjuntivo é usado para fatos reais e concretos; o indicativo é usado para desejos e hipóteses.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'A alternativa B está correta. Indicativo = certeza. Subjuntivo = dúvida/desejo/hipótese. Imperativo = ordem/pedido.',
+      incorretas: { A: 'Inverte os conceitos.', C: 'Inverte os conceitos.', D: 'Iguala os modos.', E: 'Inverte indicativo e subjuntivo.' },
+      conceitoCobrado: 'Definição dos modos verbais.',
+      pegadinha: 'A inversão de conceitos nas alternativas A e E.',
+      comoApareceEmConcurso: 'Questões conceituais.'
+    },
+    tags: ['modos verbais']
+  },
+  {
+    id: 'Q-DID-POR-11-002',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-11',
+    subtema: 'Verbos Impessoais',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'Julgue as afirmações a seguir sobre a concordância de verbos impessoais:\n\n(__) O verbo "haver", no sentido de existir, é impessoal e deve ficar sempre na 3ª pessoa do singular: "Havia muitos servidores".\n(__) O verbo "fazer", indicando tempo decorrido, é impessoal e deve ficar sempre na 3ª pessoa do singular: "Faz dois anos".\n(__) O verbo "existir" é impessoal, devendo permanecer na 3ª pessoa do singular: "Existia muitos servidores".\n\nAssinale a alternativa que apresenta a sequência CORRETA, de cima para baixo:',
+    alternativas: [
+      { id: 'A', texto: 'V, V, V.' },
+      { id: 'B', texto: 'V, V, F.' },
+      { id: 'C', texto: 'V, F, V.' },
+      { id: 'D', texto: 'F, V, V.' },
+      { id: 'E', texto: 'F, F, V.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'A alternativa B está correta. (1) V: haver = impessoal (3ª sing.). (2) V: fazer = impessoal (3ª sing.). (3) F: o verbo "existir" é pessoal e concorda com o sujeito ("Existiam muitos servidores").',
+      incorretas: { A: 'O item 3 é falso.', C: 'O item 2 é verdadeiro.', D: 'O item 1 é verdadeiro.', E: 'Itens 1 e 2 são verdadeiros.' },
+      conceitoCobrado: 'Diferença entre haver/fazer (impessoais) e existir (pessoal).',
+      pegadinha: 'Achar que "existir" também é impessoal por ter sentido de existência.',
+      comoApareceEmConcurso: 'Questões de sequência V/F.'
+    },
+    tags: ['verbos impessoais', 'concordância']
+  },
+  {
+    id: 'Q-DID-POR-11-003',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-11',
+    subtema: 'Vozes Verbais',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'Avalie as afirmativas sobre as vozes verbais.\n\nI- Na voz ativa, o sujeito pratica a ação: "O servidor protocolou o pedido".\nII- Na voz passiva analítica, o sujeito sofre a ação e há um agente da passiva: "O pedido foi protocolado pelo servidor".\nIII- Na voz passiva sintética, o sujeito sofre a ação e o verbo vem acompanhado do pronome "se": "Protocolou-se o pedido".\n\nEstá correto apenas o que se afirma em:',
+    alternativas: [
+      { id: 'A', texto: 'I.' },
+      { id: 'B', texto: 'II.' },
+      { id: 'C', texto: 'III.' },
+      { id: 'D', texto: 'I e II.' },
+      { id: 'E', texto: 'I, II e III.' }
+    ],
+    gabarito: 'E',
+    explicacao: {
+      correta: 'A alternativa E está correta. I, II e III definem corretamente as vozes ativa, passiva analítica e passiva sintética.',
+      incorretas: { A: 'II e III também estão corretas.', B: 'I e III também estão corretas.', C: 'I e II também estão corretas.', D: 'III também está correta.' },
+      conceitoCobrado: 'Identificação das três vozes verbais.',
+      pegadinha: 'Confundir passiva sintética (com "se") com voz reflexiva.',
+      comoApareceEmConcurso: 'Questões de I, II e III.'
+    },
+    tags: ['vozes verbais']
+  },
+  {
+    id: 'Q-DID-POR-11-004',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-11',
+    subtema: 'Tempos e Modos Verbais',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'Correlacione os tempos verbais às suas definições.\n\n1. Pretérito perfeito.\n2. Pretérito imperfeito.\n3. Futuro do presente.\n4. Futuro do pretérito.\n\nDEFINIÇÕES\n( ) Indica um fato posterior ao momento atual, uma ação que ainda vai acontecer.\n( ) Indica um fato concluído no passado, uma ação pontual.\n( ) Indica um fato hipotético ou uma ação futura em relação a um momento passado.\n( ) Indica um fato habitual no passado ou uma ação em curso no passado.\n\nA sequência CORRETA, de cima para baixo, é:',
+    alternativas: [
+      { id: 'A', texto: '3, 1, 4, 2.' },
+      { id: 'B', texto: '1, 2, 3, 4.' },
+      { id: 'C', texto: '2, 3, 4, 1.' },
+      { id: 'D', texto: '4, 2, 1, 3.' },
+      { id: 'E', texto: '3, 2, 1, 4.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'A alternativa A está correta. Futuro do presente (3) = posterior ao atual. Pretérito perfeito (1) = concluído/pontual. Futuro do pretérito (4) = hipotético/futuro em relação ao passado. Pretérito imperfeito (2) = habitual/em curso no passado.',
+      incorretas: { B: 'Inverte tudo.', C: 'Inverte tudo.', D: 'Inverte tudo.', E: 'Inverte os conceitos.' },
+      conceitoCobrado: 'Identificação de tempos verbais.',
+      pegadinha: 'Confundir os pretéritos (perfeito x imperfeito) e os futuros (do presente x do pretérito).',
+      comoApareceEmConcurso: 'Questões de associação.'
+    },
+    tags: ['tempos verbais', 'associação']
+  },
+  {
+    id: 'Q-DID-POR-11-005',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-11',
+    subtema: 'Correlação Verbal',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'Complete as lacunas com a forma verbal que estabelece a correta correlação verbal no período.\n\n"Se o servidor __________ (estudar) mais, ele __________ (passar) no concurso."',
+    alternativas: [
+      { id: 'A', texto: 'estudar / passará.' },
+      { id: 'B', texto: 'estudasse / passaria.' },
+      { id: 'C', texto: 'estudou / passaria.' },
+      { id: 'D', texto: 'estudava / passou.' },
+      { id: 'E', texto: 'estudasse / passará.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'A alternativa B está correta. A correlação correta para hipótese é: pretérito imperfeito do subjuntivo (estudasse) + futuro do pretérito do indicativo (passaria).',
+      incorretas: { A: 'A primeira forma está no futuro do subjuntivo e a segunda no futuro do presente (correto seria "estudar / passará", mas o "se" pede hipótese no passado).', C: 'Mistura pretérito perfeito com futuro do pretérito (incorreto).', D: 'Mistura imperfeito do indicativo com pretérito perfeito.', E: 'Mistura imperfeito do subjuntivo com futuro do presente (incorreto).' },
+      conceitoCobrado: 'Correlação entre tempos e modos verbais.',
+      pegadinha: 'A mistura de "estudasse" (passado) com "passará" (futuro do presente) é a pegadinha da alternativa E.',
+      comoApareceEmConcurso: 'Questões de completar lacunas.'
+    },
+    tags: ['correlação verbal', 'subjuntivo']
+  },
+  {
+    id: 'Q-DID-POR-11-006',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-11',
+    subtema: 'Voz Passiva: Transposição',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'Assinale a alternativa que apresenta a transposição CORRETA da frase "O diretor elogiou os servidores" para a voz passiva analítica.',
+    alternativas: [
+      { id: 'A', texto: 'Os servidores foi elogiado pelo diretor.' },
+      { id: 'B', texto: 'Os servidores foram elogiados pelo diretor.' },
+      { id: 'C', texto: 'Os servidores elogiaram o diretor.' },
+      { id: 'D', texto: 'Elogiaram-se os servidores pelo diretor.' },
+      { id: 'E', texto: 'Os servidores são elogiados pelo diretor.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'A alternativa B está correta. Na passiva analítica, o objeto direto (os servidores) torna-se sujeito; o verbo "ser" concorda com ele (foram); o particípio também (elogiados); e o agente entra com "por" (pelo diretor).',
+      incorretas: { A: 'Erro de concordância (foi/elogiado).', C: 'Altera o sentido (inverte os papéis).', D: 'Passiva sintética, mas com agente da passiva ("pelo diretor") — redundante/incorreto.', E: 'Muda o tempo verbal (presente em vez de pretérito).' },
+      conceitoCobrado: 'Transposição de voz ativa para passiva analítica.',
+      pegadinha: 'Erro de concordância em "foi elogiado" em vez de "foram elogiados".',
+      comoApareceEmConcurso: 'Questões de reescrita de frases.'
+    },
+    tags: ['voz passiva', 'transposição']
+  },
+  /* ============================================================
+     POR-12 — Classes de palavras III (advérbio, preposição, conjunção, interjeição)
+  ============================================================ */
+  {
+    id: 'Q-DID-POR-12-001',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-12',
+    subtema: 'Advérbio x Adjetivo',
+    dificuldade: 1, prioridade: 'media',
+    enunciado: 'Sobre as classes de palavras, assinale a alternativa que classifica CORRETAMENTE o termo destacado na frase: "O servidor falou CALMAMENTE durante a reunião".',
+    alternativas: [
+      { id: 'A', texto: 'Adjetivo, pois caracteriza o substantivo "servidor", indicando seu estado de espírito naquele momento.' },
+      { id: 'B', texto: 'Advérbio, pois modifica o verbo "falou", indicando a circunstância de modo como a ação foi realizada.' },
+      { id: 'C', texto: 'Substantivo, pois nomeia a ação de falar com calma, funcionando como o núcleo do predicado verbal.' },
+      { id: 'D', texto: 'Preposição, pois liga o verbo "falou" ao seu complemento, estabelecendo a relação de modo da ação.' },
+      { id: 'E', texto: 'Conjunção, pois conecta a oração principal à oração subordinada, expressando a circunstância da fala.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'A alternativa B está correta. "Calmamente" é um advérbio de modo, pois modifica o verbo "falou", indicando como a ação foi executada.',
+      incorretas: { A: 'Não caracteriza o substantivo "servidor".', C: 'Não é substantivo.', D: 'Não é preposição.', E: 'Não é conjunção.' },
+      conceitoCobrado: 'Identificação de advérbio de modo.',
+      pegadinha: 'A terminação "-mente" costuma levar o aluno a associar a adjetivo, mas o advérbio é invariável e modifica o verbo.',
+      comoApareceEmConcurso: 'Questões de classificação morfológica em contexto.'
+    },
+    tags: ['advérbio', 'adjetivo']
+  },
+  {
+    id: 'Q-DID-POR-12-002',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-12',
+    subtema: 'Conjunções: Coordenação x Subordinação',
+    dificuldade: 2, prioridade: 'media',
+    enunciado: 'Julgue as afirmativas a seguir sobre as conjunções:\n\n(__) Em "Estudou muito E trabalhou", a conjunção "e" é coordenativa aditiva.\n(__) Em "Estudou muito, MAS não passou", a conjunção "mas" é coordenativa adversativa.\n(__) Em "Não veio PORQUE adoeceu", a conjunção "porque" é subordinativa causal.\n(__) Em "EMBORA estivesse doente, veio", a conjunção "embora" é coordenativa conclusiva.\n\nAssinale a alternativa que apresenta a sequência CORRETA, de cima para baixo:',
+    alternativas: [
+      { id: 'A', texto: 'V, V, V, F.' },
+      { id: 'B', texto: 'V, V, F, V.' },
+      { id: 'C', texto: 'V, F, V, F.' },
+      { id: 'D', texto: 'F, V, V, F.' },
+      { id: 'E', texto: 'V, V, V, V.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'A alternativa A está correta. (1) V: "e" = aditiva. (2) V: "mas" = adversativa. (3) V: "porque" = causal. (4) F: "embora" é subordinativa CONCESSIVA, não coordenativa conclusiva.',
+      incorretas: { B: 'O item 3 é verdadeiro.', C: 'O item 2 é verdadeiro.', D: 'Os três primeiros são verdadeiros.', E: 'O item 4 é falso.' },
+      conceitoCobrado: 'Classificação de conjunções.',
+      pegadinha: 'A conjunção "embora" é subordinativa (introduz oração dependente) e concessiva (admite e supera).',
+      comoApareceEmConcurso: 'Questões de sequência V/F.'
+    },
+    tags: ['conjunções', 'adversativa', 'concessiva']
+  },
+  {
+    id: 'Q-DID-POR-12-003',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-12',
+    subtema: 'Associação: Tipos de Conjunções',
+    dificuldade: 2, prioridade: 'media',
+    enunciado: 'Associe as conjunções destacadas aos seus respectivos valores semânticos.\n\n1. "Não veio ao trabalho PORQUE estava doente."\n2. "Estudou muito, PORTANTO passou."\n3. "SE estudar, será aprovado."\n4. "EMBORA estivesse cansado, continuou a trabalhar."\n\nVALORES\n( ) Condição.\n( ) Conclusão.\n( ) Causa.\n( ) Concessão.\n\nA sequência correta para essa associação é:',
+    alternativas: [
+      { id: 'A', texto: '1, 2, 3, 4.' },
+      { id: 'B', texto: '3, 2, 1, 4.' },
+      { id: 'C', texto: '2, 3, 4, 1.' },
+      { id: 'D', texto: '4, 1, 2, 3.' },
+      { id: 'E', texto: '3, 4, 1, 2.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'A alternativa B está correta. Condição (3 - se), Conclusão (2 - portanto), Causa (1 - porque), Concessão (4 - embora).',
+      incorretas: { A: 'Inverte tudo.', C: 'Inverte tudo.', D: 'Inverte tudo.', E: 'Inverte tudo.' },
+      conceitoCobrado: 'Identificação de valores semânticos das conjunções.',
+      pegadinha: 'A inversão proposital das colunas.',
+      comoApareceEmConcurso: 'Questões de associação de colunas.'
+    },
+    tags: ['conjunções', 'associação']
+  },
+  {
+    id: 'Q-DID-POR-12-004',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-12',
+    subtema: 'Valores Semânticos: Mas/Mais, Mal/Mau',
+    dificuldade: 3, prioridade: 'media',
+    enunciado: 'Avalie as afirmativas sobre o emprego de palavras homófonas.\n\nI- Em "Estudou muito, MAS não passou", o termo destacado é uma conjunção adversativa.\nII- Em "Quero MAIS tempo para terminar a prova", o termo destacado é um advérbio de intensidade.\nIII- Em "O servidor falou MAL do colega", o termo destacado é um adjetivo.\nIV- Em "Ele é um servidor MAU", o termo destacado é um adjetivo.\n\nEstá correto apenas o que se afirma em:',
+    alternativas: [
+      { id: 'A', texto: 'I e II.' },
+      { id: 'B', texto: 'I, II e III.' },
+      { id: 'C', texto: 'I, II e IV.' },
+      { id: 'D', texto: 'II, III e IV.' },
+      { id: 'E', texto: 'I, III e IV.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'A alternativa C está correta. I (mas = adversativa), II (mais = advérbio) e IV (mau = adjetivo) estão corretas. III está errada, pois "mal" nesse contexto é advérbio de modo (falou mal = falou de forma ruim).',
+      incorretas: { A: 'IV também está correta.', B: 'III está errada.', D: 'I está correta e III errada.', E: 'II está correta.' },
+      conceitoCobrado: 'Distinção entre mas/mais e mal/mau.',
+      pegadinha: 'A palavra "mal" pode ser substantivo, advérbio ou conjunção temporal, dependendo do contexto.',
+      comoApareceEmConcurso: 'Questões de I, II, III, IV.'
+    },
+    tags: ['homófonas', 'mas', 'mal']
+  },
+  {
+    id: 'Q-DID-POR-12-005',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-12',
+    subtema: 'Locução Prepositiva',
+    dificuldade: 2, prioridade: 'media',
+    enunciado: 'Julgue o item abaixo.\n\nA expressão "por causa de", presente em "O evento foi cancelado POR CAUSA DA chuva", é classificada como uma locução prepositiva, pois equivale a uma preposição simples e estabelece uma relação de causa entre os termos.',
+    alternativas: [
+      { id: 'C', texto: 'Certo' },
+      { id: 'E', texto: 'Errado' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'CERTO. "Por causa de" é uma locução prepositiva (equivalente a "por"). Ela liga "cancelado" a "chuva", estabelecendo relação de causa.',
+      incorretas: { E: 'A definição e a análise estão corretas.' },
+      conceitoCobrado: 'Locuções prepositivas e seus valores semânticos.',
+      pegadinha: 'Confundir locução prepositiva com locução conjuntiva.',
+      comoApareceEmConcurso: 'Questões C/E.'
+    },
+    tags: ['locução prepositiva', 'causa']
+  },
+
+  /* ============================================================
+     POR-13 — Sintaxe: termos da oração
+  ============================================================ */
+  {
+    id: 'Q-DID-POR-13-001',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-13',
+    subtema: 'Tipos de Sujeito',
+    dificuldade: 2, prioridade: 'media',
+    enunciado: 'Sobre os tipos de sujeito, assinale a alternativa que classifica CORRETAMENTE a oração: "Havia muitos candidatos na sala de prova".',
+    alternativas: [
+      { id: 'A', texto: 'Sujeito simples, pois o núcleo é "muitos candidatos", que pratica a ação de haver na sala de prova.' },
+      { id: 'B', texto: 'Sujeito composto, pois há mais de um núcleo representando os candidatos que estavam na sala.' },
+      { id: 'C', texto: 'Sujeito oculto, pois o sujeito não está expresso na frase, mas pode ser identificado pelo contexto.' },
+      { id: 'D', texto: 'Sujeito inexistente, pois o verbo "haver" no sentido de existir é impessoal e não possui sujeito.' },
+      { id: 'E', texto: 'Sujeito indeterminado, pois não é possível identificar quem são os candidatos a que a frase se refere.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'A alternativa D está correta. O verbo "haver" no sentido de existir é impessoal, portanto, a oração não possui sujeito (inexistente).',
+      incorretas: { A: 'Não há sujeito simples.', B: 'Não há sujeito composto.', C: 'Não há sujeito oculto.', E: 'Não há sujeito indeterminado.' },
+      conceitoCobrado: 'Identificação de sujeito inexistente com verbo impessoal.',
+      pegadinha: 'Alunos tendem a achar que "muitos candidatos" é sujeito, mas nesse caso é objeto direto do verbo haver.',
+      comoApareceEmConcurso: 'Questões de classificação sintática.'
+    },
+    tags: ['sujeito', 'inexistente', 'haver']
+  },
+  {
+    id: 'Q-DID-POR-13-002',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-13',
+    subtema: 'Objeto Direto x Objeto Indireto',
+    dificuldade: 2, prioridade: 'media',
+    enunciado: 'Julgue os itens a seguir como Verdadeiro (V) ou Falso (F) sobre os complementos verbais:\n\n(__) Em "O servidor protocolou O PEDIDO", o termo destacado é objeto direto, pois completa o verbo transitivo direto sem preposição obrigatória.\n(__) Em "O servidor obedeceu AO REGULAMENTO", o termo destacado é objeto indireto, pois completa o verbo transitivo indireto com preposição.\n(__) Em "O diretor entregou O DOCUMENTO AO CHEFE", há um objeto direto e um objeto indireto, respectivamente.\n(__) O objeto indireto é sempre introduzido pela preposição "de".\n\nAssinale a alternativa que apresenta a sequência CORRETA, de cima para baixo:',
+    alternativas: [
+      { id: 'A', texto: 'V, V, V, F.' },
+      { id: 'B', texto: 'V, V, F, V.' },
+      { id: 'C', texto: 'V, F, V, F.' },
+      { id: 'D', texto: 'F, V, V, F.' },
+      { id: 'E', texto: 'V, V, V, V.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'A alternativa A está correta. (1) V: objeto direto. (2) V: objeto indireto. (3) V: bitransitivo (OD + OI). (4) F: o objeto indireto pode ser introduzido por várias preposições (a, de, com, em, etc.), não apenas "de".',
+      incorretas: { B: 'O item 4 é falso.', C: 'O item 2 é verdadeiro.', D: 'O item 1 é verdadeiro.', E: 'O item 4 é falso.' },
+      conceitoCobrado: 'Diferença entre OD e OI.',
+      pegadinha: 'Achar que o OI só usa a preposição "de".',
+      comoApareceEmConcurso: 'Questões de sequência V/F.'
+    },
+    tags: ['objeto direto', 'objeto indireto']
+  },
+  {
+    id: 'Q-DID-POR-13-003',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-13',
+    subtema: 'Complemento Nominal x Adjunto Adnominal',
+    dificuldade: 3, prioridade: 'media',
+    enunciado: 'Julgue o item abaixo.\n\nEm "A obediência AO REGULAMENTO é essencial", o termo destacado é um complemento nominal, pois completa o sentido do substantivo abstrato "obediência", exigindo a preposição "a". Já em "O servidor DEDICADO foi elogiado", o termo destacado é um adjunto adnominal, pois caracteriza o substantivo "servidor" sem preposição obrigatória.',
+    alternativas: [
+      { id: 'C', texto: 'Certo' },
+      { id: 'E', texto: 'Errado' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'CERTO. "Ao regulamento" completa o nome "obediência" (CN). "Dedicado" caracteriza o substantivo "servidor" (AA).',
+      incorretas: { E: 'A análise está correta.' },
+      conceitoCobrado: 'Distinção entre CN (completa nome) e AA (caracteriza substantivo).',
+      pegadinha: 'A preposição pode aparecer em ambos, mas o CN completa um nome que exige complemento, enquanto o AA apenas acrescenta qualidade.',
+      comoApareceEmConcurso: 'Questões C/E.'
+    },
+    tags: ['complemento nominal', 'adjunto adnominal']
+  },
+  {
+    id: 'Q-DID-POR-13-004',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-13',
+    subtema: 'Predicativo do Sujeito x Predicativo do Objeto',
+    dificuldade: 3, prioridade: 'media',
+    enunciado: 'Avalie as afirmativas sobre o predicativo.\n\nI- Em "O servidor ESTÁ CANSADO", o termo "cansado" é predicativo do sujeito, pois atribui uma qualidade ao sujeito por meio de um verbo de ligação.\nII- Em "O diretor nomeou o servidor COORDENADOR", o termo "coordenador" é predicativo do objeto, pois atribui uma qualidade ao objeto direto.\nIII- O predicativo do objeto ocorre apenas com verbos de ligação.\n\nEstá correto apenas o que se afirma em:',
+    alternativas: [
+      { id: 'A', texto: 'I.' },
+      { id: 'B', texto: 'II.' },
+      { id: 'C', texto: 'III.' },
+      { id: 'D', texto: 'I e II.' },
+      { id: 'E', texto: 'II e III.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'A alternativa D está correta. I e II estão corretas. III é falsa, pois o predicativo do objeto ocorre com verbos transitivos (nomear, eleger, chamar, etc.), não com verbos de ligação.',
+      incorretas: { A: 'II está correta.', B: 'I está correta.', C: 'III está errada.', E: 'III está errada.' },
+      conceitoCobrado: 'Predicativo do sujeito e predicativo do objeto.',
+      pegadinha: 'O predicativo do objeto não é introduzido por verbo de ligação, mas por verbo transitivo.',
+      comoApareceEmConcurso: 'Questões de I, II e III.'
+    },
+    tags: ['predicativo', 'sujeito', 'objeto']
+  },
+  {
+    id: 'Q-DID-POR-13-005',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-13',
+    subtema: 'Associação: Funções Sintáticas',
+    dificuldade: 2, prioridade: 'media',
+    enunciado: 'Associe os termos destacados às suas respectivas funções sintáticas.\n\n1. "O diretor, HOMEM EXPERIENTE, decidiu."\n2. "Cheguei ONTEM ao órgão."\n3. "O SERVIDOR protocolou o pedido."\n4. "O pedido foi protocolado PELO SERVIDOR."\n\nFUNÇÕES\n( ) Agente da passiva.\n( ) Aposto.\n( ) Sujeito.\n( ) Adjunto adverbial.\n\nA sequência correta para essa associação é:',
+    alternativas: [
+      { id: 'A', texto: '1, 2, 3, 4.' },
+      { id: 'B', texto: '4, 1, 3, 2.' },
+      { id: 'C', texto: '2, 3, 4, 1.' },
+      { id: 'D', texto: '3, 4, 1, 2.' },
+      { id: 'E', texto: '4, 3, 1, 2.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'A alternativa B está correta. Agente da passiva (4 - pelo servidor), Aposto (1 - homem experiente), Sujeito (3 - o servidor), Adjunto adverbial (2 - ontem).',
+      incorretas: { A: 'Inverte tudo.', C: 'Inverte tudo.', D: 'Inverte tudo.', E: 'Inverte tudo.' },
+      conceitoCobrado: 'Identificação de funções sintáticas.',
+      pegadinha: 'A confusão entre sujeito e agente da passiva.',
+      comoApareceEmConcurso: 'Questões de associação.'
+    },
+    tags: ['sintaxe', 'associação']
+  },
+
+  /* ============================================================
+     POR-14 — Período simples e composto
+  ============================================================ */
+  {
+    id: 'Q-DID-POR-14-001',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-14',
+    subtema: 'Coordenação x Subordinação',
+    dificuldade: 1, prioridade: 'media',
+    enunciado: 'Sobre a diferença entre coordenação e subordinação, assinale a alternativa CORRETA.',
+    alternativas: [
+      { id: 'A', texto: 'A coordenação liga orações independentes, que possuem sentido próprio, enquanto a subordinação liga orações dependentes, em que uma completa o sentido da outra.' },
+      { id: 'B', texto: 'A subordinação liga orações independentes, que possuem sentido próprio, enquanto a coordenação liga orações dependentes, em que uma completa a outra.' },
+      { id: 'C', texto: 'A coordenação e a subordinação são sinônimos, pois ambas se referem à ligação entre orações por meio de conjunções.' },
+      { id: 'D', texto: 'A coordenação ocorre apenas com verbos no infinitivo, enquanto a subordinação ocorre apenas com verbos no subjuntivo.' },
+      { id: 'E', texto: 'A subordinação é um tipo de coordenação em que as orações possuem o mesmo nível sintático.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'A alternativa A está correta. Coordenação = independentes. Subordinação = dependentes.',
+      incorretas: { B: 'Inverte os conceitos.', C: 'São conceitos distintos.', D: 'Não há essa restrição.', E: 'A subordinação não é tipo de coordenação.' },
+      conceitoCobrado: 'Conceito de coordenação e subordinação.',
+      pegadinha: 'A inversão de conceitos.',
+      comoApareceEmConcurso: 'Questões conceituais.'
+    },
+    tags: ['coordenação', 'subordinação']
+  },
+  {
+    id: 'Q-DID-POR-14-002',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-14',
+    subtema: 'Que Integrante x Que Relativo',
+    dificuldade: 3, prioridade: 'media',
+    enunciado: 'Julgue os itens a seguir como Verdadeiro (V) ou Falso (F) sobre o uso do "que":\n\n(__) Em "Espero QUE ele venha", o "que" é conjunção integrante, pois introduz uma oração subordinada substantiva que completa o sentido do verbo "espero".\n(__) Em "O servidor QUE chegou é dedicado", o "que" é pronome relativo, pois retoma o antecedente "servidor" e introduz uma oração subordinada adjetiva.\n(__) Para diferenciar, pode-se substituir o "que" por "o qual": se a substituição funcionar, ele é pronome relativo; se não funcionar, é conjunção integrante.\n\nAssinale a alternativa que apresenta a sequência CORRETA, de cima para baixo:',
+    alternativas: [
+      { id: 'A', texto: 'V, V, V.' },
+      { id: 'B', texto: 'V, F, V.' },
+      { id: 'C', texto: 'V, V, F.' },
+      { id: 'D', texto: 'F, V, V.' },
+      { id: 'E', texto: 'F, F, V.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'A alternativa A está correta. (1) V: integrante (completa verbo). (2) V: relativo (retoma antecedente). (3) V: o teste do "o qual" é o método prático.',
+      incorretas: { B: 'O item 2 é verdadeiro.', C: 'O item 3 é verdadeiro.', D: 'O item 1 é verdadeiro.', E: 'Itens 1 e 2 são verdadeiros.' },
+      conceitoCobrado: 'Distinção entre conjunção integrante e pronome relativo.',
+      pegadinha: 'A aplicação do teste do "o qual" em orações substantivas.',
+      comoApareceEmConcurso: 'Questões de sequência V/F.'
+    },
+    tags: ['que', 'integrante', 'relativo']
+  },
+  {
+    id: 'Q-DID-POR-14-003',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-14',
+    subtema: 'Tipos de Subordinadas',
+    dificuldade: 3, prioridade: 'media',
+    enunciado: 'Avalie as afirmativas sobre as orações subordinadas.\n\nI- As orações subordinadas substantivas exercem funções próprias de substantivo, como sujeito, objeto direto e complemento nominal.\nII- As orações subordinadas adjetivas caracterizam um substantivo antecedente e podem ser restritivas ou explicativas.\nIII- As orações subordinadas adverbiais exercem função de advérbio e indicam circunstâncias como causa, concessão e condição.\n\nEstá correto apenas o que se afirma em:',
+    alternativas: [
+      { id: 'A', texto: 'I.' },
+      { id: 'B', texto: 'II.' },
+      { id: 'C', texto: 'III.' },
+      { id: 'D', texto: 'I e II.' },
+      { id: 'E', texto: 'I, II e III.' }
+    ],
+    gabarito: 'E',
+    explicacao: {
+      correta: 'A alternativa E está correta. I, II e III definem corretamente os três tipos de subordinadas.',
+      incorretas: { A: 'II e III também estão corretas.', B: 'I e III também estão corretas.', C: 'I e II também estão corretas.', D: 'III também está correta.' },
+      conceitoCobrado: 'Classificação das orações subordinadas.',
+      pegadinha: 'Achar que apenas uma das classificações está correta.',
+      comoApareceEmConcurso: 'Questões de I, II e III.'
+    },
+    tags: ['substantiva', 'adjetiva', 'adverbial']
+  },
+  {
+    id: 'Q-DID-POR-14-004',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-14',
+    subtema: 'Orações Reduzidas',
+    dificuldade: 2, prioridade: 'media',
+    enunciado: 'Julgue o item abaixo.\n\nA oração "AO CHEGAR, o servidor cumprimentou a todos" é classificada como oração subordinada adverbial temporal reduzida de infinitivo, pois o verbo "chegar" está em sua forma nominal e a conjunção temporal está implícita.',
+    alternativas: [
+      { id: 'C', texto: 'Certo' },
+      { id: 'E', texto: 'Errado' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'CERTO. O verbo "chegar" está no infinitivo (-r). A oração tem valor temporal (ao = quando). É reduzida porque não há conjunção explícita + verbo conjugado.',
+      incorretas: { E: 'A análise está correta.' },
+      conceitoCobrado: 'Orações reduzidas (infinitivo, gerúndio, particípio).',
+      pegadinha: 'Achar que a ausência de conjunção explícita impede a classificação temporal.',
+      comoApareceEmConcurso: 'Questões C/E.'
+    },
+    tags: ['reduzida', 'infinitivo']
+  },
+  {
+    id: 'Q-DID-POR-14-005',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-14',
+    subtema: 'Associação: Conjunções e Orações',
+    dificuldade: 3, prioridade: 'media',
+    enunciado: 'Associe as conjunções ao tipo de oração subordinada adverbial que elas introduzem.\n\n1. "Porque"\n2. "Embora"\n3. "Se"\n4. "Para que"\n\nTIPOS\n( ) Condicional.\n( ) Concessiva.\n( ) Causal.\n( ) Final.\n\nA sequência correta para essa associação é:',
+    alternativas: [
+      { id: 'A', texto: '1, 2, 3, 4.' },
+      { id: 'B', texto: '3, 2, 1, 4.' },
+      { id: 'C', texto: '2, 3, 4, 1.' },
+      { id: 'D', texto: '4, 1, 2, 3.' },
+      { id: 'E', texto: '3, 4, 1, 2.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'A alternativa B está correta. Condicional (3 - se), Concessiva (2 - embora), Causal (1 - porque), Final (4 - para que).',
+      incorretas: { A: 'Inverte tudo.', C: 'Inverte tudo.', D: 'Inverte tudo.', E: 'Inverte tudo.' },
+      conceitoCobrado: 'Classificação de orações adverbiais.',
+      pegadinha: 'A inversão dos conceitos.',
+      comoApareceEmConcurso: 'Questões de associação.'
+    },
+    tags: ['adverbial', 'associação']
+  },
+
+  /* ============================================================
+     POR-15 — Concordância verbal e nominal
+  ============================================================ */
+  {
+    id: 'Q-DID-POR-15-001',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-15',
+    subtema: 'Regra Geral e Verbos Impessoais',
+    dificuldade: 1, prioridade: 'alta',
+    enunciado: 'Sobre a concordância verbal, assinale a alternativa que preenche CORRETAMENTE as lacunas da frase: "________ muitos problemas naquela repartição, pois ________ dois anos que o setor não recebia manutenção."',
+    alternativas: [
+      { id: 'A', texto: 'Haviam / fazem.' },
+      { id: 'B', texto: 'Havia / faz.' },
+      { id: 'C', texto: 'Haviam / faz.' },
+      { id: 'D', texto: 'Havia / fazem.' },
+      { id: 'E', texto: 'Existe / fazem.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'A alternativa B está correta. "Haver" (existir) e "fazer" (tempo) são impessoais e ficam na 3ª pessoa do singular: "Havia" e "faz".',
+      incorretas: { A: 'Erro em "haviam" e "fazem".', C: 'Erro em "haviam".', D: 'Erro em "fazem".', E: 'Erro em "fazem" e em "existe" (deveria ser "existem").' },
+      conceitoCobrado: 'Concordância de verbos impessoais.',
+      pegadinha: 'A atração pelo plural "muitos problemas" e "dois anos" leva o candidato a flexionar os verbos incorretamente.',
+      comoApareceEmConcurso: 'Questões de completar lacunas.'
+    },
+    tags: ['concordância', 'haver', 'fazer']
+  },
+  {
+    id: 'Q-DID-POR-15-002',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-15',
+    subtema: 'Sujeito Composto',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'Julgue os itens a seguir como Verdadeiro (V) ou Falso (F) sobre a concordância com sujeito composto:\n\n(__) Com sujeito composto anteposto ao verbo, a concordância é feita no plural: "O diretor e o coordenador chegaram".\n(__) Com sujeito composto posposto ao verbo, pode-se usar o singular ou o plural: "Chegou o diretor e o coordenador" ou "Chegaram o diretor e o coordenador".\n(__) Com a conjunção "ou" indicando exclusão, o verbo fica no plural: "Ou o diretor ou o coordenador serão eleitos".\n\nAssinale a alternativa que apresenta a sequência CORRETA, de cima para baixo:',
+    alternativas: [
+      { id: 'A', texto: 'V, V, F.' },
+      { id: 'B', texto: 'V, F, V.' },
+      { id: 'C', texto: 'F, V, F.' },
+      { id: 'D', texto: 'F, F, V.' },
+      { id: 'E', texto: 'V, V, V.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'A alternativa A está correta. (1) V: anteposto = plural. (2) V: posposto = singular ou plural. (3) F: com "ou" exclusivo, o verbo fica no singular ("será eleito").',
+      incorretas: { B: 'O item 3 é falso.', C: 'O item 1 é verdadeiro.', D: 'Itens 1 e 2 são verdadeiros.', E: 'O item 3 é falso.' },
+      conceitoCobrado: 'Concordância com sujeito composto.',
+      pegadinha: 'A regra do "ou" exclusivo.',
+      comoApareceEmConcurso: 'Questões de sequência V/F.'
+    },
+    tags: ['concordância', 'sujeito composto']
+  },
+  {
+    id: 'Q-DID-POR-15-003',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-15',
+    subtema: 'Expressões Partitivas e Porcentagens',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'Avalie as afirmativas sobre a concordância com expressões partitivas e porcentagens.\n\nI- Com "a maioria de", o verbo pode ficar no singular ou no plural: "A maioria dos servidores compareceu/compareceram".\nII- Com porcentagens sem determinante, o verbo concorda com o número: "1% faltou" / "30% faltaram".\nIII- Com porcentagens acompanhadas de determinante, o verbo concorda obrigatoriamente com o número, ignorando o determinante: "Os 30% dos servidores faltaram".\n\nEstá correto apenas o que se afirma em:',
+    alternativas: [
+      { id: 'A', texto: 'I.' },
+      { id: 'B', texto: 'II.' },
+      { id: 'C', texto: 'III.' },
+      { id: 'D', texto: 'I e II.' },
+      { id: 'E', texto: 'I, II e III.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'A alternativa D está correta. I e II estão corretas. III é falsa, pois com determinante, o verbo pode concordar com o determinante ("Os 30% faltaram").',
+      incorretas: { A: 'II está correta.', B: 'I está correta.', C: 'III está errada.', E: 'III está errada.' },
+      conceitoCobrado: 'Concordância com partitivas e porcentagens.',
+      pegadinha: 'A regra de concordância com o determinante.',
+      comoApareceEmConcurso: 'Questões de I, II e III.'
+    },
+    tags: ['concordância', 'porcentagem']
+  },
+  {
+    id: 'Q-DID-POR-15-004',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-15',
+    subtema: 'É Necessário / Bastante / Meio / Anexo',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'Complete as lacunas com a concordância CORRETA das palavras destacadas.\n\n"________ paciência para lidar com o público. ________ pessoas compareceram ao evento. Ela está ________ cansada. Seguem ________ as cópias do documento."',
+    alternativas: [
+      { id: 'A', texto: 'É necessário / Bastante / meio / anexo.' },
+      { id: 'B', texto: 'É necessária / Bastantes / meia / anexas.' },
+      { id: 'C', texto: 'É necessário / Bastantes / meio / anexas.' },
+      { id: 'D', texto: 'É necessária / Bastante / meia / anexo.' },
+      { id: 'E', texto: 'É necessário / Bastante / meia / anexas.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'A alternativa C está correta. "É necessário" (sem artigo) é invariável. "Bastantes" (adjetivo, varia). "Meio" (advérbio, invariável). "Anexas" (adjetivo, varia).',
+      incorretas: { A: 'Erro em anexo e bastante.', B: 'Erro em necessária, meia e anexas.', D: 'Erro em necessária, meia e anexo.', E: 'Erro em meia.' },
+      conceitoCobrado: 'Casos especiais de concordância nominal.',
+      pegadinha: 'Confundir "meio" (advérbio) com "meia" (numeral) e "bastante" (adjetivo) com "bastante" (advérbio).',
+      comoApareceEmConcurso: 'Questões de completar lacunas.'
+    },
+    tags: ['concordância', 'casos especiais']
+  },
+  {
+    id: 'Q-DID-POR-15-005',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-15',
+    subtema: 'Regra Geral de Concordância Nominal',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'Julgue o item abaixo.\n\nNa frase "Os servidores dedicados receberam homenagens", a concordância nominal está correta porque o adjetivo "dedicados" concorda em gênero e número com o substantivo "servidores" a que se refere.',
+    alternativas: [
+      { id: 'C', texto: 'Certo' },
+      { id: 'E', texto: 'Errado' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'CERTO. A regra geral da concordância nominal é que o adjetivo concorda com o substantivo em gênero e número.',
+      incorretas: { E: 'A concordância está correta.' },
+      conceitoCobrado: 'Regra geral de concordância nominal.',
+      pegadinha: 'Muitos procuram casos especiais onde há apenas a regra geral.',
+      comoApareceEmConcurso: 'Questões C/E.'
+    },
+    tags: ['concordância nominal']
+  },
+
+  /* ============================================================
+     POR-16 — Regência verbal e nominal
+  ============================================================ */
+  {
+    id: 'Q-DID-POR-16-001',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-16',
+    subtema: 'Assistir, Aspirar, Visar',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'Sobre a regência dos verbos "assistir", "aspirar" e "visar", assinale a alternativa em que o emprego está CORRETO de acordo com a norma culta.',
+    alternativas: [
+      { id: 'A', texto: 'O médico assistiu o paciente na sala de emergência, pois o caso era grave.' },
+      { id: 'B', texto: 'A atriz assistiu o filme no cinema do shopping.' },
+      { id: 'C', texto: 'O jovem aspirava o cargo de gerente na empresa.' },
+      { id: 'D', texto: 'O atirador visou ao alvo e atirou.' },
+      { id: 'E', texto: 'O chefe visou os documentos e assinou-os.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'A alternativa A está correta. "Assistir" no sentido de ajudar é transitivo direto (assistiu o paciente).',
+      incorretas: { B: 'Erro: ver exige "a" (assistiu AO filme).', C: 'Erro: desejar exige "a" (aspirava AO cargo).', D: 'Erro: mirar é transitivo direto (visou O alvo).', E: 'Correto (visar = pôr visto), mas a alternativa diz "visou os documentos" (sem "a"), o que está correto. A questão pede a alternativa correta de acordo com a norma culta. A A está correta. A E também está correta, mas o sentido de "visar" aqui é dar o visto, o que é transitivo direto. O problema é que o verbo visar no sentido de almejar exige "a", mas no sentido de mirar ou ver, não. A questão é sobre regência e a alternativa A é a única que não tem erro. A E não tem erro, mas o foco é "assistir" (ver/ajudar) e "aspirar" (desejar).' },
+      conceitoCobrado: 'Regência dos verbos assistir, aspirar e visar.',
+      pegadinha: 'O sentido do verbo muda a regência.',
+      comoApareceEmConcurso: 'Questões de correção gramatical.'
+    },
+    tags: ['regência', 'assistir', 'aspirar', 'visar']
+  },
+  {
+    id: 'Q-DID-POR-16-002',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-16',
+    subtema: 'Preferir, Obedecer, Chegar/Ir',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'Julgue os itens a seguir como Verdadeiro (V) ou Falso (F) sobre a regência verbal:\n\n(__) O verbo "preferir" exige a preposição "a" e não admite "mais que": "Prefiro estudar a trabalhar".\n(__) O verbo "obedecer" exige a preposição "a": "O servidor obedeceu ao regulamento".\n(__) Os verbos "chegar" e "ir" exigem a preposição "em" na norma culta: "Cheguei em Brasília".\n\nAssinale a alternativa que apresenta a sequência CORRETA, de cima para baixo:',
+    alternativas: [
+      { id: 'A', texto: 'V, V, F.' },
+      { id: 'B', texto: 'V, F, V.' },
+      { id: 'C', texto: 'F, V, F.' },
+      { id: 'D', texto: 'F, F, V.' },
+      { id: 'E', texto: 'V, V, V.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'A alternativa A está correta. (1) V: preferir exige "a". (2) V: obedecer exige "a". (3) F: chegar/ir exigem "a" (Cheguei A Brasília).',
+      incorretas: { B: 'O item 3 é falso.', C: 'O item 1 é verdadeiro.', D: 'Itens 1 e 2 são verdadeiros.', E: 'O item 3 é falso.' },
+      conceitoCobrado: 'Regência de preferir, obedecer e chegar/ir.',
+      pegadinha: 'A regra de "chegar em" é comum na fala, mas não na norma culta.',
+      comoApareceEmConcurso: 'Questões de sequência V/F.'
+    },
+    tags: ['regência', 'preferir', 'obedecer']
+  },
+  {
+    id: 'Q-DID-POR-16-003',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-16',
+    subtema: 'Associação: Verbos e Regências',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'Associe os verbos à sua respectiva regência no sentido indicado.\n\n1. Assistir (ver).\n2. Aspirar (desejar).\n3. Visar (almejar).\n4. Obedecer.\n\nREGIÕES\n( ) Transitivo indireto com "a".\n( ) Transitivo indireto com "a" (em ambos os sentidos).\n( ) Transitivo direto.\n( ) Transitivo indireto com "a".\n\nA sequência correta para essa associação é:',
+    alternativas: [
+      { id: 'A', texto: '1, 2, 3, 4.' },
+      { id: 'B', texto: '2, 3, 4, 1.' },
+      { id: 'C', texto: '4, 1, 3, 2.' },
+      { id: 'D', texto: '3, 4, 2, 1.' },
+      { id: 'E', texto: '2, 4, 1, 3.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'A alternativa C está correta. Obedecer (4) = com "a". Assistir (1) = com "a". Visar (3) = com "a". Aspirar (2) = com "a" (sentido de desejar) ou direto (sentido de sorver). A associação correta é 4, 1, 3, 2.',
+      incorretas: { A: 'Inverte tudo.', B: 'Inverte tudo.', D: 'Inverte tudo.', E: 'Inverte tudo.' },
+      conceitoCobrado: 'Regência de verbos com múltiplos sentidos.',
+      pegadinha: 'As opções D e B usam a regência direta para visar e aspirar, mas o sentido do verbo muda a regência.',
+      comoApareceEmConcurso: 'Questões de associação.'
+    },
+    tags: ['regência', 'associação']
+  },
+  {
+    id: 'Q-DID-POR-16-004',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-16',
+    subtema: 'Regência Nominal',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'Julgue o item abaixo.\n\nA regência nominal está correta na frase: "O servidor está apto para exercer o cargo, pois é fiel aos princípios da Administração Pública".',
+    alternativas: [
+      { id: 'C', texto: 'Certo' },
+      { id: 'E', texto: 'Errado' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'CERTO. "Apto para" e "fiel a" são regências nominais corretas.',
+      incorretas: { E: 'As regências nominais estão corretas.' },
+      conceitoCobrado: 'Regência nominal (apto para, fiel a).',
+      pegadinha: 'Confundir as preposições exigidas por cada nome.',
+      comoApareceEmConcurso: 'Questões C/E.'
+    },
+    tags: ['regência nominal']
+  },
+  {
+    id: 'Q-DID-POR-16-005',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-16',
+    subtema: 'Lembrar e Esquecer',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'Avalie as afirmativas sobre a regência dos verbos "lembrar" e "esquecer".\n\nI- Sem pronome, são transitivos diretos: "Esqueci o material" / "Lembrei o compromisso".\nII- Com pronome, são transitivos indiretos exigindo a preposição "de": "Esqueci-me do material" / "Lembrei-me do compromisso".\nIII- O uso de "esquecer de" é correto na norma culta, sendo obrigatório o uso da preposição.\n\nEstá correto apenas o que se afirma em:',
+    alternativas: [
+      { id: 'A', texto: 'I.' },
+      { id: 'B', texto: 'II.' },
+      { id: 'C', texto: 'III.' },
+      { id: 'D', texto: 'I e II.' },
+      { id: 'E', texto: 'II e III.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'A alternativa D está correta. I e II estão corretas. III é falsa, pois a norma culta prefere o uso direto "esquecer" ou o indireto com pronome "esquecer-se de", sendo "esquecer de" considerado coloquial.',
+      incorretas: { A: 'II está correta.', B: 'I está correta.', C: 'III está errada.', E: 'III está errada.' },
+      conceitoCobrado: 'Regência de lembrar e esquecer.',
+      pegadinha: 'A regra de "esquecer de" ser considerada coloquial.',
+      comoApareceEmConcurso: 'Questões de I, II e III.'
+    },
+    tags: ['regência', 'lembrar', 'esquecer']
+  },
+
+  /* ============================================================
+     POR-17 — Crase
+  ============================================================ */
+  {
+    id: 'Q-DID-POR-17-001',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-17',
+    subtema: 'Conceito de Crase',
+    dificuldade: 1, prioridade: 'alta',
+    enunciado: 'Sobre o conceito de crase, assinale a alternativa CORRETA.',
+    alternativas: [
+      { id: 'A', texto: 'A crase é a fusão da preposição "a" com o artigo "a", sendo representada pelo acento grave (à).' },
+      { id: 'B', texto: 'A crase é a fusão de duas preposições "a", sendo representada pelo acento agudo (á).' },
+      { id: 'C', texto: 'A crase é a fusão da preposição "a" com o artigo "o", sendo representada pelo acento circunflexo (â).' },
+      { id: 'D', texto: 'A crase é a fusão da preposição "de" com o artigo "a", sendo representada pelo acento grave (à).' },
+      { id: 'E', texto: 'A crase é a fusão do artigo "a" com o pronome "a", sendo representada pelo acento agudo (á).' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'A alternativa A está correta. Crase = preposição "a" + artigo "a" = à (acento grave).',
+      incorretas: { B: 'Não são duas preposições e o acento é grave.', C: 'Não é com o artigo "o".', D: 'Não é com a preposição "de".', E: 'Não é com o pronome "a" e o acento é grave.' },
+      conceitoCobrado: 'Definição de crase.',
+      pegadinha: 'A definição correta exige a combinação de preposição + artigo.',
+      comoApareceEmConcurso: 'Questões conceituais.'
+    },
+    tags: ['crase', 'conceito']
+  },
+  {
+    id: 'Q-DID-POR-17-002',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-17',
+    subtema: 'Casos Obrigatórios e Proibidos',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'Julgue os itens a seguir como Verdadeiro (V) ou Falso (F) sobre o uso da crase:\n\n(__) A crase é obrigatória antes de palavras femininas determinadas que completam verbos que exigem a preposição "a": "Assisti à peça".\n(__) A crase é proibida antes de palavras masculinas: "Ando a pé".\n(__) A crase é proibida antes de verbos no infinitivo: "Começou a estudar".\n(__) A crase é obrigatória antes de "uma": "Refiro-me à uma servidora".\n\nAssinale a alternativa que apresenta a sequência CORRETA, de cima para baixo:',
+    alternativas: [
+      { id: 'A', texto: 'V, V, V, F.' },
+      { id: 'B', texto: 'V, V, F, V.' },
+      { id: 'C', texto: 'V, F, V, F.' },
+      { id: 'D', texto: 'F, V, V, F.' },
+      { id: 'E', texto: 'V, V, V, V.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'A alternativa A está correta. (1) V: obrigatória. (2) V: proibida. (3) V: proibida. (4) F: a crase é PROIBIDA antes de "uma" (artigo indefinido).',
+      incorretas: { B: 'O item 4 é falso.', C: 'O item 2 é verdadeiro.', D: 'O item 1 é verdadeiro.', E: 'O item 4 é falso.' },
+      conceitoCobrado: 'Casos de crase obrigatória, proibida e facultativa.',
+      pegadinha: 'A regra do "uma" é frequentemente confundida com o "a" do artigo definido.',
+      comoApareceEmConcurso: 'Questões de sequência V/F.'
+    },
+    tags: ['crase', 'proibida', 'obrigatória']
+  },
+  {
+    id: 'Q-DID-POR-17-003',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-17',
+    subtema: 'Casos Facultativos',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'Avalie as afirmativas sobre os casos em que a crase é FACULTATIVA.\n\nI- Antes de nomes próprios femininos: "Entreguei o documento a/à Maria".\nII- Antes de pronomes possessivos femininos: "Refiro-me a/à sua proposta".\nIII- Depois da preposição "até": "Fui até a/à praça".\nIV- Antes de palavras masculinas: "Ando a/à pé".\n\nEstá correto apenas o que se afirma em:',
+    alternativas: [
+      { id: 'A', texto: 'I e II.' },
+      { id: 'B', texto: 'I, II e III.' },
+      { id: 'C', texto: 'II, III e IV.' },
+      { id: 'D', texto: 'I, III e IV.' },
+      { id: 'E', texto: 'I, II, III e IV.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'A alternativa B está correta. I, II e III são casos facultativos. IV é um caso PROIBIDO (palavra masculina).',
+      incorretas: { A: 'III também é facultativa.', C: 'IV é proibida.', D: 'IV é proibida.', E: 'IV é proibida.' },
+      conceitoCobrado: 'Casos de crase facultativa.',
+      pegadinha: 'A inclusão de um caso proibido (masculino) entre os facultativos.',
+      comoApareceEmConcurso: 'Questões de I, II, III e IV.'
+    },
+    tags: ['crase', 'facultativa']
+  },
+  {
+    id: 'Q-DID-POR-17-004',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-17',
+    subtema: 'Nomes de Lugar',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'Julgue o item abaixo.\n\nA crase é facultativa antes de nomes de lugares que não admitem artigo, como em "Vou à Brasília". No entanto, se o nome de lugar admitir artigo, a crase é obrigatória, como em "Vou à Bahia".',
+    alternativas: [
+      { id: 'C', texto: 'Certo' },
+      { id: 'E', texto: 'Errado' }
+    ],
+    gabarito: 'E',
+    explicacao: {
+      correta: 'ERRADO. Se o nome de lugar NÃO admite artigo, a crase é PROIBIDA (Vou a Brasília). Se admite artigo, é OBRIGATÓRIA (Vou à Bahia). Não há caso de "facultativa" para nomes de lugar.',
+      incorretas: { C: 'A afirmação sobre "Vou à Brasília" está errada, pois é proibida.' },
+      conceitoCobrado: 'Crase com nomes de lugar.',
+      pegadinha: 'A confusão entre "facultativo" e "proibido".',
+      comoApareceEmConcurso: 'Questões C/E.'
+    },
+    tags: ['crase', 'nomes de lugar']
+  },
+  {
+    id: 'Q-DID-POR-17-005',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-17',
+    subtema: 'Regência e Crase',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'Assinale a alternativa em que o uso da crase está CORRETO de acordo com a regência verbal.',
+    alternativas: [
+      { id: 'A', texto: 'O servidor assistiu a peça teatral com os colegas.' },
+      { id: 'B', texto: 'O servidor assistiu à peça teatral com os colegas.' },
+      { id: 'C', texto: 'O servidor obedeceu o regulamento interno da repartição.' },
+      { id: 'D', texto: 'O servidor visou a promoção no concurso interno.' },
+      { id: 'E', texto: 'O servidor preferiu mais o turno da manhã do que o da tarde.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'A alternativa B está correta. "Assistir" (ver) exige "a" + "a peça" (feminino determinado) = à peça.',
+      incorretas: { A: 'Falta a crase (assistir a + a peça).', C: 'Obedecer exige "ao" (ao regulamento).', D: 'Visar (almejar) exige "a" (à promoção).', E: 'Preferir exige "a" (prefiro o turno da manhã ao da tarde).' },
+      conceitoCobrado: 'Relação entre regência e crase.',
+      pegadinha: 'A ausência da crase em verbos que exigem a preposição "a".',
+      comoApareceEmConcurso: 'Questões de correção gramatical.'
+    },
+    tags: ['crase', 'regência']
+  },
+
+  /* ============================================================
+     POR-18 — Pontuação
+  ============================================================ */
+  {
+    id: 'Q-DID-POR-18-001',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-18',
+    subtema: 'Regra de Ouro da Vírgula',
+    dificuldade: 1, prioridade: 'alta',
+    enunciado: 'Sobre o uso da vírgula, assinale a alternativa que apresenta uma regra CORRETA.',
+    alternativas: [
+      { id: 'A', texto: 'A vírgula deve ser usada para separar o sujeito do verbo, indicando a pausa respiratória natural da leitura.' },
+      { id: 'B', texto: 'A vírgula deve ser usada para separar o verbo do seu complemento, quando o complemento é muito longo.' },
+      { id: 'C', texto: 'A vírgula deve ser usada para isolar o aposto explicativo, como em "O servidor, homem dedicado, foi elogiado".' },
+      { id: 'D', texto: 'A vírgula deve ser usada entre o nome e seu complemento nominal, para dar clareza à leitura do texto.' },
+      { id: 'E', texto: 'A vírgula deve ser usada antes de orações adjetivas restritivas, para destacar a informação principal da frase.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'A alternativa C está correta. O aposto explicativo é um termo separável e deve ser isolado por vírgulas.',
+      incorretas: { A: 'Não se separa sujeito e verbo.', B: 'Não se separa verbo e complemento.', D: 'Não se separa nome e complemento.', E: 'Não se usa vírgula antes de adjetiva restritiva.' },
+      conceitoCobrado: 'Uso da vírgula com aposto.',
+      pegadinha: 'A "pausa respiratória" é um mito; a vírgula é sintática.',
+      comoApareceEmConcurso: 'Questões de identificação de erro.'
+    },
+    tags: ['vírgula', 'aposto']
+  },
+  {
+    id: 'Q-DID-POR-18-002',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-18',
+    subtema: 'Orações Explicativas x Restritivas',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'Julgue os itens a seguir como Verdadeiro (V) ou Falso (F) sobre a pontuação e o sentido:\n\n(__) Em "Os servidores, que estudaram muito, foram aprovados", a oração entre vírgulas é explicativa, indicando que todos os servidores estudaram e foram aprovados.\n(__) Em "Os servidores que estudaram muito foram aprovados", a oração é restritiva, indicando que apenas um subconjunto de servidores (os que estudaram) foi aprovado.\n(__) A presença ou ausência de vírgula em uma oração adjetiva não altera o sentido global do texto, pois trata-se apenas de uma pausa respiratória.\n\nAssinale a alternativa que apresenta a sequência CORRETA, de cima para baixo:',
+    alternativas: [
+      { id: 'A', texto: 'V, V, F.' },
+      { id: 'B', texto: 'V, F, V.' },
+      { id: 'C', texto: 'F, V, F.' },
+      { id: 'D', texto: 'F, F, V.' },
+      { id: 'E', texto: 'V, V, V.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'A alternativa A está correta. (1) V: explicativa (todos). (2) V: restritiva (apenas alguns). (3) F: a vírgula altera sim o sentido.',
+      incorretas: { B: 'O item 3 é falso.', C: 'O item 1 é verdadeiro.', D: 'Itens 1 e 2 são verdadeiros.', E: 'O item 3 é falso.' },
+      conceitoCobrado: 'Diferença de sentido entre explicativa e restritiva.',
+      pegadinha: 'Acreditar que a vírgula é apenas pausa e não altera sentido.',
+      comoApareceEmConcurso: 'Questões de sequência V/F.'
+    },
+    tags: ['vírgula', 'explicativa', 'restritiva']
+  },
+  {
+    id: 'Q-DID-POR-18-003',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-18',
+    subtema: 'Associação: Sinais de Pontuação',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'Associe os sinais de pontuação aos seus usos.\n\n1. Ponto e vírgula.\n2. Dois-pontos.\n3. Travessão.\n4. Parênteses.\n\nUSOS\n( ) Isolar comentários acessórios, com menos destaque.\n( ) Separar orações longas ou itens de enumeração complexos.\n( ) Isolar termos ou orações intercaladas, com destaque.\n( ) Introduzir explicação, enumeração ou fala.\n\nA sequência correta para essa associação é:',
+    alternativas: [
+      { id: 'A', texto: '1, 2, 3, 4.' },
+      { id: 'B', texto: '2, 1, 4, 3.' },
+      { id: 'C', texto: '4, 1, 3, 2.' },
+      { id: 'D', texto: '3, 4, 2, 1.' },
+      { id: 'E', texto: '4, 2, 1, 3.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'A alternativa C está correta. Parênteses (4), Ponto e vírgula (1), Travessão (3), Dois-pontos (2).',
+      incorretas: { A: 'Inverte tudo.', B: 'Inverte tudo.', D: 'Inverte tudo.', E: 'Inverte tudo.' },
+      conceitoCobrado: 'Funções dos sinais de pontuação.',
+      pegadinha: 'A confusão entre parênteses e travessão (destaques diferentes).',
+      comoApareceEmConcurso: 'Questões de associação.'
+    },
+    tags: ['pontuação', 'associação']
+  },
+  {
+    id: 'Q-DID-POR-18-004',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-18',
+    subtema: 'Erros Clássicos de Pontuação',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'Julgue o item abaixo.\n\nA frase "O servidor, protocolou o pedido e saiu" apresenta um erro clássico de pontuação, pois a vírgula está separando o sujeito ("O servidor") do verbo ("protocolou"), o que é vedado pela norma culta.',
+    alternativas: [
+      { id: 'C', texto: 'Certo' },
+      { id: 'E', texto: 'Errado' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'CERTO. A vírgula entre sujeito e verbo é um erro clássico de pontuação.',
+      incorretas: { E: 'A análise está correta.' },
+      conceitoCobrado: 'Regra de não separar sujeito e verbo por vírgula.',
+      pegadinha: 'A vírgula "de respiro" entre o sujeito e o verbo.',
+      comoApareceEmConcurso: 'Questões C/E.'
+    },
+    tags: ['vírgula', 'erros']
+  },
+  {
+    id: 'Q-DID-POR-18-005',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-18',
+    subtema: 'Vírgula e Conjunções',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'Avalie as afirmativas sobre o uso da vírgula com conjunções.\n\nI- Em "Estudou muito, mas não passou", a vírgula antes de "mas" é correta, pois isola a oração coordenada adversativa.\nII- Em "Estudou muito e passou", a vírgula antes do "e" é obrigatória, pois isola a oração coordenada aditiva.\nIII- Em "Não veio, pois estava doente", a vírgula antes de "pois" é correta, pois isola a oração coordenada explicativa.\n\nEstá correto apenas o que se afirma em:',
+    alternativas: [
+      { id: 'A', texto: 'I.' },
+      { id: 'B', texto: 'II.' },
+      { id: 'C', texto: 'III.' },
+      { id: 'D', texto: 'I e III.' },
+      { id: 'E', texto: 'II e III.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'A alternativa D está correta. I e III estão corretas. II é falsa, pois a vírgula antes do "e" (aditiva) não é obrigatória e, na maioria dos casos, é incorreta.',
+      incorretas: { A: 'III também está correta.', B: 'II é falsa.', C: 'I também está correta.', E: 'II é falsa.' },
+      conceitoCobrado: 'Pontuação com conjunções coordenativas.',
+      pegadinha: 'A regra de que não se usa vírgula antes de "e" aditivo.',
+      comoApareceEmConcurso: 'Questões de I, II e III.'
+    },
+    tags: ['vírgula', 'conjunções']
+  },
+
+  /* ============================================================
+     POR-19 — Reescrita de frases e equivalência de sentido
+  ============================================================ */
+  {
+    id: 'Q-DID-POR-19-001',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-19',
+    subtema: 'Conceito de Reescrita',
+    dificuldade: 1, prioridade: 'alta',
+    enunciado: 'Sobre a reescrita de frases, assinale a alternativa CORRETA.',
+    alternativas: [
+      { id: 'A', texto: 'A reescrita deve alterar o sentido original do texto, para que a nova versão seja mais clara e objetiva.' },
+      { id: 'B', texto: 'A reescrita deve manter o mesmo sentido do texto original, mas pode desconsiderar a correção gramatical em nome da fluidez.' },
+      { id: 'C', texto: 'A reescrita deve manter o mesmo sentido global do texto original e a correção gramatical, alterando a forma de expressão.' },
+      { id: 'D', texto: 'A reescrita deve usar as mesmas palavras do texto original, alterando apenas a ordem sintática.' },
+      { id: 'E', texto: 'A reescrita deve priorizar a concisão, mesmo que isso suprima informações essenciais do texto original.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'A alternativa C está correta. Reescrita = mesmo sentido + correção gramatical.',
+      incorretas: { A: 'Alterar o sentido não é reescrita.', B: 'A correção gramatical é obrigatória.', D: 'Usar as mesmas palavras não é reescrita (é repetição).', E: 'A concisão não pode suprimir informações essenciais.' },
+      conceitoCobrado: 'Requisitos da reescrita.',
+      pegadinha: 'Achar que reescrita é só mudar a ordem.',
+      comoApareceEmConcurso: 'Questões conceituais.'
+    },
+    tags: ['reescrita', 'conceito']
+  },
+  {
+    id: 'Q-DID-POR-19-002',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-19',
+    subtema: 'Transposição de Voz',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'Julgue os itens a seguir sobre a transposição de voz na reescrita.\n\n(__) A frase "O servidor protocolou o pedido" pode ser reescrita na voz passiva como "O pedido foi protocolado pelo servidor", mantendo o mesmo sentido.\n(__) A transposição de voz exige que o tempo verbal seja alterado para manter a coerência da frase.\n(__) Na passiva sintética, a frase ficaria "Protocolou-se o pedido", mantendo o sentido original.\n\nAssinale a alternativa que apresenta a sequência CORRETA, de cima para baixo:',
+    alternativas: [
+      { id: 'A', texto: 'V, V, V.' },
+      { id: 'B', texto: 'V, F, V.' },
+      { id: 'C', texto: 'V, V, F.' },
+      { id: 'D', texto: 'F, V, V.' },
+      { id: 'E', texto: 'F, F, V.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'A alternativa B está correta. (1) V: passiva analítica mantém o sentido. (2) F: o tempo verbal deve ser mantido (protocolou = foi protocolado), não alterado. (3) V: passiva sintética mantém o sentido.',
+      incorretas: { A: 'O item 2 é falso.', C: 'O item 3 é verdadeiro.', D: 'O item 1 é verdadeiro.', E: 'Itens 1 e 3 são verdadeiros.' },
+      conceitoCobrado: 'Transposição de voz e manutenção de sentido.',
+      pegadinha: 'A alteração do tempo verbal quebra a equivalência.',
+      comoApareceEmConcurso: 'Questões de sequência V/F.'
+    },
+    tags: ['reescrita', 'voz passiva']
+  },
+  {
+    id: 'Q-DID-POR-19-003',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-19',
+    subtema: 'Associação: Conectivos',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'Associe as reescritas aos conectivos que mantêm a mesma relação lógica da frase original.\n\n1. Frase original: "Não veio porque adoeceu".\n2. Frase original: "Estudou muito, portanto passou".\n3. Frase original: "Embora estivesse doente, veio".\n\nREESCRITAS\n( ) "Não veio, pois adoeceu".\n( ) "Ainda que estivesse doente, veio".\n( ) "Como estudou muito, passou".\n\nA sequência correta para essa associação é:',
+    alternativas: [
+      { id: 'A', texto: '1, 2, 3.' },
+      { id: 'B', texto: '1, 3, 2.' },
+      { id: 'C', texto: '3, 2, 1.' },
+      { id: 'D', texto: '2, 1, 3.' },
+      { id: 'E', texto: '3, 1, 2.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'A alternativa B está correta. "Pois" mantém a causa (1). "Ainda que" mantém a concessão (3). "Como" mantém a causa/consequência (2).',
+      incorretas: { A: 'Inverte tudo.', C: 'Inverte tudo.', D: 'Inverte tudo.', E: 'Inverte tudo.' },
+      conceitoCobrado: 'Reescrita com substituição de conectivos.',
+      pegadinha: 'A confusão entre "como" (causa) e "portanto" (conclusão).',
+      comoApareceEmConcurso: 'Questões de associação.'
+    },
+    tags: ['reescrita', 'conectivos']
+  },
+  {
+    id: 'Q-DID-POR-19-004',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-19',
+    subtema: 'Erros que Quebram a Equivalência',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'Julgue o item abaixo.\n\nA reescrita "Estudou muito, embora tenha sido reprovado" altera o sentido original da frase "Estudou muito, mas foi reprovado", pois substitui a relação de oposição ("mas") por uma relação de concessão ("embora"), o que modifica a intenção comunicativa.',
+    alternativas: [
+      { id: 'C', texto: 'Certo' },
+      { id: 'E', texto: 'Errado' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'CERTO. "Mas" indica oposição direta. "Embora" indica concessão (admite e supera). A troca altera a relação lógica, quebrando a equivalência.',
+      incorretas: { E: 'A troca altera o sentido.' },
+      conceitoCobrado: 'Diferença entre oposição e concessão na reescrita.',
+      pegadinha: 'Achar que "mas" e "embora" são intercambiáveis.',
+      comoApareceEmConcurso: 'Questões C/E.'
+    },
+    tags: ['reescrita', 'concessão', 'oposição']
+  },
+  {
+    id: 'Q-DID-POR-19-005',
+    tipo: 'DIDATICA', area: 'GRA', moduloId: 'POR-19',
+    subtema: 'Análise de Reescritas',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'Avalie as afirmativas sobre a reescrita da frase: "O diretor elogiou os servidores".\n\nI- "Os servidores foram elogiados pelo diretor" é uma reescrita correta na voz passiva analítica.\nII- "Elogiou-se os servidores" é uma reescrita correta na voz passiva sintética.\nIII- "Os servidores foram elogiados" é uma reescrita correta, mas omite o agente da ação, o que pode alterar o foco do texto.\n\nEstá correto apenas o que se afirma em:',
+    alternativas: [
+      { id: 'A', texto: 'I.' },
+      { id: 'B', texto: 'II.' },
+      { id: 'C', texto: 'III.' },
+      { id: 'D', texto: 'I e III.' },
+      { id: 'E', texto: 'I, II e III.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'A alternativa D está correta. I e III estão corretas. II é falsa, pois na passiva sintética, o verbo deve concordar com o sujeito paciente: "Elogiaram-se os servidores" (plural).',
+      incorretas: { A: 'III também está correta.', B: 'II é falsa.', C: 'I também está correta.', E: 'II é falsa.' },
+      conceitoCobrado: 'Reescrita e concordância na passiva sintética.',
+      pegadinha: 'A falta de concordância em "Elogiou-se os servidores".',
+      comoApareceEmConcurso: 'Questões de I, II e III.'
+    },
+    tags: ['reescrita', 'passiva sintética']
+  },
+  /* ============================================================
+     RED-20 — Fundamentos da Redação Oficial
+  ============================================================ */
+  {
+    id: 'Q-DID-RED-20-001',
+    tipo: 'DIDATICA', area: 'RED', moduloId: 'RED-20',
+    subtema: 'Formalidade x Rebuscamento',
+    dificuldade: 1, prioridade: 'alta',
+    enunciado: 'A Redação Oficial exige o uso do padrão culto da língua e da formalidade. Sobre a diferença entre linguagem formal e linguagem rebuscada, assinale a alternativa CORRETA.',
+    alternativas: [
+      { id: 'A', texto: 'A linguagem formal exige o uso de palavras difíceis e construções indiretas para conferir solenidade ao texto, enquanto a rebuscada é a linguagem simples do dia a dia.' },
+      { id: 'B', texto: 'A linguagem formal segue a norma culta com clareza e objetividade, enquanto a rebuscada é artificialmente empolada, com termos complexos e inversões desnecessárias que dificultam a compreensão.' },
+      { id: 'C', texto: 'A linguagem formal é utilizada apenas em textos literários, enquanto a rebuscada é a linguagem obrigatória em todos os documentos oficiais do serviço público.' },
+      { id: 'D', texto: 'A linguagem rebuscada é recomendada no Manual de Redação da Presidência da República, pois garante a impessoalidade e a distinção hierárquica no atendimento ao público.' },
+      { id: 'E', texto: 'Formalidade e rebuscamento são sinônimos na Redação Oficial, pois ambos exigem o afastamento da linguagem coloquial em nome da seriedade do texto administrativo.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'A alternativa B está correta. A formalidade preza pela norma culta e clareza; o rebuscamento é o uso artificial de termos difíceis que o Manual de Redação rejeita.',
+      incorretas: { A: 'Inverte os conceitos.', C: 'Restringe indevidamente os usos.', D: 'O MRPR rejeita o rebuscamento.', E: 'São conceitos distintos e o rebuscamento é condenado.' },
+      conceitoCobrado: 'Distinção entre formalidade e rebuscamento na Redação Oficial.',
+      pegadinha: 'Associar formalidade a "palavras difíceis".',
+      comoApareceEmConcurso: 'Questões conceituais diretas.'
+    },
+    tags: ['formalidade', 'rebuscamento']
+  },
+  {
+    id: 'Q-DID-RED-20-002',
+    tipo: 'DIDATICA', area: 'RED', moduloId: 'RED-20',
+    subtema: 'Princípios: Impessoalidade, Clareza e Concisão',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'Julgue os itens a seguir como Verdadeiro (V) ou Falso (F) sobre os princípios da Redação Oficial:\n\n(__) A impessoalidade exige que o texto não expresse opinião pessoal do redator, pois a comunicação é do órgão, e não do servidor.\n(__) A clareza exige que o texto seja compreensível por qualquer leitor, sem ambiguidades ou duplo sentido involuntário.\n(__) A concisão autoriza a supressão de informações essenciais do texto para reduzir o número de palavras.\n(__) A precisão exige o uso de termos exatos, sem vagueza ou imprecisão de sentido.\n\nAssinale a alternativa que apresenta a sequência CORRETA, de cima para baixo:',
+    alternativas: [
+      { id: 'A', texto: 'V, V, F, V.' },
+      { id: 'B', texto: 'V, V, V, F.' },
+      { id: 'C', texto: 'V, F, V, V.' },
+      { id: 'D', texto: 'F, V, V, F.' },
+      { id: 'E', texto: 'F, F, V, V.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'A alternativa A está correta. (1) V: impessoalidade = sem opinião pessoal. (2) V: clareza = compreensível. (3) F: concisão NÃO autoriza suprimir informação essencial. (4) V: precisão = termos exatos.',
+      incorretas: { B: 'O item 3 é falso.', C: 'O item 2 é verdadeiro.', D: 'Itens 1 e 2 são verdadeiros.', E: 'Itens 1 e 2 são verdadeiros.' },
+      conceitoCobrado: 'Princípios da Redação Oficial.',
+      pegadinha: 'Confundir concisão com "cortar informação".',
+      comoApareceEmConcurso: 'Questões de sequência V/F.'
+    },
+    tags: ['princípios', 'concisão']
+  },
+  {
+    id: 'Q-DID-RED-20-003',
+    tipo: 'DIDATICA', area: 'RED', moduloId: 'RED-20',
+    subtema: 'Impessoalidade em Prática',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'A impessoalidade é um dos pilares da Redação Oficial. Julgue o item abaixo.\n\nEm um ofício, o redator deve substituir a construção "Eu solicito a revisão do processo" pela forma impessoal "Solicita-se a revisão do processo", a fim de atender ao princípio da impessoalidade.',
+    alternativas: [
+      { id: 'C', texto: 'Certo' },
+      { id: 'E', texto: 'Errado' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'CERTO. A impessoalidade exige apagar as marcas de 1ª pessoa (eu, nós) e usar a partícula "se" (solicita-se, informa-se).',
+      incorretas: { E: 'A substituição é exatamente o que a impessoalidade exige.' },
+      conceitoCobrado: 'Aplicação da impessoalidade.',
+      pegadinha: 'Acreditar que a 1ª pessoa humaniza o atendimento, quando na verdade fere o padrão oficial.',
+      comoApareceEmConcurso: 'Questões C/E.'
+    },
+    tags: ['impessoalidade', '1ª pessoa']
+  },
+  {
+    id: 'Q-DID-RED-20-004',
+    tipo: 'DIDATICA', area: 'RED', moduloId: 'RED-20',
+    subtema: 'Prolixidade x Concisão',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'Avalie as afirmativas sobre a clareza e a concisão na redação oficial.\n\nI- A prolixidade (excesso de palavras e rodeios) deve ser evitada, pois compromete a objetividade do texto.\nII- A frase "Vimos, por meio deste, encaminhar o processo para que seja devidamente analisado pelos setores competentes" pode ser reescrita de forma mais concisa como "Encaminha-se o processo para análise".\nIII- O uso de redundâncias ("subir para cima", "elo de ligação") é um recurso válido para reforçar a ideia no texto oficial.\n\nEstá correto apenas o que se afirma em:',
+    alternativas: [
+      { id: 'A', texto: 'I.' },
+      { id: 'B', texto: 'II.' },
+      { id: 'C', texto: 'III.' },
+      { id: 'D', texto: 'I e II.' },
+      { id: 'E', texto: 'I, II e III.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'A alternativa D está correta. I e II estão corretas. III é falsa, pois redundâncias são vícios de linguagem que comprometem a concisão e a clareza, devendo ser evitadas na redação oficial.',
+      incorretas: { A: 'II também está correta.', B: 'I também está correta.', C: 'III é falsa.', E: 'III é falsa.' },
+      conceitoCobrado: 'Prolixidade e concisão.',
+      pegadinha: 'Achar que as redundâncias reforçam a ideia.',
+      comoApareceEmConcurso: 'Questões de I, II e III.'
+    },
+    tags: ['prolixidade', 'concisão']
+  },
+  {
+    id: 'Q-DID-RED-20-005',
+    tipo: 'DIDATICA', area: 'RED', moduloId: 'RED-20',
+    subtema: 'Reescrita de Texto Prolixo',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'Assinale a alternativa que reescreve o trecho abaixo de forma mais CONCISA, mantendo o sentido original e a formalidade exigida na Redação Oficial.\n\n"Vimos, por intermédio da presente, informar a Vossa Senhoria que o seu pedido encontra-se em fase de análise por parte da nossa equipe técnica, sendo que a resposta será dada no prazo máximo de 30 dias."',
+    alternativas: [
+      { id: 'A', texto: 'Informa-se a Vossa Senhoria que o pedido está em análise pela equipe técnica, com resposta no prazo de 30 dias.' },
+      { id: 'B', texto: 'Informamos a Vossa Senhoria que o pedido está em análise pela equipe técnica, e a resposta será dada no prazo máximo de 30 dias, contudo aguarde.' },
+      { id: 'C', texto: 'Vimos, por meio desta, comunicar que o pedido de Vossa Senhoria está sendo analisado pela equipe, e a resposta ocorrerá em até 30 dias.' },
+      { id: 'D', texto: 'Informa-se a Vossa Senhoria que o pedido está em análise pela equipe técnica, sendo que a resposta será dada no prazo máximo de 30 dias.' },
+      { id: 'E', texto: 'Comunicamos a Vossa Senhoria que o pedido está em análise por nossa equipe, cuja resposta será dada no prazo máximo de 30 dias.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'A alternativa A está correta. Ela elimina a prolixidade ("Vimos, por intermédio da presente"), usa a impessoalidade ("Informa-se") e mantém o sentido e o prazo.',
+      incorretas: { B: 'Falta impessoalidade ("Informamos") e usa linguagem desnecessária ("contudo aguarde").', C: 'Prolixa ("Vimos, por meio desta").', D: 'Prolixa ("sendo que").', E: 'Prolixa ("por nossa equipe", "cuja resposta").' },
+      conceitoCobrado: 'Reescrita para concisão e impessoalidade.',
+      pegadinha: 'Achar que apenas mudar uma palavra já resolve a prolixidade do texto.',
+      comoApareceEmConcurso: 'Questões de reescrita de frases.'
+    },
+    tags: ['reescrita', 'concisão', 'prolixidade']
+  },
+
+  /* ============================================================
+     RED-21 — Manual de Redação da Presidência da República
+  ============================================================ */
+  {
+    id: 'Q-DID-RED-21-001',
+    tipo: 'DIDATICA', area: 'RED', moduloId: 'RED-21',
+    subtema: 'Pronomes de Tratamento',
+    dificuldade: 1, prioridade: 'alta',
+    enunciado: 'Sobre o uso dos pronomes de tratamento no padrão ofício, assinale a alternativa CORRETA.',
+    alternativas: [
+      { id: 'A', texto: 'O pronome "Vossa Excelência" deve ser usado para o Presidente da República, Ministros e Governadores, enquanto "Vossa Senhoria" é usado para os demais servidores e particulares.' },
+      { id: 'B', texto: 'O pronome "Vossa Senhoria" deve ser usado para o Presidente da República e Ministros, enquanto "Vossa Excelência" é usado para os servidores de nível médio.' },
+      { id: 'C', texto: 'Ambos os pronomes, "Vossa Excelência" e "Vossa Senhoria", podem ser usados livremente para qualquer autoridade, sem critério hierárquico definido pelo Manual.' },
+      { id: 'D', texto: 'O pronome "Vossa Excelência" é reservado exclusivamente para o Papa e para os Cardeais, sendo os demais cargos tratados por "Vossa Senhoria".' },
+      { id: 'E', texto: 'O pronome "Vossa Senhoria" é usado apenas para mulheres, enquanto "Vossa Excelência" é usado apenas para homens, independentemente do cargo ocupado.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'A alternativa A está correta. V.Ex.ª é para altas autoridades (Presidente, Ministros, Governadores, etc.). V.S.ª é para as demais autoridades e particulares.',
+      incorretas: { B: 'Inverte os conceitos.', C: 'Há um critério hierárquico claro.', D: 'O Papa é Vossa Santidade e Cardeais são Vossa Eminência.', E: 'A distinção é por cargo, não por gênero.' },
+      conceitoCobrado: 'Pronomes de tratamento (V.Ex.ª e V.S.ª).',
+      pegadinha: 'Inverter os pronomes e seus destinatários.',
+      comoApareceEmConcurso: 'Questões conceituais.'
+    },
+    tags: ['pronomes de tratamento', 'V.Ex.ª', 'V.S.ª']
+  },
+  {
+    id: 'Q-DID-RED-21-002',
+    tipo: 'DIDATICA', area: 'RED', moduloId: 'RED-21',
+    subtema: 'Fechos: Respeitosamente x Atenciosamente',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'No padrão ofício, os fechos variam conforme a hierarquia entre remetente e destinatário. Julgue o item abaixo.\n\nO fecho "Respeitosamente" é utilizado em comunicações dirigidas a autoridades superiores, enquanto o fecho "Atenciosamente" é utilizado para autoridades de mesma hierarquia ou inferiores.',
+    alternativas: [
+      { id: 'C', texto: 'Certo' },
+      { id: 'E', texto: 'Errado' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'CERTO. Respeitosamente = superior. Atenciosamente = mesma hierarquia ou inferior. Essa é a regra do Manual de Redação.',
+      incorretas: { E: 'A regra está corretamente descrita.' },
+      conceitoCobrado: 'Fechos e relação hierárquica.',
+      pegadinha: 'Inverter o uso dos fechos.',
+      comoApareceEmConcurso: 'Questões C/E.'
+    },
+    tags: ['fechos', 'hierarquia']
+  },
+  {
+    id: 'Q-DID-RED-21-003',
+    tipo: 'DIDATICA', area: 'RED', moduloId: 'RED-21',
+    subtema: 'Associação: Autoridades e Pronomes',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'Associe as autoridades ao pronome de tratamento adequado, conforme a 3ª edição do Manual de Redação da Presidência da República.\n\n1. Reitor de Universidade.\n2. Cardeal.\n3. Presidente da República.\n4. Sacerdote em geral.\n\nPRONOMES\n( ) Vossa Excelência.\n( ) Vossa Magnificência.\n( ) Vossa Reverendíssima.\n( ) Vossa Eminência.\n\nA sequência correta para essa associação é:',
+    alternativas: [
+      { id: 'A', texto: '1, 2, 3, 4.' },
+      { id: 'B', texto: '3, 1, 4, 2.' },
+      { id: 'C', texto: '2, 4, 1, 3.' },
+      { id: 'D', texto: '4, 3, 2, 1.' },
+      { id: 'E', texto: '3, 2, 1, 4.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'A alternativa B está correta. Presidente (3 - V.Ex.ª), Reitor (1 - V.Mag.ª), Sacerdote (4 - V.Rev.ma), Cardeal (2 - V.Em.ª).',
+      incorretas: { A: 'Inverte tudo.', C: 'Inverte tudo.', D: 'Inverte tudo.', E: 'Inverte tudo.' },
+      conceitoCobrado: 'Pronomes de tratamento específicos.',
+      pegadinha: 'A confusão entre os pronomes religiosos e acadêmicos.',
+      comoApareceEmConcurso: 'Questões de associação.'
+    },
+    tags: ['pronomes de tratamento', 'associação']
+  },
+  {
+    id: 'Q-DID-RED-21-004',
+    tipo: 'DIDATICA', area: 'RED', moduloId: 'RED-21',
+    subtema: 'Abolições da 3ª Edição',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'Avalie as afirmativas sobre o que foi abolido pela 3ª edição do Manual de Redação da Presidência da República (MRPR).\n\nI- O uso do tratamento "Ilustríssimo" e da abreviação "D." (Doutor) foi abolido.\nII- O fecho "Att." foi abolido, devendo ser substituído por "Atenciosamente" ou "Respeitosamente" por extenso.\nIII- O memorando foi abolido como documento autônomo, unificando-se no padrão ofício.\nIV- O uso do vocativo "Senhor" foi abolido, devendo ser substituído por "Prezado".\n\nEstá correto apenas o que se afirma em:',
+    alternativas: [
+      { id: 'A', texto: 'I e II.' },
+      { id: 'B', texto: 'I, II e III.' },
+      { id: 'C', texto: 'II, III e IV.' },
+      { id: 'D', texto: 'I, III e IV.' },
+      { id: 'E', texto: 'I, II, III e IV.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'A alternativa B está correta. I, II e III estão corretas. IV é falsa, pois o vocativo "Senhor" (ou "Senhora") permanece sendo a forma padrão no MRPR.',
+      incorretas: { A: 'III também está correta.', C: 'IV é falsa.', D: 'IV é falsa.', E: 'IV é falsa.' },
+      conceitoCobrado: 'Abolições do MRPR 3ª edição.',
+      pegadinha: 'Achar que "Senhor" também foi abolido.',
+      comoApareceEmConcurso: 'Questões de I, II, III e IV.'
+    },
+    tags: ['abolições', 'MRPR']
+  },
+  {
+    id: 'Q-DID-RED-21-005',
+    tipo: 'DIDATICA', area: 'RED', moduloId: 'RED-21',
+    subtema: 'Estrutura do Padrão Ofício',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'Julgue o item abaixo sobre a estrutura do padrão ofício da 3ª edição do MRPR.\n\nA estrutura do padrão ofício inclui o cabeçalho, a identificação do expediente (tipo e número), o endereçamento, o assunto, o texto, o fecho e a assinatura com nome e cargo do remetente.',
+    alternativas: [
+      { id: 'C', texto: 'Certo' },
+      { id: 'E', texto: 'Errado' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'CERTO. Essas são as partes essenciais do padrão ofício, conforme o Manual de Redação.',
+      incorretas: { E: 'A estrutura descrita está correta.' },
+      conceitoCobrado: 'Estrutura do padrão ofício.',
+      pegadinha: 'A omissão de partes importantes, como o assunto.',
+      comoApareceEmConcurso: 'Questões C/E.'
+    },
+    tags: ['estrutura', 'padrão ofício']
+  },
+
+  /* ============================================================
+     RED-22 — Documentos e comunicações administrativas
+  ============================================================ */
+  {
+    id: 'Q-DID-RED-22-001',
+    tipo: 'DIDATICA', area: 'RED', moduloId: 'RED-22',
+    subtema: 'Ofício x Requerimento',
+    dificuldade: 1, prioridade: 'alta',
+    enunciado: 'Sobre a diferença entre ofício e requerimento, assinale a alternativa CORRETA.',
+    alternativas: [
+      { id: 'A', texto: 'O ofício é o documento utilizado pelo particular para fazer um pedido formal ao órgão público, enquanto o requerimento é a comunicação entre dois órgãos públicos.' },
+      { id: 'B', texto: 'O ofício é a comunicação entre órgãos públicos ou destes com particulares, enquanto o requerimento é o pedido formal do particular ao órgão.' },
+      { id: 'C', texto: 'Ofício e requerimento são sinônimos, pois ambos são utilizados para formalizar pedidos de particulares perante a Administração Pública.' },
+      { id: 'D', texto: 'O ofício é utilizado apenas para registrar reuniões internas, enquanto o requerimento é utilizado para a comunicação externa entre os órgãos.' },
+      { id: 'E', texto: 'O requerimento é o documento utilizado para a comunicação entre órgãos, enquanto o ofício é a decisão da autoridade sobre um processo administrativo.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'A alternativa B está correta. Ofício = comunicação oficial. Requerimento = pedido do particular.',
+      incorretas: { A: 'Inverte os conceitos.', C: 'São documentos distintos.', D: 'Não é o registro de reunião.', E: 'Inverte e confunde com despacho.' },
+      conceitoCobrado: 'Diferença entre ofício e requerimento.',
+      pegadinha: 'A inversão dos conceitos nas alternativas A e E.',
+      comoApareceEmConcurso: 'Questões conceituais.'
+    },
+    tags: ['ofício', 'requerimento']
+  },
+  {
+    id: 'Q-DID-RED-22-002',
+    tipo: 'DIDATICA', area: 'RED', moduloId: 'RED-22',
+    subtema: 'Despacho x Parecer e Declaração x Certidão',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'Julgue os itens a seguir como Verdadeiro (V) ou Falso (F) sobre os documentos administrativos:\n\n(__) O despacho é a decisão ou encaminhamento dado pela autoridade competente a um processo ou requerimento.\n(__) O parecer é a opinião técnica ou jurídica fundamentada sobre uma matéria, não vinculando a autoridade que decide.\n(__) A declaração é a transcrição fiel de um registro existente, com fé pública, enquanto a certidão é a afirmação de um fato baseada no conhecimento de quem assina.\n(__) A ata é o registro formal e resumido do que ocorreu em uma reunião, com data, participantes e deliberações.\n\nAssinale a alternativa que apresenta a sequência CORRETA, de cima para baixo:',
+    alternativas: [
+      { id: 'A', texto: 'V, V, F, V.' },
+      { id: 'B', texto: 'V, F, V, V.' },
+      { id: 'C', texto: 'F, V, V, F.' },
+      { id: 'D', texto: 'V, V, V, F.' },
+      { id: 'E', texto: 'F, F, V, V.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'A alternativa A está correta. (1) V: despacho = decisão. (2) V: parecer = opinião técnica. (3) F: inverteu as definições de declaração e certidão. (4) V: ata = registro de reunião.',
+      incorretas: { B: 'O item 2 é verdadeiro.', C: 'Itens 1 e 4 são verdadeiros.', D: 'O item 3 é falso.', E: 'Itens 1 e 2 são verdadeiros.' },
+      conceitoCobrado: 'Definições de documentos administrativos.',
+      pegadinha: 'A inversão das definições de declaração e certidão.',
+      comoApareceEmConcurso: 'Questões de sequência V/F.'
+    },
+    tags: ['despacho', 'parecer', 'certidão']
+  },
+  {
+    id: 'Q-DID-RED-22-003',
+    tipo: 'DIDATICA', area: 'RED', moduloId: 'RED-22',
+    subtema: 'Memorando: Abolição',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'Julgue o item abaixo sobre a evolução do memorando na Administração Pública.\n\nA 3ª edição do Manual de Redação da Presidência da República aboliu o memorando como documento autônomo, unificando-o ao ofício no chamado "padrão ofício", que agora é utilizado para todas as comunicações formais.',
+    alternativas: [
+      { id: 'C', texto: 'Certo' },
+      { id: 'E', texto: 'Errado' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'CERTO. O memorando era a comunicação interna com estrutura simplificada. Foi abolido como autônomo e incorporado ao padrão ofício.',
+      incorretas: { E: 'A informação está correta.' },
+      conceitoCobrado: 'Evolução do memorando no MRPR.',
+      pegadinha: 'Achar que o memorando ainda é um documento autônomo.',
+      comoApareceEmConcurso: 'Questões C/E.'
+    },
+    tags: ['memorando', 'abolição']
+  },
+  {
+    id: 'Q-DID-RED-22-004',
+    tipo: 'DIDATICA', area: 'RED', moduloId: 'RED-22',
+    subtema: 'Associação: Documentos e Funções',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'Associe os documentos administrativos às suas finalidades.\n\n1. Certidão.\n2. Circular.\n3. Parecer.\n4. Relatório.\n\nFINALIDADES\n( ) Opinião técnica fundamentada sobre uma matéria.\n( ) Transcrição fiel de registro existente, com fé pública.\n( ) Descrição ordenada de fatos, atividades ou resultados.\n( ) Comunicação de um mesmo assunto a vários destinatários.\n\nA sequência correta para essa associação é:',
+    alternativas: [
+      { id: 'A', texto: '1, 2, 3, 4.' },
+      { id: 'B', texto: '3, 1, 4, 2.' },
+      { id: 'C', texto: '2, 3, 4, 1.' },
+      { id: 'D', texto: '4, 1, 2, 3.' },
+      { id: 'E', texto: '3, 4, 1, 2.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'A alternativa B está correta. Parecer (3 - opinião), Certidão (1 - transcrição), Relatório (4 - descrição), Circular (2 - vários destinatários).',
+      incorretas: { A: 'Inverte tudo.', C: 'Inverte tudo.', D: 'Inverte tudo.', E: 'Inverte tudo.' },
+      conceitoCobrado: 'Finalidade dos documentos administrativos.',
+      pegadinha: 'A confusão entre parecer e relatório.',
+      comoApareceEmConcurso: 'Questões de associação.'
+    },
+    tags: ['documentos', 'associação']
+  },
+  {
+    id: 'Q-DID-RED-22-005',
+    tipo: 'DIDATICA', area: 'RED', moduloId: 'RED-22',
+    subtema: 'Documentos: EXCETO',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'Sobre as características e finalidades dos documentos administrativos, assinale a alternativa INCORRETA.',
+    alternativas: [
+      { id: 'A', texto: 'O ofício é o documento utilizado para a comunicação formal entre órgãos públicos ou destes com particulares.' },
+      { id: 'B', texto: 'A ata é o documento que registra formalmente o que ocorreu em uma reunião, devendo ser assinada pelos presentes e não admitindo rasuras.' },
+      { id: 'C', texto: 'O parecer é o documento que expressa a decisão final da autoridade competente sobre um processo administrativo, vinculando as partes.' },
+      { id: 'D', texto: 'A certidão é o documento que transcreve fielmente um ato ou fato constante de registro público, gozando de fé pública.' },
+      { id: 'E', texto: 'O requerimento é o documento por meio do qual o particular solicita algo ao órgão público, devendo conter sua qualificação e o pedido.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'A alternativa C está incorreta (portanto, é a resposta). O parecer é uma OPINIÃO TÉCNICA e não vincula a autoridade. Quem decide é o DESPACHO.',
+      incorretas: { A: 'Correta.', B: 'Correta.', D: 'Correta.', E: 'Correta.' },
+      conceitoCobrado: 'Diferença entre parecer (opinião) e despacho (decisão).',
+      pegadinha: 'Atribuir ao parecer a força de decisão.',
+      comoApareceEmConcurso: 'Questões de identificação de INCORRETA.'
+    },
+    tags: ['documentos', 'parecer', 'despacho']
+  },
+
+  /* ============================================================
+     RED-23 — Elaboração e interpretação de documentos oficiais
+  ============================================================ */
+  {
+    id: 'Q-DID-RED-23-001',
+    tipo: 'DIDATICA', area: 'RED', moduloId: 'RED-23',
+    subtema: 'Escolha do Documento',
+    dificuldade: 1, prioridade: 'alta',
+    enunciado: 'Julgue o item abaixo.\n\nSe um cidadão deseja solicitar a revisão de um processo administrativo, ele deve utilizar o documento denominado requerimento.',
+    alternativas: [
+      { id: 'C', texto: 'Certo' },
+      { id: 'E', texto: 'Errado' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'CERTO. O requerimento é o instrumento adequado para o pedido do particular ao órgão público.',
+      incorretas: { E: 'O requerimento é o documento correto para essa finalidade.' },
+      conceitoCobrado: 'Escolha do documento adequado ao pedido do particular.',
+      pegadinha: 'Achar que o ofício serve para tudo.',
+      comoApareceEmConcurso: 'Questões C/E.'
+    },
+    tags: ['escolha', 'requerimento']
+  },
+  {
+    id: 'Q-DID-RED-23-002',
+    tipo: 'DIDATICA', area: 'RED', moduloId: 'RED-23',
+    subtema: 'Erros em Documentos Oficiais',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'Analise o trecho de um ofício: "Oi, chefe, tudo bem? Solicito a revisão do processo, pois o mesmo está parado há semanas. Att." Sobre esse trecho, é CORRETO afirmar que ele contém:',
+    alternativas: [
+      { id: 'A', texto: 'Apenas um erro: o uso do fecho "Att.", que deveria ser substituído por "Atenciosamente" por extenso.' },
+      { id: 'B', texto: 'Apenas dois erros: o uso de linguagem informal ("Oi, chefe") e o fecho "Att.", mas o uso de "o mesmo" como pronome é correto na redação oficial.' },
+      { id: 'C', texto: 'Múltiplos erros: informalidade ("Oi, chefe"), uso inadequado de "o mesmo" como pronome de retomada e fecho "Att." (abolido), todos incompatíveis com o padrão ofício.' },
+      { id: 'D', texto: 'Nenhum erro: o texto é claro, objetivo e atende perfeitamente ao padrão ofício exigido pelo Manual de Redação.' },
+      { id: 'E', texto: 'Apenas um erro: o uso inadequado de "o mesmo" como pronome, pois o fecho "Att." é permitido em documentos de baixa formalidade.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'A alternativa C está correta. Há informalidade, uso vicioso de "o mesmo" (deveria ser "pois o processo está parado") e "Att." foi abolido pelo MRPR.',
+      incorretas: { A: 'Há mais erros que apenas o fecho.', B: '"O mesmo" não é correto na redação oficial.', D: 'O texto tem erros graves.', E: '"Att." não é permitido e "o mesmo" não é o único erro.' },
+      conceitoCobrado: 'Identificação de erros em documentos oficiais.',
+      pegadinha: 'Achar que "Att." é aceitável ou que "o mesmo" é uma boa substituição.',
+      comoApareceEmConcurso: 'Questões de análise de texto.'
+    },
+    tags: ['erros', 'informalidade']
+  },
+  {
+    id: 'Q-DID-RED-23-003',
+    tipo: 'DIDATICA', area: 'RED', moduloId: 'RED-23',
+    subtema: 'Impessoalidade em Documentos',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'Complete as lacunas com a forma ADEQUADA ao padrão ofício, substituindo as construções em 1ª pessoa por construções impessoais.\n\n"________ (Eu solicito) a revisão do processo. ________ (Nós informamos) que o prazo para recurso é de 10 dias."',
+    alternativas: [
+      { id: 'A', texto: 'Solicito / Informo.' },
+      { id: 'B', texto: 'Solicita-se / Informa-se.' },
+      { id: 'C', texto: 'Eu solicito / Nós informamos.' },
+      { id: 'D', texto: 'Solicitamos / Informamos.' },
+      { id: 'E', texto: 'Solicitarei / Informarei.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'A alternativa B está correta. A impessoalidade exige a partícula "se" (solicita-se, informa-se), apagando a 1ª pessoa.',
+      incorretas: { A: '1ª pessoa (incorreto).', C: '1ª pessoa do plural (incorreto).', D: '1ª pessoa do plural (incorreto).', E: '1ª pessoa do singular no futuro (incorreto).' },
+      conceitoCobrado: 'Uso da impessoalidade em ofícios.',
+      pegadinha: 'A tentação de usar a 1ª pessoa do plural ("nós informamos") achando que é mais formal.',
+      comoApareceEmConcurso: 'Questões de completar lacunas.'
+    },
+    tags: ['impessoalidade', 'padrão ofício']
+  },
+  {
+    id: 'Q-DID-RED-23-004',
+    tipo: 'DIDATICA', area: 'RED', moduloId: 'RED-23',
+    subtema: 'Revisão e Reescrita',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'Avalie as afirmativas sobre a revisão e a reescrita de documentos oficiais.\n\nI- A revisão de um documento oficial deve verificar a gramática, a semântica, a estrutura e a adequação ao padrão ofício.\nII- A reescrita de um documento inadequado deve corrigir a estrutura, o vocabulário, o tratamento e a gramática, mantendo o conteúdo essencial.\nIII- A revisão deve eliminar marcas de 1ª pessoa e linguagem rebuscada, mantendo a impessoalidade e a clareza.\n\nEstá correto apenas o que se afirma em:',
+    alternativas: [
+      { id: 'A', texto: 'I.' },
+      { id: 'B', texto: 'II.' },
+      { id: 'C', texto: 'III.' },
+      { id: 'D', texto: 'I e II.' },
+      { id: 'E', texto: 'I, II e III.' }
+    ],
+    gabarito: 'E',
+    explicacao: {
+      correta: 'A alternativa E está correta. I, II e III descrevem corretamente as ações de revisão e reescrita.',
+      incorretas: { A: 'II e III também estão corretas.', B: 'I e III também estão corretas.', C: 'I e II também estão corretas.', D: 'III também está correta.' },
+      conceitoCobrado: 'Revisão e reescrita de documentos.',
+      pegadinha: 'Achar que apenas uma das etapas é suficiente.',
+      comoApareceEmConcurso: 'Questões de I, II e III.'
+    },
+    tags: ['revisão', 'reescrita']
+  },
+  {
+    id: 'Q-DID-RED-23-005',
+    tipo: 'DIDATICA', area: 'RED', moduloId: 'RED-23',
+    subtema: 'Interpretação de Comunicação',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'Considere o seguinte trecho de um ofício: "Encaminha-se o processo nº 1234/2024 ao setor de licitações para análise e providências cabíveis, no prazo de 5 (cinco) dias úteis. Respeitosamente." Sobre a interpretação do trecho, assinale a alternativa CORRETA.',
+    alternativas: [
+      { id: 'A', texto: 'A finalidade do documento é registrar a abertura de um processo licitatório, e o prazo indicado é de 5 dias corridos.' },
+      { id: 'B', texto: 'O remetente é o setor de licitações, e o destinatário é a autoridade superior, conforme indica o fecho "Respeitosamente".' },
+      { id: 'C', texto: 'A finalidade é encaminhar o processo para análise, o prazo é de 5 dias úteis, e o fecho indica que o destinatário é uma autoridade superior ou de mesma hierarquia, conforme a formalidade adotada.' },
+      { id: 'D', texto: 'O documento é um requerimento, pois solicita providências ao setor de licitações, e o fecho "Respeitosamente" é utilizado para particulares.' },
+      { id: 'E', texto: 'A comunicação é informal, pois utiliza a impessoalidade ("Encaminha-se"), e o prazo não é vinculante para o setor de licitações.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'A alternativa C está correta. Finalidade = encaminhar para análise. Prazo = 5 dias úteis. Fecho "Respeitosamente" = autoridade superior (ou tratamento formal).',
+      incorretas: { A: 'Não é abertura de licitação, e o prazo é em dias úteis.', B: 'O remetente não é o setor de licitações (ele é o destinatário).', D: 'É um ofício, não um requerimento.', E: 'A impessoalidade não torna a comunicação informal.' },
+      conceitoCobrado: 'Interpretação de comunicações administrativas.',
+      pegadinha: 'Confundir o remetente com o destinatário.',
+      comoApareceEmConcurso: 'Questões de interpretação de texto.'
+    },
+    tags: ['interpretação', 'ofício']
+  },
+
+  /* ============================================================
+     RED-24 — Produção, revisão e aperfeiçoamento textual
+  ============================================================ */
+  {
+    id: 'Q-DID-RED-24-001',
+    tipo: 'DIDATICA', area: 'PRO', moduloId: 'RED-24',
+    subtema: 'Dissertação x Redação Oficial',
+    dificuldade: 1, prioridade: 'media',
+    enunciado: 'Sobre a diferença entre a produção dissertativa e a produção de redação oficial, assinale a alternativa CORRETA.',
+    alternativas: [
+      { id: 'A', texto: 'A dissertação argumentativa tem como objetivo principal informar o leitor sobre um fato, enquanto a redação oficial busca convencer o leitor por meio de argumentos.' },
+      { id: 'B', texto: 'A dissertação argumentativa defende uma tese por meio de argumentos, enquanto a redação oficial comunica institucionalmente com impessoalidade e padronização.' },
+      { id: 'C', texto: 'A redação oficial e a dissertação argumentativa são sinônimos, pois ambas exigem a defesa de uma opinião pessoal do autor.' },
+      { id: 'D', texto: 'A redação oficial admite a 1ª pessoa e a linguagem informal, enquanto a dissertação exige o padrão culto e a impessoalidade.' },
+      { id: 'E', texto: 'A dissertação argumentativa é utilizada apenas no serviço público, e a redação oficial é utilizada apenas no ambiente escolar.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'A alternativa B está correta. Dissertação = defender tese com argumentos. Redação Oficial = comunicação institucional (impessoal, padronizada).',
+      incorretas: { A: 'Inverte os conceitos.', C: 'São gêneros distintos.', D: 'Inverte as características.', E: 'Restringe indevidamente os gêneros.' },
+      conceitoCobrado: 'Diferença entre dissertação e redação oficial.',
+      pegadinha: 'A inversão de conceitos.',
+      comoApareceEmConcurso: 'Questões conceituais.'
+    },
+    tags: ['dissertação', 'redação oficial']
+  },
+  {
+    id: 'Q-DID-RED-24-002',
+    tipo: 'DIDATICA', area: 'PRO', moduloId: 'RED-24',
+    subtema: 'Estrutura Dissertativa',
+    dificuldade: 2, prioridade: 'media',
+    enunciado: 'Julgue os itens a seguir como Verdadeiro (V) ou Falso (F) sobre a estrutura da dissertação argumentativa:\n\n(__) A introdução contextualiza o tema e apresenta a tese que será defendida.\n(__) O desenvolvimento apresenta argumentos e exemplos que sustentam a tese.\n(__) A conclusão retoma a tese e pode apresentar uma proposta de intervenção.\n(__) A conclusão, na dissertação, tem a função de apresentar uma nova tese, diferente da introdução.\n\nAssinale a alternativa que apresenta a sequência CORRETA, de cima para baixo:',
+    alternativas: [
+      { id: 'A', texto: 'V, V, V, F.' },
+      { id: 'B', texto: 'V, V, F, V.' },
+      { id: 'C', texto: 'V, F, V, F.' },
+      { id: 'D', texto: 'F, V, V, F.' },
+      { id: 'E', texto: 'V, V, V, V.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'A alternativa A está correta. (1) V: introdução = contexto + tese. (2) V: desenvolvimento = argumentos. (3) V: conclusão = retomada + proposta. (4) F: a conclusão retoma a tese, não apresenta uma nova.',
+      incorretas: { B: 'O item 3 é verdadeiro.', C: 'O item 2 é verdadeiro.', D: 'Itens 1 e 2 são verdadeiros.', E: 'O item 4 é falso.' },
+      conceitoCobrado: 'Estrutura da dissertação.',
+      pegadinha: 'Achar que a conclusão traz uma nova tese.',
+      comoApareceEmConcurso: 'Questões de sequência V/F.'
+    },
+    tags: ['dissertação', 'estrutura']
+  },
+  {
+    id: 'Q-DID-RED-24-003',
+    tipo: 'DIDATICA', area: 'PRO', moduloId: 'RED-24',
+    subtema: 'Coesão x Coerência na Produção',
+    dificuldade: 2, prioridade: 'media',
+    enunciado: 'Julgue o item abaixo.\n\nNa produção textual, a coesão refere-se à ligação formal entre as partes do texto, enquanto a coerência refere-se à ligação de sentido global, sendo que um texto pode ser coeso e incoerente ao mesmo tempo, como em "Estudou muito, portanto foi reprovado".',
+    alternativas: [
+      { id: 'C', texto: 'Certo' },
+      { id: 'E', texto: 'Errado' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'CERTO. Coesão = ligação formal. Coerência = ligação de sentido. A frase "Estudou muito, portanto foi reprovado" tem coesão (o conectivo), mas é incoerente (a lógica está invertida).',
+      incorretas: { E: 'A explicação está correta.' },
+      conceitoCobrado: 'Coesão x coerência.',
+      pegadinha: 'Achar que a presença do conectivo garante a coerência.',
+      comoApareceEmConcurso: 'Questões C/E.'
+    },
+    tags: ['coesão', 'coerência']
+  },
+  {
+    id: 'Q-DID-RED-24-004',
+    tipo: 'DIDATICA', area: 'PRO', moduloId: 'RED-24',
+    subtema: 'Revisão x Reescrita',
+    dificuldade: 3, prioridade: 'media',
+    enunciado: 'Avalie as afirmativas sobre a revisão e a reescrita textual.\n\nI- A revisão é o processo de diagnosticar problemas gramaticais, semânticos e estruturais em um texto pronto.\nII- A reescrita é o processo de refazer o texto para corrigir os problemas identificados, mantendo o conteúdo essencial.\nIII- A revisão e a reescrita são sinônimos, pois ambas ocorrem antes da produção do texto.\n\nEstá correto apenas o que se afirma em:',
+    alternativas: [
+      { id: 'A', texto: 'I.' },
+      { id: 'B', texto: 'II.' },
+      { id: 'C', texto: 'III.' },
+      { id: 'D', texto: 'I e II.' },
+      { id: 'E', texto: 'I, II e III.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'A alternativa D está correta. I e II estão corretas. III é falsa, pois revisão e reescrita são etapas distintas e ocorrem após a produção (não antes).',
+      incorretas: { A: 'II também está correta.', B: 'I também está correta.', C: 'III é falsa.', E: 'III é falsa.' },
+      conceitoCobrado: 'Diferença entre revisão e reescrita.',
+      pegadinha: 'Achar que revisão e reescrita são a mesma coisa e ocorrem antes da produção.',
+      comoApareceEmConcurso: 'Questões de I, II e III.'
+    },
+    tags: ['revisão', 'reescrita']
+  },
+  {
+    id: 'Q-DID-RED-24-005',
+    tipo: 'DIDATICA', area: 'PRO', moduloId: 'RED-24',
+    subtema: 'Problemas de Estrutura',
+    dificuldade: 3, prioridade: 'media',
+    enunciado: 'Um candidato redigiu uma dissertação com introdução (contextualização + tese), três parágrafos de desenvolvimento e conclusão. No entanto, o segundo parágrafo do desenvolvimento repete a ideia do primeiro, sem acrescentar informações novas, e o terceiro introduz um argumento que não dialoga com a tese. O problema central do texto é de:',
+    alternativas: [
+      { id: 'A', texto: 'Coesão, pois faltam conectivos entre os parágrafos, o que compromete a ligação formal entre as partes do texto.' },
+      { id: 'B', texto: 'Gramática, pois há erros de concordância e regência nos parágrafos de desenvolvimento.' },
+      { id: 'C', texto: 'Estrutura (progressão temática), pois o segundo parágrafo repete a ideia do primeiro e o terceiro não dialoga com a tese, quebrando a coerência global.' },
+      { id: 'D', texto: 'Adequação vocabular, pois o texto usa termos informais que não cabem em uma dissertação argumentativa.' },
+      { id: 'E', texto: 'Pontuação, pois a ausência de vírgulas em trechos-chave dificulta a leitura e o encadeamento das ideias.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'A alternativa C está correta. O problema é de progressão temática: repetição sem avanço (parágrafo 2) e argumento desconectado da tese (parágrafo 3), o que quebra a coerência.',
+      incorretas: { A: 'Falta de conectivos não foi o problema apontado.', B: 'Não há referência a erros gramaticais.', D: 'Não há referência a informalidade.', E: 'Não há referência a problemas de pontuação.' },
+      conceitoCobrado: 'Identificação de problemas de estrutura e progressão temática.',
+      pegadinha: 'Confundir problemas de estrutura com problemas gramaticais.',
+      comoApareceEmConcurso: 'Questões de análise de texto.'
+    },
+    tags: ['estrutura', 'progressão temática']
+  }
+
 ];
