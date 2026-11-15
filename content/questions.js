@@ -3323,5 +3323,857 @@ window.QUESTIONS = [
     comoApareceEmConcurso: 'FAFIPA exige distinguir inferência de extrapolação.'
   },
   tags: ['inferência', 'interpretação', 'extrapolação']
+},
+/* ============================================================
+   QUESTÕES REAIS IMPORTADAS — IDECAN 2024 / UERN
+   Língua Portuguesa (Questões 1 a 10)
+   ============================================================ */
+
+{
+  id: 'EX-IDECAN-2024-01', tipo: 'REAL', area: 'LET', moduloId: 'POR-01',
+  subtema: 'Inferência e compreensão textual',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: 'Texto-base (IDECAN 2024 / UERN):\n\nApós alta do calor no verão, Brasil deve ter outono mais quente que a média\n\nCom despedida marcada para esta quarta-feira (20), o verão dá lugar ao outono com previsões de temperatura acima da média em grande parte do Brasil, segundo o Inmet. A estimativa de abril a junho indica que as anomalias de temperatura podem ficar 1°C acima da média em parte do Sudeste, em praticamente todo o Norte e Centro-Oeste e em grande parte do Nordeste.\n\nMas, afinal, quando vai esfriar? No curto prazo, no fim desta semana, segundo o coordenador substituto de operações e modelagem do Cemaden, Giovanni Dolif.\n\nIsso porque já nos primeiros dias do outono, a frente fria inaugural da estação chega ao Sul e se aproxima do Sudeste. É nessas regiões que a redução de temperatura durante a estação pode ser mais acentuada. Outro efeito comum no começo do outono são as pancadas fortes de chuva. "A força dessa frente, com ar mais frio e velocidade, causa um contraste com as massas de ar quente, gerando ventos fortes e tempestades mais violentas", afirma Dolif. É possível, ainda, que águas ainda aquecidas ajudem a manter o tempo mais quente e as chuvas volumosas, mantendo as chances de tempestades ao longo do começo do outono.\n\nEm relação às ideias do texto e suas possíveis inferências, assinale a alternativa correta.',
+  alternativas: [
+    { id: 'A', texto: 'Ao passo que se viveu um dos verões mais quentes da história, com o início do outono no Hemisfério Sul, haverá uma inversão na lógica da temperatura.' },
+    { id: 'B', texto: 'Como o verão foi marcado por El Niño, é certo que o inverso sofrerá os efeitos de La Niña.' },
+    { id: 'C', texto: 'Embora o começo do outono seja marcado pela diminuição da temperatura com a chegada de frentes frias, o choque com as águas ainda quentes do verão pode gerar tempestades.' },
+    { id: 'D', texto: 'A questão é tentar arriscar como ficará o outono, diante da previsão, pelo Inmet, de que a estação sofrerá uma anomalia de temperatura.' },
+    { id: 'E', texto: 'A resposta para o que vai acontecer é sabida, com base na comparação com anos anteriores semelhantes.' }
+  ],
+  gabarito: 'C',
+  explicacao: {
+    correta: 'A alternativa C está correta. O texto afirma que a chegada de uma frente fria provoca redução de temperatura, mas que o contraste com as águas ainda quentes do verão gera ventos fortes e tempestades.',
+    incorretas: {
+      A: 'O texto não afirma que haverá uma "inversão" na lógica da temperatura, mas sim que ela continuará acima da média em várias regiões.',
+      B: 'O texto afirma que a chance de La Niña é de 63%, e não uma certeza, além de dizer que seus efeitos não são automaticamente sentidos no Brasil.',
+      D: 'O texto não fala em "arriscar", mas em previsões baseadas em modelos meteorológicos.',
+      E: 'O texto mostra que há incertezas (como a atuação do La Niña) e não que a resposta é plenamente sabida.'
+    },
+    conceitoCobrado: 'Inferência autorizada pelo texto x extrapolação.',
+    pegadinha: 'A letra B usa a palavra "certo", o que contraria a probabilidade (63%) citada no texto.',
+    comoApareceEmConcurso: 'IDECAN costuma exigir a validação de cada alternativa com base estrita no texto.'
+  },
+  tags: ['inferência', 'compreensão textual']
+},
+
+{
+  id: 'EX-IDECAN-2024-02', tipo: 'REAL', area: 'LET', moduloId: 'POR-04',
+  subtema: 'Valor semântico de expressões explicativas',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: '"A chance de desenvolvimento do efeito contrário, o La Niña (resfriamento das águas do Pacífico equatorial)..." (IDECAN 2024 / UERN)\n\nO segmento entre parênteses no período acima apresenta valor semântico de:',
+  alternativas: [
+    { id: 'A', texto: 'explicitação.' },
+    { id: 'B', texto: 'exemplificação.' },
+    { id: 'C', texto: 'enumeração.' },
+    { id: 'D', texto: 'especificação.' },
+    { id: 'E', texto: 'explicação.' }
+  ],
+  gabarito: 'E',
+  explicacao: {
+    correta: 'A alternativa E está correta. O trecho "resfriamento das águas do Pacífico equatorial" é uma explicação do que vem a ser o fenômeno "La Niña".',
+    incorretas: {
+      A: 'Não há explicitação de algo oculto, mas sim a definição de um termo.',
+      B: 'Não é um exemplo, é o próprio significado do termo.',
+      C: 'Não há uma lista de itens.',
+      D: 'A especificação restringe um termo mais amplo; aqui há a definição conceitual.'
+    },
+    conceitoCobrado: 'Uso dos parênteses para explicação/esclarecimento.',
+    pegadinha: 'Confundir explicação (definir o que é) com exemplificação (dar um exemplo).',
+    comoApareceEmConcurso: 'IDECAN cobra a função semântica dos sinais de pontuação.'
+  },
+  tags: ['semântica', 'explicação']
+},
+
+{
+  id: 'EX-IDECAN-2024-03', tipo: 'REAL', area: 'GRA', moduloId: 'POR-10',
+  subtema: 'Pronome relativo "que"',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: '"É nessas regiões que a redução de temperatura durante a estação pode ser mais acentuada." (IDECAN 2024 / UERN)\n\nNo período acima, o QUE classifica-se como:',
+  alternativas: [
+    { id: 'A', texto: 'conjunção integrante.' },
+    { id: 'B', texto: 'pronome relativo.' },
+    { id: 'C', texto: 'partícula expletiva.' },
+    { id: 'D', texto: 'conjunção subordinativa.' },
+    { id: 'E', texto: 'preposição.' }
+  ],
+  gabarito: 'B',
+  explicacao: {
+    correta: 'A alternativa B está correta. O "que" retoma o antecedente "nessas regiões" e introduz a oração adjetiva "que a redução de temperatura... pode ser mais acentuada".',
+    incorretas: {
+      A: 'Não introduz oração substantiva (não pode ser substituído por "isso").',
+      C: 'Não pode ser retirado sem prejuízo gramatical.',
+      D: 'Não é conjunção, é pronome.',
+      E: 'Não é preposição.'
+    },
+    conceitoCobrado: 'Diferença entre pronome relativo e conjunção integrante.',
+    pegadinha: 'A estrutura "É nessas regiões que..." pode enganar, mas o "que" tem função anafórica (retoma regiões).',
+    comoApareceEmConcurso: 'IDECAN cobra a classificação do "que" em contexto.'
+  },
+  tags: ['pronome relativo', 'que']
+},
+
+{
+  id: 'EX-IDECAN-2024-04', tipo: 'REAL', area: 'GRA', moduloId: 'POR-14',
+  subtema: 'Oração subordinada substantiva subjetiva',
+  dificuldade: 3, prioridade: 'alta',
+  enunciado: '"É possível, ainda, que águas ainda aquecidas ajudem a manter o tempo mais quente e as chuvas volumosas do fim de março para depois do começo de abril, mantendo as chances de tempestades ao longo do começo do outono." (IDECAN 2024 / UERN)\n\nA oração sublinhada no período acima ("que águas ainda aquecidas ajudem...") desempenha papel de:',
+  alternativas: [
+    { id: 'A', texto: 'sujeito.' },
+    { id: 'B', texto: 'aposto.' },
+    { id: 'C', texto: 'objeto direto.' },
+    { id: 'D', texto: 'adjunto adnominal.' },
+    { id: 'E', texto: 'predicativo do sujeito.' }
+  ],
+  gabarito: 'A',
+  explicacao: {
+    correta: 'A alternativa A está correta. A oração "que águas ainda aquecidas ajudem..." é uma oração subordinada substantiva subjetiva, pois exerce a função de sujeito do verbo "É" (É possível [isso]).',
+    incorretas: {
+      B: 'Aposto não é uma oração.',
+      C: 'Não completa verbo transitivo direto.',
+      D: 'Adjunto adnominal não é oração.',
+      E: 'Não qualifica o sujeito.'
+    },
+    conceitoCobrado: 'Classificação de orações subordinadas substantivas.',
+    pegadinha: 'A presença do "que" após "possível" pode levar a crer que é um complemento, mas o verbo "ser" (na estrutura "é possível") pede sujeito.',
+    comoApareceEmConcurso: 'IDECAN cobra funções sintáticas de orações desenvolvidas.'
+  },
+  tags: ['oração subjetiva', 'sintaxe']
+},
+
+{
+  id: 'EX-IDECAN-2024-05', tipo: 'REAL', area: 'GRA', moduloId: 'POR-06',
+  subtema: 'Fonemas e dígrafos',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: 'Na linha 36 do texto base (IDECAN 2024 / UERN), a palavra "chance" tem:',
+  alternativas: [
+    { id: 'A', texto: 'quatro fonemas e um dígrafo.' },
+    { id: 'B', texto: 'quatro fonemas e dois dígrafos.' },
+    { id: 'C', texto: 'cinco fonemas e um dígrafo.' },
+    { id: 'D', texto: 'cinco fonemas e dois dígrafos.' },
+    { id: 'E', texto: 'seis fonemas e dois dígrafos.' }
+  ],
+  gabarito: 'B',
+  explicacao: {
+    correta: 'A alternativa B está correta. A palavra "chance" possui 4 fonemas (/ʃ/ /ã/ /s/ /i/) e 2 dígrafos ("ch" consonantal e "an" vocálico nasal).',
+    incorretas: {
+      A: 'Há mais de um dígrafo.',
+      C: 'A palavra tem 4 fonemas, não 5.',
+      D: 'A palavra tem 4 fonemas, não 5.',
+      E: 'A palavra tem 4 fonemas, não 6.'
+    },
+    conceitoCobrado: 'Contagem de fonemas e identificação de dígrafos (consonantal e vocálico).',
+    pegadinha: 'Achar que "an" não é dígrafo vocálico, ou contar o "e" final como fonema separado.',
+    comoApareceEmConcurso: 'IDECAN cobra análise fonológica detalhada.'
+  },
+  tags: ['fonemas', 'dígrafos']
+},
+
+{
+  id: 'EX-IDECAN-2024-06', tipo: 'REAL', area: 'GRA', moduloId: 'POR-08',
+  subtema: 'Estrutura das palavras (vogal temática)',
+  dificuldade: 3, prioridade: 'media',
+  enunciado: 'Em "publicado" (IDECAN 2024 / UERN), o elemento mórfico "a" se classifica como:',
+  alternativas: [
+    { id: 'A', texto: 'desinência de gênero.' },
+    { id: 'B', texto: 'sufixo.' },
+    { id: 'C', texto: 'desinência modo-temporal.' },
+    { id: 'D', texto: 'desinência nominal.' },
+    { id: 'E', texto: 'vogal temática.' }
+  ],
+  gabarito: 'E',
+  explicacao: {
+    correta: 'A alternativa E está correta. Na estrutura "public-a-do", o radical é "public-", a vogal temática é "-a-" (indicando a 1ª conjugação verbal), e "-do" é a desinência de particípio.',
+    incorretas: {
+      A: 'A desinência de gênero é o "-o" final.',
+      B: 'O sufixo é o "-do" (particípio).',
+      C: 'Não há desinência modo-temporal aqui.',
+      D: 'Desinência nominal é o "-o".'
+    },
+    conceitoCobrado: 'Identificação de morfemas (radical, vogal temática, desinências).',
+    pegadinha: 'Confundir a vogal temática do verbo com a desinência de gênero do adjetivo.',
+    comoApareceEmConcurso: 'IDECAN cobra morfologia estrutural.'
+  },
+  tags: ['morfologia', 'vogal temática']
+},
+
+{
+  id: 'EX-IDECAN-2024-07', tipo: 'REAL', area: 'GRA', moduloId: 'POR-12',
+  subtema: 'Contagem de artigos e preposições',
+  dificuldade: 3, prioridade: 'media',
+  enunciado: '"O que fizemos no Cemaden para tentar uma leitura sobre a primavera ou o verão com o fenômeno no segundo semestre foi buscar anos análogos, quando saímos do El Niño direto para um La Niña." (IDECAN 2024 / UERN)\n\nNo período acima há:',
+  alternativas: [
+    { id: 'A', texto: 'oito artigos e sete preposições.' },
+    { id: 'B', texto: 'sete artigos e sete preposições.' },
+    { id: 'C', texto: 'oito artigos e oito preposições.' },
+    { id: 'D', texto: 'nove artigos e sete preposições.' },
+    { id: 'E', texto: 'nove artigos e oito preposições.' }
+  ],
+  gabarito: 'D',
+  explicacao: {
+    correta: 'A alternativa D está correta. Artigos (9): O, no (=em+o), uma, a, o, o, no (=em+o), do (=de+o), um. Preposições (7): no (em), para, sobre, com, no (em), do (de), para.',
+    incorretas: {
+      A: 'A contagem de artigos é 9.',
+      B: 'A contagem de artigos é 9.',
+      C: 'A contagem de preposições é 7.',
+      E: 'A contagem de preposições é 7.'
+    },
+    conceitoCobrado: 'Identificação de classes gramaticais (artigos e preposições), inclusive contrações.',
+    pegadinha: 'Esquecer de contar os artigos escondidos nas contrações (no, do).',
+    comoApareceEmConcurso: 'IDECAN cobra contagem exata de classes de palavras.'
+  },
+  tags: ['classes de palavras', 'artigo', 'preposição']
+},
+
+{
+  id: 'EX-IDECAN-2024-08', tipo: 'REAL', area: 'GRA', moduloId: 'POR-13',
+  subtema: 'Aposto',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: '"No curto prazo, no fim desta semana, segundo o coordenador substituto de operações e modelagem do Cemaden (Centro Nacional de Monitoramento e Alertas de Desastres Naturais), Giovanni Dolif." (IDECAN 2024 / UERN)\n\nO termo sublinhado ("Giovanni Dolif") no período acima desempenha função sintática de:',
+  alternativas: [
+    { id: 'A', texto: 'sujeito.' },
+    { id: 'B', texto: 'aposto.' },
+    { id: 'C', texto: 'vocativo.' },
+    { id: 'D', texto: 'adjunto adnominal.' },
+    { id: 'E', texto: 'predicativo do sujeito.' }
+  ],
+  gabarito: 'B',
+  explicacao: {
+    correta: 'A alternativa B está correta. "Giovanni Dolif" é um aposto explicativo, pois especifica o nome do "coordenador substituto" citado anteriormente.',
+    incorretas: {
+      A: 'Não é o sujeito da oração.',
+      C: 'Não é um chamamento.',
+      D: 'Não caracteriza um substantivo.',
+      E: 'Não atribui característica ao sujeito.'
+    },
+    conceitoCobrado: 'Termos acessórios da oração: aposto.',
+    pegadinha: 'Confundir aposto (explica um termo) com vocativo (chama o interlocutor).',
+    comoApareceEmConcurso: 'IDECAN cobra a função sintática de termos isolados.'
+  },
+  tags: ['sintaxe', 'aposto']
+},
+
+{
+  id: 'EX-IDECAN-2024-09', tipo: 'REAL', area: 'GRA', moduloId: 'POR-15',
+  subtema: 'Concordância com verbos impessoais e pessoais',
+  dificuldade: 3, prioridade: 'alta',
+  enunciado: '"Mas segundo Dolif, não significa automaticamente que haverá uma diminuição das temperaturas em partes do Brasil..." (IDECAN 2024 / UERN)\n\nAssinale a alternativa em que a alteração do segmento sublinhado ("haverá uma diminuição") no período acima tenha sido feita de acordo com a norma culta.',
+  alternativas: [
+    { id: 'A', texto: 'devem haver diminuições.' },
+    { id: 'B', texto: 'haveriam diminuições.' },
+    { id: 'C', texto: 'hão de haver diminuições.' },
+    { id: 'D', texto: 'haveriam de existir diminuições.' },
+    { id: 'E', texto: 'pode existir diminuições.' }
+  ],
+  gabarito: 'D',
+  explicacao: {
+    correta: 'A alternativa D está correta. O verbo "existir" é pessoal e concorda com o sujeito ("diminuições"). Como está em locução com "haver" (auxiliar), o auxiliar também vai para o plural: "haveriam de existir diminuições".',
+    incorretas: {
+      A: '"Haver" no sentido de existir é impessoal, logo não vai para o plural ("deve haver").',
+      B: '"Haver" impessoal deve ficar no singular ("haveria").',
+      C: '"Haver" impessoal deve ficar no singular ("há de haver").',
+      E: '"Existir" é pessoal e deve concordar com "diminuições" ("podem existir").'
+    },
+    conceitoCobrado: 'Diferença entre verbos impessoais (haver) e pessoais (existir) na concordância.',
+    pegadinha: 'A presença do "haver" na locução faz o candidato errar a concordância com o verbo "existir".',
+    comoApareceEmConcurso: 'IDECAN cobra reescrita com foco em concordância verbal.'
+  },
+  tags: ['concordância verbal', 'verbos impessoais']
+},
+
+{
+  id: 'EX-IDECAN-2024-10', tipo: 'REAL', area: 'GRA', moduloId: 'POR-12',
+  subtema: 'Valor semântico de conectivos e advérbios',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: '"Já o calor pode diminuir, mas deve ficar acima da média histórica..." (IDECAN 2024 / UERN)\n\nNa linha 21, a palavra "Já" apresenta valor:',
+  alternativas: [
+    { id: 'A', texto: 'temporal.' },
+    { id: 'B', texto: 'inclusivo.' },
+    { id: 'C', texto: 'contrastivo.' },
+    { id: 'D', texto: 'resumitivo.' },
+    { id: 'E', texto: 'excepcional.' }
+  ],
+  gabarito: 'C',
+  explicacao: {
+    correta: 'A alternativa C está correta. O "Já" é utilizado para estabelecer um contraste com a ideia anterior (a chuva/tempestade no Sul/Sudeste vs. o calor no restante do país).',
+    incorretas: {
+      A: 'Não indica tempo nesta frase.',
+      B: 'Não inclui algo.',
+      D: 'Não resume.',
+      E: 'Não indica exceção.'
+    },
+    conceitoCobrado: 'Valor semântico de "já" como operador argumentativo de contraste.',
+    pegadinha: 'A palavra "já" tem valor temporal na maioria das vezes, mas aqui atua como conector contrastivo.',
+    comoApareceEmConcurso: 'IDECAN cobra a mudança de valor semântico de palavras conforme o contexto.'
+  },
+  tags: ['conectivos', 'valor semântico']
+},
+/* ============================================================
+   QUESTÕES REAIS IMPORTADAS — IBFC 2025 / UFPB
+   Língua Portuguesa (Questões 1 a 10)
+   ============================================================ */
+
+{
+  id: 'EX-IBFC-2025-01', tipo: 'REAL', area: 'LET', moduloId: 'POR-01',
+  subtema: 'Compreensão textual — ideia global',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: 'Texto I (IBFC 2025 / UFPB):\n\nO que é o "caxangá", que os escravos de Jó jogavam? (Artur Louback)\n\nCaxangá tem vários significados, mas nada de jogo. Pode ser um crustáceo (parecido com um siri), um chapéu usado por marinheiros, e há até uma definição indígena: segundo o Dicionário Tupi-Guarani-Português, de Francisco da Silveira Bueno, caxangá vem de caáçangá, que significa "mata extensa". Mas nada disso tem a ver com o jogo e menos ainda com Jó, o personagem bíblico que perdeu tudo o que tinha (inclusive os escravos), menos a fé. Isso deixa os especialistas intrigados. "Já procurei caxangá, caxengá e caxingá, com \'x\' e \'ch\', e não encontrei nada que fizesse sentido como um jogo", diz o etimologista Claudio Moreno. "Se esse jogo existisse, seria quase impossível explicar como ele passou despercebido por todos os antropólogos e etnólogos que estudam nossas tradições populares". O que pode ter ocorrido é uma espécie de "telefone sem fio": se originalmente o verso fosse "juntavam caxangá" ao invés de "jogavam", poderiam pensar em escravos pegando siris em vez de em um jogo. Outra hipótese é que caxangá seja uma expressão sem sentido...\n\nAo considerar a pergunta proposta no título e o conteúdo do texto, pode-se afirmar que:',
+  alternativas: [
+    { id: 'A', texto: 'fontes como o Dicionário Tupi-Guarani-Português indicam a resposta a ser aceita.' },
+    { id: 'B', texto: 'ela é a metáfora que propõe uma reflexão sobre as relações de trabalho no texto.' },
+    { id: 'C', texto: 'uma vez que são apontados vários significados possíveis, a resposta é parcial.' },
+    { id: 'D', texto: 'as referências a especialistas reforçam a importância de só uma explicação.' },
+    { id: 'E', texto: 'é possível concluir que não se tratava de um jogo, mas de um trabalho.' }
+  ],
+  gabarito: 'C',
+  explicacao: {
+    correta: 'A alternativa C está correta. O texto apresenta diversas hipóteses (crustáceo, chapéu, mata extensa, telefone sem fio) e afirma que os especialistas estão "intrigados", ou seja, não há uma certeza absoluta, mas sim respostas parciais/hipotéticas.',
+    incorretas: {
+      A: 'O próprio texto diz que a definição indígena "nada tem a ver com o jogo".',
+      B: 'O texto é uma investigação etimológica, não uma metáfora sobre trabalho.',
+      D: 'Os especialistas reforçam a dúvida, não uma única explicação.',
+      E: 'A hipótese de "trabalho" (pegar siris) é apenas uma suposição, não uma conclusão definitiva.'
+    },
+    conceitoCobrado: 'Compreensão global e identificação da tese/hipóteses do texto.',
+    pegadinha: 'A alternativa E é tentadora porque o texto cita a possibilidade de "pegar siris", mas isso é apresentado como hipótese.',
+    comoApareceEmConcurso: 'IBFC costuma cobrar a diferença entre hipótese apresentada no texto e conclusão fechada.'
+  },
+  tags: ['compreensão textual', 'inferência']
+},
+
+{
+  id: 'EX-IBFC-2025-02', tipo: 'REAL', area: 'LET', moduloId: 'POR-02',
+  subtema: 'Tipologia textual',
+  dificuldade: 1, prioridade: 'alta',
+  enunciado: 'Considere o Texto I ("O que é o caxangá...", de Artur Louback), da prova IBFC 2025 / UFPB.\n\nAo observar a estrutura e o propósito do texto, assinale a alternativa que apresenta sua tipologia predominante.',
+  alternativas: [
+    { id: 'A', texto: 'Injuntiva.' },
+    { id: 'B', texto: 'Argumentativa.' },
+    { id: 'C', texto: 'Narrativa.' },
+    { id: 'D', texto: 'Expositiva.' },
+    { id: 'E', texto: 'Descritiva.' }
+  ],
+  gabarito: 'D',
+  explicacao: {
+    correta: 'A alternativa D está correta. O texto tem o propósito de expor/explicar informações, apresentando definições, hipóteses e opiniões de especialistas sobre um tema (o significado de caxangá).',
+    incorretas: {
+      A: 'Não há instruções ou ordens.',
+      B: 'Não há defesa de uma tese com o objetivo de convencer o leitor.',
+      C: 'Não há uma sequência de fatos em progressão temporal (com personagens e enredo).',
+      E: 'Não há uma caracterização detalhada de um objeto/ambiente.'
+    },
+    conceitoCobrado: 'Identificação de tipologia textual predominante (expositiva).',
+    pegadinha: 'A presença de uma "pergunta" no título pode confundir, mas a estrutura geral é de exposição de fatos e teorias.',
+    comoApareceEmConcurso: 'IBFC costuma cobrar tipologias em textos jornalísticos/curiosidades.'
+  },
+  tags: ['tipologia textual', 'expositiva']
+},
+
+{
+  id: 'EX-IBFC-2025-03', tipo: 'REAL', area: 'LET', moduloId: 'POR-03',
+  subtema: 'Coesão referencial — anáfora',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: 'Considere o período do Texto I (IBFC 2025 / UFPB): "Mas nada disso tem a ver com o jogo e menos ainda com Jó, o personagem bíblico que perdeu tudo o que tinha (inclusive os escravos), menos a fé. Isso deixa os especialistas intrigados."\n\nO vocábulo "Isso", destacado na passagem, é um pronome demonstrativo empregado para retomar a seguinte ideia no texto:',
+  alternativas: [
+    { id: 'A', texto: 'o personagem bíblico ter perdido tudo o que tinha.' },
+    { id: 'B', texto: 'o fato de a palavra "caxangá" ter vários significados distintos.' },
+    { id: 'C', texto: 'o sentido da palavra não ter a ver com jogo, nem com Jó.' },
+    { id: 'D', texto: 'o personagem bíblico não ter perdido a fé.' },
+    { id: 'E', texto: 'a informação de que Jó possuía escravos também.' }
+  ],
+  gabarito: 'C',
+  explicacao: {
+    correta: 'A alternativa C está correta. O pronome "Isso" é anafórico e retoma toda a ideia imediatamente anterior: o fato de a palavra "caxangá" não ter relação com o jogo e nem com o personagem Jó.',
+    incorretas: {
+      A: 'A perda de Jó é um detalhe, não o foco da retomada.',
+      B: 'Os significados são citados no início do texto, mas "Isso" retoma a conclusão "nada disso tem a ver...".',
+      D: 'A fé de Jó é um detalhe paralelo.',
+      E: 'Jó ter escravos é um detalhe da história bíblica.'
+    },
+    conceitoCobrado: 'Coesão referencial por anáfora (pronome demonstrativo neutro "isso" retomando uma oração/ideia).',
+    pegadinha: 'A proximidade do nome "Jó" pode fazer o candidato errar, mas o "Isso" resume o período anterior inteiro.',
+    comoApareceEmConcurso: 'IBFC cobra a retomada de ideias por pronomes demonstrativos.'
+  },
+  tags: ['coesão', 'anáfora', 'pronome demonstrativo']
+},
+
+{
+  id: 'EX-IBFC-2025-04', tipo: 'REAL', area: 'GRA', moduloId: 'POR-13',
+  subtema: 'Função sintática — predicativo do objeto',
+  dificuldade: 3, prioridade: 'alta',
+  enunciado: 'Considere o período do Texto I (IBFC 2025 / UFPB): "Isso deixa os especialistas intrigados."\n\nA função sintática do termo "intrigados" está corretamente indicada em:',
+  alternativas: [
+    { id: 'A', texto: 'predicativo do sujeito.' },
+    { id: 'B', texto: 'complemento nominal.' },
+    { id: 'C', texto: 'adjunto adverbial.' },
+    { id: 'D', texto: 'adjunto adnominal.' },
+    { id: 'E', texto: 'predicativo do objeto.' }
+  ],
+  gabarito: 'E',
+  explicacao: {
+    correta: 'A alternativa E está correta. Na estrutura "deixa alguém intrigado", o verbo "deixar" é transitivo direto (deixa os especialistas) e o termo "intrigados" atribui uma qualidade/estado ao objeto direto, funcionando como predicativo do objeto.',
+    incorretas: {
+      A: 'O predicativo do sujeito atribuiria estado ao sujeito ("Isso").',
+      B: 'Não completa o sentido de um nome.',
+      C: 'Não indica circunstância.',
+      D: 'Não caracteriza um substantivo de forma permanente.'
+    },
+    conceitoCobrado: 'Identificação de predicativo do objeto.',
+    pegadinha: 'Confundir com predicativo do sujeito, achando que "Isso" está "intrigado".',
+    comoApareceEmConcurso: 'IBFC cobra análise sintática de verbos como "deixar", "considerar", "achar".'
+  },
+  tags: ['sintaxe', 'predicativo do objeto']
+},
+
+{
+  id: 'EX-IBFC-2025-05', tipo: 'REAL', area: 'GRA', moduloId: 'POR-11',
+  subtema: 'Modo subjuntivo — valor de hipótese',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: 'Considere a passagem do Texto I (IBFC 2025 / UFPB): "Se esse jogo existisse..."\n\nO valor semântico da oração é reforçado pela presença de uma forma verbal que indica:',
+  alternativas: [
+    { id: 'A', texto: 'possibilidade em relação ao passado.' },
+    { id: 'B', texto: 'incerteza sobre um fato do presente.' },
+    { id: 'C', texto: 'uma ação pontual ocorrida no passado.' },
+    { id: 'D', texto: 'uma ação futura oriunda do passado.' },
+    { id: 'E', texto: 'dúvida acerca de uma ação futura.' }
+  ],
+  gabarito: 'B',
+  explicacao: {
+    correta: 'A alternativa B está correta. O verbo "existisse" está no pretérito imperfeito do subjuntivo e, junto com a conjunção "Se", introduz uma hipótese, uma incerteza sobre um fato presente (a existência atual do jogo).',
+    incorretas: {
+      A: 'O mais-que-perfeito do subjuntivo ("tivesse existido") indicaria possibilidade no passado.',
+      C: 'Ação pontual no passado seria pretérito perfeito do indicativo ("existiu").',
+      D: 'Ação futura do passado seria futuro do pretérito ("existiria").',
+      E: 'Dúvida futura seria futuro do subjuntivo ("se existir").'
+    },
+    conceitoCobrado: 'Valor semântico dos tempos do subjuntivo.',
+    pegadinha: 'Achar que o passado da forma verbal ("-sse") indica um fato passado, quando na verdade é uma hipótese sobre o presente.',
+    comoApareceEmConcurso: 'IBFC costuma aliar análise morfológica com semântica.'
+  },
+  tags: ['verbos', 'subjuntivo', 'hipótese']
+},
+
+{
+  id: 'EX-IBFC-2025-06', tipo: 'REAL', area: 'LET', moduloId: 'POR-05',
+  subtema: 'Figuras de linguagem — metáfora',
+  dificuldade: 1, prioridade: 'alta',
+  enunciado: 'No Texto I (IBFC 2025 / UFPB), o autor afirma: "O que pode ter ocorrido é uma espécie de \'telefone sem fio\'..."\n\nO emprego das aspas em "telefone sem fio", no texto, revela um emprego conotativo construído por meio da seguinte figura de linguagem:',
+  alternativas: [
+    { id: 'A', texto: 'ironia.' },
+    { id: 'B', texto: 'metáfora.' },
+    { id: 'C', texto: 'hipérbole.' },
+    { id: 'D', texto: 'metonímia.' },
+    { id: 'E', texto: 'eufemismo.' }
+  ],
+  gabarito: 'B',
+  explicacao: {
+    correta: 'A alternativa B está correta. A expressão "telefone sem fio" é usada em sentido figurado (metáfora) para representar a distorção de uma informação ao longo do tempo.',
+    incorretas: {
+      A: 'Não há intenção de criticar ou dizer o contrário.',
+      C: 'Não há exagero.',
+      D: 'Não há substituição por proximidade.',
+      E: 'Não há suavização.'
+    },
+    conceitoCobrado: 'Denotação x conotação e identificação da metáfora.',
+    pegadinha: 'As aspas podem indicar uma citação, mas no contexto servem para destacar o uso figurado.',
+    comoApareceEmConcurso: 'IBFC cobra a identificação de figuras em expressões cotidianas.'
+  },
+  tags: ['figuras de linguagem', 'metáfora']
+},
+
+{
+  id: 'EX-IBFC-2025-07', tipo: 'REAL', area: 'GRA', moduloId: 'POR-06',
+  subtema: 'Fonema e letra — dígrafo',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: 'Considere a passagem do Texto I (IBFC 2025 / UFPB): "Já procurei caxangá, caxengá e caxingá, com \'x\' e \'ch\'".\n\nCaso os vocábulos fossem reescritos com "ch", quanto à natureza fonética/fonológica, é correto afirmar que:',
+  alternativas: [
+    { id: 'A', texto: 'não haveria alteração no número de fonemas.' },
+    { id: 'B', texto: 'diminuiria o número de letras das palavras.' },
+    { id: 'C', texto: 'se faria a inclusão de um encontro consonantal.' },
+    { id: 'D', texto: 'haveria mudança na pronúncia dos vocábulos.' },
+    { id: 'E', texto: 'ocorreria acréscimo de encontro vocálico.' }
+  ],
+  gabarito: 'A',
+  explicacao: {
+    correta: 'A alternativa A está correta. Tanto o "x" (nesse contexto) quanto o dígrafo "ch" representam o mesmo fonema /ʃ/. Portanto, não haveria alteração na quantidade de fonemas.',
+    incorretas: {
+      B: 'Aumentaria o número de letras, pois "ch" tem duas letras, enquanto "x" tem uma.',
+      C: 'Não há inclusão de encontro consonantal, mas sim de um dígrafo.',
+      D: 'A pronúncia seria a mesma (/ʃ/).',
+      E: 'Não há encontro vocálico.'
+    },
+    conceitoCobrado: 'Diferença entre fonema e letra, e identificação de dígrafos.',
+    pegadinha: 'O candidato pode achar que a letra "x" tem som diferente de "ch" sempre, mas aqui ambas têm o mesmo som (/ʃ/).',
+    comoApareceEmConcurso: 'IBFC costuma explorar as representações gráficas de um mesmo fonema.'
+  },
+  tags: ['fonética', 'fonema', 'dígrafo']
+},
+
+{
+  id: 'EX-IBFC-2025-08', tipo: 'REAL', area: 'LET', moduloId: 'POR-01',
+  subtema: 'Interpretação textual — causa e consequência',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: 'Texto II (IBFC 2025 / UFPB):\n\nOs homens gloriosos (adaptado) (Cecília Meireles)\n\nSentei-me sem perguntas à beira da terra, e ouvi narrarem-se casualmente os que passavam.\nTenho a garganta amarga e os olhos doloridos: deixai-me esquecer o tempo, inclinar nas mãos a testa desencantada, e de mim mesma desaparecer, - que o clamor dos homens gloriosos cortou-me o coração de lado a lado.\nPois era um clamor de espadas bravias, de espadas enlouquecidas e sem relâmpagos, ah, sem relâmpagos... pegajosas de lodo e sangue denso.\nComo ficaram meus dias, e as flores claras que pensava! Nuvens brandas, construindo mundos, como se apagaram de repente!\n\nA última estrofe revela uma mudança de estado do sujeito que enuncia no poema. A partir do entendimento do texto, é correto afirmar que isso ocorre devido:',
+  alternativas: [
+    { id: 'A', texto: 'à atitude de sentar-se sem perguntas à beira da terra.' },
+    { id: 'B', texto: 'às narrativas casuais daqueles que passavam.' },
+    { id: 'C', texto: 'à situação da garganta amarga e os olhos doloridos.' },
+    { id: 'D', texto: 'ao desejo de desaparecer de si própria.' },
+    { id: 'E', texto: 'ao fato de ter se esquecido do tempo.' }
+  ],
+  gabarito: 'B',
+  explicacao: {
+    correta: 'A alternativa B está correta. A mudança de estado (a perda da pureza/"flores claras") ocorre porque o eu lírico se senta e **ouve as narrativas** dos que passavam (o clamor dos homens gloriosos, de sangue e lodo), o que corta seu coração e a faz querer desaparecer.',
+    incorretas: {
+      A: 'Sentar-se é apenas a ação inicial que permite ouvir as narrativas.',
+      C: 'Garganta amarga e olhos doloridos são consequências, não a causa.',
+      D: 'O desejo de desaparecer também é consequência.',
+      E: 'Esquecer o tempo é um pedido, não a causa da mudança.'
+    },
+    conceitoCobrado: 'Relação de causa e consequência em texto poético.',
+    pegadinha: 'As alternativas C, D e E apontam consequências do estado de alma, mas a causa primária são as narrativas ouvidas.',
+    comoApareceEmConcurso: 'IBFC exige interpretação de texto literário, focando na progressão das ideias.'
+  },
+  tags: ['interpretação', 'causa e consequência']
+},
+
+{
+  id: 'EX-IBFC-2025-09', tipo: 'REAL', area: 'GRA', moduloId: 'POR-10',
+  subtema: 'Colocação pronominal — próclise',
+  dificuldade: 3, prioridade: 'alta',
+  enunciado: 'Considere a última estrofe do Texto II (IBFC 2025 / UFPB): "Como ficaram meus dias, e as flores claras que pensava! Nuvens brandas, construindo mundos, como se apagaram de repente!"\n\nAo longo do texto, em relação à colocação pronominal, houve privilégio da ênclise. No entanto, no último verso, a próclise pode ser justificada:',
+  alternativas: [
+    { id: 'A', texto: 'pela flexão da forma verbal "apagaram".' },
+    { id: 'B', texto: 'por constituir uma oração coordenada.' },
+    { id: 'C', texto: 'pela presença de uma construção adjetiva.' },
+    { id: 'D', texto: 'por ser um verso de conotação negativa.' },
+    { id: 'E', texto: 'pelo tom da oração explicitado pelo ponto.' }
+  ],
+  gabarito: 'E',
+  explicacao: {
+    correta: 'A alternativa E é a que mais se aproxima da intenção da banca. A próclise em "como se apagaram" ocorre pela presença da palavra atrativa "como" (advérbio de intensidade/modo em frase exclamativa). O ponto de exclamação reforça o tom exclamativo da oração, que também atrai o pronome para antes do verbo. Embora a palavra "como" seja o principal fator, entre as opções, o "tom da oração" (exclamativo) é o que justifica a próclise.',
+    incorretas: {
+      A: 'A flexão verbal não interfere na colocação pronominal.',
+      B: 'Não é uma oração coordenada.',
+      C: 'Não há construção adjetiva que justifique.',
+      D: 'Conotação não é critério sintático para colocação pronominal.'
+    },
+    conceitoCobrado: 'Fatores de atração da próclise (advérbios, conjunções, tom exclamativo).',
+    pegadinha: 'A ausência da opção "pela presença do advérbio \'como\'" faz o candidato ter que associar ao tom exclamativo da frase.',
+    comoApareceEmConcurso: 'IBFC cobra gramática aplicada à análise de textos literários.'
+  },
+  tags: ['colocação pronominal', 'próclise']
+},
+
+{
+  id: 'EX-IBFC-2025-10', tipo: 'REAL', area: 'GRA', moduloId: 'POR-12',
+  subtema: 'Conjunções — valor semântico de explicação',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: 'Considere o verso do Texto II (IBFC 2025 / UFPB): "...deixai-me esquecer o tempo, inclinar nas mãos a testa desencantada, e de mim mesma desaparecer, - que o clamor dos homens gloriosos cortou-me o coração de lado a lado."\n\nO vocábulo destacado ("que") introduz o valor semântico de:',
+  alternativas: [
+    { id: 'A', texto: 'comparação.' },
+    { id: 'B', texto: 'concessão.' },
+    { id: 'C', texto: 'oposição.' },
+    { id: 'D', texto: 'explicação.' },
+    { id: 'E', texto: 'conclusão.' }
+  ],
+  gabarito: 'D',
+  explicacao: {
+    correta: 'A alternativa D está correta. O "que" introduz uma oração que explica o motivo do pedido anterior ("deixai-me esquecer o tempo..."). Pode ser substituído por "pois" (pois o clamor...). É uma conjunção coordenativa explicativa.',
+    incorretas: {
+      A: 'Não há relação de semelhança.',
+      B: 'Não há quebra de expectativa.',
+      C: 'Não é uma adversativa (mas).',
+      E: 'Não é uma conclusão (portanto).'
+    },
+    conceitoCobrado: 'Valor semântico das conjunções coordenativas explicativas.',
+    pegadinha: 'O "que" é uma partícula muito versátil; aqui, introduz uma justificativa para o pedido do eu lírico.',
+    comoApareceEmConcurso: 'IBFC cobra a substituição por "pois" para confirmar o valor explicativo.'
+  },
+  tags: ['conjunção', 'explicação']
+},
+/* ============================================================
+   QUESTÕES REAIS IMPORTADAS — VUNESP 2026 / UNIFESP
+   Língua Portuguesa (Questões 01 a 10)
+   ============================================================ */
+
+{
+  id: 'EX-VUNESP-2026-01', tipo: 'REAL', area: 'LET', moduloId: 'POR-01',
+  subtema: 'Compreensão textual e inferência em tirinhas',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: 'Leia a tira da Turma do Linus (Charles M. Schulz, Peanuts completo, 2010):\n\n[Quadro 1] Menina: "Linus, se você jogar essa bola de neve em mim, eu vou contar pra mamãe!"\n[Quadro 2] (Som de impacto: POW! Linus joga a bola de neve nela).\n[Quadro 3] Menino: "Você jogou mesmo sabendo que ela ia dedurar?"\nLinus: "Claro... Quero que todo mundo saiba que eu tenho boa pontaria."\n[Quadro 4] Linus: "Onde mais eu ia conseguir essa publicidade gratuita?"\n\nA partir da leitura da tira, é correto afirmar que o garoto Linus atira a bola porque:',
+  alternativas: [
+    { id: 'A', texto: 'duvida que a menina vai cumprir a ameaça que fez de contar à mãe que foi alvejada.' },
+    { id: 'B', texto: 'tem a certeza de que seu amigo vai defendê-lo caso a mãe tome alguma atitude.' },
+    { id: 'C', texto: 'quer tornar pública sua habilidade, ainda que isso implique em levar uma bronca da mãe.' },
+    { id: 'D', texto: 'deseja mostrar para a garota que ela se irrita por coisas inofensivas e normais entre crianças.' },
+    { id: 'E', texto: 'tem vergonha de sua pontaria ruim e espera que a publicidade o ajude a esconder o fato.' }
+  ],
+  gabarito: 'C',
+  explicacao: {
+    correta: 'A alternativa C está correta. Linus joga a bola porque quer que "todo mundo saiba que eu tenho boa pontaria" e busca "publicidade gratuita", ou seja, ele quer exibir sua habilidade, mesmo sabendo da ameaça de levar bronca.',
+    incorretas: {
+      A: 'Ele não duvida da ameaça, tanto que diz "mesmo sabendo que ela ia dedurar".',
+      B: 'O texto não menciona que o amigo vai defendê-lo.',
+      D: 'O foco não é o que a garota pensa, mas sim o exibicionismo do Linus.',
+      E: 'Ele tem boa pontaria (acerta a bola nela) e não tem vergonha disso.'
+    },
+    conceitoCobrado: 'Inferência de humor e intenção em textos verbais e não verbais (tirinhas).',
+    pegadinha: 'A menina ameaça contar para a mãe, o que faz o leitor pensar que ele teria medo, mas a fala dele no último quadro revela que a vaidade superou o medo.',
+    comoApareceEmConcurso: 'VUNESP costuma usar tirinhas para testar a capacidade de cruzar linguagem verbal com a não verbal.'
+  },
+  tags: ['interpretação', 'tirinha', 'inferência']
+},
+
+{
+  id: 'EX-VUNESP-2026-02', tipo: 'REAL', area: 'GRA', moduloId: 'POR-12',
+  subtema: 'Valor semântico de conectivos e conjunções',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: 'Considere as frases extraídas da tira da VUNESP 2026:\n\nI. "Linus, SE você jogar essa bola em mim, eu vou contar pra mamãe!"\nII. "Você jogou MESMO sabendo que ela ia dedurar?"\n\nÉ correto afirmar que as palavras destacadas estabelecem, respectivamente, relações de sentido de:',
+  alternativas: [
+    { id: 'A', texto: 'condição e concessão.' },
+    { id: 'B', texto: 'hipótese e consequência.' },
+    { id: 'C', texto: 'concessão e adição.' },
+    { id: 'D', texto: 'condição e conclusão.' },
+    { id: 'E', texto: 'hipótese e adição.' }
+  ],
+  gabarito: 'A',
+  explicacao: {
+    correta: 'A alternativa A está correta. O "se" introduz uma oração subordinada adverbial condicional (uma condição para que a ameaça se cumpra). O "mesmo" atua como conjunção subordinativa concessiva, indicando uma quebra de expectativa (jogou a bola AINDA QUE soubesse da consequência).',
+    incorretas: {
+      B: 'O "se" pode indicar hipótese, mas no contexto é uma condição clara; e "mesmo" não indica consequência.',
+      C: 'O "se" não é concessivo.',
+      D: 'O "mesmo" não indica conclusão.',
+      E: 'O "mesmo" não indica adição.'
+    },
+    conceitoCobrado: 'Classificação e valor semântico das conjunções subordinativas adverbiais (condicional e concessiva).',
+    pegadinha: 'Confundir a palavra "mesmo" atuando como advérbio de afirmação (ex: "Eu mesmo fiz") com seu uso como conjunção concessiva ("mesmo sabendo").',
+    comoApareceEmConcurso: 'VUNESP costuma cobrar a relação lógica entre as orações.'
+  },
+  tags: ['conjunções', 'condição', 'concessão']
+},
+
+{
+  id: 'EX-VUNESP-2026-03', tipo: 'REAL', area: 'LET', moduloId: 'POR-19',
+  subtema: 'Reescrita de frases e equivalência de sentido',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: 'No 4º quadro da tira (VUNESP 2026), a frase "Onde mais eu ia conseguir essa publicidade gratuita?" pode ser reescrita, em conformidade com a norma-padrão e mantendo o sentido original, da seguinte forma:',
+  alternativas: [
+    { id: 'A', texto: 'Aonde eu ia conseguir essa publicidade gratuita?' },
+    { id: 'B', texto: 'Em que outro lugar eu ia conseguir essa publicidade gratuita?' },
+    { id: 'C', texto: 'Que lugar mais eu ia conseguir essa publicidade gratuita?' },
+    { id: 'D', texto: 'Qual outra situação eu ia conseguir essa publicidade gratuita?' },
+    { id: 'E', texto: 'Que outra forma eu ia conseguir essa publicidade gratuita?' }
+  ],
+  gabarito: 'B',
+  explicacao: {
+    correta: 'A alternativa B está correta. O termo "Onde mais" refere-se a lugar. A reescrita que preserva o sentido e a correção gramatical é "Em que outro lugar".',
+    incorretas: {
+      A: 'O verbo "conseguir" não exige a preposição "a" (movimento), mas sim "em". O correto seria "Onde" e não "Aonde".',
+      C: 'A construção é coloquial e não respeita a norma-padrão.',
+      D: 'Altera o sentido original de lugar para "situação".',
+      E: 'Altera o sentido original de lugar para "forma".'
+    },
+    conceitoCobrado: 'Equivalência semântica e adequação à norma culta (uso de onde/aonde).',
+    pegadinha: 'A troca de "onde" por "aonde", que é um erro comum, mas "aonde" só deve ser usado com verbos de movimento (ir a algum lugar).',
+    comoApareceEmConcurso: 'VUNESP exige reescritas que mantenham o sentido e a correção gramatical.'
+  },
+  tags: ['reescrita', 'equivalência semântica', 'onde']
+},
+
+{
+  id: 'EX-VUNESP-2026-04', tipo: 'REAL', area: 'LET', moduloId: 'POR-01',
+  subtema: 'Compreensão textual — tese do autor',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: 'Texto-base (VUNESP 2026 / UNIFESP):\n\nSimpatia pelo lobo\n\nO lobo é o grande bicho-papão das histórias infantis. Criatura da escuridão, de olhos amarelos e devorante boca, carrasco de inocentes – é o que nos asseguram as fábulas O lobo e o cordeiro (Esopo, La Fontaine), Chapeuzinho Vermelho (Charles Perrault, irmãos Grimm), Os três porquinhos (Joseph Jacobs), entre outras.\n\nNão é difícil entender a razão desse estigma: diferentemente das vacas, porcos e ovelhas, o lobo é um dos animais que, tal como a aranha e a serpente, recusaram a domesticação, permanecendo independentes do homem. Sobre esta escolha crucial temos o testemunho insuspeito de Esopo. Convidado pelo cão a trocar as agruras da liberdade pelas migalhas da servidão, ele retrucou: "Antes livre, mas faminto, do que gordo, mas cativo!".\n\nTendo rejeitado a civilização, o lobo seguiu seu caminho, irremediavelmente fiel à natureza. Daí ter se tornado a representação sensível da selvageria, dos instintos, dos subterrâneos da alma.\n\nA natureza sabe ser hostil, mas também sabe prover: foi uma loba etrusca que amamentou Rômulo e Remo. E ela, sobretudo, sabe ensinar. Como dizia seu aluno Leonardo da Vinci, todos "aqueles que tomam por mestre a outro que não seja a natureza, mestra de mestres, se esforçam em vão".\n\n(Mauricio Puls, Revista Quatro Cinco Um, outubro de 2020. Adaptado).\n\nEm relação às considerações feitas a respeito da figura do lobo nas fábulas, é correto afirmar que o autor do texto:',
+  alternativas: [
+    { id: 'A', texto: 'reafirma o estigma tradicional do lobo como inimigo do ser humano, mostrando que a literatura infantil reflete fielmente seu comportamento biológico.' },
+    { id: 'B', texto: 'apresenta o lobo como um ser que possui uma imagem negativa causada principalmente pelo seu afastamento da domesticação e da vida civilizada.' },
+    { id: 'C', texto: 'revela que o lobo é um ser tanto selvagem quanto obediente ao homem, como demonstram Esopo, grande autor de fábulas infantis.' },
+    { id: 'D', texto: 'busca relacionar a figura do lobo ao professor, que ensina com rigidez, de modo que o aluno entenda que o aprendizado é libertador.' },
+    { id: 'E', texto: 'propõe que o lobo deva ser entendido como um herói nas histórias infantis, já que é inimigo do ser humano, o qual está destruindo a natureza.' }
+  ],
+  gabarito: 'B',
+  explicacao: {
+    correta: 'A alternativa B está correta. O texto afirma explicitamente que o estigma existe porque o lobo "recusou a domesticação" e "rejeitou a civilização", tornando-se a "representação sensível da selvageria".',
+    incorretas: {
+      A: 'O autor não reafirma o estigma como uma verdade biológica; ele explica a origem cultural/antropológica dele.',
+      C: 'O texto diz que ele é independente, não obediente.',
+      D: 'A menção a Leonardo da Vinci e à natureza como mestra não relaciona o lobo a um professor rígido.',
+      E: 'O texto não propõe o lobo como herói; ele explica a visão negativa.'
+    },
+    conceitoCobrado: 'Identificação da tese e da argumentação do autor.',
+    pegadinha: 'A letra A parece correta porque o texto cita o estigma, mas o autor está explicando o porquê do estigma, não concordando que ele seja um mal biológico.',
+    comoApareceEmConcurso: 'VUNESP exige distinguir entre o que o autor relata (a visão das fábulas) e o que ele defende (a explicação da origem do estigma).'
+  },
+  tags: ['compreensão textual', 'tese']
+},
+
+{
+  id: 'EX-VUNESP-2026-05', tipo: 'REAL', area: 'LET', moduloId: 'POR-04',
+  subtema: 'Semântica — sinônimos contextuais',
+  dificuldade: 3, prioridade: 'alta',
+  enunciado: 'Considere os seguintes trechos do 2º parágrafo do texto "Simpatia pelo lobo" (VUNESP 2026):\n\n• "Não é difícil entender a razão desse estigma..."\n• "Convidado pelo cão a trocar as agruras da liberdade pelas migalhas da servidão..."\n\nÉ correto afirmar que as palavras destacadas têm como sinônimos, correta e respectivamente:',
+  alternativas: [
+    { id: 'A', texto: 'desdém e venturas.' },
+    { id: 'B', texto: 'problema e ternuras.' },
+    { id: 'C', texto: 'engano e vantagens.' },
+    { id: 'D', texto: 'vergonha e custos.' },
+    { id: 'E', texto: 'mácula e atribulações.' }
+  ],
+  gabarito: 'E',
+  explicacao: {
+    correta: 'A alternativa E está correta. No contexto, "estigma" refere-se a uma marca negativa, uma mácula. "Agruras" significa sofrimentos, dificuldades, atribulações (Nota: no PDF extraído consta "atribuicoes", o que é um erro de digitação do documento; o correto é "atribulações").',
+    incorretas: {
+      A: '"Venturas" significa sorte/felicidade, o oposto de agruras.',
+      B: '"Ternuras" significa carinho, o oposto de agruras.',
+      C: '"Engano" e "vantagens" não correspondem aos sentidos.',
+      D: '"Vergonha" e "custos" não capturam a ideia de mácula e sofrimento.'
+    },
+    conceitoCobrado: 'Identificação de sinônimos adequados ao contexto (estigma = mácula; agruras = atribulações).',
+    pegadinha: 'O erro de digitação do PDF ("atribuições" em vez de "atribulações") pode confundir, mas a análise das outras alternativas descarta todas as outras opções.',
+    comoApareceEmConcurso: 'VUNESP cobra vocabulário e contexto.'
+  },
+  tags: ['semântica', 'sinônimos', 'vocabulário']
+},
+
+{
+  id: 'EX-VUNESP-2026-06', tipo: 'REAL', area: 'GRA', moduloId: 'POR-18',
+  subtema: 'Pontuação — Uso dos dois-pontos',
+  dificuldade: 1, prioridade: 'alta',
+  enunciado: 'Em "A natureza sabe ser hostil, mas também sabe prover: foi uma loba etrusca que amamentou Rômulo e Remo" (4º parágrafo do texto "Simpatia pelo lobo" — VUNESP 2026), o sinal de dois-pontos foi empregado para introduzir uma:',
+  alternativas: [
+    { id: 'A', texto: 'enumeração.' },
+    { id: 'B', texto: 'citação.' },
+    { id: 'C', texto: 'conclusão.' },
+    { id: 'D', texto: 'explicação.' },
+    { id: 'E', texto: 'consequência.' }
+  ],
+  gabarito: 'D',
+  explicacao: {
+    correta: 'A alternativa D está correta. Os dois-pontos introduzem uma explicação ou justificativa para a afirmação anterior (a natureza sabe prover, e o exemplo da loba que amamentou Rômulo e Remo comprova/explica isso).',
+    incorretas: {
+      A: 'Não há uma lista de itens.',
+      B: 'Não há uma fala de outro autor entre aspas.',
+      C: 'Não é uma conclusão lógica (portanto).',
+      E: 'Não é uma consequência direta (tanto que).'
+    },
+    conceitoCobrado: 'Funções dos dois-pontos (introduzir explicação, enumeração, citação).',
+    pegadinha: 'A confusão entre conclusão e explicação. O fato da loba não é uma consequência da natureza prover, é um exemplo que explica como ela provê.',
+    comoApareceEmConcurso: 'VUNESP cobra a função sintática/semântica da pontuação.'
+  },
+  tags: ['pontuação', 'dois-pontos', 'explicação']
+},
+
+{
+  id: 'EX-VUNESP-2026-07', tipo: 'REAL', area: 'GRA', moduloId: 'POR-10',
+  subtema: 'Colocação pronominal (próclise, ênclise, mesóclise)',
+  dificuldade: 3, prioridade: 'alta',
+  enunciado: 'Assinale a alternativa em que o trecho do texto "Simpatia pelo lobo" (VUNESP 2026) foi reescrito em conformidade com a norma-padrão de colocação dos pronomes.',
+  alternativas: [
+    { id: 'A', texto: 'Não se trata de um estigma difícil de entender… (2º parágrafo)' },
+    { id: 'B', texto: '… o lobo é um dos animais que recusaram-se a se domesticar… (2º parágrafo)' },
+    { id: 'C', texto: 'Tendo negado-se a ser civilizado, o lobo seguiu seu caminho… (3º parágrafo)' },
+    { id: 'D', texto: 'Se tornou então a representação sensível da selvageria… (3º parágrafo)' },
+    { id: 'E', texto: '… foi uma loba etrusca que ocupou-se de Rômulo e Remo… (4º parágrafo)' }
+  ],
+  gabarito: 'A',
+  explicacao: {
+    correta: 'A alternativa A está correta. O pronome "se" está antes do verbo (próclise) devido à presença da palavra negativa "Não", que é um fator de atração. A frase original é "Não é difícil entender...", a reescrita com "Não se trata..." mantém a correção.',
+    incorretas: {
+      B: 'Erro. O pronome relativo "que" é fator de atração, exigindo próclise: "...que se recusaram...".',
+      C: 'Erro. Não se inicia oração com pronome oblíquo átono após gerúndio/particípio sem justificativa; o correto seria "Tendo-se negado" (ênclise no auxiliar) ou "Negando-se".',
+      D: 'Erro. Não se inicia frase com pronome oblíquo átono. O correto seria "Tornou-se então...".',
+      E: 'Erro. O "que" é pronome relativo (fator de atração), exigindo próclise: "...que se ocupou...".'
+    },
+    conceitoCobrado: 'Regras de colocação pronominal (fatores de próclise: palavras negativas, pronomes relativos; proibição de iniciar frase com pronome).',
+    pegadinha: 'A alternativa C tenta enganar com o gerúndio, mas a ênclise no particípio/gerúndio tem regras específicas.',
+    comoApareceEmConcurso: 'VUNESP cobra colocação pronominal aplicada a reescritas de trechos do texto.'
+  },
+  tags: ['colocação pronominal', 'próclise', 'ênclise']
+},
+
+{
+  id: 'EX-VUNESP-2026-08', tipo: 'REAL', area: 'LET', moduloId: 'POR-01',
+  subtema: 'Compreensão textual — causa e consequência',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: 'Texto-base (VUNESP 2026 / UNIFESP):\n\nRecrutamento automatizado amplia o "ghosting" e desumaniza processos seletivos\n\nO ghosting de recrutamento ocorre quando o recrutador de uma empresa simplesmente some, nas palavras de Luli Radfahrer, professor da Universidade de São Paulo. Isso depois de o candidato ter enviado o currículo e, às vezes, até ter feito entrevista e recebido alguma sinalização de que o contato será retomado, o que nunca acontece. "O problema é que isso deixou de ser exceção, virou regra. Não é mais um recrutador mal-educado aqui ou ali. É o sistema inteiro que funciona assim [...] Antigamente, uma vaga boa recebia 50, 100 currículos. Hoje pode receber milhares. O que acontece com isso é que as plataformas digitais eliminaram o contato humano do processo. Tem inteligência artificial fazendo triagem, robô agendando entrevista, sistema automático rejeitando gente. Para uma empresa ignorar 500 candidatos ficou muito mais fácil do que enviar manualmente 500 e-mails."\n\nPara piorar, segundo Radfahrer, muita candidatura nunca chega aos olhos humanos. "O algoritmo busca palavras-chave específicas, verifica o histórico educacional, se não bater com o que ele quer, tchau. Sem feedback, sem explicação. Tem empresa usando inteligência artificial que analisa a expressão facial, tom de voz e até a escolha de palavras em entrevista por vídeo. E aí rejeita sem ninguém assistir."\n\nÉ claro que existe também o outro lado da moeda, que é quando o candidato dá o troco e não aparece na entrevista, isso depois de aceitar a vaga. "Algumas empresas têm taxas altíssimas de ausência. É tipo uma vingança, mas cria um ciclo horrível, onde ninguém confia em ninguém. Todo mundo se trata mal, porque todo mundo acha que vai ser maltratado."\n\nFato é que não se pode ignorar os custos psicológicos e econômicos que isso acaba acarretando.\n\n(Jornal USP. Adaptado).\n\nDe acordo com o texto, o "ghosting" no recrutamento é explicado, sobretudo, por qual fator?',
+  alternativas: [
+    { id: 'A', texto: 'ao despreparo dos recrutadores, cuja má educação individual explica a maior parte dos sumiços relatados pelos candidatos.' },
+    { id: 'B', texto: 'à falta de transparência das empresas, que preferem ocultar informações aos candidatos para manter um suposto controle emocional sobre eles.' },
+    { id: 'C', texto: 'aos candidatos, cuja falta de comprometimento se tornou tão comum que obrigou as empresas a adotar sistemas automatizados de triagem e filtragem.' },
+    { id: 'D', texto: 'ao uso indiscriminado de tecnologias digitais, que automatizam etapas e reduzem o contato humano, transformando o desrespeito em prática comum.' },
+    { id: 'E', texto: 'à cultura de vingança que se estabeleceu entre recrutadores e candidatos, responsável por tornar os processos seletivos inevitavelmente hostis.' }
+  ],
+  gabarito: 'D',
+  explicacao: {
+    correta: 'A alternativa D está correta. O texto aponta que "as plataformas digitais eliminaram o contato humano", com "inteligência artificial fazendo triagem, robô agendando entrevista, sistema automático rejeitando gente", o que tornou a prática do ghosting mais fácil e comum (sistêmica).',
+    incorretas: {
+      A: 'O texto diz que "não é mais um recrutador mal-educado aqui ou ali", mas sim um problema sistêmico.',
+      B: 'O texto não fala sobre controle emocional, mas sobre automação.',
+      C: 'O texto coloca a automação como causa do ghosting, e não como reação à falta de comprometimento dos candidatos.',
+      E: 'A vingança é uma consequência do ghosting, não a causa dele.'
+    },
+    conceitoCobrado: 'Leitura e compreensão de texto argumentativo (identificação de causa e consequência).',
+    pegadinha: 'A letra E usa o termo "vingança", que está no texto, mas refere-se à reação dos candidatos e não à causa do ghosting pelas empresas.',
+    comoApareceEmConcurso: 'VUNESP exige diferenciar a causa de um problema das suas consequências.'
+  },
+  tags: ['compreensão textual', 'causa e consequência']
+},
+
+{
+  id: 'EX-VUNESP-2026-09', tipo: 'REAL', area: 'LET', moduloId: 'POR-04',
+  subtema: 'Denotação e conotação (sentido figurado)',
+  dificuldade: 1, prioridade: 'alta',
+  enunciado: 'No texto "Recrutamento automatizado amplia o ghosting..." (VUNESP 2026), a palavra destacada foi empregada em sentido figurado no trecho:',
+  alternativas: [
+    { id: 'A', texto: '"Isso depois de o candidato ter enviado o currículo e, às vezes, até ter feito entrevista…" (1º parágrafo)' },
+    { id: 'B', texto: '"O problema é que isso deixou de ser exceção, virou regra." (1º parágrafo)' },
+    { id: 'C', texto: '"Tem empresa usando inteligência artificial que analisa a expressão facial…" (2º parágrafo)' },
+    { id: 'D', texto: '"É claro que existe também o outro lado da moeda, que é quando o candidato dá o troco…" (3º parágrafo)' },
+    { id: 'E', texto: '"Fato é que não se pode ignorar os custos psicológicos e econômicos que isso acaba acarretando…" (4º parágrafo)' }
+  ],
+  gabarito: 'D',
+  explicacao: {
+    correta: 'A alternativa D está correta. A expressão "o outro lado da moeda" foi usada em sentido figurado (conotativo) para significar "a outra versão dos fatos" ou "o outro ponto de vista". Da mesma forma, "dá o troco" significa "vingar-se", e não dar dinheiro de volta.',
+    incorretas: {
+      A: '"enviado o currículo" e "feito entrevista" estão no sentido literal.',
+      B: '"virou regra" é uma expressão figurada leve, mas a letra D é muito mais evidente.',
+      C: '"expressão facial" está no sentido literal.',
+      E: '"custos psicológicos" é usado no sentido literal/técnico de prejuízos.'
+    },
+    conceitoCobrado: 'Identificação de expressões idiomáticas e sentido figurado.',
+    pegadinha: 'A letra B também tem um tom figurado, mas a metáfora da moeda e a expressão "dar o troco" são exemplos clássicos de conotação.',
+    comoApareceEmConcurso: 'VUNESP cobra a identificação de expressões do cotidiano usadas de forma figurada.'
+  },
+  tags: ['conotação', 'sentido figurado']
+},
+
+{
+  id: 'EX-VUNESP-2026-10', tipo: 'REAL', area: 'GRA', moduloId: 'POR-15',
+  subtema: 'Concordância verbal e nominal',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: 'A concordância nominal e verbal está em conformidade com a norma-padrão em:',
+  alternativas: [
+    { id: 'A', texto: 'Um professor fala das questões que foi observado em entrevistas de emprego.' },
+    { id: 'B', texto: 'Muitas entrevistas ocorrem sem que os entrevistados recebam quaisquer resposta depois.' },
+    { id: 'C', texto: 'A inteligência artificial já consegue avaliar candidatos que pleiteiam uma vaga de emprego.' },
+    { id: 'D', texto: 'Existe em algumas empresas taxas altíssimas de ausência dos candidatos às vagas.' },
+    { id: 'E', texto: 'Há certos custos psicológicos e econômicos que está envolvido na busca de um emprego.' }
+  ],
+  gabarito: 'C',
+  explicacao: {
+    correta: 'A alternativa C está correta. O sujeito "A inteligência artificial" (singular) concorda com o verbo "consegue" (singular). O verbo "avaliar" é transitivo direto e seu objeto "candidatos" é plural, e o verbo "pleiteiam" concorda com "candidatos".',
+    incorretas: {
+      A: 'Erro. O verbo "observar" deveria concordar com "questões" (foram observadas).',
+      B: 'Erro. "Quaisquer" é plural, mas o substantivo "resposta" está no singular. O correto seria "quaisquer respostas".',
+      D: 'Erro. O verbo "existir" é pessoal e deveria ir para o plural: "Existem... taxas".',
+      E: 'Erro. O verbo "estar" deveria concordar com "custos" (que estão envolvidos).'
+    },
+    conceitoCobrado: 'Regras de concordância nominal e verbal, especialmente com verbos impessoais (existir) e sujeito composto.',
+    pegadinha: 'A alternativa D tenta enganar trocando "haver" por "existir" (haver é impessoal e fica no singular, existir vai para o plural).',
+    comoApareceEmConcurso: 'VUNESP cobra a concordância aplicada a contextos reais.'
+  },
+  tags: ['concordância', 'verbos impessoais']
 }
 ];
