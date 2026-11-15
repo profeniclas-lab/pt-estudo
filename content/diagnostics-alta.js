@@ -1034,7 +1034,461 @@ window.DIAGNOSTICS_ALTA = {
         resposta: 'VERBAL: verbo concorda com o sujeito em número e pessoa. Composto anteposto: plural; posposto: singular ou plural. Partitivo: singular ou plural. Impessoais (haver, fazer): 3ª do singular. Porcentagem: concorda com o número ou com o determinante. "Mais de um": singular. "Um dos que": plural ou singular. Tratamento: 3ª pessoa. NOMINAL: adjetivo concorda com o substantivo. "É necessário" (sem artigo) invariável x "é necessária" (com artigo) variável. "Bastante": adjetivo (varia) x advérbio (invariável). "Meio": numeral (varia) x advérbio (invariável). "Anexo" (varia) x "em anexo" (não varia). Cores: adjetivo (invariável) x substantivo (invariável) x "cor de" (invariável).'
       }
     ]
-  }
+  },
+  /* ============================================================
+     POR-16 — Regência verbal e nominal
+  ============================================================ */
+  'POR-16': {
+    id: 'D-POR-16',
+    moduloId: 'POR-16',
+    itens: [
+      /* ---------- Item 1 (fácil) — MC clássica ---------- */
+      {
+        id: 'D-POR-16-01',
+        tipo: 'multipla_escolha',
+        subtopico: 'Regência verbal x regência nominal',
+        pergunta: 'Sobre a distinção entre regência verbal e regência nominal, assinale a alternativa CORRETA:',
+        alternativas: [
+          { id: 'A', texto: 'Regência verbal é a relação entre o verbo e seu complemento, sempre com preposição obrigatória; regência nominal é a relação entre o nome e seu complemento, sempre sem preposição.' },
+          { id: 'B', texto: 'Regência verbal é a relação entre o verbo e seu complemento, com ou sem preposição; regência nominal é a relação entre um nome e seu complemento, com preposição.' },
+          { id: 'C', texto: 'Regência verbal é a relação entre o verbo e seu sujeito, com ou sem preposição; regência nominal é a relação entre o nome e seu adjunto, com preposição.' },
+          { id: 'D', texto: 'Regência verbal e regência nominal são equivalentes: ambas se referem à concordância entre os termos da oração, com ou sem preposição.' },
+          { id: 'E', texto: 'Regência verbal é a concordância do verbo com o sujeito; regência nominal é a concordância do nome com o adjetivo, sem preposição.' }
+        ],
+        gabarito: 'B',
+        explicacao: 'REGÊNCIA VERBAL: relação entre VERBO e complemento, com preposição (indireto) ou sem (direto). REGÊNCIA NOMINAL: relação entre NOME (substantivo, adjetivo, advérbio) e complemento, sempre com preposição. A) generaliza "sempre" para ambos. C) confunde com sujeito/adjunto. D) confunde com concordância. E) confunde com concordância.'
+      },
 
+      /* ---------- Item 2 (fácil) — V/F simples ---------- */
+      {
+        id: 'D-POR-16-02',
+        tipo: 'verdadeiro_falso',
+        subtopico: 'Assistir (ver) x assistir (ajudar)',
+        pergunta: 'No sentido de "ver", o verbo "assistir" exige a preposição "a" ("Assisti ao filme"); no sentido de "ajudar", é transitivo direto, sem preposição ("O médico assistiu o paciente").',
+        alternativas: [
+          { id: 'V', texto: 'Verdadeiro' },
+          { id: 'F', texto: 'Falso' }
+        ],
+        gabarito: 'V',
+        explicacao: 'VERDADEIRO. "Assistir" tem regências distintas conforme o sentido: VER → "assistir A" (indireto — "Assisti AO filme"). AJUDAR → "assistir" direto ("O médico assistiu O paciente"). Também há "assistir EM" (morar — "assiste em Brasília") e "assistir A" (caber — "assiste AO juiz julgar"). A banca cobra a troca entre os sentidos.'
+      },
+
+      /* ---------- Item 3 (médio) — V/F sequencial ---------- */
+      {
+        id: 'D-POR-16-03',
+        tipo: 'multipla_escolha',
+        subtopico: 'Verbos com mais de uma regência',
+        pergunta: 'Julgue as afirmações sobre verbos com mais de uma regência:\n(__) "Aspirar" no sentido de "sorver" é transitivo direto ("Aspirei o perfume"); no sentido de "desejar", exige a preposição "a" ("Aspiro a um cargo público").\n(__) "Visar" no sentido de "mirar" é transitivo direto ("O atirador visou o alvo"); no sentido de "almejar", exige a preposição "a" ("A lei visa a proteger o cidadão").\n(__) "Implicar" no sentido de "acarretar" exige sempre a preposição "em", sem variação na norma culta ("A medida implica em custos").\n(__) "Proceder" no sentido de "originar-se" exige a preposição "de" ("O pedido procede de outra unidade").\nAssinale a alternativa com a sequência CORRETA, de cima para baixo:',
+        alternativas: [
+          { id: 'A', texto: 'V, V, V, V.' },
+          { id: 'B', texto: 'V, V, F, V.' },
+          { id: 'C', texto: 'V, F, V, V.' },
+          { id: 'D', texto: 'F, V, V, F.' },
+          { id: 'E', texto: 'F, F, V, V.' }
+        ],
+        gabarito: 'B',
+        explicacao: '(__1) V: aspirar (sorver) direto x aspirar (desejar) com "a". (__2) V: visar (mirar) direto x visar (almejar) com "a". (__3) F: "implicar" no sentido de acarretar ACEITA com e sem "em" — "implica custos" (preferível) ou "implica em custos" (tolerado). A norma culta não exige "sempre" o "em". (__4) V: proceder (originar-se) com "de".'
+      },
+
+      /* ---------- Item 4 (médio) — V/F simples ---------- */
+      {
+        id: 'D-POR-16-04',
+        tipo: 'verdadeiro_falso',
+        subtopico: 'Preferir',
+        pergunta: 'A norma culta admite as construções "Prefiro isto a aquilo" e "Prefiro isto do que aquilo", ambas corretas e equivalentes em registro formal.',
+        alternativas: [
+          { id: 'V', texto: 'Verdadeiro' },
+          { id: 'F', texto: 'Falso' }
+        ],
+        gabarito: 'F',
+        explicacao: 'FALSO. A norma culta admite apenas "Prefiro ISTO A AQUILO". A construção "Prefiro isto DO QUE aquilo" é considerada erro, por misturar duas estruturas. Também é errado "Prefiro MAIS isto" (redundância — o verbo já encerra a preferência). A banca cobra o uso correto da preposição "a".'
+      },
+
+      /* ---------- Item 5 (médio-difícil) — Situação ---------- */
+      {
+        id: 'D-POR-16-05',
+        tipo: 'situacao',
+        subtopico: 'Aplicação: corrigir regência em texto',
+        pergunta: 'Um candidato redigiu: "O servidor assistiu o filme e obedeceu o regulamento, mas preferiu mais o primeiro do que o segundo." Sobre a regência, é CORRETO afirmar que a frase contém:',
+        alternativas: [
+          { id: 'A', texto: 'Um único erro: "assistiu o filme" deveria ser "assistiu ao filme", pois "assistir" no sentido de "ver" exige a preposição "a".' },
+          { id: 'B', texto: 'Dois erros: "assistiu o filme" deveria ser "assistiu ao filme" (sentido de ver exige "a") e "obedeceu o regulamento" deveria ser "obedeceu ao regulamento" (obedecer exige "a").' },
+          { id: 'C', texto: 'Três erros: além dos erros em "assistir" e "obedecer", a construção "preferiu mais o primeiro do que o segundo" também deveria ser corrigida.' },
+          { id: 'D', texto: 'Apenas um erro: "preferiu mais o primeiro do que o segundo" deveria ser "preferiu o primeiro ao segundo", pois "preferir" exige a preposição "a", não "mais que".' },
+          { id: 'E', texto: 'Nenhum erro: a frase respeita integralmente a norma culta, pois todos os verbos foram usados em sentido corrente.' }
+        ],
+        gabarito: 'C',
+        explicacao: 'TRÊS ERROS: (1) "assistiu o filme" → "assistiu AO filme" (ver exige "a"); (2) "obedeceu o regulamento" → "obedeceu AO regulamento" (obedecer exige "a"); (3) "preferiu mais o primeiro do que o segundo" → "preferiu O PRIMEIRO AO SEGUNDO" (preferir exige "a", não "mais que"). A) omite dois erros. B) omite o erro de "preferir". D) omite os erros de "assistir" e "obedecer". E) nega os erros.'
+      },
+
+      /* ---------- Item 6 (difícil) — MC associação ---------- */
+      {
+        id: 'D-POR-16-06',
+        tipo: 'multipla_escolha',
+        subtopico: 'Associação: verbos e regências',
+        pergunta: 'Associe os verbos ao tipo de regência que exigem no sentido indicado:\n1 — Assistir (ver).\n2 — Aspirar (desejar).\n3 — Visar (almejar).\n4 — Obedecer.\nREGÊNCIAS\n( ) Transitivo indireto com "a".\n( ) Transitivo direto.\n( ) Transitivo indireto com "a" ou com "em", conforme o contexto.\n( ) Transitivo indireto com "a" ou direto, dependendo do sentido.\nA sequência CORRETA, de cima para baixo, é:',
+        alternativas: [
+          { id: 'A', texto: '1, 2, 3, 4.' },
+          { id: 'B', texto: '4, 1, 3, 2.' },
+          { id: 'C', texto: '2, 3, 4, 1.' },
+          { id: 'D', texto: '3, 4, 2, 1.' },
+          { id: 'E', texto: '4, 3, 2, 1.' }
+        ],
+        gabarito: 'B',
+        explicacao: 'OBEDECER (4) → sempre com "a" (transitivo indireto com "a"). ASSISTIR (ver) (1) → sempre com "a" (transitivo indireto com "a"). VISAR (almejar) (3) → com "a", mas admite variação conforme o contexto (transitivo indireto com "a"/"em"). ASPIRAR (desejar) (2) → com "a" quando desejar; sem "a" quando sorver (transitivo direto ou indireto, dependendo do sentido). Sequência: 4, 1, 3, 2.'
+      },
+
+      /* ---------- Item 7 (difícil-meta) — Autoavaliação ---------- */
+      {
+        id: 'D-POR-16-07',
+        tipo: 'autoavaliacao',
+        subtopico: 'Regência — distinções fundamentais',
+        pergunta: 'Você consegue, sem consultar, aplicar a regência dos principais verbos (assistir, aspirar, visar, implicar, proceder, obedecer, preferir, chegar/ir, lembrar/esquecer) e nomes (favorável a, atento a, contrário a, fiel a, próximo a, capaz de, digno de, hábil em, interesse em/por)?',
+        resposta: 'VERBOS: assistir (ver → a; ajudar → direto; morar → em; caber → a); aspirar (sorver → direto; desejar → a); visar (mirar → direto; almejar → a; pôr visto → direto); implicar (acarretar → direto ou "em"; envolver → em); proceder (originar-se → de; realizar → a; ter fundamento → direto); obedecer/desobedecer → sempre "a"; preferir → "a" (nunca "mais que"); chegar/ir → "a" (não "em" na norma culta); lembrar/esquecer (com pronome → "de"; sem pronome → direto). NOMES: favorável a, atento a, contrário a, fiel a, indiferente a, propenso a, próximo a/de, capaz de, digno de, hábil em, interesse em/por, orgulho de/por, satisfeito com/com.'
+      }
+    ]
+  },
+
+  /* ============================================================
+     POR-17 — Crase
+  ============================================================ */
+  'POR-17': {
+    id: 'D-POR-17',
+    moduloId: 'POR-17',
+    itens: [
+      /* ---------- Item 1 (fácil) — MC clássica ---------- */
+      {
+        id: 'D-POR-17-01',
+        tipo: 'multipla_escolha',
+        subtopico: 'Conceito de crase',
+        pergunta: 'Sobre o conceito de crase, assinale a alternativa CORRETA:',
+        alternativas: [
+          { id: 'A', texto: 'Crase é a fusão da preposição "a" com o artigo "a" (ou com pronomes demonstrativos "aquele/aquela/aquilo"), representada pelo acento grave.' },
+          { id: 'B', texto: 'Crase é a fusão de duas preposições "a", representada pelo acento grave e aplicada apenas a palavras femininas plurais.' },
+          { id: 'C', texto: 'Crase é a fusão da preposição "a" com o artigo "o", representada pelo acento grave e aplicada a palavras masculinas.' },
+          { id: 'D', texto: 'Crase é a fusão de duas vogais "a" em palavras compostas, sem relação com preposição ou artigo.' },
+          { id: 'E', texto: 'Crase é a fusão da preposição "de" com o artigo "a", representada pelo acento grave em expressões temporais.' }
+        ],
+        gabarito: 'A',
+        explicacao: 'CRASE = preposição "a" + artigo "a" (ou "aquele/aquela/aquilo"), marcada pelo acento grave (à, àquele, àquela, àquilo). B) não é fusão de duas preposições. C) não é com artigo "o" (masculino não admite crase). D) não é fusão de vogais em compostos. E) não é com a preposição "de".'
+      },
+
+      /* ---------- Item 2 (fácil) — V/F simples ---------- */
+      {
+        id: 'D-POR-17-02',
+        tipo: 'verdadeiro_falso',
+        subtopico: 'Nomes de lugar com e sem artigo',
+        pergunta: 'Em "Vou à Bahia", há crase porque o nome "Bahia" admite artigo feminino; em "Vou a Brasília", não há crase porque "Brasília" não admite artigo.',
+        alternativas: [
+          { id: 'V', texto: 'Verdadeiro' },
+          { id: 'F', texto: 'Falso' }
+        ],
+        gabarito: 'V',
+        explicacao: 'VERDADEIRO. "Bahia" admite artigo (a Bahia) — "Vou À Bahia" (a preposição + o artigo). "Brasília" NÃO admite artigo — "Vou A Brasília" (só a preposição). Teste: se eu voltar "DA Bahia" (tem "da", com artigo) x "DE Brasília" (sem artigo) — a primeira admite crase, a segunda não.'
+      },
+
+      /* ---------- Item 3 (médio) — V/F sequencial ---------- */
+      {
+        id: 'D-POR-17-03',
+        tipo: 'multipla_escolha',
+        subtopico: 'Casos obrigatórios, proibidos e facultativos',
+        pergunta: 'Julgue as afirmações sobre os casos de crase:\n(__) A crase é obrigatória antes de palavra feminina determinada que complete verbo ou nome que exige a preposição "a", como em "Assisti à peça".\n(__) A crase é proibida antes de palavras masculinas, verbos no infinitivo e pronomes pessoais, como em "Ando a pé", "Começou a estudar" e "Entreguei a ela".\n(__) A crase é facultativa antes de nomes próprios femininos e pronomes possessivos femininos, como em "Entreguei a/à Maria" e "Refiro-me a/à sua proposta".\n(__) A crase é obrigatória antes de "este/esta/esse/essa", como em "Refiro-me à esta norma".\nAssinale a alternativa com a sequência CORRETA, de cima para baixo:',
+        alternativas: [
+          { id: 'A', texto: 'V, V, V, V.' },
+          { id: 'B', texto: 'V, V, V, F.' },
+          { id: 'C', texto: 'V, F, V, V.' },
+          { id: 'D', texto: 'F, V, V, F.' },
+          { id: 'E', texto: 'V, V, F, F.' }
+        ],
+        gabarito: 'B',
+        explicacao: '(__1) V: obrigatória com feminino determinado + verbo/nome que exige "a". (__2) V: proibida antes de masculino, infinitivo e pronomes pessoais. (__3) V: facultativa antes de nomes próprios femininos e possessivos femininos. (__4) F: a crase é PROIBIDA antes de "este/esta/esse/essa" — "Refiro-me A esta norma". Só "aquele/aquela/aquilo" admite crase.'
+      },
+
+      /* ---------- Item 4 (médio) — V/F simples ---------- */
+      {
+        id: 'D-POR-17-04',
+        tipo: 'verdadeiro_falso',
+        subtopico: 'Crase antes de "aquele/aquela/aquilo"',
+        pergunta: 'A crase é obrigatória antes de "aquele/aquela/aquilo", como em "Referiu-se àquele caso" e "Entregou o documento àquela servidora".',
+        alternativas: [
+          { id: 'V', texto: 'Verdadeiro' },
+          { id: 'F', texto: 'Falso' }
+        ],
+        gabarito: 'V',
+        explicacao: 'VERDADEIRO. "Aquele/aquela/aquilo" admitem fusão com a preposição "a": "Referiu-se ÀQUELE caso" (a + aquele), "Entregou ÀQUELA servidora" (a + aquela). Não confundir com "este/esta/esse/essa", que NÃO admitem crase — "Refiro-me A esta norma" (sem acento).'
+      },
+
+      /* ---------- Item 5 (médio-difícil) — Situação ---------- */
+      {
+        id: 'D-POR-17-05',
+        tipo: 'situacao',
+        subtopico: 'Aplicação: identificar erro de crase',
+        pergunta: 'Um candidato redigiu: "O servidor assistiu à peça, mas não obedeceu à norma que exigia traje formal, indo à pé até o teatro." Sobre a crase, é CORRETO afirmar que a frase contém:',
+        alternativas: [
+          { id: 'A', texto: 'Um erro: "à pé" deveria ser "a pé", pois não há crase antes de palavra masculina (pé).' },
+          { id: 'B', texto: 'Dois erros: "à pé" deveria ser "a pé" (masculino) e "à peça" deveria ser "a peça" (verbo que não exige "a").' },
+          { id: 'C', texto: 'Três erros: "à pé" deveria ser "a pé", "à peça" deveria ser "a peça" e "à norma" deveria ser "a norma" (sem preposição).' },
+          { id: 'D', texto: 'Nenhum erro: as três crases estão corretas, pois todas são exigidas pelos verbos que as antecedem.' },
+          { id: 'E', texto: 'Um erro: "à norma" deveria ser "a norma", pois "obedecer" não exige preposição.' }
+        ],
+        gabarito: 'A',
+        explicacao: 'Erro único: "À PÉ" → "A PÉ" (palavra masculina não admite crase). As outras duas estão corretas: "assistiu À peça" (assistir = ver exige "a" + "a peça" feminina) e "não obedeceu À norma" (obedecer exige "a" + "a norma" feminina). B) "à peça" está correta. C) "à norma" está correta. D) há erro. E) "obedecer" exige "a".'
+      },
+
+      /* ---------- Item 6 (difícil) — MC complete lacunas ---------- */
+      {
+        id: 'D-POR-17-06',
+        tipo: 'multipla_escolha',
+        subtopico: 'Complete as lacunas com o uso correto de crase',
+        pergunta: 'Complete as lacunas com o uso ADEQUADO de crase:\n"O servidor assistiu ____ sessão plenária, mas não obedeceu ____ ordem de silêncio, o que gerou ____ advertência."',
+        alternativas: [
+          { id: 'A', texto: 'à / à / a.' },
+          { id: 'B', texto: 'a / a / a.' },
+          { id: 'C', texto: 'à / a / a.' },
+          { id: 'D', texto: 'a / à / à.' },
+          { id: 'E', texto: 'à / à / à.' }
+        ],
+        gabarito: 'C',
+        explicacao: '1ª lacuna: "assistiu À SESSÃO" (ver exige "a" + "a sessão" feminina determinada). 2ª lacuna: "não obedeceu A ORDEM" (obedecer exige "a", mas o termo é feminino indeterminado — "ordem", sem artigo, ou com ideia genérica; aqui o "a" é só preposição). 3ª lacuna: "gerou A ADVERTÊNCIA" (verbo "gerar" é transitivo direto — não exige preposição; apenas o artigo "a" — sem crase).'
+      },
+
+      /* ---------- Item 7 (difícil-meta) — Autoavaliação ---------- */
+      {
+        id: 'D-POR-17-07',
+        tipo: 'autoavaliacao',
+        subtopico: 'Crase — distinções fundamentais',
+        pergunta: 'Você consegue, sem consultar, aplicar os casos de crase obrigatória, proibida e facultativa, fazer o teste de troca por masculino, e reconhecer a diferença entre "a" (preposição) e "à" (crase)?',
+        resposta: 'CRASE = preposição "a" + artigo "a" (ou "aquele/aquela/aquilo"). TESTE: trocar a palavra feminina por masculina — se aparecer "ao", há crase; se não, não há. OBRIGATÓRIA: feminino determinado, locuções ("à tarde", "às vezes"), horas ("às 8h"), nomes de lugar com artigo ("à Bahia"). PROIBIDA: masculino ("a pé"), verbo ("a estudar"), palavra indeterminada ("a mulheres"), pronomes (exceto "aquele"), "uma", cidade sem artigo ("a Brasília"). FACULTATIVA: nomes próprios femininos ("a/à Maria"), possessivos femininos ("a/à sua proposta"), depois de "até" ("até a/à praça"). "Aquele" → crase. "Este/esse" → sem crase.'
+      }
+    ]
+  },
+
+  /* ============================================================
+     POR-18 — Pontuação
+  ============================================================ */
+  'POR-18': {
+    id: 'D-POR-18',
+    moduloId: 'POR-18',
+    itens: [
+      /* ---------- Item 1 (fácil) — MC clássica ---------- */
+      {
+        id: 'D-POR-18-01',
+        tipo: 'multipla_escolha',
+        subtopico: 'Uso da vírgula',
+        pergunta: 'Sobre o uso da vírgula, assinale a alternativa CORRETA:',
+        alternativas: [
+          { id: 'A', texto: 'A vírgula deve ser usada entre sujeito e verbo para indicar pausa respiratória, como em "O servidor, protocolou o pedido".' },
+          { id: 'B', texto: 'A vírgula separa termos de mesma função, isola apostos, vocativos, orações deslocadas e explicativas, mas NÃO deve separar sujeito e verbo, verbo e complemento, nem nome e complemento.' },
+          { id: 'C', texto: 'A vírgula deve ser usada sempre que houver pausa na leitura, independentemente da função sintática dos termos, como em "O diretor, chegou cedo".' },
+          { id: 'D', texto: 'A vírgula deve ser usada para separar sujeito, verbo e complemento em todos os casos, pois marca a estrutura da oração.' },
+          { id: 'E', texto: 'A vírgula é opcional em qualquer contexto: o autor decide onde usá-la, sem regra sintática que a discipline.' }
+        ],
+        gabarito: 'B',
+        explicacao: 'A vírgula separa termos DESLOCADOS ou de mesma função (enumeração, aposto, vocativo, orações deslocadas, explicativas), mas NÃO separa sujeito e verbo, verbo e complemento, nome e complemento. A) erro clássico (sujeito-verbo). C) vírgula não é pausa respiratória. D) contraria a regra. E) há regra sintática.'
+      },
+
+      /* ---------- Item 2 (fácil) — V/F simples ---------- */
+      {
+        id: 'D-POR-18-02',
+        tipo: 'verdadeiro_falso',
+        subtopico: 'Oração adjetiva explicativa x restritiva',
+        pergunta: 'Em "Os servidores, que estudaram muito, foram aprovados", a oração "que estudaram muito" é explicativa e a vírgula indica que TODOS os servidores estudaram e foram aprovados; sem as vírgulas, seria restritiva ("apenas os que estudaram").',
+        alternativas: [
+          { id: 'V', texto: 'Verdadeiro' },
+          { id: 'F', texto: 'Falso' }
+        ],
+        gabarito: 'V',
+        explicacao: 'VERDADEIRO. A vírgula muda o sentido: EXPLICATIVA (com vírgulas) — comenta o antecedente, indicando que todos estudaram e foram aprovados. RESTRITIVA (sem vírgulas) — restringe o antecedente, indicando que apenas os que estudaram foram aprovados. É a regra mais cobrada em pontuação.'
+      },
+
+      /* ---------- Item 3 (médio) — V/F sequencial ---------- */
+      {
+        id: 'D-POR-18-03',
+        tipo: 'multipla_escolha',
+        subtopico: 'Vírgula: usos e erros',
+        pergunta: 'Julgue as afirmações sobre o uso da vírgula:\n(__) A vírgula isola aposto explicativo, como em "O servidor, homem dedicado, foi elogiado".\n(__) A vírgula isola vocativo, como em "Servidor, atenção ao prazo".\n(__) A vírgula deve ser usada antes de oração adjetiva restritiva, como em "Os servidores, que estudaram, foram aprovados" (restringindo o grupo).\n(__) A vírgula isola oração adverbial deslocada, como em "Quando o diretor chegou, todos se levantaram".\nAssinale a alternativa com a sequência CORRETA, de cima para baixo:',
+        alternativas: [
+          { id: 'A', texto: 'V, V, V, V.' },
+          { id: 'B', texto: 'V, V, F, V.' },
+          { id: 'C', texto: 'V, F, V, V.' },
+          { id: 'D', texto: 'F, V, V, F.' },
+          { id: 'E', texto: 'F, F, V, V.' }
+        ],
+        gabarito: 'B',
+        explicacao: '(__1) V: aposto explicativo — vírgula correta. (__2) V: vocativo — vírgula correta. (__3) F: a vírgula NÃO deve ser usada antes de adjetiva RESTRITIVA — se a intenção é restringir, é "Os servidores que estudaram foram aprovados" (sem vírgulas). Com vírgulas, a oração é EXPLICATIVA, não restritiva. (__4) V: oração adverbial deslocada — vírgula correta.'
+      },
+
+      /* ---------- Item 4 (médio) — V/F simples ---------- */
+      {
+        id: 'D-POR-18-04',
+        tipo: 'verdadeiro_falso',
+        subtopico: 'Ponto e vírgula',
+        pergunta: 'O ponto e vírgula separa orações longas ou itens de enumeração complexos, com pausa mais forte que a vírgula e mais fraca que o ponto final, como em "O art. 5º dispõe sobre direitos; o art. 6º, sobre deveres".',
+        alternativas: [
+          { id: 'V', texto: 'Verdadeiro' },
+          { id: 'F', texto: 'Falso' }
+        ],
+        gabarito: 'V',
+        explicacao: 'VERDADEIRO. O PONTO E VÍRGULA separa orações longas ou itens de enumeração complexos (em leis, por exemplo). Pausa intermediária: mais forte que a vírgula, mais fraca que o ponto. Também usado entre itens de uma enumeração que já contêm vírgulas internas.'
+      },
+
+      /* ---------- Item 5 (médio-difícil) — Situação ---------- */
+      {
+        id: 'D-POR-18-05',
+        tipo: 'situacao',
+        subtopico: 'Aplicação: corrigir pontuação',
+        pergunta: 'Um candidato redigiu: "O servidor, chegou cedo ao órgão e protocolou o pedido, mas o chefe, não estava presente." Sobre a pontuação, é CORRETO afirmar que a frase contém:',
+        alternativas: [
+          { id: 'A', texto: 'Um erro: a primeira vírgula (após "servidor") deveria ser removida, mas a segunda (após "chefe") está correta.' },
+          { id: 'B', texto: 'Dois erros: a primeira vírgula (após "servidor") e a segunda (após "chefe") separam indevidamente sujeito e verbo.' },
+          { id: 'C', texto: 'Três erros: a primeira vírgula, a segunda e a vírgula antes de "mas" comprometem a estrutura da frase.' },
+          { id: 'D', texto: 'Nenhum erro: a frase respeita as regras de pontuação, pois as vírgulas marcam pausas respiratórias.' },
+          { id: 'E', texto: 'Um erro: a vírgula antes de "mas" deveria ser substituída por ponto final, e as demais estão corretas.' }
+        ],
+        gabarito: 'B',
+        explicacao: 'DOIS ERROS: (1) "O servidor, chegou cedo" — vírgula separa SUJEITO e VERBO (erro). (2) "o chefe, não estava presente" — vírgula separa SUJEITO e VERBO (erro). A vírgula antes de "mas" é CORRETA (oração coordenada adversativa). A) a segunda também é erro. C) a vírgula antes de "mas" está correta. D) as vírgulas não são "pausas respiratórias". E) a vírgula antes de "mas" não precisa ser trocada por ponto.'
+      },
+
+      /* ---------- Item 6 (difícil) — MC I/II/III ---------- */
+      {
+        id: 'D-POR-18-06',
+        tipo: 'multipla_escolha',
+        subtopico: 'Análise de pontuação em contexto',
+        pergunta: 'Sobre a pontuação, analise:\nI — Em "O diretor, que chegou cedo, cumprimentou os servidores", a oração "que chegou cedo" é explicativa (todos os diretores chegaram cedo).\nII — Em "O diretor que chegou cedo cumprimentou os servidores", a oração "que chegou cedo" é restritiva (apenas o diretor que chegou cedo cumprimentou).\nIII — Em "Estudou muito, portanto foi aprovado", a vírgula antes de "portanto" está correta, pois isola oração coordenada conclusiva.\nEstá CORRETO apenas o que se afirma em:',
+        alternativas: [
+          { id: 'A', texto: 'I.' },
+          { id: 'B', texto: 'II.' },
+          { id: 'C', texto: 'III.' },
+          { id: 'D', texto: 'I e II.' },
+          { id: 'E', texto: 'I, II e III.' }
+        ],
+        gabarito: 'E',
+        explicacao: 'Todas corretas. I: com vírgulas = explicativa (comenta o antecedente). II: sem vírgulas = restritiva (restringe o antecedente). III: a vírgula antes de "portanto" isola a coordenada conclusiva — correta. A pontuação altera o sentido: explicativa x restritiva; conclusiva isolada por vírgula.'
+      },
+
+      /* ---------- Item 7 (difícil-meta) — Autoavaliação ---------- */
+      {
+        id: 'D-POR-18-07',
+        tipo: 'autoavaliacao',
+        subtopico: 'Pontuação — distinções fundamentais',
+        pergunta: 'Você consegue, sem consultar, aplicar as regras de vírgula, ponto e vírgula, dois-pontos, travessão, parênteses e aspas, e distinguir oração adjetiva explicativa de restritiva?',
+        resposta: 'VÍRGULA: separa termos de mesma função, aposto, vocativo, orações deslocadas e explicativas. NÃO use entre sujeito e verbo, verbo e complemento, nome e complemento, nem antes de adjetiva restritiva, consecutiva, final. EXPLICATIVA (com vírgula) x RESTRITIVA (sem vírgula) — muda o sentido. PONTO E VÍRGULA: orações longas ou itens de enumeração complexos. DOIS-PONTOS: explicação, enumeração, fala, consequência. TRAVESSÃO: isola termo intercalado; introduz fala. PARÊNTESES: isola comentário acessório. ASPAS: citação, estrangeirismo, ironia.'
+      }
+    ]
+  },
+
+  /* ============================================================
+     POR-19 — Reescrita de frases e equivalência de sentido
+  ============================================================ */
+  'POR-19': {
+    id: 'D-POR-19',
+    moduloId: 'POR-19',
+    itens: [
+      /* ---------- Item 1 (fácil) — MC clássica ---------- */
+      {
+        id: 'D-POR-19-01',
+        tipo: 'multipla_escolha',
+        subtopico: 'Conceito de reescrita',
+        pergunta: 'Sobre a reescrita de frases, assinale a alternativa CORRETA:',
+        alternativas: [
+          { id: 'A', texto: 'Reescrever é dizer o MESMO conteúdo com OUTRAS palavras, mantendo o sentido global e a correção gramatical do original.' },
+          { id: 'B', texto: 'Reescrever é dizer um conteúdo DIFERENTE com as MESMAS palavras do original, alterando o sentido para evitar repetição.' },
+          { id: 'C', texto: 'Reescrever é dizer o MESMO conteúdo com as MESMAS palavras, mantendo a estrutura sintática original intacta.' },
+          { id: 'D', texto: 'Reescrever é alterar livremente o conteúdo do original, desde que a nova frase seja gramaticalmente correta.' },
+          { id: 'E', texto: 'Reescrever é substituir palavras por sinônimos, ainda que isso altere o sentido global da frase original.' }
+        ],
+        gabarito: 'A',
+        explicacao: 'REESCRITA: MESMO conteúdo + OUTRAS palavras + sentido preservado + correção gramatical. B) conteúdo diferente não é reescrita. C) mesmas palavras não é reescrita (é repetição). D) alterar conteúdo não é reescrita. E) alterar sentido não é reescrita.'
+      },
+
+      /* ---------- Item 2 (fácil) — V/F simples ---------- */
+      {
+        id: 'D-POR-19-02',
+        tipo: 'verdadeiro_falso',
+        subtopico: 'Transposição de voz',
+        pergunta: 'A transposição de voz ativa para passiva, como em "O servidor protocolou o pedido" → "O pedido foi protocolado pelo servidor", é exemplo de reescrita que mantém o sentido original.',
+        alternativas: [
+          { id: 'V', texto: 'Verdadeiro' },
+          { id: 'F', texto: 'Falso' }
+        ],
+        gabarito: 'V',
+        explicacao: 'VERDADEIRO. A transposição de voz (ativa → passiva) mantém o sentido global: o agente (servidor) e a ação (protocolar) permanecem; muda apenas a perspectiva (sujeito x agente da passiva). Desde que o tempo verbal e o agente sejam preservados, é reescrita correta.'
+      },
+
+      /* ---------- Item 3 (médio) — V/F sequencial ---------- */
+      {
+        id: 'D-POR-19-03',
+        tipo: 'multipla_escolha',
+        subtopico: 'Reescrita com conectivos',
+        pergunta: 'Julgue as afirmações sobre reescrita com substituição de conectivos:\n(__) "Estudou muito, por isso passou" → "Como estudou muito, passou": mantém a relação de causa/consequência.\n(__) "Estudou muito, por isso passou" → "Embora tenha estudado muito, passou": mantém a relação de causa/consequência.\n(__) "Não veio porque adoeceu" → "Não veio, pois adoeceu": mantém a relação de causa.\n(__) "Estudou muito, mas não passou" → "Estudou muito, embora não tenha passado": mantém a relação de oposição.\nAssinale a alternativa com a sequência CORRETA, de cima para baixo:',
+        alternativas: [
+          { id: 'A', texto: 'V, V, V, V.' },
+          { id: 'B', texto: 'V, F, V, F.' },
+          { id: 'C', texto: 'V, F, V, V.' },
+          { id: 'D', texto: 'F, V, V, F.' },
+          { id: 'E', texto: 'F, F, V, V.' }
+        ],
+        gabarito: 'B',
+        explicacao: '(__1) V: "como" mantém a relação causal. (__2) F: "embora" introduz CONCESSÃO — não mantém a relação causal. (__3) V: "pois" mantém causa. (__4) F: "embora" (concessão) NÃO mantém a relação de OPOSIÇÃO ("mas"). "Mas" = oposição; "embora" = concessão. A reescrita muda a relação.'
+      },
+
+      /* ---------- Item 4 (médio) — V/F simples ---------- */
+      {
+        id: 'D-POR-19-04',
+        tipo: 'verdadeiro_falso',
+        subtopico: 'Reescrita que altera sentido',
+        pergunta: 'A reescrita "O diretor informou ao servidor que seu pedido foi negado" → "O diretor informou ao servidor que o pedido deste foi negado" mantém o sentido original, apenas eliminando a ambiguidade do pronome "seu".',
+        alternativas: [
+          { id: 'V', texto: 'Verdadeiro' },
+          { id: 'F', texto: 'Falso' }
+        ],
+        gabarito: 'V',
+        explicacao: 'VERDADEIRO. A reescrita mantém o conteúdo (o pedido do servidor foi negado) e elimina a ambiguidade de "seu" (que poderia se referir ao diretor ou ao servidor). É reescrita correta: preserva o sentido + clareia a referência.'
+      },
+
+      /* ---------- Item 5 (médio-difícil) — Situação ---------- */
+      {
+        id: 'D-POR-19-05',
+        tipo: 'situacao',
+        subtopico: 'Aplicação: identificar reescrita INCORRETA',
+        pergunta: 'Considere a frase original: "O servidor estudou muito, por isso foi aprovado no concurso." Qual das reescritas ALTERA o sentido original?',
+        alternativas: [
+          { id: 'A', texto: '"Como o servidor estudou muito, foi aprovado no concurso."' },
+          { id: 'B', texto: '"O servidor foi aprovado no concurso porque estudou muito."' },
+          { id: 'C', texto: '"O servidor estudou muito; por conseguinte, foi aprovado no concurso."' },
+          { id: 'D', texto: '"Embora o servidor tenha estudado muito, foi aprovado no concurso."' },
+          { id: 'E', texto: '"O servidor estudou muito e, em razão disso, foi aprovado no concurso."' }
+        ],
+        gabarito: 'D',
+        explicacao: 'A original tem relação de CAUSA/CONSEQUÊNCIA (estudou → aprovado). "EMBORA" introduz CONCESSÃO — o estudo passa a ser tratado como fato que NÃO impediu a aprovação (relação oposta). As demais (A, B, C, E) mantêm a relação causal: "como" (causa), "porque" (causa), "por conseguinte" (consequência), "em razão disso" (consequência).'
+      },
+
+      /* ---------- Item 6 (difícil) — MC I/II/III ---------- */
+      {
+        id: 'D-POR-19-06',
+        tipo: 'multipla_escolha',
+        subtopico: 'Análise de reescritas',
+        pergunta: 'Sobre a reescrita da frase "O órgão publicou o edital, mas a empresa não se inscreveu", analise:\nI — "O edital foi publicado pelo órgão, mas a empresa não se inscreveu" mantém o sentido, com transposição de voz.\nII — "Embora o órgão tenha publicado o edital, a empresa não se inscreveu" mantém a relação de oposição.\nIII — "O órgão publicou o edital, portanto a empresa não se inscreveu" mantém a relação de oposição.\nEstá CORRETO apenas o que se afirma em:',
+        alternativas: [
+          { id: 'A', texto: 'I.' },
+          { id: 'B', texto: 'II.' },
+          { id: 'C', texto: 'III.' },
+          { id: 'D', texto: 'I e II.' },
+          { id: 'E', texto: 'II e III.' }
+        ],
+        gabarito: 'D',
+        explicacao: 'I correta: transposição de voz (ativa → passiva) mantém sentido. II correta: "embora" (concessão) preserva a relação de contraste (o edital foi publicado, mas a empresa não se inscreveu). III errada: "portanto" (conclusão) NÃO mantém a relação de OPOSIÇÃO — a empresa não se inscreveu por causa da publicação? A relação original é de CONTRASTE, não de conclusão.'
+      },
+
+      /* ---------- Item 7 (difícil-meta) — Autoavaliação ---------- */
+      {
+        id: 'D-POR-19-07',
+        tipo: 'autoavaliacao',
+        subtopico: 'Reescrita — distinções fundamentais',
+        pergunta: 'Você consegue, sem consultar, reescrever frases mantendo o sentido original e a correção gramatical (com transposição de voz, substituição de conectivos, reorganização sintática) e identificar reescritas que alteram o sentido ou contêm erro?',
+        resposta: 'REESCRITA: mesmo sentido + outras palavras + correção gramatical. TRANSPOSIÇÃO DE VOZ: ativa ↔ passiva, mantendo agente, tempo e sentido. SUBSTITUIÇÃO DE CONECTIVOS: manter a relação (causa → porque/como; conclusão → portanto; concessão → embora; oposição → mas). NOMINALIZAÇÃO: verbo → substantivo. Verificar sempre: (a) concordância; (b) regência; (c) crase; (d) pontuação; (e) manutenção do sentido. Erros que quebram a equivalência: trocar causa por consequência; trocar concessão por oposição; mudar o tempo verbal; mudar o agente; suprimir informação essencial; criar ambiguidade.'
+      }
+    ]
+  }
    
 };
