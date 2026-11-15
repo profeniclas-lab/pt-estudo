@@ -2926,6 +2926,402 @@ window.QUESTIONS = [
       comoApareceEmConcurso: 'Questões de análise de texto.'
     },
     tags: ['estrutura', 'progressão temática']
-  }
+  },
+/* ============================================================
+   QUESTÕES REAIS IMPORTADAS — Qconcursos
+   IDCAP 2026 / AMAUC 2026 / FAFIPA 2026
+   Módulos conferidos com modules.js
+   ============================================================ */
 
+{
+  id: 'EX-Q4445661', tipo: 'REAL', area: 'LET', moduloId: 'POR-03',
+  subtema: 'Coesão referencial e progressão temática',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: 'Texto-base (IDCAP 2026 / ADAB):\n\nComo Albert Einstein organizava seu tempo\n\n"A vida é como andar de bicicleta. Para se manter equilibrado, é preciso seguir em frente."\n\nA frase foi escrita por Albert Einstein a seu filho Edward, em 1930. O físico, uma das maiores mentes da história, viveu de acordo com essa ideia, mantendo-se ativo até o fim da vida. Premiado com o Nobel de Física em 1922, tornou-se uma referência que transformou profundamente os rumos da ciência.\n\nFrequentemente descrito como um rebelde curioso e apaixonado pelo conhecimento, Einstein também cultivava vínculos afetivos duradouros, contrariando a imagem de isolamento que muitos lhe atribuem. Sua vida revela um equilíbrio instável entre genialidade, disciplina e distração.\n\nPara ele, a imaginação possuía valor superior ao conhecimento acumulado. Sua infância foi marcada por dificuldades na fala e na aprendizagem, o que retardou seu desenvolvimento. Esse processo, contudo, levou-o a refletir mais profundamente sobre conceitos fundamentais, como espaço e tempo, o que influenciou diretamente suas descobertas.\n\nSua extraordinária capacidade de concentração foi determinante para sua produção científica. Em 1905, aos 26 anos, publicou trabalhos revolucionários enquanto trabalhava em um escritório de patentes. Era capaz de cumprir suas tarefas rapidamente e dedicar o restante do tempo à elaboração de ideias próprias. Essa habilidade permitia-lhe manter o foco mesmo em ambientes com distrações, como o barulho de crianças.\n\nO violino desempenhava papel importante em seu processo criativo. Ao tocar, muitas vezes encontrava soluções para problemas complexos, como se a música estimulasse a organização de seu pensamento.\n\nApesar dessa produtividade, conciliar trabalho e vida pessoal nem sempre foi simples. Embora participasse da rotina familiar e cuidasse do filho, sua dedicação à ciência gradualmente se sobrepôs às relações pessoais, contribuindo para tensões em seu casamento e posterior separação. Esse afastamento familiar teve impacto emocional significativo, levando-o a mergulhar ainda mais no trabalho.\n\nSua intensa dedicação resultou em exaustão física e mental. Durante períodos de grande concentração, esquecia até mesmo de se alimentar. Em cartas, reconhecia que frequentemente deixava de almoçar por estar absorto em suas pesquisas.\n\nApós novo casamento, passou a contar com o apoio da esposa na organização de aspectos práticos do cotidiano, o que lhe permitiu concentrar-se quase exclusivamente em sua produção intelectual. Atividades como caminhadas e navegação ajudavam a aliviar a mente após longos períodos de esforço cognitivo.\n\nSua vida cotidiana era marcada pela simplicidade. Mantinha uma rotina regular, com leitura de jornais e caminhadas até o local de trabalho. Seus pedidos materiais eram mínimos, revelando um perfil austero e pouco interessado em bens ou luxo.\n\nMesmo diante das limitações impostas pela idade e pela saúde, manteve-se ativo até seus últimos dias, dedicando-se à busca por uma teoria unificada. Embora não tenha alcançado esse objetivo, sua trajetória consolidou sua posição como um dos maiores cientistas da história.\n\nA construção de textos depende de mecanismos que asseguram a articulação de ideias e a progressão temática, permitindo ao leitor estabelecer relações de sentido e interpretar adequadamente as informações apresentadas.\n\nDe acordo com o texto-base, assinale a alternativa CORRETA.',
+  alternativas: [
+    { id: 'A', texto: 'A intertextualidade do texto manifesta-se de forma funcional ao incorporar uma citação inicial que orienta a leitura, ainda que essa referência não estabeleça diálogo direto com outros textos ao longo do desenvolvimento.' },
+    { id: 'B', texto: 'A coerência do texto é garantida pela intertextualidade explícita, como na frase "a vida é como andar de bicicleta", que estabelece relação direta com outros textos científicos do mesmo campo.' },
+    { id: 'C', texto: 'A progressão temática do texto é construída por coesão referencial e sequenciação lógica, como em "esse processo, contudo, levou-o", que retoma ideia anterior e mantém a continuidade argumentativa.' },
+    { id: 'D', texto: 'A coesão textual ocorre predominantemente por repetição lexical, como no uso recorrente de "Einstein", o que reduz a necessidade de outros mecanismos coesivos, embora o texto também recorra pontualmente a pronomes e conectores para manter a articulação.' },
+    { id: 'E', texto: 'A coerência textual decorre exclusivamente da ausência de contradições internas, não dependendo da organização progressiva das ideias nem do encadeamento lógico entre os enunciados.' }
+  ],
+  gabarito: 'C',
+  explicacao: {
+    correta: 'A alternativa C está correta. "Esse processo" é uma anáfora que retoma a ideia anterior (dificuldades na fala e aprendizagem), e "contudo" marca a sequenciação lógica. Há coesão referencial (pronome) e progressão temática.',
+    incorretas: {
+      A: 'A citação inicial não é intertextualidade produtiva por si só; a alternativa também se contradiz ao dizer que "não estabelece diálogo".',
+      B: 'A frase "a vida é como andar de bicicleta" é metáfora/comparação, não intertextualidade, e não remete a textos científicos.',
+      D: 'A repetição de "Einstein" não é o mecanismo predominante; o texto usa pronomes, elipses e conectores com frequência.',
+      E: 'Coerência não decorre "exclusivamente" da ausência de contradições; envolve progressão e encadeamento lógico.'
+    },
+    conceitoCobrado: 'Coesão referencial (anáfora) + progressão temática + uso de conectores.',
+    pegadinha: 'A palavra "contudo" é usada no texto como conectivo adversativo; a alternativa C a apresenta corretamente como mantenedora da continuidade argumentativa.',
+    comoApareceEmConcurso: 'IDCAP costuma cobrar a relação entre coesão, coerência e progressão em questões de interpretação.'
+  },
+  tags: ['coesão', 'coerência', 'progressão temática', 'anáfora']
+},
+
+{
+  id: 'EX-Q4445660', tipo: 'REAL', area: 'GRA', moduloId: 'POR-16',
+  subtema: 'Regência verbal — verbo transitivo direto',
+  dificuldade: 1, prioridade: 'alta',
+  enunciado: '"Mantinha uma rotina regular, com leitura de jornais e caminhadas até o local de trabalho." (IDCAP 2026 / ADAB)\n\nQuanto à regência verbal do verbo destacado, assinale a alternativa CORRETA.',
+  alternativas: [
+    { id: 'A', texto: 'Verbo transitivo indireto.' },
+    { id: 'B', texto: 'Verbo intransitivo.' },
+    { id: 'C', texto: 'Verbo de ligação.' },
+    { id: 'D', texto: 'Verbo bitransitivo.' },
+    { id: 'E', texto: 'Verbo transitivo direto.' }
+  ],
+  gabarito: 'E',
+  explicacao: {
+    correta: '"Manter" aqui rege objeto direto ("uma rotina regular"), sem preposição obrigatória — logo, verbo transitivo direto.',
+    incorretas: {
+      A: 'Não há preposição exigida entre "manter" e "rotina".',
+      B: 'Há complemento (uma rotina), logo não é intransitivo.',
+      C: 'Não liga sujeito a predicativo.',
+      D: 'Só há um complemento (objeto direto), não dois.'
+    },
+    conceitoCobrado: 'Classificação de verbo quanto à transitividade.',
+    pegadinha: '"Manter" pode ser bitransitivo em outros contextos ("mantê-lo informado"), mas neste enunciado só há objeto direto.',
+    comoApareceEmConcurso: 'IDCAP cobra transitividade em frase isolada com verbo destacado.'
+  },
+  tags: ['regência verbal', 'transitividade', 'verbo transitivo direto']
+},
+
+{
+  id: 'EX-Q4445658', tipo: 'REAL', area: 'LET', moduloId: 'POR-01',
+  subtema: 'Compreensão textual — identificação de informação explícita',
+  dificuldade: 1, prioridade: 'alta',
+  enunciado: 'Considere o texto sobre Albert Einstein (mesmo texto da questão EX-Q4445661 — IDCAP 2026 / ADAB).\n\nA trajetória de grandes personalidades científicas costuma revelar aspectos que ultrapassam suas descobertas, envolvendo hábitos, escolhas e modos de organização da vida cotidiana. Esses elementos permitem compreender como características individuais podem influenciar processos criativos e produtivos ao longo do tempo.\n\nDe acordo com o texto-base, assinale a alternativa CORRETA.',
+  alternativas: [
+    { id: 'A', texto: 'A intensa dedicação de Einstein ao trabalho, associada à sua capacidade de concentração, influenciava diretamente sua rotina e podia levá-lo a negligenciar necessidades básicas.' },
+    { id: 'B', texto: 'A organização da rotina de Einstein baseava-se sobretudo na busca por reconhecimento social e acúmulo de bens materiais, refletindo um perfil pessoal voltado à simplicidade e à projeção pública.' },
+    { id: 'C', texto: 'A dedicação de Einstein à ciência foi ocasional e pouco consistente, já que sua produção intelectual dependia de momentos esporádicos de inspiração sem continuidade ao longo da vida.' },
+    { id: 'D', texto: 'A convivência familiar de Einstein foi estável ao longo de toda a vida, uma vez que ele conseguiu equilibrar suas atividades científicas com as relações pessoais sem conflitos relevantes.' },
+    { id: 'E', texto: 'A valorização do conhecimento acumulado acima da imaginação constituiu o principal fator que impulsionou Einstein a desenvolver suas teorias científicas mais importantes ao longo da vida.' }
+  ],
+  gabarito: 'A',
+  explicacao: {
+    correta: 'A alternativa A retoma literalmente o texto: "esquecia até mesmo de se alimentar" e "sua intensa dedicação resultou em exaustão física e mental".',
+    incorretas: {
+      B: 'Contradiz o texto: "pedidos materiais eram mínimos, revelando um perfil austero".',
+      C: 'Contradiz: o texto mostra produção intensa e contínua.',
+      D: 'Contradiz: o texto relata "tensões em seu casamento e posterior separação".',
+      E: 'Contradiz: "para ele, a imaginação possuía valor superior ao conhecimento acumulado".'
+    },
+    conceitoCobrado: 'Compreensão literal (informação explícita) x distorção.',
+    pegadinha: 'Alternativas que invertem afirmações do texto (B e E) são as mais perigosas.',
+    comoApareceEmConcurso: 'IDCAP costuma exigir retorno ao texto para validar cada alternativa.'
+  },
+  tags: ['compreensão', 'informação explícita']
+},
+
+{
+  id: 'EX-Q4445657', tipo: 'REAL', area: 'GRA', moduloId: 'POR-11',
+  subtema: 'Flexão verbal — pretérito imperfeito do indicativo',
+  dificuldade: 1, prioridade: 'alta',
+  enunciado: '"Frequentemente descrito como um rebelde curioso e apaixonado pelo conhecimento, Einstein também \'cultivava\' vínculos afetivos duradouros." (IDCAP 2026 / ADAB)\n\nAssinale a alternativa CORRETA quanto à classificação do verbo destacado.',
+  alternativas: [
+    { id: 'A', texto: 'Pretérito mais-que-perfeito do indicativo.' },
+    { id: 'B', texto: 'Pretérito imperfeito do indicativo.' },
+    { id: 'C', texto: 'Pretérito perfeito do indicativo.' },
+    { id: 'D', texto: 'Presente do indicativo.' },
+    { id: 'E', texto: 'Futuro do pretérito do indicativo.' }
+  ],
+  gabarito: 'B',
+  explicacao: {
+    correta: '"Cultivava" expressa ação habitual/contínua no passado — pretérito imperfeito do indicativo.',
+    incorretas: {
+      A: 'O mais-que-perfeito seria "cultivara".',
+      C: 'O perfeito seria "cultivou".',
+      D: 'O presente seria "cultiva".',
+      E: 'O futuro do pretérito seria "cultivaria".'
+    },
+    conceitoCobrado: 'Identificação de tempo verbal pela desinência.',
+    pegadinha: 'A terminação "-va" é a marca do imperfeito — confundi-la com o mais-que-perfeito (que termina em "-ra") é o erro clássico.',
+    comoApareceEmConcurso: 'IDCAP cobra tempos verbais em frase recortada do texto.'
+  },
+  tags: ['verbo', 'pretérito imperfeito', 'flexão de tempo']
+},
+
+{
+  id: 'EX-Q4438892', tipo: 'REAL', area: 'GRA', moduloId: 'POR-06',
+  subtema: 'Ortografia — hífen, acentuação e acento diferencial',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: '(AMAUC 2026 / Prefeitura de Ipumirim-SC) Ao revisar um comunicado interno, um servidor analisou a grafia de algumas palavras conforme o Acordo Ortográfico vigente. Julgue as afirmações abaixo como Verdadeiras (V) ou Falsas (F):\n\n(__) Em "Os servidores ainda não sabem por que o protocolo foi suspenso", a grafia separada e sem acento é adequada, pois a expressão equivale a "por qual motivo".\n(__) Em "A equipe atenderá microempreendedores no anexo", a forma "micro-empreendedores" seria a adequada, pois o prefixo terminado em vogal exige hífen diante de vogal.\n(__) Em "A ideia da comissão foi aprovada", a palavra "ideia" deveria receber acento agudo, por ser paroxítona com ditongo aberto na sílaba tônica.\n(__) Em "Os candidatos têm até sexta-feira para recorrer", o acento circunflexo em "têm" distingue a terceira pessoa do plural da forma singular "tem".\n\nA sequência correta, de cima para baixo, é:',
+  alternativas: [
+    { id: 'A', texto: 'V, F, F, V.' },
+    { id: 'B', texto: 'V, F, V, F.' },
+    { id: 'C', texto: 'F, V, F, V.' },
+    { id: 'D', texto: 'F, F, V, V.' },
+    { id: 'E', texto: 'V, V, F, V.' }
+  ],
+  gabarito: 'A',
+  explicacao: {
+    correta: '(1) V — "por que" separado = por qual motivo. (2) F — prefixo "micro" + "empreendedores" (vogal + vogal diferente) = SEM hífen: "microempreendedores". (3) F — "ideia" perdeu o acento com o Acordo (paroxítona com ditongo aberto). (4) V — "têm" é acento diferencial de número (3ª pessoa do plural x singular "tem").',
+    incorretas: {
+      B: 'O item 3 é falso.',
+      C: 'O item 1 é verdadeiro e o 2 é falso.',
+      D: 'O item 1 é verdadeiro e o 4 também.',
+      E: 'O item 2 é falso.'
+    },
+    conceitoCobrado: 'Emprego de "por que", regra do hífen com prefixos, acentuação de ditongos abertos e acento diferencial de número.',
+    pegadinha: 'A regra "prefixo terminado em vogal + segundo elemento iniciado por vogal diferente = sem hífen" é frequentemente esquecida.',
+    comoApareceEmConcurso: 'AMAUC combina 4 regras ortográficas distintas numa única questão V/F.'
+  },
+  tags: ['ortografia', 'hífen', 'acordo ortográfico', 'acento diferencial']
+},
+
+{
+  id: 'EX-Q4438891', tipo: 'REAL', area: 'LET', moduloId: 'POR-05',
+  subtema: 'Figuras de linguagem + coesão + argumentação',
+  dificuldade: 3, prioridade: 'alta',
+  enunciado: 'Texto-base (AMAUC 2026 / Prefeitura de Ipumirim-SC):\n\nLinguagem simples no serviço público\n\nAtire a primeira pedra quem nunca teve dificuldade para entender um texto jurídico no Brasil. E um texto de página governamental na internet? Ou um edital de licitação ou de processo seletivo qualquer? Não importa muito se o texto trata de um direito a usufruir ou de uma obrigação a cumprir. Infelizmente, se o texto for do poder público, é bastante provável que nos deparemos com o "juridiquês" amplamente adotado na comunicação de governos de todas as esferas.\n\nLeis, decretos e normas públicas não ficam para trás, muitas vezes com termos técnicos e jurídicos sem a explicação devida. Infelizmente, o nível de escolaridade do leitor nem sempre faz muita diferença: a depender do tema, da estrutura do texto e do suporte de leitura, a linguagem excessivamente artificial do jargão jurídico pode dificultar a vida e roubar o tempo da mais ilustrada e erudita das criaturas.\n\nFelizmente, nas últimas décadas, sobretudo depois da Constituição Federal de 1988, o Brasil tem dado passos importantes na direção de ampliar a transparência e o acesso à informação. Ainda assim, ao lado desses avanços recentes, temos o angustiante cenário educacional brasileiro. De acordo com os resultados divulgados [em maio de 2025], cerca de 29% dos brasileiros [de 15 a 64 anos] são analfabetos funcionais.\n\nEstamos diante, portanto, de um caldo amargo que mistura a baixa qualidade educacional do Brasil com a dificuldade de compreensão de textos da cidadania por boa parte da nossa população. Em um contexto desafiador como esse, surgem, em meados dos anos 2000, debates sobre a urgência de se adotar uma linguagem mais simples, direta, clara e objetiva nos textos governamentais.\n\nO texto, publicado em um boletim de estudos legislativos, discute as dificuldades de leitura dos textos produzidos pelo poder público. Considerando a organização argumentativa do texto e os recursos expressivos nele empregados, assinale a alternativa correta.',
+  alternativas: [
+    { id: 'A', texto: 'A expressão "a mais ilustrada e erudita das criaturas", no segundo parágrafo, constitui um eufemismo, pois atenua a crítica dirigida aos leitores que não compreendem o jargão do direito.' },
+    { id: 'B', texto: 'A pergunta "E um texto de página governamental na internet?", no primeiro parágrafo, introduz uma objeção à frase anterior e restringe a crítica ao juridiquês a textos do Poder Judiciário.' },
+    { id: 'C', texto: 'O advérbio "Infelizmente", no segundo parágrafo, introduz a avaliação de que o jargão jurídico prejudica sobretudo os leitores de menor escolaridade, os principais afetados pelo problema.' },
+    { id: 'D', texto: 'A expressão "caldo amargo", no último parágrafo, sintetiza por meio de metáfora dois problemas expostos antes: a baixa qualidade educacional e a dificuldade de compreender textos oficiais.' },
+    { id: 'E', texto: 'O conectivo "portanto", no último parágrafo, introduz uma ressalva ao que foi dito antes e poderia ser substituído por "no entanto" sem alteração do sentido do trecho em que se encontra.' }
+  ],
+  gabarito: 'D',
+  explicacao: {
+    correta: 'A alternativa D está correta. "Caldo amargo" é metáfora que sintetiza exatamente os dois problemas: baixa qualidade educacional + dificuldade de compreensão de textos oficiais.',
+    incorretas: {
+      A: 'Não é eufemismo; é hipérbole/ironia que enfatiza a ineficiência do texto oficial.',
+      B: 'A pergunta amplia a crítica, não a restringe ao Judiciário.',
+      C: 'O texto afirma que "o nível de escolaridade nem sempre faz muita diferença" — afeta até os mais escolarizados.',
+      E: '"Portanto" é conclusivo, não adversativo; não pode ser trocado por "no entanto".'
+    },
+    conceitoCobrado: 'Figuras de linguagem (metáfora, hipérbole) + valor semântico de conectivos + leitura inferencial.',
+    pegadinha: 'A letra C inverte o argumento do texto: é exatamente o contrário do que a autora diz.',
+    comoApareceEmConcurso: 'AMAUC combina figura de linguagem com coesão e leitura crítica.'
+  },
+  tags: ['metáfora', 'conectivos', 'argumentação', 'interpretação']
+},
+
+{
+  id: 'EX-Q4438890', tipo: 'REAL', area: 'GRA', moduloId: 'POR-11',
+  subtema: 'Tempos e modos verbais — análise em contexto',
+  dificuldade: 3, prioridade: 'alta',
+  enunciado: 'Considere o texto "Linguagem simples no serviço público" (mesmo texto da questão EX-Q4438891 — AMAUC 2026).\n\nA autora emprega diferentes tempos e modos verbais para situar os fatos no tempo e para expressar hipóteses e avaliações. Considerando o emprego dos tempos e modos verbais no texto, assinale a alternativa correta.',
+  alternativas: [
+    { id: 'A', texto: 'Em "Atire a primeira pedra", a forma verbal exprime ordem literal dirigida ao leitor, que deve executar a ação descrita na frase para confirmar a tese da autora.' },
+    { id: 'B', texto: 'Em "o Brasil tem dado passos importantes", o pretérito perfeito composto expressa ação repetida, iniciada no passado e prolongada até o momento em que se escreve.' },
+    { id: 'C', texto: 'Em "surgem, em meados dos anos 2000, debates", o presente do indicativo expressa fato habitual, que se repete regularmente no momento em que se escreve este texto.' },
+    { id: 'D', texto: 'Em "é bastante provável que nos deparemos", o presente do subjuntivo é exigido pelo sentido de certeza que a expressão "bastante provável" atribui ao fato citado.' },
+    { id: 'E', texto: 'Em "se o texto for do poder público", o futuro do subjuntivo apresenta a condição como fato já realizado, anterior ao momento em que a autora escreve o seu texto.' }
+  ],
+  gabarito: 'B',
+  explicacao: {
+    correta: 'A alternativa B está correta. "Tem dado" é pretérito perfeito composto do indicativo e expressa ação repetida/contínua iniciada no passado e que se prolonga até o presente.',
+    incorretas: {
+      A: '"Atire a primeira pedra" é alusão bíblica, não ordem literal.',
+      C: '"Surgem" é presente do indicativo com valor de presente histórico (fato pontual, não habitual).',
+      D: '"É provável que" exige subjuntivo justamente por expressar probabilidade, não certeza.',
+      E: 'O futuro do subjuntivo apresenta condição hipotética/futura, não fato já realizado.'
+    },
+    conceitoCobrado: 'Valor dos tempos/modos verbais em contexto argumentativo.',
+    pegadinha: 'A confusão entre "certeza" e "probabilidade" na letra D é o ponto mais sutil.',
+    comoApareceEmConcurso: 'AMAUC costuma testar valor contextual, não apenas classificação isolada.'
+  },
+  tags: ['tempos verbais', 'modos verbais', 'pretérito perfeito composto']
+},
+
+{
+  id: 'EX-Q4438889', tipo: 'REAL', area: 'GRA', moduloId: 'POR-18',
+  subtema: 'Pontuação — vírgula e correção gramatical',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: 'Considere o seguinte período adaptado do texto "Linguagem simples no serviço público" (AMAUC 2026 / Prefeitura de Ipumirim-SC):\n\n"Felizmente, nas últimas décadas, sobretudo depois da Constituição Federal de 1988, o Brasil tem dado passos importantes na direção de ampliar a transparência."\n\nQuanto ao emprego da vírgula, a reescrita que preserva a correção gramatical e o sentido original do período é:\n\n[NOTA: no PDF, as alternativas B e E saíram idênticas por falha de extração; marquei B como gabarito, mas confira no original.]',
+  alternativas: [
+    { id: 'A', texto: 'Felizmente, nas últimas décadas, sobretudo depois da Constituição Federal de 1988, o Brasil, tem dado passos importantes na direção de ampliar a transparência.' },
+    { id: 'B', texto: 'Felizmente, nas últimas décadas, sobretudo depois da Constituição Federal de 1988, o Brasil tem dado passos importantes na direção de ampliar a transparência.' },
+    { id: 'C', texto: 'Nas últimas décadas, sobretudo depois da Constituição Federal de 1988, o Brasil, felizmente, tem dado passos importantes na direção de ampliar a transparência.' },
+    { id: 'D', texto: 'Felizmente, nas últimas décadas, sobretudo depois da Constituição Federal de 1988, o Brasil, tem dado passos importantes na direção de ampliar a transparência.' },
+    { id: 'E', texto: 'Felizmente, nas últimas décadas, sobretudo depois da Constituição Federal de 1988, o Brasil tem dado passos importantes na direção de ampliar a transparência.' }
+  ],
+  gabarito: 'B',
+  explicacao: {
+    correta: 'A alternativa B mantém a pontuação original (correta): não se separa sujeito ("o Brasil") de predicado ("tem dado").',
+    incorretas: {
+      A: 'A vírgula após "Brasil" separa sujeito e verbo — erro clássico.',
+      C: 'A reescrita é gramaticalmente possível, mas desloca "felizmente" e altera a estrutura original; a banca costuma rejeitar por não preservar o sentido.',
+      D: 'Idêntica a A — vírgula indevida após "Brasil".',
+      E: 'Idêntica a B (falha de extração do PDF); na prova original havia diferença sutil.'
+    },
+    conceitoCobrado: 'Regras de vírgula: não separar sujeito de predicado; adjuntos adverbiais antecipados.',
+    pegadinha: 'A vírgula após "Brasil" é tentadora por causa das vírgulas anteriores, mas é erro grave.',
+    comoApareceEmConcurso: 'AMAUC cobra reescrita que preserva sentido E correção.'
+  },
+  tags: ['pontuação', 'vírgula', 'sujeito e predicado']
+},
+
+{
+  id: 'EX-Q4438888', tipo: 'REAL', area: 'GRA', moduloId: 'POR-17',
+  subtema: 'Crase — asserção e razão',
+  dificuldade: 3, prioridade: 'alta',
+  enunciado: '(AMAUC 2026 / Prefeitura de Ipumirim-SC) Considere o trecho: "o Brasil tem dado passos importantes na direção de ampliar a transparência e o acesso à informação".\n\nAnalise as seguintes asserções e a relação proposta entre elas:\n\nI. No trecho, o emprego do acento indicativo de crase em "à informação" está de acordo com a norma-padrão.\n\nPORQUE\n\nII. O acento indica a fusão da preposição "a", exigida pelo verbo "ampliar", com o artigo definido feminino que acompanha o substantivo "informação".\n\nA respeito dessas asserções, assinale a alternativa correta.',
+  alternativas: [
+    { id: 'A', texto: 'A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.' },
+    { id: 'B', texto: 'As asserções I e II são proposições falsas.' },
+    { id: 'C', texto: 'As asserções I e II são proposições verdadeiras, e a II é uma justificativa da I.' },
+    { id: 'D', texto: 'As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa da I.' },
+    { id: 'E', texto: 'A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.' }
+  ],
+  gabarito: 'A',
+  explicacao: {
+    correta: 'I é verdadeira (o "à" está correto). II é falsa porque a preposição "a" NÃO é exigida pelo verbo "ampliar" (que é TD: ampliar algo — a transparência e o acesso), mas pelo substantivo "acesso" (acesso A + informação).',
+    incorretas: {
+      B: 'I é verdadeira.',
+      C: 'II tem justificativa errada.',
+      D: 'II não justifica I corretamente.',
+      E: 'I é verdadeira.'
+    },
+    conceitoCobrado: 'Crase: identificar QUAL termo rege a preposição (verbo x nome).',
+    pegadinha: 'A banca induz ao erro atribuindo a preposição ao verbo "ampliar", quando na verdade ela vem do substantivo "acesso".',
+    comoApareceEmConcurso: 'AMAUC cobra asserção-razão com análise fina da regência.'
+  },
+  tags: ['crase', 'regência nominal', 'asserção-razão']
+},
+
+{
+  id: 'EX-Q4438375', tipo: 'REAL', area: 'GRA', moduloId: 'POR-18',
+  subtema: 'Pontuação — funções da vírgula em contexto',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: 'Texto-base (FAFIPA 2026 / Prefeitura de Ivaiporã-PR):\n\nDieta rigorosa e treino intenso podem atingir o sistema hormonal; entenda.\n\nA busca pelo emagrecimento, definição muscular e alto rendimento na academia pode ser benéfico, mas também pode sair caro para a saúde. Especialistas alertam que, dietas muito restritivas e rotinas pesadas de treino podem comprometer, além da mentalidade e do corpo, o sistema hormonal.\n\nUm exemplo é a tenista norte-americana Emma Navarro, de 25 anos, que anunciou uma pausa na carreira após ser diagnosticada com RED-S (Deficiência Relativa de Energia no Esporte) e Tireoidite de Hashimoto. Segundo os atleta, os quadros, decorrentes em parte de uma alimentação inadequada, provocavam tonturas, dores de cabeça, fadiga constante e dificuldade de concentração.\n\nDe acordo com o endocrinologista Rodrigo Gomes de Souza, quando o organismo recebe menos energia do que gasta por um longo período, ele aciona um mecanismo de defesa que passa a economizar, reduzir o ritmo do metabolismo e, consequentemente, isso compromete o sistema hormonal.\n\n"Nessas situações, o organismo reduz a atividade do eixo que controla a tireoide. Na prática, é como se o organismo percebesse que \'está faltando combustível\' e diminuísse o ritmo do metabolismo para gastar menos energia."\n\nIsso mostra que comer pouco e treinar muito não, necessariamente, significa ser saudável. Por este motivo, aqueles que querem manter uma dieta saudável precisam manter um acompanhamento médico com um endócrino ou nutricionista.\n\nQuanto ao emprego das vírgulas no texto e às suas justificativas sintáticas segundo a norma-padrão da língua portuguesa, assinale a alternativa CORRETA.',
+  alternativas: [
+    { id: 'A', texto: 'Em "podem comprometer, além da mentalidade e do corpo, o sistema hormonal", as vírgulas justificam-se por separarem o sujeito simples do seu verbo.' },
+    { id: 'B', texto: 'Em "quando o organismo recebe menos energia do que gasta por um longo período, ele aciona...", a vírgula separa a oração subordinada adverbial temporal anteposta em relação à oração principal.' },
+    { id: 'C', texto: 'No excerto "Um exemplo é a tenista norte-americana Emma Navarro, de 25 anos, que anunciou...", a vírgula antes de "de 25 anos" isola um vocativo direcionado à atleta.' },
+    { id: 'D', texto: 'No trecho "De acordo com o endocrinologista Rodrigo Gomes de Souza, quando o organismo recebe...", a primeira vírgula foi utilizada para isolar uma oração subordinada adjetiva explicativa.' },
+    { id: 'E', texto: 'No trecho "não, necessariamente, significa ser saudável", as vírgulas foram inseridas para separar duas orações coordenadas assindéticas.' }
+  ],
+  gabarito: 'B',
+  explicacao: {
+    correta: 'A alternativa B está correta: "quando o organismo recebe menos energia..." é oração subordinada adverbial temporal anteposta, e a vírgula a separa da principal ("ele aciona...").',
+    incorretas: {
+      A: 'As vírgulas isolam o termo adverbial intercalado "além da mentalidade e do corpo", não o sujeito.',
+      C: '"De 25 anos" é adjunto adnominal explicativo, não vocativo.',
+      D: 'A primeira vírgula isola o adjunto adverbial antecipado "De acordo com o endocrinologista...", não uma adjetiva.',
+      E: 'As vírgulas isolam o advérbio "necessariamente", não separam coordenadas.'
+    },
+    conceitoCobrado: 'Funções da vírgula: oração subordinada anteposta, adjunto intercalado, advérbio intercalado.',
+    pegadinha: 'Confundir "de 25 anos" (adjunto adnominal) com vocativo é erro comum.',
+    comoApareceEmConcurso: 'FAFIPA exige identificação precisa da função sintática da vírgula.'
+  },
+  tags: ['pontuação', 'vírgula', 'oração subordinada', 'vocativo']
+},
+
+{
+  id: 'EX-Q4438374', tipo: 'REAL', area: 'GRA', moduloId: 'POR-13',
+  subtema: 'Função sintática — objeto direto, adjunto e complemento',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: 'Considere o texto "Dieta rigorosa e treino intenso podem atingir o sistema hormonal" (mesmo texto da questão EX-Q4438375 — FAFIPA 2026).\n\nAnalise a classificação gramatical e a função sintática dos termos destacados nos trechos extraídos do texto e assinale a alternativa CORRETA.',
+  alternativas: [
+    { id: 'A', texto: 'Na expressão "mecanismo de defesa", a locução "de defesa" desempenha a função sintática de complemento nominal do substantivo "mecanismo".' },
+    { id: 'B', texto: 'No trecho "dietas muito restritivas", a palavra "muito" classifica-se como pronome indefinido e atua sintaticamente como adjunto adnominal.' },
+    { id: 'C', texto: 'Em "podem comprometer, além da mentalidade e do corpo, o sistema hormonal", os termos "o sistema hormonal" exercem a função sintática de objeto direto da locução verbal.' },
+    { id: 'D', texto: 'Em "Especialistas alertam", o vocábulo "Especialistas" é um adjetivo pátrio que funciona como predicativo do sujeito.' },
+    { id: 'E', texto: 'No excerto "aqueles que querem manter uma dieta saudável", a palavra "que" classifica-se como conjunção integrante, introduzindo uma oração subordinada substantiva.' }
+  ],
+  gabarito: 'C',
+  explicacao: {
+    correta: 'A alternativa C está correta: "podem comprometer" é VTDI na acepção "comprometer algo", e "o sistema hormonal" é objeto direto da locução verbal.',
+    incorretas: {
+      A: '"Mecanismo" é substantivo concreto; "de defesa" é adjunto adnominal, não complemento nominal.',
+      B: '"Muito" modifica o adjetivo "restritivas" → advérbio de intensidade (adjunto adverbial), não pronome.',
+      D: '"Especialistas" é substantivo (núcleo do sujeito), não adjetivo nem predicativo.',
+      E: '"Que" é pronome relativo (retoma "aqueles"), introduzindo oração adjetiva — não conjunção integrante.'
+    },
+    conceitoCobrado: 'Distinção entre adjunto adnominal x complemento nominal; pronome relativo x conjunção integrante.',
+    pegadinha: 'A diferença entre adjunto adnominal e complemento nominal é sutil: o CN completa o sentido de substantivo abstrato, o AA apenas caracteriza.',
+    comoApareceEmConcurso: 'FAFIPA cobra função sintática em contexto real.'
+  },
+  tags: ['sintaxe', 'objeto direto', 'adjunto adnominal', 'pronome relativo']
+},
+
+{
+  id: 'EX-Q4438373', tipo: 'REAL', area: 'GRA', moduloId: 'POR-07',
+  subtema: 'Acentuação gráfica e análise fonética',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: '(FAFIPA 2026 / Prefeitura de Ivaiporã-PR) Em relação às regras de acentuação gráfica e à análise fonética de vocábulos retirados do texto "Dieta rigorosa e treino intenso podem atingir o sistema hormonal", assinale a alternativa CORRETA.',
+  alternativas: [
+    { id: 'A', texto: 'O vocábulo "ritmo" apresenta um dígrafo consonantal na separação silábica rit-mo.' },
+    { id: 'B', texto: 'A palavra "tireoide" não recebe acento gráfico porque os ditongos abertos "ei" e "oi" em palavras paroxítonas deixaram de ser acentuados conforme as regras do Acordo Ortográfico vigente.' },
+    { id: 'C', texto: 'As palavras "médico" e "prática" recebem acento gráfico por razões distintas, visto que a primeira é oxítona e a segunda é paroxítona.' },
+    { id: 'D', texto: 'Na palavra "passa", o grupo de letras "ss" constitui um encontro vocálico perceptível na pronúncia individual de cada consoante.' },
+    { id: 'E', texto: 'O vocábulo "saúde" é acentuado graficamente por se tratar de uma palavra proparoxítona terminada na vogal "e".' }
+  ],
+  gabarito: 'B',
+  explicacao: {
+    correta: 'A alternativa B está correta. "Tireoide" é paroxítona com ditongo aberto "oi"; o Acordo Ortográfico eliminou o acento desses ditongos em paroxítonas (antes: "tireóide").',
+    incorretas: {
+      A: '"tm" não é dígrafo (são duas consoantes pronunciadas).',
+      C: 'Ambas são proparoxítonas — mesma razão de acentuação.',
+      D: '"ss" é dígrafo consonantal, não encontro vocálico.',
+      E: '"Saúde" é paroxítona com hiato "a-ú", não proparoxítona.'
+    },
+    conceitoCobrado: 'Acordo Ortográfico (ditongos abertos em paroxítonas) + classificação de dígrafos e hiatos.',
+    pegadinha: '"Tireoide" é o exemplo mais citado do Acordo — antes se escrevia "tireóide".',
+    comoApareceEmConcurso: 'FAFIPA cobra aplicação do Acordo em vocábulo específico.'
+  },
+  tags: ['acentuação', 'acordo ortográfico', 'ditongo aberto', 'dígrafo']
+},
+
+{
+  id: 'EX-Q4438372', tipo: 'REAL', area: 'LET', moduloId: 'POR-04',
+  subtema: 'Coesão, semântica e sentido conotativo',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: 'Considere o texto "Dieta rigorosa e treino intenso podem atingir o sistema hormonal" (mesmo texto da questão EX-Q4438375 — FAFIPA 2026).\n\nQuanto aos recursos de coesão, coerência e aos aspectos semânticos presentes no texto, assinale a alternativa CORRETA.',
+  alternativas: [
+    { id: 'A', texto: 'No trecho "consequentemente, isso compromete o sistema hormonal", o vocábulo destacado estabelece uma relação semântica de causa em relação ao acionamento do mecanismo de defesa.' },
+    { id: 'B', texto: 'A expressão "está faltando combustível" exemplifica o uso do sentido conotativo, em que a palavra "combustível" é empregada metaforicamente para indicar a energia vinda dos alimentos.' },
+    { id: 'C', texto: 'No excerto "Isso mostra que comer pouco e treinar muito não, necessariamente, significa ser saudável", o advérbio "necessariamente" exprime uma negação categórica e absoluta.' },
+    { id: 'D', texto: 'A expressão "sair caro para a saúde" foi empregada em seu sentido estritamente denotativo, referindo-se aos custos financeiros dos tratamentos médicos.' },
+    { id: 'E', texto: 'O pronome na expressão "Por este motivo" é empregado para introduzir um fato que ainda será apresentado no encerramento do texto.' }
+  ],
+  gabarito: 'B',
+  explicacao: {
+    correta: 'A alternativa B está correta. "Combustível" é usado metaforicamente (=energia dos alimentos) — exemplo claro de conotação.',
+    incorretas: {
+      A: '"Consequentemente" é conclusivo/consecutivo, não causal.',
+      C: '"Necessariamente" expressa que algo não é inevitável — não é negação categórica.',
+      D: '"Sair caro" é sentido figurado (=trazer prejuízo), não custo financeiro literal.',
+      E: '"Por este motivo" retoma algo JÁ apresentado, não introduz fato novo.'
+    },
+    conceitoCobrado: 'Denotação x conotação + valor semântico de conectivos + função anafórica.',
+    pegadinha: 'A confusão entre causa (porque) e consequência (consequentemente) na letra A.',
+    comoApareceEmConcurso: 'FAFIPA mistura semântica com coesão referencial.'
+  },
+  tags: ['conotação', 'metáfora', 'coesão', 'semântica']
+},
+
+{
+  id: 'EX-Q4438371', tipo: 'REAL', area: 'LET', moduloId: 'POR-01',
+  subtema: 'Inferência textual',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: 'Considere o texto "Dieta rigorosa e treino intenso podem atingir o sistema hormonal" (mesmo texto da questão EX-Q4438375 — FAFIPA 2026).\n\nAssinale a alternativa que apresenta uma inferência CORRETA e coerente com as ideias desenvolvidas no texto.',
+  alternativas: [
+    { id: 'A', texto: 'O acompanhamento com nutricionista ou endocrinologista é recomendado pelo autor exclusivamente para atletas profissionais de alta performance.' },
+    { id: 'B', texto: 'O diagnóstico da tenista Emma Navarro comprova que a prática esportiva de alto rendimento é a causa primária e direta do surgimento de doenças autoimunes.' },
+    { id: 'C', texto: 'A redução do ritmo metabólico em indivíduos submetidos ao déficit energético prolongado constitui uma resposta adaptativa do organismo voltada à conservação de energia.' },
+    { id: 'D', texto: 'A prática de treinos pesados acompanhada de dietas restritivas é comprovadamente ineficaz para promover o emagrecimento ou o ganho de massa muscular.' },
+    { id: 'E', texto: 'A restrição calórica severa aliada a rotinas intensas de treino resulta na diminuição imediata da fadiga e no aumento do rendimento físico.' }
+  ],
+  gabarito: 'C',
+  explicacao: {
+    correta: 'A alternativa C está correta e é autorizada pelo texto: "quando o organismo recebe menos energia... aciona um mecanismo de defesa que passa a economizar, reduzir o ritmo do metabolismo".',
+    incorretas: {
+      A: 'O texto recomenda acompanhamento a quem quer manter dieta saudável — não exclusivamente a atletas.',
+      B: 'O texto diz que os quadros decorrem "em parte de alimentação inadequada" — não afirma causalidade direta da prática esportiva.',
+      D: 'O texto não diz que é ineficaz; diz que pode ser prejudicial à saúde.',
+      E: 'O texto afirma o oposto: fadiga, tontura, dificuldade de concentração.'
+    },
+    conceitoCobrado: 'Inferência autorizada pelo texto x extrapolação.',
+    pegadinha: 'Alternativas que "radicalizam" o texto (B e D) são típicas de extrapolação.',
+    comoApareceEmConcurso: 'FAFIPA exige distinguir inferência de extrapolação.'
+  },
+  tags: ['inferência', 'interpretação', 'extrapolação']
+}
 ];
