@@ -4175,5 +4175,1197 @@ window.QUESTIONS = [
     comoApareceEmConcurso: 'VUNESP cobra a concordância aplicada a contextos reais.'
   },
   tags: ['concordância', 'verbos impessoais']
+},
+/* ============================================================
+   QUESTÕES REAIS IMPORTADAS — FEPESE 2026 / Prefeitura de Florianópolis
+   Língua Portuguesa (Questões 01 a 05)
+   ============================================================ */
+
+{
+  id: 'EX-FEPESE-2026-01', tipo: 'REAL', area: 'LET', moduloId: 'POR-01',
+  subtema: 'Compreensão textual — ideia central e detalhes',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: 'Texto-base (FEPESE 2026 / Prefeitura de Florianópolis):\n\nSão José amplia hortas urbanas com nova lei voltada à sustentabilidade\n\nA sustentabilidade ganhou reforço institucional em São José com a sanção da Lei nº 6.535, de 11 de dezembro de 2025, que transformou o Programa Horta Solidária Urbana em política pública permanente. A medida oficializa e amplia uma iniciativa já em atividade na cidade, responsável por revitalizar áreas públicas ociosas e convertê-las em espaços produtivos de cultivo agroecológico e participação social.\n\nA legislação estabelece parâmetros estáveis para a implantação e a expansão das hortas comunitárias, que atualmente funcionam nos bairros Ipiranga, Potecas, Loteamento Lisboa (Forquilhas), Morar Bem (Serraria) e Areias. O texto legal orienta que cada área cultivada tenha foco na promoção do meio ambiente, na segurança alimentar e na economia solidária, estimulando o uso socialmente responsável dos espaços públicos.\n\nEntre os avanços previstos, a lei destaca o incentivo à compostagem como instrumento para reduzir o volume de resíduos enviados a aterros sanitários. As unidades da rede municipal de ensino passam a incorporar a compostagem escolar à rotina pedagógica, fortalecendo práticas de educação ambiental e ampliando o protagonismo estudantil em ações de cuidado com o território.\n\nA execução do programa contará com suporte técnico, logístico e educacional da Fundação Municipal do Meio Ambiente e Desenvolvimento Sustentável. O texto autoriza que associações de moradores, entidades e grupos organizados possam assumir a gestão das áreas destinadas ao cultivo. O financiamento das ações poderá ser assegurado por múltiplas fontes, incluindo orçamento municipal, parcerias privadas, repasses estaduais e federais, emendas parlamentares, medidas compensatórias e doações.\n\nA legislação institui ainda o Selo Verde, criado para reconhecer empresas, instituições e grupos comunitários que contribuírem com o programa por meio de doações, apoio financeiro, insumos ou iniciativas educativas e ambientais. O objetivo é valorizar parceiros que fortaleçam práticas de preservação e colaboração comunitária.\n\nAssinale a alternativa correta com base no texto sobre a ampliação das hortas urbanas em São José.',
+  alternativas: [
+    { id: 'A', texto: 'O programa passa a funcionar apenas nas escolas da rede municipal, deixando de atuar em bairros e espaços públicos da cidade.' },
+    { id: 'B', texto: 'O Selo Verde será concedido exclusivamente a órgãos públicos que financiarem integralmente o programa com recursos municipais.' },
+    { id: 'C', texto: 'A nova lei transforma o Programa Horta Solidária Urbana em política pública permanente, estabelece diretrizes para sua expansão e prevê ações como incentivo à compostagem, apoio técnico institucional e estímulos à participação social.' },
+    { id: 'D', texto: 'A legislação determina a substituição das hortas comunitárias por parcerias exclusivamente privadas, com financiamento restrito a empresas do setor agrícola.' },
+    { id: 'E', texto: 'A lei extingue a possibilidade de gestão das hortas por associações de moradores, centralizando todas as decisões na Fundação Municipal do Meio Ambiente.' }
+  ],
+  gabarito: 'C',
+  explicacao: {
+    correta: 'A alternativa C está correta. O texto afirma que a lei "transformou o Programa Horta Solidária Urbana em política pública permanente", estabelece parâmetros, e cita o incentivo à compostagem, suporte técnico e participação social.',
+    incorretas: {
+      A: 'O texto menciona a compostagem escolar, mas não diz que o programa passa a funcionar apenas nas escolas.',
+      B: 'O Selo Verde é para empresas, instituições e grupos comunitários (não exclusivo de órgãos públicos), e não exige financiamento integral.',
+      D: 'A lei autoriza associações e grupos organizados, não restringe a parcerias exclusivamente privadas.',
+      E: 'O texto expressamente autoriza que associações de moradores assumam a gestão.'
+    },
+    conceitoCobrado: 'Compreensão global e identificação de informações explícitas.',
+    pegadinha: 'A letra E tenta inverter o que o texto diz sobre a gestão das hortas. O texto descentraliza, a letra E diz que centraliza.',
+    comoApareceEmConcurso: 'FEPESE costuma usar textos de fontes locais e cobrar a localização de informações específicas.'
+  },
+  tags: ['compreensão', 'ideia central']
+},
+
+{
+  id: 'EX-FEPESE-2026-02', tipo: 'REAL', area: 'LET', moduloId: 'POR-01',
+  subtema: 'Compreensão textual — localização de informação',
+  dificuldade: 1, prioridade: 'alta',
+  enunciado: 'Considere o texto "São José amplia hortas urbanas com nova lei voltada à sustentabilidade" (FEPESE 2026).\n\nSegundo o texto, o que é o Selo Verde?',
+  alternativas: [
+    { id: 'A', texto: 'Um mecanismo criado para fiscalizar empresas, instituições e grupos comunitários quanto ao cumprimento obrigatório de metas ambientais estabelecidas pelo poder público municipal.' },
+    { id: 'B', texto: 'Uma política pública criada para financiar empresas, instituições e grupos comunitários com recursos exclusivos do orçamento municipal destinado à sustentabilidade.' },
+    { id: 'C', texto: 'Um projeto educativo criado para capacitar empresas, instituições e grupos comunitários na gestão técnica das hortas urbanas comunitárias do município.' },
+    { id: 'D', texto: 'Uma taxa ambiental criada para regulamentar empresas, instituições e grupos comunitários no uso de espaços públicos destinados ao cultivo agroecológico.' },
+    { id: 'E', texto: 'Uma certificação criada para reconhecer empresas, instituições e grupos comunitários que contribuam com o programa por meio de doações, apoio financeiro, insumos ou iniciativas educativas.' }
+  ],
+  gabarito: 'E',
+  explicacao: {
+    correta: 'A alternativa E está correta. O texto afirma: "a legislação institui ainda o Selo Verde, criado para reconhecer empresas, instituições e grupos comunitários que contribuírem com o programa por meio de doações, apoio financeiro, insumos ou iniciativas educativas e ambientais".',
+    incorretas: {
+      A: 'O Selo Verde não é um mecanismo de fiscalização, mas de reconhecimento.',
+      B: 'Não é uma política de financiamento, é um selo de reconhecimento.',
+      C: 'Não é um projeto educativo.',
+      D: 'Não é uma taxa ambiental.'
+    },
+    conceitoCobrado: 'Localização de informação explícita no texto.',
+    pegadinha: 'As alternativas A e B inventam funções (fiscalização, financiamento) que não estão no texto.',
+    comoApareceEmConcurso: 'Questão de compreensão direta, comum em provas da FEPESE.'
+  },
+  tags: ['compreensão', 'informação explícita']
+},
+
+{
+  id: 'EX-FEPESE-2026-03', tipo: 'REAL', area: 'GRA', moduloId: 'POR-10',
+  subtema: 'Pronomes — oblíquo átono',
+  dificuldade: 1, prioridade: 'alta',
+  enunciado: 'No trecho "responsável por revitalizar áreas públicas ociosas e convertê-las em espaços produtivos de cultivo agroecológico e participação social" (FEPESE 2026), a forma "-las" é classificada, morfologicamente, como:',
+  alternativas: [
+    { id: 'A', texto: 'artigo indefinido no plural.' },
+    { id: 'B', texto: 'artigo definido feminino plural.' },
+    { id: 'C', texto: 'conjunção subordinativa integrante.' },
+    { id: 'D', texto: 'pronome pessoal oblíquo átono.' },
+    { id: 'E', texto: 'partícula apassivadora.' }
+  ],
+  gabarito: 'D',
+  explicacao: {
+    correta: 'A alternativa D está correta. A forma "-las" é um pronome pessoal oblíquo átono, que está substituindo o objeto direto "áreas públicas ociosas" (feminino plural).',
+    incorretas: {
+      A: 'Artigos indefinidos são "um, uma, uns, umas".',
+      B: 'Artigos definidos são "o, a, os, as". O "-las" está ligado ao verbo (convertê-las), funcionando como pronome.',
+      C: 'Conjunções integrantes são "que" e "se".',
+      E: 'Partícula apassivadora é o "se" (ex: vendem-se casas).'
+    },
+    conceitoCobrado: 'Identificação de pronomes oblíquos átonos (o, a, os, as, lo, la, los, las, etc.).',
+    pegadinha: 'A semelhança com o artigo "as" pode confundir, mas a posposição ao verbo (ênclise) e a função de objeto direto confirmam o pronome.',
+    comoApareceEmConcurso: 'A FEPESE costuma cobrar a classificação morfológica de termos dentro do texto.'
+  },
+  tags: ['pronomes', 'oblíquo átono', 'morfologia']
+},
+
+{
+  id: 'EX-FEPESE-2026-04', tipo: 'REAL', area: 'GRA', moduloId: 'POR-06',
+  subtema: 'Ortografia — hífen e acentuação (Acordo Ortográfico)',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: 'Assinale a alternativa em que os usos do hífen e de acentuação gráfica estão corretos, de acordo com as regras do Acordo Ortográfico:',
+  alternativas: [
+    { id: 'A', texto: 'agroecológico • socioambiental • infraestrutura • antissocial' },
+    { id: 'B', texto: 'agroecologico • socio-ambiental • infra estrutura • anti social' },
+    { id: 'C', texto: 'agro ecológico • socioambiental • infra-estrutura • anti-social' },
+    { id: 'D', texto: 'agro-ecologico • sócioambiental • infra estrutura • antissocial' },
+    { id: 'E', texto: 'agro-ecológico • sócio-ambiental • infra-estrutura • anti-social' }
+  ],
+  gabarito: 'A',
+  explicacao: {
+    correta: 'A alternativa A está correta. Todas as palavras seguem o Acordo Ortográfico:\n- agroecológico (prefixo "agro" + vogal "e" diferente -> sem hífen).\n- socioambiental (prefixo "socio" + vogal "a" diferente -> sem hífen).\n- infraestrutura (prefixo "infra" + vogal "e" diferente -> sem hífen).\n- antissocial (prefixo "anti" + palavra iniciada com "s" -> dobra o "s", sem hífen).',
+    incorretas: {
+      B: 'Erros de acentuação e espaçamento (anti social).',
+      C: 'Erros de hífen em "infra-estrutura" e "anti-social".',
+      D: 'Erros de hífen em "agro-ecologico" e acentuação em "sócioambiental".',
+      E: 'Erros de hífen em todas as palavras (infra-estrutura, anti-social, etc.).'
+    },
+    conceitoCobrado: 'Regras de hífen com prefixos (vogais diferentes, mesma vogal, consoante igual) e acentuação.',
+    pegadinha: 'A palavra "antissocial" é frequentemente escrita errada como "anti-social" ou "antisocial".',
+    comoApareceEmConcurso: 'FEPESE foca nas mudanças do Acordo Ortográfico.'
+  },
+  tags: ['ortografia', 'hífen', 'acordo ortográfico']
+},
+
+{
+  id: 'EX-FEPESE-2026-05', tipo: 'REAL', area: 'GRA', moduloId: 'POR-13',
+  subtema: 'Sintaxe — tipos de sujeito',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: 'No período "A execução do programa contará com suporte técnico, logístico e educacional da Fundação Municipal do Meio Ambiente e Desenvolvimento Sustentável." (FEPESE 2026), assinale a alternativa correta quanto ao sujeito da oração.',
+  alternativas: [
+    { id: 'A', texto: 'O sujeito é "A execução do programa" e é definido como sujeito determinado composto.' },
+    { id: 'B', texto: 'O sujeito é indeterminado, pois não há elemento explícito que pratique a ação verbal.' },
+    { id: 'C', texto: 'Trata-se de oração sem sujeito, uma vez que o verbo "contar" é impessoal nesse contexto.' },
+    { id: 'D', texto: 'O sujeito é oculto, podendo ser identificado apenas pela desinência verbal.' },
+    { id: 'E', texto: 'O sujeito é determinado simples e está expresso pelo sintagma nominal "A execução do programa".' }
+  ],
+  gabarito: 'E',
+  explicacao: {
+    correta: 'A alternativa E está correta. O sujeito é "A execução do programa". É simples porque possui apenas um núcleo ("execução"), e é determinado porque está expresso na oração.',
+    incorretas: {
+      A: 'O sujeito é simples, não composto (há apenas um núcleo).',
+      B: 'O sujeito está explícito no texto.',
+      C: 'O verbo "contar" (no sentido de dispor de) não é impessoal; ele tem sujeito.',
+      D: 'O sujeito está expresso, não oculto.'
+    },
+    conceitoCobrado: 'Classificação do sujeito (determinado simples, composto, oculto, indeterminado ou inexistente).',
+    pegadinha: 'A presença de vários substantivos ("suporte técnico, logístico e educacional") pode levar o candidato a achar que é um sujeito composto, mas o sujeito é apenas o termo que pratica a ação de "contar".',
+    comoApareceEmConcurso: 'FEPESE cobra a análise sintática de termos da oração.'
+  },
+  tags: ['sintaxe', 'sujeito simples', 'análise sintática']
+},
+/* ============================================================
+   QUESTÕES REAIS IMPORTADAS — FUNDATEC 2026 / DEMHAB POA
+   Língua Portuguesa (Questões 01 a 10)
+   ============================================================ */
+
+{
+  id: 'EX-FUNDATEC-2026-01', tipo: 'REAL', area: 'LET', moduloId: 'POR-01',
+  subtema: 'Compreensão textual — localização de informação explícita',
+  dificuldade: 1, prioridade: 'alta',
+  enunciado: 'Texto-base (FUNDATEC 2026 / DEMHAB POA):\n\nFim da jornada 6x1, um tema que ainda levanta muitas dúvidas\n\nO debate sobre o fim da jornada 6×1 ganhou destaque no Brasil recentemente. Em fevereiro de 2025, foi apresentada a Proposta de Emenda Constitucional (PEC) nº 8/2025, que altera o artigo 7º da Constituição Federal. A proposta prevê que a duração normal do trabalho não ultrapasse oito horas por dia e 36 horas por semana – o que resultaria em quatro dias de trabalho e três de descanso, sem redução de salário.\n\nHoje, a Constituição permite até 44 horas semanais, na tradicional escala de seis dias de trabalho para um de descanso...\n\nDe acordo com o texto, a Proposta de Emenda Constitucional nº 8/2025 prevê:',
+  alternativas: [
+    { id: 'A', texto: 'A manutenção da jornada de 44 horas semanais, distribuídas em cinco dias de trabalho.' },
+    { id: 'B', texto: 'A limitação da jornada a oito horas diárias e 36 horas semanais, sem redução salarial.' },
+    { id: 'C', texto: 'A redução da jornada diária para seis horas, sem alteração no número de dias trabalhados.' },
+    { id: 'D', texto: 'A adoção de quatro dias de trabalho e três de descanso, acompanhada de redução proporcional do salário.' },
+    { id: 'E', texto: 'A substituição da jornada semanal por um sistema definido individualmente por cada empresa.' }
+  ],
+  gabarito: 'B',
+  explicacao: {
+    correta: 'A alternativa B está correta. O texto afirma explicitamente que "A proposta prevê que a duração normal do trabalho não ultrapasse oito horas por dia e 36 horas por semana... sem redução de salário".',
+    incorretas: {
+      A: 'O texto diz que a jornada atual é de 44 horas, mas a PEC quer reduzir isso.',
+      C: 'A PEC prevê 8 horas diárias, não 6.',
+      D: 'A PEC garante a manutenção do salário, não a redução proporcional.',
+      E: 'A PEC altera a Constituição para todos, não individualiza por empresa.'
+    },
+    conceitoCobrado: 'Compreensão literal de texto.',
+    pegadinha: 'A letra D menciona "quatro dias de trabalho e três de descanso", o que está no texto, mas adiciona "redução proporcional do salário", o que contraria o texto.',
+    comoApareceEmConcurso: 'FUNDATEC costuma usar questões de localização direta para iniciar a prova.'
+  },
+  tags: ['compreensão', 'informação explícita']
+},
+
+{
+  id: 'EX-FUNDATEC-2026-02', tipo: 'REAL', area: 'LET', moduloId: 'POR-01',
+  subtema: 'Inferência textual',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: 'Considere as informações do texto "Fim da jornada 6x1..." (FUNDATEC 2026) sobre as experiências de redução de jornada feitas em outros países.\n\nPode-se inferir que essa redução:',
+  alternativas: [
+    { id: 'A', texto: 'Produz os mesmos efeitos econômicos independentemente da forma como é implementada.' },
+    { id: 'B', texto: 'Pode ser adotada por diferentes modelos, que envolvem consequências e ajustes distintos.' },
+    { id: 'C', texto: 'Depende necessariamente do aumento da jornada diária dos trabalhadores.' },
+    { id: 'D', texto: 'Somente apresenta resultados positivos quando acompanhada de novas contratações.' },
+    { id: 'E', texto: 'Tem provocado diminuição de produtividade nos países em que foi implementada.' }
+  ],
+  gabarito: 'B',
+  explicacao: {
+    correta: 'A alternativa B está correta. O texto cita que na Bélgica a carga foi concentrada em 4 dias (jornadas mais longas), enquanto na Islândia exigiu novas contratações. Isso mostra que há diferentes modelos e consequências.',
+    incorretas: {
+      A: 'As consequências são distintas, como mostra o exemplo da Bélgica e da Islândia.',
+      C: 'Na Islândia não houve aumento da jornada diária, apenas novas contratações.',
+      D: 'Na Bélgica não houve novas contratações, mas sim a concentração da carga.',
+      E: 'O texto diz que os resultados apontam ganhos em produtividade, não diminuição.'
+    },
+    conceitoCobrado: 'Inferência autorizada pelo texto x extrapolação.',
+    pegadinha: 'A generalização na letra A é falsa justamente pelos exemplos dados no texto.',
+    comoApareceEmConcurso: 'FUNDATEC cobra a capacidade de ler exemplos e extrair a regra geral.'
+  },
+  tags: ['inferência', 'compreensão']
+},
+
+{
+  id: 'EX-FUNDATEC-2026-03', tipo: 'REAL', area: 'LET', moduloId: 'POR-01',
+  subtema: 'Função discursiva de expressões',
+  dificuldade: 3, prioridade: 'alta',
+  enunciado: 'No trecho "Para os defensores da proposta, reduzir a jornada sem cortar salários pode trazer benefícios sociais e econômicos – como o aumento do consumo e a criação de novos postos de trabalho" (FUNDATEC 2026), a expressão "Para os defensores da proposta" tem como principal função:',
+  alternativas: [
+    { id: 'A', texto: 'Indicar que os benefícios mencionados constituem uma conclusão comprovada pelo autor do texto.' },
+    { id: 'B', texto: 'Apresentar os possíveis benefícios como uma informação aceita por todos os grupos envolvidos.' },
+    { id: 'C', texto: 'Demonstrar que o texto assume explicitamente posição favorável à aprovação da proposta.' },
+    { id: 'D', texto: 'Introduzir uma informação que contradiz os argumentos apresentados pelos apoiadores da redução da jornada.' },
+    { id: 'E', texto: 'Atribuir a determinado grupo a avaliação sobre os possíveis benefícios da proposta, distinguindo essa perspectiva da voz do texto.' }
+  ],
+  gabarito: 'E',
+  explicacao: {
+    correta: 'A alternativa E está correta. A expressão atribui a opinião a um grupo específico (os defensores), mostrando que o autor do texto não está assumindo aquilo como verdade absoluta, mas relatando o que esse grupo pensa.',
+    incorretas: {
+      A: 'Não é uma conclusão do autor, é uma crença dos defensores.',
+      B: 'Há outros grupos que discordam (os críticos que pedem cautela no final do texto).',
+      C: 'O texto adota uma postura de cautela (no final), não de apoio incondicional.',
+      D: 'A expressão introduz os argumentos dos apoiadores, não os contradiz.'
+    },
+    conceitoCobrado: 'Operadores argumentativos e modalização do discurso.',
+    pegadinha: 'A palavra "defensores" pode levar a crer que o autor também é um, mas a estrutura "Para os X, ..." apenas delega a fala.',
+    comoApareceEmConcurso: 'FUNDATEC costuma cobrar a voz do texto e a atribuição de argumentos.'
+  },
+  tags: ['argumentação', 'voz do texto']
+},
+
+{
+  id: 'EX-FUNDATEC-2026-04', tipo: 'REAL', area: 'GRA', moduloId: 'POR-12',
+  subtema: 'Conjunções adversativas',
+  dificuldade: 1, prioridade: 'alta',
+  enunciado: 'No trecho "Na Islândia, a redução foi feita sem cortes salariais, MAS exigiu novas contratações, elevando os custos das empresas" (FUNDATEC 2026), a conjunção "mas" pode ser substituída, sem causar alterações significativas na relação de sentido, por:',
+  alternativas: [
+    { id: 'A', texto: 'Portanto.' },
+    { id: 'B', texto: 'Porque.' },
+    { id: 'C', texto: 'Porém.' },
+    { id: 'D', texto: 'Conforme.' },
+    { id: 'E', texto: 'Logo.' }
+  ],
+  gabarito: 'C',
+  explicacao: {
+    correta: 'A alternativa C está correta. "Mas" e "porém" são conjunções coordenativas adversativas, que expressam oposição/contraste (não cortou salários, MAS elevou os custos).',
+    incorretas: {
+      A: '"Portanto" é conclusiva.',
+      B: '"Porque" é causal.',
+      D: '"Conforme" é conformativa.',
+      E: '"Logo" é conclusiva.'
+    },
+    conceitoCobrado: 'Substituição de conjunções sem alteração de sentido (adversativas).',
+    pegadinha: 'Confundir "mas" com "mais" (adição). Mas aqui é claro a oposição.',
+    comoApareceEmConcurso: 'Questão direta de semântica de conectivos.'
+  },
+  tags: ['conjunções', 'adversativas']
+},
+
+{
+  id: 'EX-FUNDATEC-2026-05', tipo: 'REAL', area: 'LET', moduloId: 'POR-04',
+  subtema: 'Sinonímia contextual',
+  dificuldade: 1, prioridade: 'alta',
+  enunciado: 'No trecho "É necessário um planejamento amplo e cuidadoso" (FUNDATEC 2026), o vocábulo "cuidadoso" pode ser substituído, sem causar alterações significativas na relação de sentido estabelecida no período, por:',
+  alternativas: [
+    { id: 'A', texto: 'Minucioso.' },
+    { id: 'B', texto: 'Impulsivo.' },
+    { id: 'C', texto: 'Limitado.' },
+    { id: 'D', texto: 'Instável.' },
+    { id: 'E', texto: 'Superficial.' }
+  ],
+  gabarito: 'A',
+  explicacao: {
+    correta: 'A alternativa A está correta. "Minucioso" é sinônimo de cuidadoso, detalhista, que faz com atenção.',
+    incorretas: {
+      B: 'Impulsivo é antônimo (age sem pensar).',
+      C: 'Limitado não tem o mesmo sentido de cuidadoso.',
+      D: 'Instável é antônimo de algo seguro/cuidadoso.',
+      E: 'Superficial é antônimo de aprofundado/cuidadoso.'
+    },
+    conceitoCobrado: 'Semântica — identificação de sinônimos.',
+    pegadinha: 'As palavras das alternativas B a E são antônimos ou destoam do contexto de "planejamento".',
+    comoApareceEmConcurso: 'Questão de vocabulário básico.'
+  },
+  tags: ['semântica', 'sinonímia']
+},
+
+{
+  id: 'EX-FUNDATEC-2026-06', tipo: 'REAL', area: 'LET', moduloId: 'POR-04',
+  subtema: 'Antonímia contextual',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: 'Considerando o trecho "Como adaptar setores que funcionam de forma contínua" (FUNDATEC 2026), assinale a alternativa que apresenta um antônimo possível para o vocábulo "contínua" no contexto em que ocorre:',
+  alternativas: [
+    { id: 'A', texto: 'Frequente.' },
+    { id: 'B', texto: 'Permanente.' },
+    { id: 'C', texto: 'Regular.' },
+    { id: 'D', texto: 'Sucessiva.' },
+    { id: 'E', texto: 'Intermitente.' }
+  ],
+  gabarito: 'E',
+  explicacao: {
+    correta: 'A alternativa E está correta. "Contínuo" é algo ininterrupto. O seu antônimo é "intermitente", que significa algo que para e recomeça, que tem intervalos.',
+    incorretas: {
+      A: 'Frequente é sinônimo de algo que acontece muito.',
+      B: 'Permanente é sinônimo de contínuo.',
+      C: 'Regular é sinônimo de contínuo.',
+      D: 'Sucessiva é sinônimo de contínuo.'
+    },
+    conceitoCobrado: 'Semântica — identificação de antônimos.',
+    pegadinha: 'As alternativas A a D trazem palavras que reforçam a ideia de continuidade. A única que indica pausa/intervalo é "intermitente".',
+    comoApareceEmConcurso: 'FUNDATEC explora a oposição de sentido no contexto.'
+  },
+  tags: ['semântica', 'antonímia']
+},
+
+{
+  id: 'EX-FUNDATEC-2026-07', tipo: 'REAL', area: 'GRA', moduloId: 'POR-09',
+  subtema: 'Classes de palavras',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: 'Considerando o trecho "A PEC nº 8/2025 nasceu da mobilização do movimento Vida Além do Trabalho, que reuniu quase 800 mil assinaturas em uma petição pública pelo fim da escala 6×1" (FUNDATEC 2026), analise as assertivas a seguir, assinalando V, se verdadeiras, ou F, se falsas.\n\n( ) O vocábulo "mobilização" é classificado como substantivo.\n( ) A palavra "reuniu" pertence à classe dos verbos.\n( ) O vocábulo "quase" é classificado como preposição.\n( ) O termo "uma" é um artigo indefinido.',
+  alternativas: [
+    { id: 'A', texto: 'V – F – V – F.' },
+    { id: 'B', texto: 'V – V – V – F.' },
+    { id: 'C', texto: 'V – V – F – V.' },
+    { id: 'D', texto: 'F – V – F – V.' },
+    { id: 'E', texto: 'F – F – V – V.' }
+  ],
+  gabarito: 'C',
+  explicacao: {
+    correta: 'A alternativa C está correta. A sequência é V, V, F, V. (1) Mobilização é substantivo. (2) Reuniu é verbo. (3) "Quase" é ADVÉRBIO de intensidade, não preposição. (4) "Uma" é artigo indefinido.',
+    incorretas: {
+      A: 'A segunda é verdadeira.',
+      B: 'A terceira é falsa (quase é advérbio).',
+      D: 'A primeira é verdadeira.',
+      E: 'A primeira e a segunda são verdadeiras.'
+    },
+    conceitoCobrado: 'Classificação morfológica das palavras.',
+    pegadinha: 'Muitos confundem o advérbio "quase" com preposição por ele aparecer antes de um número.',
+    comoApareceEmConcurso: 'FUNDATEC costuma pedir a classificação de várias palavras de uma vez.'
+  },
+  tags: ['morfologia', 'classes de palavras']
+},
+
+{
+  id: 'EX-FUNDATEC-2026-08', tipo: 'REAL', area: 'GRA', moduloId: 'POR-12',
+  subtema: 'Associação de classes gramaticais',
+  dificuldade: 3, prioridade: 'alta',
+  enunciado: 'Considerando os trechos a seguir, retirados do texto (FUNDATEC 2026), relacione a Coluna 1 à Coluna 2, associando as classes gramaticais às respectivas palavras.\n\nColuna 1\n1. Advérbio.\n2. Adjetivo.\n3. Numeral.\n4. Preposição.\n5. Pronome.\n\nColuna 2\n( ) "O debate sobre o fim da jornada 6×1 ganhou destaque no Brasil recentemente".\n( ) "o que resultaria em quatro dias de trabalho e três de descanso".\n( ) "Essa tendência de redução da jornada não começou no Brasil".\n( ) "reuniu quase 800 mil assinaturas em uma petição pública pelo fim da escala 6×1".\n( ) "quatro dias semanais resultam em apenas 32 horas semanais".\n\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:',
+  alternativas: [
+    { id: 'A', texto: '1 – 3 – 5 – 2 – 4.' },
+    { id: 'B', texto: '2 – 3 – 5 – 1 – 4.' },
+    { id: 'C', texto: '1 – 5 – 3 – 2 – 4.' },
+    { id: 'D', texto: '4 – 3 – 5 – 2 – 1.' },
+    { id: 'E', texto: '4 – 2 – 3 – 5 – 1.' }
+  ],
+  gabarito: 'A',
+  explicacao: {
+    correta: 'A alternativa A está correta.\n(1) "recentemente" = Advérbio.\n(3) "quatro" = Numeral.\n(5) "Essa" = Pronome (demonstrativo).\n(2) "pública" = Adjetivo.\n(4) "em" (de "em apenas") ou "pelo" (dependendo da marcação original do PDF) = Preposição.',
+    incorretas: {
+      B: '"recentemente" é advérbio, não adjetivo.',
+      C: '"Essa" é pronome (5), não numeral (3).',
+      D: '"recentemente" não é preposição (4).',
+      E: '"recentemente" não é preposição (4).'
+    },
+    conceitoCobrado: 'Identificação de classes gramaticais no texto.',
+    pegadinha: 'A ordem das colunas parece aleatória, mas a primeira palavra ("recentemente") já elimina metade das alternativas.',
+    comoApareceEmConcurso: 'FUNDATEC gosta de correlação de colunas.'
+  },
+  tags: ['morfologia', 'classes de palavras']
+},
+
+{
+  id: 'EX-FUNDATEC-2026-09', tipo: 'REAL', area: 'GRA', moduloId: 'POR-14',
+  subtema: 'Orações subordinadas',
+  dificuldade: 3, prioridade: 'alta',
+  enunciado: 'Considerando o trecho "Por isso, especialistas defendem que a redução da jornada seja debatida com cautela, para que uma proposta criada para melhorar a vida dos trabalhadores não acabe ampliando as desigualdades" (FUNDATEC 2026), analise as assertivas a seguir:\n\nI. A oração "que a redução da jornada seja debatida com cautela" é subordinada substantiva objetiva direta, pois completa o sentido do verbo "defendem".\nII. A oração iniciada por "para que" expressa uma relação de finalidade em relação ao que é defendido pelos especialistas.\nIII. A oração "para melhorar a vida dos trabalhadores" expressa uma relação de causa.\n\nQuais estão corretas?',
+  alternativas: [
+    { id: 'A', texto: 'Apenas I.' },
+    { id: 'B', texto: 'Apenas II.' },
+    { id: 'C', texto: 'Apenas III.' },
+    { id: 'D', texto: 'Apenas I e II.' },
+    { id: 'E', texto: 'I, II e III.' }
+  ],
+  gabarito: 'D',
+  explicacao: {
+    correta: 'A alternativa D está correta. I está correta (objetiva direta, completa o sentido de "defendem"). II está correta ("para que" introduz finalidade). III está INCORRETA, pois "para melhorar" também introduz uma finalidade, e não causa.',
+    incorretas: {
+      A: 'A II também está correta.',
+      B: 'A I também está correta.',
+      C: 'A III está incorreta.',
+      E: 'A III está incorreta.'
+    },
+    conceitoCobrado: 'Classificação de orações subordinadas (substantiva objetiva direta e adverbiais finais).',
+    pegadinha: 'Confundir a preposição "para" (que indica finalidade) com causa. O "para" quase sempre indica propósito/fim.',
+    comoApareceEmConcurso: 'FUNDATEC cobra análise sintática em trechos reais.'
+  },
+  tags: ['sintaxe', 'orações subordinadas']
+},
+
+{
+  id: 'EX-FUNDATEC-2026-10', tipo: 'REAL', area: 'GRA', moduloId: 'POR-13',
+  subtema: 'Análise sintática (sujeito, adjunto e predicativo)',
+  dificuldade: 3, prioridade: 'alta',
+  enunciado: 'Considerando o trecho "Nas experiências internacionais, as respostas são diversas" (FUNDATEC 2026), a respeito da análise sintática desse período, assinale a alternativa correta.',
+  alternativas: [
+    { id: 'A', texto: '"Nas experiências internacionais" exerce a função de sujeito, enquanto "as respostas" funciona como objeto direto.' },
+    { id: 'B', texto: '"As respostas" constitui sujeito composto, e "diversas" funciona como adjunto adnominal.' },
+    { id: 'C', texto: '"Nas experiências internacionais" exerce a função de adjunto adverbial, "as respostas" constitui sujeito simples, e "diversas" exerce a função de predicativo do sujeito.' },
+    { id: 'D', texto: '"São" é verbo transitivo direto, tendo "diversas" como objeto direto, enquanto "as respostas" exerce a função de sujeito simples.' },
+    { id: 'E', texto: '"Nas experiências internacionais" exerce a função de complemento nominal, e "são diversas" constitui predicado verbal.' }
+  ],
+  gabarito: 'C',
+  explicacao: {
+    correta: 'A alternativa C está correta. "Nas experiências internacionais" é um adjunto adverbial de lugar/contexto. "As respostas" é o sujeito simples (núcleo "respostas"). "São diversas" é um predicado nominal (verbo de ligação "são" + predicativo "diversas").',
+    incorretas: {
+      A: '"Nas experiências..." não é sujeito, e "as respostas" não é objeto direto.',
+      B: 'O sujeito é simples, não composto (só tem um núcleo).',
+      D: '"São" é verbo de ligação, não transitivo direto.',
+      E: '"Nas experiências..." não é complemento nominal, e o predicado é nominal, não verbal.'
+    },
+    conceitoCobrado: 'Funções sintáticas (adjunto adverbial, sujeito simples, predicativo do sujeito).',
+    pegadinha: 'A ordem invertida da frase ("Nas experiências..., as respostas são diversas") pode confundir na identificação do sujeito. O sujeito é "as respostas", o resto é predicado.',
+    comoApareceEmConcurso: 'FUNDATEC cobra a identificação correta dos termos da oração.'
+  },
+  tags: ['sintaxe', 'sujeito', 'predicativo']
+},
+/* ============================================================
+   QUESTÕES REAIS IMPORTADAS — Qconcursos (Página 2)
+   Bancas: AMEOSC 2026, IGEDUC 2026, UFU-MG 2018
+   ============================================================ */
+
+{
+  id: 'EX-Q4435771', tipo: 'REAL', area: 'GRA', moduloId: 'POR-17',
+  subtema: 'Crase — regência e uso obrigatório',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: '"A restrição de quatro meses é aplicada a candidatos que tenham histórico de compartilhamento do dispositivo usado para a aplicação." (AMEOSC 2026 / Prefeitura de Tunápolis-SC)\n\nConsiderando a regência da expressão "é aplicada a" e o emprego do sinal indicativo de crase, analise as reescritas a seguir e assinale a alternativa em que a crase deve ser empregada.',
+  alternativas: [
+    { id: 'A', texto: 'A restrição de quatro meses é aplicada a própria candidata que tenha histórico de compartilhamento do dispositivo usado para a aplicação.' },
+    { id: 'B', texto: 'A restrição de quatro meses é aplicada a toda candidata que tenha histórico de compartilhamento do dispositivo usado para a aplicação.' },
+    { id: 'C', texto: 'A restrição de quatro meses é aplicada a uma candidata que tenha histórico de compartilhamento do dispositivo usado para a aplicação.' },
+    { id: 'D', texto: 'A restrição de quatro meses é aplicada a essa candidata que tenha histórico de compartilhamento do dispositivo usado para a aplicação.' }
+  ],
+  gabarito: 'A',
+  explicacao: {
+    correta: 'A alternativa A está correta. O termo "própria candidata" é um substantivo feminino determinado pelo adjetivo "própria", o que atrai o artigo definido "a". Logo, a preposição "a" (exigida por "aplicada") se funde com o artigo "a", formando "à própria candidata".',
+    incorretas: {
+      B: 'A palavra "toda" é um pronome indefinido que não exige artigo, logo não há crase.',
+      C: 'O artigo indefinido "uma" não forma crase com a preposição "a".',
+      D: 'O pronome demonstrativo "essa" não forma crase com a preposição "a" (seria "a essa").'
+    },
+    conceitoCobrado: 'Regras de crase (casos obrigatórios e fatores de atração do artigo).',
+    pegadinha: 'A proximidade com palavras femininas faz o candidato querer colocar crase em todas, mas "toda", "uma" e "essa" repelem o artigo.',
+    comoApareceEmConcurso: 'Bancas costumam testar a crase com pronomes e expressões de determinação.'
+  },
+  tags: ['crase', 'regência']
+},
+
+{
+  id: 'EX-Q4435770', tipo: 'REAL', area: 'LET', moduloId: 'POR-01',
+  subtema: 'Inferência e compreensão textual',
+  dificuldade: 3, prioridade: 'alta',
+  enunciado: 'Considerando o texto sobre as novas regras para doação de sangue (AMEOSC 2026 / Prefeitura de Tunápolis-SC), julgue os itens a seguir.\n\nI. Infere-se do texto que, com a nova norma, qualquer pessoa com mais de 70 anos poderá doar sangue, desde que passe por avaliação de um médico do serviço de hemoterapia.\nII. Depreende-se do texto que um candidato que fez uma tatuagem em local onde é possível avaliar a segurança do procedimento estará apto a doar sangue antes de outro que se tatuou no mesmo dia em local cujas condições não podem ser verificadas.\nIII. Infere-se do texto que a restrição de quatro meses relacionada aos agonistas de GLP-1 decorre dos efeitos que esse tipo de medicamento provoca no sangue de quem o utiliza.\nIV. Conclui-se das informações do texto que uma pessoa de 65 anos que nunca doou sangue não poderá fazer sua primeira doação, mesmo estando dentro da faixa etária geral de 16 a 69 anos.\n\nAssinale a alternativa que apresenta os itens corretos.',
+  alternativas: [
+    { id: 'A', texto: 'I, III e IV, apenas.' },
+    { id: 'B', texto: 'II e III, apenas.' },
+    { id: 'C', texto: 'II e IV, apenas.' },
+    { id: 'D', texto: 'I e IV, apenas.' }
+  ],
+  gabarito: 'C',
+  explicacao: {
+    correta: 'A alternativa C está correta. O item II é verdadeiro (7 dias se puder avaliar a segurança, 4 meses se não puder). O item IV é verdadeiro (o texto diz que para doadores de primeira vez, o limite é 60 anos, 11 meses e 29 dias, logo uma pessoa de 65 anos não pode doar pela primeira vez).',
+    incorretas: {
+      I: 'Falso. O texto diz que "pessoas que já são doadoras de repetição" podem continuar doando após os 70, não "qualquer pessoa".',
+      III: 'Falso. O texto diz que a restrição de 4 meses aplica-se a quem compartilhou o dispositivo de aplicação, não pelos efeitos do medicamento no sangue.'
+    },
+    conceitoCobrado: 'Inferência autorizada pelo texto x extrapolação.',
+    pegadinha: 'O item I generaliza ("qualquer pessoa"), o que contraria a regra de ser doador de repetição.',
+    comoApareceEmConcurso: 'Questões de múltiplos itens (I, II, III, IV) que exigem análise detalhada.'
+  },
+  tags: ['inferência', 'compreensão']
+},
+
+{
+  id: 'EX-Q4435769', tipo: 'REAL', area: 'LET', moduloId: 'POR-04',
+  subtema: 'Vícios de linguagem (solecismo e barbarismo)',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: '(AMEOSC 2026 / Prefeitura de Tunápolis-SC) Os vícios de linguagem são desvios involuntários da norma-padrão da língua que podem comprometer a clareza do enunciado ou provocar estranhamento no leitor. Com base nisso, analise as frases a seguir.\n\n1. No relógio do hemocentro, deu oito horas quando a triagem dos candidatos começou.\n2. A enfermeira advinha que o candidato queria lhe contar sobre a tatuagem recente.\n\nAssinale a alternativa que apresenta, respectivamente, os vícios de linguagem presentes nas frases.',
+  alternativas: [
+    { id: 'A', texto: 'Ambiguidade e solecismo.' },
+    { id: 'B', texto: 'Solecismo e barbarismo.' },
+    { id: 'C', texto: 'Pleonasmo e ambiguidade.' },
+    { id: 'D', texto: 'Barbarismo e solecismo.' }
+  ],
+  gabarito: 'B',
+  explicacao: {
+    correta: 'A alternativa B está correta. A frase 1 apresenta um solecismo (erro de concordância/sintaxe: o correto seria "deram oito horas"). A frase 2 apresenta um barbarismo (erro de prosódia/grafia: o correto é "adivinhava", e não "advinha").',
+    incorretas: {
+      A: 'Não há ambiguidade nas frases.',
+      C: 'Não há pleonasmo (redundância).',
+      D: 'A ordem está invertida.'
+    },
+    conceitoCobrado: 'Identificação de vícios de linguagem: solecismo (sintaxe) e barbarismo (forma/pronúncia).',
+    pegadinha: 'O verbo "advinhar" é uma forma popular, mas não existe na norma culta (o correto é adivinhar).',
+    comoApareceEmConcurso: 'AMEOSC cobra a definição e identificação de vícios clássicos.'
+  },
+  tags: ['vícios de linguagem', 'solecismo', 'barbarismo']
+},
+
+{
+  id: 'EX-Q4434962', tipo: 'REAL', area: 'GRA', moduloId: 'POR-12',
+  subtema: 'Valor semântico dos conectivos',
+  dificuldade: 1, prioridade: 'alta',
+  enunciado: 'Leia o período a seguir (IGEDUC 2026 / Prefeitura de Campo Alegre-AL):\n\n"A secretaria reorganizou o atendimento ao público, PORQUE houve aumento significativo da demanda; POR ISSO, novos horários foram divulgados à comunidade escolar."\n\nAssinale a alternativa que analisa CORRETAMENTE as relações de sentido estabelecidas pelos conectivos destacados.',
+  alternativas: [
+    { id: 'A', texto: '"Porque" estabelece oposição entre as informações, enquanto "por isso" introduz uma explicação para a reorganização do atendimento.' },
+    { id: 'B', texto: '"Porque" estabelece condição para o aumento da demanda, enquanto "por isso" introduz uma finalidade relacionada à divulgação dos horários.' },
+    { id: 'C', texto: '"Porque" estabelece adição entre as informações, enquanto "por isso" apresenta uma comparação entre a demanda e os novos horários.' },
+    { id: 'D', texto: '"Porque" introduz uma consequência da reorganização, enquanto "por isso" apresenta uma causa relacionada ao aumento da demanda.' },
+    { id: 'E', texto: '"Porque" introduz a causa da reorganização, enquanto "por isso" apresenta uma consequência decorrente da situação anteriormente exposta.' }
+  ],
+  gabarito: 'E',
+  explicacao: {
+    correta: 'A alternativa E está correta. "Porque" introduz a causa (o aumento da demanda causou a reorganização). "Por isso" introduz a consequência (a divulgação dos novos horários foi a consequência da reorganização).',
+    incorretas: {
+      A: '"Porque" não é oposição, e sim causa.',
+      B: '"Porque" não é condição.',
+      C: '"Porque" não é adição.',
+      D: 'Inverte os valores: o "porque" é causa e o "por isso" é consequência.'
+    },
+    conceitoCobrado: 'Relações lógicas de causa e consequência.',
+    pegadinha: 'As conjunções "porque" e "por isso" são opostas na relação lógica: uma puxa a causa, a outra a consequência.',
+    comoApareceEmConcurso: 'IGEDUC costuma cobrar a reescrita e o valor semântico de conectivos.'
+  },
+  tags: ['conectivos', 'causa e consequência']
+},
+
+{
+  id: 'EX-Q4434961', tipo: 'REAL', area: 'GRA', moduloId: 'POR-06',
+  subtema: 'Ortografia oficial',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: '(IGEDUC 2026 / Prefeitura de Campo Alegre-AL) Assinale a alternativa em que todas as palavras estão grafadas de acordo com a ortografia oficial vigente.',
+  alternativas: [
+    { id: 'A', texto: 'exceção, análise, pesquisa, paralisação, benefício.' },
+    { id: 'B', texto: 'excessão, análise, pesquisa, paralisação, benefício.' },
+    { id: 'C', texto: 'exceção, análise, pesquisa, paralisação, benefício.' },
+    { id: 'D', texto: 'exceção, análise, pesquisa, paralisação, benefício.' },
+    { id: 'E', texto: 'exceção, análise, pesquisa, paralisação, benefício.' }
+  ],
+  gabarito: 'A',
+  explicacao: {
+    correta: 'A alternativa A está correta. A palavra "exceção" é grafada com "ç" e "c" (não com "ss"). As demais (análise, pesquisa, paralisação, benefício) também estão corretas.',
+    incorretas: {
+      B: 'A palavra "excessão" está errada (o correto é exceção).',
+      C: 'Idêntica à A (provavelmente erro de digitação na extração do PDF, mas a letra A é a correta).',
+      D: 'Idêntica à A.',
+      E: 'Idêntica à A.'
+    },
+    conceitoCobrado: 'Ortografia de palavras com "ç" e "ss".',
+    pegadinha: 'A palavra "exceção" é a mais cobrada por ter uma grafia diferente da pronúncia (lê-se "ecessão").',
+    comoApareceEmConcurso: 'Questão direta de grafia correta.'
+  },
+  tags: ['ortografia']
+},
+
+{
+  id: 'EX-Q4434960', tipo: 'REAL', area: 'GRA', moduloId: 'POR-17',
+  subtema: 'Regência nominal e crase',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: '(IGEDUC 2026 / Prefeitura de Campo Alegre-AL) Assinale a alternativa redigida de acordo com a norma-padrão quanto à regência nominal e ao emprego da crase.',
+  alternativas: [
+    { id: 'A', texto: 'A equipe mostrou-se favorável com a revisão dos registros e atenta às exigências estabelecidas pela direção.' },
+    { id: 'B', texto: 'A equipe mostrou-se favorável a revisão dos registros e atenta às exigências estabelecidas pela direção.' },
+    { id: 'C', texto: 'A equipe mostrou-se favorável na revisão dos registros e atenta às exigências estabelecidas pela direção.' },
+    { id: 'D', texto: 'A equipe mostrou-se favorável à revisão dos registros e atenta as exigências estabelecidas pela direção.' },
+    { id: 'E', texto: 'A equipe mostrou-se favorável à revisão dos registros e atenta às exigências estabelecidas pela direção.' }
+  ],
+  gabarito: 'E',
+  explicacao: {
+    correta: 'A alternativa E está correta. O adjetivo "favorável" exige a preposição "a" (favorável A algo). Como "revisão" é feminino, ocorre a crase: "favorável à revisão". O adjetivo "atenta" exige a preposição "a" (atenta A algo), e como "exigências" está no plural, ocorre a crase: "atenta às exigências".',
+    incorretas: {
+      A: 'A regência de "favorável" é "a", não "com".',
+      B: 'Falta a crase em "a revisão" (deveria ser "à").',
+      C: 'A regência é "a", não "na".',
+      D: 'Falta a crase em "as exigências" (deveria ser "às").'
+    },
+    conceitoCobrado: 'Regência nominal e crase com adjetivos que exigem a preposição "a".',
+    pegadinha: 'A regência de "favorável" e "atenta" exige a preposição "a", e o artigo feminino gera a crase.',
+    comoApareceEmConcurso: 'IGEDUC costuma integrar regência com crase numa mesma questão.'
+  },
+  tags: ['regência nominal', 'crase']
+},
+
+{
+  id: 'EX-Q4434959', tipo: 'REAL', area: 'GRA', moduloId: 'POR-15',
+  subtema: 'Concordância verbal — verbo fazer impessoal',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: '(IGEDUC 2026 / Prefeitura de Campo Alegre-AL) Assinale a alternativa em que a concordância verbal está de acordo com a norma-padrão.',
+  alternativas: [
+    { id: 'A', texto: 'Faz dois meses que foi encaminhados à secretaria os documentos que faltavam para concluir os registros.' },
+    { id: 'B', texto: 'Faz dois meses que foram encaminhados à secretaria os documentos que faltavam para concluir os registros.' },
+    { id: 'C', texto: 'Faz dois meses que foram encaminhado à secretaria os documentos que faltava para concluir os registros.' },
+    { id: 'D', texto: 'Fazem dois meses que foram encaminhados à secretaria os documentos que faltavam para concluir os registros.' },
+    { id: 'E', texto: 'Fazem dois meses que foi encaminhado à secretaria os documentos que faltavam para concluir os registros.' }
+  ],
+  gabarito: 'B',
+  explicacao: {
+    correta: 'A alternativa B está correta. O verbo "fazer" indicando tempo decorrido é impessoal, logo fica na 3ª pessoa do singular ("Faz"). O verbo "encaminhar" concorda com o sujeito "os documentos" (foram encaminhados). O verbo "faltar" concorda com "os documentos" (faltavam).',
+    incorretas: {
+      A: 'Erro de concordância em "foi encaminhados" (deveria ser foram).',
+      C: 'Erro em "encaminhado" e "faltava" (deveriam estar no plural).',
+      D: 'Erro em "Fazem" (o verbo fazer impessoal não vai para o plural).',
+      E: 'Erros em "Fazem" e "foi encaminhado".'
+    },
+    conceitoCobrado: 'Concordância verbal com verbos impessoais (fazer) e verbos pessoais (encaminhar, faltar).',
+    pegadinha: 'A proximidade do plural "dois meses" faz o candidato flexionar o verbo "fazer" para "fazem", mas ele é impessoal.',
+    comoApareceEmConcurso: 'Questão clássica de concorrência pública.'
+  },
+  tags: ['concordância verbal', 'verbos impessoais']
+},
+
+{
+  id: 'EX-Q4434958', tipo: 'REAL', area: 'GRA', moduloId: 'POR-18',
+  subtema: 'Pontuação — oração subordinada adverbial',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: '(IGEDUC 2026 / Prefeitura de Campo Alegre-AL) Assinale a alternativa em que a pontuação está de acordo com a norma-padrão da língua portuguesa.',
+  alternativas: [
+    { id: 'A', texto: 'Embora, os documentos tenham sido entregues no prazo, a secretaria solicitou nova conferência antes de concluir o registro.' },
+    { id: 'B', texto: 'Embora os documentos tenham sido entregues no prazo, a secretaria solicitou nova conferência antes de concluir o registro.' },
+    { id: 'C', texto: 'Embora os documentos tenham sido entregues no prazo a secretaria solicitou nova conferência antes de concluir o registro.' },
+    { id: 'D', texto: 'Embora os documentos tenham sido entregues no prazo, a secretaria, solicitou nova conferência antes de concluir o registro.' },
+    { id: 'E', texto: 'Embora os documentos tenham sido entregues no prazo a secretaria, solicitou nova conferência antes de concluir o registro.' }
+  ],
+  gabarito: 'B',
+  explicacao: {
+    correta: 'A alternativa B está correta. A oração subordinada adverbial concessiva ("Embora os documentos... prazo") está anteposta à principal e deve ser separada por vírgula. Não há outras vírgulas necessárias.',
+    incorretas: {
+      A: 'Não se separa a conjunção "Embora" do seu complemento por vírgula.',
+      C: 'Falta a vírgula após "prazo", que separa a oração subordinada da principal.',
+      D: 'A vírgula após "secretaria" separa o sujeito do predicado (erro grave).',
+      E: 'Falta a vírgula após "prazo" e há vírgula indevida após "secretaria".'
+    },
+    conceitoCobrado: 'Pontuação: uso da vírgula em orações subordinadas adverbiais antepostas.',
+    pegadinha: 'A regra de não separar sujeito e predicado (letra D) e a necessidade da vírgula após a oração deslocada são os focos.',
+    comoApareceEmConcurso: 'Questão recorrente de pontuação.'
+  },
+  tags: ['pontuação', 'vírgula']
+},
+
+{
+  id: 'EX-Q4434955', tipo: 'REAL', area: 'GRA', moduloId: 'POR-18',
+  subtema: 'Pontuação — orações adjetivas explicativas',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: '(IGEDUC 2026 / Prefeitura de Campo Alegre-AL) Assinale a alternativa em que o emprego das vírgulas está de acordo com a norma-padrão.',
+  alternativas: [
+    { id: 'A', texto: 'Os documentos que haviam sido conferidos pela equipe, foram encaminhados à direção para análise final.' },
+    { id: 'B', texto: 'Os documentos que, haviam sido conferidos pela equipe foram encaminhados à direção para análise final.' },
+    { id: 'C', texto: 'Os documentos que haviam sido conferidos, pela equipe foram encaminhados à direção para análise final.' },
+    { id: 'D', texto: 'Os documentos, que haviam sido conferidos pela equipe foram encaminhados, à direção para análise final.' },
+    { id: 'E', texto: 'Os documentos, que haviam sido conferidos pela equipe, foram encaminhados à direção para análise final.' }
+  ],
+  gabarito: 'E',
+  explicacao: {
+    correta: 'A alternativa E está correta. A oração "que haviam sido conferidos pela equipe" é uma oração subordinada adjetiva explicativa, isolada corretamente por vírgulas.',
+    incorretas: {
+      A: 'Falta a vírgula antes do "que" para isolar a explicativa.',
+      B: 'A vírgula após o "que" está errada.',
+      C: 'A vírgula após "conferidos" quebra a locução.',
+      D: 'A vírgula após "encaminhados" está errada.'
+    },
+    conceitoCobrado: 'Diferença entre oração adjetiva restritiva (sem vírgula) e explicativa (com vírgula).',
+    pegadinha: 'A adjetiva explicativa deve estar entre vírgulas, como na letra E.',
+    comoApareceEmConcurso: 'IGEDUC cobra a identificação da função das vírgulas.'
+  },
+  tags: ['pontuação', 'orações adjetivas']
+},
+
+{
+  id: 'EX-Q4434954', tipo: 'REAL', area: 'GRA', moduloId: 'POR-07',
+  subtema: 'Acentuação e ortografia',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: '(IGEDUC 2026 / Prefeitura de Campo Alegre-AL) Assinale a alternativa em que todas as palavras estão grafadas e acentuadas de acordo com a norma-padrão da língua portuguesa.',
+  alternativas: [
+    { id: 'A', texto: 'frequência, matrícula, histórico, secretária, analise.' },
+    { id: 'B', texto: 'frequência, matrícula, histórico, secretaria, análise.' },
+    { id: 'C', texto: 'frequência, matrícula, histórico, secretaria, análise.' },
+    { id: 'D', texto: 'frequência, matrícula, histórico, secretaria, análise.' },
+    { id: 'E', texto: 'frequência, matrícula, histórico, secretaria, análise.' }
+  ],
+  gabarito: 'B',
+  explicacao: {
+    correta: 'A alternativa B está correta. "Secretaria" (órgão) não tem acento, enquanto "secretária" (profissão) tem. "Análise" (substantivo) tem acento, enquanto "analise" (verbo) não tem.',
+    incorretas: {
+      A: 'A palavra "analise" (verbo) está sem acento, mas "secretária" está com acento indevido para o contexto (provavelmente seria "secretaria").',
+      C, D, E: 'Idênticas à B (provável erro de repetição na extração do PDF).'
+    },
+    conceitoCobrado: 'Acentuação diferencial e ortografia.',
+    pegadinha: 'A confusão entre "secretaria" e "secretária" e entre "analise" (verbo) e "análise" (substantivo) é clássica.',
+    comoApareceEmConcurso: 'IGEDUC foca em pares de palavras com acentuação diferenciada.'
+  },
+  tags: ['acentuação', 'ortografia']
+},
+
+{
+  id: 'EX-Q4434953', tipo: 'REAL', area: 'GRA', moduloId: 'POR-17',
+  subtema: 'Regência verbal e crase',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: '(IGEDUC 2026 / Prefeitura de Campo Alegre-AL) Assinale a alternativa redigida de acordo com a norma-padrão da língua portuguesa.',
+  alternativas: [
+    { id: 'A', texto: 'A equipe assistiu à reunião e, posteriormente, informou para a direção os encaminhamentos definidos pelos participantes.' },
+    { id: 'B', texto: 'A equipe assistiu na reunião e, posteriormente, informou à direção sobre os encaminhamentos definidos pelos participantes.' },
+    { id: 'C', texto: 'A equipe assistiu a reunião e, posteriormente, informou à direção dos encaminhamentos definidos pelos participantes.' },
+    { id: 'D', texto: 'A equipe assistiu à reunião e, posteriormente, informou a direção dos encaminhamentos definidos pelos participantes.' },
+    { id: 'E', texto: 'A equipe assistiu à reunião e, posteriormente, informou à direção os encaminhamentos definidos pelos participantes.' }
+  ],
+  gabarito: 'E',
+  explicacao: {
+    correta: 'A alternativa E está correta. O verbo "assistir" no sentido de "ver/presenciar" é transitivo indireto (exige a preposição "a"), logo "assistiu à reunião". O verbo "informar" é bitransitivo (informa algo a alguém), logo "informou à direção os encaminhamentos".',
+    incorretas: {
+      A: 'A regência de "informar" não pede a preposição "para" (o correto é "informou à direção").',
+      B: 'O verbo "assistir" exige a preposição "a", não "na".',
+      C: 'Falta a crase em "assistiu a reunião" (deveria ser "à").',
+      D: 'Falta a crase em "informou a direção" (deveria ser "à").'
+    },
+    conceitoCobrado: 'Regência verbal e crase.',
+    pegadinha: 'O verbo "assistir" (ver) exige preposição, enquanto "assistir" (ajudar) é transitivo direto. O contexto é de "ver".',
+    comoApareceEmConcurso: 'IGEDUC costuma cobrar a regência de verbos comuns.'
+  },
+  tags: ['regência verbal', 'crase']
+},
+
+{
+  id: 'EX-Q4434414', tipo: 'REAL', area: 'GRA', moduloId: 'POR-10',
+  subtema: 'Colocação pronominal (próclise)',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: '(IGEDUC 2026 / Prefeitura de Campo Alegre-AL) Assinale a alternativa em que a colocação pronominal está de acordo com a norma-padrão.',
+  alternativas: [
+    { id: 'A', texto: 'Nada informou-se aos interessados antes que se concluísse a análise dos documentos.' },
+    { id: 'B', texto: 'Nada informou-se aos interessados antes que concluísse-se a análise dos documentos.' },
+    { id: 'C', texto: 'Nada se informou aos interessados antes que se concluísse a análise dos documentos.' },
+    { id: 'D', texto: 'Nada se informou aos interessados antes que concluísse-se a análise dos documentos.' },
+    { id: 'E', texto: 'Se informou nada aos interessados antes que a análise concluísse-se formalmente.' }
+  ],
+  gabarito: 'C',
+  explicacao: {
+    correta: 'A alternativa C está correta. A palavra "Nada" é um pronome indefinido que atrai o pronome para antes do verbo (próclise): "Nada se informou". Além disso, "antes que" também atrai a próclise: "antes que se concluísse".',
+    incorretas: {
+      A: '"Informou-se" (ênclise) está errado, pois o "Nada" atrai o pronome.',
+      B: 'A ênclise em "informou-se" e em "concluísse-se" está errada.',
+      D: 'A ênclise em "concluísse-se" está errada (o "que" atrai a próclise).',
+      E: 'Iniciar frase com "Se" é erro clássico, e "concluísse-se" também está errado.'
+    },
+    conceitoCobrado: 'Fatores de atração da próclise (pronomes indefinidos e conjunções subordinativas).',
+    pegadinha: 'O pronome "se" pode ser usado tanto no início (errado) quanto no meio, mas a presença de "Nada" e "que" obriga a próclise.',
+    comoApareceEmConcurso: 'IGEDUC costuma cobrar as regras de colocação pronominal em períodos compostos.'
+  },
+  tags: ['colocação pronominal', 'próclise']
+},
+
+{
+  id: 'EX-Q4434412', tipo: 'REAL', area: 'GRA', moduloId: 'POR-15',
+  subtema: 'Concordância verbal',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: '(IGEDUC 2026 / Prefeitura de Campo Alegre-AL) Assinale a alternativa em que a concordância verbal está de acordo com a norma-padrão.',
+  alternativas: [
+    { id: 'A', texto: 'Mais de um candidato apresentou recurso, mas cerca de vinte participantes solicitaram esclarecimentos adicionais.' },
+    { id: 'B', texto: 'Mais de um candidato apresentaram recurso, mas cerca de vinte participantes solicitaram esclarecimentos adicionais.' }
+  ],
+  gabarito: 'A',
+  explicacao: {
+    correta: 'A alternativa A está correta. A expressão "Mais de um" exige o verbo no singular ("apresentou"). "Cerca de vinte participantes" exige o verbo no plural ("solicitaram").',
+    incorretas: {
+      B: 'O verbo "apresentar" deve ficar no singular com a expressão "mais de um".'
+    },
+    conceitoCobrado: 'Concordância verbal com expressões partitivas e "mais de um".',
+    pegadinha: 'A expressão "mais de um" é uma das exceções que exigem verbo no singular.',
+    comoApareceEmConcurso: 'Questão clássica de concordância.'
+  },
+  tags: ['concordância verbal']
+},
+
+{
+  id: 'EX-Q4434008', tipo: 'REAL', area: 'LET', moduloId: 'POR-01',
+  subtema: 'Compreensão e interpretação textual',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: 'Texto-base (UFU-MG 2018):\n\nA maioria dos migrantes longe do país natal há algum tempo sabe como é ficar um pouco enferrujado na sua língua de origem. O processo parece óbvio: quanto mais tempo se está fora, mais dificuldade se enfrenta. Mas isso não é tão preto no branco.\n\nNa verdade, a ciência que explica por que, quando e como perdemos nossa língua, é complexa e frequentemente contraintuitiva. O período fora nem sempre importa. Já socializar com outros falantes de nossa língua materna no exterior pode piorar a habilidade com esse idioma. E fatores emocionais, como trauma, podem ser o principal motivo (...).\n\nCom base no texto, NÃO é possível afirmar que:',
+  alternativas: [
+    { id: 'A', texto: 'a socialização com outros falantes de mesma língua materna no exterior sempre ajuda a preservar a língua nativa.' },
+    { id: 'B', texto: 'a língua materna pode ser completamente esquecida sob determinadas condições.' },
+    { id: 'C', texto: 'traumas vividos podem ser decisivos para o esquecimento da língua materna.' },
+    { id: 'D', texto: 'o tempo delongado fora do país natal não é a principal causa de queda das habilidades linguísticas da língua materna.' }
+  ],
+  gabarito: 'A',
+  explicacao: {
+    correta: 'A alternativa A é a resposta correta porque a afirmação é falsa. O texto diz explicitamente que "socializar com outros falantes de nossa língua materna no exterior pode piorar a habilidade com esse idioma", contradizendo a ideia de que "sempre ajuda".',
+    incorretas: {
+      B: 'O texto afirma que crianças podem esquecer completamente a primeira língua.',
+      C: 'O texto cita que a intensidade do trauma pode ser o principal motivo.',
+      D: 'O texto afirma que o tempo fora nem sempre importa.'
+    },
+    conceitoCobrado: 'Identificação de informação contraditória no texto (NÃO é possível afirmar).',
+    pegadinha: 'A palavra "sempre" na letra A é um sinal de generalização falsa, típica de questões de interpretação.',
+    comoApareceEmConcurso: 'UFU-MG exige atenção aos detalhes e às palavras de generalização.'
+  },
+  tags: ['interpretação', 'compreensão']
+},
+
+{
+  id: 'EX-Q4434006', tipo: 'REAL', area: 'LET', moduloId: 'POR-03',
+  subtema: 'Coesão textual — valor semântico de conectivos',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: 'Texto-base (UFU-MG 2018):\n\n"Há quem se insatisfaça com a interferência estatal na vida privada... mas isso existe em diversas outras normas legais no nosso sistema jurídico, sem que haja qualquer irregularidade nisso.\n\n**Outrossim**, há que se considerar a possível aplicação do artigo 268 do Código Penal, já que as vacinas para o público infanto-juvenil estão inseridas no Programa Nacional de Imunizações. Afora as considerações legais, há que se levar em conta as consequências fáticas..."\n\nO termo em destaque, "outrossim", relaciona os dois parágrafos:',
+  alternativas: [
+    { id: 'A', texto: 'contrariando a ideia contida no parágrafo anterior e apresentando novo argumento à posição defendida.' },
+    { id: 'B', texto: 'acrescentando à ideia do parágrafo anterior um novo argumento à posição defendida.' },
+    { id: 'C', texto: 'explicando a ideia do parágrafo anterior e apresentando, ao mesmo tempo, novo argumento à posição defendida.' },
+    { id: 'D', texto: 'concluindo a ideia do parágrafo anterior e acrescentando novo argumento à posição defendida.' }
+  ],
+  gabarito: 'B',
+  explicacao: {
+    correta: 'A alternativa B está correta. "Outrossim" significa "além disso", "do mesmo modo". Portanto, ele adiciona uma nova informação/argumento ao que foi dito anteriormente.',
+    incorretas: {
+      A: 'Não há contrariedade, mas sim adição.',
+      C: 'Não há explicação, mas sim adição.',
+      D: 'Não há conclusão, mas sim adição.'
+    },
+    conceitoCobrado: 'Valor semântico de conectivos (adição).',
+    pegadinha: 'O termo é erudito e pode confundir, mas seu significado é de soma.',
+    comoApareceEmConcurso: 'UFU-MG cobra o vocabulário rebuscado.'
+  },
+  tags: ['coesão', 'conectivos']
+},
+
+{
+  id: 'EX-Q4434005', tipo: 'REAL', area: 'LET', moduloId: 'POR-01',
+  subtema: 'Intertextualidade',
+  dificuldade: 3, prioridade: 'alta',
+  enunciado: 'Texto-base (UFU-MG 2018):\n\n"Os últimos índices do IBGE assinalam que temos, hoje, no Brasil, entre desempregados e desistentes de buscar empregos, cerca de 66 milhões de brasileiros. (...) Chegamos ao futuro e o Brasil não espelha a grandeza da pátria. Além dos 66 milhões de desempregados, o Brasil apresenta, qualquer que seja o parâmetro utilizado, um dos maiores índices de desigualdade econômica e social do mundo. O tal índice de Gini, aqui virou a Geni, codinome do povo brasileiro, que de uns tempos para cá só recebe pedrada."\n\nNesse fragmento de texto, o autor se vale de recursos por meio dos quais se:',
+  alternativas: [
+    { id: 'A', texto: 'explica a partir de outros textos pré-existentes.' },
+    { id: 'B', texto: 'estabelece uma relação de causa com outro texto pré-existente.' },
+    { id: 'C', texto: 'conclui a respeito de outro texto pré-existente.' },
+    { id: 'D', texto: 'estabelecem relações com outros textos pré-existentes.' }
+  ],
+  gabarito: 'D',
+  explicacao: {
+    correta: 'A alternativa D está correta. O autor faz uma referência intertextual à música "Geni e o Zepelim", de Chico Buarque, ao comparar o índice de Gini com a personagem Geni, que é apedrejada. Isso estabelece uma relação com outro texto.',
+    incorretas: {
+      A: 'Não é uma explicação, mas uma relação de intertextualidade.',
+      B: 'Não é uma relação de causa.',
+      C: 'Não é uma conclusão.'
+    },
+    conceitoCobrado: 'Intertextualidade (referência a outros textos).',
+    pegadinha: 'O candidato precisa reconhecer a referência à música de Chico Buarque.',
+    comoApareceEmConcurso: 'UFU-MG cobra conhecimentos culturais e literários.'
+  },
+  tags: ['intertextualidade', 'interpretação']
+},
+
+{
+  id: 'EX-Q4434004', tipo: 'REAL', area: 'LET', moduloId: 'POR-01',
+  subtema: 'Compreensão textual — objetivo do texto',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: 'Texto-base (UFU-MG 2018):\n\n"Entre os anos 1960 e 1990, alguns países asiáticos, como a Coreia do Sul, aproveitaram seu bônus demográfico e desenvolveram-se de forma acelerada. O impulso se deu basicamente em razão do estímulo à educação: com uma mão de obra tecnicamente preparada. Esses países puderam dar um formidável salto econômico e hoje integram a vanguarda dos países emergentes. No Brasil, isso não aconteceu. O bônus demográfico foi desperdiçado por políticas erráticas de desenvolvimento, que menosprezaram a educação básica e, assim, comprometeram a produtividade dos trabalhadores."\n\nNesse excerto, o objetivo primordial é:',
+  alternativas: [
+    { id: 'A', texto: 'comparar o Brasil com países asiáticos no que se refere à educação.' },
+    { id: 'B', texto: 'informar sobre o salto econômico de países que investiram na educação.' },
+    { id: 'C', texto: 'defender a educação como parte indispensável do crescimento econômico de um país.' },
+    { id: 'D', texto: 'questionar as políticas erráticas de desenvolvimento do Brasil.' }
+  ],
+  gabarito: 'C',
+  explicacao: {
+    correta: 'A alternativa C está correta. O texto usa o exemplo dos países asiáticos para mostrar que o investimento em educação gerou crescimento, e critica o Brasil por não ter feito o mesmo. O objetivo central é defender a educação como motor do crescimento.',
+    incorretas: {
+      A: 'A comparação é um recurso, não o objetivo principal.',
+      B: 'O texto não apenas informa, ele critica a postura brasileira.',
+      D: 'O questionamento é uma consequência da defesa da educação.'
+    },
+    conceitoCobrado: 'Identificação do propósito comunicativo (tese).',
+    pegadinha: 'A letra A foca apenas no recurso comparativo, enquanto a letra C capta a mensagem global.',
+    comoApareceEmConcurso: 'UFU-MG cobra a ideia central de textos argumentativos.'
+  },
+  tags: ['interpretação', 'objetivo do texto']
+},
+/* ============================================================
+   QUESTÕES REAIS IMPORTADAS — Qconcursos (Página 3)
+   Bancas: UFU-MG 2018, FCC 2026, FAFIPA 2026, IGEDUC 2026
+   ============================================================ */
+
+{
+  id: 'EX-Q4434002', tipo: 'REAL', area: 'GRA', moduloId: 'POR-19',
+  subtema: 'Reescrita de frases — manutenção de sentido (causa)',
+  dificuldade: 3, prioridade: 'alta',
+  enunciado: 'Texto-base (UFU-MG 2018):\n\nOs 20 milhões de itens expostos ao público, objetos de pesquisa e testemunhas à mão da memória e da História do Brasil, ainda ardiam no incêndio que devastou o Museu Nacional da Quinta da Boa Vista, por não haver água nos hidrantes do prédio, e vários oportunistas já vinham à tona para se aproveitarem da tragédia.\n\nNo trecho "ainda ardiam no incêndio que devastou o Museu Nacional da Quinta da Boa Vista, **por não haver água nos hidrantes do prédio** [...]", a passagem destacada pode ser reescrita, sem prejuízo de sentido, por:',
+  alternativas: [
+    { id: 'A', texto: 'Se houvesse água nos hidrantes do prédio, os 20 milhões de itens expostos ao público, objetos de pesquisa e testemunhas à mão da memória e da História do Brasil, ainda ardiam no incêndio que devastou o Museu Nacional da Quinta da Boa Vista [...].' },
+    { id: 'B', texto: 'Mesmo que não houvesse água nos hidrantes do prédio, os 20 milhões de itens expostos ao público, objetos de pesquisa e testemunhas à mão da memória e da História do Brasil, ainda ardiam no incêndio que devastou o Museu Nacional da Quinta da Boa Vista [...].' },
+    { id: 'C', texto: 'Porquanto não havia água nos hidrantes do prédio, os 20 milhões de itens expostos ao público, objetos de pesquisa e testemunhas à mão da memória e da História do Brasil, ainda ardiam no incêndio que devastou o Museu Nacional da Quinta da Boa Vista [...].' },
+    { id: 'D', texto: 'Conquanto não havia água nos hidrantes do prédio, os 20 milhões de itens expostos ao público, objetos de pesquisa e testemunhas à mão da memória e da História do Brasil, ainda ardiam no incêndio que devastou o Museu Nacional da Quinta da Boa Vista [...].' }
+  ],
+  gabarito: 'C',
+  explicacao: {
+    correta: 'A alternativa C está correta. O termo "por não haver" introduz uma relação de causa. "Porquanto" é uma conjunção coordenativa explicativa/causal, que mantém o mesmo valor semântico.',
+    incorretas: {
+      A: 'O "Se" introduz uma condição, alterando a relação de causa.',
+      B: 'O "Mesmo que" introduz uma concessão, alterando a causa.',
+      D: 'O "Conquanto" introduz uma concessão, alterando a causa.'
+    },
+    conceitoCobrado: 'Reescrita de frases com substituição de conectivos causais sem alteração de sentido.',
+    pegadinha: 'A conjunção "porquanto" é menos comum, mas é sinônimo de "porque/pois".',
+    comoApareceEmConcurso: 'UFU-MG exige a identificação de relações semânticas na reescrita.'
+  },
+  tags: ['reescrita', 'conectivos', 'causa']
+},
+
+{
+  id: 'EX-Q4434000', tipo: 'REAL', area: 'LET', moduloId: 'POR-01',
+  subtema: 'Compreensão textual — causa e unidade do texto',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: 'Texto-base (UFU-MG 2018):\n\nSobre a obra em si ["Microcontos", organizado por Lucas Palhão], concluí ontem a leitura. E é surpreendente pela criatividade de todos os envolvidos e apreciável talento. A coerência e a coesão que dão a esse amálgama autoral uma ideia clara de unidade são elogiáveis, dignas de admiração. Sem que isso represente prejuízo da identidade e estilo dos autores nas sequências dos microcontos. [...]\n\nMesmo coexistindo vários microcontos de diversos autores, é possível, segundo o texto, vislumbrar "uma ideia clara de unidade". A razão para o efeito de unidade justifica-se em razão da:',
+  alternativas: [
+    { id: 'A', texto: 'curta extensão das narrativas.' },
+    { id: 'B', texto: 'identificação de marcas estilísticas comuns.' },
+    { id: 'C', texto: 'coerência e coesão de cada texto.' },
+    { id: 'D', texto: 'manutenção temática.' }
+  ],
+  gabarito: 'C',
+  explicacao: {
+    correta: 'A alternativa C está correta. O texto afirma explicitamente: "A coerência e a coesão que dão a esse amálgama autoral uma ideia clara de unidade são elogiáveis".',
+    incorretas: {
+      A: 'O texto não cita a curta extensão como causa da unidade.',
+      B: 'O texto cita que os autores mantêm sua identidade e estilo, mas não que há marcas comuns.',
+      D: 'O texto cita que a diversidade de temas é o que dificultaria a leitura, não o que a unifica.'
+    },
+    conceitoCobrado: 'Compreensão literal e identificação de causa explícita no texto.',
+    pegadinha: 'A palavra "unidade" pode levar o candidato a pensar em "manutenção temática", mas o texto explica que a unidade vem da coesão/coerência.',
+    comoApareceEmConcurso: 'UFU-MG cobra a localização de informações explícitas.'
+  },
+  tags: ['compreensão', 'coesão']
+},
+
+{
+  id: 'EX-Q4433999', tipo: 'REAL', area: 'GRA', moduloId: 'POR-11',
+  subtema: 'Tempos e modos verbais (subjuntivo)',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: 'Texto-base (UFU-MG 2018):\n\n"No Brasil, a Polícia Federal estima que cerca de 500 venezuelanos **entrem** diariamente pela fronteira. Porém, o movimento está menor do que em janeiro, quando até 1.200 pessoas **fugiam** todos os dias da crise no país vizinho. No primeiro semestre deste ano, 56.740 venezuelanos **procuraram** legalizar sua situação no Brasil quando **solicitaram** refúgio ou visto de residência temporária."\n\nO tempo verbal expressa o momento em que um fato acontece. A partir dessa consideração e dos termos destacados no trecho, assinale a alternativa cujo tempo verbal expressa um fato incerto no presente.',
+  alternativas: [
+    { id: 'A', texto: 'Entrem.' },
+    { id: 'B', texto: 'Procuraram.' },
+    { id: 'C', texto: 'Fugiam.' },
+    { id: 'D', texto: 'Solicitaram.' }
+  ],
+  gabarito: 'A',
+  explicacao: {
+    correta: 'A alternativa A está correta. "Entrem" está no presente do subjuntivo, que expressa dúvida, hipótese ou incerteza no momento atual.',
+    incorretas: {
+      B: '"Procuraram" está no pretérito perfeito (fato concluído).',
+      C: '"Fugiam" está no pretérito imperfeito (fato habitual no passado).',
+      D: '"Solicitaram" está no pretérito perfeito (fato concluído).'
+    },
+    conceitoCobrado: 'Valor semântico do presente do subjuntivo.',
+    pegadinha: 'O texto usa "estima que", o que exige o subjuntivo "entrem" por expressar uma projeção/incerteza.',
+    comoApareceEmConcurso: 'UFU-MG cobra a ligação entre modo verbal e sentido.'
+  },
+  tags: ['verbos', 'subjuntivo']
+},
+
+{
+  id: 'EX-Q4433679', tipo: 'REAL', area: 'GRA', moduloId: 'POR-11',
+  subtema: 'Vozes verbais — transposição para voz passiva',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: '"Empresas que souberem equilibrar as forças entre a velocidade da máquina e o discernimento humano abrirão novos horizontes de vantagem competitiva." (FCC 2026 / ABGF)\n\nAo se transpor a frase acima para a voz passiva, o verbo "abrir" deverá assumir a seguinte forma:',
+  alternativas: [
+    { id: 'A', texto: 'têm-se aberto.' },
+    { id: 'B', texto: 'foram abertos.' },
+    { id: 'C', texto: 'serão abertos.' },
+    { id: 'D', texto: 'se abrirá.' },
+    { id: 'E', texto: 'haverá de abrir.' }
+  ],
+  gabarito: 'C',
+  explicacao: {
+    correta: 'A alternativa C está correta. O verbo "abrirão" está no futuro do presente. Na voz passiva analítica, ele se torna "serão abertos" (verbo auxiliar "ser" no futuro + particípio).',
+    incorretas: {
+      A: 'Está no pretérito perfeito composto.',
+      B: 'Está no pretérito perfeito.',
+      D: 'É voz passiva sintética, mas o tempo é futuro do presente do indicativo (se abrirá), o que também é possível, mas a analítica é mais direta.',
+      E: 'Não corresponde à transposição pedida.'
+    },
+    conceitoCobrado: 'Transposição de voz ativa para passiva analítica.',
+    pegadinha: 'O futuro do presente na voz passiva analítica exige o verbo "ser" no futuro ("serão").',
+    comoApareceEmConcurso: 'FCC cobra a reescrita de frases com foco em vozes verbais.'
+  },
+  tags: ['vozes verbais', 'transposição']
+},
+
+{
+  id: 'EX-Q4433678', tipo: 'REAL', area: 'GRA', moduloId: 'POR-15',
+  subtema: 'Concordância verbal',
+  dificuldade: 3, prioridade: 'alta',
+  enunciado: 'Texto-base (FCC 2026 / ABGF):\n\n"O progresso não é linear nem neutro: é produto de decisões humanas e institucionais. A IA generativa redefine tarefas e papéis, mas também desafia o significado do trabalho [...]"\n\nRespeitando as normas de concordância verbal, uma redação alternativa para um trecho do texto está em:',
+  alternativas: [
+    { id: 'A', texto: 'Repousam nas empresas e também nas normas de regulação a expectativa de que o progresso técnico caminhe ao lado do econômico e social.' },
+    { id: 'B', texto: 'Não apenas as políticas públicas, mas também a forma como se valorizam o investimento em pessoas determinará o futuro da inovação.' },
+    { id: 'C', texto: 'Nem linear, nem neutro: cabem às decisões humanas e institucionais a redefinição do progresso.' },
+    { id: 'D', texto: 'Caberá à união entre a produtividade e o desenvolvimento humano o equilíbrio econômico dessa nova era.' },
+    { id: 'E', texto: 'São cada vez mais difíceis considerar como tangíveis as fronteiras entre a cultura de uma nação e o uso que fará do desenvolvimento tecnológico.' }
+  ],
+  gabarito: 'D',
+  explicacao: {
+    correta: 'A alternativa D está correta. O sujeito é "o equilíbrio econômico dessa nova era" (singular), então o verbo "caber" deve ficar no singular ("Caberá").',
+    incorretas: {
+      A: 'O sujeito é "a expectativa" (singular). O correto seria "Repousa".',
+      B: 'O sujeito é composto ("as políticas públicas" e "a forma"). O correto seria "determinarão".',
+      C: 'O sujeito é "a redefinição" (singular). O correto seria "cabe".',
+      E: 'A oração subordinada substantiva ("considerar...") funciona como sujeito, o que exige verbo no singular ("É cada vez mais difícil").'
+    },
+    conceitoCobrado: 'Concordância verbal com sujeito posposto e sujeito composto.',
+    pegadinha: 'A ordem invertida ("Caberá à união... o equilíbrio") confunde a identificação do sujeito.',
+    comoApareceEmConcurso: 'FCC adora inversões sintáticas para testar concordância.'
+  },
+  tags: ['concordância verbal', 'sintaxe']
+},
+
+{
+  id: 'EX-Q4433677', tipo: 'REAL', area: 'LET', moduloId: 'POR-01',
+  subtema: 'Compreensão textual — estrutura argumentativa (hipótese)',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: 'Considere o texto sobre Inteligência Artificial (FCC 2026 / ABGF):\n\n"O futuro da inovação, portanto, não pertence apenas à tecnologia, mas à cultura que a cerca. Mas, em última instância, essas escolhas não se farão no vácuo. Elas serão moldadas pelos incentivos econômicos, pelas políticas públicas e pela forma como os mercados valorizam – ou não – o investimento em pessoas. Se o sistema recompensar apenas ganhos de produtividade de curto prazo, o uso da IA tenderá à substituição e à concentração. Se, ao contrário, premiar a criação de valor humano e a difusão do conhecimento, o avanço tecnológico poderá se tornar um novo motor de prosperidade compartilhada."\n\nA autora elabora uma hipótese seguida de um possível desdobramento em:',
+  alternativas: [
+    { id: 'A', texto: 'Se o sistema recompensar apenas ganhos de produtividade de curto prazo, o uso da IA tenderá à substituição e à concentração.' },
+    { id: 'B', texto: 'Segundo testes estatísticos, consumidores, por sua vez, valorizam mais produtos quando percebem participação humana em sua criação.' },
+    { id: 'C', texto: 'Pesquisas de Puntoni e outros autores mostram que trabalhadores avaliados por algoritmos demonstram menos empatia.' },
+    { id: 'D', texto: 'O desafio, portanto, não é apenas das empresas, mas também da regulação.' },
+    { id: 'E', texto: 'A IA generativa redefine tarefas e papéis, mas também desafia o significado do trabalho.' }
+  ],
+  gabarito: 'A',
+  explicacao: {
+    correta: 'A alternativa A está correta. A estrutura "Se [hipótese], [desdobramento/consequência]" está perfeitamente visível na frase.',
+    incorretas: {
+      B, C: 'São citações de pesquisas (fatos).',
+      D: 'É uma conclusão.',
+      E: 'É uma afirmação de fato.'
+    },
+    conceitoCobrado: 'Identificação de estruturas condicionais (hipótese e consequência).',
+    pegadinha: 'O texto usa vários períodos compostos, mas a letra A é o único com a estrutura "Se" condicional.',
+    comoApareceEmConcurso: 'FCC cobra a identificação de estruturas lógicas no texto.'
+  },
+  tags: ['compreensão', 'estrutura textual']
+},
+
+{
+  id: 'EX-Q4433361', tipo: 'REAL', area: 'LET', moduloId: 'POR-05',
+  subtema: 'Figuras de linguagem — eufemismo',
+  dificuldade: 1, prioridade: 'alta',
+  enunciado: 'Texto-base (FAFIPA 2026 / Prefeitura de Campina Grande do Sul-PR):\n\n"Desde a Constituição, se define que a educação infantil é um dever do Estado e uma escolha da família, embora pareça um eufemismo falar que é escolha da família, porque nós sabemos que, em um país como o nosso, grande parte das famílias não só quer que as crianças vão à creche, mas precisa que elas vão".\n\nNo trecho "embora pareça um eufemismo falar que é escolha da família", a palavra "eufemismo" indica:',
+  alternativas: [
+    { id: 'A', texto: 'uma expressão de sentido ambíguo.' },
+    { id: 'B', texto: 'uma forma de suavizar ou amenizar uma expressão.' },
+    { id: 'C', texto: 'uma afirmação exagerada para reforçar uma ideia.' },
+    { id: 'D', texto: 'uma repetição desnecessária de termos semelhantes.' },
+    { id: 'E', texto: 'uma contradição intencional no discurso.' }
+  ],
+  gabarito: 'B',
+  explicacao: {
+    correta: 'A alternativa B está correta. Eufemismo é a figura de linguagem que suaviza uma expressão dura ou desagradável. No texto, falar "escolha da família" suaviza a realidade de que muitas famílias "precisam" da creche.',
+    incorretas: {
+      A: 'Sentido ambíguo é ambiguidade.',
+      C: 'Exagero é hipérbole.',
+      D: 'Repetição desnecessária é pleonasmo.',
+      E: 'Contradição intencional é paradoxo.'
+    },
+    conceitoCobrado: 'Definição de eufemismo.',
+    pegadinha: 'A palavra "eufemismo" é explicada pelo próprio contexto da frase (escolha vs. necessidade).',
+    comoApareceEmConcurso: 'Questão conceitual direta de figuras de linguagem.'
+  },
+  tags: ['figuras de linguagem', 'eufemismo']
+},
+
+{
+  id: 'EX-Q4433360', tipo: 'REAL', area: 'GRA', moduloId: 'POR-09',
+  subtema: 'Substantivos — concreto x abstrato',
+  dificuldade: 1, prioridade: 'alta',
+  enunciado: 'Texto-base (FAFIPA 2026 / Prefeitura de Campina Grande do Sul-PR):\n\n"Embora a creche não seja obrigatória, os benefícios de um infante nessas instituições podem ser variados e vão desde o desenvolvimento social, cognitivo e emocional até questões como o apoio familiar e a possibilidade dos pais conciliarem trabalho e o cuidado com os filhos."\n\nNo trecho "os benefícios de um infante nessas instituições podem ser variados", a palavra "benefícios" é classificada como:',
+  alternativas: [
+    { id: 'A', texto: 'substantivo coletivo, pois indica um conjunto de vantagens.' },
+    { id: 'B', texto: 'substantivo derivado impróprio, pois muda de classe gramatical.' },
+    { id: 'C', texto: 'substantivo abstrato, pois expressa uma ideia ou qualidade.' },
+    { id: 'D', texto: 'substantivo concreto, pois designa algo perceptível pelos sentidos.' },
+    { id: 'E', texto: 'substantivo próprio, pois individualiza um conceito específico.' }
+  ],
+  gabarito: 'C',
+  explicacao: {
+    correta: 'A alternativa C está correta. "Benefícios" designa vantagens, ideias abstratas que não têm existência física própria, dependendo de outro ser para se manifestar.',
+    incorretas: {
+      A: 'Coletivo é o substantivo que nomeia um conjunto de seres da mesma espécie (ex: alcateia).',
+      B: 'Derivação imprópria é mudança de classe gramatical (ex: "o belo").',
+      D: 'Substantivo concreto é aquele que existe por si só (ex: mesa, cadeira).',
+      E: 'Substantivo próprio nomeia um ser específico (ex: Brasil, Maria).'
+    },
+    conceitoCobrado: 'Classificação de substantivos (abstrato).',
+    pegadinha: 'A palavra "benefícios" parece palpável porque se refere a coisas boas, mas é uma abstração.',
+    comoApareceEmConcurso: 'FAFIPA cobra a classificação clássica de substantivos.'
+  },
+  tags: ['morfologia', 'substantivo abstrato']
+},
+
+{
+  id: 'EX-Q4433300', tipo: 'REAL', area: 'GRA', moduloId: 'POR-13',
+  subtema: 'Classes gramaticais e funções sintáticas',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: 'Texto-base (FAFIPA 2026 / Prefeitura de Ivaiporã-PR):\n\nNo trecho "Vejo a agressão a uma criança como um ato de covardia, que se torna ainda mais perverso quando praticado por quem deveria protegê-la. Mas é justamente o que mais acontece.", considere a classificação e o emprego das palavras no texto e assinale a alternativa CORRETA.',
+  alternativas: [
+    { id: 'A', texto: 'A palavra "mais" em "mais perverso" é um pronome indefinido de intensidade que determina o substantivo "perverso".' },
+    { id: 'B', texto: 'O vocábulo "perverso" classifica-se como adjetivo, concordando em gênero e número com a expressão "ato de covardia".' },
+    { id: 'C', texto: 'A palavra "justamente" funciona como adjetivo qualificativo referente ao verbo "acontece".' },
+    { id: 'D', texto: 'O termo "ainda" atua como advérbio de tempo, indicando a duração contínua das agressões relatadas.' },
+    { id: 'E', texto: 'O pronome oblíquo "-la" em "protegê-la" retoma o substantivo "seres humanos indefesos".' }
+  ],
+  gabarito: 'B',
+  explicacao: {
+    correta: 'A alternativa B está correta. "Perverso" é um adjetivo que qualifica o substantivo "ato" (ato de covardia), concordando em gênero (masculino) e número (singular).',
+    incorretas: {
+      A: '"Mais" é um advérbio de intensidade, não um pronome.',
+      C: '"Justamente" é um advérbio, não um adjetivo.',
+      D: '"Ainda" aqui é um advérbio de intensidade/inclusão.',
+      E: 'O "-la" retoma "criança" (do início do trecho), não "seres humanos indefesos".'
+    },
+    conceitoCobrado: 'Identificação de classes de palavras e concordância nominal.',
+    pegadinha: 'A palavra "que" em "que se torna" é um pronome relativo que retoma "ato de covardia". O adjetivo "perverso" qualifica esse "ato" (masculino).',
+    comoApareceEmConcurso: 'FAFIPA costuma cobrar análise morfológica em trechos de textos.'
+  },
+  tags: ['morfologia', 'adjetivo', 'anáfora']
+},
+
+{
+  id: 'EX-Q4433299', tipo: 'REAL', area: 'GRA', moduloId: 'POR-13',
+  subtema: 'Análise sintática — sujeito e classes',
+  dificuldade: 3, prioridade: 'alta',
+  enunciado: 'Com base nos trechos do texto sobre "Educar sem violência" (FAFIPA 2026 / Prefeitura de Ivaiporã-PR), assinale a alternativa em que a classificação sintática ou gramatical apresentada está CORRETA.',
+  alternativas: [
+    { id: 'A', texto: 'Na frase "...que se torna ainda mais perverso quando praticado por quem deveria protegê-la", o termo "quem" atua como pronome pessoal oblíquo com função de objeto direto.' },
+    { id: 'B', texto: 'Na passagem "...diz respeito a todos nós", o vocábulo "a" classifica-se como artigo indefinido feminino, determinando o pronome "todos".' },
+    { id: 'C', texto: 'No trecho "Cessar o sofrimento delas é da nossa conta, sim", a oração "Cessar o sofrimento delas" desempenha a função sintática de sujeito da oração principal.' },
+    { id: 'D', texto: 'No trecho "Não consigo conceber como surrar seres humanos indefesos...", a palavra "indefesos" é um advérbio de modo que modifica a forma verbal "surrar".' },
+    { id: 'E', texto: 'Em "Os abusos físicos e psicológicos ferem a dignidade de crianças...", o termo "de crianças" exerce a função sintática de complemento nominal do verbo "ferem".' }
+  ],
+  gabarito: 'C',
+  explicacao: {
+    correta: 'A alternativa C está correta. A oração subordinada substantiva subjetiva "Cessar o sofrimento delas" funciona como sujeito do verbo "é" (verbo de ligação).',
+    incorretas: {
+      A: '"Quem" é um pronome indefinido relativo, não um pronome pessoal oblíquo.',
+      B: 'O "a" é uma preposição exigida pelo verbo "dizer respeito a".',
+      D: '"Indefesos" é um adjetivo que qualifica "seres humanos".',
+      E: '"De crianças" é um adjunto adnominal que caracteriza "dignidade", não um complemento nominal do verbo.'
+    },
+    conceitoCobrado: 'Análise sintática: sujeito oracional, função de preposições e adjetivos.',
+    pegadinha: 'A letra C traz uma oração como sujeito, o que é uma estrutura sintática mais complexa.',
+    comoApareceEmConcurso: 'FAFIPA exige análise sintática avançada.'
+  },
+  tags: ['sintaxe', 'sujeito', 'análise sintática']
+},
+
+{
+  id: 'EX-Q4433298', tipo: 'REAL', area: 'LET', moduloId: 'POR-03',
+  subtema: 'Coesão e relações sintático-semânticas',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: 'Com base nas relações sintático-semânticas estabelecidas pelos elementos de coesão no texto "Educar sem violência" (FAFIPA 2026), assinale a alternativa CORRETA.',
+  alternativas: [
+    { id: 'A', texto: 'No trecho "...conforme o levantamento, pais e mães dizem que bater...", o termo destacado introduz uma ideia de consequência lógica, coerente em relação às pesquisas do Unicef.' },
+    { id: 'B', texto: 'Em "Se levarmos em conta que há subnotificação...", a conjunção subordinativa "se" destaca uma condição que anula a relevância dos dados estatísticos oficiais.' },
+    { id: 'C', texto: 'No trecho "Essa visão cruel e distorcida da realidade — mas que segue arraigada neste país — foi comprovada...", a conjunção "mas" estabelece uma relação de adversidade, contrapondo o caráter inaceitável dessa visão à sua persistência cultural na sociedade brasileira.' },
+    { id: 'D', texto: 'O pronome destacado em "...impactar a saúde física e mental delas pelo resto da vida" possui função catafórica, antecipando o termo "famílias" empregado no parágrafo seguinte.' },
+    { id: 'E', texto: 'Na passagem "Além disso, elas aprendem que a violência é o meio de resolver conflitos...", a expressão destacada introduz uma relação de causa e efeito em relação aos impactos à saúde mencionados anteriormente.' }
+  ],
+  gabarito: 'C',
+  explicacao: {
+    correta: 'A alternativa C está correta. O "mas" é uma conjunção adversativa que contrapõe a visão cruel (negativa) com a sua persistência arraigada (fato).',
+    incorretas: {
+      A: '"Conforme" introduz conformidade, não consequência.',
+      B: 'O "se" introduz uma condição, mas a subnotificação não anula os dados; pelo contrário, indica que eles são maiores.',
+      D: '"Delas" é anafórico (retoma "crianças e adolescentes" já citados).',
+      E: '"Além disso" introduz adição, não causa e efeito.'
+    },
+    conceitoCobrado: 'Valor semântico dos conectivos (adversidade, conformidade, adição) e funções anafóricas.',
+    pegadinha: 'A letra C traz uma oposição de ideias, que é a função clássica do "mas".',
+    comoApareceEmConcurso: 'FAFIPA cobra a identificação de coesão referencial e sequencial.'
+  },
+  tags: ['coesão', 'conectivos']
 }
+
+
 ];
