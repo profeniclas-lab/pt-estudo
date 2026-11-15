@@ -496,7 +496,136 @@ window.EXERCISE_BLUEPRINTS = {
       'EX-POR-19-006',    // análise de reescrita
       'EX-POR-19-007'     // reescrita completa
     ]
-  }
+  },
+  /* ============================================================
+     RED-20 — Pronomes de tratamento e formas de cortesia
+  ============================================================ */
+  'RED-20': {
+    nivel1: [
+      'Q-DID-RED-20-001', // conceito de pronomes de tratamento
+      'EX-RED-20-001',    // V.Exa. x V.Sa.
+      'EX-RED-20-002'     // concordância com pronomes (3ª pessoa)
+    ],
+    nivel2: [
+      'Q-DID-RED-20-002', // abreviações dos pronomes
+      'Q-DID-RED-20-003', // uso de "Digníssimo"
+      'EX-RED-20-003',    // abolição do "Digníssimo"
+      'EX-RED-20-004'     // abreviação correta
+    ],
+    nivel3: [
+      'Q-DID-RED-20-004', // pronomes e autoridades
+      'EX-RED-20-005',    // associação pronome x autoridade
+      'EX-RED-20-006'     // I/II/III sobre pronomes
+    ],
+    nivel4: [
+      'Q-DID-RED-20-005', // análise completa
+      'EX-RED-20-007'     // reescrita com concordância
+    ]
+  },
+
+  /* ============================================================
+     RED-21 — Padrão Ofício e estrutura do documento
+  ============================================================ */
+  'RED-21': {
+    nivel1: [
+      'Q-DID-RED-21-001', // partes do Padrão Ofício
+      'EX-RED-21-001',    // ordem das partes
+      'EX-RED-21-002'     // numeração sequencial
+    ],
+    nivel2: [
+      'Q-DID-RED-21-002', // local e data
+      'Q-DID-RED-21-003', // endereçamento
+      'EX-RED-21-003',    // local e data (posição)
+      'EX-RED-21-004'     // conteúdo do endereçamento
+    ],
+    nivel3: [
+      'Q-DID-RED-21-004', // assunto
+      'EX-RED-21-005',    // características do assunto
+      'EX-RED-21-006'     // I/II/III sobre Padrão Ofício
+    ],
+    nivel4: [
+      'Q-DID-RED-21-005', // análise de documento
+      'EX-RED-21-007'     // identificação do signatário
+    ]
+  },
+
+  /* ============================================================
+     RED-22 — Fechos, data e identificação do signatário
+  ============================================================ */
+  'RED-22': {
+    nivel1: [
+      'Q-DID-RED-22-001', // fechos (conceito)
+      'EX-RED-22-001',    // "Respeitosamente"
+      'EX-RED-22-002'     // "Atenciosamente"
+    ],
+    nivel2: [
+      'Q-DID-RED-22-002', // identificação do signatário
+      'Q-DID-RED-22-003', // data
+      'EX-RED-22-003',    // elementos da identificação
+      'EX-RED-22-004'     // grafia da data
+    ],
+    nivel3: [
+      'Q-DID-RED-22-004', // fechos e hierarquia
+      'EX-RED-22-005',    // associação fecho x situação
+      'EX-RED-22-006'     // I/II/III sobre fechos
+    ],
+    nivel4: [
+      'Q-DID-RED-22-005', // análise completa
+      'EX-RED-22-007'     // caso prático (ofício a Ministro)
+    ]
+  },
+
+  /* ============================================================
+     RED-23 — Abreviações, siglas e símbolos
+  ============================================================ */
+  'RED-23': {
+    nivel1: [
+      'Q-DID-RED-23-001', // abreviação de meses
+      'EX-RED-23-001',    // "jan." (minúsculas + ponto)
+      'EX-RED-23-002'     // siglas (maiúsculas, sem pontos)
+    ],
+    nivel2: [
+      'Q-DID-RED-23-002', // símbolos (nº, art.)
+      'Q-DID-RED-23-003', // abreviação de cargos
+      'EX-RED-23-003',    // símbolo "nº"
+      'EX-RED-23-004'     // "Exmo. Sr."
+    ],
+    nivel3: [
+      'Q-DID-RED-23-004', // siglas de órgãos
+      'EX-RED-23-005',    // associação abreviação x significado
+      'EX-RED-23-006'     // I/II/III sobre abreviações
+    ],
+    nivel4: [
+      'Q-DID-RED-23-005', // análise completa
+      'EX-RED-23-007'     // abreviação de "artigo 5º"
+    ]
+  },
+
+  /* ============================================================
+     RED-24 — Revisão, clareza e qualidade textual
+  ============================================================ */
+  'RED-24': {
+    nivel1: [
+      'Q-DID-RED-24-001', // clareza
+      'EX-RED-24-001',    // clareza (conceito)
+      'EX-RED-24-002'     // concisão
+    ],
+    nivel2: [
+      'Q-DID-RED-24-002', // impessoalidade
+      'Q-DID-RED-24-003', // formalidade
+      'EX-RED-24-003',    // impessoalidade (conceito)
+      'EX-RED-24-004'     // formalidade (conceito)
+    ],
+    nivel3: [
+      'Q-DID-RED-24-004', // princípios da redação oficial
+      'EX-RED-24-005',    // associação princípio x definição
+      'EX-RED-24-006'     // I/II/III sobre qualidade textual
+    ],
+    nivel4: [
+      'Q-DID-RED-24-005', // análise de texto oficial
+      'EX-RED-24-007'     // identificação de problema ("eu acho")
+    ]
+  },
 };
 
 window.EXERCISE_EXTRA_QUESTIONS = [
@@ -3367,5 +3496,794 @@ window.EXERCISE_EXTRA_QUESTIONS = [
       pegadinha: 'A escolha do pronome que resolve a ambiguidade.'
     },
     tags: ['reescrita', 'ambiguidade']
+  },
+  /* ============================================================
+     EXTRAS — RED-20 — Pronomes de tratamento
+  ============================================================ */
+  {
+    id: 'EX-RED-20-001',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'RED-20',
+    subtema: 'V.Exa. x V.Sa.',
+    dificuldade: 1, prioridade: 'alta',
+    enunciado: 'Sobre o emprego de pronomes de tratamento na redação oficial, assinale a alternativa CORRETA.',
+    alternativas: [
+      { id: 'A', texto: 'Vossa Excelência é empregado para Ministros de Estado, Governadores e demais autoridades do Poder Executivo.' },
+      { id: 'B', texto: 'Vossa Senhoria é empregado apenas para o Presidente da República.' },
+      { id: 'C', texto: 'Vossa Excelência é empregado para todos os servidores públicos, independentemente do cargo.' },
+      { id: 'D', texto: 'Vossa Senhoria é empregado exclusivamente para chefes de Poder.' },
+      { id: 'E', texto: 'Não há distinção entre Vossa Excelência e Vossa Senhoria.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'V.Exa. é destinado a autoridades superiores (Ministros, Governadores, Secretários de Estado, etc.).',
+      incorretas: { B: 'V.Sa. é para demais autoridades, não para o Presidente.', C: 'Servidores comuns recebem V.Sa., não V.Exa.', D: 'Chefes de Poder recebem V.Exa.', E: 'Há distinção clara de hierarquia.' },
+      conceitoCobrado: 'Emprego hierárquico dos pronomes de tratamento.',
+      pegadinha: 'Generalizar V.Exa. para todos os servidores.'
+    },
+    tags: ['pronomes de tratamento', 'V.Exa.', 'V.Sa.']
+  },
+  {
+    id: 'EX-RED-20-002',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'RED-20',
+    subtema: 'Concordância com pronomes de tratamento',
+    dificuldade: 1, prioridade: 'alta',
+    enunciado: 'Na frase "Vossa Excelência _____ o projeto", a lacuna deve ser preenchida por:',
+    alternativas: [
+      { id: 'A', texto: 'aprovou' },
+      { id: 'B', texto: 'aprovastes' },
+      { id: 'C', texto: 'aprovaste' },
+      { id: 'D', texto: 'aprovam' },
+      { id: 'E', texto: 'aprova-se' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'A concordância com pronomes de tratamento é sempre na 3ª pessoa (singular ou plural, conforme o caso).',
+      incorretas: { B: '2ª pessoa do plural (vós).', C: '2ª pessoa do singular (tu).', D: '3ª pessoa do plural, mas o pronome é singular.', E: 'Voz passiva sintética não é o caso.' },
+      conceitoCobrado: 'Concordância verbal com pronomes de tratamento.',
+      pegadinha: 'Conjugar na 2ª pessoa por atração do "Vossa".'
+    },
+    tags: ['concordância', 'pronomes de tratamento']
+  },
+  {
+    id: 'EX-RED-20-003',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'RED-20',
+    subtema: 'Uso de "Digníssimo"',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'Sobre o uso do tratamento "Digníssimo" na redação oficial, é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'Deve ser usado para todas as autoridades.' },
+      { id: 'B', texto: 'Foi abolido do padrão oficial, não devendo ser empregado.' },
+      { id: 'C', texto: 'É obrigatório para Ministros de Estado.' },
+      { id: 'D', texto: 'É opcional para todas as autoridades.' },
+      { id: 'E', texto: 'Deve ser usado apenas em ofícios.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'O Manual de Redação da Presidência da República aboliu o uso de "Digníssimo" e "Ilustríssimo".',
+      incorretas: { A: 'Não deve ser usado.', C: 'Não é obrigatório.', D: 'Não é opcional: é abolido.', E: 'Não deve ser usado em nenhum documento.' },
+      conceitoCobrado: 'Atualização do padrão oficial.',
+      pegadinha: 'Achar que "Digníssimo" ainda é válido.'
+    },
+    tags: ['Digníssimo', 'manual']
+  },
+  {
+    id: 'EX-RED-20-004',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'RED-20',
+    subtema: 'Abreviação de pronomes',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'Assinale a alternativa em que a abreviação do pronome de tratamento está CORRETA.',
+    alternativas: [
+      { id: 'A', texto: 'V.Exa. — Vossa Excelência' },
+      { id: 'B', texto: 'V.Ex.a — Vossa Excelência' },
+      { id: 'C', texto: 'VExa — Vossa Excelência' },
+      { id: 'D', texto: 'V. Exa — Vossa Excelência' },
+      { id: 'E', texto: 'VEx.ª — Vossa Excelência' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'A forma consagrada é "V.Exa." (com pontos e "Exa" maiúsculo).',
+      incorretas: { B: '"Ex.a" não é a forma padrão.', C: 'Sem o primeiro ponto.', D: 'Espaço indevido após o ponto.', E: 'Forma não padrão.' },
+      conceitoCobrado: 'Abreviação de pronomes de tratamento.',
+      pegadinha: 'Variantes gráficas incorretas.'
+    },
+    tags: ['abreviação', 'V.Exa.']
+  },
+  {
+    id: 'EX-RED-20-005',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'RED-20',
+    subtema: 'Associação pronome x autoridade',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'Associe os pronomes de tratamento às autoridades:\n1. Vossa Excelência.\n2. Vossa Senhoria.\n3. Vossa Magnificência.\n\nAUTORIDADES\n( ) Reitores de universidades.\n( ) Ministros de Estado.\n( ) Demais autoridades.\n\nA sequência correta é:',
+    alternativas: [
+      { id: 'A', texto: '1, 2, 3.' },
+      { id: 'B', texto: '3, 1, 2.' },
+      { id: 'C', texto: '2, 3, 1.' },
+      { id: 'D', texto: '3, 2, 1.' },
+      { id: 'E', texto: '1, 3, 2.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'Vossa Magnificência (3) = Reitores; Vossa Excelência (1) = Ministros; Vossa Senhoria (2) = demais autoridades.',
+      incorretas: { A: 'Inverte.', C: 'Inverte.', D: 'Inverte.', E: 'Inverte.' },
+      conceitoCobrado: 'Correspondência pronome x autoridade.',
+      pegadinha: 'Confundir V.Mag. com V.Exa.'
+    },
+    tags: ['associação', 'pronomes']
+  },
+  {
+    id: 'EX-RED-20-006',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'RED-20',
+    subtema: 'I/II/III sobre pronomes',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'Avalie as afirmativas sobre pronomes de tratamento:\n\nI- Vossa Excelência é usado para o Presidente da República, Ministros e Governadores.\nII- O pronome "Vossa Senhoria" é usado para autoridades superiores.\nIII- A concordância com pronomes de tratamento é sempre na 3ª pessoa.\n\nEstá correto apenas o que se afirma em:',
+    alternativas: [
+      { id: 'A', texto: 'I.' },
+      { id: 'B', texto: 'II.' },
+      { id: 'C', texto: 'III.' },
+      { id: 'D', texto: 'I e III.' },
+      { id: 'E', texto: 'I, II e III.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'I e III estão corretas. II é falsa: V.Sa. é para demais autoridades (não superiores).',
+      incorretas: { A: 'III também está correta.', B: 'II é falsa.', C: 'I também está correta.', E: 'II é falsa.' },
+      conceitoCobrado: 'Emprego e concordância dos pronomes.',
+      pegadinha: 'Achar que V.Sa. é para autoridades superiores.'
+    },
+    tags: ['pronomes', 'I/II/III']
+  },
+  {
+    id: 'EX-RED-20-007',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'RED-20',
+    subtema: 'Reescrita com concordância',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'A frase "Vossa Excelência deveis analisar o pedido" apresenta erro de concordância. A forma CORRETA é:',
+    alternativas: [
+      { id: 'A', texto: 'Vossa Excelência deveis analisar o pedido.' },
+      { id: 'B', texto: 'Vossa Excelência deveis analisar o pedido.' },
+      { id: 'C', texto: 'Vossa Excelência deve analisar o pedido.' },
+      { id: 'D', texto: 'Vossa Excelência deves analisar o pedido.' },
+      { id: 'E', texto: 'Vossa Excelência devem analisar o pedido.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'A concordância é na 3ª pessoa do singular: "deve".',
+      incorretas: { A: '2ª pessoa do plural.', B: 'Forma inexistente.', D: '2ª pessoa do singular.', E: '3ª pessoa do plural (pronome é singular).' },
+      conceitoCobrado: 'Concordância com pronomes de tratamento.',
+      pegadinha: 'Conjugar na 2ª pessoa.'
+    },
+    tags: ['concordância', 'reescrita']
+  },
+
+  /* ============================================================
+     EXTRAS — RED-21 — Padrão Ofício
+  ============================================================ */
+  {
+    id: 'EX-RED-21-001',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'RED-21',
+    subtema: 'Ordem das partes',
+    dificuldade: 1, prioridade: 'alta',
+    enunciado: 'Sobre o Padrão Ofício, assinale a alternativa que apresenta a ordem CORRETA das partes do documento.',
+    alternativas: [
+      { id: 'A', texto: 'Cabeçalho, numeração, local e data, endereçamento, assunto, texto, fecho, identificação.' },
+      { id: 'B', texto: 'Cabeçalho, texto, numeração, local e data, fecho, assunto, endereçamento, identificação.' },
+      { id: 'C', texto: 'Texto, cabeçalho, assunto, local e data, numeração, fecho, identificação.' },
+      { id: 'D', texto: 'Local e data, cabeçalho, numeração, texto, assunto, endereçamento, fecho, identificação.' },
+      { id: 'E', texto: 'Cabeçalho, assunto, texto, numeração, local e data, endereçamento, fecho, identificação.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'A ordem é: cabeçalho → numeração → local e data → endereçamento → assunto → texto → fecho → identificação.',
+      incorretas: { B: 'Texto antes da numeração.', C: 'Texto no início.', D: 'Local e data antes do cabeçalho.', E: 'Assunto antes da numeração.' },
+      conceitoCobrado: 'Estrutura do Padrão Ofício.',
+      pegadinha: 'Trocar a ordem de assunto e numeração.'
+    },
+    tags: ['padrão ofício', 'estrutura']
+  },
+  {
+    id: 'EX-RED-21-002',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'RED-21',
+    subtema: 'Numeração sequencial',
+    dificuldade: 1, prioridade: 'alta',
+    enunciado: 'No Padrão Ofício, a numeração dos documentos deve ser:',
+    alternativas: [
+      { id: 'A', texto: 'Aleatória, sem sequência.' },
+      { id: 'B', texto: 'Sequencial por tipo de documento e por ano.' },
+      { id: 'C', texto: 'Sequencial apenas por ano.' },
+      { id: 'D', texto: 'Reiniciada a cada mês.' },
+      { id: 'E', texto: 'Definida pelo destinatário.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'A numeração é sequencial por tipo (ofício, aviso, memorando) e por ano.',
+      incorretas: { A: 'Deve haver sequência.', C: 'Também por tipo.', D: 'Não é mensal.', E: 'Não é definida pelo destinatário.' },
+      conceitoCobrado: 'Numeração no Padrão Ofício.',
+      pegadinha: 'Achar que é apenas anual.'
+    },
+    tags: ['numeração']
+  },
+  {
+    id: 'EX-RED-21-003',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'RED-21',
+    subtema: 'Local e data (posição)',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'No Padrão Ofício, o local e a data devem ser grafados:',
+    alternativas: [
+      { id: 'A', texto: 'No início do documento, após a numeração.' },
+      { id: 'B', texto: 'No final do documento, após a assinatura.' },
+      { id: 'C', texto: 'No cabeçalho, junto ao brasão.' },
+      { id: 'D', texto: 'Após o texto, antes do fecho.' },
+      { id: 'E', texto: 'Apenas no envelope.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'O local e a data aparecem no início, logo após a numeração e antes do endereçamento.',
+      incorretas: { B: 'Não é ao final.', C: 'Não fica no cabeçalho.', D: 'Não é após o texto.', E: 'Deve constar no documento.' },
+      conceitoCobrado: 'Posição do local e data.',
+      pegadinha: 'Colocar no final, como em cartas pessoais.'
+    },
+    tags: ['local e data']
+  },
+  {
+    id: 'EX-RED-21-004',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'RED-21',
+    subtema: 'Conteúdo do endereçamento',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'No Padrão Ofício, o endereçamento deve conter:',
+    alternativas: [
+      { id: 'A', texto: 'Apenas o nome do destinatário.' },
+      { id: 'B', texto: 'O nome do destinatário, o cargo e o endereço completo.' },
+      { id: 'C', texto: 'Apenas o cargo do destinatário.' },
+      { id: 'D', texto: 'O nome do remetente e do destinatário.' },
+      { id: 'E', texto: 'Apenas o endereço.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'O endereçamento contém nome, cargo e endereço completo do destinatário.',
+      incorretas: { A: 'Falta cargo e endereço.', C: 'Falta nome e endereço.', D: 'O remetente já está identificado.', E: 'Falta nome e cargo.' },
+      conceitoCobrado: 'Endereçamento.',
+      pegadinha: 'Omitir o cargo.'
+    },
+    tags: ['endereçamento']
+  },
+  {
+    id: 'EX-RED-21-005',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'RED-21',
+    subtema: 'Características do assunto',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'No Padrão Ofício, o assunto deve ser:',
+    alternativas: [
+      { id: 'A', texto: 'Um resumo do texto, com no máximo 3 linhas.' },
+      { id: 'B', texto: 'Um texto longo explicando o conteúdo.' },
+      { id: 'C', texto: 'Omitido em documentos sigilosos.' },
+      { id: 'D', texto: 'Colocado após o fecho.' },
+      { id: 'E', texto: 'Substituído pelo número do documento.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'O assunto é um resumo conciso (até 3 linhas) do conteúdo do documento.',
+      incorretas: { B: 'Deve ser conciso.', C: 'Não é omitido.', D: 'Vem antes do texto.', E: 'É independente da numeração.' },
+      conceitoCobrado: 'Assunto no Padrão Ofício.',
+      pegadinha: 'Escrever um texto longo no assunto.'
+    },
+    tags: ['assunto']
+  },
+  {
+    id: 'EX-RED-21-006',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'RED-21',
+    subtema: 'I/II/III sobre Padrão Ofício',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'Avalie as afirmativas sobre o Padrão Ofício:\n\nI- O cabeçalho deve conter o brasão, o nome do órgão e o endereço.\nII- O texto deve ser dividido em parágrafos, com introdução, desenvolvimento e conclusão.\nIII- O fecho deve ser sempre "Respeitosamente", independentemente da autoridade.\n\nEstá correto apenas o que se afirma em:',
+    alternativas: [
+      { id: 'A', texto: 'I.' },
+      { id: 'B', texto: 'II.' },
+      { id: 'C', texto: 'III.' },
+      { id: 'D', texto: 'I e II.' },
+      { id: 'E', texto: 'I, II e III.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'I e II estão corretas. III é falsa: o fecho varia conforme a hierarquia (Respeitosamente / Atenciosamente).',
+      incorretas: { A: 'II também está correta.', B: 'I também está correta.', C: 'III é falsa.', E: 'III é falsa.' },
+      conceitoCobrado: 'Estrutura e fechos.',
+      pegadinha: 'Achar que o fecho é único.'
+    },
+    tags: ['padrão ofício', 'I/II/III']
+  },
+  {
+    id: 'EX-RED-21-007',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'RED-21',
+    subtema: 'Identificação do signatário',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'Um documento oficial que trata de assunto urgente e é enviado por um Ministro a outro Ministro deve seguir o Padrão Ofício. A parte que identifica o signatário deve conter:',
+    alternativas: [
+      { id: 'A', texto: 'Apenas o nome.' },
+      { id: 'B', texto: 'Nome, cargo e assinatura.' },
+      { id: 'C', texto: 'Apenas a assinatura.' },
+      { id: 'D', texto: 'Nome e matrícula.' },
+      { id: 'E', texto: 'Apenas o cargo.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'A identificação do signatário contém nome, cargo e assinatura.',
+      incorretas: { A: 'Falta cargo e assinatura.', C: 'Falta nome e cargo.', D: 'A matrícula não é obrigatória; falta cargo.', E: 'Falta nome e assinatura.' },
+      conceitoCobrado: 'Identificação do signatário.',
+      pegadinha: 'Omitir o cargo.'
+    },
+    tags: ['identificação', 'signatário']
+  },
+
+  /* ============================================================
+     EXTRAS — RED-22 — Fechos e identificação
+  ============================================================ */
+  {
+    id: 'EX-RED-22-001',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'RED-22',
+    subtema: 'Fecho "Respeitosamente"',
+    dificuldade: 1, prioridade: 'alta',
+    enunciado: 'O fecho "Respeitosamente" deve ser empregado:',
+    alternativas: [
+      { id: 'A', texto: 'Para autoridades superiores.' },
+      { id: 'B', texto: 'Para todos os destinatários.' },
+      { id: 'C', texto: 'Apenas para particulares.' },
+      { id: 'D', texto: 'Para autoridades de mesmo nível.' },
+      { id: 'E', texto: 'Apenas em memorandos.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: '"Respeitosamente" é usado para autoridades superiores.',
+      incorretas: { B: 'Para demais, usa-se "Atenciosamente".', C: 'Não é para particulares.', D: 'Para mesmo nível, usa-se "Atenciosamente".', E: 'Não é exclusivo de memorandos.' },
+      conceitoCobrado: 'Emprego do fecho.',
+      pegadinha: 'Generalizar para todos os casos.'
+    },
+    tags: ['fecho', 'Respeitosamente']
+  },
+  {
+    id: 'EX-RED-22-002',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'RED-22',
+    subtema: 'Fecho "Atenciosamente"',
+    dificuldade: 1, prioridade: 'alta',
+    enunciado: 'O fecho "Atenciosamente" é empregado:',
+    alternativas: [
+      { id: 'A', texto: 'Para autoridades superiores.' },
+      { id: 'B', texto: 'Para autoridades de mesma hierarquia ou inferiores.' },
+      { id: 'C', texto: 'Apenas para o Presidente da República.' },
+      { id: 'D', texto: 'Apenas em documentos sigilosos.' },
+      { id: 'E', texto: 'Nunca deve ser usado.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: '"Atenciosamente" é para autoridades de mesma hierarquia ou inferiores.',
+      incorretas: { A: 'Para superiores, usa-se "Respeitosamente".', C: 'Para o Presidente, usa-se "Respeitosamente".', D: 'Não é exclusivo de sigilosos.', E: 'É amplamente usado.' },
+      conceitoCobrado: 'Emprego do fecho.',
+      pegadinha: 'Inverter com "Respeitosamente".'
+    },
+    tags: ['fecho', 'Atenciosamente']
+  },
+  {
+    id: 'EX-RED-22-003',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'RED-22',
+    subtema: 'Elementos da identificação',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'A identificação do signatário no Padrão Ofício deve conter:',
+    alternativas: [
+      { id: 'A', texto: 'Nome e cargo, apenas.' },
+      { id: 'B', texto: 'Nome, cargo e assinatura.' },
+      { id: 'C', texto: 'Apenas a assinatura.' },
+      { id: 'D', texto: 'Nome completo e matrícula.' },
+      { id: 'E', texto: 'Apenas o cargo.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'A identificação contém nome, cargo e assinatura.',
+      incorretas: { A: 'Falta a assinatura.', C: 'Falta nome e cargo.', D: 'A matrícula não é obrigatória; falta cargo.', E: 'Falta nome e assinatura.' },
+      conceitoCobrado: 'Identificação do signatário.',
+      pegadinha: 'Omitir a assinatura.'
+    },
+    tags: ['identificação']
+  },
+  {
+    id: 'EX-RED-22-004',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'RED-22',
+    subtema: 'Grafia da data',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'A data no Padrão Ofício deve ser grafada:',
+    alternativas: [
+      { id: 'A', texto: 'Por extenso, com dia, mês e ano.' },
+      { id: 'B', texto: 'Apenas com números (DD/MM/AAAA).' },
+      { id: 'C', texto: 'Apenas com o ano.' },
+      { id: 'D', texto: 'Apenas com o mês e o ano.' },
+      { id: 'E', texto: 'Por extenso, apenas o mês e o ano.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'A data é grafada por extenso: "Brasília, 15 de março de 2024".',
+      incorretas: { B: 'Não se usa formato numérico.', C: 'Falta dia e mês.', D: 'Falta o dia.', E: 'Falta o dia.' },
+      conceitoCobrado: 'Grafia da data.',
+      pegadinha: 'Usar formato DD/MM/AAAA.'
+    },
+    tags: ['data']
+  },
+  {
+    id: 'EX-RED-22-005',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'RED-22',
+    subtema: 'Associação fecho x situação',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'Associe os fechos às situações:\n1. Respeitosamente.\n2. Atenciosamente.\n3. Sem fecho.\n\nSITUAÇÕES\n( ) Autoridades de mesma hierarquia.\n( ) Autoridades superiores.\n( ) Documentos internos sem destinatário específico.\n\nA sequência correta é:',
+    alternativas: [
+      { id: 'A', texto: '1, 2, 3.' },
+      { id: 'B', texto: '2, 1, 3.' },
+      { id: 'C', texto: '3, 1, 2.' },
+      { id: 'D', texto: '2, 3, 1.' },
+      { id: 'E', texto: '1, 3, 2.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'Atenciosamente (2) = mesma hierarquia; Respeitosamente (1) = superiores; Sem fecho (3) = documentos internos sem destinatário.',
+      incorretas: { A: 'Inverte.', C: 'Inverte.', D: 'Inverte.', E: 'Inverte.' },
+      conceitoCobrado: 'Correspondência fecho x situação.',
+      pegadinha: 'Confundir os fechos.'
+    },
+    tags: ['associação', 'fechos']
+  },
+  {
+    id: 'EX-RED-22-006',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'RED-22',
+    subtema: 'I/II/III sobre fechos',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'Avalie as afirmativas sobre fechos e identificação:\n\nI- O fecho "Respeitosamente" é usado para autoridades superiores.\nII- O fecho "Atenciosamente" é usado para autoridades de mesma hierarquia.\nIII- A identificação do signatário dispensa o nome, bastando o cargo.\n\nEstá correto apenas o que se afirma em:',
+    alternativas: [
+      { id: 'A', texto: 'I.' },
+      { id: 'B', texto: 'II.' },
+      { id: 'C', texto: 'III.' },
+      { id: 'D', texto: 'I e II.' },
+      { id: 'E', texto: 'I, II e III.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'I e II estão corretas. III é falsa: a identificação exige nome, cargo e assinatura.',
+      incorretas: { A: 'II também está correta.', B: 'I também está correta.', C: 'III é falsa.', E: 'III é falsa.' },
+      conceitoCobrado: 'Fechos e identificação.',
+      pegadinha: 'Achar que o cargo basta.'
+    },
+    tags: ['fechos', 'I/II/III']
+  },
+  {
+    id: 'EX-RED-22-007',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'RED-22',
+    subtema: 'Caso prático (ofício a Ministro)',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'Um servidor de um órgão público envia um ofício ao Ministro de Estado. O fecho adequado é:',
+    alternativas: [
+      { id: 'A', texto: 'Atenciosamente.' },
+      { id: 'B', texto: 'Respeitosamente.' },
+      { id: 'C', texto: 'Sem fecho.' },
+      { id: 'D', texto: 'Cordialmente.' },
+      { id: 'E', texto: 'Abraços.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'O Ministro é autoridade superior; usa-se "Respeitosamente".',
+      incorretas: { A: 'Para superiores, não é o adequado.', C: 'Deve haver fecho.', D: 'Não é padrão.', E: 'Informal.' },
+      conceitoCobrado: 'Aplicação prática do fecho.',
+      pegadinha: 'Usar "Atenciosamente" por ser mais comum.'
+    },
+    tags: ['fecho', 'caso prático']
+  },
+
+  /* ============================================================
+     EXTRAS — RED-23 — Abreviações, siglas e símbolos
+  ============================================================ */
+  {
+    id: 'EX-RED-23-001',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'RED-23',
+    subtema: 'Abreviação de meses',
+    dificuldade: 1, prioridade: 'media',
+    enunciado: 'A abreviação correta do mês de "janeiro" na redação oficial é:',
+    alternativas: [
+      { id: 'A', texto: 'jan.' },
+      { id: 'B', texto: 'jan' },
+      { id: 'C', texto: 'Jan' },
+      { id: 'D', texto: 'JAN' },
+      { id: 'E', texto: 'janeiro' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Meses são abreviados com as três primeiras letras, em minúsculas e com ponto: jan., fev., mar.',
+      incorretas: { B: 'Falta o ponto.', C: 'Maiúscula indevida e falta ponto.', D: 'Maiúsculas e falta ponto.', E: 'Não é abreviação.' },
+      conceitoCobrado: 'Abreviação de meses.',
+      pegadinha: 'Omitir o ponto ou usar maiúsculas.'
+    },
+    tags: ['abreviação', 'meses']
+  },
+  {
+    id: 'EX-RED-23-002',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'RED-23',
+    subtema: 'Siglas',
+    dificuldade: 1, prioridade: 'media',
+    enunciado: 'Sobre o uso de siglas na redação oficial, é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'Devem ser grafadas com pontos entre as letras.' },
+      { id: 'B', texto: 'Devem ser grafadas em maiúsculas, sem pontos.' },
+      { id: 'C', texto: 'Devem ser grafadas em minúsculas.' },
+      { id: 'D', texto: 'Devem ser evitadas sempre que possível.' },
+      { id: 'E', texto: 'Só podem ser usadas em rodapés.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'Siglas são grafadas em maiúsculas e sem pontos: MEC, MP, STF.',
+      incorretas: { A: 'Sem pontos.', C: 'Em maiúsculas.', D: 'São usuais na administração.', E: 'Não é restrito a rodapés.' },
+      conceitoCobrado: 'Grafia de siglas.',
+      pegadinha: 'Usar pontos (M.E.C.).'
+    },
+    tags: ['siglas']
+  },
+  {
+    id: 'EX-RED-23-003',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'RED-23',
+    subtema: 'Símbolo "nº"',
+    dificuldade: 2, prioridade: 'media',
+    enunciado: 'Na redação oficial, o símbolo de "número" é grafado como:',
+    alternativas: [
+      { id: 'A', texto: 'nº' },
+      { id: 'B', texto: 'No.' },
+      { id: 'C', texto: 'N.' },
+      { id: 'D', texto: 'Nro.' },
+      { id: 'E', texto: 'Num.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'O símbolo é "nº" (n minúsculo + o sobrescrito).',
+      incorretas: { B: 'Forma inglesa.', C: 'Abreviação inadequada.', D: 'Abreviação inadequada.', E: 'Abreviação inadequada.' },
+      conceitoCobrado: 'Símbolo de número.',
+      pegadinha: 'Usar "No." ou "N.".'
+    },
+    tags: ['símbolo', 'nº']
+  },
+  {
+    id: 'EX-RED-23-004',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'RED-23',
+    subtema: 'Abreviação de cargos',
+    dificuldade: 2, prioridade: 'media',
+    enunciado: 'A abreviação de "Excelentíssimo Senhor" na redação oficial é:',
+    alternativas: [
+      { id: 'A', texto: 'Exmo. Sr.' },
+      { id: 'B', texto: 'Ex. Sr.' },
+      { id: 'C', texto: 'Excel. Sr.' },
+      { id: 'D', texto: 'Exmo Sr' },
+      { id: 'E', texto: 'E. Sr.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'A forma consagrada é "Exmo. Sr." (com pontos).',
+      incorretas: { B: 'Abreviação incorreta.', C: 'Abreviação incorreta.', D: 'Falta o ponto após "Sr".', E: 'Abreviação incorreta.' },
+      conceitoCobrado: 'Abreviação de tratamento.',
+      pegadinha: 'Omitir pontos.'
+    },
+    tags: ['abreviação', 'Exmo.']
+  },
+  {
+    id: 'EX-RED-23-005',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'RED-23',
+    subtema: 'Associação abreviação x significado',
+    dificuldade: 3, prioridade: 'media',
+    enunciado: 'Associe as abreviações aos significados:\n1. V.Exa.\n2. V.Sa.\n3. V.Mag.\n\nSIGNIFICADOS\n( ) Vossa Magnificência.\n( ) Vossa Excelência.\n( ) Vossa Senhoria.\n\nA sequência correta é:',
+    alternativas: [
+      { id: 'A', texto: '1, 2, 3.' },
+      { id: 'B', texto: '3, 1, 2.' },
+      { id: 'C', texto: '2, 3, 1.' },
+      { id: 'D', texto: '3, 2, 1.' },
+      { id: 'E', texto: '1, 3, 2.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'V.Mag. (3) = Vossa Magnificência; V.Exa. (1) = Vossa Excelência; V.Sa. (2) = Vossa Senhoria.',
+      incorretas: { A: 'Inverte.', C: 'Inverte.', D: 'Inverte.', E: 'Inverte.' },
+      conceitoCobrado: 'Abreviações de tratamento.',
+      pegadinha: 'Confundir V.Mag. com V.Exa.'
+    },
+    tags: ['associação', 'abreviações']
+  },
+  {
+    id: 'EX-RED-23-006',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'RED-23',
+    subtema: 'I/II/III sobre abreviações',
+    dificuldade: 3, prioridade: 'media',
+    enunciado: 'Avalie as afirmativas sobre abreviações e siglas:\n\nI- As siglas devem ser grafadas em maiúsculas e sem pontos.\nII- Os meses devem ser abreviados com as três primeiras letras, em minúsculas e com ponto.\nIII- O símbolo de número deve ser grafado como "N.º", com N maiúsculo e ponto.\n\nEstá correto apenas o que se afirma em:',
+    alternativas: [
+      { id: 'A', texto: 'I.' },
+      { id: 'B', texto: 'II.' },
+      { id: 'C', texto: 'III.' },
+      { id: 'D', texto: 'I e II.' },
+      { id: 'E', texto: 'I, II e III.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'I e II estão corretas. III é falsa: o símbolo é "nº" (n minúsculo, o sobrescrito).',
+      incorretas: { A: 'II também está correta.', B: 'I também está correta.', C: 'III é falsa.', E: 'III é falsa.' },
+      conceitoCobrado: 'Abreviações e símbolos.',
+      pegadinha: 'A grafia de "nº".'
+    },
+    tags: ['abreviações', 'I/II/III']
+  },
+  {
+    id: 'EX-RED-23-007',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'RED-23',
+    subtema: 'Abreviação de "artigo 5º"',
+    dificuldade: 3, prioridade: 'media',
+    enunciado: 'A forma CORRETA de abreviar "artigo 5º" na redação oficial é:',
+    alternativas: [
+      { id: 'A', texto: 'art. 5º' },
+      { id: 'B', texto: 'Art. 5o' },
+      { id: 'C', texto: 'ART. 5º' },
+      { id: 'D', texto: 'art 5º' },
+      { id: 'E', texto: 'a. 5º' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: '"art." é minúsculo com ponto; "5º" com ordinal masculino.',
+      incorretas: { B: 'Falta o ordinal correto (o).', C: 'Maiúsculas indevidas.', D: 'Falta o ponto.', E: 'Abreviação incorreta.' },
+      conceitoCobrado: 'Abreviação de artigo.',
+      pegadinha: 'Usar maiúsculas ou omitir o ponto.'
+    },
+    tags: ['abreviação', 'artigo']
+  },
+
+  /* ============================================================
+     EXTRAS — RED-24 — Revisão e qualidade textual
+  ============================================================ */
+  {
+    id: 'EX-RED-24-001',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'RED-24',
+    subtema: 'Clareza',
+    dificuldade: 1, prioridade: 'alta',
+    enunciado: 'Sobre a clareza na redação oficial, é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'O texto deve ser rebuscado para demonstrar erudição.' },
+      { id: 'B', texto: 'O texto deve ser compreensível ao cidadão comum.' },
+      { id: 'C', texto: 'A clareza é menos importante que a formalidade.' },
+      { id: 'D', texto: 'Deve-se usar jargões técnicos sempre que possível.' },
+      { id: 'E', texto: 'A clareza é opcional em documentos internos.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'Clareza é a qualidade de ser compreendido pelo cidadão comum.',
+      incorretas: { A: 'Rebuscamento prejudica a clareza.', C: 'Clareza é princípio essencial.', D: 'Jargões devem ser evitados.', E: 'É exigida em todos os documentos.' },
+      conceitoCobrado: 'Clareza na redação oficial.',
+      pegadinha: 'Confundir formalidade com rebuscamento.'
+    },
+    tags: ['clareza']
+  },
+  {
+    id: 'EX-RED-24-002',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'RED-24',
+    subtema: 'Concisão',
+    dificuldade: 1, prioridade: 'alta',
+    enunciado: 'A concisão na redação oficial significa:',
+    alternativas: [
+      { id: 'A', texto: 'Escrever o mínimo possível, mesmo que falte informação.' },
+      { id: 'B', texto: 'Transmitir o máximo de informação com o mínimo de palavras.' },
+      { id: 'C', texto: 'Usar apenas frases curtas.' },
+      { id: 'D', texto: 'Eliminar todos os detalhes.' },
+      { id: 'E', texto: 'Escrever em tópicos.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'Concisão é dizer muito com poucas palavras, sem perda de informação.',
+      incorretas: { A: 'Não pode faltar informação.', C: 'Não é só sobre tamanho de frase.', D: 'Detalhes importantes são mantidos.', E: 'Tópicos não são sinônimo de concisão.' },
+      conceitoCobrado: 'Concisão.',
+      pegadinha: 'Confundir concisão com brevidade excessiva.'
+    },
+    tags: ['concisão']
+  },
+  {
+    id: 'EX-RED-24-003',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'RED-24',
+    subtema: 'Impessoalidade',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'A impessoalidade na redação oficial exige:',
+    alternativas: [
+      { id: 'A', texto: 'O uso da 1ª pessoa do singular.' },
+      { id: 'B', texto: 'O uso da 1ª pessoa do plural.' },
+      { id: 'C', texto: 'A ausência de opiniões pessoais e o uso da 3ª pessoa ou construção impessoal.' },
+      { id: 'D', texto: 'O uso de gírias.' },
+      { id: 'E', texto: 'A identificação do autor em cada parágrafo.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'Impessoalidade: sem opiniões pessoais, com 3ª pessoa ou construção impessoal.',
+      incorretas: { A: '1ª pessoa é pessoal.', B: '1ª pessoa do plural ainda é pessoal.', D: 'Gírias são informais.', E: 'Não se identifica o autor a cada parágrafo.' },
+      conceitoCobrado: 'Impessoalidade.',
+      pegadinha: 'Achar que 1ª pessoa do plural é impessoal.'
+    },
+    tags: ['impessoalidade']
+  },
+  {
+    id: 'EX-RED-24-004',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'RED-24',
+    subtema: 'Formalidade',
+    dificuldade: 2, prioridade: 'alta',
+    enunciado: 'A formalidade na redação oficial:',
+    alternativas: [
+      { id: 'A', texto: 'Exige o uso de palavras rebuscadas.' },
+      { id: 'B', texto: 'É dispensável em documentos internos.' },
+      { id: 'C', texto: 'Refere-se ao uso da norma culta e da cortesia.' },
+      { id: 'D', texto: 'Impede o uso de linguagem técnica.' },
+      { id: 'E', texto: 'É sinônimo de prolixidade.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'Formalidade = norma culta + cortesia, sem rebuscamento.',
+      incorretas: { A: 'Rebuscamento não é formalidade.', B: 'É exigida em todos os documentos.', D: 'Linguagem técnica pode ser usada com clareza.', E: 'Prolixidade é o oposto de concisão.' },
+      conceitoCobrado: 'Formalidade.',
+      pegadinha: 'Confundir formalidade com rebuscamento.'
+    },
+    tags: ['formalidade']
+  },
+  {
+    id: 'EX-RED-24-005',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'RED-24',
+    subtema: 'Associação princípio x definição',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'Associe os princípios da redação oficial às suas definições:\n1. Clareza.\n2. Concisão.\n3. Impessoalidade.\n\nDEFINIÇÕES\n( ) Ausência de opiniões pessoais.\n( ) Compreensão imediata pelo leitor.\n( ) Máximo de informação com mínimo de palavras.\n\nA sequência correta é:',
+    alternativas: [
+      { id: 'A', texto: '1, 2, 3.' },
+      { id: 'B', texto: '3, 1, 2.' },
+      { id: 'C', texto: '2, 3, 1.' },
+      { id: 'D', texto: '3, 2, 1.' },
+      { id: 'E', texto: '1, 3, 2.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'Impessoalidade (3) = ausência de opiniões; Clareza (1) = compreensão; Concisão (2) = máximo com mínimo.',
+      incorretas: { A: 'Inverte.', C: 'Inverte.', D: 'Inverte.', E: 'Inverte.' },
+      conceitoCobrado: 'Princípios da redação oficial.',
+      pegadinha: 'Confundir clareza com concisão.'
+    },
+    tags: ['associação', 'princípios']
+  },
+  {
+    id: 'EX-RED-24-006',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'RED-24',
+    subtema: 'I/II/III sobre qualidade textual',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'Avalie as afirmativas sobre qualidade textual na redação oficial:\n\nI- A clareza exige que o texto seja compreensível ao cidadão comum.\nII- A concisão significa transmitir o máximo de informação com o mínimo de palavras.\nIII- A impessoalidade permite o uso de opiniões pessoais desde que fundamentadas.\n\nEstá correto apenas o que se afirma em:',
+    alternativas: [
+      { id: 'A', texto: 'I.' },
+      { id: 'B', texto: 'II.' },
+      { id: 'C', texto: 'III.' },
+      { id: 'D', texto: 'I e II.' },
+      { id: 'E', texto: 'I, II e III.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'I e II estão corretas. III é falsa: impessoalidade veda opiniões pessoais.',
+      incorretas: { A: 'II também está correta.', B: 'I também está correta.', C: 'III é falsa.', E: 'III é falsa.' },
+      conceitoCobrado: 'Princípios textuais.',
+      pegadinha: 'Achar que opinião fundamentada é permitida.'
+    },
+    tags: ['qualidade', 'I/II/III']
+  },
+  {
+    id: 'EX-RED-24-007',
+    tipo: 'DIDATICA', area: 'LET', moduloId: 'RED-24',
+    subtema: 'Identificação de problema',
+    dificuldade: 3, prioridade: 'alta',
+    enunciado: 'A frase "Eu acho que o pedido deve ser deferido" apresenta problema de:',
+    alternativas: [
+      { id: 'A', texto: 'Clareza.' },
+      { id: 'B', texto: 'Concisão.' },
+      { id: 'C', texto: 'Impessoalidade.' },
+      { id: 'D', texto: 'Formalidade.' },
+      { id: 'E', texto: 'Coesão.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'O uso de "eu acho" insere opinião pessoal, ferindo a impessoalidade.',
+      incorretas: { A: 'A frase é clara.', B: 'É relativamente concisa.', D: '"Eu acho" é informal, mas o problema central é a impessoalidade.', E: 'Não há problema de coesão.' },
+      conceitoCobrado: 'Impessoalidade na prática.',
+      pegadinha: 'Focar na informalidade e esquecer a impessoalidade.'
+    },
+    tags: ['impessoalidade', 'revisão']
   }
 ];
