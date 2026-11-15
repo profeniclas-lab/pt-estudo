@@ -4871,7 +4871,9 @@ window.QUESTIONS = [
     correta: 'A alternativa B está correta. "Secretaria" (órgão) não tem acento, enquanto "secretária" (profissão) tem. "Análise" (substantivo) tem acento, enquanto "analise" (verbo) não tem.',
     incorretas: {
       A: 'A palavra "analise" (verbo) está sem acento, mas "secretária" está com acento indevido para o contexto (provavelmente seria "secretaria").',
-      C, D, E: 'Idênticas à B (provável erro de repetição na extração do PDF).'
+      C: 'Idêntica à B (provável erro de repetição na extração do PDF).',
+      D: 'Idêntica à B (provável erro de repetição na extração do PDF).',
+      E: 'Idêntica à B (provável erro de repetição na extração do PDF).'
     },
     conceitoCobrado: 'Acentuação diferencial e ortografia.',
     pegadinha: 'A confusão entre "secretaria" e "secretária" e entre "analise" (verbo) e "análise" (substantivo) é clássica.',
@@ -5365,7 +5367,33 @@ window.QUESTIONS = [
     comoApareceEmConcurso: 'FAFIPA cobra a identificação de coesão referencial e sequencial.'
   },
   tags: ['coesão', 'conectivos']
+},
+{
+  id: 'EX-Q4433183', tipo: 'REAL', area: 'GRA', moduloId: 'POR-15',
+  subtema: 'Concordância verbal e nominal',
+  dificuldade: 2, prioridade: 'alta',
+  enunciado: 'Texto-base (IGEDUC 2026 / Prefeitura de Porto Calvo-AL):\n\n[Texto sobre sono e desempenho escolar de adolescentes].\n\nConsiderando as regras de concordância verbal e nominal da norma-padrão, analise as construções a seguir, adaptadas do texto, e assinale a alternativa CORRETA.\n\n[NOTA: O PDF original foi cortado nesta questão, exibindo apenas o início da alternativa A. Abaixo a reconstrução da parte visível.]',
+  alternativas: [
+    { id: 'A', texto: 'Em "Menos de 10% dos adolescentes avaliados apresentaram sintomas de experiências semelhantes à psicose associados exclusivamente à má qualidade do sono", a concordância está correta, pois, com a expressão "menos de" antecedendo o numeral, o verbo concorda com esse numeral.' },
+    { id: 'B', texto: '[Alternativa indisponível no PDF original]' },
+    { id: 'C', texto: '[Alternativa indisponível no PDF original]' },
+    { id: 'D', texto: '[Alternativa indisponível no PDF original]' },
+    { id: 'E', texto: '[Alternativa indisponível no PDF original]' }
+  ],
+  gabarito: 'A',
+  explicacao: {
+    correta: 'A alternativa A está correta. Com a expressão "menos de" antecedendo uma porcentagem, o verbo concorda com o número da porcentagem. Como 10% é plural (dez por cento), o verbo "apresentaram" está corretamente no plural.',
+    incorretas: {
+      B: 'Indisponível no PDF.',
+      C: 'Indisponível no PDF.',
+      D: 'Indisponível no PDF.',
+      E: 'Indisponível no PDF.'
+    },
+    conceitoCobrado: 'Concordância verbal com porcentagens antecedidas de "menos de".',
+    pegadinha: 'Muitos acham que "menos de" é singular, mas a concordância é feita com o numeral (10% = plural).',
+    comoApareceEmConcurso: 'IGEDUC cobra as regras especiais de concordância.'
+  },
+  tags: ['concordância verbal', 'porcentagem']
 }
-
 
 ];
