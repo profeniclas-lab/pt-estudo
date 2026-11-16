@@ -6078,46 +6078,6 @@ window.QUESTIONS = [
   },
 
   /* ============================================================
-     Q04 — COPERVE/UFSC 2026 — POR-10 (Pronomes relativos)
-  ============================================================ */
-  {
-    id: 'Q-REAL-POR-10-003',
-    tipo: 'REAL', area: 'POR', moduloId: 'POR-10',
-    banca: 'COPERVE/UFSC', orgao: 'UFSC', ano: 2026,
-    prova: 'Assistente em Administração',
-    fonte: { descricao: 'COPERVE/UFSC 2026 — UFSC — Assistente em Administração' },
-    subtema: 'Pronome relativo: "em que" x "no qual"',
-    dificuldade: 2, prioridade: 'alta',
-    textoBase: '[Mesmo texto-base da questão Q-REAL-POR-01-016 — texto de Leonardo Sakamoto.]',
-    enunciado: 'Com base no texto 2 e na variedade padrão da língua escrita, assinale a alternativa correta.',
-    alternativas: [
-      { id: 'A', texto: 'No título do texto (linha 01), há uma relação de sinonímia entre as palavras "civilização" e "barbárie".' },
-      { id: 'B', texto: 'A palavra "isso" (linha 14) se refere a "punir" (linha 14).' },
-      { id: 'C', texto: 'O pronome relativo "em que" (linha 10) poderia ser substituído por "no qual" sem prejuízo de significado e mantendo a correção.' },
-      { id: 'D', texto: '"Endossar" (linha 01) é o mesmo que "desaprovar".' },
-      { id: 'E', texto: 'Os adjetivos "necessária" e "indispensável" (linha 09) desempenham a mesma função sintática nas orações.' }
-    ],
-    gabarito: 'C',
-    explicacao: {
-      correta: 'A alternativa C está correta. Em "a lógica miliciana em que o devido processo legal vira detalhe", o pronome relativo "em que" retoma "lógica miliciana" e equivale a "na qual" (em + a qual). A substituição por "no qual" também é possível, pois "no qual" = "em + o qual", e o antecedente "lógica" é feminino — na verdade, o correto seria "na qual" (feminino). Mas a alternativa diz "no qual", que é masculino. Hmm, vamos verificar: "a lógica miliciana em que o devido processo legal vira detalhe" — o antecedente é "lógica" (feminino). O pronome relativo deve concordar com o antecedente: "na qual" (feminino). "No qual" (masculino) não concorda. Então a alternativa C estaria errada? Vamos reler: "a lógica miliciana em que o devido processo legal vira detalhe" — "em que" é invariável, funciona para ambos os gêneros. "No qual" é masculino, "na qual" é feminino. Como o antecedente é "lógica" (feminino), a substituição correta seria "na qual", não "no qual". Portanto, a alternativa C está ERRADA. Hmm, mas o gabarito oficial pode considerar "no qual" como aceitável por analogia? Vamos verificar as outras alternativas.',
-        B: 'A alternativa erra o referente. Em "Punir, sim. Linchar, não. Porque, quando isso acontece, o Estado de direito se torna o alvo", o "isso" se refere a "linchar" (o ato de linchar), não a "punir". O autor acabou de dizer "Linchar, não" e então explica por que o linchamento é ruim. A regra violada é a identificação do referente: "isso" retoma o termo mais próximo e compatível (linchar). Construção correta: "isso" = linchar. Para identificar, volte ao texto e veja o que está imediatamente antes do pronome.',
-        D: 'A alternativa erra o significado. "Endossar" significa "apoiar, aprovar, concordar com". "Desaprovar" é o oposto. No texto, "linchar é endossar a barbárie" significa "linchar é APOIAR a barbárie". A regra violada é a antonímia: "endossar" x "desaprovar". Construção correta: "endossar" = aprovar. Para identificar, associe "endosso" a "apoio" — é o mesmo radical.',
-        E: 'A alternativa erra a função sintática. Em "Indignação é necessária. Justiça, indispensável", "necessária" é PREDICATIVO DO SUJEITO (atribui qualidade a "indignação"), enquanto "indispensável" também é PREDICATIVO DO SUJEITO (atribui qualidade a "justiça"). Ambas têm a MESMA função sintática. Mas a alternativa diz que "desempenham a mesma função" — isso é VERDADEIRO. Hmm, então a alternativa E estaria correta? Vamos reler: "Os adjetivos \'necessária\' e \'indispensável\' (linha 09) desempenham a mesma função sintática nas orações." — Sim, ambos são predicativos do sujeito. Então E está correta? Mas a questão pede a alternativa CORRETA. Se C e E estão corretas, há um problema. Vamos reanalisar C: "O pronome relativo \'em que\' (linha 10) poderia ser substituído por \'no qual\' sem prejuízo de significado e mantendo a correção." — O antecedente é "lógica" (feminino). "No qual" é masculino. A substituição correta seria "na qual". Portanto, C está ERRADA. E está CORRETA. Então a resposta seria E? Mas o gabarito oficial (se disponível) pode indicar C. Vamos verificar o texto: "a lógica miliciana em que o devido processo legal vira detalhe". Se substituirmos por "no qual": "a lógica miliciana no qual o devido processo legal vira detalhe" — soa estranho, mas alguns gramáticos aceitam "no qual" como invariável? Não, "no qual" é masculino. O correto seria "na qual". Portanto, C está errada. E está correta. Mas a questão pede "assinale a alternativa correta" — se E está correta, a resposta é E. Vamos verificar se E realmente está correta: "Indignação é necessária. Justiça, indispensável." — "necessária" é predicativo do sujeito "indignação"; "indispensável" é predicativo do sujeito "justiça" (com elipse do verbo "é"). Ambos são predicativos do sujeito. Sim, E está correta. Mas a banca pode considerar C como correta se aceitar "no qual" como equivalente a "em que" (alguns gramáticos consideram "no qual" uma forma fixa, independente do gênero). Isso é controverso. Vou manter C como gabarito (conforme padrão da banca), mas anotar a controvérsia.',
-        A: 'A alternativa erra a relação semântica. "Civilização" e "barbárie" são ANTÔNIMOS (opostos), não sinônimos. O título "Punir quem matou orelha é civilização, mas linchar é endossar a barbárie" opõe os dois termos: punir = civilização; linchar = barbárie. A regra violada é a distinção entre sinonímia (sentido próximo) e antonímia (sentido oposto). Construção correta: "civilização" e "barbárie" são antônimos. Para identificar, pergunte: as palavras têm sentido próximo ou oposto? Se oposto, é antonímia.'
-      },
-      conceitoCobrado: 'Pronome relativo: "em que" x "no qual"/"na qual"; sinonímia, antonímia e referência',
-      pegadinha: 'A banca oferece alternativas que testam vários conceitos (sinonímia, referência, pronome relativo, antonímia, função sintática) — o candidato precisa analisar cada uma.',
-      comoApareceEmConcurso: 'Questões de pronomes relativos exigem que o candidato verifique a concordância com o antecedente — não basta saber que "em que" é relativo; é preciso verificar a substituição.',
-      exemploInedito: {
-        contexto: 'Um relatório afirma: "A situação em que o servidor se encontra é delicada."',
-        aplicacao: 'O antecedente é "situação" (feminino), então a substituição correta seria "na qual": "A situação na qual o servidor se encontra é delicada." "No qual" estaria errado por concordância.',
-        desafio: 'Substitua "em que" por "no qual" ou "na qual" e justifique a concordância.'
-      }
-    },
-    tags: ['pronome relativo', 'em que', 'no qual', 'concordância']
-  },
-
-  /* ============================================================
      Q05 — COPERVE/UFSC 2026 — POR-02 (Tipologia textual)
   ============================================================ */
   {
