@@ -2927,7 +2927,6 @@ window.QUESTIONS = [
     },
     tags: ['estrutura', 'progressão temática']
   },
-window.QUESTIONS_REAIS_POR = [
 
   /* ============================================================
      Q4445661 — IDCAP/ADAB 2026 — POR-03 (Coesão e coerência)
