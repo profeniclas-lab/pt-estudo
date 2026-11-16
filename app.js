@@ -659,7 +659,7 @@ function getExemploInedito(qid) {
       var txt = String(inc).toLowerCase();
       if (txt.indexOf('confund') >= 0 || txt.indexOf('troca') >= 0 || txt.indexOf('invert') >= 0) return 'confusao';
       if (txt.indexOf('exce') >= 0 || txt.indexOf('ressalva') >= 0 || txt.indexOf('salvo') >= 0) return 'desatencao';
-      if (txt.indexOf('regra') >= 0 || txt.indexOf('acento') >= 0 || txt.indexOf('concord') >= 0 || txt.indexOf('regência') >= 0 || txt.indexOf('crase') >= 0 || txt.indexOf('pontua') >= 0) return 'norma';
+           if (txt.indexOf('regra') >= 0 || txt.indexOf('acento') >= 0 || txt.indexOf('concord') >= 0 || txt.indexOf('regência') >= 0 || txt.indexOf('crase') >= 0 || txt.indexOf('pontua') >= 0) return 'norma';
       if (q.tipo === 'REAL' && q.banca) return 'pegadinha';
       if (q.dificuldade >= 3) return 'aplicacao';
       if (txt.indexOf('enunciado') >= 0 || txt.indexOf('incorreta') >= 0 || txt.indexOf('exceto') >= 0) return 'interpretacao';
@@ -2370,8 +2370,7 @@ function moduleCardHtml(m) {
     if (q.tipo === 'REAL') html += '<span style="font-size:12px;color:var(--text-muted);">' + esc((q.banca || '') + ' · ' + (q.orgao || '') + ' · ' + (q.ano || '')) + '</span>';
     else html += '<span style="font-size:12px;color:var(--text-muted);">' + esc(q.moduloId + ' · ' + q.subtema) + '</span>';
     html += '</div>';
-    if (q.textoBase) html += '<div class="q-texto-base">' + esc(q.textoBase) + '</div>';
-    html += '<div class="q-statement">' + esc(q.enunciado) + '</div>';
+    if (q.textoBase) html += '<div class="q-texto-base">' + esc(q.textoBase) + '</div>';     html += '<div class="q-statement">' + esc(q.enunciado) + '</div>';
     html += '<div class="q-options">';
     for (var a = 0; a < q.alternativas.length; a++) {
       var alt = q.alternativas[a]; var cls = 'q-option';
@@ -3654,8 +3653,7 @@ function setExerciseClassification(qid, cls) {
     html += '<span class="badge-pill ' + typeBadgeClass(q.tipo) + '">' + esc(typeLabel(q.tipo)) + '</span>';
     html += '<span class="badge-pill ' + (DIFFICULTY_CLASS[q.dificuldade] || '') + '">' + esc(difficultyLabel(q.dificuldade)) + '</span>';
     html += '</div>';
-    if (q.textoBase) html += '<div class="q-texto-base">' + esc(q.textoBase) + '</div>';
-    html += '<div class="q-statement">' + esc(q.enunciado) + '</div>';
+    if (q.textoBase) html += '<div class="q-texto-base">' + esc(q.textoBase) + '</div>';     html += '<div class="q-statement">' + esc(q.enunciado) + '</div>';
     html += '<div class="q-options">';
     for (var a = 0; a < q.alternativas.length; a++) {
       var alt = q.alternativas[a]; var clsBtn = 'q-option';
@@ -4008,9 +4006,13 @@ if (exemploExercicio) {
     html += '</div>';
     html += '<p style="margin-top:12px;"><button class="btn btn-primary theme-btn" data-action="toggle-theme">' + esc(proximoLabel) + '</button></p>';
     html += '<h2 class="section-title">Backup completo</h2>';
-    html += '<div class="notice">Exporta o estado inteiro (progresso, questões vistas, flashcards, simulados, exercícios, tema). Útil para backup ou migração.</div>';
-    html += '<div style="margin-top:12px;display:flex;gap:8px;flex-wrap:wrap;"><button class="btn btn-primary" data-action="export-full-state">📤 Exportar backup completo</button></div>';
-    html += '<div class="io-box" style="margin-top:14px;"><h3><span>📥</span> Importar backup completo</h3><p>Cole o JSON gerado acima. O progresso atual será substituído <strong>somente após sua confirmação</strong>.</p>';
+    html += '<div class="notice">Exporta o estado inteiro (progresso, questões vistas, flashcards, simulados, exercícios, tema). Escolha <strong>JSON</strong> (arquivo estruturado) ou <strong>TXT</strong> (arquivo de texto simples — abre em qualquer editor). Você também pode usar <strong>Copiar backup</strong> para colar o conteúdo direto no campo de importação, sem precisar baixar arquivo.</div>';
+    html += '<div style="margin-top:12px;display:flex;gap:8px;flex-wrap:wrap;">';
+html += '<button class="btn btn-primary" data-action="export-full-state">📤 Exportar backup (JSON)</button>';
+html += '<button class="btn btn-primary" data-action="export-full-state-txt">📄 Exportar backup (TXT)</button>';
+html += '<button class="btn" data-action="copy-full-state">📋 Copiar backup para área de transferência</button>';
+html += '</div>';
+    html += '<div class="io-box" style="margin-top:14px;"><h3><span>📥</span> Importar backup completo</h3><p>Cole o conteúdo do backup (do arquivo <strong>.json</strong> ou <strong>.txt</strong>, ou do botão <strong>Copiar backup</strong>). O progresso atual será substituído <strong>somente após sua confirmação</strong>.</p>';
     html += '<textarea id="importFullStateTextarea" placeholder=\'{"exportedAt":"...","appVersion":"...","state":{...}}\'></textarea>';
     html += '<div class="io-actions"><button class="btn btn-primary" data-action="import-full-state">Validar e restaurar</button></div></div>';
     html += '<h2 class="section-title">Armazenamento</h2><div class="info-list">';
@@ -4160,6 +4162,66 @@ if (exemploExercicio) {
       exportedAt: new Date().toISOString(), appVersion: APP_VERSION, schemaVersion: SCHEMA_VERSION, tipo: 'BACKUP_COMPLETO', state: AppState
     });
   }
+function exportFullStateTxt() {
+    var filename = 'backup-' + APP_NAME.toLowerCase().replace(/\s+/g, '-') + '-' + new Date().toISOString().slice(0, 10) + '.txt';
+    var content = JSON.stringify({
+      exportedAt: new Date().toISOString(),
+      appVersion: APP_VERSION,
+      schemaVersion: SCHEMA_VERSION,
+      tipo: 'BACKUP_COMPLETO',
+      state: AppState
+    }, null, 2);
+    try {
+      var blob = new Blob([content], { type: 'text/plain;charset=utf-8' });
+      var url = URL.createObjectURL(blob);
+      var a = document.createElement('a');
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      setTimeout(function () { document.body.removeChild(a); URL.revokeObjectURL(url); }, 200);
+    } catch (e) {
+      window.alert('Falha ao exportar TXT: ' + e.message);
+    }
+}
+
+function copyFullStateToClipboard() {
+    var content = JSON.stringify({
+      exportedAt: new Date().toISOString(),
+      appVersion: APP_VERSION,
+      schemaVersion: SCHEMA_VERSION,
+      tipo: 'BACKUP_COMPLETO',
+      state: AppState
+    }, null, 2);
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(content).then(function () {
+        window.alert('✓ Backup copiado para a área de transferência!\n\nAgora você pode colar (Ctrl+V) onde quiser: num arquivo de texto, num e-mail, no campo de importação, etc.');
+      }).catch(function () {
+        fallbackCopyToClipboard(content);
+      });
+    } else {
+      fallbackCopyToClipboard(content);
+    }
+}
+
+function fallbackCopyToClipboard(content) {
+    try {
+      var ta = document.createElement('textarea');
+      ta.value = content;
+      ta.style.position = 'fixed';
+      ta.style.left = '-9999px';
+      ta.style.top = '0';
+      document.body.appendChild(ta);
+      ta.focus();
+      ta.select();
+      var ok = document.execCommand('copy');
+      document.body.removeChild(ta);
+      if (ok) window.alert('✓ Backup copiado para a área de transferência!');
+      else window.alert('Não foi possível copiar automaticamente. Use "Exportar backup (TXT)" e copie do arquivo.');
+    } catch (e) {
+      window.alert('Não foi possível copiar automaticamente. Use "Exportar backup (TXT)" e copie do arquivo.');
+    }
+}   
   function validateIncomingState(obj) {
     var erros = [];
     if (!obj || typeof obj !== 'object') return { erros: ['Arquivo inválido.'], state: null };
@@ -4181,15 +4243,30 @@ if (exemploExercicio) {
     var resumo = ['Módulos: ' + Object.keys(st.modules || {}).length, 'Questões vistas: ' + Object.keys(st.questions || {}).length, 'Flashcards vistos: ' + Object.keys(st.flashcards || {}).length, 'Simulados: ' + ((st.simulados && st.simulados.length) || 0), 'Exercícios: ' + Object.keys(st.exercicios || {}).length].join('\n');
     if (!window.confirm('Substituir o progresso atual pelo backup?\n\n' + resumo + '\n\nA ação não pode ser desfeita.')) return;
     var base = createDefaultState();
+    /* Merge robusto: preserva TODOS os campos do backup (incluindo gamification,
+       e quaisquer campos adicionados no futuro), sobre a base de defaults. */
     AppState = {
-      schemaVersion: SCHEMA_VERSION, appVersion: APP_VERSION,
-      createdAt: st.createdAt || base.createdAt, updatedAt: new Date().toISOString(),
+      schemaVersion: SCHEMA_VERSION,
+      appVersion: APP_VERSION,
+      createdAt: st.createdAt || base.createdAt,
+      updatedAt: new Date().toISOString(),
       settings: Object.assign({}, base.settings, st.settings || {}),
-      modules: st.modules || {}, questions: st.questions || {},
-      flashcards: st.flashcards || {}, simulados: Array.isArray(st.simulados) ? st.simulados : [],
+      modules: (st.modules && typeof st.modules === 'object') ? st.modules : {},
+      questions: (st.questions && typeof st.questions === 'object') ? st.questions : {},
+      flashcards: (st.flashcards && typeof st.flashcards === 'object') ? st.flashcards : {},
+      simulados: Array.isArray(st.simulados) ? st.simulados : [],
       exercicios: (st.exercicios && typeof st.exercicios === 'object') ? st.exercicios : {},
-      stats: Object.assign({}, base.stats, st.stats || {}), lastScreen: 'dashboard'
+      gamification: (st.gamification && typeof st.gamification === 'object') ? st.gamification : Object.assign({}, base.gamification),
+      stats: Object.assign({}, base.stats, st.stats || {}),
+      lastScreen: 'dashboard'
     };
+    /* Preserva campos extras que existam no backup mas não estão listados acima
+       (defensivo: se uma versão futura adicionar novos campos, eles sobrevivem). */
+    for (var k in st) {
+      if (!st.hasOwnProperty(k)) continue;
+      if (AppState.hasOwnProperty(k)) continue;
+      AppState[k] = st[k];
+    }
     ensureExtendedState(AppState);
     saveState(); applyTheme(AppState.settings && AppState.settings.theme);
     currentScreen = 'dashboard'; currentModuleId = null; currentLessonId = null;
@@ -4322,6 +4399,8 @@ if (exemploExercicio) {
 
       case 'toggle-theme': toggleTheme(); break;
       case 'export-full-state': exportFullState(); break;
+case 'export-full-state-txt': exportFullStateTxt(); break;
+case 'copy-full-state': copyFullStateToClipboard(); break;
       case 'import-full-state': { var elFull = document.getElementById('importFullStateTextarea'); if (elFull) importFullStateFromText(elFull.value || ''); break; }
       case 'reset-progress': resetProgress(); break;
     }
