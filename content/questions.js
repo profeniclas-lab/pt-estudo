@@ -2973,7 +2973,7 @@ window.QUESTIONS_REAIS_POR = [
   /* ============================================================
      Q4445660 — IDCAP/ADAB 2026 — POR-16 (Regência verbal)
   ============================================================ */
-  {
+{
     id: 'Q-REAL-POR-16-001',
     tipo: 'REAL', area: 'POR', moduloId: 'POR-16',
     banca: 'IDCAP', orgao: 'ADAB', ano: 2026,
@@ -3132,7 +3132,7 @@ window.QUESTIONS_REAIS_POR = [
     tags: ['ortografia', 'hífen', 'porquês', 'acentuação', 'ditongo aberto']
   },
 
-  /* ============================================================
+   /* ============================================================
      Q4438891 — AMAUC/Ipumirim-SC 2026 — POR-05 (Figuras de linguagem)
   ============================================================ */
   {
