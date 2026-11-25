@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#3F326D">
+<title>ADM-ESTUDO v2.0 — Nova arquitetura</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/module-detail.css">
+<link rel="stylesheet" href="css/diagnostic.css">
+<link rel="stylesheet" href="css/lessons.css">
+<link rel="stylesheet" href="css/exercises.css">
+<link rel="stylesheet" href="css/theme-energy.css">
+<link rel="stylesheet" href="css/navigation.css">
+<link rel="stylesheet" href="css/banco-questoes.css">
+<link rel="stylesheet" href="css/meus-erros.css">
+<link rel="stylesheet" href="css/estatisticas.css">
+<link rel="stylesheet" href="css/jornada.css">
+</head>
+<body>
+<script>
+  // Aplica a preferência antes da montagem da interface para evitar troca visual inicial.
+  // Não acessa nem modifica a chave que contém o progresso pedagógico.
+  try {
+    if (localStorage.getItem('admEstudo.ui.theme') === 'dark') {
+      document.body.classList.add('dark');
+    }
+  } catch (_) { /* Navegador com armazenamento indisponível: usa modo claro. */ }
+</script>
+  <div id="app">
+    <header class="app-header">
+      <button class="menu-toggle" data-action="toggle-sidebar" aria-label="Abrir menu" aria-controls="sidebar" aria-expanded="false">☰</button>
+      <div class="brand">
+        <span id="brandName">ADM-ESTUDO</span>
+        <span class="brand-sub" id="brandSubtitle">Administração + Direito Administrativo</span>
+      </div>
+      <div class="header-spacer"></div>
+      <button type="button" class="theme-switch" data-theme-toggle aria-label="Ativar modo escuro" aria-pressed="false" title="Ativar modo escuro">
+        <span class="theme-switch-icon" aria-hidden="true">☾</span>
+        <span class="theme-switch-text">Modo escuro</span>
+      </button>
+      <span class="version-badge" id="appVersionBadge">v2.0</span>
+    </header>
+    <nav class="sidebar" id="sidebar" aria-label="Navegação principal">
+      <div class="nav-section-title">Estudo</div>
+      <button class="nav-item" data-nav="dashboard"><span class="nav-icon">🏠</span><span>Dashboard</span></button>
+      <button class="nav-item" data-nav="modulos"><span class="nav-icon">📚</span><span>Módulos</span></button>
+      <button class="nav-item" data-nav="banco-questoes"><span class="nav-icon">🗄️</span><span>Banco de Questões</span></button>
+      <button class="nav-item" data-nav="flashcards"><span class="nav-icon">🗂️</span><span>Flashcards</span></button>
+      <div class="nav-section-title">Revisão</div>
+      <button class="nav-item" data-nav="revisao"><span class="nav-icon">🔁</span><span>Revisão</span></button>
+      <button class="nav-item" data-nav="erros"><span class="nav-icon">❌</span><span>Meus Erros</span></button>
+      <div class="nav-section-title">Simulados</div>
+      <button class="nav-item" data-nav="simulados"><span class="nav-icon">🎯</span><span>Simulados</span></button>
+      <div class="nav-section-title">Progresso</div>
+      <button class="nav-item" data-nav="jornada"><span class="nav-icon">✨</span><span>Minha Jornada</span></button>
+      <button class="nav-item" data-nav="estatisticas"><span class="nav-icon">📊</span><span>Estatísticas</span></button>
+      <div class="nav-section-title">Sistema</div>
+      <button class="nav-item" data-nav="configuracoes"><span class="nav-icon">⚙️</span><span>Configurações</span></button>
+      <button class="nav-item" data-nav="sobre"><span class="nav-icon">ℹ️</span><span>Sobre</span></button>
+    </nav>
+    <button type="button" class="sidebar-backdrop" data-action="close-sidebar" aria-label="Fechar menu de navegação"></button>
+    <main class="main" id="main"></main>
+  </div>
+  <script type="module" src="js/start-f25-lote04.js"></script>
+  <script defer src="js/core/theme-toggle.js"></script>
+</body>
+</html>
