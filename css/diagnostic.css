@@ -1,0 +1,15 @@
+.diagnostic-view { display: grid; gap: 18px; }
+.diagnostic-view .page-subtitle { margin-bottom: 0; }
+.diagnostic-progress, .diagnostic-card, .diagnostic-review { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px; }
+.diagnostic-progress { display: grid; gap: 8px; }
+.diagnostic-progress progress { width: 100%; height: 12px; accent-color: var(--primary); }
+.diagnostic-card h2 { font-size: 19px; line-height: 1.5; margin: 10px 0 18px; }
+.diagnostic-topic { color: var(--primary); font-weight: 700; font-size: 13px; }
+.diagnostic-choices { display: flex; flex-wrap: wrap; gap: 10px; }
+.diagnostic-choices .btn { flex: 1; justify-content: center; min-width: 130px; }
+.diagnostic-help { color: var(--text-muted); margin-top: 16px; font-size: 13px; }
+.diagnostic-review { padding: 6px 16px; }
+.diagnostic-review-row { display: flex; align-items: center; gap: 12px; padding: 12px 0; border-bottom: 1px solid var(--border); font-size: 13px; }
+.diagnostic-review-row:last-child { border: 0; }
+.diagnostic-review-row span:first-child { flex: 1; }
+@media (max-width: 640px) { .diagnostic-review-row { flex-wrap: wrap; } }
