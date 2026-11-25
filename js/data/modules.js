@@ -1,983 +1,1094 @@
-/** Catálogo pedagógico v2. Não importa os dados legados de content/modules.js. */
-export const AREAS = Object.freeze({
-  ADM: "Administração",
-  AP: "Administração Pública",
-  DA: "Direito Administrativo"
-});
-
-export const MODULES = [
+/** PT-ESTUDO — catálogo único. Somente os 3 módulos publicados participam do motor.
+ * Os demais aparecem na página Módulos como planejamento; não entram em provas, metas nem estatísticas.
+ * Nunca importar quaisquer módulos administrativos nesta aplicação.
+ */
+export const AREAS = Object.freeze({ POR:'Língua Portuguesa', RED:'Redação Oficial' });
+export const ALL_PLANNED_MODULES = Object.freeze([
   {
-    "id": "ADM-01",
-    "area": "ADM",
-    "title": "Fundamentos de Administração",
+    "id": "POR-01",
+    "area": "POR",
+    "title": "Interpretação e compreensão textual",
     "priority": "alta",
+    "objective": "Distinguir informação explícita, inferências autorizadas e extrapolações a partir de textos variados.",
+    "prerequisites": [],
     "subtopics": [
       {
-        "id": "ADM-01-001",
-        "title": "Conceito de Administração e organizações",
+        "id": "POR-01-001",
+        "title": "Tema, assunto e ideia central",
         "priority": "alta"
       },
       {
-        "id": "ADM-01-002",
-        "title": "Recursos organizacionais",
+        "id": "POR-01-002",
+        "title": "Informações explícitas e localização textual",
         "priority": "alta"
       },
       {
-        "id": "ADM-01-003",
-        "title": "Eficiência, eficácia, efetividade e produtividade",
+        "id": "POR-01-003",
+        "title": "Inferências e pressupostos autorizados",
         "priority": "alta"
       },
       {
-        "id": "ADM-01-004",
-        "title": "Funções administrativas (PODC)",
+        "id": "POR-01-004",
+        "title": "Fato, opinião, tese e argumentos",
         "priority": "alta"
       },
       {
-        "id": "ADM-01-005",
-        "title": "Níveis organizacionais",
-        "priority": "alta"
-      },
-      {
-        "id": "ADM-01-006",
-        "title": "Habilidades do administrador",
+        "id": "POR-01-005",
+        "title": "Intenção comunicativa, ponto de vista e efeitos de sentido",
         "priority": "alta"
       }
-    ]
+    ],
+    "status": "disponivel"
   },
   {
-    "id": "ADM-02",
-    "area": "ADM",
-    "title": "Processo Administrativo",
+    "id": "POR-02",
+    "area": "POR",
+    "title": "Estrutura e organização textual",
     "priority": "alta",
+    "objective": "Reconhecer a arquitetura global do texto e a progressão das ideias.",
+    "prerequisites": [
+      "POR-01"
+    ],
     "subtopics": [
       {
-        "id": "ADM-02-001",
-        "title": "Visão integrada do processo administrativo",
+        "id": "POR-02-001",
+        "title": "Introdução, desenvolvimento e conclusão",
         "priority": "alta"
       },
       {
-        "id": "ADM-02-002",
-        "title": "Planejamento e tomada de decisões",
+        "id": "POR-02-002",
+        "title": "Parágrafos, tópico frasal e hierarquia das ideias",
         "priority": "alta"
       },
       {
-        "id": "ADM-02-003",
-        "title": "Organização e distribuição do trabalho",
+        "id": "POR-02-003",
+        "title": "Progressão temática e continuidade referencial",
         "priority": "alta"
       },
       {
-        "id": "ADM-02-004",
-        "title": "Direção e coordenação",
+        "id": "POR-02-004",
+        "title": "Relações lógicas entre partes do texto",
         "priority": "alta"
       },
       {
-        "id": "ADM-02-005",
-        "title": "Controle e retroalimentação",
-        "priority": "alta"
-      },
-      {
-        "id": "ADM-02-006",
-        "title": "Aplicações na Administração Pública",
+        "id": "POR-02-005",
+        "title": "Síntese, paráfrase e reorganização de informações",
         "priority": "alta"
       }
-    ]
+    ],
+    "status": "disponivel"
   },
   {
-    "id": "ADM-03",
-    "area": "ADM",
-    "title": "Planejamento",
+    "id": "POR-03",
+    "area": "POR",
+    "title": "Tipos, gêneros e funções da linguagem",
     "priority": "alta",
+    "objective": "Relacionar finalidade, circulação, tipologia e recursos linguísticos.",
+    "prerequisites": [
+      "POR-01"
+    ],
     "subtopics": [
       {
-        "id": "ADM-03-001",
-        "title": "Planejamento estratégico, tático e operacional",
+        "id": "POR-03-001",
+        "title": "Narração, descrição, exposição, argumentação e injunção",
         "priority": "alta"
       },
       {
-        "id": "ADM-03-002",
-        "title": "Missão, visão e valores",
+        "id": "POR-03-002",
+        "title": "Gêneros jornalísticos, acadêmicos e institucionais",
         "priority": "alta"
       },
       {
-        "id": "ADM-03-003",
-        "title": "Objetivos, metas, estratégias e planos",
+        "id": "POR-03-003",
+        "title": "Funções da linguagem e propósito comunicativo",
         "priority": "alta"
       },
       {
-        "id": "ADM-03-004",
-        "title": "Análise SWOT",
+        "id": "POR-03-004",
+        "title": "Marcas do interlocutor e adequação ao suporte",
         "priority": "alta"
       },
       {
-        "id": "ADM-03-005",
-        "title": "Balanced Scorecard e perspectivas",
-        "priority": "alta"
-      },
-      {
-        "id": "ADM-03-006",
-        "title": "Indicadores e mapa estratégico",
+        "id": "POR-03-005",
+        "title": "Identificação de gêneros e tipologias híbridas",
         "priority": "alta"
       }
-    ]
+    ],
+    "status": "disponivel"
   },
   {
-    "id": "ADM-04",
-    "area": "ADM",
-    "title": "Organização",
+    "id": "POR-04",
+    "area": "POR",
+    "title": "Coerência e coesão textual",
     "priority": "alta",
+    "objective": "Identificar mecanismos de ligação e avaliar a coerência global e local.",
+    "prerequisites": [
+      "POR-02"
+    ],
     "subtopics": [
       {
-        "id": "ADM-04-001",
-        "title": "Estrutura organizacional e divisão do trabalho",
+        "id": "POR-04-001",
+        "title": "Coerência e conhecimento de mundo",
         "priority": "alta"
       },
       {
-        "id": "ADM-04-002",
-        "title": "Hierarquia, autoridade e responsabilidade",
+        "id": "POR-04-002",
+        "title": "Referência, anáfora, catáfora e elipse",
         "priority": "alta"
       },
       {
-        "id": "ADM-04-003",
-        "title": "Delegação e amplitude de controle",
+        "id": "POR-04-003",
+        "title": "Conectores e relações semânticas",
         "priority": "alta"
       },
       {
-        "id": "ADM-04-004",
-        "title": "Centralização e descentralização",
+        "id": "POR-04-004",
+        "title": "Repetição, substituição, sinonímia e paralelismo",
         "priority": "alta"
       },
       {
-        "id": "ADM-04-005",
-        "title": "Departamentalização: critérios e tipos",
-        "priority": "alta"
-      },
-      {
-        "id": "ADM-04-006",
-        "title": "Estruturas organizacionais e organogramas",
+        "id": "POR-04-005",
+        "title": "Rupturas de coesão e revisão de encadeamento",
         "priority": "alta"
       }
-    ]
+    ],
+    "status": "preparacao"
   },
   {
-    "id": "ADM-05",
-    "area": "ADM",
-    "title": "Direção, liderança e motivação",
+    "id": "POR-05",
+    "area": "POR",
+    "title": "Semântica e significação",
+    "priority": "alta",
+    "objective": "Interpretar sentidos lexicais e contextuais com precisão.",
+    "prerequisites": [
+      "POR-01"
+    ],
+    "subtopics": [
+      {
+        "id": "POR-05-001",
+        "title": "Denotação, conotação e polissemia",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-05-002",
+        "title": "Sinonímia, antonímia e gradação",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-05-003",
+        "title": "Homonímia, paronímia e distinções de sentido",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-05-004",
+        "title": "Ambiguidade lexical e sintática",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-05-005",
+        "title": "Pressuposição, subentendido e ironia",
+        "priority": "alta"
+      }
+    ],
+    "status": "preparacao"
+  },
+  {
+    "id": "POR-06",
+    "area": "POR",
+    "title": "Variação linguística e adequação",
     "priority": "media",
+    "objective": "Reconhecer registros e variedades, diferenciando descrição de uso e norma-padrão.",
+    "prerequisites": [
+      "POR-03"
+    ],
     "subtopics": [
       {
-        "id": "ADM-05-001",
-        "title": "Direção e comportamento organizacional",
+        "id": "POR-06-001",
+        "title": "Variedades regionais, sociais e históricas",
         "priority": "media"
       },
       {
-        "id": "ADM-05-002",
-        "title": "Liderança, poder e autoridade",
+        "id": "POR-06-002",
+        "title": "Registro formal, informal e situações comunicativas",
         "priority": "media"
       },
       {
-        "id": "ADM-05-003",
-        "title": "Estilos de liderança",
+        "id": "POR-06-003",
+        "title": "Norma-padrão, norma culta e preconceito linguístico",
         "priority": "media"
       },
       {
-        "id": "ADM-05-004",
-        "title": "Teorias de liderança",
+        "id": "POR-06-004",
+        "title": "Oralidade, escrita e marcas de interação",
         "priority": "media"
       },
       {
-        "id": "ADM-05-005",
-        "title": "Motivação: Maslow e Herzberg",
-        "priority": "media"
-      },
-      {
-        "id": "ADM-05-006",
-        "title": "Motivação: McGregor e outras abordagens",
+        "id": "POR-06-005",
+        "title": "Adequação linguística em comunicações administrativas",
         "priority": "media"
       }
-    ]
+    ],
+    "status": "preparacao"
   },
   {
-    "id": "ADM-06",
-    "area": "ADM",
-    "title": "Controle e avaliação",
+    "id": "POR-07",
+    "area": "POR",
+    "title": "Ortografia e emprego de letras",
     "priority": "alta",
+    "objective": "Aplicar regras ortográficas vigentes e diferenciar grafias de uso frequente.",
+    "prerequisites": [
+      "POR-05"
+    ],
     "subtopics": [
       {
-        "id": "ADM-06-001",
-        "title": "Conceito, objetivos e etapas do controle",
+        "id": "POR-07-001",
+        "title": "Sistema ortográfico e emprego de letras",
         "priority": "alta"
       },
       {
-        "id": "ADM-06-002",
-        "title": "Padrões, indicadores e avaliação de desempenho",
+        "id": "POR-07-002",
+        "title": "Por que, porque, por quê e porquê",
         "priority": "alta"
       },
       {
-        "id": "ADM-06-003",
-        "title": "Controle preventivo, concomitante e posterior",
+        "id": "POR-07-003",
+        "title": "Onde, aonde, mas, mais e demais contrastes",
         "priority": "alta"
       },
       {
-        "id": "ADM-06-004",
-        "title": "Ação corretiva e melhoria contínua",
+        "id": "POR-07-004",
+        "title": "Uso de maiúsculas, minúsculas e abreviações",
         "priority": "alta"
       },
       {
-        "id": "ADM-06-005",
-        "title": "Controle gerencial e controle da Administração Pública",
+        "id": "POR-07-005",
+        "title": "Grafia de palavras e casos de dúvida recorrente",
         "priority": "alta"
       }
-    ]
+    ],
+    "status": "preparacao"
   },
   {
-    "id": "ADM-07",
-    "area": "ADM",
-    "title": "Gestão de Pessoas",
+    "id": "POR-08",
+    "area": "POR",
+    "title": "Acentuação gráfica e hífen",
     "priority": "alta",
+    "objective": "Aplicar regras de tonicidade, acentuação e composição.",
+    "prerequisites": [
+      "POR-07"
+    ],
     "subtopics": [
       {
-        "id": "ADM-07-001",
-        "title": "Gestão de pessoas e seus processos",
+        "id": "POR-08-001",
+        "title": "Sílaba tônica e classificação quanto à tonicidade",
         "priority": "alta"
       },
       {
-        "id": "ADM-07-002",
-        "title": "Recrutamento, seleção e integração",
+        "id": "POR-08-002",
+        "title": "Regras de acentuação de oxítonas e paroxítonas",
         "priority": "alta"
       },
       {
-        "id": "ADM-07-003",
-        "title": "Treinamento, desenvolvimento e aprendizagem",
+        "id": "POR-08-003",
+        "title": "Proparoxítonas, hiatos e acentos diferenciais",
         "priority": "alta"
       },
       {
-        "id": "ADM-07-004",
-        "title": "Avaliação de desempenho e competências",
+        "id": "POR-08-004",
+        "title": "Acordo Ortográfico e alterações relevantes",
         "priority": "alta"
       },
       {
-        "id": "ADM-07-005",
-        "title": "Cultura e clima organizacional",
-        "priority": "alta"
-      },
-      {
-        "id": "ADM-07-006",
-        "title": "Qualidade de vida e relações no trabalho",
+        "id": "POR-08-005",
+        "title": "Hífen em prefixos e palavras compostas",
         "priority": "alta"
       }
-    ]
+    ],
+    "status": "preparacao"
   },
   {
-    "id": "ADM-08",
-    "area": "ADM",
-    "title": "Comunicação e comportamento organizacional",
+    "id": "POR-09",
+    "area": "POR",
+    "title": "Estrutura e formação de palavras",
     "priority": "media",
+    "objective": "Identificar morfemas e mecanismos de criação lexical.",
+    "prerequisites": [
+      "POR-07"
+    ],
     "subtopics": [
       {
-        "id": "ADM-08-001",
-        "title": "Elementos e barreiras da comunicação",
+        "id": "POR-09-001",
+        "title": "Radical, afixos e desinências",
         "priority": "media"
       },
       {
-        "id": "ADM-08-002",
-        "title": "Comunicação formal, informal e fluxos",
+        "id": "POR-09-002",
+        "title": "Derivação prefixal, sufixal e parassintética",
         "priority": "media"
       },
       {
-        "id": "ADM-08-003",
-        "title": "Feedback e escuta ativa",
+        "id": "POR-09-003",
+        "title": "Composição por justaposição e aglutinação",
         "priority": "media"
       },
       {
-        "id": "ADM-08-004",
-        "title": "Trabalho em equipe e colaboração",
+        "id": "POR-09-004",
+        "title": "Abreviação, siglas e outros processos",
         "priority": "media"
       },
       {
-        "id": "ADM-08-005",
-        "title": "Conflitos e negociação",
+        "id": "POR-09-005",
+        "title": "Famílias de palavras e sentido dos afixos",
         "priority": "media"
       }
-    ]
+    ],
+    "status": "preparacao"
   },
   {
-    "id": "ADM-09",
-    "area": "ADM",
-    "title": "Gestão da Qualidade",
+    "id": "POR-10",
+    "area": "POR",
+    "title": "Substantivos, artigos e adjetivos",
+    "priority": "alta",
+    "objective": "Analisar flexão, determinação e valor semântico das classes nominais.",
+    "prerequisites": [
+      "POR-09"
+    ],
+    "subtopics": [
+      {
+        "id": "POR-10-001",
+        "title": "Substantivo: classificação e flexões",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-10-002",
+        "title": "Artigos e efeitos de determinação",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-10-003",
+        "title": "Adjetivos, locuções e valor discursivo",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-10-004",
+        "title": "Flexão nominal e graus",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-10-005",
+        "title": "Relações de concordância no sintagma nominal",
+        "priority": "alta"
+      }
+    ],
+    "status": "preparacao"
+  },
+  {
+    "id": "POR-11",
+    "area": "POR",
+    "title": "Pronomes e referência",
+    "priority": "alta",
+    "objective": "Empregar pronomes e reconhecer relações de referência no texto.",
+    "prerequisites": [
+      "POR-04",
+      "POR-10"
+    ],
+    "subtopics": [
+      {
+        "id": "POR-11-001",
+        "title": "Pronomes pessoais, possessivos e demonstrativos",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-11-002",
+        "title": "Pronomes relativos e retomada de antecedentes",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-11-003",
+        "title": "Indefinidos, interrogativos e tratamento",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-11-004",
+        "title": "Emprego de este, esse, aquele e variantes",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-11-005",
+        "title": "Coesão pronominal e ambiguidades de referência",
+        "priority": "alta"
+      }
+    ],
+    "status": "preparacao"
+  },
+  {
+    "id": "POR-12",
+    "area": "POR",
+    "title": "Verbos e flexão verbal",
+    "priority": "alta",
+    "objective": "Reconhecer valores temporais e modais e aplicar flexões regulares e irregulares.",
+    "prerequisites": [
+      "POR-10"
+    ],
+    "subtopics": [
+      {
+        "id": "POR-12-001",
+        "title": "Tempos, modos e aspectos verbais",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-12-002",
+        "title": "Formação dos tempos e verbos irregulares",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-12-003",
+        "title": "Voz ativa, passiva e reflexiva",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-12-004",
+        "title": "Locuções verbais e formas nominais",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-12-005",
+        "title": "Correlação verbal e sentido no texto",
+        "priority": "alta"
+      }
+    ],
+    "status": "preparacao"
+  },
+  {
+    "id": "POR-13",
+    "area": "POR",
+    "title": "Advérbios, preposições, conjunções e interjeições",
+    "priority": "alta",
+    "objective": "Relacionar classes invariáveis aos sentidos e vínculos sintáticos.",
+    "prerequisites": [
+      "POR-12"
+    ],
+    "subtopics": [
+      {
+        "id": "POR-13-001",
+        "title": "Advérbios e locuções adverbiais",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-13-002",
+        "title": "Preposições e relações de sentido",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-13-003",
+        "title": "Conjunções coordenativas e valores semânticos",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-13-004",
+        "title": "Conjunções subordinativas e relações lógicas",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-13-005",
+        "title": "Interjeições, partículas e classificação contextual",
+        "priority": "alta"
+      }
+    ],
+    "status": "preparacao"
+  },
+  {
+    "id": "POR-14",
+    "area": "POR",
+    "title": "Sintaxe da oração e termos essenciais",
+    "priority": "alta",
+    "objective": "Analisar predicação, sujeitos e relações básicas do período simples.",
+    "prerequisites": [
+      "POR-10",
+      "POR-12"
+    ],
+    "subtopics": [
+      {
+        "id": "POR-14-001",
+        "title": "Frase, oração, período e predicação",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-14-002",
+        "title": "Tipos de sujeito e oração sem sujeito",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-14-003",
+        "title": "Predicado nominal, verbal e verbo-nominal",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-14-004",
+        "title": "Predicativo do sujeito e do objeto",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-14-005",
+        "title": "Sujeito posposto, indeterminação e impessoalidade",
+        "priority": "alta"
+      }
+    ],
+    "status": "preparacao"
+  },
+  {
+    "id": "POR-15",
+    "area": "POR",
+    "title": "Termos integrantes e acessórios da oração",
+    "priority": "alta",
+    "objective": "Identificar complementação e funções sintáticas que afetam reescritas.",
+    "prerequisites": [
+      "POR-14"
+    ],
+    "subtopics": [
+      {
+        "id": "POR-15-001",
+        "title": "Objeto direto, indireto e complementos verbais",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-15-002",
+        "title": "Complemento nominal e distinção de adjunto",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-15-003",
+        "title": "Agente da passiva e transformações",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-15-004",
+        "title": "Adjunto adnominal e adjunto adverbial",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-15-005",
+        "title": "Aposto, vocativo e valores sintáticos",
+        "priority": "alta"
+      }
+    ],
+    "status": "preparacao"
+  },
+  {
+    "id": "POR-16",
+    "area": "POR",
+    "title": "Concordância verbal e nominal",
+    "priority": "alta",
+    "objective": "Aplicar regras de concordância em casos simples e controversos.",
+    "prerequisites": [
+      "POR-14",
+      "POR-15"
+    ],
+    "subtopics": [
+      {
+        "id": "POR-16-001",
+        "title": "Regra geral de concordância verbal",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-16-002",
+        "title": "Sujeito composto, posposto e casos especiais",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-16-003",
+        "title": "Verbos impessoais haver e fazer; existir",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-16-004",
+        "title": "Concordância nominal e expressões invariáveis",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-16-005",
+        "title": "Concordância em reescritas e casos de prova",
+        "priority": "alta"
+      }
+    ],
+    "status": "preparacao"
+  },
+  {
+    "id": "POR-17",
+    "area": "POR",
+    "title": "Regência verbal e nominal",
+    "priority": "alta",
+    "objective": "Analisar exigências de complementos e implicações de sentido.",
+    "prerequisites": [
+      "POR-15"
+    ],
+    "subtopics": [
+      {
+        "id": "POR-17-001",
+        "title": "Transitividade e seleção de preposições",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-17-002",
+        "title": "Regência de verbos frequentes em concursos",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-17-003",
+        "title": "Mudança de sentido segundo a regência",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-17-004",
+        "title": "Regência nominal e complementos preposicionados",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-17-005",
+        "title": "Regência na norma-padrão e reescrita",
+        "priority": "alta"
+      }
+    ],
+    "status": "preparacao"
+  },
+  {
+    "id": "POR-18",
+    "area": "POR",
+    "title": "Crase",
+    "priority": "alta",
+    "objective": "Reconhecer contextos de fusão preposicional e casos de proibição/faculdade.",
+    "prerequisites": [
+      "POR-11",
+      "POR-17"
+    ],
+    "subtopics": [
+      {
+        "id": "POR-18-001",
+        "title": "Fusão de preposição e artigo; teste do masculino",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-18-002",
+        "title": "Crase obrigatória em locuções e termos femininos",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-18-003",
+        "title": "Casos proibidos e situações sem artigo",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-18-004",
+        "title": "Casos facultativos e pronomes",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-18-005",
+        "title": "Crase em topônimos, horas e reescritas",
+        "priority": "alta"
+      }
+    ],
+    "status": "preparacao"
+  },
+  {
+    "id": "POR-19",
+    "area": "POR",
+    "title": "Período composto: coordenação e subordinação",
+    "priority": "alta",
+    "objective": "Interpretar as relações entre orações e efeitos da alteração de conectivos.",
+    "prerequisites": [
+      "POR-13",
+      "POR-14"
+    ],
+    "subtopics": [
+      {
+        "id": "POR-19-001",
+        "title": "Orações coordenadas sindéticas e assindéticas",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-19-002",
+        "title": "Subordinadas substantivas e funções",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-19-003",
+        "title": "Subordinadas adjetivas restritivas e explicativas",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-19-004",
+        "title": "Subordinadas adverbiais e valores semânticos",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-19-005",
+        "title": "Orações reduzidas, desenvolvidas e reescritas",
+        "priority": "alta"
+      }
+    ],
+    "status": "preparacao"
+  },
+  {
+    "id": "POR-20",
+    "area": "POR",
+    "title": "Pontuação",
+    "priority": "alta",
+    "objective": "Empregar sinais de pontuação conforme estrutura e efeitos de sentido.",
+    "prerequisites": [
+      "POR-15",
+      "POR-19"
+    ],
+    "subtopics": [
+      {
+        "id": "POR-20-001",
+        "title": "Vírgula e termos deslocados, intercalados ou enumerados",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-20-002",
+        "title": "Vírgula entre orações e conjunções",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-20-003",
+        "title": "Restrições: sujeito, verbo e complementos",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-20-004",
+        "title": "Ponto e vírgula, dois-pontos e travessão",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-20-005",
+        "title": "Pontuação, sentido e reescrita de textos",
+        "priority": "alta"
+      }
+    ],
+    "status": "preparacao"
+  },
+  {
+    "id": "POR-21",
+    "area": "POR",
+    "title": "Colocação pronominal",
+    "priority": "alta",
+    "objective": "Aplicar regras de próclise, ênclise e mesóclise em contextos formais.",
+    "prerequisites": [
+      "POR-11",
+      "POR-12"
+    ],
+    "subtopics": [
+      {
+        "id": "POR-21-001",
+        "title": "Posições pronominais e critérios gerais",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-21-002",
+        "title": "Fatores de atração da próclise",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-21-003",
+        "title": "Ênclise e construções formais",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-21-004",
+        "title": "Mesóclise e tempos verbais",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-21-005",
+        "title": "Colocação pronominal em locuções e reescrita",
+        "priority": "alta"
+      }
+    ],
+    "status": "preparacao"
+  },
+  {
+    "id": "POR-22",
+    "area": "POR",
+    "title": "Reescrita, correção e paralelismo",
+    "priority": "alta",
+    "objective": "Avaliar equivalência semântica e correção gramatical em transformações.",
+    "prerequisites": [
+      "POR-04",
+      "POR-16",
+      "POR-17",
+      "POR-19",
+      "POR-20"
+    ],
+    "subtopics": [
+      {
+        "id": "POR-22-001",
+        "title": "Manutenção de sentido em substituições",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-22-002",
+        "title": "Voz passiva, nominalização e transformação",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-22-003",
+        "title": "Paralelismo sintático e semântico",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-22-004",
+        "title": "Correção de períodos com ambiguidade ou redundância",
+        "priority": "alta"
+      },
+      {
+        "id": "POR-22-005",
+        "title": "Coesão, pontuação, regência e concordância integradas",
+        "priority": "alta"
+      }
+    ],
+    "status": "preparacao"
+  },
+  {
+    "id": "POR-23",
+    "area": "POR",
+    "title": "Figuras de linguagem e recursos expressivos",
     "priority": "media",
+    "objective": "Reconhecer recursos de estilo sem confundir sentido literal e implícito.",
+    "prerequisites": [
+      "POR-05"
+    ],
     "subtopics": [
       {
-        "id": "ADM-09-001",
-        "title": "Conceitos de qualidade e foco no usuário",
+        "id": "POR-23-001",
+        "title": "Metáfora, metonímia e comparação",
         "priority": "media"
       },
       {
-        "id": "ADM-09-002",
-        "title": "Qualidade total e melhoria contínua",
+        "id": "POR-23-002",
+        "title": "Antítese, paradoxo e eufemismo",
         "priority": "media"
       },
       {
-        "id": "ADM-09-003",
-        "title": "Ciclo PDCA",
+        "id": "POR-23-003",
+        "title": "Hipérbole, personificação e ironia",
         "priority": "media"
       },
       {
-        "id": "ADM-09-004",
-        "title": "Ferramentas: Ishikawa e Pareto",
+        "id": "POR-23-004",
+        "title": "Elipse, pleonasmo e inversão",
         "priority": "media"
       },
       {
-        "id": "ADM-09-005",
-        "title": "Ferramentas: 5W2H e indicadores",
+        "id": "POR-23-005",
+        "title": "Efeito expressivo e interpretação contextual",
         "priority": "media"
       }
-    ]
+    ],
+    "status": "preparacao"
   },
   {
-    "id": "ADM-10",
-    "area": "ADM",
-    "title": "Administração de Materiais e Patrimônio",
-    "priority": "alta",
-    "subtopics": [
-      {
-        "id": "ADM-10-001",
-        "title": "Classificação, especificação e codificação de materiais",
-        "priority": "alta"
-      },
-      {
-        "id": "ADM-10-002",
-        "title": "Compras, recebimento e armazenagem",
-        "priority": "alta"
-      },
-      {
-        "id": "ADM-10-003",
-        "title": "Gestão e controle de estoques",
-        "priority": "alta"
-      },
-      {
-        "id": "ADM-10-004",
-        "title": "Estoque de segurança, ponto de pedido e giro",
-        "priority": "alta"
-      },
-      {
-        "id": "ADM-10-005",
-        "title": "Inventário e almoxarifado",
-        "priority": "alta"
-      },
-      {
-        "id": "ADM-10-006",
-        "title": "Bens patrimoniais: registro, tombamento e baixa",
-        "priority": "alta"
-      }
-    ]
-  },
-  {
-    "id": "ADM-11",
-    "area": "ADM",
-    "title": "Gestão de Processos",
-    "priority": "alta",
-    "subtopics": [
-      {
-        "id": "ADM-11-001",
-        "title": "Processos, atividades, tarefas e procedimentos",
-        "priority": "alta"
-      },
-      {
-        "id": "ADM-11-002",
-        "title": "Processos finalísticos e de apoio",
-        "priority": "alta"
-      },
-      {
-        "id": "ADM-11-003",
-        "title": "Gestão por processos",
-        "priority": "alta"
-      },
-      {
-        "id": "ADM-11-004",
-        "title": "Mapeamento e fluxogramas",
-        "priority": "alta"
-      },
-      {
-        "id": "ADM-11-005",
-        "title": "Gargalos e melhoria de processos",
-        "priority": "alta"
-      }
-    ]
-  },
-  {
-    "id": "ADM-12",
-    "area": "ADM",
-    "title": "Atendimento ao Público e Relações Interpessoais",
+    "id": "POR-24",
+    "area": "POR",
+    "title": "Produção textual para provas discursivas",
     "priority": "media",
+    "objective": "Planejar e revisar textos curtos e argumentativos exigidos por editais específicos.",
+    "prerequisites": [
+      "POR-01",
+      "POR-02",
+      "POR-04",
+      "POR-22"
+    ],
     "subtopics": [
       {
-        "id": "ADM-12-001",
-        "title": "Qualidade e princípios do atendimento ao cidadão",
+        "id": "POR-24-001",
+        "title": "Compreensão do comando e delimitação do tema",
         "priority": "media"
       },
       {
-        "id": "ADM-12-002",
-        "title": "Comunicação e postura profissional",
+        "id": "POR-24-002",
+        "title": "Planejamento, tese e recorte argumentativo",
         "priority": "media"
       },
       {
-        "id": "ADM-12-003",
-        "title": "Atendimento presencial, telefônico e digital",
+        "id": "POR-24-003",
+        "title": "Desenvolvimento de argumentos e exemplos",
         "priority": "media"
       },
       {
-        "id": "ADM-12-004",
-        "title": "Acessibilidade e atendimento inclusivo",
+        "id": "POR-24-004",
+        "title": "Coesão, progressão e conclusão",
         "priority": "media"
       },
       {
-        "id": "ADM-12-005",
-        "title": "Gestão de conflitos e relações interpessoais",
+        "id": "POR-24-005",
+        "title": "Revisão, concisão, norma-padrão e critérios da banca",
         "priority": "media"
       }
-    ]
+    ],
+    "status": "preparacao"
   },
   {
-    "id": "AP-13",
-    "area": "AP",
-    "title": "Conceitos Fundamentais de Administração Pública",
+    "id": "RED-01",
+    "area": "RED",
+    "title": "Fundamentos e qualidade da Redação Oficial",
     "priority": "alta",
+    "objective": "Distinguir atributos da comunicação institucional e sua aplicação prática.",
+    "prerequisites": [
+      "POR-04",
+      "POR-06"
+    ],
     "subtopics": [
       {
-        "id": "AP-13-001",
-        "title": "Administração Pública: sentidos e conceitos",
+        "id": "RED-01-001",
+        "title": "Finalidade da comunicação oficial e interesse público",
         "priority": "alta"
       },
       {
-        "id": "AP-13-002",
-        "title": "Administração direta e indireta: visão geral",
+        "id": "RED-01-002",
+        "title": "Clareza, precisão e objetividade",
         "priority": "alta"
       },
       {
-        "id": "AP-13-003",
-        "title": "Interesse público e finalidade pública",
+        "id": "RED-01-003",
+        "title": "Concisão e impessoalidade",
         "priority": "alta"
       },
       {
-        "id": "AP-13-004",
-        "title": "Estado, governo e Administração Pública",
+        "id": "RED-01-004",
+        "title": "Formalidade, padronização e norma-padrão",
+        "priority": "alta"
+      },
+      {
+        "id": "RED-01-005",
+        "title": "Coesão e coerência na redação institucional",
+        "priority": "alta"
+      },
+      {
+        "id": "RED-01-006",
+        "title": "Identificação de inadequações em documentos",
         "priority": "alta"
       }
-    ]
+    ],
+    "status": "preparacao"
   },
   {
-    "id": "AP-14",
-    "area": "AP",
-    "title": "Modelos de Administração Pública",
+    "id": "RED-02",
+    "area": "RED",
+    "title": "Padrão ofício e expedientes oficiais",
     "priority": "alta",
+    "objective": "Reconhecer elementos e convenções do padrão ofício previsto no Manual vigente.",
+    "prerequisites": [
+      "RED-01"
+    ],
     "subtopics": [
       {
-        "id": "AP-14-001",
-        "title": "Modelo patrimonialista",
+        "id": "RED-02-001",
+        "title": "Padrão ofício: finalidade, destinatário e identificação",
         "priority": "alta"
       },
       {
-        "id": "AP-14-002",
-        "title": "Modelo burocrático",
+        "id": "RED-02-002",
+        "title": "Cabeçalho, local, data, assunto e vocativo",
         "priority": "alta"
       },
       {
-        "id": "AP-14-003",
-        "title": "Modelo gerencial",
+        "id": "RED-02-003",
+        "title": "Corpo do texto, fecho, assinatura e identificação",
         "priority": "alta"
       },
       {
-        "id": "AP-14-004",
-        "title": "Comparação entre os modelos",
+        "id": "RED-02-004",
+        "title": "Tratamento e endereçamento conforme normas aplicáveis",
         "priority": "alta"
       },
       {
-        "id": "AP-14-005",
-        "title": "Reformas administrativas e gestão pública brasileira",
+        "id": "RED-02-005",
+        "title": "Distinção entre padrões anteriores e modelo vigente",
+        "priority": "alta"
+      },
+      {
+        "id": "RED-02-006",
+        "title": "Escolha de vocativo, fecho e tratamento",
+        "priority": "alta"
+      },
+      {
+        "id": "RED-02-007",
+        "title": "Padronização e conferência de informações",
         "priority": "alta"
       }
-    ]
+    ],
+    "status": "preparacao"
   },
   {
-    "id": "DA-15",
-    "area": "DA",
-    "title": "Princípios da Administração Pública",
+    "id": "RED-03",
+    "area": "RED",
+    "title": "Comunicações institucionais e aplicação prática",
     "priority": "alta",
+    "objective": "Escolher forma adequada para diferentes comunicações administrativas.",
+    "prerequisites": [
+      "RED-01",
+      "RED-02"
+    ],
     "subtopics": [
       {
-        "id": "DA-15-001",
-        "title": "Princípios expressos do art. 37 da Constituição",
+        "id": "RED-03-001",
+        "title": "E-mail institucional: assunto, texto e anexos",
         "priority": "alta"
       },
       {
-        "id": "DA-15-002",
-        "title": "Legalidade, impessoalidade e moralidade",
+        "id": "RED-03-002",
+        "title": "Comunicação eletrônica, registro e rastreabilidade",
         "priority": "alta"
       },
       {
-        "id": "DA-15-003",
-        "title": "Publicidade e eficiência",
+        "id": "RED-03-003",
+        "title": "Convites, solicitações e respostas institucionais",
         "priority": "alta"
       },
       {
-        "id": "DA-15-004",
-        "title": "Supremacia e indisponibilidade do interesse público",
+        "id": "RED-03-004",
+        "title": "Publicidade, destinatário e dados pessoais no texto",
         "priority": "alta"
       },
       {
-        "id": "DA-15-005",
-        "title": "Razoabilidade, proporcionalidade e motivação",
+        "id": "RED-03-005",
+        "title": "Revisão de tom, concisão e organização de mensagens",
         "priority": "alta"
       },
       {
-        "id": "DA-15-006",
-        "title": "Autotutela, segurança jurídica e continuidade",
-        "priority": "alta"
-      }
-    ]
-  },
-  {
-    "id": "DA-16",
-    "area": "DA",
-    "title": "Organização da Administração Pública",
-    "priority": "alta",
-    "subtopics": [
-      {
-        "id": "DA-16-001",
-        "title": "Administração direta e órgãos públicos",
+        "id": "RED-03-006",
+        "title": "Reescrita com clareza e impessoalidade",
         "priority": "alta"
       },
       {
-        "id": "DA-16-002",
-        "title": "Autarquias e fundações públicas",
-        "priority": "alta"
-      },
-      {
-        "id": "DA-16-003",
-        "title": "Empresas públicas e sociedades de economia mista",
-        "priority": "alta"
-      },
-      {
-        "id": "DA-16-004",
-        "title": "Centralização e descentralização",
-        "priority": "alta"
-      },
-      {
-        "id": "DA-16-005",
-        "title": "Concentração e desconcentração",
-        "priority": "alta"
-      },
-      {
-        "id": "DA-16-006",
-        "title": "Entidades e vínculos de supervisão",
+        "id": "RED-03-007",
+        "title": "Casos integradores de protocolo, ofício e e-mail",
         "priority": "alta"
       }
-    ]
-  },
-  {
-    "id": "DA-17",
-    "area": "DA",
-    "title": "Agentes Públicos",
-    "priority": "alta",
-    "subtopics": [
-      {
-        "id": "DA-17-001",
-        "title": "Conceito e classificação de agentes públicos",
-        "priority": "alta"
-      },
-      {
-        "id": "DA-17-002",
-        "title": "Cargo, emprego e função pública",
-        "priority": "alta"
-      },
-      {
-        "id": "DA-17-003",
-        "title": "Ingresso, provimento e vacância",
-        "priority": "alta"
-      },
-      {
-        "id": "DA-17-004",
-        "title": "Direitos, deveres e proibições",
-        "priority": "alta"
-      },
-      {
-        "id": "DA-17-005",
-        "title": "Responsabilidades e acumulação",
-        "priority": "alta"
-      },
-      {
-        "id": "DA-17-006",
-        "title": "Regimes jurídicos e legislação aplicável",
-        "priority": "alta"
-      }
-    ]
-  },
-  {
-    "id": "DA-18",
-    "area": "DA",
-    "title": "Poderes da Administração Pública",
-    "priority": "alta",
-    "subtopics": [
-      {
-        "id": "DA-18-001",
-        "title": "Poder hierárquico",
-        "priority": "alta"
-      },
-      {
-        "id": "DA-18-002",
-        "title": "Poder disciplinar",
-        "priority": "alta"
-      },
-      {
-        "id": "DA-18-003",
-        "title": "Poder regulamentar e normativo",
-        "priority": "alta"
-      },
-      {
-        "id": "DA-18-004",
-        "title": "Poder de polícia",
-        "priority": "alta"
-      },
-      {
-        "id": "DA-18-005",
-        "title": "Abuso de poder: excesso e desvio de finalidade",
-        "priority": "alta"
-      }
-    ]
-  },
-  {
-    "id": "DA-19",
-    "area": "DA",
-    "title": "Atos Administrativos",
-    "priority": "alta",
-    "subtopics": [
-      {
-        "id": "DA-19-001",
-        "title": "Conceito e elementos do ato administrativo",
-        "priority": "alta"
-      },
-      {
-        "id": "DA-19-002",
-        "title": "Competência, finalidade, forma, motivo e objeto",
-        "priority": "alta"
-      },
-      {
-        "id": "DA-19-003",
-        "title": "Atributos dos atos administrativos",
-        "priority": "alta"
-      },
-      {
-        "id": "DA-19-004",
-        "title": "Classificações e espécies",
-        "priority": "alta"
-      },
-      {
-        "id": "DA-19-005",
-        "title": "Anulação, revogação e convalidação",
-        "priority": "alta"
-      },
-      {
-        "id": "DA-19-006",
-        "title": "Outras formas de extinção dos atos",
-        "priority": "alta"
-      }
-    ]
-  },
-  {
-    "id": "DA-20",
-    "area": "DA",
-    "title": "Serviços Públicos",
-    "priority": "alta",
-    "subtopics": [
-      {
-        "id": "DA-20-001",
-        "title": "Conceito e princípios dos serviços públicos",
-        "priority": "alta"
-      },
-      {
-        "id": "DA-20-002",
-        "title": "Classificação e formas de prestação",
-        "priority": "alta"
-      },
-      {
-        "id": "DA-20-003",
-        "title": "Concessão e permissão",
-        "priority": "alta"
-      },
-      {
-        "id": "DA-20-004",
-        "title": "Autorização e outras formas de delegação",
-        "priority": "alta"
-      },
-      {
-        "id": "DA-20-005",
-        "title": "Direitos dos usuários e serviço adequado",
-        "priority": "alta"
-      }
-    ]
-  },
-  {
-    "id": "DA-21",
-    "area": "DA",
-    "title": "Licitações e Contratos Administrativos",
-    "priority": "alta",
-    "subtopics": [
-      {
-        "id": "DA-21-001",
-        "title": "Fundamentos e princípios da Lei 14.133/2021",
-        "priority": "alta"
-      },
-      {
-        "id": "DA-21-002",
-        "title": "Fases e modalidades da licitação",
-        "priority": "alta"
-      },
-      {
-        "id": "DA-21-003",
-        "title": "Critérios de julgamento",
-        "priority": "alta"
-      },
-      {
-        "id": "DA-21-004",
-        "title": "Contratação direta: dispensa e inexigibilidade",
-        "priority": "alta"
-      },
-      {
-        "id": "DA-21-005",
-        "title": "Contratos administrativos e fiscalização",
-        "priority": "alta"
-      },
-      {
-        "id": "DA-21-006",
-        "title": "Alterações, sanções e responsabilidades",
-        "priority": "alta"
-      }
-    ]
-  },
-  {
-    "id": "DA-22",
-    "area": "DA",
-    "title": "Responsabilidade Civil do Estado",
-    "priority": "media",
-    "subtopics": [
-      {
-        "id": "DA-22-001",
-        "title": "Fundamentos da responsabilidade estatal",
-        "priority": "media"
-      },
-      {
-        "id": "DA-22-002",
-        "title": "Responsabilidade objetiva e teoria do risco administrativo",
-        "priority": "media"
-      },
-      {
-        "id": "DA-22-003",
-        "title": "Responsabilidade por omissão e hipóteses de responsabilidade subjetiva",
-        "priority": "media"
-      },
-      {
-        "id": "DA-22-004",
-        "title": "Excludentes e atenuantes",
-        "priority": "media"
-      },
-      {
-        "id": "DA-22-005",
-        "title": "Ação regressiva",
-        "priority": "media"
-      }
-    ]
-  },
-  {
-    "id": "DA-23",
-    "area": "DA",
-    "title": "Controle da Administração Pública",
-    "priority": "alta",
-    "subtopics": [
-      {
-        "id": "DA-23-001",
-        "title": "Controle interno e externo",
-        "priority": "alta"
-      },
-      {
-        "id": "DA-23-002",
-        "title": "Controle administrativo e autotutela",
-        "priority": "alta"
-      },
-      {
-        "id": "DA-23-003",
-        "title": "Controle legislativo e Tribunais de Contas",
-        "priority": "alta"
-      },
-      {
-        "id": "DA-23-004",
-        "title": "Controle judicial",
-        "priority": "alta"
-      },
-      {
-        "id": "DA-23-005",
-        "title": "Recursos e instrumentos de controle",
-        "priority": "alta"
-      }
-    ]
-  },
-  {
-    "id": "DA-24",
-    "area": "DA",
-    "title": "Improbidade Administrativa",
-    "priority": "media",
-    "subtopics": [
-      {
-        "id": "DA-24-001",
-        "title": "Lei 8.429/1992 e alterações",
-        "priority": "media"
-      },
-      {
-        "id": "DA-24-002",
-        "title": "Atos de improbidade e requisitos",
-        "priority": "media"
-      },
-      {
-        "id": "DA-24-003",
-        "title": "Dolo e responsabilização",
-        "priority": "media"
-      },
-      {
-        "id": "DA-24-004",
-        "title": "Sanções e procedimentos",
-        "priority": "media"
-      },
-      {
-        "id": "DA-24-005",
-        "title": "Distinções entre improbidade e outras irregularidades",
-        "priority": "media"
-      }
-    ]
-  },
-  {
-    "id": "DA-25",
-    "area": "DA",
-    "title": "Processo Administrativo",
-    "priority": "alta",
-    "subtopics": [
-      {
-        "id": "DA-25-001",
-        "title": "Fundamentos e princípios da Lei 9.784/1999",
-        "priority": "alta"
-      },
-      {
-        "id": "DA-25-002",
-        "title": "Direitos e deveres dos administrados",
-        "priority": "alta"
-      },
-      {
-        "id": "DA-25-003",
-        "title": "Competência, delegação e avocação",
-        "priority": "alta"
-      },
-      {
-        "id": "DA-25-004",
-        "title": "Impedimento e suspeição",
-        "priority": "alta"
-      },
-      {
-        "id": "DA-25-005",
-        "title": "Fases, instrução e decisão",
-        "priority": "alta"
-      },
-      {
-        "id": "DA-25-006",
-        "title": "Recursos, revisão e prazos",
-        "priority": "alta"
-      }
-    ]
-  },
-  {
-    "id": "DA-26",
-    "area": "DA",
-    "title": "Bens Públicos",
-    "priority": "baixa",
-    "subtopics": [
-      {
-        "id": "DA-26-001",
-        "title": "Conceito e classificação dos bens públicos",
-        "priority": "baixa"
-      },
-      {
-        "id": "DA-26-002",
-        "title": "Bens de uso comum, uso especial e dominicais",
-        "priority": "baixa"
-      },
-      {
-        "id": "DA-26-003",
-        "title": "Características e regime jurídico",
-        "priority": "baixa"
-      },
-      {
-        "id": "DA-26-004",
-        "title": "Uso e alienação dos bens públicos",
-        "priority": "baixa"
-      }
-    ]
-  },
-  {
-    "id": "DA-27",
-    "area": "DA",
-    "title": "Intervenção do Estado na Propriedade",
-    "priority": "baixa",
-    "subtopics": [
-      {
-        "id": "DA-27-001",
-        "title": "Desapropriação",
-        "priority": "baixa"
-      },
-      {
-        "id": "DA-27-002",
-        "title": "Servidão administrativa",
-        "priority": "baixa"
-      },
-      {
-        "id": "DA-27-003",
-        "title": "Requisição administrativa",
-        "priority": "baixa"
-      },
-      {
-        "id": "DA-27-004",
-        "title": "Ocupação temporária",
-        "priority": "baixa"
-      },
-      {
-        "id": "DA-27-005",
-        "title": "Limitações administrativas e tombamento",
-        "priority": "baixa"
-      }
-    ]
+    ],
+    "status": "preparacao"
   }
-];
-
-export function getModuleById(id) {
-  return MODULES.find(module => module.id === id) || null;
-}
-
+]);
+export const MODULES = Object.freeze(ALL_PLANNED_MODULES.filter(m=>m.status==='disponivel'));
+export const PENDING_MODULES = Object.freeze(ALL_PLANNED_MODULES.filter(m=>m.status!=='disponivel'));
+export function getModuleById(id) { return MODULES.find(m=>m.id===id)||null; }
 export function getSubtopicById(id) {
-  for (const module of MODULES) {
-    const subtopic = module.subtopics.find(item => item.id === id);
-    if (subtopic) return { module, subtopic };
-  }
+  for (const module of MODULES) { const subtopic=module.subtopics.find(t=>t.id===id);
+    if(subtopic)return {module,subtopic}; }
   return null;
 }
-
 export function validateCatalog() {
-  const ids = new Set();
-  const errors = [];
-  for (const module of MODULES) {
-    if (ids.has(module.id)) errors.push(`ID duplicado: ${module.id}`);
-    ids.add(module.id);
-    if (!AREAS[module.area]) errors.push(`Área inválida: ${module.id}`);
-    if (!module.subtopics.length) errors.push(`Sem subtópicos: ${module.id}`);
-    for (const subtopic of module.subtopics) {
-      if (ids.has(subtopic.id)) errors.push(`ID duplicado: ${subtopic.id}`);
-      ids.add(subtopic.id);
-      if (!subtopic.id.startsWith(`${module.id}-`)) errors.push(`Vínculo inválido: ${subtopic.id}`);
+  const errors=[],ids=new Set();
+  for(const m of ALL_PLANNED_MODULES){
+    if(ids.has(m.id))errors.push(`ID duplicado: ${m.id}`);
+    ids.add(m.id);
+    if(!AREAS[m.area])errors.push(`Área inválida: ${m.id}`);
+    if(!Array.isArray(m.subtopics)||!m.subtopics.length)errors.push(`Sem subtópicos: ${m.id}`);
+    for(const t of m.subtopics||[]) {
+      if(ids.has(t.id))errors.push(`ID duplicado: ${t.id}`);
+      ids.add(t.id);
+      if(!t.id.startsWith(m.id+'-'))errors.push(`Vínculo inválido: ${t.id}`);
     }
   }
   return errors;

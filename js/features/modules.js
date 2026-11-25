@@ -1,45 +1,23 @@
-import { AREAS, MODULES, getModuleById } from "../data/modules.js";
-import { moduleAchievement } from "./module-achievement.js";
-
-const PRIORITIES = { alta: "Alta", media: "Média", baixa: "Baixa" };
-const escapeHtml = value => String(value).replace(/[&<>"']/g, character => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[character]);
-
-export function renderModules(mainElement, state = {}, { selectedModuleId = null } = {}) {
-  const selected = selectedModuleId ? getModuleById(selectedModuleId) : null;
-  if (selected) {
-    mainElement.innerHTML = `
-      <section aria-labelledby="pageTitle">
-        <button class="btn" type="button" data-action="modules-back">← Todos os módulos</button>
-        <h1 class="page-title" id="pageTitle" style="margin-top:18px">${escapeHtml(selected.title)}</h1>
-        <p class="page-subtitle">${escapeHtml(selected.id)} · ${escapeHtml(AREAS[selected.area])} · Prioridade ${escapeHtml(PRIORITIES[selected.priority])}</p>
-        <div class="notice">O catálogo está disponível. Diagnósticos, aulas, exercícios e flashcards serão adicionados em etapas posteriores.</div>
-        <h2 class="section-title">Subtópicos (${selected.subtopics.length})</h2>
-        <div class="module-list">${selected.subtopics.map((item, index) => `
-          <article class="module-card" style="cursor:default">
-            <span class="mod-id">${index + 1}</span>
-            <div class="mod-info"><div class="mod-title">${escapeHtml(item.title)}</div><div class="mod-area">${escapeHtml(item.id)}</div></div>
-            <span class="badge-pill">Conteúdo em preparação</span>
-          </article>`).join("")}</div>
-      </section>`;
+/** PT-ESTUDO — catálogo visível completo; apenas módulos publicados entram no motor. */
+import { AREAS, MODULES, PENDING_MODULES, getModuleById } from '../data/modules.js';
+import { moduleAchievement } from './module-achievement.js';
+const PRIORITIES={alta:'Alta',media:'Média',baixa:'Baixa'};
+const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+export function renderModules(mainElement,state={}, {selectedModuleId=null}={}) {
+  const selected=selectedModuleId?getModuleById(selectedModuleId):null;
+  if(selected){
+    // Mantém compatibilidade com chamadas legadas; app.js abre detalhes via renderModuleDetail.
+    mainElement.innerHTML=`<section><button class="btn" data-action="modules-back">← Todos os módulos</button><h1 class="page-title">${esc(selected.title)}</h1><p class="page-subtitle">${esc(selected.id)} · ${esc(AREAS[selected.area])}</p></section>`;
     return;
   }
-
-  const groups = Object.entries(AREAS).map(([area, label]) => {
-    const items = MODULES.filter(module => module.area === area);
-    return `<h2 class="section-title">${escapeHtml(label)} (${items.length})</h2>
-      <div class="module-list">${items.map(module => `
-        <button class="module-card" type="button" data-module-id="${escapeHtml(module.id)}">
-          <span class="mod-id">${escapeHtml(module.id)}</span>
-          <span class="mod-info"><span class="mod-title">${escapeHtml(module.title)}</span>
-            <span class="mod-area">${module.subtopics.length} subtópicos · ${escapeHtml(label)}</span></span>
-          <span class="mod-badges"><span class="mod-priority priority-${escapeHtml(module.priority)}">${escapeHtml(PRIORITIES[module.priority])}</span><strong class="module-list-percentage">${moduleAchievement(state,module).hasData ? moduleAchievement(state,module).percentage+'%' : '—%'}</strong></span>
-        </button>`).join("")}</div>`;
-  }).join("");
-
-  mainElement.innerHTML = `<section aria-labelledby="pageTitle">
-    <h1 class="page-title" id="pageTitle">Módulos de estudo</h1>
-    <p class="page-subtitle">${MODULES.length} módulos organizados por área. Clique em um módulo para conhecer seus subtópicos.</p>
-    <div class="notice">A estrutura pedagógica está cadastrada. As atividades serão ativadas quando seus conteúdos forem publicados.</div>
-    ${groups}
-  </section>`;
+  const rows=Object.entries(AREAS).map(([area,label])=>{
+    const released=MODULES.filter(m=>m.area===area), pending=PENDING_MODULES.filter(m=>m.area===area);
+    const live=released.map(m=>{
+      const result=moduleAchievement(state,m);
+      return `<button class="module-card" type="button" data-module-id="${esc(m.id)}"><span class="mod-id">${esc(m.id)}</span><span class="mod-info"><span class="mod-title">${esc(m.title)}</span><span class="mod-area">${m.subtopics.length} subtópicos · ${esc(label)}</span></span><span class="mod-badges"><span class="mod-priority priority-${esc(m.priority)}">${esc(PRIORITIES[m.priority]||m.priority)}</span><strong class="module-list-percentage">${result.hasData ? result.percentage+'%' : '—%'}</strong></span></button>`;
+    }).join('');
+    const future=pending.map(m=>`<article class="module-card" aria-label="${esc(m.id)}: ${esc(m.title)}, em preparação" style="cursor:default;opacity:.72"><span class="mod-id">${esc(m.id)}</span><span class="mod-info"><span class="mod-title">${esc(m.title)}</span><span class="mod-area">${m.subtopics.length} subtópicos previstos · ${esc(label)}</span></span><span class="badge-pill">Em preparação</span></article>`).join('');
+    return `<h2 class="section-title">${esc(label)} (${released.length+pending.length})</h2><div class="module-list">${live}${future}</div>`;
+  }).join('');
+  mainElement.innerHTML=`<section aria-labelledby="pageTitle"><h1 class="page-title" id="pageTitle">Módulos de estudo</h1><p class="page-subtitle">27 módulos planejados · ${MODULES.length} disponíveis · ${PENDING_MODULES.length} em preparação.</p><div class="notice">Os módulos em preparação serão liberados em lotes de três. Eles não contam no aproveitamento, nas estatísticas nem nos simulados.</div>${rows}</section>`;
 }
