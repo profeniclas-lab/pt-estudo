@@ -1,8 +1,10 @@
 export const STATE_SCHEMA_VERSION = 3;
+export const APP_ID = 'pt-estudo';
 
 export function createInitialState() {
   return {
     schemaVersion: STATE_SCHEMA_VERSION,
+    appId: APP_ID,
     appVersion: "2.0.0",
     navigation: {
       currentRoute: "dashboard",
@@ -10,40 +12,21 @@ export function createInitialState() {
       selectedSubtopicId: null
     },
     progress: {
-      modules: {},
-      lessons: {},
-      diagnostics: {},
-      exercises: {},
-      questionHistory: {},
-      flashcards: {},
-      reviewQueue: [],
-      errors: []
+      modules: {}, lessons: {}, diagnostics: {}, exercises: {},
+      questionHistory: {}, flashcards: {}, reviewQueue: [], errors: []
     },
-    preferences: {
-      theme: "light"
-    },
-    metadata: {
-      createdAt: new Date().toISOString(),
-      updatedAt: new Date().toISOString()
-    }
+    preferences: { theme: "light" },
+    metadata: { createdAt: new Date().toISOString(), updatedAt: new Date().toISOString() }
   };
 }
 
 export function normalizeState(candidate) {
   const initial = createInitialState();
-
-  if (!candidate || typeof candidate !== "object") {
-    return initial;
-  }
-
-  // Não converte o formato antigo: a nova versão começa com um estado limpo.
-  if (candidate.schemaVersion !== STATE_SCHEMA_VERSION) {
-    return initial;
-  }
-
+  if (!candidate || typeof candidate !== "object" || Array.isArray(candidate)) return initial;
+  // Falha fechada: jamais transforma um estado administrativo em Português.
+  if (candidate.schemaVersion !== STATE_SCHEMA_VERSION || candidate.appId !== APP_ID) return initial;
   return {
-    ...initial,
-    ...candidate,
+    ...initial, ...candidate,
     navigation: { ...initial.navigation, ...(candidate.navigation || {}) },
     progress: { ...initial.progress, ...(candidate.progress || {}) },
     preferences: { ...initial.preferences, ...(candidate.preferences || {}) },
