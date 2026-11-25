@@ -1,0 +1,1296 @@
+{
+  "title": "PT-ESTUDO: matriz planejada, não publicada no catálogo ativo",
+  "schema": "planning-only/v1",
+  "summary": {
+    "modules": 28,
+    "portugueseModules": 24,
+    "officialWritingModules": 4,
+    "subtopics": 140,
+    "diagnosticCards": 140,
+    "lessons": 140,
+    "mediumQuestions": 280,
+    "hardQuestions": 280,
+    "totalMinimumQuestions": 560,
+    "questionsPortuguese": 480,
+    "questionsOfficialWriting": 80
+  },
+  "modules": [
+    {
+      "id": "POR-01",
+      "area": "POR",
+      "title": "Interpretação e compreensão textual",
+      "priority": "alta",
+      "objective": "Distinguir informação explícita, inferências autorizadas e extrapolações a partir de textos variados.",
+      "prerequisites": [],
+      "subtopics": [
+        {
+          "id": "POR-01-001",
+          "title": "Tema, assunto e ideia central",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-01-002",
+          "title": "Informações explícitas e localização textual",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-01-003",
+          "title": "Inferências e pressupostos autorizados",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-01-004",
+          "title": "Fato, opinião, tese e argumentos",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-01-005",
+          "title": "Intenção comunicativa, ponto de vista e efeitos de sentido",
+          "priority": "alta"
+        }
+      ],
+      "plannedMinimum": {
+        "diagnosticCards": 5,
+        "lessons": 5,
+        "mediumCE": 5,
+        "mediumVaried": 5,
+        "hard": 10,
+        "exerciseSession": 16
+      }
+    },
+    {
+      "id": "POR-02",
+      "area": "POR",
+      "title": "Estrutura e organização textual",
+      "priority": "alta",
+      "objective": "Reconhecer a arquitetura global do texto e a progressão das ideias.",
+      "prerequisites": [
+        "POR-01"
+      ],
+      "subtopics": [
+        {
+          "id": "POR-02-001",
+          "title": "Introdução, desenvolvimento e conclusão",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-02-002",
+          "title": "Parágrafos, tópico frasal e hierarquia das ideias",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-02-003",
+          "title": "Progressão temática e continuidade referencial",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-02-004",
+          "title": "Relações lógicas entre partes do texto",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-02-005",
+          "title": "Síntese, paráfrase e reorganização de informações",
+          "priority": "alta"
+        }
+      ],
+      "plannedMinimum": {
+        "diagnosticCards": 5,
+        "lessons": 5,
+        "mediumCE": 5,
+        "mediumVaried": 5,
+        "hard": 10,
+        "exerciseSession": 16
+      }
+    },
+    {
+      "id": "POR-03",
+      "area": "POR",
+      "title": "Tipos, gêneros e funções da linguagem",
+      "priority": "alta",
+      "objective": "Relacionar finalidade, circulação, tipologia e recursos linguísticos.",
+      "prerequisites": [
+        "POR-01"
+      ],
+      "subtopics": [
+        {
+          "id": "POR-03-001",
+          "title": "Narração, descrição, exposição, argumentação e injunção",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-03-002",
+          "title": "Gêneros jornalísticos, acadêmicos e institucionais",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-03-003",
+          "title": "Funções da linguagem e propósito comunicativo",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-03-004",
+          "title": "Marcas do interlocutor e adequação ao suporte",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-03-005",
+          "title": "Identificação de gêneros e tipologias híbridas",
+          "priority": "alta"
+        }
+      ],
+      "plannedMinimum": {
+        "diagnosticCards": 5,
+        "lessons": 5,
+        "mediumCE": 5,
+        "mediumVaried": 5,
+        "hard": 10,
+        "exerciseSession": 16
+      }
+    },
+    {
+      "id": "POR-04",
+      "area": "POR",
+      "title": "Coerência e coesão textual",
+      "priority": "alta",
+      "objective": "Identificar mecanismos de ligação e avaliar a coerência global e local.",
+      "prerequisites": [
+        "POR-02"
+      ],
+      "subtopics": [
+        {
+          "id": "POR-04-001",
+          "title": "Coerência e conhecimento de mundo",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-04-002",
+          "title": "Referência, anáfora, catáfora e elipse",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-04-003",
+          "title": "Conectores e relações semânticas",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-04-004",
+          "title": "Repetição, substituição, sinonímia e paralelismo",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-04-005",
+          "title": "Rupturas de coesão e revisão de encadeamento",
+          "priority": "alta"
+        }
+      ],
+      "plannedMinimum": {
+        "diagnosticCards": 5,
+        "lessons": 5,
+        "mediumCE": 5,
+        "mediumVaried": 5,
+        "hard": 10,
+        "exerciseSession": 16
+      }
+    },
+    {
+      "id": "POR-05",
+      "area": "POR",
+      "title": "Semântica e significação",
+      "priority": "alta",
+      "objective": "Interpretar sentidos lexicais e contextuais com precisão.",
+      "prerequisites": [
+        "POR-01"
+      ],
+      "subtopics": [
+        {
+          "id": "POR-05-001",
+          "title": "Denotação, conotação e polissemia",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-05-002",
+          "title": "Sinonímia, antonímia e gradação",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-05-003",
+          "title": "Homonímia, paronímia e distinções de sentido",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-05-004",
+          "title": "Ambiguidade lexical e sintática",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-05-005",
+          "title": "Pressuposição, subentendido e ironia",
+          "priority": "alta"
+        }
+      ],
+      "plannedMinimum": {
+        "diagnosticCards": 5,
+        "lessons": 5,
+        "mediumCE": 5,
+        "mediumVaried": 5,
+        "hard": 10,
+        "exerciseSession": 16
+      }
+    },
+    {
+      "id": "POR-06",
+      "area": "POR",
+      "title": "Variação linguística e adequação",
+      "priority": "media",
+      "objective": "Reconhecer registros e variedades, diferenciando descrição de uso e norma-padrão.",
+      "prerequisites": [
+        "POR-03"
+      ],
+      "subtopics": [
+        {
+          "id": "POR-06-001",
+          "title": "Variedades regionais, sociais e históricas",
+          "priority": "media"
+        },
+        {
+          "id": "POR-06-002",
+          "title": "Registro formal, informal e situações comunicativas",
+          "priority": "media"
+        },
+        {
+          "id": "POR-06-003",
+          "title": "Norma-padrão, norma culta e preconceito linguístico",
+          "priority": "media"
+        },
+        {
+          "id": "POR-06-004",
+          "title": "Oralidade, escrita e marcas de interação",
+          "priority": "media"
+        },
+        {
+          "id": "POR-06-005",
+          "title": "Adequação linguística em comunicações administrativas",
+          "priority": "media"
+        }
+      ],
+      "plannedMinimum": {
+        "diagnosticCards": 5,
+        "lessons": 5,
+        "mediumCE": 5,
+        "mediumVaried": 5,
+        "hard": 10,
+        "exerciseSession": 16
+      }
+    },
+    {
+      "id": "POR-07",
+      "area": "POR",
+      "title": "Ortografia e emprego de letras",
+      "priority": "alta",
+      "objective": "Aplicar regras ortográficas vigentes e diferenciar grafias de uso frequente.",
+      "prerequisites": [
+        "POR-05"
+      ],
+      "subtopics": [
+        {
+          "id": "POR-07-001",
+          "title": "Sistema ortográfico e emprego de letras",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-07-002",
+          "title": "Por que, porque, por quê e porquê",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-07-003",
+          "title": "Onde, aonde, mas, mais e demais contrastes",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-07-004",
+          "title": "Uso de maiúsculas, minúsculas e abreviações",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-07-005",
+          "title": "Grafia de palavras e casos de dúvida recorrente",
+          "priority": "alta"
+        }
+      ],
+      "plannedMinimum": {
+        "diagnosticCards": 5,
+        "lessons": 5,
+        "mediumCE": 5,
+        "mediumVaried": 5,
+        "hard": 10,
+        "exerciseSession": 16
+      }
+    },
+    {
+      "id": "POR-08",
+      "area": "POR",
+      "title": "Acentuação gráfica e hífen",
+      "priority": "alta",
+      "objective": "Aplicar regras de tonicidade, acentuação e composição.",
+      "prerequisites": [
+        "POR-07"
+      ],
+      "subtopics": [
+        {
+          "id": "POR-08-001",
+          "title": "Sílaba tônica e classificação quanto à tonicidade",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-08-002",
+          "title": "Regras de acentuação de oxítonas e paroxítonas",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-08-003",
+          "title": "Proparoxítonas, hiatos e acentos diferenciais",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-08-004",
+          "title": "Acordo Ortográfico e alterações relevantes",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-08-005",
+          "title": "Hífen em prefixos e palavras compostas",
+          "priority": "alta"
+        }
+      ],
+      "plannedMinimum": {
+        "diagnosticCards": 5,
+        "lessons": 5,
+        "mediumCE": 5,
+        "mediumVaried": 5,
+        "hard": 10,
+        "exerciseSession": 16
+      }
+    },
+    {
+      "id": "POR-09",
+      "area": "POR",
+      "title": "Estrutura e formação de palavras",
+      "priority": "media",
+      "objective": "Identificar morfemas e mecanismos de criação lexical.",
+      "prerequisites": [
+        "POR-07"
+      ],
+      "subtopics": [
+        {
+          "id": "POR-09-001",
+          "title": "Radical, afixos e desinências",
+          "priority": "media"
+        },
+        {
+          "id": "POR-09-002",
+          "title": "Derivação prefixal, sufixal e parassintética",
+          "priority": "media"
+        },
+        {
+          "id": "POR-09-003",
+          "title": "Composição por justaposição e aglutinação",
+          "priority": "media"
+        },
+        {
+          "id": "POR-09-004",
+          "title": "Abreviação, siglas e outros processos",
+          "priority": "media"
+        },
+        {
+          "id": "POR-09-005",
+          "title": "Famílias de palavras e sentido dos afixos",
+          "priority": "media"
+        }
+      ],
+      "plannedMinimum": {
+        "diagnosticCards": 5,
+        "lessons": 5,
+        "mediumCE": 5,
+        "mediumVaried": 5,
+        "hard": 10,
+        "exerciseSession": 16
+      }
+    },
+    {
+      "id": "POR-10",
+      "area": "POR",
+      "title": "Substantivos, artigos e adjetivos",
+      "priority": "alta",
+      "objective": "Analisar flexão, determinação e valor semântico das classes nominais.",
+      "prerequisites": [
+        "POR-09"
+      ],
+      "subtopics": [
+        {
+          "id": "POR-10-001",
+          "title": "Substantivo: classificação e flexões",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-10-002",
+          "title": "Artigos e efeitos de determinação",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-10-003",
+          "title": "Adjetivos, locuções e valor discursivo",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-10-004",
+          "title": "Flexão nominal e graus",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-10-005",
+          "title": "Relações de concordância no sintagma nominal",
+          "priority": "alta"
+        }
+      ],
+      "plannedMinimum": {
+        "diagnosticCards": 5,
+        "lessons": 5,
+        "mediumCE": 5,
+        "mediumVaried": 5,
+        "hard": 10,
+        "exerciseSession": 16
+      }
+    },
+    {
+      "id": "POR-11",
+      "area": "POR",
+      "title": "Pronomes e referência",
+      "priority": "alta",
+      "objective": "Empregar pronomes e reconhecer relações de referência no texto.",
+      "prerequisites": [
+        "POR-04",
+        "POR-10"
+      ],
+      "subtopics": [
+        {
+          "id": "POR-11-001",
+          "title": "Pronomes pessoais, possessivos e demonstrativos",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-11-002",
+          "title": "Pronomes relativos e retomada de antecedentes",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-11-003",
+          "title": "Indefinidos, interrogativos e tratamento",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-11-004",
+          "title": "Emprego de este, esse, aquele e variantes",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-11-005",
+          "title": "Coesão pronominal e ambiguidades de referência",
+          "priority": "alta"
+        }
+      ],
+      "plannedMinimum": {
+        "diagnosticCards": 5,
+        "lessons": 5,
+        "mediumCE": 5,
+        "mediumVaried": 5,
+        "hard": 10,
+        "exerciseSession": 16
+      }
+    },
+    {
+      "id": "POR-12",
+      "area": "POR",
+      "title": "Verbos e flexão verbal",
+      "priority": "alta",
+      "objective": "Reconhecer valores temporais e modais e aplicar flexões regulares e irregulares.",
+      "prerequisites": [
+        "POR-10"
+      ],
+      "subtopics": [
+        {
+          "id": "POR-12-001",
+          "title": "Tempos, modos e aspectos verbais",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-12-002",
+          "title": "Formação dos tempos e verbos irregulares",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-12-003",
+          "title": "Voz ativa, passiva e reflexiva",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-12-004",
+          "title": "Locuções verbais e formas nominais",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-12-005",
+          "title": "Correlação verbal e sentido no texto",
+          "priority": "alta"
+        }
+      ],
+      "plannedMinimum": {
+        "diagnosticCards": 5,
+        "lessons": 5,
+        "mediumCE": 5,
+        "mediumVaried": 5,
+        "hard": 10,
+        "exerciseSession": 16
+      }
+    },
+    {
+      "id": "POR-13",
+      "area": "POR",
+      "title": "Advérbios, preposições, conjunções e interjeições",
+      "priority": "alta",
+      "objective": "Relacionar classes invariáveis aos sentidos e vínculos sintáticos.",
+      "prerequisites": [
+        "POR-12"
+      ],
+      "subtopics": [
+        {
+          "id": "POR-13-001",
+          "title": "Advérbios e locuções adverbiais",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-13-002",
+          "title": "Preposições e relações de sentido",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-13-003",
+          "title": "Conjunções coordenativas e valores semânticos",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-13-004",
+          "title": "Conjunções subordinativas e relações lógicas",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-13-005",
+          "title": "Interjeições, partículas e classificação contextual",
+          "priority": "alta"
+        }
+      ],
+      "plannedMinimum": {
+        "diagnosticCards": 5,
+        "lessons": 5,
+        "mediumCE": 5,
+        "mediumVaried": 5,
+        "hard": 10,
+        "exerciseSession": 16
+      }
+    },
+    {
+      "id": "POR-14",
+      "area": "POR",
+      "title": "Sintaxe da oração e termos essenciais",
+      "priority": "alta",
+      "objective": "Analisar predicação, sujeitos e relações básicas do período simples.",
+      "prerequisites": [
+        "POR-10",
+        "POR-12"
+      ],
+      "subtopics": [
+        {
+          "id": "POR-14-001",
+          "title": "Frase, oração, período e predicação",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-14-002",
+          "title": "Tipos de sujeito e oração sem sujeito",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-14-003",
+          "title": "Predicado nominal, verbal e verbo-nominal",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-14-004",
+          "title": "Predicativo do sujeito e do objeto",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-14-005",
+          "title": "Sujeito posposto, indeterminação e impessoalidade",
+          "priority": "alta"
+        }
+      ],
+      "plannedMinimum": {
+        "diagnosticCards": 5,
+        "lessons": 5,
+        "mediumCE": 5,
+        "mediumVaried": 5,
+        "hard": 10,
+        "exerciseSession": 16
+      }
+    },
+    {
+      "id": "POR-15",
+      "area": "POR",
+      "title": "Termos integrantes e acessórios da oração",
+      "priority": "alta",
+      "objective": "Identificar complementação e funções sintáticas que afetam reescritas.",
+      "prerequisites": [
+        "POR-14"
+      ],
+      "subtopics": [
+        {
+          "id": "POR-15-001",
+          "title": "Objeto direto, indireto e complementos verbais",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-15-002",
+          "title": "Complemento nominal e distinção de adjunto",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-15-003",
+          "title": "Agente da passiva e transformações",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-15-004",
+          "title": "Adjunto adnominal e adjunto adverbial",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-15-005",
+          "title": "Aposto, vocativo e valores sintáticos",
+          "priority": "alta"
+        }
+      ],
+      "plannedMinimum": {
+        "diagnosticCards": 5,
+        "lessons": 5,
+        "mediumCE": 5,
+        "mediumVaried": 5,
+        "hard": 10,
+        "exerciseSession": 16
+      }
+    },
+    {
+      "id": "POR-16",
+      "area": "POR",
+      "title": "Concordância verbal e nominal",
+      "priority": "alta",
+      "objective": "Aplicar regras de concordância em casos simples e controversos.",
+      "prerequisites": [
+        "POR-14",
+        "POR-15"
+      ],
+      "subtopics": [
+        {
+          "id": "POR-16-001",
+          "title": "Regra geral de concordância verbal",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-16-002",
+          "title": "Sujeito composto, posposto e casos especiais",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-16-003",
+          "title": "Verbos impessoais haver e fazer; existir",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-16-004",
+          "title": "Concordância nominal e expressões invariáveis",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-16-005",
+          "title": "Concordância em reescritas e casos de prova",
+          "priority": "alta"
+        }
+      ],
+      "plannedMinimum": {
+        "diagnosticCards": 5,
+        "lessons": 5,
+        "mediumCE": 5,
+        "mediumVaried": 5,
+        "hard": 10,
+        "exerciseSession": 16
+      }
+    },
+    {
+      "id": "POR-17",
+      "area": "POR",
+      "title": "Regência verbal e nominal",
+      "priority": "alta",
+      "objective": "Analisar exigências de complementos e implicações de sentido.",
+      "prerequisites": [
+        "POR-15"
+      ],
+      "subtopics": [
+        {
+          "id": "POR-17-001",
+          "title": "Transitividade e seleção de preposições",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-17-002",
+          "title": "Regência de verbos frequentes em concursos",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-17-003",
+          "title": "Mudança de sentido segundo a regência",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-17-004",
+          "title": "Regência nominal e complementos preposicionados",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-17-005",
+          "title": "Regência na norma-padrão e reescrita",
+          "priority": "alta"
+        }
+      ],
+      "plannedMinimum": {
+        "diagnosticCards": 5,
+        "lessons": 5,
+        "mediumCE": 5,
+        "mediumVaried": 5,
+        "hard": 10,
+        "exerciseSession": 16
+      }
+    },
+    {
+      "id": "POR-18",
+      "area": "POR",
+      "title": "Crase",
+      "priority": "alta",
+      "objective": "Reconhecer contextos de fusão preposicional e casos de proibição/faculdade.",
+      "prerequisites": [
+        "POR-11",
+        "POR-17"
+      ],
+      "subtopics": [
+        {
+          "id": "POR-18-001",
+          "title": "Fusão de preposição e artigo; teste do masculino",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-18-002",
+          "title": "Crase obrigatória em locuções e termos femininos",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-18-003",
+          "title": "Casos proibidos e situações sem artigo",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-18-004",
+          "title": "Casos facultativos e pronomes",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-18-005",
+          "title": "Crase em topônimos, horas e reescritas",
+          "priority": "alta"
+        }
+      ],
+      "plannedMinimum": {
+        "diagnosticCards": 5,
+        "lessons": 5,
+        "mediumCE": 5,
+        "mediumVaried": 5,
+        "hard": 10,
+        "exerciseSession": 16
+      }
+    },
+    {
+      "id": "POR-19",
+      "area": "POR",
+      "title": "Período composto: coordenação e subordinação",
+      "priority": "alta",
+      "objective": "Interpretar as relações entre orações e efeitos da alteração de conectivos.",
+      "prerequisites": [
+        "POR-13",
+        "POR-14"
+      ],
+      "subtopics": [
+        {
+          "id": "POR-19-001",
+          "title": "Orações coordenadas sindéticas e assindéticas",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-19-002",
+          "title": "Subordinadas substantivas e funções",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-19-003",
+          "title": "Subordinadas adjetivas restritivas e explicativas",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-19-004",
+          "title": "Subordinadas adverbiais e valores semânticos",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-19-005",
+          "title": "Orações reduzidas, desenvolvidas e reescritas",
+          "priority": "alta"
+        }
+      ],
+      "plannedMinimum": {
+        "diagnosticCards": 5,
+        "lessons": 5,
+        "mediumCE": 5,
+        "mediumVaried": 5,
+        "hard": 10,
+        "exerciseSession": 16
+      }
+    },
+    {
+      "id": "POR-20",
+      "area": "POR",
+      "title": "Pontuação",
+      "priority": "alta",
+      "objective": "Empregar sinais de pontuação conforme estrutura e efeitos de sentido.",
+      "prerequisites": [
+        "POR-15",
+        "POR-19"
+      ],
+      "subtopics": [
+        {
+          "id": "POR-20-001",
+          "title": "Vírgula e termos deslocados, intercalados ou enumerados",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-20-002",
+          "title": "Vírgula entre orações e conjunções",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-20-003",
+          "title": "Restrições: sujeito, verbo e complementos",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-20-004",
+          "title": "Ponto e vírgula, dois-pontos e travessão",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-20-005",
+          "title": "Pontuação, sentido e reescrita de textos",
+          "priority": "alta"
+        }
+      ],
+      "plannedMinimum": {
+        "diagnosticCards": 5,
+        "lessons": 5,
+        "mediumCE": 5,
+        "mediumVaried": 5,
+        "hard": 10,
+        "exerciseSession": 16
+      }
+    },
+    {
+      "id": "POR-21",
+      "area": "POR",
+      "title": "Colocação pronominal",
+      "priority": "alta",
+      "objective": "Aplicar regras de próclise, ênclise e mesóclise em contextos formais.",
+      "prerequisites": [
+        "POR-11",
+        "POR-12"
+      ],
+      "subtopics": [
+        {
+          "id": "POR-21-001",
+          "title": "Posições pronominais e critérios gerais",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-21-002",
+          "title": "Fatores de atração da próclise",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-21-003",
+          "title": "Ênclise e construções formais",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-21-004",
+          "title": "Mesóclise e tempos verbais",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-21-005",
+          "title": "Colocação pronominal em locuções e reescrita",
+          "priority": "alta"
+        }
+      ],
+      "plannedMinimum": {
+        "diagnosticCards": 5,
+        "lessons": 5,
+        "mediumCE": 5,
+        "mediumVaried": 5,
+        "hard": 10,
+        "exerciseSession": 16
+      }
+    },
+    {
+      "id": "POR-22",
+      "area": "POR",
+      "title": "Reescrita, correção e paralelismo",
+      "priority": "alta",
+      "objective": "Avaliar equivalência semântica e correção gramatical em transformações.",
+      "prerequisites": [
+        "POR-04",
+        "POR-16",
+        "POR-17",
+        "POR-19",
+        "POR-20"
+      ],
+      "subtopics": [
+        {
+          "id": "POR-22-001",
+          "title": "Manutenção de sentido em substituições",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-22-002",
+          "title": "Voz passiva, nominalização e transformação",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-22-003",
+          "title": "Paralelismo sintático e semântico",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-22-004",
+          "title": "Correção de períodos com ambiguidade ou redundância",
+          "priority": "alta"
+        },
+        {
+          "id": "POR-22-005",
+          "title": "Coesão, pontuação, regência e concordância integradas",
+          "priority": "alta"
+        }
+      ],
+      "plannedMinimum": {
+        "diagnosticCards": 5,
+        "lessons": 5,
+        "mediumCE": 5,
+        "mediumVaried": 5,
+        "hard": 10,
+        "exerciseSession": 16
+      }
+    },
+    {
+      "id": "POR-23",
+      "area": "POR",
+      "title": "Figuras de linguagem e recursos expressivos",
+      "priority": "media",
+      "objective": "Reconhecer recursos de estilo sem confundir sentido literal e implícito.",
+      "prerequisites": [
+        "POR-05"
+      ],
+      "subtopics": [
+        {
+          "id": "POR-23-001",
+          "title": "Metáfora, metonímia e comparação",
+          "priority": "media"
+        },
+        {
+          "id": "POR-23-002",
+          "title": "Antítese, paradoxo e eufemismo",
+          "priority": "media"
+        },
+        {
+          "id": "POR-23-003",
+          "title": "Hipérbole, personificação e ironia",
+          "priority": "media"
+        },
+        {
+          "id": "POR-23-004",
+          "title": "Elipse, pleonasmo e inversão",
+          "priority": "media"
+        },
+        {
+          "id": "POR-23-005",
+          "title": "Efeito expressivo e interpretação contextual",
+          "priority": "media"
+        }
+      ],
+      "plannedMinimum": {
+        "diagnosticCards": 5,
+        "lessons": 5,
+        "mediumCE": 5,
+        "mediumVaried": 5,
+        "hard": 10,
+        "exerciseSession": 16
+      }
+    },
+    {
+      "id": "POR-24",
+      "area": "POR",
+      "title": "Produção textual para provas discursivas",
+      "priority": "media",
+      "objective": "Planejar e revisar textos curtos e argumentativos exigidos por editais específicos.",
+      "prerequisites": [
+        "POR-01",
+        "POR-02",
+        "POR-04",
+        "POR-22"
+      ],
+      "subtopics": [
+        {
+          "id": "POR-24-001",
+          "title": "Compreensão do comando e delimitação do tema",
+          "priority": "media"
+        },
+        {
+          "id": "POR-24-002",
+          "title": "Planejamento, tese e recorte argumentativo",
+          "priority": "media"
+        },
+        {
+          "id": "POR-24-003",
+          "title": "Desenvolvimento de argumentos e exemplos",
+          "priority": "media"
+        },
+        {
+          "id": "POR-24-004",
+          "title": "Coesão, progressão e conclusão",
+          "priority": "media"
+        },
+        {
+          "id": "POR-24-005",
+          "title": "Revisão, concisão, norma-padrão e critérios da banca",
+          "priority": "media"
+        }
+      ],
+      "plannedMinimum": {
+        "diagnosticCards": 5,
+        "lessons": 5,
+        "mediumCE": 5,
+        "mediumVaried": 5,
+        "hard": 10,
+        "exerciseSession": 16
+      }
+    },
+    {
+      "id": "RED-01",
+      "area": "RED",
+      "title": "Fundamentos da Redação Oficial",
+      "priority": "alta",
+      "objective": "Distinguir atributos da comunicação institucional e sua aplicação prática.",
+      "prerequisites": [
+        "POR-04",
+        "POR-06"
+      ],
+      "subtopics": [
+        {
+          "id": "RED-01-001",
+          "title": "Finalidade da comunicação oficial e interesse público",
+          "priority": "alta"
+        },
+        {
+          "id": "RED-01-002",
+          "title": "Clareza, precisão e objetividade",
+          "priority": "alta"
+        },
+        {
+          "id": "RED-01-003",
+          "title": "Concisão e impessoalidade",
+          "priority": "alta"
+        },
+        {
+          "id": "RED-01-004",
+          "title": "Formalidade, padronização e norma-padrão",
+          "priority": "alta"
+        },
+        {
+          "id": "RED-01-005",
+          "title": "Coesão e coerência na redação institucional",
+          "priority": "alta"
+        }
+      ],
+      "plannedMinimum": {
+        "diagnosticCards": 5,
+        "lessons": 5,
+        "mediumCE": 5,
+        "mediumVaried": 5,
+        "hard": 10,
+        "exerciseSession": 16
+      }
+    },
+    {
+      "id": "RED-02",
+      "area": "RED",
+      "title": "Padrão ofício e expedientes oficiais",
+      "priority": "alta",
+      "objective": "Reconhecer elementos e convenções do padrão ofício previsto no Manual vigente.",
+      "prerequisites": [
+        "RED-01"
+      ],
+      "subtopics": [
+        {
+          "id": "RED-02-001",
+          "title": "Padrão ofício: finalidade, destinatário e identificação",
+          "priority": "alta"
+        },
+        {
+          "id": "RED-02-002",
+          "title": "Cabeçalho, local, data, assunto e vocativo",
+          "priority": "alta"
+        },
+        {
+          "id": "RED-02-003",
+          "title": "Corpo do texto, fecho, assinatura e identificação",
+          "priority": "alta"
+        },
+        {
+          "id": "RED-02-004",
+          "title": "Tratamento e endereçamento conforme normas aplicáveis",
+          "priority": "alta"
+        },
+        {
+          "id": "RED-02-005",
+          "title": "Distinção entre padrões anteriores e modelo vigente",
+          "priority": "alta"
+        }
+      ],
+      "plannedMinimum": {
+        "diagnosticCards": 5,
+        "lessons": 5,
+        "mediumCE": 5,
+        "mediumVaried": 5,
+        "hard": 10,
+        "exerciseSession": 16
+      }
+    },
+    {
+      "id": "RED-03",
+      "area": "RED",
+      "title": "Comunicações institucionais e meios digitais",
+      "priority": "alta",
+      "objective": "Escolher forma adequada para diferentes comunicações administrativas.",
+      "prerequisites": [
+        "RED-01",
+        "RED-02"
+      ],
+      "subtopics": [
+        {
+          "id": "RED-03-001",
+          "title": "E-mail institucional: assunto, texto e anexos",
+          "priority": "alta"
+        },
+        {
+          "id": "RED-03-002",
+          "title": "Comunicação eletrônica, registro e rastreabilidade",
+          "priority": "alta"
+        },
+        {
+          "id": "RED-03-003",
+          "title": "Convites, solicitações e respostas institucionais",
+          "priority": "alta"
+        },
+        {
+          "id": "RED-03-004",
+          "title": "Publicidade, destinatário e dados pessoais no texto",
+          "priority": "alta"
+        },
+        {
+          "id": "RED-03-005",
+          "title": "Revisão de tom, concisão e organização de mensagens",
+          "priority": "alta"
+        }
+      ],
+      "plannedMinimum": {
+        "diagnosticCards": 5,
+        "lessons": 5,
+        "mediumCE": 5,
+        "mediumVaried": 5,
+        "hard": 10,
+        "exerciseSession": 16
+      }
+    },
+    {
+      "id": "RED-04",
+      "area": "RED",
+      "title": "Aplicação e revisão de documentos oficiais",
+      "priority": "alta",
+      "objective": "Corrigir e elaborar expedientes simulados considerando finalidade e forma.",
+      "prerequisites": [
+        "RED-01",
+        "RED-02",
+        "RED-03",
+        "POR-22"
+      ],
+      "subtopics": [
+        {
+          "id": "RED-04-001",
+          "title": "Identificação de inadequações em documentos",
+          "priority": "alta"
+        },
+        {
+          "id": "RED-04-002",
+          "title": "Reescrita com clareza e impessoalidade",
+          "priority": "alta"
+        },
+        {
+          "id": "RED-04-003",
+          "title": "Escolha de vocativo, fecho e tratamento",
+          "priority": "alta"
+        },
+        {
+          "id": "RED-04-004",
+          "title": "Padronização e conferência de informações",
+          "priority": "alta"
+        },
+        {
+          "id": "RED-04-005",
+          "title": "Casos integradores de protocolo, ofício e e-mail",
+          "priority": "alta"
+        }
+      ],
+      "plannedMinimum": {
+        "diagnosticCards": 5,
+        "lessons": 5,
+        "mediumCE": 5,
+        "mediumVaried": 5,
+        "hard": 10,
+        "exerciseSession": 16
+      }
+    }
+  ]
+}
