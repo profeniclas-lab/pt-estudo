@@ -1,10 +1,7 @@
-/** ADM-ESTUDO — Fase 22-A / Lote 1: alternância visual claro/escuro.
- * Usa uma chave independente do estado pedagógico para evitar conflitos
- * com os mecanismos de integridade e salvamento de progresso.
- */
+/** PT-ESTUDO — preferência visual isolada, sem alterar estado pedagógico. */
 (function () {
   'use strict';
-  const THEME_KEY = 'admEstudo.ui.theme';
+  const THEME_KEY = 'ptEstudo.ui.theme';
   const buttonSelector = '[data-theme-toggle]';
 
   function isDark() {
@@ -35,8 +32,7 @@
     try {
       window.localStorage.setItem(THEME_KEY, next);
     } catch (error) {
-      // O controle visual ainda funciona quando o armazenamento está bloqueado.
-      console.warn('[ADM-ESTUDO] Não foi possível salvar a preferência visual.', error);
+      console.warn('[PT-ESTUDO] Não foi possível salvar a preferência visual.', error);
     }
     refreshThemeControls();
   }

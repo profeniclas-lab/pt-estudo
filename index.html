@@ -19,10 +19,9 @@
 </head>
 <body>
 <script>
-  // Aplica a preferência antes da montagem da interface para evitar troca visual inicial.
-  // Não acessa nem modifica a chave que contém o progresso pedagógico.
+  // Preferência visual exclusiva desta instalação, sem ler progresso pedagógico.
   try {
-    if (localStorage.getItem('admEstudo.ui.theme') === 'dark') {
+    if (localStorage.getItem('ptEstudo.ui.theme') === 'dark') {
       document.body.classList.add('dark');
     }
   } catch (_) { /* Navegador com armazenamento indisponível: usa modo claro. */ }
