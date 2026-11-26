@@ -845,7 +845,7 @@
           "priority": "alta"
         }
       ],
-      "status": "preparacao"
+      "status": "disponivel"
     },
     {
       "id": "POR-23",
@@ -883,7 +883,7 @@
           "priority": "media"
         }
       ],
-      "status": "preparacao"
+      "status": "disponivel"
     },
     {
       "id": "POR-24",
@@ -924,7 +924,7 @@
           "priority": "media"
         }
       ],
-      "status": "preparacao"
+      "status": "disponivel"
     },
     {
       "id": "RED-01",
@@ -1068,6 +1068,6 @@
       "status": "preparacao"
     }
   ],
-  "availableModules": 21,
-  "pendingModules": 6
+  "availableModules": 24,
+  "pendingModules": 3
 }
