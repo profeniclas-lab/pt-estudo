@@ -1,0 +1,605 @@
+/** PT-ESTUDO — POR-10: 20 questões AUTORAIS com comentários por alternativa. */
+export const POR_10_QUESTIONS = [
+  {
+    "id": "Q-POR-10-001-01",
+    "moduleId": "POR-10",
+    "subtopicId": "POR-10-001",
+    "topic": "Substantivo: classificação e flexões",
+    "type": "ce",
+    "difficulty": "media",
+    "stem": "Em “A testemunha confirmou os fatos”, “testemunha” é substantivo sobrecomum e continua gramaticalmente feminino mesmo que se refira a um homem.",
+    "options": [
+      "CERTO",
+      "ERRADO"
+    ],
+    "answer": 0,
+    "optionComments": [
+      "Correta: a forma e o gênero feminino de “testemunha” não variam com o sexo da pessoa.",
+      "Incorreta: sobrecomuns, como testemunha, têm gênero fixo independentemente da pessoa designada."
+    ],
+    "explanation": "Testemunha é substantivo sobrecomum feminino; diz-se “a testemunha” para homem ou mulher.",
+    "concept": "Substantivo nomeia seres, entidades, processos, sentimentos ou conceitos; suas classificações são critérios diferentes e podem coexistir.",
+    "trap": "Confundir gênero gramatical com sexo da pessoa.",
+    "examTip": "Observe o artigo possível, sem inventar “o testemunha” na norma escolar.",
+    "newExample": "“A vítima prestou depoimento” mantém artigo feminino mesmo quando vítima é um homem.",
+    "challenge": "Como explicar a escolha do artigo em “a pessoa entrevistada”, quando a pessoa é homem?",
+    "tipo": "AUTORAL",
+    "origem": "AUTORAL_INEDITA",
+    "pedagogicalPurpose": "exercise-base"
+  },
+  {
+    "id": "Q-POR-10-001-02",
+    "moduleId": "POR-10",
+    "subtopicId": "POR-10-001",
+    "topic": "Substantivo: classificação e flexões",
+    "type": "classica",
+    "difficulty": "media",
+    "stem": "Em “A equipe examinou a correspondência”, qual termo é substantivo coletivo?",
+    "options": [
+      "equipe",
+      "examinou",
+      "a (antes de correspondência)",
+      "correspondência"
+    ],
+    "answer": 0,
+    "optionComments": [
+      "Correta: equipe designa conjunto de pessoas, como unidade lexical.",
+      "Incorreta: examinou é forma verbal no pretérito perfeito.",
+      "Incorreta: a é artigo definido que determina correspondência.",
+      "Incorreta: correspondência designa, no contexto, o conjunto de mensagens, mas não é o coletivo escolar solicitado para pessoas."
+    ],
+    "explanation": "Equipe é substantivo coletivo que nomeia um grupo de integrantes de maneira unitária.",
+    "concept": "Substantivo nomeia seres, entidades, processos, sentimentos ou conceitos; suas classificações são critérios diferentes e podem coexistir.",
+    "trap": "Tomar qualquer palavra que nomeie vários objetos por coletivo escolar sem avaliar o sentido lexical.",
+    "examTip": "O coletivo já contém ideia de conjunto na palavra, mesmo que apareça no singular.",
+    "newExample": "“A multidão aguardava o resultado” contém o coletivo multidão.",
+    "challenge": "Por que “equipe” pode aparecer no singular mesmo ao designar várias pessoas?",
+    "tipo": "AUTORAL",
+    "origem": "AUTORAL_INEDITA",
+    "pedagogicalPurpose": "exercise-base"
+  },
+  {
+    "id": "Q-POR-10-001-03",
+    "moduleId": "POR-10",
+    "subtopicId": "POR-10-001",
+    "topic": "Substantivo: classificação e flexões",
+    "type": "afirmacoes",
+    "difficulty": "dificil",
+    "stem": "Considere: I. “Natal” é substantivo próprio quando nomeia a capital potiguar. II. “Coragem” pode ser substantivo abstrato. III. “Guarda-chuva” é substantivo simples, por ter só uma palavra gráfica. Assinale a opção correta.",
+    "options": [
+      "Apenas I",
+      "Apenas II e III",
+      "Apenas I e II",
+      "I, II e III",
+      "Apenas III"
+    ],
+    "answer": 2,
+    "optionComments": [
+      "Incorreta: II também é verdadeira, pois coragem designa uma qualidade.",
+      "Incorreta: III é falsa: guarda-chuva é composto.",
+      "Correta: I e II são verdadeiras; III confunde grafia com formação do composto.",
+      "Incorreta: inclui III, que contradiz a estrutura composta de guarda-chuva.",
+      "Incorreta: III é falsa e omite I e II, ambas verdadeiras."
+    ],
+    "explanation": "Próprio individualiza referente, abstrato nomeia qualidade e composto reúne bases: as classificações têm critérios diferentes.",
+    "concept": "Substantivo nomeia seres, entidades, processos, sentimentos ou conceitos; suas classificações são critérios diferentes e podem coexistir.",
+    "trap": "Afirmar que o hífen transforma uma formação composta em substantivo simples.",
+    "examTip": "Julgue cada assertiva isoladamente; “palavra gráfica” não substitui análise de formação.",
+    "newExample": "“Recife” é próprio; “bondade” é abstrato; “passatempo” é composto, mesmo sem hífen.",
+    "challenge": "Se substituirmos “guarda-chuva” por “passatempo”, a afirmação III ficaria correta?",
+    "tipo": "AUTORAL",
+    "origem": "AUTORAL_INEDITA",
+    "pedagogicalPurpose": "exercise-base"
+  },
+  {
+    "id": "Q-POR-10-001-04",
+    "moduleId": "POR-10",
+    "subtopicId": "POR-10-001",
+    "topic": "Substantivo: classificação e flexões",
+    "type": "associacao",
+    "difficulty": "dificil",
+    "stem": "Associe as classes: 1. próprio; 2. abstrato; 3. coletivo; 4. composto. Na ordem: ( ) arquipélago; ( ) esperança; ( ) Rio Grande do Norte (como nome da unidade federativa); ( ) porta-retrato.",
+    "options": [
+      "3 – 2 – 1 – 4",
+      "2 – 3 – 4 – 1",
+      "3 – 1 – 2 – 4",
+      "4 – 2 – 1 – 3"
+    ],
+    "answer": 0,
+    "optionComments": [
+      "Correta: arquipélago é coletivo, esperança é abstrato, Rio Grande do Norte é próprio e porta-retrato é composto.",
+      "Incorreta: inicia tratando arquipélago como abstrato e esperança como coletivo.",
+      "Incorreta: classifica esperança como próprio e Rio Grande do Norte como abstrato.",
+      "Incorreta: arquipélago não é composto e porta-retrato não é coletivo."
+    ],
+    "explanation": "Cada item deve ser classificado pelo critério solicitado e pelo sentido no enunciado.",
+    "concept": "Substantivo nomeia seres, entidades, processos, sentimentos ou conceitos; suas classificações são critérios diferentes e podem coexistir.",
+    "trap": "Confundir conjunto nomeado por coletivo com estrutura morfológica de composto.",
+    "examTip": "Resolva primeiro os casos inequívocos: porta-retrato reúne duas bases; esperança designa estado.",
+    "newExample": "“Cardume” é coletivo; “alegria” abstrato; “Brasil” próprio; “girassol” composto.",
+    "challenge": "A classificação de “arquipélago” seria alterada por aparecer no plural “arquipélagos”?",
+    "tipo": "AUTORAL",
+    "origem": "AUTORAL_INEDITA",
+    "pedagogicalPurpose": "exercise-base"
+  },
+  {
+    "id": "Q-POR-10-002-01",
+    "moduleId": "POR-10",
+    "subtopicId": "POR-10-002",
+    "topic": "Artigos e efeitos de determinação",
+    "type": "ce",
+    "difficulty": "media",
+    "stem": "Em “Uma estudante entregou um formulário. A estudante aguardou o protocolo”, o segundo artigo definido contribui para recuperar a participante já apresentada.",
+    "options": [
+      "CERTO",
+      "ERRADO"
+    ],
+    "answer": 0,
+    "optionComments": [
+      "Correta: “a” estabelece continuidade com o referente introduzido por “uma”.",
+      "Incorreta: a passagem de indefinido para definido é recurso típico de retomada referencial."
+    ],
+    "explanation": "A cadeia “uma estudante” → “a estudante” transforma referente novo em referente acessível no texto.",
+    "concept": "Artigos definidos identificam referente presumido como acessível ou determinado; indefinidos introduzem ou apresentam referente não individualizado no contexto.",
+    "trap": "Tomar o artigo como marca puramente ornamental, sem função textual.",
+    "examTip": "Rastreie a primeira menção e a retomada ao avaliar determinação.",
+    "newExample": "“Um parecer foi enviado. O parecer continha anexos” apresenta a mesma progressão.",
+    "challenge": "O efeito seria o mesmo se a segunda frase introduzisse “outra estudante”?",
+    "tipo": "AUTORAL",
+    "origem": "AUTORAL_INEDITA",
+    "pedagogicalPurpose": "exercise-base"
+  },
+  {
+    "id": "Q-POR-10-002-02",
+    "moduleId": "POR-10",
+    "subtopicId": "POR-10-002",
+    "topic": "Artigos e efeitos de determinação",
+    "type": "classica",
+    "difficulty": "media",
+    "stem": "Qual reescrita apresenta um documento como referente ainda não identificado pelo interlocutor?",
+    "options": [
+      "Encontre o documento mencionado ontem.",
+      "Encontre um documento que trate do tema.",
+      "Encontre aquele documento já arquivado.",
+      "Encontre este documento que estou mostrando."
+    ],
+    "answer": 1,
+    "optionComments": [
+      "Incorreta: “o” junto de “mencionado ontem” identifica um documento.",
+      "Correta: “um” introduz documento não previamente individualizado.",
+      "Incorreta: “aquele” aponta para documento identificado pela referência contextual.",
+      "Incorreta: “este” indica documento mostrado na situação comunicativa."
+    ],
+    "explanation": "A referência não específica costuma ser introduzida com artigo indefinido; os demonstrativos especificam referentes.",
+    "concept": "Artigos definidos identificam referente presumido como acessível ou determinado; indefinidos introduzem ou apresentam referente não individualizado no contexto.",
+    "trap": "Confundir qualquer artigo com a mesma determinação referencial.",
+    "examTip": "Compare o estatuto informacional do nome: foi introduzido, apontado ou já identificado?",
+    "newExample": "“Procure uma fotografia do evento” solicita uma dentre várias possíveis.",
+    "challenge": "Que diferença há entre “uma fotografia” e “a fotografia da ata”?",
+    "tipo": "AUTORAL",
+    "origem": "AUTORAL_INEDITA",
+    "pedagogicalPurpose": "exercise-base"
+  },
+  {
+    "id": "Q-POR-10-002-03",
+    "moduleId": "POR-10",
+    "subtopicId": "POR-10-002",
+    "topic": "Artigos e efeitos de determinação",
+    "type": "vf",
+    "difficulty": "dificil",
+    "stem": "Julgue V/F: I. O artigo definido pode recuperar referente apresentado antes. II. O artigo indefinido sempre indica que o referente não existe na realidade. III. “Os servidores” pode designar grupo identificável no contexto, sem significar necessariamente todos os servidores do país.",
+    "options": [
+      "V – F – V",
+      "F – F – V",
+      "V – V – F",
+      "F – V – V"
+    ],
+    "answer": 0,
+    "optionComments": [
+      "Correta: I e III são verdadeiras; II confunde identificação discursiva com existência.",
+      "Incorreta: I é verdadeira porque o definido pode retomar informação anterior.",
+      "Incorreta: II é falsa e III verdadeira; indefinição não implica inexistência.",
+      "Incorreta: I é verdadeira e II falsa, portanto a sequência não corresponde."
+    ],
+    "explanation": "A determinação nominal atua no discurso; artigo indefinido não nega existência e definido não impõe totalidade universal.",
+    "concept": "Artigos definidos identificam referente presumido como acessível ou determinado; indefinidos introduzem ou apresentam referente não individualizado no contexto.",
+    "trap": "Ler “um” como inexistente e “os” como universal em qualquer contexto.",
+    "examTip": "Separe referência discursiva de afirmações sobre existência e quantidade.",
+    "newExample": "“Um candidato entrou” não diz que o candidato é imaginário.",
+    "challenge": "Uma frase com “os estudantes” pode tratar apenas da turma mencionada antes?",
+    "tipo": "AUTORAL",
+    "origem": "AUTORAL_INEDITA",
+    "pedagogicalPurpose": "exercise-base"
+  },
+  {
+    "id": "Q-POR-10-002-04",
+    "moduleId": "POR-10",
+    "subtopicId": "POR-10-002",
+    "topic": "Artigos e efeitos de determinação",
+    "type": "exceto",
+    "difficulty": "dificil",
+    "stem": "Quanto ao papel dos artigos na sequência “Um fiscal chegou. O fiscal conferiu os crachás”, todas as afirmações são adequadas, EXCETO:",
+    "options": [
+      "“Um” introduz participante ainda não recuperado no trecho.",
+      "“O” contribui para retomar o fiscal já mencionado.",
+      "“Os” apresenta os crachás como conjunto identificável no contexto.",
+      "“O” prova que só existe um fiscal em toda a instituição."
+    ],
+    "answer": 3,
+    "optionComments": [
+      "Adequada: “um fiscal” apresenta uma ocorrência inicial no enunciado.",
+      "Adequada: “o fiscal” mantém a referência ao participante anterior.",
+      "Adequada: “os crachás” pode indicar conjunto relevante ao contexto da conferência.",
+      "É a EXCEÇÃO: definido não permite concluir unicidade absoluta em toda a instituição."
+    ],
+    "explanation": "O artigo definido aponta para identificação no contexto, não garante a inexistência de outros fiscais.",
+    "concept": "Artigos definidos identificam referente presumido como acessível ou determinado; indefinidos introduzem ou apresentam referente não individualizado no contexto.",
+    "trap": "Transformar referência local em conclusão universal sobre a instituição.",
+    "examTip": "A alternativa EXCETO deve contradizer algo que o texto realmente autoriza.",
+    "newExample": "“O atendente retomou a explicação” não prova que o órgão emprega somente um atendente.",
+    "challenge": "Que evidência adicional seria necessária para afirmar que só existe um fiscal?",
+    "tipo": "AUTORAL",
+    "origem": "AUTORAL_INEDITA",
+    "pedagogicalPurpose": "exercise-base"
+  },
+  {
+    "id": "Q-POR-10-003-01",
+    "moduleId": "POR-10",
+    "subtopicId": "POR-10-003",
+    "topic": "Adjetivos, locuções e valor discursivo",
+    "type": "ce",
+    "difficulty": "media",
+    "stem": "Em “A proposta apresentou resultados excelentes”, “excelentes” funciona como adjetivo que avalia o substantivo “resultados”.",
+    "options": [
+      "CERTO",
+      "ERRADO"
+    ],
+    "answer": 0,
+    "optionComments": [
+      "Correta: excelentes atribui qualidade avaliativa aos resultados.",
+      "Incorreta: o termo qualifica resultados, não a ação apresentou."
+    ],
+    "explanation": "Excelente é adjetivo que modifica nome e expressa apreciação.",
+    "concept": "Adjetivos qualificam ou classificam nomes; locuções adjetivas, geralmente com preposição, exercem função qualificadora, mas nem toda expressão preposicionada é equivalível a um adjetivo.",
+    "trap": "Confundir a modificação nominal com circunstância da ação verbal.",
+    "examTip": "Pergunte a qual substantivo a avaliação se aplica.",
+    "newExample": "“As medidas eficazes foram aprovadas” relaciona eficazes a medidas.",
+    "challenge": "Se fosse “apresentou os resultados excelentemente”, qual classe teria o termo modificador?",
+    "tipo": "AUTORAL",
+    "origem": "AUTORAL_INEDITA",
+    "pedagogicalPurpose": "exercise-base"
+  },
+  {
+    "id": "Q-POR-10-003-02",
+    "moduleId": "POR-10",
+    "subtopicId": "POR-10-003",
+    "topic": "Adjetivos, locuções e valor discursivo",
+    "type": "classica",
+    "difficulty": "media",
+    "stem": "Qual par apresenta uma mudança de posição do adjetivo que pode alterar o significado?",
+    "options": [
+      "“Um grande colega” / “um colega grande”.",
+      "“Um documento digital” / “um digital documento”.",
+      "“Uma redação clara” / “uma redação clara”.",
+      "“Uma equipe eficiente” / “uma equipe eficiente”."
+    ],
+    "answer": 0,
+    "optionComments": [
+      "Correta: grande anteposto pode elogiar mérito; posposto tende a dimensionar fisicamente.",
+      "Incorreta: o segundo enunciado é antinatural na ordem usual, sem contraste semântico regular comparável.",
+      "Incorreta: a mesma frase foi apenas repetida.",
+      "Incorreta: não há deslocamento do adjetivo no par."
+    ],
+    "explanation": "A posição de alguns adjetivos, como grande, altera leitura subjetiva ou objetiva.",
+    "concept": "Adjetivos qualificam ou classificam nomes; locuções adjetivas, geralmente com preposição, exercem função qualificadora, mas nem toda expressão preposicionada é equivalível a um adjetivo.",
+    "trap": "Considerar qualquer deslocamento de adjetivo equivalente no sentido.",
+    "examTip": "Compare se o termo avalia importância ou descreve característica mensurável.",
+    "newExample": "“Meu velho amigo” pode salientar amizade antiga; “meu amigo velho”, idade.",
+    "challenge": "A expressão “um grande pesquisador” afirma necessariamente altura física?",
+    "tipo": "AUTORAL",
+    "origem": "AUTORAL_INEDITA",
+    "pedagogicalPurpose": "exercise-base"
+  },
+  {
+    "id": "Q-POR-10-003-03",
+    "moduleId": "POR-10",
+    "subtopicId": "POR-10-003",
+    "topic": "Adjetivos, locuções e valor discursivo",
+    "type": "afirmacoes",
+    "difficulty": "dificil",
+    "stem": "Leia: I. “de madeira”, em “porta de madeira”, caracteriza o nome porta. II. “ontem”, em “chegou ontem”, modifica a ação de chegar. III. “rapidamente”, em “respondeu rapidamente”, é adjetivo de respondeu. Estão corretas:",
+    "options": [
+      "Apenas I",
+      "Apenas I e II",
+      "Apenas II e III",
+      "I, II e III"
+    ],
+    "answer": 1,
+    "optionComments": [
+      "Incompleta: II também está correta, pois ontem é circunstância temporal.",
+      "Correta: I contém expressão de valor adjetivo; II contém advérbio de tempo; III é falsa.",
+      "Incorreta: III classifica advérbio como adjetivo.",
+      "Incorreta: III é falsa: rapidamente é advérbio."
+    ],
+    "explanation": "Locução vinculada a nome tem valor adjetivo; advérbios modificam verbos ou outras classes, não são adjetivos por exprimirem modo.",
+    "concept": "Adjetivos qualificam ou classificam nomes; locuções adjetivas, geralmente com preposição, exercem função qualificadora, mas nem toda expressão preposicionada é equivalível a um adjetivo.",
+    "trap": "Tratar “rapidamente” como adjetivo por expressar característica da ação.",
+    "examTip": "Identifique o núcleo modificado em cada trecho antes de classificar.",
+    "newExample": "“Pasta de papel” especifica pasta; “preparou cuidadosamente” modifica preparou.",
+    "challenge": "“Relatório de ontem” e “relatou ontem” desempenham a mesma função sintática?",
+    "tipo": "AUTORAL",
+    "origem": "AUTORAL_INEDITA",
+    "pedagogicalPurpose": "exercise-base"
+  },
+  {
+    "id": "Q-POR-10-003-04",
+    "moduleId": "POR-10",
+    "subtopicId": "POR-10-003",
+    "topic": "Adjetivos, locuções e valor discursivo",
+    "type": "exceto",
+    "difficulty": "dificil",
+    "stem": "Nas frases abaixo, “rápido” ou expressão equivalente modifica um substantivo em todas, EXCETO:",
+    "options": [
+      "A resposta rápida satisfez a turma.",
+      "O atendimento de urgência foi concluído.",
+      "Os documentos digitais chegaram.",
+      "A candidata respondeu rapidamente."
+    ],
+    "answer": 3,
+    "optionComments": [
+      "Modifica substantivo: rápida atribui qualidade a resposta.",
+      "Modifica substantivo: de urgência especifica atendimento.",
+      "Modifica substantivo: digitais caracteriza documentos.",
+      "É a EXCEÇÃO: rapidamente é advérbio e modifica o verbo respondeu."
+    ],
+    "explanation": "Rapidamente é advérbio de modo; os demais modificadores caracterizam grupos nominais.",
+    "concept": "Adjetivos qualificam ou classificam nomes; locuções adjetivas, geralmente com preposição, exercem função qualificadora, mas nem toda expressão preposicionada é equivalível a um adjetivo.",
+    "trap": "Classificar um termo apenas pela proximidade sem observar qual núcleo recebe sua função.",
+    "examTip": "Substitua mentalmente por “de modo rápido” para testar valor adverbial.",
+    "newExample": "“Os técnicos analisaram minuciosamente” contém advérbio; “a análise minuciosa” contém adjetivo.",
+    "challenge": "Em “uma avaliação criteriosa”, qual nome recebe a qualificação?",
+    "tipo": "AUTORAL",
+    "origem": "AUTORAL_INEDITA",
+    "pedagogicalPurpose": "exercise-base"
+  },
+  {
+    "id": "Q-POR-10-004-01",
+    "moduleId": "POR-10",
+    "subtopicId": "POR-10-004",
+    "topic": "Flexão nominal e graus",
+    "type": "ce",
+    "difficulty": "media",
+    "stem": "Em “Ela é a mais experiente da equipe”, há superlativo relativo, porque a característica é apresentada em relação a um grupo delimitado.",
+    "options": [
+      "CERTO",
+      "ERRADO"
+    ],
+    "answer": 0,
+    "optionComments": [
+      "Correta: “a mais ... da equipe” destaca uma participante dentro de um conjunto.",
+      "Incorreta: o termo “da equipe” estabelece o conjunto comparado, típico do superlativo relativo."
+    ],
+    "explanation": "O superlativo relativo seleciona um elemento entre outros de um grupo de referência.",
+    "concept": "Flexões nominais expressam concordância de gênero e número; grau pode aparecer por sufixos ou construções analíticas, com leituras de tamanho ou avaliação.",
+    "trap": "Confundir intensificação absoluta com comparação relativa ao grupo.",
+    "examTip": "Procure expressão que delimite conjunto: “da turma”, “do setor”.",
+    "newExample": "“Foi o parecer mais detalhado da comissão” usa superlativo relativo.",
+    "challenge": "“Muito experiente” obrigaria a mesma comparação dentro da equipe?",
+    "tipo": "AUTORAL",
+    "origem": "AUTORAL_INEDITA",
+    "pedagogicalPurpose": "exercise-base"
+  },
+  {
+    "id": "Q-POR-10-004-02",
+    "moduleId": "POR-10",
+    "subtopicId": "POR-10-004",
+    "topic": "Flexão nominal e graus",
+    "type": "classica",
+    "difficulty": "media",
+    "stem": "Em qual expressão há superlativo absoluto analítico?",
+    "options": [
+      "a mais longa da série",
+      "mais longa que a anterior",
+      "muito longa",
+      "longuíssima"
+    ],
+    "answer": 2,
+    "optionComments": [
+      "Incorreta: “a mais ... da série” é superlativo relativo.",
+      "Incorreta: “mais ... que” estabelece comparação de superioridade.",
+      "Correta: “muito” intensifica a qualidade sem comparação explícita.",
+      "Incorreta: longuíssima é forma sintética; “da série” ainda sugere comparação contextual."
+    ],
+    "explanation": "“Muito + adjetivo” é expressão analítica de grau absoluto, ao contrário da comparação e do sufixo -íssimo.",
+    "concept": "Flexões nominais expressam concordância de gênero e número; grau pode aparecer por sufixos ou construções analíticas, com leituras de tamanho ou avaliação.",
+    "trap": "Confundir qualquer intensidade elevada com superlativo absoluto analítico.",
+    "examTip": "Identifique o recurso formal: advérbio intensificador, comparação ou sufixo.",
+    "newExample": "“O texto é extremamente claro” apresenta intensidade absoluta analítica.",
+    "challenge": "Por que “claríssimo” não é superlativo absoluto analítico?",
+    "tipo": "AUTORAL",
+    "origem": "AUTORAL_INEDITA",
+    "pedagogicalPurpose": "exercise-base"
+  },
+  {
+    "id": "Q-POR-10-004-03",
+    "moduleId": "POR-10",
+    "subtopicId": "POR-10-004",
+    "topic": "Flexão nominal e graus",
+    "type": "vf",
+    "difficulty": "dificil",
+    "stem": "Sobre formas nominais, julgue V/F: I. “Muito cuidadosa” expressa grau absoluto analítico. II. “A mais cuidadosa do grupo” traz grau relativo. III. O diminutivo de “livro” expressa necessariamente apenas tamanho físico.",
+    "options": [
+      "V – V – F",
+      "V – F – V",
+      "F – V – V",
+      "V – V – V"
+    ],
+    "answer": 0,
+    "optionComments": [
+      "Correta: I e II descrevem graus diferentes; III ignora valores afetivos e irônicos.",
+      "Incorreta: II é verdadeira e III falsa; a sequência inverte ambos.",
+      "Incorreta: I é verdadeira e III falsa.",
+      "Incorreta: III é falsa: “livrinho” pode expressar apreciação ou ironia."
+    ],
+    "explanation": "Grau gramatical e efeitos pragmáticos se combinam; diminutivos podem indicar afeto ou ironia.",
+    "concept": "Flexões nominais expressam concordância de gênero e número; grau pode aparecer por sufixos ou construções analíticas, com leituras de tamanho ou avaliação.",
+    "trap": "Restringir todo diminutivo a uma escala de tamanho.",
+    "examTip": "Procure o conjunto comparado e considere o contexto para valor expressivo.",
+    "newExample": "“Que textinho precioso!” pode indicar admiração, não necessariamente pequena extensão.",
+    "challenge": "Em que situação “probleminha” poderia sugerir ironia?",
+    "tipo": "AUTORAL",
+    "origem": "AUTORAL_INEDITA",
+    "pedagogicalPurpose": "exercise-base"
+  },
+  {
+    "id": "Q-POR-10-004-04",
+    "moduleId": "POR-10",
+    "subtopicId": "POR-10-004",
+    "topic": "Flexão nominal e graus",
+    "type": "associacao",
+    "difficulty": "dificil",
+    "stem": "Associe: 1. comparativo; 2. superlativo absoluto analítico; 3. superlativo absoluto sintético; 4. superlativo relativo. Na ordem: ( ) mais útil que o anterior; ( ) utilíssimo; ( ) muito útil; ( ) o mais útil do conjunto.",
+    "options": [
+      "1 – 3 – 2 – 4",
+      "4 – 3 – 2 – 1",
+      "1 – 2 – 3 – 4",
+      "2 – 3 – 1 – 4"
+    ],
+    "answer": 0,
+    "optionComments": [
+      "Correta: que explicita comparação, -íssimo é sintético, muito é analítico e “do conjunto” delimita relativo.",
+      "Incorreta: a primeira construção não é superlativo relativo.",
+      "Incorreta: troca sintético e analítico na segunda e terceira posições.",
+      "Incorreta: “mais útil que” é comparativo, não absoluto analítico."
+    ],
+    "explanation": "Cada forma de grau possui marca formal identificável: que, advérbio, sufixo e conjunto.",
+    "concept": "Flexões nominais expressam concordância de gênero e número; grau pode aparecer por sufixos ou construções analíticas, com leituras de tamanho ou avaliação.",
+    "trap": "Confundir grau de intensidade com grau de comparação.",
+    "examTip": "Classifique pelo operador linguístico, não pela percepção subjetiva de intensidade.",
+    "newExample": "“mais rápido que”, “extremamente rápido”, “rapidíssimo”, “o mais rápido da equipe” seguem a mesma ordem de classes.",
+    "challenge": "A presença de “do conjunto” modifica a classificação da última expressão?",
+    "tipo": "AUTORAL",
+    "origem": "AUTORAL_INEDITA",
+    "pedagogicalPurpose": "exercise-base"
+  },
+  {
+    "id": "Q-POR-10-005-01",
+    "moduleId": "POR-10",
+    "subtopicId": "POR-10-005",
+    "topic": "Relações de concordância no sintagma nominal",
+    "type": "ce",
+    "difficulty": "media",
+    "stem": "Na norma-padrão, em “As minutas atualizadas foram arquivadas”, “atualizadas” concorda em feminino plural com o substantivo “minutas”.",
+    "options": [
+      "CERTO",
+      "ERRADO"
+    ],
+    "answer": 0,
+    "optionComments": [
+      "Correta: minutas é núcleo feminino plural e determina a flexão de atualizadas.",
+      "Incorreta: o adjetivo varia para acompanhar gênero e número do núcleo nominal."
+    ],
+    "explanation": "O adjetivo atualizadas se relaciona ao nome minutas e recebe suas marcas de gênero e número.",
+    "concept": "No sintagma nominal, determinantes e adjetivos ajustam, quando flexionáveis, gênero e número ao substantivo de referência.",
+    "trap": "Ignorar o núcleo ao identificar marcas de concordância.",
+    "examTip": "Localize primeiro o substantivo e depois seus modificadores.",
+    "newExample": "“As normas revisadas foram divulgadas” repete o padrão feminino plural.",
+    "challenge": "Em “os termos atualizados”, como muda a forma do adjetivo?",
+    "tipo": "AUTORAL",
+    "origem": "AUTORAL_INEDITA",
+    "pedagogicalPurpose": "exercise-base"
+  },
+  {
+    "id": "Q-POR-10-005-02",
+    "moduleId": "POR-10",
+    "subtopicId": "POR-10-005",
+    "topic": "Relações de concordância no sintagma nominal",
+    "type": "classica",
+    "difficulty": "media",
+    "stem": "Em qual frase “bastante” está corretamente empregado como advérbio invariável de intensidade?",
+    "options": [
+      "Os relatórios estavam bastantes claros.",
+      "As instruções eram bastante objetivas.",
+      "Havia bastantes grande quantidade de anexos.",
+      "As estudantes eram bastantes atentas."
+    ],
+    "answer": 1,
+    "optionComments": [
+      "Incorreta: antes de claros o advérbio intensificador deveria ser “bastante”.",
+      "Correta: bastante intensifica objetivas e não varia.",
+      "Incorreta: a construção mistura quantificador plural com expressão singular e não é o uso adverbial pedido.",
+      "Incorreta: antes de atentas o advérbio deve ser “bastante”, invariável."
+    ],
+    "explanation": "Antes de adjetivo, “bastante” tem função adverbial e permanece invariável.",
+    "concept": "No sintagma nominal, determinantes e adjetivos ajustam, quando flexionáveis, gênero e número ao substantivo de referência.",
+    "trap": "Flexionar o intensificador por concordância automática com o nome plural.",
+    "examTip": "Teste a substituição por “muito”: “muito objetivas” → “bastante objetivas”.",
+    "newExample": "“Os processos estavam bastante avançados” tem “bastante” invariável.",
+    "challenge": "Por que “bastantes documentos” pode ser correto mesmo que “documentos bastantes difíceis” não seja?",
+    "tipo": "AUTORAL",
+    "origem": "AUTORAL_INEDITA",
+    "pedagogicalPurpose": "exercise-base"
+  },
+  {
+    "id": "Q-POR-10-005-03",
+    "moduleId": "POR-10",
+    "subtopicId": "POR-10-005",
+    "topic": "Relações de concordância no sintagma nominal",
+    "type": "afirmacoes",
+    "difficulty": "dificil",
+    "stem": "Analise: I. Em “muitas solicitações”, muitas acompanha substantivo feminino plural. II. Em “solicitações muito urgentes”, muito é advérbio invariável. III. Em “documentos úteis”, “úteis” apresenta flexão de gênero masculino. São verdadeiras:",
+    "options": [
+      "Apenas I",
+      "Apenas I e II",
+      "Apenas II e III",
+      "I, II e III"
+    ],
+    "answer": 1,
+    "optionComments": [
+      "Incompleta: II também é verdadeira porque muito intensifica urgentes.",
+      "Correta: I e II são verdadeiras; úteis marca plural, mas não oposição morfológica de gênero.",
+      "Incorreta: III é falsa: útil é adjetivo uniforme quanto ao gênero.",
+      "Incorreta: inclui III, que atribui a úteis uma forma masculina inexistente nessa oposição."
+    ],
+    "explanation": "Muitos/muitas flexionam ao determinar nome; muito adverbial não varia; útil é uniforme em gênero.",
+    "concept": "No sintagma nominal, determinantes e adjetivos ajustam, quando flexionáveis, gênero e número ao substantivo de referência.",
+    "trap": "Supor que todo adjetivo deixa marca morfológica distinta de masculino e feminino.",
+    "examTip": "Distinga função determinante de advérbio e flexão visível de gênero.",
+    "newExample": "“Poucas pessoas muito preparadas” contrasta quantificador flexionado e intensificador invariável.",
+    "challenge": "“Relatórios úteis” e “tabelas úteis” diferem na forma do adjetivo por gênero?",
+    "tipo": "AUTORAL",
+    "origem": "AUTORAL_INEDITA",
+    "pedagogicalPurpose": "exercise-base"
+  },
+  {
+    "id": "Q-POR-10-005-04",
+    "moduleId": "POR-10",
+    "subtopicId": "POR-10-005",
+    "topic": "Relações de concordância no sintagma nominal",
+    "type": "exceto",
+    "difficulty": "dificil",
+    "stem": "As construções respeitam a concordância nominal na norma-padrão, EXCETO:",
+    "options": [
+      "As propostas ficaram suficientemente claras.",
+      "Os textos seguem bastante objetivos.",
+      "Foram recebidas muitas declarações.",
+      "As pareceres atualizadas foram anexadas."
+    ],
+    "answer": 3,
+    "optionComments": [
+      "Adequada: suficientemente é advérbio e claras concorda com propostas.",
+      "Adequada: bastante é invariável e objetivos concorda com textos.",
+      "Adequada: muitas e recebidas concordam com declarações.",
+      "É a EXCEÇÃO: pareceres é masculino plural; deve ser “os pareceres atualizados”."
+    ],
+    "explanation": "Pareceres é substantivo masculino plural, portanto determinantes e modificadores devem acompanhar esse núcleo.",
+    "concept": "No sintagma nominal, determinantes e adjetivos ajustam, quando flexionáveis, gênero e número ao substantivo de referência.",
+    "trap": "Deixar que um adjetivo feminino aparente concordar com outro termo que não é o núcleo.",
+    "examTip": "Encontre o núcleo: “pareceres” impõe “os” e “atualizados”.",
+    "newExample": "“Os registros digitalizados foram anexados” mantém concordância masculina plural.",
+    "challenge": "Como reescrever integralmente a última alternativa para corrigir os três modificadores?",
+    "tipo": "AUTORAL",
+    "origem": "AUTORAL_INEDITA",
+    "pedagogicalPurpose": "exercise-base"
+  }
+];
