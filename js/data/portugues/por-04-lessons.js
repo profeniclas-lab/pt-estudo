@@ -1,0 +1,58 @@
+/** PT-ESTUDO — POR-04: aulas autorais, Lote 02. */
+export const POR_04_LESSONS = {
+  "POR-04-001": {
+    "id": "POR-04-001",
+    "objective": "Examinar a coerência de um texto mediante relações de compatibilidade, progressão e conhecimento partilhado.",
+    "concept": "Coerência é a possibilidade de construir um sentido global compatível entre informações, situação comunicativa e conhecimentos relevantes; não equivale à mera presença de conectivos.",
+    "explanation": "Um texto é coerente quando suas ideias podem ser interpretadas em conjunto sem contradições injustificadas e de acordo com a finalidade comunicativa. A construção de sentido depende de pistas textuais e dos conhecimentos de mundo compartilhados: em um aviso de biblioteca, por exemplo, sabe-se que empréstimos de livros têm prazos. Isso permite compreender informações que não precisam estar todas expressas.\n\nDistingua coerência de coesão. A coesão fornece marcas linguísticas que ligam partes do texto, como pronomes, substituições lexicais e conectores. Um texto pode conter muitos conectivos e, ainda assim, contradizer-se: “O atendimento ocorrerá somente na quinta-feira; portanto, haverá atendimento todos os dias” não se torna lógico pelo uso de “portanto”. Também existem textos breves coerentes sem conectores ostensivos: “Choveu. A partida foi adiada”.\n\nEm provas, verifique se a inferência depende de pressuposto razoável no contexto. Fatores como o gênero, o destinatário, a progressão informacional e a consistência temporal contribuem para a coerência. Evite transformar uma lacuna informativa em contradição: dizer “A biblioteca abrirá mais tarde” não determina por si só uma hora precisa.",
+    "example": "“O sistema ficou indisponível de manhã. Por isso, o prazo foi prorrogado até sexta-feira.” A relação de causa e consequência é interpretável; já um aviso que afirma simultaneamente “inscrições encerradas” e “inscrições abertas agora”, sem distinção, compromete a coerência.",
+    "examTip": "Procure incompatibilidades entre datas, sujeitos e alcance dos quantificadores; não confunda ausência de conector com falta de sentido.",
+    "summary": "Coerência é construção interpretável de sentido global; coesão são recursos linguísticos de ligação.",
+    "reviewQuestion": "Um texto pode ser coeso e incoerente?",
+    "reviewAnswer": "Sim. Conectores podem ligar frases cuja relação lógica é contraditória ou incompatível com o contexto."
+  },
+  "POR-04-002": {
+    "id": "POR-04-002",
+    "objective": "Identificar retomadas anafóricas, antecipações catafóricas e omissões recuperáveis em textos.",
+    "concept": "Anáfora retoma referente já apresentado; catáfora antecipa elemento que será esclarecido; elipse omite termo recuperável pelo contexto.",
+    "explanation": "A referência organiza a continuidade textual. Em “A servidora enviou o relatório. Ela pediu confirmação”, “ela” retoma “a servidora”: é anáfora. Em “Isto é indispensável: apresentar o documento original”, “isto” anuncia informação que vem depois: é catáfora. A elipse omite elemento identificável: “Maria trouxe os anexos; João, o requerimento” permite recuperar “trouxe” no segundo segmento.\n\nNem toda retomada usa pronome: expressões nominais como “o documento”, “esse arquivo” e “o material” podem recuperar um referente, desde que sejam inequívocas. A repetição lexical às vezes é útil quando uma substituição criaria dúvida. Em “Ana informou Beatriz de que ela seria atendida”, o referente de “ela” pode ser ambíguo; a reescrita deve nomear a pessoa pretendida.\n\nA referência não depende de decorar rótulos: pergunte o que cada forma aponta e onde se encontra a informação necessária. Em itens sobre reescrita, confira se a substituição altera o referente, introduz ambiguidade ou faz um termo antecipar aquilo que antes retomava. Em contextos sem antecedente linguístico, a referência pode depender da situação; a banca deve fornecer elementos para julgamento seguro.",
+    "example": "“O prazo foi alterado. Essa mudança será divulgada por e-mail.” “Essa mudança” retoma a alteração do prazo. “Uma decisão foi tomada: o prazo será ampliado” anuncia a decisão por catáfora.",
+    "examTip": "Desenhe mentalmente uma seta do pronome até a expressão retomada ou anunciada; se houver duas setas possíveis, investigue a ambiguidade.",
+    "summary": "Anáfora aponta para trás; catáfora, para frente; elipse dispensa o termo recuperável.",
+    "reviewQuestion": "Em “Só desejo uma coisa: a confirmação”, a que se refere “uma coisa”?",
+    "reviewAnswer": "Ao termo apresentado após os dois-pontos, “a confirmação”; há antecipação catafórica."
+  },
+  "POR-04-003": {
+    "id": "POR-04-003",
+    "objective": "Distinguir relações de causa, consequência, condição, concessão, oposição e finalidade expressas por conectores.",
+    "concept": "Conectores explicitam relações semânticas entre orações e segmentos; a troca entre eles só preserva sentido quando a relação expressa permanece a mesma.",
+    "explanation": "Conectores não são enfeites: orientam a interpretação do vínculo entre ideias. “Porque” frequentemente introduz causa ou explicação; “portanto” indica conclusão; “se” pode marcar condição; “embora” expressa concessão; “mas”, oposição ou ressalva; “para que”, finalidade. Compare “O arquivo foi recusado porque estava incompleto” (causa) e “O arquivo estava incompleto; portanto, foi recusado” (conclusão baseada na causa).\n\nCuidado com substituições automáticas. Em “Embora tenha chovido, o evento ocorreu”, a chuva poderia dificultar o evento, mas não o impediu: concessão. Trocar “embora” por “porque” afirmaria uma causa, distorcendo o sentido. Na frase “Estude para que compreenda o edital”, o segmento introduzido por “para que” apresenta objetivo, não resultado ocorrido.\n\nOs conectores são polissêmicos em alguns usos e dependem da estrutura: “pois” pode assumir matizes explicativos ou conclusivos conforme sua posição e a relação discursiva. Para avaliar questões, considere o texto integral, o valor da relação e a correção gramatical da reescrita. A ausência de conector não impede reconhecer uma relação inferida; entretanto, inserir um conector incompatível altera o argumento.",
+    "example": "“Se a solicitação chegar hoje, será analisada amanhã” estabelece condição; “Mesmo que chegue hoje, será analisada somente na sexta” apresenta concessão.",
+    "examTip": "Classifique a relação lógica primeiro; depois examine quais conectores são semanticamente equivalentes naquele período.",
+    "summary": "Conectivos codificam vínculos; causa não é finalidade, condição não é concessão e conclusão não é oposição.",
+    "reviewQuestion": "“Embora o cadastro esteja completo, o sistema não o aceitou” exprime qual relação?",
+    "reviewAnswer": "Concessão: o cadastro completo era expectativa favorável à aceitação, mas ela não aconteceu."
+  },
+  "POR-04-004": {
+    "id": "POR-04-004",
+    "objective": "Reconhecer estratégias de continuidade lexical e sintática e seus efeitos na clareza textual.",
+    "concept": "A coesão lexical pode empregar repetição estratégica, sinonímia contextual, hiperônimos e expressões substitutivas; paralelismo mantém correspondência estrutural entre termos coordenados.",
+    "explanation": "A repetição não é necessariamente erro estilístico: repetir “prazo” em instrução pode preservar precisão. Para evitar redundância desnecessária, podem-se usar substituições controladas: “O requerimento foi recebido. O documento será analisado” só funciona se “documento” puder realmente designar o requerimento. Um hiperônimo abrange categoria maior: “computador” pode ser retomado por “equipamento”, mas a troca exige que o contexto não admita vários equipamentos concorrentes. Sinônimos variam conforme uso; “pedido” e “requerimento” nem sempre são intercambiáveis em norma específica.\n\nO paralelismo coordenativo mantém formas semelhantes em estruturas equivalentes. Compare “O setor deve receber os pedidos, conferir os anexos e registrar o protocolo” com “O setor deve receber os pedidos, conferência dos anexos e que registre o protocolo”; a segunda formulação quebra a estrutura dos infinitivos. O paralelismo melhora a organização, mas não obriga toda enumeração a repetir exatamente as mesmas palavras.\n\nProvas de reescrita podem cobrar conservação do referente, do grau de generalidade e da construção sintática. Observe se o elemento substitutivo muda a extensão do conjunto, se produz ambiguidade ou se o termo coordenado deixa de desempenhar função equivalente aos demais.",
+    "example": "“A escola comprou tablets. Os equipamentos serão usados em aula” retoma os tablets por hiperônimo; “A escola vai comprar, instalar e testar os tablets” oferece paralelismo verbal.",
+    "examTip": "Ao trocar uma palavra por sinônimo, confira o contexto; ao coordenar uma lista, identifique a forma gramatical esperada em cada item.",
+    "summary": "Substituição lexical exige preservação de referência; paralelismo exige equivalência de estrutura.",
+    "reviewQuestion": "Em “organizar arquivos, conferência das pastas e registrar entradas”, qual problema ocorre?",
+    "reviewAnswer": "Falta paralelismo: a enumeração mistura infinitivos (“organizar”, “registrar”) e um substantivo (“conferência”)."
+  },
+  "POR-04-005": {
+    "id": "POR-04-005",
+    "objective": "Diagnosticar e corrigir falhas de encadeamento, retomada e conectores mantendo o conteúdo essencial.",
+    "concept": "Rupturas de coesão incluem referente incerto, conectivo incompatível, elipse irrecuperável e progressão truncada; a revisão deve restabelecer relações sem inventar dados.",
+    "explanation": "Revise um texto examinando primeiro quem ou o que cada termo designa; depois, a ordem das informações e o valor dos conectores. Em “A comissão informou a secretaria de que ela aprovara o parecer”, “ela” pode retomar “comissão” ou “secretaria”. Se o contexto pretendia afirmar que a comissão aprovou, escreva “A comissão informou à secretaria que a própria comissão aprovara o parecer”.\n\nOutro problema ocorre quando um conectivo atribui relação falsa: “O prazo venceu; entretanto, a inscrição foi encerrada” exprime contraste pouco justificável se o encerramento decorreu do prazo; “por isso” poderá exprimir consequência, desde que o contexto sustente o vínculo. Textos excessivamente elípticos podem obrigar o leitor a adivinhar informações; a revisão deve explicitar o antecedente necessário, não criar uma motivação ausente.\n\nA clareza não se confunde com simplificação indiscriminada. Retirar termos pode eliminar condições essenciais. Em um comunicado, “O candidato poderá recorrer até sexta-feira, mediante formulário” não equivale a “O candidato poderá recorrer”, que omite prazo e procedimento. Em concursos, o melhor reparo preserva fatos, agentes, relações e alcance dos enunciados, enquanto elimina ambiguidade e inadequação.",
+    "example": "“O formulário deve ser entregue até quinta. Ele será publicado na sexta” pode sugerir que o formulário individual será publicado; a reescrita “O resultado será publicado na sexta” elimina o referente inadequado, se esse for o dado original.",
+    "examTip": "Após escolher a reescrita, compare sujeitos, prazos, condições e referentes com o texto-base para detectar mudanças indevidas.",
+    "summary": "Revisão de encadeamento preserva conteúdo e corrige referências e relações mal estabelecidas.",
+    "reviewQuestion": "Por que trocar todo “ele” por sinônimo não garante coesão?",
+    "reviewAnswer": "Porque o problema pode ser de antecedente ambíguo; é preciso identificar quem ou o que está sendo retomado."
+  }
+};
