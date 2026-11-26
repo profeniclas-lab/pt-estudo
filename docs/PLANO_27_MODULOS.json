@@ -264,7 +264,7 @@
           "priority": "alta"
         }
       ],
-      "status": "preparacao"
+      "status": "disponivel"
     },
     {
       "id": "POR-08",
@@ -302,7 +302,7 @@
           "priority": "alta"
         }
       ],
-      "status": "preparacao"
+      "status": "disponivel"
     },
     {
       "id": "POR-09",
@@ -340,7 +340,7 @@
           "priority": "media"
         }
       ],
-      "status": "preparacao"
+      "status": "disponivel"
     },
     {
       "id": "POR-10",
