@@ -968,7 +968,7 @@
           "priority": "alta"
         }
       ],
-      "status": "preparacao"
+      "status": "disponivel"
     },
     {
       "id": "RED-02",
@@ -1016,7 +1016,7 @@
           "priority": "alta"
         }
       ],
-      "status": "preparacao"
+      "status": "disponivel"
     },
     {
       "id": "RED-03",
@@ -1065,9 +1065,9 @@
           "priority": "alta"
         }
       ],
-      "status": "preparacao"
+      "status": "disponivel"
     }
   ],
-  "availableModules": 24,
-  "pendingModules": 3
+  "availableModules": 27,
+  "pendingModules": 0
 }

@@ -1,4 +1,4 @@
-/** PT-ESTUDO — catálogo único. Somente os 24 módulos publicados participam do motor.
+/** PT-ESTUDO — catálogo único. Todos os 27 módulos publicados participam do motor.
  * Os demais aparecem na página Módulos como planejamento; não entram em provas, metas nem estatísticas.
  * Nunca importar quaisquer módulos administrativos nesta aplicação.
  */
@@ -970,7 +970,7 @@ export const ALL_PLANNED_MODULES = Object.freeze([
         "priority": "alta"
       }
     ],
-    "status": "preparacao"
+    "status": "disponivel"
   },
   {
     "id": "RED-02",
@@ -1018,7 +1018,7 @@ export const ALL_PLANNED_MODULES = Object.freeze([
         "priority": "alta"
       }
     ],
-    "status": "preparacao"
+    "status": "disponivel"
   },
   {
     "id": "RED-03",
@@ -1067,7 +1067,7 @@ export const ALL_PLANNED_MODULES = Object.freeze([
         "priority": "alta"
       }
     ],
-    "status": "preparacao"
+    "status": "disponivel"
   }
 ]);
 export const MODULES = Object.freeze(ALL_PLANNED_MODULES.filter(m=>m.status==='disponivel'));
