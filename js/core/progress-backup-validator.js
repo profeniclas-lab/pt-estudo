@@ -1,6 +1,7 @@
 /** PT-ESTUDO — validação de envelopes de backup, sem escrita. */
 import { STORAGE_KEY } from './storage.js';
 import { APP_ID, STATE_SCHEMA_VERSION } from './state.js';
+import { inspectProgressIdentity } from './progress-identity.js';
 
 export const BACKUP_FORMAT = 'pt-estudo-progress-backup';
 export const BACKUP_MAX_BYTES = 20 * 1024 * 1024;
@@ -56,10 +57,9 @@ export function validateProgressBackup(value) {
     if(hasOwn(p.simulados,'history')&&!Array.isArray(p.simulados.history))errors.push('Histórico de simulados inválido.');
     if(hasOwn(p.simulados,'active')&&p.simulados.active!==null&&!isObject(p.simulados.active))errors.push('Simulado ativo inválido.');
   }
-  // Um estado identificado como PT nunca deve carregar registros administrativos.
-  const oldId = /^(?:ADM|AP|DA)-\d+|^Q-(?:ADM|AP|DA)-\d+/;
-  const keys = ['modules','lessons','diagnostics','exercises','questionHistory','flashcards','reviewSchedule'].flatMap(k=>Object.keys(isObject(p[k])?p[k]:{}));
-  if(keys.some(k=>oldId.test(k)))errors.push('O backup contém identificadores de estudo de Administração.');
+  // Rejeita referências administrativas também em campos aninhados, sem ler textos livres.
+  const identity = inspectProgressIdentity(state);
+  if (!identity.ok) errors.push('O backup contém identificadores administrativos incompatíveis ou excede o limite de inspeção ('+identity.issues.join('; ')+').');
   if(isDate(value.createdAt)&&Date.parse(value.createdAt)>Date.now()+86400000)warnings.push('Data de criação no futuro.');
   if(isDate(state.metadata?.updatedAt)&&Date.parse(state.metadata.updatedAt)>Date.now()+86400000)warnings.push('Atualização do progresso no futuro.');
   const activity=summarizeRecordedActivity(p);

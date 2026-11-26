@@ -2,6 +2,7 @@
  * Opera sobre a versão mais recente do navegador, nunca sobre snapshot antigo.
  */
 import { STORAGE_KEY } from './storage.js';
+import { inspectStoredProgress, validateStateForSaving } from './storage-safety.js';
 import { createInitialState } from './state.js';
 import { getModuleById, MODULES } from '../data/modules.js';
 import { questionsForModule } from '../data/questions.js';
@@ -56,12 +57,17 @@ export function planProgressReset(current, scope = 'total', moduleId = '') {
 export function executeProgressReset({scope='total',moduleId='',confirmed=false} = {}, storage=window.localStorage) {
   if (!confirmed) return {ok:false,message:'Operação cancelada; nada foi alterado.'};
   try {
+    const inspected = inspectStoredProgress(storage);
+    if (!inspected.ok) return {ok:false,message:'Reinício bloqueado: '+inspected.message};
+    if (inspected.code === 'empty') return {ok:false,message:'Não há progresso salvo para reiniciar.'};
     const raw = storage.getItem(STORAGE_KEY);
-    if (raw === null) return {ok:false,message:'Não há progresso salvo para reiniciar.'};
     const state = JSON.parse(raw);
     const plan = planProgressReset(state,scope,moduleId);
     if (!plan.ok) return plan;
+    if (!validateStateForSaving(plan.state)) return {ok:false,message:'O resultado do reinício não passou na validação. Nada foi alterado.'};
     const replacement = JSON.stringify(plan.state);
+    // Evita sobrescrever uma alteração ocorrida após a inspeção inicial.
+    if (storage.getItem(STORAGE_KEY) !== raw) return {ok:false,message:'O progresso mudou durante a operação. Reinício cancelado.'};
     storage.setItem(STORAGE_KEY,replacement);
     if (storage.getItem(STORAGE_KEY) !== replacement) throw Error('A gravação não foi confirmada.');
     return {ok:true,message:'Progresso reiniciado. A página será recarregada.'};

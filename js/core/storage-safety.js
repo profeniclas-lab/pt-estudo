@@ -1,6 +1,7 @@
 /** PT-ESTUDO — validação não destrutiva e isolamento de identidade. */
 import { STORAGE_KEY } from './storage.js';
 import { STATE_SCHEMA_VERSION, APP_ID } from './state.js';
+import { inspectProgressIdentity } from './progress-identity.js';
 const object = x => x !== null && typeof x === 'object' && !Array.isArray(x);
 
 export function inspectStoredProgress(storage = window.localStorage) {
@@ -23,6 +24,8 @@ export function inspectStoredProgress(storage = window.localStorage) {
   if (!Array.isArray(state.progress.errors) || !Array.isArray(state.progress.reviewQueue)) {
     return { ok: false, code: 'structure', message: 'Listas essenciais do progresso inválidas. A gravação foi bloqueada.' };
   }
+  const identity = inspectProgressIdentity(state);
+  if (!identity.ok) return {ok:false,code:'identity',message:'O progresso salvo contém referências de outro aplicativo ou excede o limite de verificação. Os dados foram preservados sem alterações.'};
   return { ok: true, code: 'compatible', message: 'Progresso compatível.', state };
 }
 
@@ -30,7 +33,8 @@ export function validateStateForSaving(state) {
   if (!object(state) || state.schemaVersion !== STATE_SCHEMA_VERSION || state.appId !== APP_ID ||
       !object(state.progress) || !object(state.navigation) || !object(state.preferences) || !object(state.metadata)) return false;
   return ['modules', 'lessons', 'diagnostics', 'exercises', 'questionHistory', 'flashcards'].every(k => object(state.progress[k]))
-    && Array.isArray(state.progress.errors) && Array.isArray(state.progress.reviewQueue);
+    && Array.isArray(state.progress.errors) && Array.isArray(state.progress.reviewQueue)
+    && inspectProgressIdentity(state).ok;
 }
 
 export function showStorageSafetyWarning(status) {
