@@ -1,10 +1,10 @@
-/** Auditoria integrada da Fase 22 atualizada para critérios F23/L04.
- * Somente leitura do progresso real; operações destrutivas usam armazenamentos simulados.
+/** PT-ESTUDO — auditoria integrada. Progresso real somente leitura; simulações em memória.
+ * Mantém os contratos runPhase22Audit, formatPhase22Audit e installPhase22AuditUI.
  */
 import { STORAGE_KEY } from '../core/storage.js';
 import { createInitialState } from '../core/state.js';
 import { inspectStoredProgress } from '../core/storage-safety.js';
-import { validateProgressBackup } from '../core/progress-backup-validator.js';
+import { BACKUP_FORMAT, validateProgressBackup } from '../core/progress-backup-validator.js';
 import { calculatePartialAchievement, isModuleCompleted, MODULE_PROGRESS_WEIGHTS } from '../core/progress.js';
 import { questionStatus, matchesQuestionStatus } from '../core/question-status.js';
 import { questionPerformance } from '../core/question-performance.js';
@@ -96,10 +96,15 @@ export function runPhase22Audit(settingsRoot){
       const s={progress:{questionHistory:{QA:{lastAnswer:1,assessment:'chute'},QB:{lastAnswer:1,assessment:'seguro'}}}};
       const r=questionPerformance(qs,s);return r.answered===2&&r.correct===2&&r.guessedCorrect===1&&r.secureCorrect===1;
     });
-    add('Backup de exemplo válido e versão incompatível rejeitada',()=>{
-      const s=createInitialState();const b={format:'adm-estudo-progress-backup',backupVersion:1,
+    add('Backup PT válido e versão incompatível rejeitada',()=>{
+      const s=createInitialState();const b={format:BACKUP_FORMAT,backupVersion:1,
         createdAt:new Date().toISOString(),storageKey:STORAGE_KEY,schemaVersion:s.schemaVersion,state:s};
       return validateProgressBackup(b).valid&&!validateProgressBackup({...b,backupVersion:42}).valid;
+    });
+    add('Backup administrativo identificado como ADM é rejeitado',()=>{
+      const s=createInitialState();const b={format:'adm-estudo-progress-backup',backupVersion:1,
+        createdAt:new Date().toISOString(),storageKey:'admEstudo.v2.state',schemaVersion:s.schemaVersion,state:s};
+      return !validateProgressBackup(b).valid;
     });
   });
   group('Reinicialização (armazenamento simulado)',()=>{
@@ -137,7 +142,7 @@ export function runPhase22Audit(settingsRoot){
     });
   });
   group('Integração e preservação do progresso real',()=>{
-    add('Suítes da Fase 20 sem falhas',()=>{
+    add('Suítes integradas sem falhas nem pendências',()=>{
       const r=runIntegrationReport();return {ok:r.summary?.failed===0&&r.summary?.pending===0,
         detail:`${r.summary?.ok||0} aprovadas; ${r.summary?.failed||0} falhas; ${r.summary?.pending||0} pendentes`};
     });
@@ -145,7 +150,7 @@ export function runPhase22Audit(settingsRoot){
     add('Auditoria não escreveu progresso real',()=>storageReadable&&window.localStorage.getItem(STORAGE_KEY)===beforeRaw);
   });
   const failed=checks.filter(x=>!x.passed).length;
-  return {version:'F23-L04',generatedAt:new Date().toISOString(),readOnly:true,
+  return {version:'PT-CORR-01',generatedAt:new Date().toISOString(),readOnly:true,
     total:checks.length,passed:checks.length-failed,failed,ok:failed===0,groups,
     manualPending:[
       'Exportar e validar um backup JSON real antes de atualizar',
@@ -159,7 +164,7 @@ export function runPhase22Audit(settingsRoot){
     ],homologated:false};
 }
 export function formatPhase22Audit(r){
-  const lines=[`ADM-ESTUDO — AUDITORIA INTEGRADA ${r.version}`,`Gerado em ${r.generatedAt}`,
+  const lines=[`PT-ESTUDO — AUDITORIA INTEGRADA ${r.version}`,`Gerado em ${r.generatedAt}`,
     `AUTO: ${r.ok?'APROVADAS':'COM FALHAS'} (${r.passed}/${r.total})`,
     'Somente leitura do progresso real; cenários destrutivos isolados em memória.',''];
   for(const g of r.groups){lines.push('=== '+g.name.toUpperCase()+' ===');
@@ -172,7 +177,7 @@ export function installPhase22AuditUI(main){
   const anchor=main.querySelector('#settings-maintenance');if(!anchor)return;
   const section=document.createElement('section');section.id='settings-final-audit';section.className='settings-card';
   section.style.cssText='background:var(--surface,#fff);border:1px solid var(--border,#e2e8f0);border-radius:10px;padding:18px;margin:12px 0';
-  section.innerHTML=`<h2 style="font-size:17px;margin:0 0 8px">✅ Auditoria integrada — Fase 23 / Lote 4</h2>
+  section.innerHTML=`<h2 style="font-size:17px;margin:0 0 8px">✅ Auditoria integrada — PT-ESTUDO</h2>
     <p>Verifica critérios de aproveitamento, integridade e reinício com testes isolados. Não modifica seu progresso.</p>
     <button type="button" class="btn btn-primary" id="f22-final-run">Executar auditoria integrada</button>
     <button type="button" class="btn" id="f22-final-download" disabled>Baixar relatório TXT</button>
@@ -187,7 +192,7 @@ export function installPhase22AuditUI(main){
   download.addEventListener('click',()=>{
     if(!report)return;
     const url=URL.createObjectURL(new Blob([report],{type:'text/plain;charset=utf-8'}));
-    const a=document.createElement('a');a.href=url;a.download='adm-estudo-f23-lote04-auditoria.txt';
+    const a=document.createElement('a');a.href=url;a.download='pt-estudo-auditoria-integrada.txt';
     document.body.appendChild(a);try{a.click();}finally{a.remove();setTimeout(()=>URL.revokeObjectURL(url),30000);}
   });
 }

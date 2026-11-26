@@ -1,4 +1,4 @@
-/** Fase 20 Lote 6 — consolidação corrigida, não destrutiva. */
+/** PT-ESTUDO — consolidação não destrutiva dos testes de persistência e dos fluxos pedagógicos. */
 import { runPersistenceDiagnostics } from './persistence-diagnostics.js';
 import { runStorageRoundtripTests } from './storage-roundtrip-tests.js';
 import { runRestoreConflictTests } from './restore-conflict-tests.js';
@@ -6,14 +6,13 @@ import { runPedagogicalFlowTests } from './pedagogical-flow-tests.js';
 import { runBackupIntegrityChecks } from './backup-integrity-tests.js';
 
 const suites = [
-  ['Persistência (F19/L4)', runPersistenceDiagnostics, r => r.checks.map(c => ({name:c.label,status:c.passed?'OK':'FALHA',detail:c.detail||''}))],
-  ['Carregamento e salvamento (F20/L3)', runStorageRoundtripTests, r => r.checks.map(c => ({name:c.name,status:c.passed?'OK':'FALHA',detail:c.detail||''}))],
-  ['Restauração e conflitos (F20/L2)', runRestoreConflictTests, r => r.results.map(c => ({name:c.name,status:c.passed?'OK':'FALHA'}))],
-  ['Fluxos pedagógicos (F20/L4)', runPedagogicalFlowTests, r => r.checks.map(c => ({name:c.name,status:c.status,detail:c.detail||''}))],
-  // A suíte F18/L6 usa "pass" e "details", NÃO "passed" e "detail".
-  ['Integridade de backup (F18/L6)', runBackupIntegrityChecks, r => r.checks.map(c => ({name:c.label,status:c.pass===true?'OK':'FALHA',detail:c.details||''}))]
+  ['Persistência', runPersistenceDiagnostics, r => r.checks.map(c => ({name:c.label,status:c.passed?'OK':'FALHA',detail:c.detail||''}))],
+  ['Carregamento e salvamento', runStorageRoundtripTests, r => r.checks.map(c => ({name:c.name,status:c.passed?'OK':'FALHA',detail:c.detail||''}))],
+  ['Restauração e conflitos', runRestoreConflictTests, r => r.results.map(c => ({name:c.name,status:c.passed?'OK':'FALHA'}))],
+  ['Fluxos pedagógicos', runPedagogicalFlowTests, r => r.checks.map(c => ({name:c.name,status:c.status,detail:c.detail||''}))],
+  // A suíte de integridade usa os nomes pass e details, não passed e detail.
+  ['Integridade de backup', runBackupIntegrityChecks, r => r.checks.map(c => ({name:c.label,status:c.pass===true?'OK':'FALHA',detail:c.details||''}))]
 ];
-
 export function runIntegrationReport() {
   const results=suites.map(([name,run,extract])=>{
     try {
@@ -25,17 +24,17 @@ export function runIntegrationReport() {
     } catch(error){return {name,status:'FALHA',checks:[],note:String(error?.message||error)};}
   });
   const summary={ok:results.filter(s=>s.status==='OK').length,failed:results.filter(s=>s.status==='FALHA').length,pending:results.filter(s=>s.status==='PENDENTE').length};
-  return {version:'F20-L06',generatedAt:new Date().toISOString(),scope:'Diagnóstico automatizado; armazenamento real somente leitura',summary,suites:results,
+  return {version:'PT-CORR-01',generatedAt:new Date().toISOString(),scope:'Diagnóstico automatizado; armazenamento real somente leitura',summary,suites:results,
     manualPending:['Recarga real em perfil de testes','Conflito entre duas abas reais','Restauração real em perfil separado','Confirmação de salvamento após cada fluxo pedagógico'],homologated:false};
 }
 export function formatIntegrationReport(r) {
-  return ['ADM-ESTUDO | FASE 20 — LOTE 6','Relatório gerado em '+r.generatedAt,'NÃO HOMOLOGADO: testes manuais pendentes.',`Suítes: ${r.summary.ok} OK, ${r.summary.failed} FALHA, ${r.summary.pending} PENDENTE.`,'',...r.suites.flatMap(s=>[`${s.status} — ${s.name}`,...s.checks.map(c=>`  ${c.status} — ${c.name}${c.detail?': '+c.detail:''}`),...(s.note?[s.note]:[])]),'','TESTES MANUAIS PENDENTES:',...r.manualPending.map(x=>'- '+x),'','Nenhuma restauração real é executada por este relatório.'].join('\n');
+  return ['PT-ESTUDO | RELATÓRIO INTEGRADO','Relatório gerado em '+r.generatedAt,'NÃO HOMOLOGADO: testes manuais pendentes.',`Suítes: ${r.summary.ok} OK, ${r.summary.failed} FALHA, ${r.summary.pending} PENDENTE.`,'',...r.suites.flatMap(s=>[`${s.status} — ${s.name}`,...s.checks.map(c=>`  ${c.status} — ${c.name}${c.detail?': '+c.detail:''}`),...(s.note?[s.note]:[])]),'','TESTES MANUAIS PENDENTES:',...r.manualPending.map(x=>'- '+x),'','Nenhuma restauração real é executada por este relatório.'].join('\n');
 }
 export function downloadIntegrationReport(report) {
   const content=formatIntegrationReport(report);
   const blob=new Blob([content],{type:'text/plain;charset=utf-8'});
   const url=URL.createObjectURL(blob);
-  const link=document.createElement('a');link.href=url;link.download='adm-estudo-fase20-lote06-relatorio.txt';
+  const link=document.createElement('a');link.href=url;link.download='pt-estudo-relatorio-integrado.txt';
   document.body.appendChild(link);
   try{link.click();}finally{link.remove();setTimeout(()=>URL.revokeObjectURL(url),30000);}
 }

@@ -1,6 +1,5 @@
-/** ADM-ESTUDO — Fase 22, Lote 3 (modo simples).
- * Reinício por decisão explícita: uma confirmação, nenhum upload obrigatório.
- * Opera sobre a versão mais recente gravada no navegador, nunca sobre um snapshot antigo.
+/** PT-ESTUDO — reinício simples por decisão explícita, sem upload obrigatório.
+ * Opera sobre a versão mais recente do navegador, nunca sobre snapshot antigo.
  */
 import { STORAGE_KEY } from './storage.js';
 import { createInitialState } from './state.js';
@@ -9,8 +8,6 @@ import { questionsForModule } from '../data/questions.js';
 
 const obj = value => value && typeof value === 'object' && !Array.isArray(value) ? value : {};
 const clone = value => JSON.parse(JSON.stringify(value));
-
-/** Calcula uma nova cópia; não escreve nem modifica os dados recebidos. */
 export function planProgressReset(current, scope = 'total', moduleId = '') {
   if (!current || typeof current !== 'object' || !current.progress || !current.navigation || !current.preferences) {
     return { ok: false, message: 'Os dados salvos não puderam ser interpretados. Nenhum registro foi apagado.' };
@@ -56,8 +53,6 @@ export function planProgressReset(current, scope = 'total', moduleId = '') {
   return {ok:true,scope,moduleId,state:result,
     message:`Os registros identificáveis do módulo ${moduleId} serão reiniciados. Simulados históricos com múltiplos módulos serão preservados.`};
 }
-
-/** Execução direta, sem exigir um arquivo JSON ou cópia de recuperação. */
 export function executeProgressReset({scope='total',moduleId='',confirmed=false} = {}, storage=window.localStorage) {
   if (!confirmed) return {ok:false,message:'Operação cancelada; nada foi alterado.'};
   try {
@@ -70,12 +65,8 @@ export function executeProgressReset({scope='total',moduleId='',confirmed=false}
     storage.setItem(STORAGE_KEY,replacement);
     if (storage.getItem(STORAGE_KEY) !== replacement) throw Error('A gravação não foi confirmada.');
     return {ok:true,message:'Progresso reiniciado. A página será recarregada.'};
-  } catch (error) {
-    return {ok:false,message:'Não foi possível reiniciar: '+String(error?.message || error)};
-  }
+  } catch (error) {return {ok:false,message:'Não foi possível reiniciar: '+String(error?.message || error)};}
 }
-
-/** Auditoria opcional: somente leitura, sem gravação. */
 export function inspectResetReadOnly(storage=window.localStorage) {
   const checks=[];
   const add=(name,passed)=>checks.push({name,passed:!!passed});
@@ -91,9 +82,8 @@ export function inspectResetReadOnly(storage=window.localStorage) {
     }
     add('Nenhum arquivo de backup é obrigatório',true);
   } catch(e) {add('Leitura dos dados existentes',false);}
-  return {version:'F22-L03-SIMPLES',date:new Date().toISOString(),checks,ok:checks.every(x=>x.passed),readOnly:true};
+  return {version:'PT-CORR-01',date:new Date().toISOString(),checks,ok:checks.every(x=>x.passed),readOnly:true};
 }
-
 export function installResetUI(main) {
   const card=main.querySelector('#settings-reset');
   if (!card) return;
@@ -126,14 +116,14 @@ export function installResetUI(main) {
   let report='';const output=card.querySelector('#reset-audit-result');const download=card.querySelector('#reset-audit-download');
   card.querySelector('#reset-audit').addEventListener('click',()=>{
     const r=inspectResetReadOnly();
-    report=['ADM-ESTUDO | FASE 22 — LOTE 3 (modo simples)',r.date,
+    report=['PT-ESTUDO | VERIFICAÇÃO DE REINÍCIO',r.date,
       ...r.checks.map(x=>(x.passed?'OK':'FALHA')+' — '+x.name),'Somente leitura.'].join('\n');
     output.textContent=report;download.disabled=false;
   });
   download.addEventListener('click',()=>{
     if(!report)return;
     const blob=new Blob([report],{type:'text/plain;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');
-    a.href=url;a.download='adm-estudo-fase22-lote03-relatorio.txt';document.body.appendChild(a);
+    a.href=url;a.download='pt-estudo-verificacao-reinicio.txt';document.body.appendChild(a);
     try{a.click();}finally{a.remove();setTimeout(()=>URL.revokeObjectURL(url),30000);}
   });
 }

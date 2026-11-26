@@ -31,7 +31,7 @@ export function renderLesson(main,moduleId,subtopicId,state,{showAnswer=false}={
   <h1 class="page-title">${e(topic.title)}</h1>
   <section class="lesson-panel"><h2>Objetivo da aula</h2><p>${e(lesson.objective)}</p></section>
   <section class="lesson-panel"><h2>Entenda o conceito</h2><p>${e(lesson.concept)}</p><p>${e(lesson.explanation)}</p></section>
-  <section class="lesson-panel"><h2>Exemplo na prática administrativa</h2><p>${e(lesson.example)}</p></section>
+  <section class="lesson-panel"><h2>Exemplo aplicado</h2><p>${e(lesson.example)}</p></section>
   <section class="lesson-panel"><h2>Como aparece em concursos</h2><p>${e(lesson.examTip)}</p></section>
   <section class="lesson-panel"><h2>Resumo para revisar</h2><p>${e(lesson.summary)}</p></section>
   <section class="lesson-panel"><h2>Recuperação ativa</h2><p><strong>${e(lesson.reviewQuestion)}</strong></p>

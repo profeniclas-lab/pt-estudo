@@ -1,4 +1,4 @@
-/** ADM-ESTUDO F22/L05 — manutenção e testes: funções existentes, sem escrita no progresso. */
+/** PT-ESTUDO — manutenção e testes: funções existentes, sem escrita no progresso. */
 import { renderIntegrationReportButton } from '../core/integration-report.js';
 import { renderPedagogicalFlowTestsButton } from '../core/pedagogical-flow-tests.js';
 import { renderStorageRoundtripTestsButton } from '../core/storage-roundtrip-tests.js';
@@ -12,7 +12,6 @@ import { inspectStoredProgress } from '../core/storage-safety.js';
 const testSelectors = ['data-backup-integrity','data-persistence-diagnostics',
   'data-pedagogical-flow-tests','data-integration-report',
   'data-restore-conflict-tests','data-storage-roundtrip-tests'];
-
 export function maintenanceChecks(root) {
   const controls = root?.querySelector('#settings-maintenance');
   const checks = [
@@ -23,9 +22,8 @@ export function maintenanceChecks(root) {
     ['Dashboard sem testes técnicos', !document.querySelector('#dashboard-technical-tools')],
     ['Menu Configurações presente', !!document.querySelector('[data-nav="configuracoes"]')]
   ];
-  return {version:'F22-L05',generatedAt:new Date().toISOString(),checks:checks.map(([name,passed])=>({name,passed:!!passed})),ok:checks.every(x=>x[1])};
+  return {version:'PT-CORR-01',generatedAt:new Date().toISOString(),checks:checks.map(([name,passed])=>({name,passed:!!passed})),ok:checks.every(x=>x[1])};
 }
-
 function consistencyLines() {
   try {
     const status = inspectStoredProgress();
@@ -42,13 +40,10 @@ function consistencyLines() {
       ...result.issues.map(issue => `ATENÇÃO — ${issue.message} (${issue.count})`),
       'Leitura informativa; nenhum registro corrigido ou modificado.'
     ];
-  } catch (error) {
-    return [`Não foi possível concluir a verificação de consistência: ${String(error?.message || error)}`];
-  }
+  } catch (error) { return [`Não foi possível concluir a verificação de consistência: ${String(error?.message || error)}`]; }
 }
-
 export function formatMaintenanceReport(report) {
-  return ['ADM-ESTUDO — FASE 22 / LOTE 5', 'Gerado em: '+report.generatedAt,
+  return ['PT-ESTUDO — RELATÓRIO DE MANUTENÇÃO', 'Gerado em: '+report.generatedAt,
     'VERIFICAÇÃO ESTRUTURAL: '+(report.ok?'APROVADA':'COM FALHAS'),
     ...report.checks.map(c=>`${c.passed?'OK':'FALHA'} — ${c.name}`),
     '', 'CONSISTÊNCIA DOS REGISTROS (SOMENTE LEITURA)',...consistencyLines(),
@@ -56,10 +51,8 @@ export function formatMaintenanceReport(report) {
     'Este relatório não comprova que todas as suítes tenham sido executadas.',
     'Nenhuma informação foi escrita no localStorage por este relatório.'].join('\n');
 }
-
 export function installMaintenanceUI(main) {
-  const host=main.querySelector('#settings-maintenance');
-  if(!host)return;
+  const host=main.querySelector('#settings-maintenance');if(!host)return;
   host.innerHTML=`<h2 style="font-size:17px;margin:0 0 8px">⚙ Diagnóstico e manutenção</h2>
     <p>Verificações técnicas reunidas em Configurações. Os testes simulam operações em memória e leem apenas o necessário do progresso real; não apagam respostas.</p>
     <details id="settings-maintenance-tools" style="margin:12px 0"><summary style="cursor:pointer;font-weight:600">Exibir os seis testes técnicos</summary>
@@ -88,7 +81,7 @@ export function installMaintenanceUI(main) {
   download.addEventListener('click',()=>{
     if(!report)return;
     const url=URL.createObjectURL(new Blob([report],{type:'text/plain;charset=utf-8'}));
-    const a=document.createElement('a');a.href=url;a.download='adm-estudo-fase22-lote05-relatorio.txt';
+    const a=document.createElement('a');a.href=url;a.download='pt-estudo-manutencao.txt';
     document.body.appendChild(a);try{a.click();}finally{a.remove();setTimeout(()=>URL.revokeObjectURL(url),30000);}
   });
 }

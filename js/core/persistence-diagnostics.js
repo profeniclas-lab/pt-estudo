@@ -1,9 +1,9 @@
-/** Fase 19 — Lote 4: ensaios isolados e inspeção não destrutiva. */
+/** PT-ESTUDO — ensaios isolados de persistência; o progresso real é somente lido. */
 import { STORAGE_KEY } from './storage.js';
 import { createInitialState } from './state.js';
 import { inspectStoredProgress, validateStateForSaving } from './storage-safety.js';
 import { normalizeRecoveryInput, protectCurrentProgress, RECOVERY_KEY } from './progress-recovery-guard.js';
-import { validateProgressBackup } from './progress-backup-validator.js';
+import { BACKUP_FORMAT, validateProgressBackup } from './progress-backup-validator.js';
 
 function mockStorage(initial = {}, failWrite = false) {
   const entries = new Map(Object.entries(initial));
@@ -15,7 +15,7 @@ function mockStorage(initial = {}, failWrite = false) {
   };
 }
 function envelope(state) {
-  return { format: 'adm-estudo-progress-backup', backupVersion: 1,
+  return { format: BACKUP_FORMAT, backupVersion: 1,
     createdAt: new Date().toISOString(), storageKey: STORAGE_KEY,
     schemaVersion: state.schemaVersion, state };
 }
@@ -23,7 +23,7 @@ export function runPersistenceDiagnostics(storage = window.localStorage) {
   const checks = [];
   const check = (label, passed, detail = '') => checks.push({ label, passed: !!passed, detail });
   const original = createInitialState();
-  original.progress.modules['ADM-01'] = { diagnostic: { answered: 2 } };
+  original.progress.modules['POR-01'] = { diagnostic: { answered: 2 } };
   const raw = JSON.stringify(original);
   const replacement = JSON.stringify(envelope({ ...original, metadata: { ...original.metadata, updatedAt: new Date().toISOString() } }));
   try {
@@ -38,7 +38,8 @@ export function runPersistenceDiagnostics(storage = window.localStorage) {
     })());
     check('Estado incompleto é recusado para gravação', !validateStateForSaving({ schemaVersion: original.schemaVersion, progress: {} }));
     check('Estado válido é aceito para gravação', validateStateForSaving(original));
-    check('Backup íntegro é aceito', validateProgressBackup(envelope(original)).valid);
+    check('Backup PT íntegro é aceito', validateProgressBackup(envelope(original)).valid);
+    check('Formato de backup ADM é recusado', !validateProgressBackup({ ...envelope(original),format:'adm-estudo-progress-backup' }).valid);
     check('Recuperação bruta compatível é reconhecida', normalizeRecoveryInput(original).ok);
     const isolated = mockStorage({ [STORAGE_KEY]: raw });
     const before = isolated.getItem(STORAGE_KEY);
@@ -73,7 +74,7 @@ export function runPersistenceDiagnostics(storage = window.localStorage) {
   return { ok: checks.every(c => c.passed), readOnlyOnRealStorage: true, checks };
 }
 export function formatPersistenceDiagnostics(report) {
-  return ['DIAGNÓSTICO DE PERSISTÊNCIA — FASE 19 / LOTE 4',
+  return ['DIAGNÓSTICO DE PERSISTÊNCIA — PT-ESTUDO',
     'Testes de escrita somente em armazenamento simulado. Armazenamento real: somente leitura.', '',
     ...report.checks.map(c => `${c.passed ? 'OK' : 'FALHA'} — ${c.label}${c.detail ? ': ' + c.detail : ''}`), '',
     report.ok ? 'Verificações concluídas sem alertas.' : 'Existem falhas: preserve backups e investigue antes de restaurar.',

@@ -1,4 +1,4 @@
-/** ADM-ESTUDO — Fase 22 / Lote 4: Dashboard focado, somente leitura.
+/** PT-ESTUDO — Dashboard focado, somente leitura.
  * Mantém export dashboardSummary; testes técnicos estão em Configurações.
  * Não grava, migra, apaga ou recalcula os registros persistidos.
  */
@@ -36,7 +36,6 @@ export function dashboardSummary(state) {
   const answeredExercises=Object.values(state.progress?.exercises||{}).reduce((n,x)=>n+Object.keys(x?.answers||{}).length,0);
   return {modules,active,pending,completed,scheduled,due,errors,studiedLessons,answeredExercises};
 }
-
 const priority = {alta:0,media:1,baixa:2};
 export function dashboardPendingModules(summary,limit=6) {
   return summary.pending.slice().sort((a,b)=>
@@ -45,7 +44,6 @@ export function dashboardPendingModules(summary,limit=6) {
     String(a.module?.id||'').localeCompare(String(b.module?.id||''),'pt-BR')
   ).slice(0,Math.max(0,limit));
 }
-
 function moduleCard(item) {
   const p=moduleCardPresentation(item),m=item.module;
   const pct=Math.max(0,Math.min(100,p.points));
@@ -58,14 +56,11 @@ function moduleCard(item) {
       <div style="width:${pct}%;height:100%;background:#2563eb"></div>
     </div>
     <p style="margin:0 0 4px;font-size:14px"><strong>Próxima ação:</strong> ${esc(p.next)}</p>
-    <p class="page-subtitle" style="margin:0 0 12px">Etapas concluídas: ${p.stagesDone} de ${p.totalStages}. Meta: 75% e todas as etapas.</p>
+    <p class="page-subtitle" style="margin:0 0 12px">Etapas concluídas: ${p.stagesDone} de ${p.totalStages}. Meta: 75 pontos de aproveitamento.</p>
     <button type="button" class="btn btn-primary" data-module-id="${esc(m.id)}">Abrir módulo</button>
   </article>`;
 }
-
 const statsCard=(label,value,help)=>`<article class="stat-card"><div class="stat-label">${esc(label)}</div><div class="stat-value">${esc(value)}</div><div class="stat-hint">${esc(help)}</div></article>`;
-
-/** Testes de estrutura sem escrita no progresso. */
 export function dashboardLayoutChecks(root) {
   const checks=[
     ['Título do painel presente',!!root?.querySelector('#pageTitle')],
@@ -77,17 +72,16 @@ export function dashboardLayoutChecks(root) {
     ['Navegação para estatísticas disponível',!!root?.querySelector('[data-nav="estatisticas"]')],
     ['Navegação para Configurações disponível',!!root?.querySelector('[data-nav="configuracoes"]')]
   ];
-  return {version:'F22-L04',generatedAt:new Date().toISOString(),readOnly:true,ok:checks.every(x=>x[1]),checks:checks.map(([name,passed])=>({name,passed}))};
+  return {version:'PT-CORR-01',generatedAt:new Date().toISOString(),readOnly:true,ok:checks.every(x=>x[1]),checks:checks.map(([name,passed])=>({name,passed}))};
 }
 export function formatDashboardLayoutReport(r) {
-  return ['ADM-ESTUDO | FASE 22 — LOTE 4','Gerado em: '+r.generatedAt,
+  return ['PT-ESTUDO | VERIFICAÇÃO DO DASHBOARD','Gerado em: '+r.generatedAt,
     'Teste estrutural: '+(r.ok?'APROVADO':'COM FALHAS'),
     ...r.checks.map(x=>`${x.passed?'OK':'FALHA'} — ${x.name}`),
     'Somente leitura; nenhuma resposta é alterada.',
     'Esta verificação não substitui os testes manuais de navegação, progresso e backup.'
   ].join('\n');
 }
-
 export function renderDashboard(mainElement,state) {
   const s=dashboardSummary(state),next=dashboardPendingModules(s);
   const nextDue=s.scheduled.filter(x=>Date.parse(x.dueAt)>Date.now()).sort((a,b)=>Date.parse(a.dueAt)-Date.parse(b.dueAt))[0];
@@ -100,7 +94,7 @@ export function renderDashboard(mainElement,state) {
     <section aria-label="Resumo do estudo" style="margin:16px 0 24px">
       <div class="cards-grid">
         <div data-dashboard-summary-card="1">${statsCard('Em andamento',s.pending.length,'Módulos iniciados e ainda pendentes')}</div>
-        <div data-dashboard-summary-card="1">${statsCard('Concluídos',s.completed.length,'≥75% e etapas avaliadas')}</div>
+        <div data-dashboard-summary-card="1">${statsCard('Concluídos',s.completed.length,'Meta de 75 pontos atingida')}</div>
         <div data-dashboard-summary-card="1">${statsCard('Revisões vencidas',s.due.length,`${s.scheduled.length} agendadas`)}</div>
         <div data-dashboard-summary-card="1">${statsCard('Questões no banco de erros',new Set(s.errors.map(x=>x.questionId)).size,'Questões distintas')}</div>
       </div>
@@ -123,7 +117,7 @@ export function renderDashboard(mainElement,state) {
       </div>
     </section>
     <section style="margin:20px 0;border-top:1px solid var(--border,#e2e8f0);padding-top:14px" aria-label="Verificação estrutural do Dashboard">
-      <details><summary style="cursor:pointer">Verificação do Dashboard — Lote 4</summary>
+      <details><summary style="cursor:pointer">Verificação do Dashboard — PT-ESTUDO</summary>
         <p>Teste estrutural de leitura, sem alterações no progresso.</p>
         <button type="button" class="btn" id="dashboard-audit">Verificar estrutura</button>
         <button type="button" class="btn" id="dashboard-audit-download" disabled>Baixar relatório TXT</button>
@@ -144,7 +138,7 @@ export function renderDashboard(mainElement,state) {
   down?.addEventListener('click',()=>{
     if(!report)return;
     const url=URL.createObjectURL(new Blob([report],{type:'text/plain;charset=utf-8'}));
-    const a=document.createElement('a');a.href=url;a.download='adm-estudo-fase22-lote04-relatorio.txt';
+    const a=document.createElement('a');a.href=url;a.download='pt-estudo-verificacao-dashboard.txt';
     document.body.appendChild(a);try{a.click();}finally{a.remove();setTimeout(()=>URL.revokeObjectURL(url),30000);}
   });
 }

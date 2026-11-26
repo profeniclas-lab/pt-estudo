@@ -1,7 +1,6 @@
 /**
- * ADM-ESTUDO — Fase 22-A / Lote 3: Banco de Questões
- * Moderniza apresentação e filtros sem alterar gabaritos, registro de respostas
- * ou os critérios pedagógicos existentes.
+ * PT-ESTUDO — Banco de Questões.
+ * Filtros, alternativas, gabaritos e histórico preservados; nomes de formatos corrigidos.
  */
 import { MODULES, AREAS } from '../data/modules.js';
 import { recordBankReview } from '../core/review-events.js';
@@ -34,6 +33,7 @@ const situations = [
 ];
 const types = {
   ce: 'Certo ou Errado', classica: 'Múltipla escolha', vf: 'Verdadeiro/Falso',
+  vfseq: 'Sequência V/F', afirmacoes: 'Assertivas I, II, III',
   combinacao: 'Combinação', associacao: 'Associação', lacunas: 'Lacunas', exceto: 'EXCETO'
 };
 const difficultyLabels = {facil: 'Fácil', media: 'Média', dificil: 'Difícil'};
@@ -134,8 +134,6 @@ export function answerBankQuestion(state, id, answer) {
     || answer < 0 || answer >= q.options.length) return false;
   session.answers[id] = answer;
   if (!recordBankReview(state, q, answer)) return false;
-  // F23/L04: evidência específica do Banco, independente de revisões posteriores.
-  // Fica no mesmo registro que o reinício por módulo já remove, evitando crédito residual.
   const history = state.progress?.questionHistory?.[id];
   if (history) history.bankAttempt = {lastAnswer:answer,updatedAt:new Date().toISOString()};
   state.progress.modules ??= {};

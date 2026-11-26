@@ -41,7 +41,7 @@ export function renderFlashcards(main,state){
  const studied=all.filter(c=>!!state.progress.flashcards[c.id]).length;
  const due=all.filter(c=>state.progress.flashcards[c.id]&&Date.parse(state.progress.flashcards[c.id].dueAt||'')<=Date.now()).length;
  main.innerHTML=`<section class="module-detail"><h1 class="page-title">Banco de Flashcards</h1>
- <p class="page-subtitle">Perguntas de recuperação ativa, organizadas pelos 146 subtópicos do catálogo quando houver diagnóstico disponível.</p>
+ <p class="page-subtitle">Perguntas de recuperação ativa, organizadas pelos ${all.length} subtópicos com diagnóstico disponível.</p>
  <div class="cards-grid">
  <article class="stat-card"><div class="stat-label">Cartões disponíveis</div><div class="stat-value">${all.length}</div></article>
  <article class="stat-card"><div class="stat-label">Cartões estudados</div><div class="stat-value">${studied}</div></article>

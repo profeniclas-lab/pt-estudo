@@ -1,4 +1,4 @@
-import "./data/questions-f23-lote02.js"; // F23/L02: revisões aplicadas antes da montagem da interface.
+import "./data/questions-f23-lote02.js"; // PT-ESTUDO: entrada legada inativa para questões administrativas.
 import { loadState, saveState } from "./core/storage.js";
 import { isSaveBlocked, reportSaveFailure } from "./core/save-failure-ui.js";
 import { inspectStoredProgress, showStorageSafetyWarning } from "./core/storage-safety.js";
@@ -32,7 +32,7 @@ if (storageSafety.ok) refreshUnifiedReviewQueue(state);
 else showStorageSafetyWarning(storageSafety);
 const mainElement = document.getElementById("main");
 const catalogErrors = validateCatalog();
-if (catalogErrors.length) console.error("[ADM-ESTUDO] Catálogo inválido:", catalogErrors);
+if (catalogErrors.length) console.error("[PT-ESTUDO] Catálogo inválido:", catalogErrors);
 let activeView = 'module';
 let lessonSubtopicId = null;
 let lessonAnswerShown = false;
@@ -55,7 +55,7 @@ function renderCurrentPage() {
   if (!mainElement) return;
   // Converte antigas rotas sem página e recupera rotas desconhecidas sem afetar o progresso.
   state.navigation.currentRoute = normalizeRoute(state.navigation.currentRoute);
-  document.title = `ADM-ESTUDO v2.0 — ${getRouteTitle(state.navigation.currentRoute)}`;
+  document.title = `PT-ESTUDO — ${getRouteTitle(state.navigation.currentRoute)}`;
   setActiveNavigation(state.navigation.currentRoute);
   if (catalogErrors.length) {
     mainElement.textContent = "Erro de validação no catálogo. Consulte o console do navegador.";
@@ -135,8 +135,7 @@ document.addEventListener('click', event => {
     if(event.target.closest('[data-flash-flip]')){if(flipFlashStudy(state))commitAndRender();return;}
     const rating=event.target.closest('[data-flash-rate]');
     if(rating){const sess=state.progress?.flashcardStudy?.session;const id=sess?.ids?.[sess.cursor];if(rateFlashStudy(state,rating.dataset.flashRate))commitAndRender(id?{type:'flashcard',itemId:id}:null);return;}
-    // Fase 22-A / Lote 9: opção de encerrar a seleção e voltar aos filtros.
-    // Preserva todos os cartões já avaliados e seus agendamentos.
+    // Preserva avaliações registradas ao encerrar a seleção de cartões.
     if(event.target.closest('[data-flash-close]')){
       if(window.confirm('Encerrar esta seleção e voltar aos filtros de Flashcards?\n\nAs avaliações já registradas permanecerão salvas. Os cartões ainda não avaliados poderão ser selecionados novamente.')){
         if(restartFlashStudy(state)) commitAndRender();
@@ -215,8 +214,7 @@ document.addEventListener('click', event => {
   if(exerciseChoice && activeView==='exercises'){
     const session=state.progress.exercises?.[state.navigation.selectedModuleId];
     const id=session?.ids?.[session.cursor];
-    // O módulo de exercícios renova questionHistory[id]; preserva a marca de
-    // estudo do Banco quando a mesma questão for respondida nos dois lugares.
+    // Preserva a marca do Banco quando a mesma questão for respondida nos dois lugares.
     const oldRecord=id?state.progress?.questionHistory?.[id]:null;
     const bankAttempt=oldRecord?.bankAttempt;
     const attempts=Array.isArray(oldRecord?.attempts)?oldRecord.attempts:null;
@@ -224,7 +222,6 @@ document.addEventListener('click', event => {
     if(id&&answerExercise(state,state.navigation.selectedModuleId,id,answer)){
       const current=state.progress.questionHistory[id];
       if(bankAttempt) current.bankAttempt=bankAttempt;
-      // Exercícios substituem o registro original, por isso restauramos os eventos anteriores.
       if(attempts) current.attempts=attempts;
       recordQuestionAttempt(state,id,answer,'exercicios');
       commitAndRender({type:'question',itemId:id,source:'exercicios'});
@@ -273,4 +270,4 @@ document.addEventListener('click', event => {
 setupNavigation({ onNavigate: navigateTo });
 initBackupControls();
 renderCurrentPage();
-console.info('[ADM-ESTUDO] Aplicação v2.0: navegação, flashcards, Jornada e backup em Configurações disponíveis.');
+console.info('[PT-ESTUDO] Navegação, flashcards, Jornada e backup em Configurações disponíveis.');
