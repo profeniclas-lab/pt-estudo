@@ -1,1 +1,1 @@
-https://profeniclas-lab.github.io/Dir-Adm/
+https://profeniclas-lab.github.io/pt-estudo/
