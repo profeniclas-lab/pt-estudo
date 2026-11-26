@@ -1,4 +1,4 @@
-/** PT-ESTUDO — POR-05: 20 questões inéditas, dois níveis, formato validado. */
+/** PT-ESTUDO — POR-05: revisão pedagógica C03/L02. IDs e índices de resposta preservados. */
 export const POR_05_QUESTIONS = [
   {
     "id": "Q-POR-05-001-01",
@@ -20,9 +20,9 @@ export const POR_05_QUESTIONS = [
     "explanation": "Nesse contexto, “abrir portas” indica viabilizar oportunidades, não deslocar fisicamente portas de uma edificação.",
     "concept": "Denotação é uso literal convencional; conotação agrega sentido figurado e expressivo; polissemia é a pluralidade de acepções relacionadas de um mesmo vocábulo.",
     "trap": "Ler literalmente expressão figurada sustentada pelo campo semântico de oportunidades.",
-    "examTip": "Considere o referente: parcerias não abrem fisicamente portas para projetos abstratos.",
-    "newExample": "“A bolsa de estudos deu asas ao projeto” indica impulso figurado.",
-    "challenge": "Como dizer o sentido do exemplo sem empregar metáfora?",
+    "examTip": "Em julgamentos C/E, avalie a proposição inteira: “Abrir portas” descreve oportunidades de pesquisa, não abertura física de edifícios.",
+    "newExample": "“O convênio abriu caminhos para estágios” pode significar novas oportunidades.",
+    "challenge": "Que leitura literal seria inadequada ao convênio?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -51,9 +51,9 @@ export const POR_05_QUESTIONS = [
     "explanation": "“Portas” designa objetos físicos (1); “bomba” expressa impacto em uso figurado (2); “cabeça” assume sentidos relacionados de líder e parte do corpo (3).",
     "concept": "Denotação é uso literal convencional; conotação agrega sentido figurado e expressivo; polissemia é a pluralidade de acepções relacionadas de um mesmo vocábulo.",
     "trap": "Confundir qualquer palavra de vários sentidos com o emprego figurado isolado no enunciado.",
-    "examTip": "Identifique o uso contextual de cada palavra, em vez de classificar pela forma isolada.",
-    "newExample": "“A base do prédio” e “a base do argumento” mobilizam acepções relacionadas de “base”.",
-    "challenge": "Como o contexto afasta a leitura arquitetônica da segunda expressão?",
+    "examTip": "Na associação, resolva cada par por seu conceito: “Portas” no corredor é referência física; “bomba” expressa impacto figurado; “cabeça” tem sentidos relacionados.",
+    "newExample": "“O braço da cadeira quebrou; meu braço doeu.” Há polissemia por extensão de sentido.",
+    "challenge": "Qual trecho do enunciado designa objeto concreto?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -65,7 +65,7 @@ export const POR_05_QUESTIONS = [
     "topic": "Denotação, conotação e polissemia",
     "type": "vf",
     "difficulty": "dificil",
-    "stem": "Leia: “Depois de semanas parado, o projeto finalmente ganhou fôlego. A equipe respirou aliviada.” Julgue: I. “Ganhou fôlego” pode ser lido como retomada de impulso. II. A expressão obriga concluir que um projeto abstrato passou a respirar literalmente. III. “Respirou aliviada” também pode representar reação emocional da equipe. IV. Uma paráfrase literal do primeiro enunciado seria “o projeto recebeu novo impulso”.",
+    "stem": "Leia: “Depois de semanas parado, o projeto finalmente ganhou fôlego. A equipe respirou aliviada.” Julgue: I. “Ganhou fôlego” pode indicar retomada do ritmo de trabalho. II. A expressão obriga concluir que o projeto passou a respirar biologicamente. III. “Respirou aliviada” pode descrever reação emocional da equipe. IV. Uma paráfrase não figurada de “o projeto ganhou fôlego” é “o projeto recebeu novo impulso”.",
     "options": [
       "V – V – F – V",
       "V – F – V – V",
@@ -74,17 +74,17 @@ export const POR_05_QUESTIONS = [
     ],
     "answer": 1,
     "optionComments": [
-      "Incorreta: II é falsa e III é possível, não necessária respiração de projeto.",
-      "Correta: I, III e IV são sustentadas pelo contexto; II literaliza indevidamente.",
-      "Incorreta: I está correta; a expressão indica retomada do projeto.",
-      "Incorreta: III também é verdadeira no contexto de reação ao avanço."
+      "Incorreta: II não é literalidade obrigatória de expressão figurada, e III não é falsa.",
+      "Correta: o enunciado contrapõe leitura figurada da atividade e leitura biológica indevida.",
+      "Incorreta: I é verdadeira, pois fôlego pode designar retomada de dinamismo.",
+      "Incorreta: III também é verdadeira, pois “respirar aliviado” pode expressar alívio emocional."
     ],
-    "explanation": "I verdadeira: “fôlego” é metáfora de impulso. II falsa: projeto não respira. III verdadeira: a equipe pode expressar alívio. IV verdadeira: conserva o sentido.",
+    "explanation": "I, III e IV preservam os sentidos contextuais; II é falsa porque atribui respiração literal a um projeto abstrato. A paráfrase “recebeu novo impulso” explica a metáfora sem reproduzi-la.",
     "concept": "Denotação é uso literal convencional; conotação agrega sentido figurado e expressivo; polissemia é a pluralidade de acepções relacionadas de um mesmo vocábulo.",
     "trap": "Converter imagem metafórica em fato físico sobre entidade abstrata.",
-    "examTip": "Verifique se a interpretação mantém o campo discursivo de projetos e equipes.",
-    "newExample": "“A campanha perdeu força” pode ser parafraseado como “a campanha perdeu capacidade de mobilização”.",
-    "challenge": "Por que a paráfrase não pode afirmar diminuição de força muscular de uma campanha?",
+    "examTip": "Na sequência V/F, confira cada afirmação: “Ganhar fôlego” exprime retomar atividade; a equipe pode expressar alívio; novo impulso parafraseia a metáfora sem literalismo.",
+    "newExample": "“A campanha ganhou força” pode ser reescrita como “a campanha avançou com mais apoio”.",
+    "challenge": "Como identificar o limite da interpretação literal de “força”?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "bank-hard"
@@ -99,23 +99,23 @@ export const POR_05_QUESTIONS = [
     "stem": "Em relação à interpretação contextual de “O acordo foi a ponte entre as duas instituições”, todas são análises adequadas, EXCETO:",
     "options": [
       "A expressão pode ser reescrita como “O acordo aproximou as instituições”.",
-      "O enunciado comprova que foi construída uma passarela ligando fisicamente os prédios das instituições.",
+      "A expressão “ponte” só pode designar obra física, já que são duas instituições diferentes.",
       "O contexto favorece leitura figurada em vez de estrutura física.",
       "“Ponte” pode representar ligação ou aproximação institucional."
     ],
     "answer": 1,
     "optionComments": [
-      "Verdadeira: explicita a aproximação sem imagem figurada.",
-      "Falsa: inferência de construção física não é autorizada pelo enunciado.",
-      "Verdadeira: acordo como instrumento de vínculo permite interpretação conotativa.",
-      "Verdadeira: a imagem de ponte representa conexão."
+      "Adequada: “aproximar” recupera a função mediadora atribuída ao acordo.",
+      "Inadequada: um acordo entre instituições é vínculo abstrato, não prova de construção material.",
+      "Adequada: o verbo “ser” associa acordo e ponte por metáfora.",
+      "Adequada: o vocábulo passa a representar aproximação, não necessariamente engenharia."
     ],
     "explanation": "“Ponte” figura uma relação entre instituições; nada no enunciado afirma construção de obra física.",
     "concept": "Denotação é uso literal convencional; conotação agrega sentido figurado e expressivo; polissemia é a pluralidade de acepções relacionadas de um mesmo vocábulo.",
     "trap": "Tratar metáfora relacional como relato de infraestrutura.",
-    "examTip": "Busque uma paráfrase que mantenha a relação abstrata, sem acrescentar objetos físicos.",
-    "newExample": "“O diálogo é uma chave para a cooperação” não implica chave metálica.",
-    "challenge": "Que sentido literal pode substituir “chave” no novo exemplo?",
+    "examTip": "Em questões EXCETO, localize apenas a proposição incompatível: “Ponte” compara o acordo a uma ligação; a leitura como obra física não é sustentada pela construção.",
+    "newExample": "“A parceria tornou-se um elo entre universidades.” Não se afirma existência de corrente física.",
+    "challenge": "Que fato adicional autorizaria leitura de ponte material?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "bank-hard"
@@ -140,9 +140,9 @@ export const POR_05_QUESTIONS = [
     "explanation": "“Pode reduzir” indica possibilidade de diminuição; “certamente eliminará” afirma certeza e supressão total dos custos, ampliando indevidamente o sentido.",
     "concept": "Sinonímia é proximidade contextual de sentido; antonímia é relação de oposição semântica; gradação ordena intensidades em uma escala.",
     "trap": "Confundir modalidade de possibilidade e diminuição parcial com certeza absoluta.",
-    "examTip": "Compare os verbos modais e quantificadores antes de julgar sinonímia.",
-    "newExample": "“A nova rotina talvez agilize” não equivale a “a rotina agiliza sempre”.",
-    "challenge": "Quais marcas expressam dúvida e certeza nas duas versões?",
+    "examTip": "Em julgamentos C/E, avalie a proposição inteira: “Pode reduzir” afirma possibilidade de diminuição; “certamente eliminará” traz certeza e quantidade total.",
+    "newExample": "“A medida talvez diminua filas” não equivale a “a medida acabará com as filas”.",
+    "challenge": "Que termo alterou o grau de certeza?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -156,24 +156,24 @@ export const POR_05_QUESTIONS = [
     "difficulty": "media",
     "stem": "Em “A explicação foi clara e objetiva”, qual substituição preserva melhor o sentido de “clara” nesse contexto?",
     "options": [
-      "Escura, pois se trata de termo semanticamente equivalente.",
-      "Iluminada, pois o conteúdo dependia de luz.",
-      "Transparente, no sentido obrigatório de material translúcido.",
+      "Minuciosa, no sentido de trazer obrigatoriamente muitos detalhes técnicos.",
+      "Direta, no sentido de dispensar qualquer exemplo ou explicação adicional.",
+      "Objetiva, no sentido de ser necessariamente imparcial e não avaliar os fatos.",
       "Compreensível, pois se destaca a facilidade de entendimento."
     ],
     "answer": 3,
     "optionComments": [
-      "Incorreta: “escura” não é sinônimo nesse contexto e sugere sentido oposto.",
-      "Incorreta: luminosidade física não é a acepção do termo no período.",
-      "Incorreta: transparência física não descreve o conteúdo da explicação.",
-      "Correta: “compreensível” mantém o valor de entendimento."
+      "Incorreta: uma explicação pode ser clara e breve; detalhe técnico não é condição de inteligibilidade.",
+      "Incorreta: explicação clara pode ser direta, mas também exigir exemplos quando necessário.",
+      "Incorreta: objetividade e imparcialidade não são equivalentes obrigatórios de inteligibilidade.",
+      "Correta: “clara” qualifica a facilidade de compreender a explicação, não sua extensão ou neutralidade."
     ],
     "explanation": "Em “explicação clara”, o adjetivo avalia a inteligibilidade, não a luminosidade.",
     "concept": "Sinonímia é proximidade contextual de sentido; antonímia é relação de oposição semântica; gradação ordena intensidades em uma escala.",
     "trap": "Selecionar sinônimo de outra acepção do mesmo adjetivo.",
-    "examTip": "Substitua o termo dentro do mesmo período e confira se a propriedade avaliada permanece.",
-    "newExample": "“Instruções nítidas” pode significar “instruções fáceis de compreender” em contexto apropriado.",
-    "challenge": "Por que “instruções brilhantes” pode deslocar a avaliação para elogio de qualidade?",
+    "examTip": "Na múltipla escolha, descarte a mudança indevida de sentido: “Clara” descreve inteligibilidade da explicação; não exige tecnicidade, luz ou neutralidade de opiniões.",
+    "newExample": "“O roteiro é claro para os participantes” significa fácil de entender.",
+    "challenge": "Uma orientação clara precisa ser necessariamente extensa?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -202,9 +202,9 @@ export const POR_05_QUESTIONS = [
     "explanation": "I correta: luminosidade. II correta: inteligibilidade. III incorreta: “modesta” e “extraordinária” não expressam o mesmo grau de melhoria.",
     "concept": "Sinonímia é proximidade contextual de sentido; antonímia é relação de oposição semântica; gradação ordena intensidades em uma escala.",
     "trap": "Supor que um mesmo adjetivo mantém sempre o mesmo antônimo.",
-    "examTip": "Observe a propriedade contextual e o grau de intensidade de cada troca.",
-    "newExample": "“Resultado discreto” não equivale a “resultado excepcional”.",
-    "challenge": "Que escala avaliativa distingue os dois adjetivos?",
+    "examTip": "Em assertivas I, II e III, identifique a combinação: “Clara” na sala indica luminosidade; em orientação, inteligibilidade; “modesta” e “extraordinária” não mantêm intensidade.",
+    "newExample": "“Um resultado expressivo” não equivale a “um resultado discreto”.",
+    "challenge": "Por que o antônimo depende do contexto do adjetivo?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "bank-hard"
@@ -218,24 +218,24 @@ export const POR_05_QUESTIONS = [
     "difficulty": "dificil",
     "stem": "Sobre a paráfrase “O parecer identificou indícios de irregularidade”, assinale a reescrita que NÃO preserva a cautela expressa.",
     "options": [
-      "“O documento comprovou definitivamente todas as irregularidades investigadas.”",
+      "“O documento demonstrou a ocorrência das irregularidades investigadas.”",
       "“O parecer apontou sinais de possível irregularidade.”",
       "“O documento registrou elementos indicativos de irregularidade.”",
       "“A análise observou indícios de que poderia haver irregularidade.”"
     ],
     "answer": 0,
     "optionComments": [
-      "Não preserva: substitui indício por comprovação definitiva e amplia o alcance.",
-      "Preserva ideia de sinais, sem prova conclusiva.",
-      "Preserva indícios em vez de confirmação final.",
-      "Preserva caráter possível da irregularidade."
+      "Inadequada: “demonstrou a ocorrência” afirma constatação, enquanto “indícios” comunica evidência insuficiente para conclusão definitiva.",
+      "Adequada: “sinais” e “possível” preservam o caráter não conclusivo.",
+      "Adequada: “indicativos” sinaliza possibilidade, não prova acabada.",
+      "Adequada: “poderia haver” deixa explícita a hipótese sugerida pelos indícios."
     ],
     "explanation": "“Indícios” não equivalem a prova definitiva de todas as condutas; a última opção altera certeza e extensão.",
     "concept": "Sinonímia é proximidade contextual de sentido; antonímia é relação de oposição semântica; gradação ordena intensidades em uma escala.",
     "trap": "Transformar indício em comprovação absoluta por escolha lexical.",
-    "examTip": "Em provas, marque termos que elevam o grau de certeza (“comprovou”, “definitivamente”).",
-    "newExample": "“Há sinais de inconsistência” não significa “toda informação está comprovadamente errada”.",
-    "challenge": "Por que “toda” e “comprovadamente” extrapolam o sentido?",
+    "examTip": "Em questões EXCETO, localize apenas a proposição incompatível: “Indícios” mantêm conclusão cautelosa; “demonstrou a ocorrência” afirma fato mais forte que o texto.",
+    "newExample": "“Foram encontrados sinais de falha” não comprova automaticamente culpa de alguém.",
+    "challenge": "Qual verbo indica conclusão mais forte que “sugerir”?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "bank-hard"
@@ -260,9 +260,9 @@ export const POR_05_QUESTIONS = [
     "explanation": "“Retificar” é corrigir; “ratificar” é confirmar. A substituição de um pelo outro muda o ato informado.",
     "concept": "Homônimos coincidem na pronúncia e/ou grafia com sentidos distintos; parônimos têm formas semelhantes, mas significado e emprego diferentes.",
     "trap": "Trocar parônimos por semelhança ortográfica apesar de sentidos opostos na situação.",
-    "examTip": "Associe “reTificar” a tornar reto/corrigir e “raTificar” a confirmar no contexto.",
-    "newExample": "“O órgão ratificou o resultado” comunica confirmação; “retificou o resultado” comunica correção.",
-    "challenge": "Qual verbo você usaria para corrigir um erro de digitação em edital?",
+    "examTip": "Em julgamentos C/E, avalie a proposição inteira: “Retificar” é corrigir informação; “ratificar” é confirmar o já decidido, sem trocar conteúdo.",
+    "newExample": "“O edital retificou a data; a chefia ratificou o restante do cronograma.”",
+    "challenge": "Se um dado estava certo e só foi confirmado, qual verbo usar?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -291,9 +291,9 @@ export const POR_05_QUESTIONS = [
     "explanation": "Corrigir documento exige “retificação”; reunião de colegiado é “sessão”.",
     "concept": "Homônimos coincidem na pronúncia e/ou grafia com sentidos distintos; parônimos têm formas semelhantes, mas significado e emprego diferentes.",
     "trap": "Confundir parônimos ratificar/retificar e homófonos sessão/seção/cessão.",
-    "examTip": "Defina a ação e o referente antes de escolher grafias semelhantes.",
-    "newExample": "“O edital sofreu retificação, e a sessão pública foi remarcada.”",
-    "challenge": "Que vocábulo indicaria o setor responsável: sessão ou seção?",
+    "examTip": "Em lacunas, releia a oração completa: A informação errada exige retificação; a reunião de colegiado recebe o nome de sessão.",
+    "newExample": "“Após a retificação do nome, houve sessão extraordinária do conselho.”",
+    "challenge": "Qual substantivo designa a divisão de um órgão, e não reunião?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -322,9 +322,9 @@ export const POR_05_QUESTIONS = [
     "explanation": "Ratificar confirma, retificar corrige, descrição caracteriza, discrição é reserva no agir ou no falar.",
     "concept": "Homônimos coincidem na pronúncia e/ou grafia com sentidos distintos; parônimos têm formas semelhantes, mas significado e emprego diferentes.",
     "trap": "Inferir sinonímia só porque dois vocábulos têm estrutura semelhante.",
-    "examTip": "Substitua os termos por suas definições e teste a coerência resultante.",
-    "newExample": "“Ela fez uma descrição detalhada” não avalia sua discrição pessoal.",
-    "challenge": "Como distinguir “discrição” de “descrição” num relatório de desempenho?",
+    "examTip": "Na associação, resolva cada par por seu conceito: Ratificar=confirmar; retificar=corrigir; descrição=caracterização; discrição=reserva.",
+    "newExample": "“A descrição foi detalhada, mas a testemunha agiu com discrição.”",
+    "challenge": "Qual par contém diferença de sentido apesar de som próximo?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "bank-hard"
@@ -338,24 +338,24 @@ export const POR_05_QUESTIONS = [
     "difficulty": "dificil",
     "stem": "Todas as associações entre vocábulo e contexto estão adequadas, EXCETO:",
     "options": [
-      "“Sessão do terreno” — ato jurídico de transferência da propriedade por cessão.",
+      "“Sessão de direitos de uso” — transferência temporária desses direitos para outra pessoa.",
       "“Cessão de uso” — ato de ceder o uso de um bem.",
       "“Sessão plenária” — reunião de membros de um colegiado.",
       "“Seção de protocolo” — divisão administrativa responsável por registros."
     ],
     "answer": 0,
     "optionComments": [
-      "Falsa: no ato de ceder, o termo apropriado é “cessão”, não “sessão”.",
-      "Verdadeira: cessão liga-se ao verbo ceder.",
-      "Verdadeira: sessão denomina reunião ou período de atividade.",
-      "Verdadeira: seção refere-se a repartição ou parte de um conjunto."
+      "Inadequada: o ato de transferir direitos é “cessão”; “sessão” se refere a reunião ou atividade delimitada.",
+      "Adequada: “cessão” deriva de ceder e pode indicar transferência de uso.",
+      "Adequada: “sessão” é a reunião formal.",
+      "Adequada: “seção” indica parte ou setor de organização."
     ],
     "explanation": "Sessão, seção e cessão possuem pronúncias próximas em muitas variedades, mas designam reunião, divisão e ato de ceder.",
     "concept": "Homônimos coincidem na pronúncia e/ou grafia com sentidos distintos; parônimos têm formas semelhantes, mas significado e emprego diferentes.",
     "trap": "Selecionar grafia pelo som e ignorar o sentido jurídico de “ceder”.",
-    "examTip": "Associe o referente concreto a uma definição: reunião, divisão ou transferência.",
-    "newExample": "“A cessão temporária da sala foi aprovada na sessão do conselho”.",
-    "challenge": "Qual palavra refere-se à reunião no exemplo?",
+    "examTip": "Em questões EXCETO, localize apenas a proposição incompatível: Transferência de direitos é cessão; “sessão” refere-se a reunião ou período de atividade.",
+    "newExample": "“A cessão de uso do prédio foi discutida na sessão do colegiado.”",
+    "challenge": "Qual das palavras indica setor administrativo?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "bank-hard"
@@ -380,9 +380,9 @@ export const POR_05_QUESTIONS = [
     "explanation": "“Com um microfone” pode modificar a ação de conversar ou caracterizar a técnica; a construção não fixa uma só leitura sem contexto adicional.",
     "concept": "Ambiguidade lexical nasce de sentidos possíveis de um termo; ambiguidade sintática decorre de diferentes relações de estrutura ou referência.",
     "trap": "Impor leitura única a adjunto que pode ligar-se a mais de um constituinte.",
-    "examTip": "Experimente mover a expressão “com” para verificar os dois vínculos possíveis.",
-    "newExample": "“Viu o aluno com o telescópio” pode indicar instrumento da observação ou objeto do aluno.",
-    "challenge": "Como produzir duas reescritas diferentes e explícitas do exemplo?",
+    "examTip": "Em julgamentos C/E, avalie a proposição inteira: O complemento “com um microfone” pode referir-se ao instrumento de conversar ou caracterizar a técnica; não fixa posse.",
+    "newExample": "“O gerente ouviu a assistente com fones” permite mais de uma vinculação sem contexto.",
+    "challenge": "Que reescrita identificaria quem portava o microfone?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -397,23 +397,23 @@ export const POR_05_QUESTIONS = [
     "stem": "A frase “Marina contou a Elisa que ela havia sido selecionada” pode ser ambígua. Se a selecionada for Elisa, qual reescrita elimina a dúvida sem acrescentar acontecimentos?",
     "options": [
       "“Marina contou a Elisa que Elisa havia sido selecionada.”",
-      "“A seleção foi cancelada, segundo Marina e Elisa.”",
+      "“Elisa ficou sabendo da seleção durante uma conversa com Marina.”",
       "“Marina contou a Elisa que Marina havia sido selecionada.”",
-      "“Marina e Elisa haviam sido selecionadas e conversaram.”"
+      "“Marina contou a Elisa que as duas haviam sido selecionadas.”"
     ],
     "answer": 0,
     "optionComments": [
-      "Correta: repetição do nome esclarece a pessoa selecionada.",
-      "Incorreta: acrescenta cancelamento sem apoio textual.",
-      "Incorreta: essa redação atribui a seleção a Marina, sentido diferente do pedido.",
-      "Incorreta: cria seleção de ambas, não contida no enunciado."
+      "Correta: repetir Elisa como sujeito da subordinada identifica quem foi selecionada sem adicionar acontecimentos.",
+      "Incorreta: explica que Elisa soube da seleção, mas não esclarece quem foi selecionado.",
+      "Incorreta: troca a pessoa selecionada por Marina, alterando o fato proposto.",
+      "Incorreta: acrescenta seleção de Marina, ausente da interpretação que se quer preservar."
     ],
     "explanation": "Quando Elisa é a selecionada, explicitar seu nome no segundo segmento fixa o referente de “ela”.",
     "concept": "Ambiguidade lexical nasce de sentidos possíveis de um termo; ambiguidade sintática decorre de diferentes relações de estrutura ou referência.",
     "trap": "Trocar uma ambiguidade por afirmação não informada sobre outras pessoas ou fatos.",
-    "examTip": "Explicite o nome da pessoa que a oração subordinada retoma.",
-    "newExample": "“Rita informou a Sara que Sara receberia a bolsa” indica claramente a beneficiária.",
-    "challenge": "Como reescrever caso a beneficiária seja Rita?",
+    "examTip": "Na múltipla escolha, descarte a mudança indevida de sentido: Repetir o nome Elisa resolve a ambiguidade de “ela”; alternativas restantes alteram ou não especificam a pessoa.",
+    "newExample": "“Beatriz contou a Cláudia que Cláudia foi convocada” fixa o sujeito da convocação.",
+    "challenge": "Como escrever para indicar que Beatriz, e não Cláudia, foi chamada?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -442,9 +442,9 @@ export const POR_05_QUESTIONS = [
     "explanation": "O adjunto “com binóculos” admite vinculação ao ato de observar ou ao servidor observado. Não obriga que os dois estivessem com binóculos.",
     "concept": "Ambiguidade lexical nasce de sentidos possíveis de um termo; ambiguidade sintática decorre de diferentes relações de estrutura ou referência.",
     "trap": "Converter duas possibilidades alternativas em dois fatos simultâneos.",
-    "examTip": "Não some interpretações alternativas como se fossem ambas fatos comprovados.",
-    "newExample": "“O jornalista fotografou a cantora com uma câmera nova” admite pelo menos duas ligações do instrumento.",
-    "challenge": "Qual reescrita indica que o jornalista usou a câmera?",
+    "examTip": "Em assertivas I, II e III, identifique a combinação: “Com binóculos” pode funcionar como instrumento do diretor ou caracterização do servidor; não obriga ambos.",
+    "newExample": "“O fiscal viu o visitante com uma câmera” não identifica, por si só, quem segurava a câmera.",
+    "challenge": "O que é necessário para comprovar que ambos usaram binóculos?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "bank-hard"
@@ -458,24 +458,24 @@ export const POR_05_QUESTIONS = [
     "difficulty": "dificil",
     "stem": "Sobre a frase “Paula viu Ana na biblioteca com um casaco vermelho”, assinale a análise INCORRETA.",
     "options": [
-      "O enunciado prova de modo obrigatório que Paula e Ana usavam casacos vermelhos.",
+      "Por estar no final do período, “com um casaco vermelho” só pode caracterizar Ana.",
       "A posição de “com um casaco vermelho” pode gerar ambiguidade sobre quem o vestia.",
       "Uma reescrita que nomeie a pessoa com o casaco pode resolver a referência.",
       "O contexto adicional poderia esclarecer a ligação do adjunto."
     ],
     "answer": 0,
     "optionComments": [
-      "Falsa: não há afirmação de que ambas vestiam casacos vermelhos.",
-      "Verdadeira: o adjunto pode ser associado a referentes diferentes na leitura natural.",
-      "Verdadeira: explicitar o portador fixa a referência pretendida.",
-      "Verdadeira: contexto pode desambiguar a interpretação."
+      "Incorreta: proximidade linear não impede a leitura em que Paula usava o casaco; o enunciado não fixa o vínculo.",
+      "Correta: o grupo preposicionado pode caracterizar Ana ou Paula, dependendo da interpretação.",
+      "Correta: explicitar “Ana usava...” ou “Paula usava...” desfaz a incerteza.",
+      "Correta: informação contextual pode determinar a pessoa descrita."
     ],
     "explanation": "A existência de diferentes leituras possíveis não equivale à comprovação simultânea de ambas.",
     "concept": "Ambiguidade lexical nasce de sentidos possíveis de um termo; ambiguidade sintática decorre de diferentes relações de estrutura ou referência.",
     "trap": "Interpretar pluralidade de leituras como soma factual de informações.",
-    "examTip": "Em ambiguidades sintáticas, separe “pode significar” de “significa necessariamente”.",
-    "newExample": "“O monitor chamou o aluno de camisa azul” pede identificar quem tinha a camisa, conforme o contexto.",
-    "challenge": "Quais detalhes adicionais eliminariam a dúvida sem mudar o fato?",
+    "examTip": "Em questões EXCETO, localize apenas a proposição incompatível: A posição final do adjunto não garante referência exclusiva a Ana; o contexto pode vincular a expressão a Paula.",
+    "newExample": "“Tiago encontrou Pedro no parque com um guarda-chuva” pode gerar referência incerta.",
+    "challenge": "Como evitar a ambiguidade sem inventar quem tinha o casaco?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "bank-hard"
@@ -500,9 +500,9 @@ export const POR_05_QUESTIONS = [
     "explanation": "A locução “voltou a” apresenta como dado prévio uma situação anterior de abertura aos domingos.",
     "concept": "Pressuposto é conteúdo tomado como dado por certas expressões ou construções; subentendido é sentido inferido contextualmente; ironia pode produzir distância entre formulação literal e avaliação pretendida.",
     "trap": "Ignorar o conteúdo pressuposto pelo verbo aspectual “voltar a”.",
-    "examTip": "Identifique o comportamento anterior indicado pela expressão de retomada.",
-    "newExample": "“O setor voltou a publicar boletins” pressupõe publicações anteriores.",
-    "challenge": "Qual parte do sentido não está afirmada como evento novo?",
+    "examTip": "Em julgamentos C/E, avalie a proposição inteira: “Voltou a” pressupõe uma prática anterior antes de sua retomada; o enunciado não informa quando.",
+    "newExample": "“O museu voltou a receber visitantes às segundas” sugere funcionamento anterior nesse dia.",
+    "challenge": "O verbo de retomada especifica o ano da prática anterior?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -531,9 +531,9 @@ export const POR_05_QUESTIONS = [
     "explanation": "“Deixou de” apresenta existência anterior do hábito e informa interrupção; não data a mudança.",
     "concept": "Pressuposto é conteúdo tomado como dado por certas expressões ou construções; subentendido é sentido inferido contextualmente; ironia pode produzir distância entre formulação literal e avaliação pretendida.",
     "trap": "Transformar pressuposição de fato anterior em cronologia específica não expressa.",
-    "examTip": "Localize o gatilho aspectual e não infira datas sem informação textual.",
-    "newExample": "“A equipe parou de enviar lembretes” sugere envios anteriores, mas não especifica quando parou.",
-    "challenge": "O que se mantém como pressuposto se a frase for negada?",
+    "examTip": "Em assertivas I, II e III, identifique a combinação: “Deixou de” pressupõe continuidade anterior e declara interrupção, mas não fornece o dia exato.",
+    "newExample": "“O curso deixou de ocorrer à noite” pressupõe aulas noturnas anteriores.",
+    "challenge": "Qual pressuposto permanece mesmo sem data precisa?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -562,9 +562,9 @@ export const POR_05_QUESTIONS = [
     "explanation": "I verdadeira: avaliação positiva contradiz situação frustrante. II verdadeira: recorrência explícita. III falsa: sentido literal não é obrigatório. IV verdadeira: falta causa técnica.",
     "concept": "Pressuposto é conteúdo tomado como dado por certas expressões ou construções; subentendido é sentido inferido contextualmente; ironia pode produzir distância entre formulação literal e avaliação pretendida.",
     "trap": "Julgar o tom apenas pelo valor lexical positivo de “ótimo”, ignorando o contexto.",
-    "examTip": "Cruze a palavra avaliativa com a situação descrita; não invente detalhes técnicos.",
-    "newExample": "“Perfeito, mais uma fila de três horas!” tende a criticar a espera.",
-    "challenge": "Que pista torna o elogio provavelmente irônico?",
+    "examTip": "Na sequência V/F, confira cada afirmação: As quedas anteriores justificam ironia de “ótimo”; “outra vez” indica repetição, não diagnóstico técnico.",
+    "newExample": "“Que maravilha, perdi a conexão novamente!” tende a expressar insatisfação.",
+    "challenge": "A fala prova que a queda ocorreu por falha da operadora?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "bank-hard"
@@ -576,26 +576,26 @@ export const POR_05_QUESTIONS = [
     "topic": "Pressuposição, subentendido e ironia",
     "type": "exceto",
     "difficulty": "dificil",
-    "stem": "Sobre “Pedro também entregou o formulário”, todas as inferências abaixo são sustentáveis pela expressão, EXCETO:",
+    "stem": "Sobre “Pedro também entregou o formulário”, todas as afirmações a seguir são sustentáveis, EXCETO:",
     "options": [
       "O enunciado informa diretamente que Pedro realizou uma entrega.",
       "A expressão sugere inclusão de Pedro em conjunto de participantes ou ações semelhantes.",
       "“Também” normalmente pressupõe outra entrega relacionada no contexto.",
-      "O enunciado revela o nome, a idade e a data de entrega de todas as demais pessoas."
+      "O enunciado identifica quem foi o primeiro a entregar o formulário."
     ],
     "answer": 3,
     "optionComments": [
-      "Verdadeira: a entrega por Pedro é informação afirmada.",
-      "Verdadeira: inclusão é efeito usual do operador aditivo.",
-      "Verdadeira: “também” pressupõe situação paralela anterior ou contextual.",
-      "Falsa: nenhum desses dados específicos foi informado."
+      "Sustentável: o verbo “entregou” apresenta a ação de Pedro.",
+      "Sustentável: “também” adiciona Pedro a uma série ou situação comparável.",
+      "Sustentável: o valor aditivo pressupõe uma entrega ou ação comparável anterior no discurso.",
+      "Incorreta: a adição não nomeia outras pessoas nem determina qual entrega ocorreu primeiro."
     ],
-    "explanation": "“Também” remete a participação adicional, mas não identifica necessariamente as demais pessoas ou suas características.",
+    "explanation": "“Também” possui valor aditivo; pressupõe outra ação relacionada, mas não permite identificar autores nem a ordem exata das entregas.",
     "concept": "Pressuposto é conteúdo tomado como dado por certas expressões ou construções; subentendido é sentido inferido contextualmente; ironia pode produzir distância entre formulação literal e avaliação pretendida.",
     "trap": "Confundir pressuposto genérico de inclusão com listagem completa de participantes.",
-    "examTip": "Não transforme o gatilho “também” em fonte de nomes, números ou datas ausentes.",
-    "newExample": "“A unidade também abriu um canal digital” pressupõe outra iniciativa, mas não especifica sua data.",
-    "challenge": "Como diferenciar o que foi afirmado do que permaneceu pressuposto?",
+    "examTip": "Em questões EXCETO, localize apenas a proposição incompatível: “Também” marca adição, mas não dá o nome nem a ordem das outras pessoas envolvidas.",
+    "newExample": "“Lúcia também participou do curso” não diz quem participou primeiro.",
+    "challenge": "Que informação adicional identificaria a primeira entrega?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "bank-hard"

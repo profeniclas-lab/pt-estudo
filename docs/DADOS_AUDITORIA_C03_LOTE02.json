@@ -1,0 +1,98 @@
+{
+  "modules": [
+    "POR-04",
+    "POR-05",
+    "POR-06",
+    "POR-07",
+    "POR-08"
+  ],
+  "questions": 100,
+  "answer_disagreements": 0,
+  "targeted_edits": 35,
+  "editorial_field_changes": {
+    "examTip": 100,
+    "newExample": 100,
+    "challenge": 100,
+    "stem": 5,
+    "optionComments": 33,
+    "explanation": 9,
+    "options": 23
+  },
+  "distribuicao": {
+    "POR-04": {
+      "CE_certo": 3,
+      "CE_errado": 2,
+      "nao_CE_por_indice": {
+        "0": 4,
+        "1": 1,
+        "2": 4,
+        "3": 6
+      },
+      "questoes": 20,
+      "edicoes_focadas": 8,
+      "edicoes_alternativas": 6
+    },
+    "POR-05": {
+      "CE_certo": 3,
+      "CE_errado": 2,
+      "nao_CE_por_indice": {
+        "0": 5,
+        "1": 5,
+        "2": 2,
+        "3": 3
+      },
+      "questoes": 20,
+      "edicoes_focadas": 8,
+      "edicoes_alternativas": 7
+    },
+    "POR-06": {
+      "CE_certo": 3,
+      "CE_errado": 2,
+      "nao_CE_por_indice": {
+        "0": 3,
+        "1": 5,
+        "2": 5,
+        "3": 2
+      },
+      "questoes": 20,
+      "edicoes_focadas": 7,
+      "edicoes_alternativas": 6
+    },
+    "POR-07": {
+      "CE_certo": 4,
+      "CE_errado": 1,
+      "nao_CE_por_indice": {
+        "0": 2,
+        "1": 4,
+        "2": 4,
+        "3": 5
+      },
+      "questoes": 20,
+      "edicoes_focadas": 6,
+      "edicoes_alternativas": 3
+    },
+    "POR-08": {
+      "CE_certo": 5,
+      "CE_errado": 0,
+      "nao_CE_por_indice": {
+        "0": 4,
+        "1": 4,
+        "2": 3,
+        "3": 4
+      },
+      "questoes": 20,
+      "edicoes_focadas": 6,
+      "edicoes_alternativas": 1
+    }
+  },
+  "preserved": [
+    "id",
+    "moduleId",
+    "subtopicId",
+    "type",
+    "difficulty",
+    "answer",
+    "tipo",
+    "origem"
+  ]
+}

@@ -1,0 +1,3012 @@
+{
+  "POR-04": [
+    {
+      "id": "Q-POR-04-001-01",
+      "moduleId": "POR-04",
+      "subtopicId": "POR-04-001",
+      "topic": "Coerência e conhecimento de mundo",
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "“Choveu durante a madrugada. O jogo começou duas horas depois do previsto” pode ser globalmente coerente mesmo sem um conectivo entre as frases.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: A sequência permite inferir, sem contradição, uma relação contextual entre chuva e atraso; a coerência não exige conectivo expresso.",
+        "Incorreta: A sequência permite inferir, sem contradição, uma relação contextual entre chuva e atraso; a coerência não exige conectivo expresso."
+      ],
+      "explanation": "A sequência permite inferir, sem contradição, uma relação contextual entre chuva e atraso; a coerência não exige conectivo expresso.",
+      "concept": "Coerência é a possibilidade de construir um sentido global compatível entre informações, situação comunicativa e conhecimentos relevantes; não equivale à mera presença de conectivos.",
+      "trap": "Supor que a coesão explícita seja condição necessária de todo sentido coerente.",
+      "examTip": "Avalie se a interpretação conjunta das frases é plausível, mesmo sem marcador de causa.",
+      "newExample": "“Faltou energia. O atendimento ficou suspenso.”",
+      "challenge": "Qual relação pode ser inferida no exemplo, sem afirmação categórica de causalidade?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-04-001-02",
+      "moduleId": "POR-04",
+      "subtopicId": "POR-04-001",
+      "topic": "Coerência e conhecimento de mundo",
+      "type": "afirmacoes",
+      "difficulty": "media",
+      "stem": "Considere o aviso: “O sistema estará disponível apenas na sexta-feira. Os usuários poderão acessá-lo diariamente, inclusive na segunda-feira, durante essa semana.” Julgue: I. Há incompatibilidade temporal aparente. II. A expressão “apenas” restringe a disponibilidade. III. O conectivo “inclusive” resolve a incompatibilidade. Assinale a combinação correta.",
+      "options": [
+        "Apenas III.",
+        "Apenas I e II.",
+        "Apenas II e III.",
+        "I, II e III."
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: I e II são verdadeiras, e III não resolve a contradição.",
+        "Correta: “apenas” limita a sexta, em conflito com o acesso diário; III é falsa.",
+        "Incorreta: a aparente incompatibilidade também envolve I, e III é falsa.",
+        "Incorreta: “inclusive” acrescenta caso à afirmação universal; não elimina a restrição."
+      ],
+      "explanation": "I e II são verdadeiras: “apenas” limita os dias, mas “diariamente” generaliza. III é falsa: “inclusive” não harmoniza as informações.",
+      "concept": "Coerência é a possibilidade de construir um sentido global compatível entre informações, situação comunicativa e conhecimentos relevantes; não equivale à mera presença de conectivos.",
+      "trap": "Tomar um marcador aditivo como justificativa para duas afirmações incompatíveis.",
+      "examTip": "Localize marcas absolutas como “apenas” e “todos” antes de interpretar a coerência.",
+      "newExample": "“O evento será exclusivamente presencial; portanto, poderá ser acompanhado de qualquer lugar pela plataforma” demanda esclarecimento.",
+      "challenge": "Como revisar o aviso sem presumir que houve modalidade remota?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-04-001-03",
+      "moduleId": "POR-04",
+      "subtopicId": "POR-04-001",
+      "topic": "Coerência e conhecimento de mundo",
+      "type": "vf",
+      "difficulty": "dificil",
+      "stem": "Leia: “A secretaria abriu inscrições na segunda. O prazo terminou na sexta. Nessa data, os interessados ainda podiam enviar o formulário até as 18h.” Julgue: I. “Nessa data” pode retomar sexta-feira. II. Há contradição inevitável entre “terminou na sexta” e “até as 18h”. III. A sequência informa uma janela de inscrição. IV. O texto especifica o horário de abertura na segunda. Assinale V/F.",
+      "options": [
+        "V – F – F – V",
+        "V – V – F – F",
+        "F – F – V – V",
+        "V – F – V – F"
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Incorreta: III é verdadeira e IV é falsa; hora inicial não aparece.",
+        "Incorreta: não existe contradição inevitável e a janela temporal é informada.",
+        "Incorreta: “nessa data” remete à sexta, e a hora de início não foi dada.",
+        "Correta: I e III são sustentadas; II e IV acrescentam problemas não demonstrados."
+      ],
+      "explanation": "I é verdadeira (retomada temporal). II é falsa (o encerramento pode ocorrer na sexta às 18h). III é verdadeira (segunda a sexta). IV é falsa (não há hora inicial).",
+      "concept": "Coerência é a possibilidade de construir um sentido global compatível entre informações, situação comunicativa e conhecimentos relevantes; não equivale à mera presença de conectivos.",
+      "trap": "Inventar horário de início e confundir indicação de dia com impossibilidade de horário de término.",
+      "examTip": "Separe compatibilidade do texto e dados ausentes; uma lacuna não equivale a contradição.",
+      "newExample": "“O curso começa na terça e termina na quinta, às 17h” não informa a hora de início na terça.",
+      "challenge": "Quais informações temporais podem ser afirmadas sem extrapolação?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-04-001-04",
+      "moduleId": "POR-04",
+      "subtopicId": "POR-04-001",
+      "topic": "Coerência e conhecimento de mundo",
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "Assinale a análise INCORRETA sobre coerência textual em comunicados institucionais.",
+      "options": [
+        "Conectivos adequados ajudam a explicitar relações entre informações.",
+        "A interpretação deve verificar compatibilidade entre datas e quantificadores.",
+        "A presença de “portanto” torna obrigatoriamente coerentes quaisquer duas afirmações contraditórias.",
+        "A coerência pode depender de conhecimentos partilhados pelo destinatário."
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Verdadeira: conectivos podem orientar o encadeamento, sem garanti-lo sozinhos.",
+        "Verdadeira: datas e quantificadores podem revelar conflitos.",
+        "Falsa, como pede o comando: um marcador conclusivo não corrige contradição.",
+        "Verdadeira: informações implícitas podem ser compreendidas mediante contexto compartilhado."
+      ],
+      "explanation": "Um conectivo fornece pista de relação discursiva, mas não transforma conteúdos incompatíveis em uma sequência coerente.",
+      "concept": "Coerência é a possibilidade de construir um sentido global compatível entre informações, situação comunicativa e conhecimentos relevantes; não equivale à mera presença de conectivos.",
+      "trap": "Confundir sinal de relação com comprovação lógica dessa relação.",
+      "examTip": "Confronte o conteúdo das proposições antes de confiar na relação indicada pelo conector.",
+      "newExample": "“O arquivo foi excluído; portanto, continua armazenado sem cópia” ainda pode exigir esclarecimento.",
+      "challenge": "Por que uma conjunção não basta para validar o raciocínio?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-04-002-01",
+      "moduleId": "POR-04",
+      "subtopicId": "POR-04-002",
+      "topic": "Referência, anáfora, catáfora e elipse",
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Em “Há uma exigência indispensável: apresentar o documento original”, a expressão “uma exigência” anuncia informação posterior, configurando referência catafórica.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: O segmento após os dois-pontos especifica a exigência anunciada; trata-se de antecipação catafórica.",
+        "Incorreta: O segmento após os dois-pontos especifica a exigência anunciada; trata-se de antecipação catafórica."
+      ],
+      "explanation": "O segmento após os dois-pontos especifica a exigência anunciada; trata-se de antecipação catafórica.",
+      "concept": "Anáfora retoma referente já apresentado; catáfora antecipa elemento que será esclarecido; elipse omite termo recuperável pelo contexto.",
+      "trap": "Confundir referência para frente com anáfora, que aponta para elemento já apresentado.",
+      "examTip": "Observe se o referente vem antes ou depois da expressão de referência.",
+      "newExample": "“Só peço isto: confirmação do recebimento.”",
+      "challenge": "Qual elemento funciona como antecipador no exemplo?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-04-002-02",
+      "moduleId": "POR-04",
+      "subtopicId": "POR-04-002",
+      "topic": "Referência, anáfora, catáfora e elipse",
+      "type": "associacao",
+      "difficulty": "media",
+      "stem": "Associe os fenômenos aos trechos. I: 1. anáfora; 2. catáfora; 3. elipse. II: ( ) “O parecer chegou. Ele será examinado.” ( ) “Isto importa: cumprir o prazo.” ( ) “Ana revisou a minuta; Bia, os anexos.”",
+      "options": [
+        "3 – 2 – 1",
+        "2 – 1 – 3",
+        "1 – 3 – 2",
+        "1 – 2 – 3"
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Incorreta: a primeira frase tem pronome anafórico, não elipse.",
+        "Incorreta: “ele” retoma e não anuncia “parecer”.",
+        "Incorreta: a segunda frase antecipa “cumprir o prazo”; não omite verbo.",
+        "Correta: retomada pronominal, antecipação e verbo “revisou” elíptico, nessa ordem."
+      ],
+      "explanation": "“Ele” retoma “parecer”; “isto” antecipa oração explicativa; no terceiro exemplo, recupera-se “revisou” após “Bia”.",
+      "concept": "Anáfora retoma referente já apresentado; catáfora antecipa elemento que será esclarecido; elipse omite termo recuperável pelo contexto.",
+      "trap": "Tratar elipse como sinônimo de qualquer referência pronominal.",
+      "examTip": "Para reconhecer elipse, tente reconstruir o termo ausente; para referência, siga o antecedente.",
+      "newExample": "“Lia enviou o convite; Rui, a confirmação.” O verbo “enviou” está subentendido na segunda parte.",
+      "challenge": "Qual elemento foi omitido e de onde ele pode ser recuperado?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-04-002-03",
+      "moduleId": "POR-04",
+      "subtopicId": "POR-04-002",
+      "topic": "Referência, anáfora, catáfora e elipse",
+      "type": "vf",
+      "difficulty": "dificil",
+      "stem": "Considere: “Fernanda contou a Patrícia que ela fora convocada. Isso surpreendeu a equipe.” Julgue: I. “Ela” tem referente potencialmente ambíguo. II. “Isso” retoma o conteúdo do período anterior. III. “Isso” aponta para uma informação obrigatoriamente posterior. IV. Substituir “ela” pelo nome pretendido pode eliminar a ambiguidade.",
+      "options": [
+        "V – F – V – V",
+        "F – V – F – V",
+        "V – V – F – V",
+        "V – V – V – F"
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta: “isso” recupera fato expresso anteriormente.",
+        "Incorreta: “ela” pode apontar para duas mulheres no período.",
+        "Correta: I, II e IV são verdadeiras; III confunde anáfora com catáfora.",
+        "Incorreta: “isso” é retomada e o nome explícito permite desambiguação."
+      ],
+      "explanation": "I verdadeira: há duas referentes femininas. II verdadeira: “isso” retoma a situação. III falsa: não antecipa trecho posterior. IV verdadeira: nomear a pessoa esclarece.",
+      "concept": "Anáfora retoma referente já apresentado; catáfora antecipa elemento que será esclarecido; elipse omite termo recuperável pelo contexto.",
+      "trap": "Atribuir automaticamente um pronome ao sujeito mais próximo sem contexto suficiente.",
+      "examTip": "Liste os possíveis antecedentes para pronomes pessoais antes de decidir o referente.",
+      "newExample": "“O diretor avisou o professor de que ele viajaria”: a frase não fixa quem viajará.",
+      "challenge": "Que reescrita explicita o viajante sem alterar outra informação?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-04-002-04",
+      "moduleId": "POR-04",
+      "subtopicId": "POR-04-002",
+      "topic": "Referência, anáfora, catáfora e elipse",
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "Sobre a frase “Os técnicos organizaram o material. Os profissionais o catalogaram depois”, assinale a afirmação INCORRETA.",
+      "options": [
+        "“Depois” ajuda a ordenar temporalmente as duas ações.",
+        "“O material” é retomado pelo pronome “o”.",
+        "O pronome “o” antecipa obrigatoriamente um objeto que será nomeado na frase seguinte.",
+        "“Os profissionais” pode retomar “os técnicos” se o contexto indicar o mesmo grupo."
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Verdadeira: o advérbio cria progressão temporal.",
+        "Verdadeira: pronome átono “o” retoma o objeto já apresentado.",
+        "Falsa: “o” é anafórico porque retoma “material”, não catáfora.",
+        "Verdadeira: a expressão nominal pode retomar o grupo conforme o contexto."
+      ],
+      "explanation": "O pronome “o” remete a “material” anteriormente mencionado; a frase já fornece o referente, logo não exige informação posterior.",
+      "concept": "Anáfora retoma referente já apresentado; catáfora antecipa elemento que será esclarecido; elipse omite termo recuperável pelo contexto.",
+      "trap": "Confundir pronome objeto anafórico com antecipação de referente.",
+      "examTip": "Considere a posição do objeto já mencionado: “o” só seria catafórico com outra estrutura e contexto.",
+      "newExample": "“As pesquisadoras enviaram a ata. A coordenação a recebeu” retoma “ata” por “a”.",
+      "challenge": "Qual expressão é retomada no exemplo e por qual pronome?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-04-003-01",
+      "moduleId": "POR-04",
+      "subtopicId": "POR-04-003",
+      "topic": "Conectores e relações semânticas",
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Na frase “Embora o prazo tenha sido ampliado, alguns candidatos perderam a inscrição”, “embora” introduz relação de causa direta da perda de inscrição.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: “Embora” exprime concessão: apesar da ampliação, ocorreu um resultado contrário à expectativa; não afirma que a ampliação causou a perda.",
+        "Correta: “Embora” exprime concessão: apesar da ampliação, ocorreu um resultado contrário à expectativa; não afirma que a ampliação causou a perda."
+      ],
+      "explanation": "“Embora” exprime concessão: apesar da ampliação, ocorreu um resultado contrário à expectativa; não afirma que a ampliação causou a perda.",
+      "concept": "Conectores explicitam relações semânticas entre orações e segmentos; a troca entre eles só preserva sentido quando a relação expressa permanece a mesma.",
+      "trap": "Ler concessão como causa por aparecer antes da oração principal.",
+      "examTip": "Reformule “embora” por “apesar de” para verificar a relação concessiva.",
+      "newExample": "“Mesmo que o sistema esteja estável, poderá haver filas” exprime concessão.",
+      "challenge": "Que expectativa o exemplo contraria?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-04-003-02",
+      "moduleId": "POR-04",
+      "subtopicId": "POR-04-003",
+      "topic": "Conectores e relações semânticas",
+      "type": "lacunas",
+      "difficulty": "media",
+      "stem": "Complete preservando as relações: “_____ o documento estava ilegível, a equipe pediu nova cópia; _____ a correção seja apresentada até sexta, o pedido seguirá para análise.”",
+      "options": [
+        "Se / embora",
+        "Portanto / porque",
+        "Embora / portanto",
+        "Porque / se"
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Incorreta: a primeira não expressa condição e “embora” não define a condição exigida.",
+        "Incorreta: “portanto” não introduz causalidade subordinada e “porque” não exprime condição.",
+        "Incorreta: a ilegibilidade funciona como motivo e a segunda oração introduz condição, não conclusão.",
+        "Correta: “porque” indica motivo; “se” estabelece condição para análise."
+      ],
+      "explanation": "A primeira lacuna solicita causa do pedido de nova cópia; a segunda, uma condição para o processamento.",
+      "concept": "Conectores explicitam relações semânticas entre orações e segmentos; a troca entre eles só preserva sentido quando a relação expressa permanece a mesma.",
+      "trap": "Substituir a relação condicional por uma concessão, mudando o requisito de análise.",
+      "examTip": "Procure termos que respondam “por quê?” (causa) e “em que condição?” (se).",
+      "newExample": "“Como faltava a assinatura, o processo voltou; se for assinado hoje, será analisado.”",
+      "challenge": "Por que o primeiro conectivo não pode ser interpretado como finalidade?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-04-003-03",
+      "moduleId": "POR-04",
+      "subtopicId": "POR-04-003",
+      "topic": "Conectores e relações semânticas",
+      "type": "afirmacoes",
+      "difficulty": "dificil",
+      "stem": "Leia: “O servidor revisou o texto para que o público compreendesse as etapas. Como o aviso era longo, retirou repetições; contudo, manteve os prazos.” Julgue: I. “Para que” exprime finalidade. II. “Como”, no início, apresenta causa. III. “Contudo” expressa adição sem contraste. Assinale a correta.",
+      "options": [
+        "Apenas I e II.",
+        "Apenas II e III.",
+        "I, II e III.",
+        "Apenas I e III."
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: I marca propósito e II motiva a retirada; III é falsa.",
+        "Incorreta: III é falsa, pois “contudo” sinaliza oposição ou ressalva.",
+        "Incorreta: “contudo” não é simples marcador aditivo.",
+        "Incorreta: II também é verdadeira e III é falsa."
+      ],
+      "explanation": "Finalidade em “para que”; causa em “como” inicial; ressalva/oposição em “contudo”, e não adição.",
+      "concept": "Conectores explicitam relações semânticas entre orações e segmentos; a troca entre eles só preserva sentido quando a relação expressa permanece a mesma.",
+      "trap": "Classificar todos os conectivos sem considerar posição e relação discursiva.",
+      "examTip": "Diferencie o objetivo buscado da causa prévia e da ressalva que limita a ação.",
+      "newExample": "“A fim de orientar o usuário, o setor resumiu o texto; porém, não omitiu as datas.”",
+      "challenge": "Quais valores semânticos têm “a fim de” e “porém” no exemplo?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-04-003-04",
+      "moduleId": "POR-04",
+      "subtopicId": "POR-04-003",
+      "topic": "Conectores e relações semânticas",
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "Assinale a substituição que NÃO preserva a relação lógica do período.",
+      "options": [
+        "“Se houver vaga, será atendido” → “Caso haja vaga, será atendido”.",
+        "“Embora chovesse, a reunião ocorreu” → “Apesar da chuva, a reunião ocorreu”.",
+        "“Para que não haja filas, agende seu horário” → “Porque não há filas, agende seu horário”.",
+        "“O documento faltou; portanto, houve diligência” → “Como o documento faltou, houve diligência”."
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Preserva condição: existência de vaga.",
+        "Preserva concessão: o obstáculo não impediu o fato.",
+        "Não preserva: finalidade preventiva é substituída por motivo afirmado, alterando o sentido.",
+        "Preserva o vínculo causal/conclusivo na interpretação de que a falta motivou a diligência."
+      ],
+      "explanation": "A troca de “para que” por “porque” converte finalidade projetada em razão, deixando de preservar a relação original.",
+      "concept": "Conectores explicitam relações semânticas entre orações e segmentos; a troca entre eles só preserva sentido quando a relação expressa permanece a mesma.",
+      "trap": "Confundir objetivo não realizado ainda com causa apresentada como fato.",
+      "examTip": "Teste sempre o valor semântico do conectivo proposto, não só sua correção gramatical.",
+      "newExample": "“Estude para que aprenda” não equivale a “Estude porque aprendeu”.",
+      "challenge": "Que relação de tempo/intenção muda entre as duas construções?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-04-004-01",
+      "moduleId": "POR-04",
+      "subtopicId": "POR-04-004",
+      "topic": "Repetição, substituição, sinonímia e paralelismo",
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Na frase “O grupo pretende planejar, execução e avaliar o projeto”, a alternância entre infinitivos e substantivo compromete o paralelismo sintático da enumeração.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: “Planejar” e “avaliar” são infinitivos; “execução” é substantivo. Uma lista paralela seria “planejar, executar e avaliar”.",
+        "Incorreta: “Planejar” e “avaliar” são infinitivos; “execução” é substantivo. Uma lista paralela seria “planejar, executar e avaliar”."
+      ],
+      "explanation": "“Planejar” e “avaliar” são infinitivos; “execução” é substantivo. Uma lista paralela seria “planejar, executar e avaliar”.",
+      "concept": "A coesão lexical pode empregar repetição estratégica, sinonímia contextual, hiperônimos e expressões substitutivas; paralelismo mantém correspondência estrutural entre termos coordenados.",
+      "trap": "Considerar equivalentes termos que ocupam posições coordenadas mas têm construções diferentes.",
+      "examTip": "Compare a classe e a função de cada elemento da enumeração.",
+      "newExample": "“Ler, interpretar e responder” mantém a mesma forma gramatical.",
+      "challenge": "Por que “leitura, interpretar e resposta” perde paralelismo?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-04-004-02",
+      "moduleId": "POR-04",
+      "subtopicId": "POR-04-004",
+      "topic": "Repetição, substituição, sinonímia e paralelismo",
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Qual reescrita apresenta enumeração paralela e preserva as três tarefas de “recebimento dos formulários, conferir anexos e protocolar pedidos”?",
+      "options": [
+        "“Receber formulários, conferindo anexos e o protocolo dos pedidos.”",
+        "“Os formulários recebidos, os anexos conferem e o protocolo de pedidos.”",
+        "“O recebimento dos formulários, conferência e que se protocolam pedidos.”",
+        "“Receber os formulários, conferir os anexos e protocolar os pedidos.”"
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Incorreta: gerúndio e sintagma nominal desorganizam a lista de tarefas.",
+        "Incorreta: não forma série de ações com funções equivalentes.",
+        "Incorreta: mistura substantivos, oração e referência incompleta aos anexos.",
+        "Correta: três verbos no infinitivo descrevem ações coordenadas e preservam as tarefas."
+      ],
+      "explanation": "A estrutura paralela usa três verbos no infinitivo para ordenar as atividades previstas, sem omitir nenhuma.",
+      "concept": "A coesão lexical pode empregar repetição estratégica, sinonímia contextual, hiperônimos e expressões substitutivas; paralelismo mantém correspondência estrutural entre termos coordenados.",
+      "trap": "Trocar ações por fragmentos nominais que deixam de corresponder às tarefas originais.",
+      "examTip": "Identifique uma forma gramatical comum e aplique-a às três atividades, mantendo os objetos.",
+      "newExample": "“O atendimento inclui cadastrar, conferir e encaminhar solicitações.”",
+      "challenge": "Como transformar o exemplo em enumeração de substantivos sem perder as três atividades?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-04-004-03",
+      "moduleId": "POR-04",
+      "subtopicId": "POR-04-004",
+      "topic": "Repetição, substituição, sinonímia e paralelismo",
+      "type": "vf",
+      "difficulty": "dificil",
+      "stem": "Julgue: I. “Equipamento” pode funcionar como hiperônimo de “impressora” em contexto apropriado. II. Repetição lexical é sempre falha de coesão. III. Uma retomada por termo genérico pode criar ambiguidade se houver vários referentes. IV. Paralelismo exige que toda frase repita exatamente as mesmas palavras.",
+      "options": [
+        "V – F – V – F",
+        "V – V – V – F",
+        "F – F – V – V",
+        "V – F – F – V"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: I e III verdadeiras; II e IV têm quantificadores absolutos indevidos.",
+        "Incorreta: a repetição pode proteger a referência e não é erro universal.",
+        "Incorreta: “impressora” é tipo de equipamento, e repetir pode ser necessário.",
+        "Incorreta: III é verdadeira e IV é falsa, pois paralelismo é correspondência de construção."
+      ],
+      "explanation": "Hiperônimo generaliza (I). Repetição pode ser estratégica (II falsa). Referente pode ficar incerto (III). Paralelismo não implica repetição literal (IV falsa).",
+      "concept": "A coesão lexical pode empregar repetição estratégica, sinonímia contextual, hiperônimos e expressões substitutivas; paralelismo mantém correspondência estrutural entre termos coordenados.",
+      "trap": "Generalizar “sempre” para repetição e confundir paralelismo com identidade vocabular.",
+      "examTip": "Observe os quantificadores totais: repetição e substituição devem ser julgadas pelo contexto.",
+      "newExample": "“O scanner apresentou defeito. O equipamento foi recolhido” retoma o scanner quando ele é o único equipamento referido.",
+      "challenge": "O que mudaria se impressora e scanner tivessem sido mencionados antes?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-04-004-04",
+      "moduleId": "POR-04",
+      "subtopicId": "POR-04-004",
+      "topic": "Repetição, substituição, sinonímia e paralelismo",
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "Em relação ao período “A comissão analisou as propostas, validou os documentos e divulgou o resultado”, todas as afirmações estão corretas, EXCETO:",
+      "options": [
+        "Para manter paralelismo, é obrigatório trocar os três verbos por um único substantivo genérico.",
+        "A enumeração apresenta ações coordenadas com objetos diferentes.",
+        "Há paralelismo entre os três núcleos verbais no pretérito perfeito.",
+        "Os verbos compartilham o sujeito “a comissão”."
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Falsa: não há necessidade de trocar verbos por substantivo; o paralelismo já existe.",
+        "Verdadeira: as ações da comissão são coordenadas e têm objetos próprios.",
+        "Verdadeira: analisou, validou e divulgou apresentam estrutura verbal correspondente.",
+        "Verdadeira: sujeito único recuperável nos três predicados."
+      ],
+      "explanation": "O período já organiza três ações com o mesmo sujeito e forma verbal. Substituí-las por um substantivo genérico pode reduzir informação.",
+      "concept": "A coesão lexical pode empregar repetição estratégica, sinonímia contextual, hiperônimos e expressões substitutivas; paralelismo mantém correspondência estrutural entre termos coordenados.",
+      "trap": "Imaginar que o paralelismo exige uma só classe nominal, mesmo diante de série verbal bem formada.",
+      "examTip": "Verifique primeiro se a estrutura original já é paralela antes de sugerir reescrita.",
+      "newExample": "“A equipe registrou pedidos, conferiu prazos e notificou usuários” é paralela sem nominalizações.",
+      "challenge": "Quais são os três núcleos verbais do exemplo?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-04-005-01",
+      "moduleId": "POR-04",
+      "subtopicId": "POR-04-005",
+      "topic": "Rupturas de coesão e revisão de encadeamento",
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "No trecho “O pedido será aceito após apresentação de identificação”, omitir “após apresentação de identificação” mantém integralmente o significado do enunciado.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: A oração reduzida estabelece condição/ordem temporal necessária; sua remoção transforma uma aceitação condicionada em afirmação sem condição.",
+        "Correta: A oração reduzida estabelece condição/ordem temporal necessária; sua remoção transforma uma aceitação condicionada em afirmação sem condição."
+      ],
+      "explanation": "A oração reduzida estabelece condição/ordem temporal necessária; sua remoção transforma uma aceitação condicionada em afirmação sem condição.",
+      "concept": "Rupturas de coesão incluem referente incerto, conectivo incompatível, elipse irrecuperável e progressão truncada; a revisão deve restabelecer relações sem inventar dados.",
+      "trap": "Confundir concisão com eliminação de requisito essencial.",
+      "examTip": "Compare as condições expressas antes e depois da reescrita.",
+      "newExample": "“O benefício será liberado mediante aprovação” não equivale a “O benefício será liberado”.",
+      "challenge": "Qual informação foi perdida na segunda formulação do exemplo?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-04-005-02",
+      "moduleId": "POR-04",
+      "subtopicId": "POR-04-005",
+      "topic": "Rupturas de coesão e revisão de encadeamento",
+      "type": "lacunas",
+      "difficulty": "media",
+      "stem": "Complete o texto de modo coerente: “O formulário estava incompleto; _____, foi devolvido ao candidato. _____ o documento corrigido seja enviado até sexta, a análise será retomada.”",
+      "options": [
+        "contudo / embora",
+        "apesar disso / portanto",
+        "porém / porque",
+        "por isso / se"
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Incorreta: devolução decorre da incompletude; segunda oração estabelece condição, não concessão.",
+        "Incorreta: “apesar disso” sugere oposição, e “portanto” não introduz a condição requerida.",
+        "Incorreta: “porém” inverte a relação e “porque” não exprime requisito futuro.",
+        "Correta: consequência de falta documental, seguida de condição para retomar análise."
+      ],
+      "explanation": "“Por isso” retoma o motivo da devolução; “se” coloca o envio corrigido como condição para reabrir a análise.",
+      "concept": "Rupturas de coesão incluem referente incerto, conectivo incompatível, elipse irrecuperável e progressão truncada; a revisão deve restabelecer relações sem inventar dados.",
+      "trap": "Usar conectivos concessivos quando o conteúdo exige causa e condição.",
+      "examTip": "Identifique a relação entre fatos passados e requisitos futuros no mesmo aviso.",
+      "newExample": "“Faltou assinatura; por essa razão, houve diligência. Caso seja assinada, a peça seguirá adiante.”",
+      "challenge": "Como “caso” altera a certeza sobre o envio?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-04-005-03",
+      "moduleId": "POR-04",
+      "subtopicId": "POR-04-005",
+      "topic": "Rupturas de coesão e revisão de encadeamento",
+      "type": "afirmacoes",
+      "difficulty": "dificil",
+      "stem": "Considere: “Luísa avisou a estagiária de que ela precisaria reenviar o arquivo até quarta.” I. Há ambiguidade potencial no referente de “ela”. II. Substituir “ela” pelo nome da pessoa que deve agir elimina a dúvida. III. Suprimir “até quarta” preserva integralmente o prazo. Qual combinação está correta?",
+      "options": [
+        "I, II e III.",
+        "Apenas I e III.",
+        "Apenas II e III.",
+        "Apenas I e II."
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Incorreta: III é falsa, embora I e II sejam verdadeiras.",
+        "Incorreta: III é falsa, e II é verdadeira.",
+        "Incorreta: a supressão do prazo modifica a informação; I também é verdadeira.",
+        "Correta: a referência pode ser ambígua; o nome esclarece; o prazo não pode ser omitido."
+      ],
+      "explanation": "“Ela” pode designar Luísa ou a estagiária. Nomear a pessoa pretendida resolve a referência. Retirar o prazo muda a obrigação.",
+      "concept": "Rupturas de coesão incluem referente incerto, conectivo incompatível, elipse irrecuperável e progressão truncada; a revisão deve restabelecer relações sem inventar dados.",
+      "trap": "Corrigir pronome enquanto elimina informação temporal obrigatória.",
+      "examTip": "Julgue separadamente referente, ação e prazo ao comparar versões.",
+      "newExample": "“Cláudia informou a colega de que Cláudia reenviaria o anexo até quinta” esclarece a agente e preserva o prazo.",
+      "challenge": "Qual reescrita indicaria, em vez disso, que a colega deve reenviar?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-04-005-04",
+      "moduleId": "POR-04",
+      "subtopicId": "POR-04-005",
+      "topic": "Rupturas de coesão e revisão de encadeamento",
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "Um aviso informa: “Solicitações recebidas até 18h serão analisadas no dia útil seguinte.” Assinale a reescrita que NÃO preserva as informações essenciais.",
+      "options": [
+        "“Todos os pedidos serão analisados imediatamente após o recebimento, independentemente do horário.”",
+        "“Pedidos protocolados até as 18h terão análise no dia útil subsequente.”",
+        "“O dia útil seguinte é previsto para análise dos pedidos que chegarem até 18h.”",
+        "“O exame ocorrerá no próximo dia útil para pedidos recebidos até as 18h.”"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Não preserva: elimina limite de horário e troca dia útil seguinte por imediatismo.",
+        "Preserva o horário-limite e o dia de análise.",
+        "Preserva a janela de recebimento e o dia útil subsequente.",
+        "Preserva a condição temporal e o momento posterior de análise."
+      ],
+      "explanation": "A quarta opção modifica tanto a condição de recebimento como o prazo da análise; as demais preservam o núcleo informacional.",
+      "concept": "Rupturas de coesão incluem referente incerto, conectivo incompatível, elipse irrecuperável e progressão truncada; a revisão deve restabelecer relações sem inventar dados.",
+      "trap": "Confundir divulgação da análise no dia útil seguinte com atendimento imediato sem limite.",
+      "examTip": "Compare operadores temporais: “até”, “seguinte” e “imediatamente” não são intercambiáveis.",
+      "newExample": "“Documentos enviados até terça serão conferidos na quarta” não permite concluir que todos são conferidos no mesmo instante.",
+      "challenge": "Qual detalhe temporal deve ficar em qualquer paráfrase equivalente?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    }
+  ],
+  "POR-05": [
+    {
+      "id": "Q-POR-05-001-01",
+      "moduleId": "POR-05",
+      "subtopicId": "POR-05-001",
+      "topic": "Denotação, conotação e polissemia",
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Em “A nova parceria abriu portas para projetos de pesquisa”, a expressão “abriu portas” pode significar, em sentido figurado, que surgiram oportunidades.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: Nesse contexto, “abrir portas” indica viabilizar oportunidades, não deslocar fisicamente portas de uma edificação.",
+        "Incorreta: Nesse contexto, “abrir portas” indica viabilizar oportunidades, não deslocar fisicamente portas de uma edificação."
+      ],
+      "explanation": "Nesse contexto, “abrir portas” indica viabilizar oportunidades, não deslocar fisicamente portas de uma edificação.",
+      "concept": "Denotação é uso literal convencional; conotação agrega sentido figurado e expressivo; polissemia é a pluralidade de acepções relacionadas de um mesmo vocábulo.",
+      "trap": "Ler literalmente expressão figurada sustentada pelo campo semântico de oportunidades.",
+      "examTip": "Considere o referente: parcerias não abrem fisicamente portas para projetos abstratos.",
+      "newExample": "“A bolsa de estudos deu asas ao projeto” indica impulso figurado.",
+      "challenge": "Como dizer o sentido do exemplo sem empregar metáfora?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-05-001-02",
+      "moduleId": "POR-05",
+      "subtopicId": "POR-05-001",
+      "topic": "Denotação, conotação e polissemia",
+      "type": "associacao",
+      "difficulty": "media",
+      "stem": "Associe os termos ao uso: 1. denotação; 2. conotação; 3. polissemia. ( ) “O corredor tinha quatro portas.” ( ) “A notícia caiu como uma bomba.” ( ) “A cabeça do grupo decidiu; depois, o atleta protegeu a cabeça.”",
+      "options": [
+        "3 – 1 – 2",
+        "1 – 2 – 3",
+        "2 – 1 – 3",
+        "1 – 3 – 2"
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: a primeira frase é literal e a segunda, conotativa.",
+        "Correta: uso literal, expressão figurada e duas acepções relacionadas de “cabeça”.",
+        "Incorreta: porta literal não é conotação, e a notícia usa expressão figurada.",
+        "Incorreta: a notícia é conotativa, não caso apresentado de polissemia na questão."
+      ],
+      "explanation": "“Portas” designa objetos físicos (1); “bomba” expressa impacto em uso figurado (2); “cabeça” assume sentidos relacionados de líder e parte do corpo (3).",
+      "concept": "Denotação é uso literal convencional; conotação agrega sentido figurado e expressivo; polissemia é a pluralidade de acepções relacionadas de um mesmo vocábulo.",
+      "trap": "Confundir qualquer palavra de vários sentidos com o emprego figurado isolado no enunciado.",
+      "examTip": "Identifique o uso contextual de cada palavra, em vez de classificar pela forma isolada.",
+      "newExample": "“A base do prédio” e “a base do argumento” mobilizam acepções relacionadas de “base”.",
+      "challenge": "Como o contexto afasta a leitura arquitetônica da segunda expressão?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-05-001-03",
+      "moduleId": "POR-05",
+      "subtopicId": "POR-05-001",
+      "topic": "Denotação, conotação e polissemia",
+      "type": "vf",
+      "difficulty": "dificil",
+      "stem": "Leia: “Depois de semanas parado, o projeto finalmente ganhou fôlego. A equipe respirou aliviada.” Julgue: I. “Ganhou fôlego” pode ser lido como retomada de impulso. II. A expressão obriga concluir que um projeto abstrato passou a respirar literalmente. III. “Respirou aliviada” também pode representar reação emocional da equipe. IV. Uma paráfrase literal do primeiro enunciado seria “o projeto recebeu novo impulso”.",
+      "options": [
+        "V – V – F – V",
+        "V – F – V – V",
+        "F – F – V – V",
+        "V – F – F – V"
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: II é falsa e III é possível, não necessária respiração de projeto.",
+        "Correta: I, III e IV são sustentadas pelo contexto; II literaliza indevidamente.",
+        "Incorreta: I está correta; a expressão indica retomada do projeto.",
+        "Incorreta: III também é verdadeira no contexto de reação ao avanço."
+      ],
+      "explanation": "I verdadeira: “fôlego” é metáfora de impulso. II falsa: projeto não respira. III verdadeira: a equipe pode expressar alívio. IV verdadeira: conserva o sentido.",
+      "concept": "Denotação é uso literal convencional; conotação agrega sentido figurado e expressivo; polissemia é a pluralidade de acepções relacionadas de um mesmo vocábulo.",
+      "trap": "Converter imagem metafórica em fato físico sobre entidade abstrata.",
+      "examTip": "Verifique se a interpretação mantém o campo discursivo de projetos e equipes.",
+      "newExample": "“A campanha perdeu força” pode ser parafraseado como “a campanha perdeu capacidade de mobilização”.",
+      "challenge": "Por que a paráfrase não pode afirmar diminuição de força muscular de uma campanha?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-05-001-04",
+      "moduleId": "POR-05",
+      "subtopicId": "POR-05-001",
+      "topic": "Denotação, conotação e polissemia",
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "Em relação à interpretação contextual de “O acordo foi a ponte entre as duas instituições”, todas são análises adequadas, EXCETO:",
+      "options": [
+        "A expressão pode ser reescrita como “O acordo aproximou as instituições”.",
+        "O enunciado comprova que foi construída uma passarela ligando fisicamente os prédios das instituições.",
+        "O contexto favorece leitura figurada em vez de estrutura física.",
+        "“Ponte” pode representar ligação ou aproximação institucional."
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Verdadeira: explicita a aproximação sem imagem figurada.",
+        "Falsa: inferência de construção física não é autorizada pelo enunciado.",
+        "Verdadeira: acordo como instrumento de vínculo permite interpretação conotativa.",
+        "Verdadeira: a imagem de ponte representa conexão."
+      ],
+      "explanation": "“Ponte” figura uma relação entre instituições; nada no enunciado afirma construção de obra física.",
+      "concept": "Denotação é uso literal convencional; conotação agrega sentido figurado e expressivo; polissemia é a pluralidade de acepções relacionadas de um mesmo vocábulo.",
+      "trap": "Tratar metáfora relacional como relato de infraestrutura.",
+      "examTip": "Busque uma paráfrase que mantenha a relação abstrata, sem acrescentar objetos físicos.",
+      "newExample": "“O diálogo é uma chave para a cooperação” não implica chave metálica.",
+      "challenge": "Que sentido literal pode substituir “chave” no novo exemplo?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-05-002-01",
+      "moduleId": "POR-05",
+      "subtopicId": "POR-05-002",
+      "topic": "Sinonímia, antonímia e gradação",
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Na frase “A mudança pode reduzir os custos”, substituir “pode reduzir” por “certamente eliminará” preserva a mesma intensidade e grau de certeza.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: “Pode reduzir” indica possibilidade de diminuição; “certamente eliminará” afirma certeza e supressão total dos custos, ampliando indevidamente o sentido.",
+        "Correta: “Pode reduzir” indica possibilidade de diminuição; “certamente eliminará” afirma certeza e supressão total dos custos, ampliando indevidamente o sentido."
+      ],
+      "explanation": "“Pode reduzir” indica possibilidade de diminuição; “certamente eliminará” afirma certeza e supressão total dos custos, ampliando indevidamente o sentido.",
+      "concept": "Sinonímia é proximidade contextual de sentido; antonímia é relação de oposição semântica; gradação ordena intensidades em uma escala.",
+      "trap": "Confundir modalidade de possibilidade e diminuição parcial com certeza absoluta.",
+      "examTip": "Compare os verbos modais e quantificadores antes de julgar sinonímia.",
+      "newExample": "“A nova rotina talvez agilize” não equivale a “a rotina agiliza sempre”.",
+      "challenge": "Quais marcas expressam dúvida e certeza nas duas versões?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-05-002-02",
+      "moduleId": "POR-05",
+      "subtopicId": "POR-05-002",
+      "topic": "Sinonímia, antonímia e gradação",
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Em “A explicação foi clara e objetiva”, qual substituição preserva melhor o sentido de “clara” nesse contexto?",
+      "options": [
+        "Escura, pois se trata de termo semanticamente equivalente.",
+        "Iluminada, pois o conteúdo dependia de luz.",
+        "Transparente, no sentido obrigatório de material translúcido.",
+        "Compreensível, pois se destaca a facilidade de entendimento."
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Incorreta: “escura” não é sinônimo nesse contexto e sugere sentido oposto.",
+        "Incorreta: luminosidade física não é a acepção do termo no período.",
+        "Incorreta: transparência física não descreve o conteúdo da explicação.",
+        "Correta: “compreensível” mantém o valor de entendimento."
+      ],
+      "explanation": "Em “explicação clara”, o adjetivo avalia a inteligibilidade, não a luminosidade.",
+      "concept": "Sinonímia é proximidade contextual de sentido; antonímia é relação de oposição semântica; gradação ordena intensidades em uma escala.",
+      "trap": "Selecionar sinônimo de outra acepção do mesmo adjetivo.",
+      "examTip": "Substitua o termo dentro do mesmo período e confira se a propriedade avaliada permanece.",
+      "newExample": "“Instruções nítidas” pode significar “instruções fáceis de compreender” em contexto apropriado.",
+      "challenge": "Por que “instruções brilhantes” pode deslocar a avaliação para elogio de qualidade?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-05-002-03",
+      "moduleId": "POR-05",
+      "subtopicId": "POR-05-002",
+      "topic": "Sinonímia, antonímia e gradação",
+      "type": "afirmacoes",
+      "difficulty": "dificil",
+      "stem": "Analise: I. Em “sala clara”, “clara” pode opor-se a “escura”. II. Em “orientação clara”, “confusa” pode funcionar como antônimo contextual. III. Em “melhoria modesta”, substituir “modesta” por “extraordinária” preserva a intensidade. Qual alternativa é correta?",
+      "options": [
+        "Apenas I e II.",
+        "Apenas II e III.",
+        "Apenas I e III.",
+        "I, II e III."
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: as oposições dependem do sentido; III altera a intensidade.",
+        "Incorreta: I também é verdadeira e III é falsa.",
+        "Incorreta: III é falsa e II é verdadeira.",
+        "Incorreta: III é falsa, pois “extraordinária” intensifica fortemente a avaliação."
+      ],
+      "explanation": "I correta: luminosidade. II correta: inteligibilidade. III incorreta: “modesta” e “extraordinária” não expressam o mesmo grau de melhoria.",
+      "concept": "Sinonímia é proximidade contextual de sentido; antonímia é relação de oposição semântica; gradação ordena intensidades em uma escala.",
+      "trap": "Supor que um mesmo adjetivo mantém sempre o mesmo antônimo.",
+      "examTip": "Observe a propriedade contextual e o grau de intensidade de cada troca.",
+      "newExample": "“Resultado discreto” não equivale a “resultado excepcional”.",
+      "challenge": "Que escala avaliativa distingue os dois adjetivos?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-05-002-04",
+      "moduleId": "POR-05",
+      "subtopicId": "POR-05-002",
+      "topic": "Sinonímia, antonímia e gradação",
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "Sobre a paráfrase “O parecer identificou indícios de irregularidade”, assinale a reescrita que NÃO preserva a cautela expressa.",
+      "options": [
+        "“O documento comprovou definitivamente todas as irregularidades investigadas.”",
+        "“O parecer apontou sinais de possível irregularidade.”",
+        "“O documento registrou elementos indicativos de irregularidade.”",
+        "“A análise observou indícios de que poderia haver irregularidade.”"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Não preserva: substitui indício por comprovação definitiva e amplia o alcance.",
+        "Preserva ideia de sinais, sem prova conclusiva.",
+        "Preserva indícios em vez de confirmação final.",
+        "Preserva caráter possível da irregularidade."
+      ],
+      "explanation": "“Indícios” não equivalem a prova definitiva de todas as condutas; a última opção altera certeza e extensão.",
+      "concept": "Sinonímia é proximidade contextual de sentido; antonímia é relação de oposição semântica; gradação ordena intensidades em uma escala.",
+      "trap": "Transformar indício em comprovação absoluta por escolha lexical.",
+      "examTip": "Em provas, marque termos que elevam o grau de certeza (“comprovou”, “definitivamente”).",
+      "newExample": "“Há sinais de inconsistência” não significa “toda informação está comprovadamente errada”.",
+      "challenge": "Por que “toda” e “comprovadamente” extrapolam o sentido?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-05-003-01",
+      "moduleId": "POR-05",
+      "subtopicId": "POR-05-003",
+      "topic": "Homonímia, paronímia e distinções de sentido",
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "A frase “A comissão retificou a data do exame” informa que a comissão corrigiu uma informação, diferentemente de “ratificou”, que indicaria confirmação.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: “Retificar” é corrigir; “ratificar” é confirmar. A substituição de um pelo outro muda o ato informado.",
+        "Incorreta: “Retificar” é corrigir; “ratificar” é confirmar. A substituição de um pelo outro muda o ato informado."
+      ],
+      "explanation": "“Retificar” é corrigir; “ratificar” é confirmar. A substituição de um pelo outro muda o ato informado.",
+      "concept": "Homônimos coincidem na pronúncia e/ou grafia com sentidos distintos; parônimos têm formas semelhantes, mas significado e emprego diferentes.",
+      "trap": "Trocar parônimos por semelhança ortográfica apesar de sentidos opostos na situação.",
+      "examTip": "Associe “reTificar” a tornar reto/corrigir e “raTificar” a confirmar no contexto.",
+      "newExample": "“O órgão ratificou o resultado” comunica confirmação; “retificou o resultado” comunica correção.",
+      "challenge": "Qual verbo você usaria para corrigir um erro de digitação em edital?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-05-003-02",
+      "moduleId": "POR-05",
+      "subtopicId": "POR-05-003",
+      "topic": "Homonímia, paronímia e distinções de sentido",
+      "type": "lacunas",
+      "difficulty": "media",
+      "stem": "Complete adequadamente: “A chefia pediu a _____ do erro no documento e confirmou a _____ ordinária do colegiado para a próxima semana.”",
+      "options": [
+        "ratificação / sessão",
+        "ratificação / seção",
+        "retificação / cessão",
+        "retificação / sessão"
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Incorreta: ratificação não corresponde à correção de erro.",
+        "Incorreta: “ratificação” confirma, não corrige; “seção” é divisão.",
+        "Incorreta: cessão é ato de ceder, não reunião.",
+        "Correta: retificação corrige erro; sessão designa reunião."
+      ],
+      "explanation": "Corrigir documento exige “retificação”; reunião de colegiado é “sessão”.",
+      "concept": "Homônimos coincidem na pronúncia e/ou grafia com sentidos distintos; parônimos têm formas semelhantes, mas significado e emprego diferentes.",
+      "trap": "Confundir parônimos ratificar/retificar e homófonos sessão/seção/cessão.",
+      "examTip": "Defina a ação e o referente antes de escolher grafias semelhantes.",
+      "newExample": "“O edital sofreu retificação, e a sessão pública foi remarcada.”",
+      "challenge": "Que vocábulo indicaria o setor responsável: sessão ou seção?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-05-003-03",
+      "moduleId": "POR-05",
+      "subtopicId": "POR-05-003",
+      "topic": "Homonímia, paronímia e distinções de sentido",
+      "type": "associacao",
+      "difficulty": "dificil",
+      "stem": "Associe as palavras aos sentidos: 1. ratificar; 2. retificar; 3. descrição; 4. discrição. ( ) confirmar uma decisão; ( ) corrigir um dado; ( ) apresentar características; ( ) agir com reserva.",
+      "options": [
+        "3 – 2 – 1 – 4",
+        "2 – 1 – 3 – 4",
+        "1 – 2 – 3 – 4",
+        "1 – 2 – 4 – 3"
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta: descrição não confirma decisões.",
+        "Incorreta: confirmação e correção ficam invertidas.",
+        "Correta: confirmação, correção, caracterização e reserva.",
+        "Incorreta: descrição não significa reserva e discrição não significa caracterização."
+      ],
+      "explanation": "Ratificar confirma, retificar corrige, descrição caracteriza, discrição é reserva no agir ou no falar.",
+      "concept": "Homônimos coincidem na pronúncia e/ou grafia com sentidos distintos; parônimos têm formas semelhantes, mas significado e emprego diferentes.",
+      "trap": "Inferir sinonímia só porque dois vocábulos têm estrutura semelhante.",
+      "examTip": "Substitua os termos por suas definições e teste a coerência resultante.",
+      "newExample": "“Ela fez uma descrição detalhada” não avalia sua discrição pessoal.",
+      "challenge": "Como distinguir “discrição” de “descrição” num relatório de desempenho?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-05-003-04",
+      "moduleId": "POR-05",
+      "subtopicId": "POR-05-003",
+      "topic": "Homonímia, paronímia e distinções de sentido",
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "Todas as associações entre vocábulo e contexto estão adequadas, EXCETO:",
+      "options": [
+        "“Sessão do terreno” — ato jurídico de transferência da propriedade por cessão.",
+        "“Cessão de uso” — ato de ceder o uso de um bem.",
+        "“Sessão plenária” — reunião de membros de um colegiado.",
+        "“Seção de protocolo” — divisão administrativa responsável por registros."
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Falsa: no ato de ceder, o termo apropriado é “cessão”, não “sessão”.",
+        "Verdadeira: cessão liga-se ao verbo ceder.",
+        "Verdadeira: sessão denomina reunião ou período de atividade.",
+        "Verdadeira: seção refere-se a repartição ou parte de um conjunto."
+      ],
+      "explanation": "Sessão, seção e cessão possuem pronúncias próximas em muitas variedades, mas designam reunião, divisão e ato de ceder.",
+      "concept": "Homônimos coincidem na pronúncia e/ou grafia com sentidos distintos; parônimos têm formas semelhantes, mas significado e emprego diferentes.",
+      "trap": "Selecionar grafia pelo som e ignorar o sentido jurídico de “ceder”.",
+      "examTip": "Associe o referente concreto a uma definição: reunião, divisão ou transferência.",
+      "newExample": "“A cessão temporária da sala foi aprovada na sessão do conselho”.",
+      "challenge": "Qual palavra refere-se à reunião no exemplo?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-05-004-01",
+      "moduleId": "POR-05",
+      "subtopicId": "POR-05-004",
+      "topic": "Ambiguidade lexical e sintática",
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Na frase “A coordenadora conversou com a técnica com um microfone”, é inequívoco que a coordenadora estava com o microfone.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: “Com um microfone” pode modificar a ação de conversar ou caracterizar a técnica; a construção não fixa uma só leitura sem contexto adicional.",
+        "Correta: “Com um microfone” pode modificar a ação de conversar ou caracterizar a técnica; a construção não fixa uma só leitura sem contexto adicional."
+      ],
+      "explanation": "“Com um microfone” pode modificar a ação de conversar ou caracterizar a técnica; a construção não fixa uma só leitura sem contexto adicional.",
+      "concept": "Ambiguidade lexical nasce de sentidos possíveis de um termo; ambiguidade sintática decorre de diferentes relações de estrutura ou referência.",
+      "trap": "Impor leitura única a adjunto que pode ligar-se a mais de um constituinte.",
+      "examTip": "Experimente mover a expressão “com” para verificar os dois vínculos possíveis.",
+      "newExample": "“Viu o aluno com o telescópio” pode indicar instrumento da observação ou objeto do aluno.",
+      "challenge": "Como produzir duas reescritas diferentes e explícitas do exemplo?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-05-004-02",
+      "moduleId": "POR-05",
+      "subtopicId": "POR-05-004",
+      "topic": "Ambiguidade lexical e sintática",
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "A frase “Marina contou a Elisa que ela havia sido selecionada” pode ser ambígua. Se a selecionada for Elisa, qual reescrita elimina a dúvida sem acrescentar acontecimentos?",
+      "options": [
+        "“Marina contou a Elisa que Elisa havia sido selecionada.”",
+        "“A seleção foi cancelada, segundo Marina e Elisa.”",
+        "“Marina contou a Elisa que Marina havia sido selecionada.”",
+        "“Marina e Elisa haviam sido selecionadas e conversaram.”"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: repetição do nome esclarece a pessoa selecionada.",
+        "Incorreta: acrescenta cancelamento sem apoio textual.",
+        "Incorreta: essa redação atribui a seleção a Marina, sentido diferente do pedido.",
+        "Incorreta: cria seleção de ambas, não contida no enunciado."
+      ],
+      "explanation": "Quando Elisa é a selecionada, explicitar seu nome no segundo segmento fixa o referente de “ela”.",
+      "concept": "Ambiguidade lexical nasce de sentidos possíveis de um termo; ambiguidade sintática decorre de diferentes relações de estrutura ou referência.",
+      "trap": "Trocar uma ambiguidade por afirmação não informada sobre outras pessoas ou fatos.",
+      "examTip": "Explicite o nome da pessoa que a oração subordinada retoma.",
+      "newExample": "“Rita informou a Sara que Sara receberia a bolsa” indica claramente a beneficiária.",
+      "challenge": "Como reescrever caso a beneficiária seja Rita?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-05-004-03",
+      "moduleId": "POR-05",
+      "subtopicId": "POR-05-004",
+      "topic": "Ambiguidade lexical e sintática",
+      "type": "afirmacoes",
+      "difficulty": "dificil",
+      "stem": "Examine “O diretor observou o servidor com binóculos”. I. É possível que os binóculos tenham sido instrumento do diretor. II. É possível que o servidor estivesse portando binóculos. III. Só a frase determina que ambas as pessoas tinham binóculos. Assinale a alternativa correta.",
+      "options": [
+        "I, II e III.",
+        "Apenas I e III.",
+        "Apenas I e II.",
+        "Apenas II e III."
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta: o período não informa que ambos possuíam binóculos.",
+        "Incorreta: III afirma informação não contida no enunciado.",
+        "Correta: a posição do adjunto permite as duas primeiras leituras, mas não a terceira.",
+        "Incorreta: III é falsa e I também é uma leitura possível."
+      ],
+      "explanation": "O adjunto “com binóculos” admite vinculação ao ato de observar ou ao servidor observado. Não obriga que os dois estivessem com binóculos.",
+      "concept": "Ambiguidade lexical nasce de sentidos possíveis de um termo; ambiguidade sintática decorre de diferentes relações de estrutura ou referência.",
+      "trap": "Converter duas possibilidades alternativas em dois fatos simultâneos.",
+      "examTip": "Não some interpretações alternativas como se fossem ambas fatos comprovados.",
+      "newExample": "“O jornalista fotografou a cantora com uma câmera nova” admite pelo menos duas ligações do instrumento.",
+      "challenge": "Qual reescrita indica que o jornalista usou a câmera?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-05-004-04",
+      "moduleId": "POR-05",
+      "subtopicId": "POR-05-004",
+      "topic": "Ambiguidade lexical e sintática",
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "Sobre a frase “Paula viu Ana na biblioteca com um casaco vermelho”, assinale a análise INCORRETA.",
+      "options": [
+        "O enunciado prova de modo obrigatório que Paula e Ana usavam casacos vermelhos.",
+        "A posição de “com um casaco vermelho” pode gerar ambiguidade sobre quem o vestia.",
+        "Uma reescrita que nomeie a pessoa com o casaco pode resolver a referência.",
+        "O contexto adicional poderia esclarecer a ligação do adjunto."
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Falsa: não há afirmação de que ambas vestiam casacos vermelhos.",
+        "Verdadeira: o adjunto pode ser associado a referentes diferentes na leitura natural.",
+        "Verdadeira: explicitar o portador fixa a referência pretendida.",
+        "Verdadeira: contexto pode desambiguar a interpretação."
+      ],
+      "explanation": "A existência de diferentes leituras possíveis não equivale à comprovação simultânea de ambas.",
+      "concept": "Ambiguidade lexical nasce de sentidos possíveis de um termo; ambiguidade sintática decorre de diferentes relações de estrutura ou referência.",
+      "trap": "Interpretar pluralidade de leituras como soma factual de informações.",
+      "examTip": "Em ambiguidades sintáticas, separe “pode significar” de “significa necessariamente”.",
+      "newExample": "“O monitor chamou o aluno de camisa azul” pede identificar quem tinha a camisa, conforme o contexto.",
+      "challenge": "Quais detalhes adicionais eliminariam a dúvida sem mudar o fato?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-05-005-01",
+      "moduleId": "POR-05",
+      "subtopicId": "POR-05-005",
+      "topic": "Pressuposição, subentendido e ironia",
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "A frase “A biblioteca voltou a abrir aos domingos” pressupõe, no uso usual de “voltou a”, que a biblioteca já havia aberto aos domingos em período anterior.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: A locução “voltou a” apresenta como dado prévio uma situação anterior de abertura aos domingos.",
+        "Incorreta: A locução “voltou a” apresenta como dado prévio uma situação anterior de abertura aos domingos."
+      ],
+      "explanation": "A locução “voltou a” apresenta como dado prévio uma situação anterior de abertura aos domingos.",
+      "concept": "Pressuposto é conteúdo tomado como dado por certas expressões ou construções; subentendido é sentido inferido contextualmente; ironia pode produzir distância entre formulação literal e avaliação pretendida.",
+      "trap": "Ignorar o conteúdo pressuposto pelo verbo aspectual “voltar a”.",
+      "examTip": "Identifique o comportamento anterior indicado pela expressão de retomada.",
+      "newExample": "“O setor voltou a publicar boletins” pressupõe publicações anteriores.",
+      "challenge": "Qual parte do sentido não está afirmada como evento novo?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-05-005-02",
+      "moduleId": "POR-05",
+      "subtopicId": "POR-05-005",
+      "topic": "Pressuposição, subentendido e ironia",
+      "type": "afirmacoes",
+      "difficulty": "media",
+      "stem": "Leia: “O atendimento deixou de ocorrer aos sábados.” Julgue: I. A expressão pressupõe atendimento anterior aos sábados. II. A frase afirma a interrupção dessa prática. III. A frase determina exatamente em qual sábado houve a interrupção. Qual alternativa está correta?",
+      "options": [
+        "I, II e III.",
+        "Apenas I e II.",
+        "Apenas II e III.",
+        "Apenas I e III."
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: o sábado específico não é determinado no enunciado.",
+        "Correta: “deixou de” indica prática anterior e seu encerramento, sem informar data exata.",
+        "Incorreta: I também é verdadeiro e III é falso.",
+        "Incorreta: III é falsa porque a data não aparece."
+      ],
+      "explanation": "“Deixou de” apresenta existência anterior do hábito e informa interrupção; não data a mudança.",
+      "concept": "Pressuposto é conteúdo tomado como dado por certas expressões ou construções; subentendido é sentido inferido contextualmente; ironia pode produzir distância entre formulação literal e avaliação pretendida.",
+      "trap": "Transformar pressuposição de fato anterior em cronologia específica não expressa.",
+      "examTip": "Localize o gatilho aspectual e não infira datas sem informação textual.",
+      "newExample": "“A equipe parou de enviar lembretes” sugere envios anteriores, mas não especifica quando parou.",
+      "challenge": "O que se mantém como pressuposto se a frase for negada?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-05-005-03",
+      "moduleId": "POR-05",
+      "subtopicId": "POR-05-005",
+      "topic": "Pressuposição, subentendido e ironia",
+      "type": "vf",
+      "difficulty": "dificil",
+      "stem": "Situação: depois de três quedas de conexão, uma usuária diz “Que ótimo, o portal caiu outra vez!”. I. Há indício contextual de ironia. II. “Outra vez” sinaliza recorrência. III. O elogio é necessariamente literal porque “ótimo” é palavra positiva. IV. A frase permite inferir insatisfação, mas não a causa técnica precisa da queda. Assinale V/F.",
+      "options": [
+        "F – V – V – F",
+        "V – V – F – V",
+        "V – F – F – V",
+        "V – V – V – F"
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: a repetição e o contraste sustentam ironia, e III é falsa.",
+        "Correta: o contexto sustenta ironia; “outra vez” indica repetição; não há causa técnica.",
+        "Incorreta: II é verdadeira porque “outra vez” marca recorrência.",
+        "Incorreta: III é falsa e IV verdadeira: não há dado sobre causa técnica."
+      ],
+      "explanation": "I verdadeira: avaliação positiva contradiz situação frustrante. II verdadeira: recorrência explícita. III falsa: sentido literal não é obrigatório. IV verdadeira: falta causa técnica.",
+      "concept": "Pressuposto é conteúdo tomado como dado por certas expressões ou construções; subentendido é sentido inferido contextualmente; ironia pode produzir distância entre formulação literal e avaliação pretendida.",
+      "trap": "Julgar o tom apenas pelo valor lexical positivo de “ótimo”, ignorando o contexto.",
+      "examTip": "Cruze a palavra avaliativa com a situação descrita; não invente detalhes técnicos.",
+      "newExample": "“Perfeito, mais uma fila de três horas!” tende a criticar a espera.",
+      "challenge": "Que pista torna o elogio provavelmente irônico?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-05-005-04",
+      "moduleId": "POR-05",
+      "subtopicId": "POR-05-005",
+      "topic": "Pressuposição, subentendido e ironia",
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "Sobre “Pedro também entregou o formulário”, todas as inferências abaixo são sustentáveis pela expressão, EXCETO:",
+      "options": [
+        "O enunciado informa diretamente que Pedro realizou uma entrega.",
+        "A expressão sugere inclusão de Pedro em conjunto de participantes ou ações semelhantes.",
+        "“Também” normalmente pressupõe outra entrega relacionada no contexto.",
+        "O enunciado revela o nome, a idade e a data de entrega de todas as demais pessoas."
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Verdadeira: a entrega por Pedro é informação afirmada.",
+        "Verdadeira: inclusão é efeito usual do operador aditivo.",
+        "Verdadeira: “também” pressupõe situação paralela anterior ou contextual.",
+        "Falsa: nenhum desses dados específicos foi informado."
+      ],
+      "explanation": "“Também” remete a participação adicional, mas não identifica necessariamente as demais pessoas ou suas características.",
+      "concept": "Pressuposto é conteúdo tomado como dado por certas expressões ou construções; subentendido é sentido inferido contextualmente; ironia pode produzir distância entre formulação literal e avaliação pretendida.",
+      "trap": "Confundir pressuposto genérico de inclusão com listagem completa de participantes.",
+      "examTip": "Não transforme o gatilho “também” em fonte de nomes, números ou datas ausentes.",
+      "newExample": "“A unidade também abriu um canal digital” pressupõe outra iniciativa, mas não especifica sua data.",
+      "challenge": "Como diferenciar o que foi afirmado do que permaneceu pressuposto?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    }
+  ],
+  "POR-06": [
+    {
+      "id": "Q-POR-06-001-01",
+      "moduleId": "POR-06",
+      "subtopicId": "POR-06-001",
+      "topic": "Variedades regionais, sociais e históricas",
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "O uso regional de “macaxeira”, “aipim” ou “mandioca” para alimentos de referência semelhante, em contextos pertinentes, exemplifica variação lexical e não demonstra superioridade intelectual entre falantes.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: As escolhas lexicais podem variar regionalmente; sua existência não estabelece hierarquia de capacidade entre comunidades linguísticas.",
+        "Incorreta: As escolhas lexicais podem variar regionalmente; sua existência não estabelece hierarquia de capacidade entre comunidades linguísticas."
+      ],
+      "explanation": "As escolhas lexicais podem variar regionalmente; sua existência não estabelece hierarquia de capacidade entre comunidades linguísticas.",
+      "concept": "Variação linguística envolve formas de expressão associadas a regiões, grupos, épocas e situações; variedade não é sinônimo de erro absoluto.",
+      "trap": "Confundir diferenças regionais legítimas com defeitos de inteligência ou competência.",
+      "examTip": "Diferencie o fato linguístico da avaliação de adequação ao destinatário.",
+      "newExample": "“Tangerina”, “mexerica” e “bergamota” ilustram variação lexical em diferentes regiões.",
+      "challenge": "Por que um texto nacional pode explicar o referente em vez de condenar a variante?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-06-001-02",
+      "moduleId": "POR-06",
+      "subtopicId": "POR-06-001",
+      "topic": "Variedades regionais, sociais e históricas",
+      "type": "associacao",
+      "difficulty": "media",
+      "stem": "Associe o fenômeno: 1. variação regional; 2. variação histórica; 3. variação social/profissional. ( ) empregos de “macaxeira” e “aipim” em regiões distintas; ( ) diferenças entre formas de tratamento de textos antigos e atuais; ( ) siglas compreendidas por profissionais de um setor.",
+      "options": [
+        "2 – 1 – 3",
+        "1 – 3 – 2",
+        "1 – 2 – 3",
+        "3 – 2 – 1"
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta: a diferença entre “macaxeira” e “aipim” é regional, não histórica no recorte apresentado.",
+        "Incorreta: a mudança de tratamento ocorre entre épocas, não é exemplo dado de jargão.",
+        "Correta: léxico ligado a região, mudança temporal e jargão de grupo profissional.",
+        "Incorreta: siglas setoriais caracterizam grupo, não variação regional no exemplo."
+      ],
+      "explanation": "O primeiro caso é regional, o segundo diacrônico/histórico e o terceiro pode ser social/profissional.",
+      "concept": "Variação linguística envolve formas de expressão associadas a regiões, grupos, épocas e situações; variedade não é sinônimo de erro absoluto.",
+      "trap": "Confundir variação motivada por época com repertório compartilhado por grupo ocupacional.",
+      "examTip": "Procure o fator principal em cada comparação: lugar, época ou grupo social.",
+      "newExample": "O vocabulário jurídico pode ser específico de um grupo profissional, enquanto uma palavra antiga indica contraste histórico.",
+      "challenge": "Que tipo de variação aparece em “vossa mercê” em contraste com usos atuais?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-06-001-03",
+      "moduleId": "POR-06",
+      "subtopicId": "POR-06-001",
+      "topic": "Variedades regionais, sociais e históricas",
+      "type": "afirmacoes",
+      "difficulty": "dificil",
+      "stem": "Considere: I. Uma variante regional pode cumprir plenamente sua função em conversa local. II. Um comunicado nacional pode precisar esclarecer uma palavra restrita a determinada região. III. O falante de uma variedade regional diferente da norma-padrão é, por isso, incapaz de compreender textos complexos. Assinale a correta.",
+      "options": [
+        "I, II e III.",
+        "Apenas I e II.",
+        "Apenas I e III.",
+        "Apenas II e III."
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: III não decorre da diferença de variedade.",
+        "Correta: adequação depende do contexto e do público; III infere incapacidade indevida.",
+        "Incorreta: III é falsa e II é verdadeira.",
+        "Incorreta: III é preconceituosa e I também é verdadeira."
+      ],
+      "explanation": "I e II reconhecem adequação contextual e necessidade de ampliar compreensão; III atribui incapacidade com base em variedade linguística, inferência inválida.",
+      "concept": "Variação linguística envolve formas de expressão associadas a regiões, grupos, épocas e situações; variedade não é sinônimo de erro absoluto.",
+      "trap": "Usar variedade de fala como indicador supostamente seguro da competência intelectual.",
+      "examTip": "Separe a legitimidade da variante da necessidade de explicar sentidos para públicos diferentes.",
+      "newExample": "Um manual de atendimento nacional pode explicar um termo regional para leitores de outras regiões.",
+      "challenge": "Por que adaptar vocabulário ao público não significa condenar a fala local?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-06-001-04",
+      "moduleId": "POR-06",
+      "subtopicId": "POR-06-001",
+      "topic": "Variedades regionais, sociais e históricas",
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "Considerando variedades regionais, históricas e sociais na língua portuguesa, assinale a afirmação INCORRETA.",
+      "options": [
+        "Um termo técnico pode ser comum a determinada comunidade profissional.",
+        "Mudanças de uso ao longo dos séculos podem caracterizar variação histórica.",
+        "Todos os falantes de uma região precisam usar rigorosamente as mesmas palavras e construções.",
+        "Formas lexicais regionais podem designar objetos semelhantes."
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Verdadeira: terminologias setoriais podem constituir marcas de grupo.",
+        "Verdadeira: a língua se transforma ao longo do tempo.",
+        "Falsa: não há uniformidade absoluta entre todos os indivíduos da mesma região.",
+        "Verdadeira: o léxico varia conforme práticas de regiões e grupos."
+      ],
+      "explanation": "Variedade regional não elimina diferenças pessoais, sociais, etárias e situacionais no mesmo território.",
+      "concept": "Variação linguística envolve formas de expressão associadas a regiões, grupos, épocas e situações; variedade não é sinônimo de erro absoluto.",
+      "trap": "Tratar grupos de falantes como internamente homogêneos.",
+      "examTip": "Desconfie de quantificadores totais sobre o comportamento de grupos de falantes.",
+      "newExample": "Duas pessoas da mesma cidade podem escolher registros diferentes em reunião e conversa casual.",
+      "challenge": "Que fatores adicionais explicam escolhas diferentes dentro da mesma região?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-06-002-01",
+      "moduleId": "POR-06",
+      "subtopicId": "POR-06-002",
+      "topic": "Registro formal, informal e situações comunicativas",
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Em uma orientação institucional, trocar “Solicito o envio dos documentos até sexta-feira” por “Manda aí quando der” preserva prazo, registro e grau de obrigação.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: A segunda redação retira o prazo de sexta-feira, altera o registro e transforma uma solicitação delimitada em pedido indefinido.",
+        "Correta: A segunda redação retira o prazo de sexta-feira, altera o registro e transforma uma solicitação delimitada em pedido indefinido."
+      ],
+      "explanation": "A segunda redação retira o prazo de sexta-feira, altera o registro e transforma uma solicitação delimitada em pedido indefinido.",
+      "concept": "Registro é a seleção de recursos linguísticos de acordo com a situação, a relação entre participantes e a finalidade; formalidade não garante clareza se houver rebuscamento.",
+      "trap": "Confundir simplificação linguística com supressão do prazo exigido.",
+      "examTip": "Compare a informação temporal antes de classificar a reescrita como adequada.",
+      "newExample": "“Por favor, encaminhe o relatório até amanhã” pode ser direto e formal sem excesso de solenidade.",
+      "challenge": "Por que “em qualquer dia” não é paráfrase de “até amanhã”?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-06-002-02",
+      "moduleId": "POR-06",
+      "subtopicId": "POR-06-002",
+      "topic": "Registro formal, informal e situações comunicativas",
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Qual mensagem é mais adequada para solicitar formalmente um documento a uma equipe, preservando o prazo de quinta-feira?",
+      "options": [
+        "“Galera, dá um jeito de mandar o negócio aí.”",
+        "“Rogo que se dignem a efetivar ulteriormente a remessa do supracitado.”",
+        "“Vocês podem mandar algum material quando acharem conveniente.”",
+        "“Encaminhem, por favor, o relatório até quinta-feira.”"
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Incorreta: informalidade, objeto impreciso e prazo ausente.",
+        "Incorreta: rebuscamento e ausência do prazo e do objeto explícitos.",
+        "Incorreta: mantém imprecisão sobre objeto e remove o prazo fixado.",
+        "Correta: pedido claro, tratamento respeitoso, objeto e prazo definidos."
+      ],
+      "explanation": "A mensagem adequada especifica relatório e quinta-feira, sem gírias nem construções desnecessariamente solenes.",
+      "concept": "Registro é a seleção de recursos linguísticos de acordo com a situação, a relação entre participantes e a finalidade; formalidade não garante clareza se houver rebuscamento.",
+      "trap": "Tomar fórmulas rebuscadas como sinal automático de melhor comunicação formal.",
+      "examTip": "Verifique três critérios: objeto do pedido, prazo e clareza do tom.",
+      "newExample": "“Solicito a confirmação do recebimento até as 16h” é direto, formal e verificável.",
+      "challenge": "Que elementos tornam o exemplo operacional para o destinatário?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-06-002-03",
+      "moduleId": "POR-06",
+      "subtopicId": "POR-06-002",
+      "topic": "Registro formal, informal e situações comunicativas",
+      "type": "vf",
+      "difficulty": "dificil",
+      "stem": "Julgue: I. Uma reunião formal pode conter fala oral monitorada. II. Uma mensagem de aplicativo pode ser escrita e informal. III. Toda escrita é mais formal do que toda fala. IV. O registro adequado depende da situação comunicativa.",
+      "options": [
+        "V – V – F – V",
+        "V – V – V – F",
+        "V – F – V – V",
+        "F – V – F – V"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: a modalidade não fixa sozinha a formalidade; I, II e IV são verdadeiras.",
+        "Incorreta: III é falsa e IV verdadeira.",
+        "Incorreta: II também é verdadeira; III é falsa.",
+        "Incorreta: reunião formal pode incluir oralidade planejada."
+      ],
+      "explanation": "I verdadeira (oralidade formal), II verdadeira (escrita informal), III falsa (generalização), IV verdadeira (contexto).",
+      "concept": "Registro é a seleção de recursos linguísticos de acordo com a situação, a relação entre participantes e a finalidade; formalidade não garante clareza se houver rebuscamento.",
+      "trap": "Confundir suporte escrito com exigência automática de solenidade.",
+      "examTip": "Separe modalidade (oral/escrita) de registro (formal/informal).",
+      "newExample": "Uma palestra acadêmica é oral e formal; uma conversa por mensagem é escrita e informal.",
+      "challenge": "Quais dois eixos devem ser avaliados separadamente?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-06-002-04",
+      "moduleId": "POR-06",
+      "subtopicId": "POR-06-002",
+      "topic": "Registro formal, informal e situações comunicativas",
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "Ao revisar mensagem a usuários externos, são procedimentos adequados, EXCETO:",
+      "options": [
+        "Trocar gírias desconhecidas do público por expressões de entendimento mais amplo.",
+        "Eliminar todos os prazos para deixar o texto mais curto, mesmo quando condicionam o atendimento.",
+        "Manter datas, requisitos e procedimentos necessários à orientação.",
+        "Preferir frases diretas a fórmulas cerimoniosas dispensáveis."
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Verdadeira: vocabulário acessível favorece comunicação com público amplo.",
+        "Falsa: omitir prazos relevantes muda a orientação e prejudica o usuário.",
+        "Verdadeira: prazo e condição integram o sentido.",
+        "Verdadeira: concisão pode melhorar legibilidade sem eliminar dados."
+      ],
+      "explanation": "A redução de extensão não justifica remover informações de prazo que determinam a ação do leitor.",
+      "concept": "Registro é a seleção de recursos linguísticos de acordo com a situação, a relação entre participantes e a finalidade; formalidade não garante clareza se houver rebuscamento.",
+      "trap": "Equiparar concisão a retirada de requisitos informacionais.",
+      "examTip": "Confira se a reescrita ainda responde quando, como e o que fazer.",
+      "newExample": "“Envie o comprovante pelo portal até 12h” é mais útil que “Envie o comprovante”.",
+      "challenge": "Quais detalhes de canal e horário o segundo texto perderia?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-06-003-01",
+      "moduleId": "POR-06",
+      "subtopicId": "POR-06-003",
+      "topic": "Norma-padrão, norma culta e preconceito linguístico",
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Reconhecer a legitimidade de variedades linguísticas impede, por definição, que uma prova avalie as convenções da norma-padrão exigidas para redação formal.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: É possível reconhecer a diversidade de usos e avaliar convenções da norma-padrão em contextos formais, sem desqualificar falantes de outras variedades.",
+        "Correta: É possível reconhecer a diversidade de usos e avaliar convenções da norma-padrão em contextos formais, sem desqualificar falantes de outras variedades."
+      ],
+      "explanation": "É possível reconhecer a diversidade de usos e avaliar convenções da norma-padrão em contextos formais, sem desqualificar falantes de outras variedades.",
+      "concept": "Norma-padrão é modelo prescritivo/codificado para certos usos; norma culta designa práticas linguísticas efetivas de falantes escolarizados em situações monitoradas, não necessariamente idênticas em todos os pontos.",
+      "trap": "Criar falsa oposição entre respeito à diversidade e ensino de convenções formais.",
+      "examTip": "Diferencie exigência contextual de regras de desvalorização de um grupo.",
+      "newExample": "Uma pessoa pode usar variedade familiar em casa e escrever conforme norma-padrão em concurso.",
+      "challenge": "Por que dominar registros diferentes amplia repertório comunicativo?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-06-003-02",
+      "moduleId": "POR-06",
+      "subtopicId": "POR-06-003",
+      "topic": "Norma-padrão, norma culta e preconceito linguístico",
+      "type": "afirmacoes",
+      "difficulty": "media",
+      "stem": "Considere: I. Norma-padrão é referência codificada para certos contextos formais. II. Norma culta refere-se a usos efetivos em situações monitoradas, que podem divergir da prescrição em alguns pontos. III. Falar variedade distinta da norma-padrão comprova falta de capacidade intelectual. Assinale a correta.",
+      "options": [
+        "Apenas I e II.",
+        "I, II e III.",
+        "Apenas II e III.",
+        "Apenas I e III."
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: I e II distinguem referência normativa e práticas efetivas; III é falsa.",
+        "Incorreta: III é preconceituosa e não se sustenta.",
+        "Incorreta: I também é verdadeira; III é falsa.",
+        "Incorreta: II é verdadeira e III é falsa."
+      ],
+      "explanation": "Norma-padrão é modelo prescritivo; norma culta descreve práticas monitoradas. Não há relação necessária entre variedade e capacidade intelectual.",
+      "concept": "Norma-padrão é modelo prescritivo/codificado para certos usos; norma culta designa práticas linguísticas efetivas de falantes escolarizados em situações monitoradas, não necessariamente idênticas em todos os pontos.",
+      "trap": "Atribuir inferioridade a pessoas por traços de sua fala.",
+      "examTip": "Procure separar descrição sociolinguística, prescrição e preconceito.",
+      "newExample": "É possível corrigir redação de concurso por critérios formais sem ridicularizar quem fala de outro modo.",
+      "challenge": "Que diferença há entre avaliar um texto e julgar a inteligência do autor?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-06-003-03",
+      "moduleId": "POR-06",
+      "subtopicId": "POR-06-003",
+      "topic": "Norma-padrão, norma culta e preconceito linguístico",
+      "type": "vf",
+      "difficulty": "dificil",
+      "stem": "Sobre uso linguístico e critérios de concursos: I. A norma-padrão pode orientar a correção de textos escritos formais. II. Uma variedade regional é sempre incapaz de comunicar conteúdos abstratos. III. Falantes escolarizados não apresentam qualquer variação de usos. IV. Contextos diferentes podem demandar escolhas de registro diferentes. Assinale V/F.",
+      "options": [
+        "F – F – V – V",
+        "V – F – V – F",
+        "V – F – F – V",
+        "V – V – F – V"
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta: I é verdadeira, e III é falsa.",
+        "Incorreta: III é falsa e IV verdadeira.",
+        "Correta: I e IV verdadeiras; II e III são generalizações insustentáveis.",
+        "Incorreta: II não é verdadeira."
+      ],
+      "explanation": "I verdadeira: há convenções formais. II falsa: variedades comunicam ideias complexas. III falsa: usos variam. IV verdadeira: adequação contextual.",
+      "concept": "Norma-padrão é modelo prescritivo/codificado para certos usos; norma culta designa práticas linguísticas efetivas de falantes escolarizados em situações monitoradas, não necessariamente idênticas em todos os pontos.",
+      "trap": "Usar “sempre” e “qualquer” para atribuir incapacidade a variedades linguísticas.",
+      "examTip": "Julgue separadamente competência linguística, norma exigida e situação comunicativa.",
+      "newExample": "Uma pessoa pode realizar seminário técnico e falar coloquialmente com parentes.",
+      "challenge": "Como os contextos do exemplo modificam escolhas de registro?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-06-003-04",
+      "moduleId": "POR-06",
+      "subtopicId": "POR-06-003",
+      "topic": "Norma-padrão, norma culta e preconceito linguístico",
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "Sobre a diversidade linguística, assinale a proposição INCORRETA.",
+      "options": [
+        "O preconceito linguístico pode surgir ao desqualificar pessoas por sua forma de falar.",
+        "Aprender a norma-padrão amplia possibilidades de participação em gêneros formais.",
+        "O emprego de uma variedade não padronizada prova, por si só, incapacidade do falante de interpretar textos.",
+        "A língua apresenta variação de usos conforme comunidades e contextos."
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Verdadeira: estigmatização de falantes caracteriza preconceito.",
+        "Verdadeira: ampliar repertório favorece adequação a contextos formais.",
+        "Falsa: variedade não determina, por si só, competência intelectual ou de leitura.",
+        "Verdadeira: diversidade acompanha grupos, regiões e situações."
+      ],
+      "explanation": "Nenhum traço linguístico de variedade autoriza inferir incapacidade geral de compreensão.",
+      "concept": "Norma-padrão é modelo prescritivo/codificado para certos usos; norma culta designa práticas linguísticas efetivas de falantes escolarizados em situações monitoradas, não necessariamente idênticas em todos os pontos.",
+      "trap": "Deduzir competência intelectual da proximidade de uma forma de falar ao padrão escolar.",
+      "examTip": "Não confunda avaliação de um texto específico com avaliação global do falante.",
+      "newExample": "Falar com gírias em conversa não impede compreender conceitos técnicos no trabalho.",
+      "challenge": "Que informação faltaria para avaliar compreensão de leitura de fato?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-06-004-01",
+      "moduleId": "POR-06",
+      "subtopicId": "POR-06-004",
+      "topic": "Oralidade, escrita e marcas de interação",
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Uma palestra acadêmica pode apresentar fala oral formal e planejada; portanto, a modalidade oral não se confunde necessariamente com improviso.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: A produção oral pode ser monitorada, ensaiada e formal; modalidade e grau de planejamento são dimensões distintas.",
+        "Incorreta: A produção oral pode ser monitorada, ensaiada e formal; modalidade e grau de planejamento são dimensões distintas."
+      ],
+      "explanation": "A produção oral pode ser monitorada, ensaiada e formal; modalidade e grau de planejamento são dimensões distintas.",
+      "concept": "Oralidade e escrita são modalidades de produção linguística com recursos e condições diversas; ambas podem apresentar graus variados de formalidade e planejamento.",
+      "trap": "Reduzir toda oralidade a espontaneidade e informalidade.",
+      "examTip": "Separe meio de produção de registro e grau de preparo da mensagem.",
+      "newExample": "Uma defesa oral de pesquisa costuma ser planejada e pode empregar termos técnicos.",
+      "challenge": "Que recursos a fala dispõe além dos sinais gráficos da escrita?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-06-004-02",
+      "moduleId": "POR-06",
+      "subtopicId": "POR-06-004",
+      "topic": "Oralidade, escrita e marcas de interação",
+      "type": "lacunas",
+      "difficulty": "media",
+      "stem": "Complete: “Na conversa presencial, _____ e gestos podem auxiliar o sentido; em aviso escrito a leitores ausentes, pode ser necessário explicitar _____ que dependiam da situação.”",
+      "options": [
+        "ortografia / as rimas",
+        "parágrafos / os acentos",
+        "entonação / os referentes",
+        "notas de rodapé / as entonações"
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta: ortografia não cumpre a função de recurso vocal presencial.",
+        "Incorreta: parágrafos não caracterizam especificamente gestualidade da conversa.",
+        "Correta: entonação integra oralidade; referentes de “aqui” ou “ela” podem exigir explicitação.",
+        "Incorreta: notas de rodapé não substituem o apoio da entonação em interação presencial."
+      ],
+      "explanation": "Entonação é recurso da oralidade, e informações de referência contextual podem precisar ser nomeadas em texto autossuficiente.",
+      "concept": "Oralidade e escrita são modalidades de produção linguística com recursos e condições diversas; ambas podem apresentar graus variados de formalidade e planejamento.",
+      "trap": "Atribuir marcas gráficas da escrita a uma conversa oral como recurso típico.",
+      "examTip": "Examine quais pistas da presença física precisam ser traduzidas para a escrita.",
+      "newExample": "“Entregue ali” só funciona em aviso remoto se o lugar de entrega for identificado.",
+      "challenge": "Como reescrever o comando para leitores que não estão no mesmo local?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-06-004-03",
+      "moduleId": "POR-06",
+      "subtopicId": "POR-06-004",
+      "topic": "Oralidade, escrita e marcas de interação",
+      "type": "afirmacoes",
+      "difficulty": "dificil",
+      "stem": "Analise: I. Transcrições podem conservar pausas e hesitações da fala. II. Um aviso escrito pode exigir a explicitação de referentes apontados por gestos na conversa. III. Todo texto escrito é formal e nenhuma fala pode ser técnica. Qual alternativa é correta?",
+      "options": [
+        "I, II e III.",
+        "Apenas I e II.",
+        "Apenas II e III.",
+        "Apenas I e III."
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: III é falsa.",
+        "Correta: I e II descrevem diferenças possíveis de recursos e contexto; III absolutiza indevidamente.",
+        "Incorreta: I é verdadeira e III é falsa.",
+        "Incorreta: II também é verdadeira e III é falsa."
+      ],
+      "explanation": "I verdadeira: transcrições podem marcar oralidade. II verdadeira: escrita pode exigir referência explícita. III falsa: ambas modalidades podem ter registros variados.",
+      "concept": "Oralidade e escrita são modalidades de produção linguística com recursos e condições diversas; ambas podem apresentar graus variados de formalidade e planejamento.",
+      "trap": "Considerar que a modalidade define obrigatoriamente o grau de formalidade.",
+      "examTip": "Procure marcas de presença situacional e preserve o que for relevante à finalidade da transcrição.",
+      "newExample": "Uma ata reescreve parte de uma fala sem reproduzir todos os “é...” e “né...”, quando isso não altera o conteúdo.",
+      "challenge": "Qual é o objetivo dessa revisão da fala para o gênero ata?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-06-004-04",
+      "moduleId": "POR-06",
+      "subtopicId": "POR-06-004",
+      "topic": "Oralidade, escrita e marcas de interação",
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "Sobre a transformação de fala presencial em aviso escrito autossuficiente, são cuidados corretos, EXCETO:",
+      "options": [
+        "Informar quem é “ela” quando houver antecedente ambíguo.",
+        "Organizar as instruções em sequência compreensível.",
+        "Substituir “aqui” pelo local identificado, quando conhecido.",
+        "Acrescentar uma data e um endereço inventados para completar lacunas da fala original."
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Verdadeira: nomear referente remove ambiguidade contextual.",
+        "Verdadeira: sequência explícita facilita interpretação.",
+        "Verdadeira: indicação espacial clara ajuda leitores ausentes.",
+        "Falsa: não se deve fabricar dados ausentes para simular clareza."
+      ],
+      "explanation": "A retextualização pode explicitar informações conhecidas, mas não autoriza inventar datas e locais.",
+      "concept": "Oralidade e escrita são modalidades de produção linguística com recursos e condições diversas; ambas podem apresentar graus variados de formalidade e planejamento.",
+      "trap": "Confundir explicitação de referência com criação de informação.",
+      "examTip": "A revisão precisa de fonte para preencher dados que a interação presencial deixava implícitos.",
+      "newExample": "“Leve o papel lá amanhã” só pode ser desambiguado com dados reais de local e data.",
+      "challenge": "O que perguntar ao falante antes de produzir aviso fiel?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-06-005-01",
+      "moduleId": "POR-06",
+      "subtopicId": "POR-06-005",
+      "topic": "Adequação linguística em comunicações administrativas",
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Um aviso que informa “Envie os anexos pelo portal até sexta-feira” perde informação essencial se for reduzido a “Envie os anexos”, pois omite canal e prazo.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: A versão curta não contém o meio de envio nem a data-limite, elementos necessários à orientação original.",
+        "Incorreta: A versão curta não contém o meio de envio nem a data-limite, elementos necessários à orientação original."
+      ],
+      "explanation": "A versão curta não contém o meio de envio nem a data-limite, elementos necessários à orientação original.",
+      "concept": "Adequação institucional articula norma-padrão, impessoalidade quando pertinente, vocabulário acessível, precisão de prazo, destinatário e procedimentos.",
+      "trap": "Tratar omissão de requisitos como simples concisão sem alteração semântica.",
+      "examTip": "Confira objeto, canal e prazo para avaliar a fidelidade da reescrita.",
+      "newExample": "“Solicite a segunda via no balcão até as 15h” informa ação, canal e horário.",
+      "challenge": "Quais condições desaparecem se você retirar “no balcão até as 15h”?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-06-005-02",
+      "moduleId": "POR-06",
+      "subtopicId": "POR-06-005",
+      "topic": "Adequação linguística em comunicações administrativas",
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Um aviso informal diz: “Pessoal, mandem o comprovante pelo portal até sexta, beleza?”. Qual reescrita preserva as instruções e se adequa melhor a comunicado institucional?",
+      "options": [
+        "“O comprovante poderá ser enviado a qualquer tempo, por qualquer meio.”",
+        "“Encaminhem o comprovante pelo portal até sexta-feira.”",
+        "“Conforme acatamento dos meios, roga-se ensejo à providência.”",
+        "“O envio de documentos não será necessário nesta etapa.”"
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: retira prazo fixado e o canal exclusivo indicado.",
+        "Correta: mantém documento, canal e prazo em registro direto e formal.",
+        "Incorreta: não identifica claramente comprovante, portal ou sexta-feira.",
+        "Incorreta: contradiz o comando original que solicita envio."
+      ],
+      "explanation": "A versão adequada conserva a ação e as condições e dispensa vocativo informal e marca de confirmação coloquial.",
+      "concept": "Adequação institucional articula norma-padrão, impessoalidade quando pertinente, vocabulário acessível, precisão de prazo, destinatário e procedimentos.",
+      "trap": "Trocar formalidade por texto vago que perde instruções essenciais.",
+      "examTip": "Compare o trio documento–meio–prazo antes de julgar o tom.",
+      "newExample": "“Anexe o comprovante ao formulário eletrônico até segunda-feira” explicita objeto, meio e prazo.",
+      "challenge": "Que elementos do aviso original permaneceram na resposta correta?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-06-005-03",
+      "moduleId": "POR-06",
+      "subtopicId": "POR-06-005",
+      "topic": "Adequação linguística em comunicações administrativas",
+      "type": "afirmacoes",
+      "difficulty": "dificil",
+      "stem": "Uma mensagem externa afirma: “Sua solicitação será analisada após o recebimento da documentação obrigatória.” I. A análise está condicionada ao recebimento dos documentos. II. Suprimir “após o recebimento...” preserva integralmente a condição. III. A frase emprega registro compatível com comunicação institucional. Assinale a correta.",
+      "options": [
+        "Apenas II e III.",
+        "Apenas I e III.",
+        "I, II e III.",
+        "Apenas I e II."
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: II é falsa e I verdadeira.",
+        "Correta: condição e registro estão adequados; II perde requisito essencial.",
+        "Incorreta: II é falsa, porque apaga o condicionamento da análise.",
+        "Incorreta: a supressão altera condição; III também é verdadeira."
+      ],
+      "explanation": "I verdadeira (condição documental), II falsa (perda de informação), III verdadeira (linguagem clara e adequada).",
+      "concept": "Adequação institucional articula norma-padrão, impessoalidade quando pertinente, vocabulário acessível, precisão de prazo, destinatário e procedimentos.",
+      "trap": "Identificar concisão com exclusão de etapa obrigatória.",
+      "examTip": "Marque expressões como “após”, “mediante” e “desde que” antes de revisar o aviso.",
+      "newExample": "“O pedido seguirá após conferência dos dados” exige essa etapa prévia.",
+      "challenge": "Qual termo sinaliza a ordem condicional no exemplo?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-06-005-04",
+      "moduleId": "POR-06",
+      "subtopicId": "POR-06-005",
+      "topic": "Adequação linguística em comunicações administrativas",
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "Ao elaborar comunicado de atendimento ao público, todas as práticas são adequadas, EXCETO:",
+      "options": [
+        "Substituir requisito obrigatório por “se quiser” para dar aparência de cordialidade ao texto.",
+        "Preferir períodos claros e sem burocratês desnecessário.",
+        "Explicar siglas internas pouco conhecidas do público.",
+        "Indicar com precisão onde e quando a solicitação deve ser apresentada."
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Falsa: “se quiser” torna facultativo o que era obrigatório e altera conteúdo.",
+        "Verdadeira: concisão e clareza aumentam acessibilidade.",
+        "Verdadeira: expansão de sigla favorece compreensão do leitor.",
+        "Verdadeira: local e prazo orientam a ação."
+      ],
+      "explanation": "Cordialidade não autoriza apresentar como facultativo um requisito que o procedimento exige.",
+      "concept": "Adequação institucional articula norma-padrão, impessoalidade quando pertinente, vocabulário acessível, precisão de prazo, destinatário e procedimentos.",
+      "trap": "Confundir tom amigável com transformação de obrigação em escolha do usuário.",
+      "examTip": "Confira modalidade de obrigação e informações exigidas além do vocabulário simpático.",
+      "newExample": "“Para concluir a inscrição, é necessário anexar o documento” mantém caráter obrigatório com clareza.",
+      "challenge": "Como tornar a formulação mais cordial sem mudar a obrigação?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    }
+  ],
+  "POR-07": [
+    {
+      "id": "Q-POR-07-001-01",
+      "moduleId": "POR-07",
+      "subtopicId": "POR-07-001",
+      "topic": "Sistema ortográfico e emprego de letras",
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Na frase “A seção de cadastro organizou uma sessão de atendimento”, as palavras “seção” e “sessão” estão corretamente empregadas.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: seção nomeia setor ou divisão; sessão, reunião ou período de atendimento.",
+        "Incorreta: as duas grafias possuem sentidos distintos e foram usadas de modo coerente com cada contexto."
+      ],
+      "explanation": "Ambas as grafias estão corretas: divisão administrativa é seção, atividade/reunião é sessão.",
+      "concept": "A ortografia padroniza a escrita; não há correspondência biunívoca entre fonema e letra. O mesmo som pode ser representado por grafemas diferentes.",
+      "trap": "Trocar seção e sessão por semelhança de pronúncia.",
+      "examTip": "Nunca escolha s, ss, x ou ch apenas pela semelhança sonora. Pergunte pelo significado, pela família lexical e pelas regras específicas.",
+      "newExample": "“A seção de atendimento realizará uma sessão de treinamento; a cessão de sala foi autorizada.” São três escritas distintas, conforme o significado.",
+      "challenge": "Por que “analisar” tem s, enquanto “realizar” tem z?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-07-001-02",
+      "moduleId": "POR-07",
+      "subtopicId": "POR-07-001",
+      "topic": "Sistema ortográfico e emprego de letras",
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Em qual frase o vocábulo destacado está grafado e empregado corretamente?",
+      "options": [
+        "A cessão de atendimento recebeu o público às 9h.",
+        "A sessão do arquivo fica no terceiro andar.",
+        "A seção de protocolos atenderá até as 17h.",
+        "A comissão autorizou a seção gratuita da sala."
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta: “cessão” é o ato de ceder; unidade de atendimento é “seção”.",
+        "Incorreta: parte de uma instituição é “seção”; “sessão” designa reunião ou período.",
+        "Correta: “seção” identifica divisão ou setor de serviços.",
+        "Incorreta: o ato de ceder o uso da sala é “cessão”, não “seção”."
+      ],
+      "explanation": "O sentido de “setor” pede seção; ato de ceder pede cessão; reunião ou período pede sessão.",
+      "concept": "A ortografia padroniza a escrita; não há correspondência biunívoca entre fonema e letra. O mesmo som pode ser representado por grafemas diferentes.",
+      "trap": "Resolver só pela sonoridade, ignorando a referência real do termo.",
+      "examTip": "Nunca escolha s, ss, x ou ch apenas pela semelhança sonora. Pergunte pelo significado, pela família lexical e pelas regras específicas.",
+      "newExample": "“A seção de atendimento realizará uma sessão de treinamento; a cessão de sala foi autorizada.” São três escritas distintas, conforme o significado.",
+      "challenge": "Por que “analisar” tem s, enquanto “realizar” tem z?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-07-001-03",
+      "moduleId": "POR-07",
+      "subtopicId": "POR-07-001",
+      "topic": "Sistema ortográfico e emprego de letras",
+      "type": "vf",
+      "difficulty": "dificil",
+      "stem": "Julgue as afirmações: I. “Analisar” conserva s da família de “análise”. II. Em “enxame”, a letra x tem o mesmo som que em “exame”. III. “Pesquisador” pertence à família de “pesquisa”. Qual sequência corresponde a I, II e III?",
+      "options": [
+        "V – V – F",
+        "V – F – V",
+        "F – V – V",
+        "F – F – V"
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: II é falsa, pois x tem pronúncia distinta nos dois vocábulos; III é verdadeira.",
+        "Correta: analisar tem s, o x muda de som, e pesquisador se relaciona a pesquisa.",
+        "Incorreta: I é verdadeira; a sequência não pode começar por F.",
+        "Incorreta: I é verdadeira, e II é falsa; logo a primeira marca está errada."
+      ],
+      "explanation": "A escrita conserva traços de família lexical, mas x não corresponde a um único fonema.",
+      "concept": "A ortografia padroniza a escrita; não há correspondência biunívoca entre fonema e letra. O mesmo som pode ser representado por grafemas diferentes.",
+      "trap": "Supor que uma mesma letra possui sempre a mesma pronúncia.",
+      "examTip": "Nunca escolha s, ss, x ou ch apenas pela semelhança sonora. Pergunte pelo significado, pela família lexical e pelas regras específicas.",
+      "newExample": "“A seção de atendimento realizará uma sessão de treinamento; a cessão de sala foi autorizada.” São três escritas distintas, conforme o significado.",
+      "challenge": "Por que “analisar” tem s, enquanto “realizar” tem z?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-07-001-04",
+      "moduleId": "POR-07",
+      "subtopicId": "POR-07-001",
+      "topic": "Sistema ortográfico e emprego de letras",
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "Todas as associações entre grafia e significado estão adequadas, EXCETO:",
+      "options": [
+        "Cessão — ato de ceder um direito ou bem.",
+        "Seção — parte ou divisão de uma instituição.",
+        "Sessão — período destinado a uma reunião ou atividade.",
+        "Seção — transferência gratuita do uso de um espaço."
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Incorreta para o comando: cessão designa efetivamente ato de ceder.",
+        "Incorreta para o comando: seção é divisão, departamento ou parte.",
+        "Incorreta para o comando: sessão pode ser reunião ou período de trabalho.",
+        "Correta para o comando EXCETO: transferência/ato de ceder é cessão, não seção."
+      ],
+      "explanation": "A quarta associação atribui a “seção” sentido próprio de “cessão”.",
+      "concept": "A ortografia padroniza a escrita; não há correspondência biunívoca entre fonema e letra. O mesmo som pode ser representado por grafemas diferentes.",
+      "trap": "Em itens EXCETO, esquecer que a alternativa escolhida deve ser a única incorreta.",
+      "examTip": "Nunca escolha s, ss, x ou ch apenas pela semelhança sonora. Pergunte pelo significado, pela família lexical e pelas regras específicas.",
+      "newExample": "“A seção de atendimento realizará uma sessão de treinamento; a cessão de sala foi autorizada.” São três escritas distintas, conforme o significado.",
+      "challenge": "Por que “analisar” tem s, enquanto “realizar” tem z?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-07-002-01",
+      "moduleId": "POR-07",
+      "subtopicId": "POR-07-002",
+      "topic": "Por que, porque, por quê e porquê",
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Em “Não sei porque o atendimento foi adiado”, a grafia “porque” é adequada para uma pergunta indireta.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: “não sei” introduz a pergunta indireta “por que foi adiado”, escrita em duas palavras.",
+        "Correta: em interrogativa indireta, cabe “por que”, equivalente a “por qual motivo”."
+      ],
+      "explanation": "A construção exige “Não sei por que o atendimento foi adiado”.",
+      "concept": "Por que: pergunta ou relativo “pelo qual”; porque: conjunção causal/explicativa ou resposta; por quê: por que tônico ao fim de oração; porquê: substantivo acompanhado de determinante.",
+      "trap": "Associar toda frase sem ponto de interrogação ao “porque” junto.",
+      "examTip": "Faça a prova de substituição: “por qual motivo” (por que), “pois” (porque) e “o motivo” (porquê). Confira a posição final para “por quê”.",
+      "newExample": "“Por que a sala fechou?” — “Porque faltou energia.” — “Ninguém explicou por quê.” — “O porquê do fechamento será publicado.”",
+      "challenge": "Qual a diferença entre “Não sei por que saiu” e “Saiu porque precisava”?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-07-002-02",
+      "moduleId": "POR-07",
+      "subtopicId": "POR-07-002",
+      "topic": "Por que, porque, por quê e porquê",
+      "type": "lacunas",
+      "difficulty": "media",
+      "stem": "Complete: “___ você faltou? Não explicou ___ e ninguém compreendeu o ___ da ausência.”",
+      "options": [
+        "Porque / porquê / por que",
+        "Por que / por quê / porquê",
+        "Por quê / porque / por que",
+        "Por que / porque / por quê"
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: a pergunta inicial pede “por que”; o substantivo final recebe acento e é escrito junto.",
+        "Correta: pergunta no início, sequência tônica no fim da oração e substantivo com “o”.",
+        "Incorreta: “por quê” não é a forma adequada antes do restante da pergunta; o substantivo está mal grafado.",
+        "Incorreta: “porque” não serve à posição final tônica de “não explicou por quê”; “o porquê” é substantivo."
+      ],
+      "explanation": "A grafia depende da função interrogativa, da posição final e da substantivação.",
+      "concept": "Por que: pergunta ou relativo “pelo qual”; porque: conjunção causal/explicativa ou resposta; por quê: por que tônico ao fim de oração; porquê: substantivo acompanhado de determinante.",
+      "trap": "Considerar o ponto final como único fator e ignorar a função sintática.",
+      "examTip": "Faça a prova de substituição: “por qual motivo” (por que), “pois” (porque) e “o motivo” (porquê). Confira a posição final para “por quê”.",
+      "newExample": "“Por que a sala fechou?” — “Porque faltou energia.” — “Ninguém explicou por quê.” — “O porquê do fechamento será publicado.”",
+      "challenge": "Qual a diferença entre “Não sei por que saiu” e “Saiu porque precisava”?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-07-002-03",
+      "moduleId": "POR-07",
+      "subtopicId": "POR-07-002",
+      "topic": "Por que, porque, por quê e porquê",
+      "type": "afirmacoes",
+      "difficulty": "dificil",
+      "stem": "Considere: I. “A razão por que recorri” admite “pela qual”. II. “O porquê do indeferimento” contém substantivo. III. “Quero saber porque o edital mudou” usa grafia própria da interrogativa indireta. Assinale:",
+      "options": [
+        "Apenas I.",
+        "I, II e III.",
+        "Apenas I e II.",
+        "Apenas II e III."
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta: II também é verdadeira: artigo “o” substantiva “porquê”.",
+        "Incorreta: III exige “por que”, separado, na pergunta indireta.",
+        "Correta: I apresenta relativo equivalente a “pela qual”; II contém substantivo.",
+        "Incorreta: III é falsa e I é verdadeira."
+      ],
+      "explanation": "O relativo “por que” e o substantivo “porquê” podem aparecer sem interrogação direta.",
+      "concept": "Por que: pergunta ou relativo “pelo qual”; porque: conjunção causal/explicativa ou resposta; por quê: por que tônico ao fim de oração; porquê: substantivo acompanhado de determinante.",
+      "trap": "Achar que toda expressão fora de pergunta direta deve ser “porque”.",
+      "examTip": "Faça a prova de substituição: “por qual motivo” (por que), “pois” (porque) e “o motivo” (porquê). Confira a posição final para “por quê”.",
+      "newExample": "“Por que a sala fechou?” — “Porque faltou energia.” — “Ninguém explicou por quê.” — “O porquê do fechamento será publicado.”",
+      "challenge": "Qual a diferença entre “Não sei por que saiu” e “Saiu porque precisava”?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-07-002-04",
+      "moduleId": "POR-07",
+      "subtopicId": "POR-07-002",
+      "topic": "Por que, porque, por quê e porquê",
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "Assinale a frase em que o emprego dos porquês está INCORRETO.",
+      "options": [
+        "O expediente mudou porque houve manutenção.",
+        "O servidor explicou o porquê da suspensão.",
+        "Por que os resultados ainda não saíram?",
+        "Gostaria de entender por quê o prazo mudou."
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Incorreta para o comando: “porque” apresenta a causa.",
+        "Incorreta para o comando: “o porquê” é substantivo com artigo.",
+        "Incorreta para o comando: “por que” inicia pergunta direta.",
+        "Correta para o comando: antes de “o prazo mudou” não há posição final; a grafia é “por que”."
+      ],
+      "explanation": "“Gostaria de entender por que o prazo mudou” é interrogativa indireta, sem “por quê” final.",
+      "concept": "Por que: pergunta ou relativo “pelo qual”; porque: conjunção causal/explicativa ou resposta; por quê: por que tônico ao fim de oração; porquê: substantivo acompanhado de determinante.",
+      "trap": "Aplicar “por quê” sempre que há ideia de pergunta, mesmo sem posição tônica final.",
+      "examTip": "Faça a prova de substituição: “por qual motivo” (por que), “pois” (porque) e “o motivo” (porquê). Confira a posição final para “por quê”.",
+      "newExample": "“Por que a sala fechou?” — “Porque faltou energia.” — “Ninguém explicou por quê.” — “O porquê do fechamento será publicado.”",
+      "challenge": "Qual a diferença entre “Não sei por que saiu” e “Saiu porque precisava”?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-07-003-01",
+      "moduleId": "POR-07",
+      "subtopicId": "POR-07-003",
+      "topic": "Onde, aonde, mas, mais e demais contrastes",
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Na norma-padrão, em “Daqui a dois dias haverá nova reunião”, a preposição “a” indica tempo futuro, e “haverá” é verbo.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: “daqui a dois dias” projeta o prazo; “haverá” exprime acontecimento futuro.",
+        "Incorreta: “há dois dias” indicaria tempo decorrido; “daqui a” é a forma adequada para projeção."
+      ],
+      "explanation": "A construção de prazo futuro usa “daqui a”, não “daqui há”.",
+      "concept": "Onde indica localização ou permanência; aonde indica destino com verbo que pede a; mas contrasta, mais quantifica; mal opõe-se a bem, mau a bom.",
+      "trap": "Confundir o há de tempo decorrido com o a prepositivo de tempo futuro.",
+      "examTip": "Use pares de controle: onde = em que lugar; aonde = a que lugar; mal/bem; mau/bom; há = faz (tempo decorrido).",
+      "newExample": "“O servidor foi ao setor aonde fora encaminhado; ali encontrou mais formulários, mas não recebeu resposta.”",
+      "challenge": "Como distinguir “mal” de “mau” rapidamente?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-07-003-02",
+      "moduleId": "POR-07",
+      "subtopicId": "POR-07-003",
+      "topic": "Onde, aonde, mas, mais e demais contrastes",
+      "type": "associacao",
+      "difficulty": "media",
+      "stem": "Associe: 1. mas; 2. mais; 3. mau; 4. mal. ( ) Ele produziu um ___ resultado. ( ) O relatório apresenta ___ dados. ( ) O resultado foi ___ avaliado. ( ) Quis revisar, ___ não havia tempo.",
+      "options": [
+        "3 – 2 – 4 – 1",
+        "4 – 2 – 3 – 1",
+        "3 – 1 – 4 – 2",
+        "4 – 2 – 1 – 3"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: mau resultado (adjetivo, oposto a bom), mais dados, mal avaliado, mas não havia tempo.",
+        "Incorreta: “mau resultado” exige adjetivo, não “mal”; o segundo campo é “mais”.",
+        "Incorreta: “mais dados” indica quantidade, e a sequência 3–1–4–2 usa “mas” na segunda lacuna.",
+        "Incorreta: “quis revisar, mas” é adversativa e não adjetivo mau."
+      ],
+      "explanation": "O correto é “mau resultado”, “mais dados”, “mal avaliado” e “mas não havia tempo”: sequência 3–2–4–1.",
+      "concept": "Onde indica localização ou permanência; aonde indica destino com verbo que pede a; mas contrasta, mais quantifica; mal opõe-se a bem, mau a bom.",
+      "trap": "Confundir adjetivo mau (oposto a bom) com advérbio mal (oposto a bem).",
+      "examTip": "Use pares de controle: onde = em que lugar; aonde = a que lugar; mal/bem; mau/bom; há = faz (tempo decorrido).",
+      "newExample": "“O servidor foi ao setor aonde fora encaminhado; ali encontrou mais formulários, mas não recebeu resposta.”",
+      "challenge": "Como distinguir “mal” de “mau” rapidamente?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-07-003-03",
+      "moduleId": "POR-07",
+      "subtopicId": "POR-07-003",
+      "topic": "Onde, aonde, mas, mais e demais contrastes",
+      "type": "afirmacoes",
+      "difficulty": "dificil",
+      "stem": "Julgue: I. “Aonde você pretende ir?” pode indicar destino. II. “Onde você mora?” expressa localização. III. “Mal atendimento” deve ser empregado no lugar de “mau atendimento” por tratar-se de substantivo.",
+      "options": [
+        "Apenas I e III.",
+        "Apenas II e III.",
+        "I, II e III.",
+        "Apenas I e II."
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Incorreta: III é falsa: “mau” modifica atendimento e se opõe a bom.",
+        "Incorreta: III é falsa, e I é verdadeira.",
+        "Incorreta: III emprega advérbio onde se espera adjetivo.",
+        "Correta: aonde indica destino com ir; onde indica localização com morar; III está incorreta."
+      ],
+      "explanation": "Verbos de destino e localização distinguem aonde/onde; adjetivo mau qualifica atendimento.",
+      "concept": "Onde indica localização ou permanência; aonde indica destino com verbo que pede a; mas contrasta, mais quantifica; mal opõe-se a bem, mau a bom.",
+      "trap": "Tentar trocar mau por mal sem verificar a função na frase.",
+      "examTip": "Use pares de controle: onde = em que lugar; aonde = a que lugar; mal/bem; mau/bom; há = faz (tempo decorrido).",
+      "newExample": "“O servidor foi ao setor aonde fora encaminhado; ali encontrou mais formulários, mas não recebeu resposta.”",
+      "challenge": "Como distinguir “mal” de “mau” rapidamente?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-07-003-04",
+      "moduleId": "POR-07",
+      "subtopicId": "POR-07-003",
+      "topic": "Onde, aonde, mas, mais e demais contrastes",
+      "type": "vf",
+      "difficulty": "dificil",
+      "stem": "Classifique: I. “Há três semanas terminei o curso” indica passado decorrido. II. “Daqui há três semanas farei prova” é padrão formal. III. “O edital mudou, mas o prazo permanece” traz oposição.",
+      "options": [
+        "V – V – V",
+        "F – V – F",
+        "V – F – V",
+        "V – F – F"
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta: II emprega “há” para futuro; deveria usar “a”.",
+        "Incorreta: I é verdadeira e II é falsa.",
+        "Correta: “há” retoma duração passada, “daqui a” projeta futuro e “mas” contrapõe orações.",
+        "Incorreta: III é verdadeira: “mas” é adversativa."
+      ],
+      "explanation": "O correto para o prazo futuro seria “Daqui a três semanas”.",
+      "concept": "Onde indica localização ou permanência; aonde indica destino com verbo que pede a; mas contrasta, mais quantifica; mal opõe-se a bem, mau a bom.",
+      "trap": "Usar “há” em prazo futuro por associação com “haver”.",
+      "examTip": "Use pares de controle: onde = em que lugar; aonde = a que lugar; mal/bem; mau/bom; há = faz (tempo decorrido).",
+      "newExample": "“O servidor foi ao setor aonde fora encaminhado; ali encontrou mais formulários, mas não recebeu resposta.”",
+      "challenge": "Como distinguir “mal” de “mau” rapidamente?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-07-004-01",
+      "moduleId": "POR-07",
+      "subtopicId": "POR-07-004",
+      "topic": "Uso de maiúsculas, minúsculas e abreviações",
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Em texto corrente, as expressões “em novembro” e “o diretor da unidade” podem ser escritas com iniciais minúsculas.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: nomes de meses e cargos comuns são grafados normalmente com inicial minúscula.",
+        "Incorreta: a minúscula em novembro e diretor é compatível com o uso ortográfico corrente."
+      ],
+      "explanation": "A maiúscula não é obrigatória por respeito ao cargo ou por nomear um mês.",
+      "concept": "Nomes próprios e denominações oficiais usam inicial maiúscula; nomes comuns de cargos e gentílicos usam geralmente minúscula, ressalvadas convenções específicas.",
+      "trap": "Escrever nomes comuns de cargos e meses como se fossem nomes próprios.",
+      "examTip": "Diferencie “nome oficial” de “referência genérica”. Cargos, meses e gentílicos não recebem maiúscula apenas por respeito.",
+      "newExample": "“Em novembro, o diretor do campus visitará a Universidade Federal do Rio Grande do Norte e conversará com estudantes potiguares.”",
+      "challenge": "Por que “a universidade” pode ter minúscula mesmo quando se refere a uma instituição conhecida?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-07-004-02",
+      "moduleId": "POR-07",
+      "subtopicId": "POR-07-004",
+      "topic": "Uso de maiúsculas, minúsculas e abreviações",
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Qual frase aplica adequadamente maiúsculas e minúsculas em texto corrente?",
+      "options": [
+        "A Universidade Federal do Rio Grande do Norte divulgará o calendário em novembro.",
+        "A universidade federal do rio grande do norte divulgará o calendário em Novembro.",
+        "A Universidade federal do Rio Grande Do Norte divulgará o calendário em Novembro.",
+        "A Universidade Federal do Rio Grande do Norte divulgará o calendário em Novembro."
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: o nome institucional mantém iniciais próprias; novembro é mês com minúscula.",
+        "Incorreta: o nome oficial foi descaracterizado e “Novembro” não exige maiúscula.",
+        "Incorreta: “federal” integra a denominação e “Do” e “Novembro” estão capitalizados indevidamente.",
+        "Incorreta: apesar do nome institucional adequado, mês usa inicial minúscula."
+      ],
+      "explanation": "A designação oficial da instituição é nome próprio; “novembro” é nome comum de mês.",
+      "concept": "Nomes próprios e denominações oficiais usam inicial maiúscula; nomes comuns de cargos e gentílicos usam geralmente minúscula, ressalvadas convenções específicas.",
+      "trap": "Transferir a maiúscula de nome próprio para palavras comuns próximas.",
+      "examTip": "Diferencie “nome oficial” de “referência genérica”. Cargos, meses e gentílicos não recebem maiúscula apenas por respeito.",
+      "newExample": "“Em novembro, o diretor do campus visitará a Universidade Federal do Rio Grande do Norte e conversará com estudantes potiguares.”",
+      "challenge": "Por que “a universidade” pode ter minúscula mesmo quando se refere a uma instituição conhecida?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-07-004-03",
+      "moduleId": "POR-07",
+      "subtopicId": "POR-07-004",
+      "topic": "Uso de maiúsculas, minúsculas e abreviações",
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "São usos normalmente compatíveis com a ortografia e com um texto institucional corrente, EXCETO:",
+      "options": [
+        "Os estudantes brasileiros receberão aviso.",
+        "A reunião ocorrerá na terça-feira.",
+        "A biblioteca fica em Natal, no Rio Grande do Norte.",
+        "O diretor enviou o Ofício em Outubro."
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Incorreta para EXCETO: brasileiros é gentílico com minúscula.",
+        "Incorreta para EXCETO: terça-feira é dia da semana com minúscula.",
+        "Incorreta para EXCETO: Natal e Rio Grande do Norte são nomes próprios; “biblioteca” é nome comum.",
+        "Correta para EXCETO: “outubro” deve vir com minúscula; “ofício” como nome comum também, fora de título formal."
+      ],
+      "explanation": "Meses e nomes comuns de documentos normalmente não recebem maiúsculas.",
+      "concept": "Nomes próprios e denominações oficiais usam inicial maiúscula; nomes comuns de cargos e gentílicos usam geralmente minúscula, ressalvadas convenções específicas.",
+      "trap": "Tratar iniciais maiúsculas como sinal universal de formalidade.",
+      "examTip": "Diferencie “nome oficial” de “referência genérica”. Cargos, meses e gentílicos não recebem maiúscula apenas por respeito.",
+      "newExample": "“Em novembro, o diretor do campus visitará a Universidade Federal do Rio Grande do Norte e conversará com estudantes potiguares.”",
+      "challenge": "Por que “a universidade” pode ter minúscula mesmo quando se refere a uma instituição conhecida?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-07-004-04",
+      "moduleId": "POR-07",
+      "subtopicId": "POR-07-004",
+      "topic": "Uso de maiúsculas, minúsculas e abreviações",
+      "type": "afirmacoes",
+      "difficulty": "dificil",
+      "stem": "Considere: I. Acentos devem ser mantidos em nomes próprios mesmo escritos em maiúsculas. II. Gentílicos recebem obrigatoriamente maiúscula. III. Siglas consagradas podem preservar caixa alta, como UFRN.",
+      "options": [
+        "Apenas I e II.",
+        "Apenas I e III.",
+        "Apenas II e III.",
+        "I, II e III."
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: II é falsa; “potiguar” costuma usar minúscula.",
+        "Correta: nomes próprios não perdem acento por serem maiúsculos; UFRN é sigla reconhecida.",
+        "Incorreta: II é falsa e I é verdadeira.",
+        "Incorreta: II generaliza maiúscula a todos os gentílicos."
+      ],
+      "explanation": "A inicial maiúscula não altera regras de acentuação; gentílicos são nomes comuns.",
+      "concept": "Nomes próprios e denominações oficiais usam inicial maiúscula; nomes comuns de cargos e gentílicos usam geralmente minúscula, ressalvadas convenções específicas.",
+      "trap": "Confundir siglas com adjetivos pátrios.",
+      "examTip": "Diferencie “nome oficial” de “referência genérica”. Cargos, meses e gentílicos não recebem maiúscula apenas por respeito.",
+      "newExample": "“Em novembro, o diretor do campus visitará a Universidade Federal do Rio Grande do Norte e conversará com estudantes potiguares.”",
+      "challenge": "Por que “a universidade” pode ter minúscula mesmo quando se refere a uma instituição conhecida?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-07-005-01",
+      "moduleId": "POR-07",
+      "subtopicId": "POR-07-005",
+      "topic": "Grafia de palavras e casos de dúvida recorrente",
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Retificar uma informação é corrigi-la; ratificar uma decisão é confirmá-la.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: retificar indica correção; ratificar significa confirmar ou validar.",
+        "Incorreta: os dois verbos têm sentidos distintos e foram definidos corretamente."
+      ],
+      "explanation": "A diferença semântica aparece em documentos que corrigem dados e outros que confirmam atos.",
+      "concept": "Pares como descrição/discrição, cumprimento/comprimento e tráfego/tráfico são parônimos ou formas semelhantes com sentidos distintos.",
+      "trap": "Considerar ratificar e retificar sinônimos universais.",
+      "examTip": "Desconfie de alternativas em que a palavra existe no dicionário, mas não combina com o significado da frase.",
+      "newExample": "“A comissão retificou o número do processo e ratificou a decisão já tomada.” O primeiro verbo corrige; o segundo confirma.",
+      "challenge": "Qual verbo indica corrigir dados: “ratificar” ou “retificar”?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-07-005-02",
+      "moduleId": "POR-07",
+      "subtopicId": "POR-07-005",
+      "topic": "Grafia de palavras e casos de dúvida recorrente",
+      "type": "lacunas",
+      "difficulty": "media",
+      "stem": "Complete: “A equipe precisou ___ o endereço errado e, em seguida, ___ o restante das informações confirmadas.”",
+      "options": [
+        "ratificar / retificar",
+        "retificar / ratificar",
+        "retificar / retificar",
+        "ratificar / ratificar"
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: troca funções: confirma o erro e corrige o que já estava validado.",
+        "Correta: corrigir o endereço pede retificar; confirmar os demais dados pede ratificar.",
+        "Incorreta: o segundo verbo deveria confirmar, não apontar outra correção.",
+        "Incorreta: o erro de endereço precisa ser corrigido, não apenas confirmado."
+      ],
+      "explanation": "“Retificar” corrige a informação incorreta; “ratificar” confirma a que já estava validada.",
+      "concept": "Pares como descrição/discrição, cumprimento/comprimento e tráfego/tráfico são parônimos ou formas semelhantes com sentidos distintos.",
+      "trap": "Tratar proximidade gráfica como equivalência de significado.",
+      "examTip": "Desconfie de alternativas em que a palavra existe no dicionário, mas não combina com o significado da frase.",
+      "newExample": "“A comissão retificou o número do processo e ratificou a decisão já tomada.” O primeiro verbo corrige; o segundo confirma.",
+      "challenge": "Qual verbo indica corrigir dados: “ratificar” ou “retificar”?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-07-005-03",
+      "moduleId": "POR-07",
+      "subtopicId": "POR-07-005",
+      "topic": "Grafia de palavras e casos de dúvida recorrente",
+      "type": "associacao",
+      "difficulty": "dificil",
+      "stem": "Associe 1. descrição; 2. discrição; 3. tráfego; 4. tráfico. ( ) circulação de veículos; ( ) reserva no comportamento; ( ) comércio ilícito; ( ) relato detalhado.",
+      "options": [
+        "4 – 2 – 3 – 1",
+        "3 – 1 – 4 – 2",
+        "3 – 2 – 4 – 1",
+        "2 – 3 – 1 – 4"
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta: o comércio ilícito não se confunde com circulação de veículos.",
+        "Incorreta: descrição não representa reserva no comportamento.",
+        "Correta: tráfego, discrição, tráfico e descrição seguem a ordem dos conceitos.",
+        "Incorreta: discrição não significa fluxo de veículos."
+      ],
+      "explanation": "Tráfego é circulação; tráfico, comércio ilícito. Descrição narra; discrição indica reserva.",
+      "concept": "Pares como descrição/discrição, cumprimento/comprimento e tráfego/tráfico são parônimos ou formas semelhantes com sentidos distintos.",
+      "trap": "Confiar na semelhança gráfica sem comparar as acepções.",
+      "examTip": "Desconfie de alternativas em que a palavra existe no dicionário, mas não combina com o significado da frase.",
+      "newExample": "“A comissão retificou o número do processo e ratificou a decisão já tomada.” O primeiro verbo corrige; o segundo confirma.",
+      "challenge": "Qual verbo indica corrigir dados: “ratificar” ou “retificar”?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-07-005-04",
+      "moduleId": "POR-07",
+      "subtopicId": "POR-07-005",
+      "topic": "Grafia de palavras e casos de dúvida recorrente",
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "Todas as frases empregam corretamente o parônimo destacado, EXCETO:",
+      "options": [
+        "O comprimento da mesa é de dois metros.",
+        "A servidora fez o cumprimento das obrigações no prazo.",
+        "A comissão optou por ratificar uma decisão já tomada.",
+        "A secretaria decidiu retificar a informação correta, confirmando-a sem alterações."
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Incorreta para EXCETO: comprimento indica extensão física corretamente.",
+        "Incorreta para EXCETO: cumprimento pode indicar execução de dever.",
+        "Incorreta para EXCETO: ratificar é confirmar decisão.",
+        "Correta para EXCETO: se apenas confirmou sem corrigir, o verbo adequado é “ratificar”."
+      ],
+      "explanation": "Confirmar informação correta não equivale a retificar; retificar pressupõe corrigir.",
+      "concept": "Pares como descrição/discrição, cumprimento/comprimento e tráfego/tráfico são parônimos ou formas semelhantes com sentidos distintos.",
+      "trap": "O verbo existe na língua, mas pode ter sentido inadequado no contexto.",
+      "examTip": "Desconfie de alternativas em que a palavra existe no dicionário, mas não combina com o significado da frase.",
+      "newExample": "“A comissão retificou o número do processo e ratificou a decisão já tomada.” O primeiro verbo corrige; o segundo confirma.",
+      "challenge": "Qual verbo indica corrigir dados: “ratificar” ou “retificar”?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    }
+  ],
+  "POR-08": [
+    {
+      "id": "Q-POR-08-001-01",
+      "moduleId": "POR-08",
+      "subtopicId": "POR-08-001",
+      "topic": "Sílaba tônica e classificação quanto à tonicidade",
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Em “médico”, a sílaba tônica é a antepenúltima, razão por que a palavra é proparoxítona.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: MÉ-di-co apresenta tonicidade antepenúltima.",
+        "Incorreta: não se trata de paroxítona; a força recai em “mé”, terceira sílaba contada do fim."
+      ],
+      "explanation": "A tonicidade antepenúltima classifica a palavra como proparoxítona.",
+      "concept": "Oxítonas têm última sílaba tônica; paroxítonas, penúltima; proparoxítonas, antepenúltima. A tonicidade existe mesmo sem acento gráfico.",
+      "trap": "Contar sílabas a partir do início, não do fim.",
+      "examTip": "Localize a sílaba forte antes de aplicar regra de terminação; não confunda sílaba tônica com letra acentuada.",
+      "newExample": "“Caju” (ca-JU) é oxítona sem acento; “lápis” (LÁ-pis) é paroxítona acentuada; “público” (PÚ-bli-co) é proparoxítona.",
+      "challenge": "“Papel” é palavra tônica sem acento gráfico?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-08-001-02",
+      "moduleId": "POR-08",
+      "subtopicId": "POR-08-001",
+      "topic": "Sílaba tônica e classificação quanto à tonicidade",
+      "type": "associacao",
+      "difficulty": "media",
+      "stem": "Associe 1. oxítona; 2. paroxítona; 3. proparoxítona. ( ) papel; ( ) lápis; ( ) lâmpada; ( ) caju.",
+      "options": [
+        "1 – 2 – 3 – 1",
+        "2 – 1 – 3 – 2",
+        "1 – 3 – 2 – 1",
+        "3 – 2 – 1 – 1"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: pa-PEL e ca-JU são oxítonas; LÁ-pis, paroxítona; LÂM-pa-da, proparoxítona.",
+        "Incorreta: “papel” não tem tonicidade penúltima, e “lápis” não é oxítona.",
+        "Incorreta: “lápis” não tem a antepenúltima sílaba forte.",
+        "Incorreta: “papel” tem última sílaba forte, não antepenúltima."
+      ],
+      "explanation": "A ordem correta é oxítona, paroxítona, proparoxítona, oxítona.",
+      "concept": "Oxítonas têm última sílaba tônica; paroxítonas, penúltima; proparoxítonas, antepenúltima. A tonicidade existe mesmo sem acento gráfico.",
+      "trap": "Achar que a existência de acento gráfico determina por si só a tonicidade.",
+      "examTip": "Localize a sílaba forte antes de aplicar regra de terminação; não confunda sílaba tônica com letra acentuada.",
+      "newExample": "“Caju” (ca-JU) é oxítona sem acento; “lápis” (LÁ-pis) é paroxítona acentuada; “público” (PÚ-bli-co) é proparoxítona.",
+      "challenge": "“Papel” é palavra tônica sem acento gráfico?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-08-001-03",
+      "moduleId": "POR-08",
+      "subtopicId": "POR-08-001",
+      "topic": "Sílaba tônica e classificação quanto à tonicidade",
+      "type": "vf",
+      "difficulty": "dificil",
+      "stem": "Julgue: I. “Papel” é oxítona sem acento gráfico. II. “Mesa” é paroxítona sem acento gráfico. III. “Público” é oxítona por conter acento.",
+      "options": [
+        "V – V – V",
+        "V – V – F",
+        "F – V – F",
+        "V – F – V"
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: III é falsa; PÚ-bli-co tem tonicidade antepenúltima.",
+        "Correta: papel é oxítona; mesa, paroxítona; público, proparoxítona.",
+        "Incorreta: I é verdadeira: pa-PEL tem última sílaba tônica.",
+        "Incorreta: II é verdadeira; III é falsa."
+      ],
+      "explanation": "Ter acento gráfico não implica ser oxítona; público é proparoxítona.",
+      "concept": "Oxítonas têm última sílaba tônica; paroxítonas, penúltima; proparoxítonas, antepenúltima. A tonicidade existe mesmo sem acento gráfico.",
+      "trap": "Classificar a palavra pelo fato de apresentar acento, não pelo lugar da sílaba forte.",
+      "examTip": "Localize a sílaba forte antes de aplicar regra de terminação; não confunda sílaba tônica com letra acentuada.",
+      "newExample": "“Caju” (ca-JU) é oxítona sem acento; “lápis” (LÁ-pis) é paroxítona acentuada; “público” (PÚ-bli-co) é proparoxítona.",
+      "challenge": "“Papel” é palavra tônica sem acento gráfico?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-08-001-04",
+      "moduleId": "POR-08",
+      "subtopicId": "POR-08-001",
+      "topic": "Sílaba tônica e classificação quanto à tonicidade",
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "Todas as classificações de tonicidade estão corretas, EXCETO:",
+      "options": [
+        "café — oxítona",
+        "história — paroxítona, na classificação escolar usual",
+        "médico — proparoxítona",
+        "lápis — oxítona"
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Incorreta para EXCETO: ca-FÉ é oxítona.",
+        "Incorreta para EXCETO: HIS-tó-ria é usualmente descrita como paroxítona, considerando ditongo final.",
+        "Incorreta para EXCETO: MÉ-di-co é proparoxítona.",
+        "Correta para EXCETO: LÁ-pis tem penúltima sílaba tônica, logo é paroxítona."
+      ],
+      "explanation": "Lápis é paroxítona; não se deve confundir sílaba tônica com sílaba final.",
+      "concept": "Oxítonas têm última sílaba tônica; paroxítonas, penúltima; proparoxítonas, antepenúltima. A tonicidade existe mesmo sem acento gráfico.",
+      "trap": "Trocar a classificação de paroxítona por oxítona porque a palavra é curta.",
+      "examTip": "Localize a sílaba forte antes de aplicar regra de terminação; não confunda sílaba tônica com letra acentuada.",
+      "newExample": "“Caju” (ca-JU) é oxítona sem acento; “lápis” (LÁ-pis) é paroxítona acentuada; “público” (PÚ-bli-co) é proparoxítona.",
+      "challenge": "“Papel” é palavra tônica sem acento gráfico?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-08-002-01",
+      "moduleId": "POR-08",
+      "subtopicId": "POR-08-002",
+      "topic": "Regras de acentuação de oxítonas e paroxítonas",
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "“Caju” e “café” são oxítonas; somente “café” recebe acento pela regra geral de terminação em e.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: caju termina em u e não recebe acento por essa regra; café termina em e tônico.",
+        "Incorreta: serem ambas oxítonas não significa que toda terminação deva ser acentuada."
+      ],
+      "explanation": "A tonicidade é a mesma, mas as terminações ortográficas diferem.",
+      "concept": "Oxítonas terminadas em a(s), e(s), o(s), em, ens recebem acento, com regras próprias para ditongos abertos; paroxítonas obedecem a outro conjunto de terminações.",
+      "trap": "Acreditar que toda oxítona recebe acento.",
+      "examTip": "Diga a tonicidade e a terminação antes de escolher a regra. “Heroico” e “herói” não seguem a mesma regra.",
+      "newExample": "“O herói tomou café e deixou o lápis sobre a mesa.” “Herói” e “café” são oxítonas; “lápis” é paroxítona.",
+      "challenge": "Por que “café” tem acento e “caju” não?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-08-002-02",
+      "moduleId": "POR-08",
+      "subtopicId": "POR-08-002",
+      "topic": "Regras de acentuação de oxítonas e paroxítonas",
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Qual sequência apresenta somente palavras corretamente acentuadas?",
+      "options": [
+        "Café, cajú, lápis, herói.",
+        "Café, júri, parabéns, chapéu.",
+        "Cafe, júri, parabens, herói.",
+        "Café, juri, parabéns, chapéu."
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: “caju” não recebe acento gráfico.",
+        "Correta: as quatro formas obedecem às regras de oxítonas/paroxítonas e ditongos abertos tônicos.",
+        "Incorreta: “café” e “parabéns” exigem acento.",
+        "Incorreta: “júri” é paroxítona terminada em i e recebe acento."
+      ],
+      "explanation": "Café, júri, parabéns e chapéu estão grafados adequadamente.",
+      "concept": "Oxítonas terminadas em a(s), e(s), o(s), em, ens recebem acento, com regras próprias para ditongos abertos; paroxítonas obedecem a outro conjunto de terminações.",
+      "trap": "Contaminar a avaliação de uma sequência inteira por três palavras corretas e uma incorreta.",
+      "examTip": "Diga a tonicidade e a terminação antes de escolher a regra. “Heroico” e “herói” não seguem a mesma regra.",
+      "newExample": "“O herói tomou café e deixou o lápis sobre a mesa.” “Herói” e “café” são oxítonas; “lápis” é paroxítona.",
+      "challenge": "Por que “café” tem acento e “caju” não?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-08-002-03",
+      "moduleId": "POR-08",
+      "subtopicId": "POR-08-002",
+      "topic": "Regras de acentuação de oxítonas e paroxítonas",
+      "type": "afirmacoes",
+      "difficulty": "dificil",
+      "stem": "Considere: I. “Herói” mantém acento no ditongo aberto tônico de oxítona. II. “Heroico” tem acento obrigatório sobre oi. III. “Órgão” é paroxítona acentuada. Quais estão corretas?",
+      "options": [
+        "Apenas I e III.",
+        "Apenas I e II.",
+        "Apenas II e III.",
+        "I, II e III."
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: herói conserva acento, heroico é sem acento, e órgão é paroxítona acentuada.",
+        "Incorreta: II é falsa, pois “heroico” perdeu o acento no acordo.",
+        "Incorreta: II é falsa e I é verdadeira.",
+        "Incorreta: II restabelece acento abolido em paroxítona."
+      ],
+      "explanation": "Acento em herói não autoriza acento em heroico, pois a tonicidade é diferente.",
+      "concept": "Oxítonas terminadas em a(s), e(s), o(s), em, ens recebem acento, com regras próprias para ditongos abertos; paroxítonas obedecem a outro conjunto de terminações.",
+      "trap": "Aplicar de modo indiscriminado regra de ditongo aberto a todas as palavras.",
+      "examTip": "Diga a tonicidade e a terminação antes de escolher a regra. “Heroico” e “herói” não seguem a mesma regra.",
+      "newExample": "“O herói tomou café e deixou o lápis sobre a mesa.” “Herói” e “café” são oxítonas; “lápis” é paroxítona.",
+      "challenge": "Por que “café” tem acento e “caju” não?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-08-002-04",
+      "moduleId": "POR-08",
+      "subtopicId": "POR-08-002",
+      "topic": "Regras de acentuação de oxítonas e paroxítonas",
+      "type": "lacunas",
+      "difficulty": "dificil",
+      "stem": "Complete os registros formais: “O ___ apresentou os ___ ao ___.” (referentes a personagem corajoso; documentos de papel; comissão de julgamento).",
+      "options": [
+        "heroi / papéis / júri",
+        "herói / papeis / juri",
+        "herói / papéis / júri",
+        "heróico / papéis / júri"
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta: “herói” exige acento gráfico.",
+        "Incorreta: “papéis” e “júri” necessitam acento.",
+        "Correta: herói e papéis são oxítonas com ditongos abertos tônicos; júri é paroxítona terminada em i.",
+        "Incorreta: “heroico” é outro vocábulo, adjetivo sem acento, inadequado ao sujeito substantivo pedido."
+      ],
+      "explanation": "As três grafias correspondem a regras diferentes de acentuação.",
+      "concept": "Oxítonas terminadas em a(s), e(s), o(s), em, ens recebem acento, com regras próprias para ditongos abertos; paroxítonas obedecem a outro conjunto de terminações.",
+      "trap": "Achar que toda palavra com oi deve ser escrita como “heróico”.",
+      "examTip": "Diga a tonicidade e a terminação antes de escolher a regra. “Heroico” e “herói” não seguem a mesma regra.",
+      "newExample": "“O herói tomou café e deixou o lápis sobre a mesa.” “Herói” e “café” são oxítonas; “lápis” é paroxítona.",
+      "challenge": "Por que “café” tem acento e “caju” não?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-08-003-01",
+      "moduleId": "POR-08",
+      "subtopicId": "POR-08-003",
+      "topic": "Proparoxítonas, hiatos e acentos diferenciais",
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "As palavras “pôr” (verbo) e “pôde” (pretérito) mantêm acentos diferenciais na ortografia vigente.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: pôr diferencia-se da preposição por; pôde diferencia-se de pode no presente.",
+        "Incorreta: o acordo não eliminou esses dois acentos diferenciais."
+      ],
+      "explanation": "Pôr/por e pôde/pode são pares em que os acentos diferenciais foram preservados.",
+      "concept": "Todas as proparoxítonas são acentuadas. O i e o u tônicos em hiato recebem acento sob condições específicas; pôr/por e pôde/pode são contrastes diferenciais mantidos.",
+      "trap": "Generalizar a eliminação de acentos diferenciais.",
+      "examTip": "Não confunda acentos diferenciais abolidos com os mantidos. “Pôde”, “pôr”, “têm” e “vêm” continuam previstos.",
+      "newExample": "“Ontem ele pôde sair; hoje ele não pode. Os candidatos têm documentos e vêm à unidade.”",
+      "challenge": "Explique a diferença de tempo verbal entre “pôde” e “pode”.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-08-003-02",
+      "moduleId": "POR-08",
+      "subtopicId": "POR-08-003",
+      "topic": "Proparoxítonas, hiatos e acentos diferenciais",
+      "type": "lacunas",
+      "difficulty": "media",
+      "stem": "Complete: “Ontem o técnico não ___ entrar; hoje ele ___ acessar o sistema, mas precisa ___ o cartão na leitora.”",
+      "options": [
+        "pode / pôde / por",
+        "pôde / pode / pôr",
+        "pôde / pôde / por",
+        "pode / pode / pôr"
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: passado exige pôde e verbo colocar exige pôr.",
+        "Correta: pôde indica passado, pode indica presente, pôr é verbo.",
+        "Incorreta: o presente é pode; por sem acento é preposição.",
+        "Incorreta: o passado não é pode, mas pôde."
+      ],
+      "explanation": "Acentos diferenciais distinguem tempo verbal e classe gramatical em contextos específicos.",
+      "concept": "Todas as proparoxítonas são acentuadas. O i e o u tônicos em hiato recebem acento sob condições específicas; pôr/por e pôde/pode são contrastes diferenciais mantidos.",
+      "trap": "Trocar por/pôr porque ambas têm som semelhante.",
+      "examTip": "Não confunda acentos diferenciais abolidos com os mantidos. “Pôde”, “pôr”, “têm” e “vêm” continuam previstos.",
+      "newExample": "“Ontem ele pôde sair; hoje ele não pode. Os candidatos têm documentos e vêm à unidade.”",
+      "challenge": "Explique a diferença de tempo verbal entre “pôde” e “pode”.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-08-003-03",
+      "moduleId": "POR-08",
+      "subtopicId": "POR-08-003",
+      "topic": "Proparoxítonas, hiatos e acentos diferenciais",
+      "type": "vf",
+      "difficulty": "dificil",
+      "stem": "Julgue: I. “Saída” e “saúde” apresentam i/u tônicos em hiato acentuáveis. II. “Juiz” deve ser escrito “juíz”. III. “Juízes” recebe acento no i tônico.",
+      "options": [
+        "V – F – V",
+        "V – V – F",
+        "F – F – V",
+        "F – V – V"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: saída/saúde e juízes levam acento; juiz, terminado em z, não leva.",
+        "Incorreta: “juíz” não é grafia atual; III é verdadeira.",
+        "Incorreta: I é verdadeira, pois saída e saúde têm hiato tônico.",
+        "Incorreta: I é verdadeira e II é falsa."
+      ],
+      "explanation": "“Juiz” não recebe acento, mas “juízes” recebe em virtude das condições do hiato.",
+      "concept": "Todas as proparoxítonas são acentuadas. O i e o u tônicos em hiato recebem acento sob condições específicas; pôr/por e pôde/pode são contrastes diferenciais mantidos.",
+      "trap": "Supor que toda forma da mesma família conserva acento.",
+      "examTip": "Não confunda acentos diferenciais abolidos com os mantidos. “Pôde”, “pôr”, “têm” e “vêm” continuam previstos.",
+      "newExample": "“Ontem ele pôde sair; hoje ele não pode. Os candidatos têm documentos e vêm à unidade.”",
+      "challenge": "Explique a diferença de tempo verbal entre “pôde” e “pode”.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-08-003-04",
+      "moduleId": "POR-08",
+      "subtopicId": "POR-08-003",
+      "topic": "Proparoxítonas, hiatos e acentos diferenciais",
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "As grafias seguem a norma ortográfica atual, EXCETO:",
+      "options": [
+        "O público assistiu à palestra.",
+        "Eles têm todos os comprovantes.",
+        "Ela pode sair hoje, mas não pôde ontem.",
+        "Ele decidiu por o aviso no quadro."
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Incorreta para EXCETO: público é proparoxítona acentuada.",
+        "Incorreta para EXCETO: têm distingue plural de tem.",
+        "Incorreta para EXCETO: pode/pôde distinguem presente e passado.",
+        "Correta para EXCETO: o verbo colocar exige a grafia “pôr”, com circunflexo."
+      ],
+      "explanation": "“Decidiu pôr o aviso” exige acento no verbo; por sem acento é preposição.",
+      "concept": "Todas as proparoxítonas são acentuadas. O i e o u tônicos em hiato recebem acento sob condições específicas; pôr/por e pôde/pode são contrastes diferenciais mantidos.",
+      "trap": "Confundir o verbo pôr com a preposição por.",
+      "examTip": "Não confunda acentos diferenciais abolidos com os mantidos. “Pôde”, “pôr”, “têm” e “vêm” continuam previstos.",
+      "newExample": "“Ontem ele pôde sair; hoje ele não pode. Os candidatos têm documentos e vêm à unidade.”",
+      "challenge": "Explique a diferença de tempo verbal entre “pôde” e “pode”.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-08-004-01",
+      "moduleId": "POR-08",
+      "subtopicId": "POR-08-004",
+      "topic": "Acordo Ortográfico e alterações relevantes",
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Na ortografia atual, “ideia”, “joia”, “voo” e “leem” são grafadas sem os acentos antigos.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: os ditongos abertos de paroxítonas e os hiatos ee/oo indicados perderam o acento.",
+        "Incorreta: todas as quatro grafias exemplificadas estão de acordo com o acordo vigente."
+      ],
+      "explanation": "As formas novas perderam acentos de “idéia”, “jóia”, “vôo” e “lêem”.",
+      "concept": "O Acordo eliminou o acento de ditongos abertos éi/ói em paroxítonas, o circunflexo de oo/ee em certos casos e o trema de palavras comuns portuguesas.",
+      "trap": "Tentar restaurar acentos antigos por analogia com oxítonas.",
+      "examTip": "Pergunte se a palavra é oxítona ou paroxítona antes de avaliar éi/ói; confira a grafia no VOLP quando houver dúvida real.",
+      "newExample": "Forma antiga: “idéia”, “vôo”, “lêem”; formas atuais: “ideia”, “voo”, “leem”. A palavra “herói” conserva o acento.",
+      "challenge": "Por que “heroico” não leva acento e “herói” leva?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-08-004-02",
+      "moduleId": "POR-08",
+      "subtopicId": "POR-08-004",
+      "topic": "Acordo Ortográfico e alterações relevantes",
+      "type": "associacao",
+      "difficulty": "media",
+      "stem": "Associe 1. ditongo aberto em paroxítona sem acento; 2. hiato oo sem circunflexo; 3. hiato ee sem circunflexo; 4. ditongo aberto em oxítona acentuada. ( ) joia; ( ) voo; ( ) leem; ( ) herói.",
+      "options": [
+        "4 – 2 – 3 – 1",
+        "1 – 3 – 2 – 4",
+        "1 – 2 – 3 – 4",
+        "2 – 1 – 3 – 4"
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta: “joia” é paroxítona, não oxítona acentuada.",
+        "Incorreta: voo traz oo e leem, ee; a ordem está invertida.",
+        "Correta: joia (éi/ói paroxítona), voo (oo), leem (ee) e herói (oxítona).",
+        "Incorreta: joia não exemplifica hiato oo."
+      ],
+      "explanation": "Quatro condições distintas explicam as grafias após o Acordo.",
+      "concept": "O Acordo eliminou o acento de ditongos abertos éi/ói em paroxítonas, o circunflexo de oo/ee em certos casos e o trema de palavras comuns portuguesas.",
+      "trap": "Interpretar todas as perdas de acento como resultado de uma única regra.",
+      "examTip": "Pergunte se a palavra é oxítona ou paroxítona antes de avaliar éi/ói; confira a grafia no VOLP quando houver dúvida real.",
+      "newExample": "Forma antiga: “idéia”, “vôo”, “lêem”; formas atuais: “ideia”, “voo”, “leem”. A palavra “herói” conserva o acento.",
+      "challenge": "Por que “heroico” não leva acento e “herói” leva?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-08-004-03",
+      "moduleId": "POR-08",
+      "subtopicId": "POR-08-004",
+      "topic": "Acordo Ortográfico e alterações relevantes",
+      "type": "afirmacoes",
+      "difficulty": "dificil",
+      "stem": "Analise: I. “Linguiça” não leva trema na escrita corrente. II. “Feiura” não leva acento no i da paroxítona após ditongo. III. “Herói” perdeu o acento por ter ditongo aberto oi.",
+      "options": [
+        "Apenas I e II.",
+        "Apenas II e III.",
+        "Apenas I e III.",
+        "I, II e III."
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: o trema caiu em palavras comuns e feiura perdeu o acento; herói mantém-no por ser oxítona.",
+        "Incorreta: III é falsa, enquanto I é verdadeira.",
+        "Incorreta: III é falsa e II é verdadeira.",
+        "Incorreta: III aplica a oxítona regra de paroxítonas."
+      ],
+      "explanation": "O acordo afetou o trema e determinadas paroxítonas, mas não eliminou acento de herói.",
+      "concept": "O Acordo eliminou o acento de ditongos abertos éi/ói em paroxítonas, o circunflexo de oo/ee em certos casos e o trema de palavras comuns portuguesas.",
+      "trap": "Supor que toda ocorrência de oi tônico perdeu acento.",
+      "examTip": "Pergunte se a palavra é oxítona ou paroxítona antes de avaliar éi/ói; confira a grafia no VOLP quando houver dúvida real.",
+      "newExample": "Forma antiga: “idéia”, “vôo”, “lêem”; formas atuais: “ideia”, “voo”, “leem”. A palavra “herói” conserva o acento.",
+      "challenge": "Por que “heroico” não leva acento e “herói” leva?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-08-004-04",
+      "moduleId": "POR-08",
+      "subtopicId": "POR-08-004",
+      "topic": "Acordo Ortográfico e alterações relevantes",
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "Qual opção NÃO apresenta exclusivamente grafias atuais?",
+      "options": [
+        "Assembleia e estreia",
+        "Enjoo e voo",
+        "Creem e leem",
+        "Idéia e herói"
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Incorreta para NÃO: ambas grafias são atuais e sem acento nos ditongos.",
+        "Incorreta para NÃO: ambos vocábulos perderam o acento em oo.",
+        "Incorreta para NÃO: ambos perderam o circunflexo sobre ee.",
+        "Correta para NÃO: “idéia” é antiga; a forma atual é “ideia”, embora “herói” esteja correto."
+      ],
+      "explanation": "Idéia não é grafia atual; ideia é a forma regular.",
+      "concept": "O Acordo eliminou o acento de ditongos abertos éi/ói em paroxítonas, o circunflexo de oo/ee em certos casos e o trema de palavras comuns portuguesas.",
+      "trap": "Confundir uma palavra correta na alternativa com correção do par inteiro.",
+      "examTip": "Pergunte se a palavra é oxítona ou paroxítona antes de avaliar éi/ói; confira a grafia no VOLP quando houver dúvida real.",
+      "newExample": "Forma antiga: “idéia”, “vôo”, “lêem”; formas atuais: “ideia”, “voo”, “leem”. A palavra “herói” conserva o acento.",
+      "challenge": "Por que “heroico” não leva acento e “herói” leva?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-08-005-01",
+      "moduleId": "POR-08",
+      "subtopicId": "POR-08-005",
+      "topic": "Hífen em prefixos e palavras compostas",
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "As formas “micro-ondas” e “anti-inflamatório” levam hífen porque o segundo elemento começa pela mesma vogal final do prefixo.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: micro- + ondas repete o; anti- + inflamatório repete i.",
+        "Incorreta: as duas formas exemplificam a regra de vogais iguais."
+      ],
+      "explanation": "O encontro o+o e i+i exige hífen nos exemplos comuns de prefixação.",
+      "concept": "Hífen após prefixo terminado em vogal costuma ocorrer antes de h ou da mesma vogal; r/s após vogal diferente geralmente duplicam-se; há prefixos com regras próprias.",
+      "trap": "Escolher hífen apenas porque a palavra é longa.",
+      "examTip": "Cheque o último grafema do prefixo e o primeiro da base; depois verifique prefixos especiais e possíveis exceções lexicais.",
+      "newExample": "“O ex-aluno participou da pré-inscrição e assistiu ao teste de micro-ondas; o coautor divulgou o estudo.”",
+      "challenge": "Por que “anti-inflamatório” tem hífen e “antirracismo” não?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-08-005-02",
+      "moduleId": "POR-08",
+      "subtopicId": "POR-08-005",
+      "topic": "Hífen em prefixos e palavras compostas",
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Qual série está integralmente escrita de acordo com a ortografia atual?",
+      "options": [
+        "Anti-social, microondas, ex aluno",
+        "Antissocial, micro-ondas, ex-aluno",
+        "Antisocial, micro-ondas, exaluno",
+        "Anti-social, micro-ondas, ex-aluno"
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: antissocial duplica s, micro-ondas pede hífen e ex-aluno também.",
+        "Correta: antissocial é sem hífen e com ss; micro-ondas e ex-aluno têm hífen por regras próprias.",
+        "Incorreta: falta duplicar s em antissocial e hifenizar ex-aluno.",
+        "Incorreta: anti- + social forma antissocial sem hífen."
+      ],
+      "explanation": "Os três casos exigem raciocínios distintos: duplicação de s, vogais iguais e ex- com sentido anterior.",
+      "concept": "Hífen após prefixo terminado em vogal costuma ocorrer antes de h ou da mesma vogal; r/s após vogal diferente geralmente duplicam-se; há prefixos com regras próprias.",
+      "trap": "Generalizar a mesma regra de hífen a todos os prefixos.",
+      "examTip": "Cheque o último grafema do prefixo e o primeiro da base; depois verifique prefixos especiais e possíveis exceções lexicais.",
+      "newExample": "“O ex-aluno participou da pré-inscrição e assistiu ao teste de micro-ondas; o coautor divulgou o estudo.”",
+      "challenge": "Por que “anti-inflamatório” tem hífen e “antirracismo” não?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-08-005-03",
+      "moduleId": "POR-08",
+      "subtopicId": "POR-08-005",
+      "topic": "Hífen em prefixos e palavras compostas",
+      "type": "vf",
+      "difficulty": "dificil",
+      "stem": "Julgue: I. “Autoescola” escreve-se sem hífen, pois as vogais do encontro são diferentes. II. “Antirracismo” exige rr. III. “Co-operação” é forma obrigatória pelo encontro de dois os.",
+      "options": [
+        "V – F – V",
+        "F – V – V",
+        "V – V – F",
+        "V – F – F"
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta: II é verdadeira, e III é falsa pela regra do co-.",
+        "Incorreta: I é verdadeira e III é falsa.",
+        "Correta: autoescola aglutina vogais diferentes; antirracismo duplica r; cooperação dispensa hífen.",
+        "Incorreta: II é verdadeira."
+      ],
+      "explanation": "A forma adequada é “cooperação”, sem hífen, inclusive diante de o.",
+      "concept": "Hífen após prefixo terminado em vogal costuma ocorrer antes de h ou da mesma vogal; r/s após vogal diferente geralmente duplicam-se; há prefixos com regras próprias.",
+      "trap": "Aplicar co- como qualquer prefixo terminado em o, sem lembrar exceção.",
+      "examTip": "Cheque o último grafema do prefixo e o primeiro da base; depois verifique prefixos especiais e possíveis exceções lexicais.",
+      "newExample": "“O ex-aluno participou da pré-inscrição e assistiu ao teste de micro-ondas; o coautor divulgou o estudo.”",
+      "challenge": "Por que “anti-inflamatório” tem hífen e “antirracismo” não?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    },
+    {
+      "id": "Q-POR-08-005-04",
+      "moduleId": "POR-08",
+      "subtopicId": "POR-08-005",
+      "topic": "Hífen em prefixos e palavras compostas",
+      "type": "afirmacoes",
+      "difficulty": "dificil",
+      "stem": "Considere: I. “Pré-escolar” e “pós-graduação” levam hífen. II. “Super-resistente” recebe hífen entre rr. III. “Fim-de-semana” é a forma recomendada para a locução comum no português brasileiro atual.",
+      "options": [
+        "Apenas I e III.",
+        "Apenas II e III.",
+        "I, II e III.",
+        "Apenas I e II."
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Incorreta: III é falsa; usa-se “fim de semana” sem hífen.",
+        "Incorreta: III é falsa e I é verdadeira.",
+        "Incorreta: III cria hífen indevido numa locução.",
+        "Correta: pré-/pós- tônicos e super- diante de r conservam hífen; “fim de semana” é separado."
+      ],
+      "explanation": "O sinal de hífen depende do tipo de prefixo e da estrutura da expressão.",
+      "concept": "Hífen após prefixo terminado em vogal costuma ocorrer antes de h ou da mesma vogal; r/s após vogal diferente geralmente duplicam-se; há prefixos com regras próprias.",
+      "trap": "Tratar locuções como se todas fossem compostos obrigatoriamente hifenizados.",
+      "examTip": "Cheque o último grafema do prefixo e o primeiro da base; depois verifique prefixos especiais e possíveis exceções lexicais.",
+      "newExample": "“O ex-aluno participou da pré-inscrição e assistiu ao teste de micro-ondas; o coautor divulgou o estudo.”",
+      "challenge": "Por que “anti-inflamatório” tem hífen e “antirracismo” não?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "bank-hard"
+    }
+  ]
+}
