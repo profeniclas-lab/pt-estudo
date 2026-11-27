@@ -1,0 +1,26 @@
+{
+  "projeto": "PT-ESTUDO",
+  "branch": "nova-arquitetura",
+  "data": "2026-11-27",
+  "resultado": "aprovacao_tecnica_parcial",
+  "catalogo": {"modulos": 27, "subtopicos": 140, "aulas": 140, "diagnosticos": 140, "questoes": 560, "ids_unicos": true},
+  "verificacoes": {
+    "imports_do_nucleo": {"passaram": 92, "total": 92, "metodo": "arvore GitHub"},
+    "sintaxe_js_pacotes": {"passaram": 117, "total": 117, "metodo": "node --check"},
+    "backups": {"passaram": 31, "total": 31, "metodo": "node --test, estado temporario"},
+    "sessoes_exercicios_motor_real": {"passaram": 945, "total": 945, "modulos": 27},
+    "banco_motor_real_isolado": {"passaram": 35, "total": 35},
+    "simulados_motor_real_isolado": {"passaram": 35, "total": 35},
+    "revisoes_motor_real_isolado": {"passaram": 35, "total": 35},
+    "diagnosticos_motor_real_isolado": {"passaram": 35, "total": 35},
+    "dados_local_reconstruido": {"passaram": 4, "total": 5, "ressalva": "Falha de recurso CSS apenas na copia ZIP parcial; arquivo existe na arvore GitHub"}
+  },
+  "pendencias": [
+    "Instalacao e execucao do workflow na branch real",
+    "Smoke test de navegacao em navegador real",
+    "Reload e persistencia em perfil de testes",
+    "OAuth Google e teste de Drive por botao com autorizacao do usuario",
+    "Homologacao manual do checklist"
+  ],
+  "notas": "Nao classificar o app como definitivamente homologado ate testes de GitHub Actions e navegador/Google Drive estarem aprovados."
+}
