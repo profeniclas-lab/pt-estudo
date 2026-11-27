@@ -1,0 +1,3264 @@
+[
+  {
+    "id": "Q-POR-24-001-01",
+    "moduleId": "POR-24",
+    "alteracoes": {
+      "explanation": {
+        "antes": "O comando exige pelo menos uma informação de risco além das duas vantagens; três vantagens não substituem esse requisito.",
+        "depois": "O comando exige vantagens e risco; listar somente vantagens omite um eixo obrigatório, mesmo que acrescente informações ao texto."
+      },
+      "newExample": {
+        "antes": "Pedido: “compare dois serviços”; descrever apenas um não cumpre a comparação.",
+        "depois": "Uma questão pede duas causas de evasão e uma iniciativa de prevenção: citar três causas, sem iniciativa, deixa uma exigência em branco."
+      },
+      "challenge": {
+        "antes": "Quais três elementos você destacaria no rascunho ao ler o comando do enunciado?",
+        "depois": "Reescreva um comando de prova em três tarefas verificáveis e marque qual faltaria num texto só descritivo."
+      },
+      "optionComments": {
+        "antes": [
+          "Incorreta: A redação fica temática, mas incompleta quanto à operação solicitada.",
+          "Correta: O comando exige pelo menos uma informação de risco além das duas vantagens; três vantagens não substituem esse requisito."
+        ],
+        "depois": [
+          "Incorreta: Marcar CERTO suporia que quantidade extra de vantagens compensa a falta do risco expressamente exigido, o que não ocorre.",
+          "Correta: O comando exige vantagens e risco; listar somente vantagens omite um eixo obrigatório, mesmo que acrescente informações ao texto."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-POR-24-001-02",
+    "moduleId": "POR-24",
+    "alteracoes": {
+      "explanation": {
+        "antes": "O comando pede comparação simétrica das modalidades e quatro elementos mínimos dentro do limite de linhas.",
+        "depois": "O plano correto contém critérios comuns de comparação, uma vantagem e uma limitação por modalidade e observa o teto de 15 linhas."
+      },
+      "newExample": {
+        "antes": "“Compare um portal e um balcão e indique custo e acessibilidade” exige examinar ambos pelos mesmos critérios.",
+        "depois": "Para comparar protocolo físico e digital em 15 linhas, reserve uma frase inicial, uma análise por canal e síntese dos critérios."
+      },
+      "challenge": {
+        "antes": "Quais palavras do comando correspondem a quantidade, tarefa e restrição formal?",
+        "depois": "Esboce uma comparação com um benefício e um obstáculo de cada forma de protocolo, sem ultrapassar o espaço."
+      },
+      "optionComments": {
+        "antes": [
+          "Incorreta: omite uma modalidade e as limitações exigidas.",
+          "Incorreta: não executa comparação nem responde aos critérios solicitados.",
+          "Incompleta: atende às vantagens, mas não às duas limitações.",
+          "Correta: contempla modalidades, critérios, vantagens, limites e extensão."
+        ],
+        "depois": [
+          "Incorreta: o presencial fica sem vantagem e limitação individualizadas, exigidas pelo comando.",
+          "Incorreta: critérios comuns não dispensam a identificação de uma limitação em cada canal.",
+          "Incorreta: a proposta exige uma limitação de cada modalidade, além das vantagens.",
+          "Correta: contempla modalidades, critérios, vantagens, limites e extensão."
+        ]
+      },
+      "options": {
+        "antes": [
+          "Descrever só o atendimento remoto, com três vantagens e sem limites.",
+          "Apresentar o histórico dos serviços públicos e concluir sem comparar modalidades.",
+          "Explicar uma vantagem de cada modalidade, sem mencionar limitações.",
+          "Estabelecer critérios comuns, indicar vantagem e limitação de cada modalidade e respeitar 15 linhas."
+        ],
+        "depois": [
+          "Explicar o atendimento remoto com vantagem e limitação, mas descrever o presencial apenas de modo geral.",
+          "Comparar os dois canais por custo e velocidade, mas não apontar explicitamente uma limitação de cada um.",
+          "Apresentar uma vantagem de cada modalidade e reservar a conclusão para uma recomendação, sem abordar suas limitações.",
+          "Estabelecer critérios comuns, indicar vantagem e limitação de cada modalidade e respeitar 15 linhas."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-POR-24-001-03",
+    "moduleId": "POR-24",
+    "alteracoes": {
+      "explanation": {
+        "antes": "A sequência V-F-V-F distingue critérios de conteúdo, proposta de solução e extensão definida pela banca.",
+        "depois": "I e III atendem ao levantamento de causas e à pertinência da medida; II ignora parte do comando e IV desrespeita a extensão exigida."
+      },
+      "newExample": {
+        "antes": "Uma prova pode pedir “um efeito e duas soluções”; uma redação excelente que ignore as soluções permanece incompleta.",
+        "depois": "Um texto apresenta duas causas de lentidão do atendimento, mas propõe medida que não trata de nenhuma delas."
+      },
+      "challenge": {
+        "antes": "O que seria uma medida factível ligada à causa “informações confusas sobre documentos”?",
+        "depois": "Indique qual elemento do comando foi atendido e por que a intervenção não dialoga com as causas descritas."
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-POR-24-001-04",
+    "moduleId": "POR-24",
+    "alteracoes": {
+      "explanation": {
+        "antes": "Não existe regra universal de cinco parágrafos nem intervenção obrigatória em todas as discursivas de concurso.",
+        "depois": "Não existe modelo obrigatório de cinco parágrafos ou intervenção para toda questão discursiva: extensão, gênero e tarefa dependem do edital."
+      },
+      "newExample": {
+        "antes": "Uma resposta técnica de dez linhas pode exigir justificativa breve, sem a estrutura de dissertação extensa.",
+        "depois": "Uma questão técnica solicita resposta em 10 linhas sem intervenção: quatro parágrafos com proposta política podem ocupar espaço indevido."
+      },
+      "challenge": {
+        "antes": "Que informação do edital você verificaria antes de fixar número de parágrafos?",
+        "depois": "Crie dois planos diferentes para comandos distintos, um de comparação e outro de justificativa."
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-POR-24-002-01",
+    "moduleId": "POR-24",
+    "alteracoes": {
+      "explanation": {
+        "antes": "A formulação associa benefício da digitalização à condição concreta de apoio presencial e delimita o público vulnerável à exclusão digital.",
+        "depois": "A tese identifica o benefício possível da digitalização e condiciona sua inclusão ao apoio presencial a usuários com barreiras tecnológicas."
+      },
+      "newExample": {
+        "antes": "“Bibliotecas ampliam acesso se combinarem acervo e orientação ao leitor” contém condição delimitadora.",
+        "depois": "Tese delimitada: manter balcão assistido pode reduzir exclusão digital dos requerentes com baixo acesso à rede."
+      },
+      "challenge": {
+        "antes": "Que argumentos poderiam sustentar a condição de suporte presencial?",
+        "depois": "Identifique o recorte e a condição da tese sem transformá-la em afirmação absoluta sobre tecnologia."
+      },
+      "optionComments": {
+        "antes": [
+          "Correta: A formulação associa benefício da digitalização à condição concreta de apoio presencial e delimita o público vulnerável à exclusão digital.",
+          "Incorreta: Não é uma generalização absoluta: explicita em que circunstância o benefício é mais defensável."
+        ],
+        "depois": [
+          "Correta: A tese identifica o benefício possível da digitalização e condiciona sua inclusão ao apoio presencial a usuários com barreiras tecnológicas.",
+          "Incorreta: Marcar ERRADO desconsideraria que a tese delimita a condição de acessibilidade e não garante inclusão digital automática."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-POR-24-002-02",
+    "moduleId": "POR-24",
+    "alteracoes": {
+      "explanation": {
+        "antes": "I, II e III distinguem função argumentativa, delimitação e organização textual.",
+        "depois": "Tese, recorte e plano argumentativo cumprem funções complementares: posição defendida, aspecto focalizado e ordem dos argumentos."
+      },
+      "newExample": {
+        "antes": "Tema: “uso de dados públicos”; recorte: “clareza e acessibilidade dos portais”; tese: “padrões simples favorecem o acesso”.",
+        "depois": "Antes de escrever, delimite: tema filas; recorte agendamento eletrônico; tese organização dos horários pode reduzir espera."
+      },
+      "challenge": {
+        "antes": "Uma tese ampla demais pode dificultar que cada parágrafo a sustente por quê?",
+        "depois": "Organize em três notas separadas o tema geral, o foco e a posição defendida."
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-POR-24-002-03",
+    "moduleId": "POR-24",
+    "alteracoes": {
+      "explanation": {
+        "antes": "A última tese indica benefício possível, duas condições práticas e público delimitado, ao contrário das generalizações.",
+        "depois": "A tese delimita municípios, agilização e condição de acessibilidade; as alternativas absolutistas ou genéricas não são sustentáveis."
+      },
+      "newExample": {
+        "antes": "“A informatização de cadastros requer treinamento de equipes para reduzir erros” oferece vínculo específico de causa e condição.",
+        "depois": "Tese defensável: agendamento digital pode melhorar a previsibilidade, desde que exista alternativa para usuários sem conexão."
+      },
+      "challenge": {
+        "antes": "Quais dois argumentos poderiam apoiar a tese correta sem inventar estatísticas?",
+        "depois": "Substitua uma frase do tipo “a tecnologia resolve tudo” por uma proposição delimitada e argumentável."
+      },
+      "optionComments": {
+        "antes": [
+          "Incorreta: sempre e todos fazem generalização difícil de sustentar.",
+          "Incorreta: rejeita o tema com justificativa vaga e não examina condições.",
+          "Incorreta: frase genérica não apresenta uma posição específica.",
+          "Correta: combina benefício, condição de acesso e público afetado, permitindo argumentação concreta."
+        ],
+        "depois": [
+          "Incorreta: generaliza resultado sem dados sobre infraestrutura ou acesso local.",
+          "Incorreta: afirma superioridade universal e ignora as barreiras previstas no recorte.",
+          "Incorreta: apresenta juízo amplo e não formula tese delimitada e verificável.",
+          "Correta: combina benefício, condição de acesso e público afetado, permitindo argumentação concreta."
+        ]
+      },
+      "options": {
+        "antes": [
+          "A tecnologia é sempre a solução perfeita para todos os cidadãos.",
+          "Os municípios não devem pensar em tecnologia porque isso é assunto complexo.",
+          "Tudo o que envolve serviços públicos é muito importante atualmente.",
+          "A ampliação de canais digitais pode agilizar solicitações, desde que haja orientação e alternativa de acesso aos usuários sem conectividade."
+        ],
+        "depois": [
+          "Serviços digitais reduzem o tempo de atendimento em todos os municípios, independentemente da infraestrutura.",
+          "O atendimento digital é mais importante que o presencial em qualquer região.",
+          "O uso de tecnologia merece reflexão porque a administração precisa evoluir.",
+          "A ampliação de canais digitais pode agilizar solicitações, desde que haja orientação e alternativa de acesso aos usuários sem conectividade."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-POR-24-002-04",
+    "moduleId": "POR-24",
+    "alteracoes": {
+      "explanation": {
+        "antes": "A escala vai do assunto geral ao recorte e à tese prescritiva sobre atendimento assistido.",
+        "depois": "Tema é o assunto amplo; recorte foca o grupo com conexão limitada; tese defende a necessidade de atendimento assistido."
+      },
+      "newExample": {
+        "antes": "Para “educação ambiental”, um recorte seria “coleta seletiva nas escolas”, e uma tese poderia defender oficinas regulares.",
+        "depois": "Tema: transparência; recorte: divulgação de prazos em editais; tese: a tabela de datas deve ser acessível também por telefone."
+      },
+      "challenge": {
+        "antes": "Por que “acesso a serviços” ainda não é tese argumentativa?",
+        "depois": "Classifique três frases de sua autoria como tema, recorte e tese."
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-POR-24-003-01",
+    "moduleId": "POR-24",
+    "alteracoes": {
+      "explanation": {
+        "antes": "Um caso não autoriza generalização universal sem análise de condições, escala e evidência comparável.",
+        "depois": "Um caso singular não prova eficácia universal; generalizar para todos os municípios exige evidências e condições comparáveis."
+      },
+      "newExample": {
+        "antes": "“Uma escola reduziu filas com agendamento” não prova que toda escola obterá o mesmo resultado.",
+        "depois": "A experiência positiva de uma agência de bairro não garante eficácia idêntica em todas as unidades do estado."
+      },
+      "challenge": {
+        "antes": "Que condição poderia fazer uma solução útil em um município fracassar em outro?",
+        "depois": "Indique quais dados seriam necessários antes de extrapolar o caso isolado para todas as unidades."
+      },
+      "optionComments": {
+        "antes": [
+          "Incorreta: Afirmar validade para todos os municípios excede o alcance probatório de um único exemplo.",
+          "Correta: Um caso não autoriza generalização universal sem análise de condições, escala e evidência comparável."
+        ],
+        "depois": [
+          "Incorreta: Marcar CERTO trataria uma experiência isolada como prova universal de eficácia, sem observar diferenças entre municípios.",
+          "Correta: Um caso singular não prova eficácia universal; generalizar para todos os municípios exige evidências e condições comparáveis."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-POR-24-003-02",
+    "moduleId": "POR-24",
+    "alteracoes": {
+      "explanation": {
+        "antes": "Identificar um mecanismo concreto — atendimento no balcão apesar da falta de conexão — sustenta a tese.",
+        "depois": "O argumento explicita o mecanismo causal: balcão assistido supre falta de conexão e permite concluir solicitações."
+      },
+      "newExample": {
+        "antes": "“Treinamento de servidores reduz erros quando ensina o preenchimento correto dos formulários” explicita mecanismo.",
+        "depois": "Sem acesso à internet, um usuário depende do guichê para completar cadastro; daí a importância de alternativa presencial."
+      },
+      "challenge": {
+        "antes": "Que exemplo adicional poderia demonstrar apoio a pessoas com dificuldade de leitura digital?",
+        "depois": "Transforme uma afirmação abstrata em justificativa mostrando o mecanismo entre problema e solução."
+      },
+      "optionComments": {
+        "antes": [
+          "Incorreta: a ideia de modernidade não explica a inclusão sem internet.",
+          "Incorreta: preferência genérica não demonstra acesso de usuários desconectados.",
+          "Correta: a justificativa identifica o mecanismo que liga canal presencial e inclusão.",
+          "Incorreta: repete avaliação sem oferecer razão ou exemplo analisado."
+        ],
+        "depois": [
+          "Incorreta: a tradição não demonstra de que forma o canal elimina a barreira de conexão.",
+          "Incorreta: frequência de uso isolada não comprova superioridade nem liga a premissa ao problema.",
+          "Correta: a justificativa identifica o mecanismo que liga canal presencial e inclusão.",
+          "Incorreta: reformula a conclusão sem demonstrar o mecanismo que a sustenta."
+        ]
+      },
+      "options": {
+        "antes": [
+          "Isso acontece porque o mundo é moderno e tudo muda muito rápido.",
+          "Muitos cidadãos gostam de coisas boas; isso comprova a tese.",
+          "Quem não dispõe de conexão pode concluir solicitações com apoio no balcão, reduzindo uma barreira de acesso.",
+          "O atendimento é importante, muito importante, extremamente importante."
+        ],
+        "depois": [
+          "A manutenção de unidades físicas é tradicional e por isso deve ser preservada em todos os serviços.",
+          "Muitos cidadãos usam atendimento presencial; esse fato basta para comprovar sua superioridade em qualquer caso.",
+          "Quem não dispõe de conexão pode concluir solicitações com apoio no balcão, reduzindo uma barreira de acesso.",
+          "A medida é conveniente porque preserva canais físicos, embora não haja necessidade de explicar como eles ajudam."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-POR-24-003-03",
+    "moduleId": "POR-24",
+    "alteracoes": {
+      "explanation": {
+        "antes": "I e II são verdadeiras, ao passo que III atribui eficácia apenas à novidade, sem evidência.",
+        "depois": "I é razão pertinente e II identifica generalização indevida; III confunde novidade tecnológica com demonstração de eficácia."
+      },
+      "newExample": {
+        "antes": "“O software tem interface recente” não demonstra que o usuário consegue navegar sem assistência.",
+        "depois": "A frase “formulários simples evitam erros” é hipótese justificável; uma avaliação de um usuário não demonstra impacto geral."
+      },
+      "challenge": {
+        "antes": "Que informação empírica poderia ajudar a avaliar se o formulário ficou mais acessível?",
+        "depois": "Identifique o salto lógico entre amostra individual e generalização para todos os serviços."
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-POR-24-003-04",
+    "moduleId": "POR-24",
+    "alteracoes": {
+      "explanation": {
+        "antes": "Criar números sem fonte não fortalece a argumentação; introduz informação falsa.",
+        "depois": "Inventar percentuais transforma suposição em suposto dado e enfraquece a confiabilidade; os demais métodos preservam evidências."
+      },
+      "newExample": {
+        "antes": "“Segundo a tabela apresentada na proposta, 12 dos 20 entrevistados preferiram atendimento híbrido” conserva os limites da amostra fictícia fornecida.",
+        "depois": "Escrever “85% dos usuários preferem aplicativo” sem pesquisa ou fonte não constitui dado demonstrado."
+      },
+      "challenge": {
+        "antes": "Como você escreveria um argumento convincente sem recorrer a percentual inexistente?",
+        "depois": "Reformule argumento com base em observação qualitativa sem inventar porcentagem."
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-POR-24-004-01",
+    "moduleId": "POR-24",
+    "alteracoes": {
+      "explanation": {
+        "antes": "O conectivo apenas sinaliza inferência; a relação entre ideias precisa ser sustentada pelo conteúdo.",
+        "depois": "Um conectivo de conclusão não cria inferência válida quando as proposições não sustentam uma à outra."
+      },
+      "newExample": {
+        "antes": "“O formulário é longo. Portanto, há etapas que podem confundir usuários” exige ainda justificativa que ligue extensão e dificuldade.",
+        "depois": "A frase “há menos atendentes; portanto, o prazo foi prorrogado” exige premissa sobre a relação entre pessoal e prazo."
+      },
+      "challenge": {
+        "antes": "Que tipo de ligação causal precisa existir antes de usar “por isso” na conclusão?",
+        "depois": "Elabore um par de frases em que “portanto” introduza conclusão efetivamente fundamentada."
+      },
+      "optionComments": {
+        "antes": [
+          "Incorreta: Um portanto não cria premissas nem elimina contradições entre afirmações.",
+          "Correta: O conectivo apenas sinaliza inferência; a relação entre ideias precisa ser sustentada pelo conteúdo."
+        ],
+        "depois": [
+          "Incorreta: Marcar CERTO atribuiria a um conectivo a força de provar inferências que as premissas não sustentam.",
+          "Correta: Um conectivo de conclusão não cria inferência válida quando as proposições não sustentam uma à outra."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-POR-24-004-02",
+    "moduleId": "POR-24",
+    "alteracoes": {
+      "explanation": {
+        "antes": "Por isso liga falha de orientação à consequência, e assim permite encaminhar medida coerente.",
+        "depois": "A ausência de orientação pode levar a formulários incompletos (por isso), e instruções claras são a resposta proposta (assim)."
+      },
+      "newExample": {
+        "antes": "“O prazo foi reduzido. Desse modo, os pedidos passaram a exigir planejamento mais rápido” sinaliza consequência.",
+        "depois": "Sem guias de preenchimento, alguns formulários chegam incompletos; por isso, uma lista de instruções pode ser útil."
+      },
+      "challenge": {
+        "antes": "Que alteração de informação tornaria “contudo” apropriado no segundo espaço?",
+        "depois": "Troque dois conectivos inadequados sem mudar a relação de causa e consequência entre as frases."
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-POR-24-004-03",
+    "moduleId": "POR-24",
+    "alteracoes": {
+      "explanation": {
+        "antes": "A sequência V-F-V-V reconhece a progressão, a coerência final e a dependência do comando.",
+        "depois": "I reforça progressão, II confunde conectivo com raciocínio, III distingue repetição de desenvolvimento e IV respeita o comando da banca."
+      },
+      "newExample": {
+        "antes": "“O município precisa de acesso híbrido; logo, convém oferecer suporte presencial” conserva orientação temática.",
+        "depois": "Um texto defende canais acessíveis, apresenta barreiras e encerra com a mesma defesa, sem acrescentar tema novo."
+      },
+      "challenge": {
+        "antes": "Por que repetir a tese em três parágrafos não supre a ausência de razões?",
+        "depois": "Explique por que inserir estatística não verificada apenas na conclusão prejudicaria a progressão."
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-POR-24-004-04",
+    "moduleId": "POR-24",
+    "alteracoes": {
+      "explanation": {
+        "antes": "A conclusão adequada retoma a necessidade de complementaridade sem acrescentar contradição.",
+        "depois": "A conclusão retoma a complementaridade entre serviço digital e apoio presencial defendida e justificada no desenvolvimento."
+      },
+      "newExample": {
+        "antes": "“A orientação no balcão e o agendamento eletrônico podem atender necessidades distintas” também sintetiza uma tese híbrida.",
+        "depois": "Após defender digitalização com assistência, concluir pela coexistência dos canais retoma argumento e evidências expostos."
+      },
+      "challenge": {
+        "antes": "Qual expressão da tese original precisa estar representada na conclusão?",
+        "depois": "Redija uma conclusão curta que não contradiga a condição de acesso presencial expressa na tese."
+      },
+      "optionComments": {
+        "antes": [
+          "Incorreta: extinguir apoio presencial contraria a condição expressa na tese.",
+          "Incorreta: exclui orientação que o desenvolvimento defendeu.",
+          "Correta: sintetiza complementaridade digital e presencial discutida nos argumentos.",
+          "Incorreta: introduz tema diferente da tese e do desenvolvimento."
+        ],
+        "depois": [
+          "Incorreta: a eliminação antecipada do suporte contraria a condição de inclusão discutida.",
+          "Incorreta: supõe desaparecer a necessidade de apoio, quando a tese é complementá-lo.",
+          "Correta: sintetiza complementaridade digital e presencial discutida nos argumentos.",
+          "Incorreta: a conclusão abandona a condição de apoio que sustentava a tese."
+        ]
+      },
+      "options": {
+        "antes": [
+          "Portanto, deve-se eliminar imediatamente todo atendimento presencial.",
+          "Assim, o acesso depende exclusivamente de aplicativos e dispensa orientação.",
+          "Logo, serviços digitais e apoio presencial podem atuar de forma complementar para reduzir exclusões.",
+          "Conclui-se que o tema central é a história dos computadores no Brasil."
+        ],
+        "depois": [
+          "Portanto, as unidades devem migrar imediatamente para canais digitais, deixando a orientação presencial para uma etapa posterior.",
+          "Assim, os canais digitais ampliam o acesso apenas se o apoio presencial deixar de ser necessário.",
+          "Logo, serviços digitais e apoio presencial podem atuar de forma complementar para reduzir exclusões.",
+          "Conclui-se que a eficiência deve orientar decisões, embora as barreiras digitais não precisem entrar na conclusão."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-POR-24-005-01",
+    "moduleId": "POR-24",
+    "alteracoes": {
+      "explanation": {
+        "antes": "Poderá exprime possibilidade; reabrirá apresenta ação futura como certa, alterando modalidade e compromisso informacional.",
+        "depois": "Poderá expressa possibilidade e reabrirá afirma realização futura; a troca altera o compromisso transmitido."
+      },
+      "newExample": {
+        "antes": "“A unidade pode responder em 48 horas” não equivale a “A unidade responderá em 48 horas”.",
+        "depois": "“O setor poderá ampliar o prazo” não autoriza informar ao cidadão “O setor ampliará o prazo”."
+      },
+      "challenge": {
+        "antes": "Qual termo você conservaria para não transformar autorização em obrigação?",
+        "depois": "Distinga em uma linha a diferença de compromisso entre possibilidade e decisão confirmada."
+      },
+      "optionComments": {
+        "antes": [
+          "Incorreta: A troca não elimina apenas excesso verbal: modifica o grau de certeza da decisão.",
+          "Correta: Poderá exprime possibilidade; reabrirá apresenta ação futura como certa, alterando modalidade e compromisso informacional."
+        ],
+        "depois": [
+          "Incorreta: Marcar CERTO apagaria a diferença entre faculdade futura e decisão afirmada como certa.",
+          "Correta: Poderá expressa possibilidade e reabrirá afirma realização futura; a troca altera o compromisso transmitido."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-POR-24-005-02",
+    "moduleId": "POR-24",
+    "alteracoes": {
+      "explanation": {
+        "antes": "Revisar conteúdo, coerência e língua em camadas ajuda a não confundir naturezas distintas de falha.",
+        "depois": "Atendimento ao comando controla os dois itens; progressão verifica a relação entre tese e conclusão; norma-padrão rege concordância e regência."
+      },
+      "newExample": {
+        "antes": "“Verificar limite de 20 linhas” é checagem do comando; “evitar pronome sem referente” é checagem de coesão.",
+        "depois": "Uma revisão separa três checagens: itens pedidos, relação entre parágrafos e concordância no texto final."
+      },
+      "challenge": {
+        "antes": "Em que etapa você identificaria argumento contraditório não percebido na primeira leitura?",
+        "depois": "Associe cada problema detectado à etapa adequada, sem confundir cumprimento de comando com gramática."
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-POR-24-005-03",
+    "moduleId": "POR-24",
+    "alteracoes": {
+      "explanation": {
+        "antes": "Em resposta técnica curta, incluir tema não pedido apenas por extensão não fortalece o atendimento ao comando.",
+        "depois": "Inserir assunto não solicitado não aprimora uma resposta limitada a duas soluções e até doze linhas; pode comprometer foco e extensão."
+      },
+      "newExample": {
+        "antes": "“O setor avaliou os pedidos após conferir os documentos” é mais conciso que uma cadeia redundante de expressões equivalentes.",
+        "depois": "A banca exige duas medidas em 12 linhas; um longo histórico de informática consome espaço sem resolver a tarefa."
+      },
+      "challenge": {
+        "antes": "Que corte de palavras poderia liberar espaço sem retirar uma das duas soluções?",
+        "depois": "Corte uma frase irrelevante e mantenha as duas medidas com linguagem técnica."
+      },
+      "optionComments": {
+        "antes": [
+          "Adequada: o corte mantém causa e reduz palavras desnecessárias.",
+          "Adequada: duas soluções são condição objetiva da proposta.",
+          "Adequada: correção e extensão podem integrar os critérios da banca.",
+          "Inadequada: assunto extra pode prejudicar foco, coesão e extensão."
+        ],
+        "depois": [
+          "Adequada: o corte mantém causa e reduz palavras desnecessárias.",
+          "Adequada: duas soluções são condição objetiva da proposta.",
+          "Adequada: correção e extensão podem integrar os critérios da banca.",
+          "Correta como EXCETO: a nova discussão desvia o foco de uma resposta com duas soluções e espaço limitado."
+        ]
+      },
+      "options": {
+        "antes": [
+          "Reduzir “em razão do fato de que” para “porque”, quando a relação causal se mantém.",
+          "Conferir se as duas soluções estão explicitamente identificáveis.",
+          "Verificar se a norma-padrão e o limite de linhas foram respeitados.",
+          "Incluir um terceiro tema não solicitado apenas para tornar o encerramento mais longo."
+        ],
+        "depois": [
+          "Reduzir “em razão do fato de que” para “porque”, quando a relação causal se mantém.",
+          "Conferir se as duas soluções estão explicitamente identificáveis.",
+          "Verificar se a norma-padrão e o limite de linhas foram respeitados.",
+          "Inserir análise extensa sobre um terceiro problema, sem relação com as duas soluções solicitadas."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-POR-24-005-04",
+    "moduleId": "POR-24",
+    "alteracoes": {
+      "explanation": {
+        "antes": "Rubricas variam entre bancas, e a interpretação de dados deve respeitar o material fornecido.",
+        "depois": "A rubrica varia por banca (I), não há desconto gramatical universal (II falsa), e dados motivadores não devem ser generalizados (III)."
+      },
+      "newExample": {
+        "antes": "Uma prova pode avaliar dois pontos temáticos específicos; outra pode solicitar apenas justificativa de decisão administrativa.",
+        "depois": "O edital dá pontuação maior ao conteúdo do que à forma; o candidato usa a rubrica real em vez de inventar critérios."
+      },
+      "challenge": {
+        "antes": "Por que dados de uma amostra local não autorizam afirmar comportamento de toda a população?",
+        "depois": "Explique por que a grade de uma banca não pode ser automaticamente aplicada a uma prova diferente."
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-01-001-01",
+    "moduleId": "RED-01",
+    "alteracoes": {
+      "explanation": {
+        "antes": "A comunicação oficial pode alcançar cidadãos e instituições, conforme a finalidade pública.",
+        "depois": "Órgãos e entidades públicas se comunicam também com candidatos, cidadãos e pessoas jurídicas quando a finalidade é institucional."
+      },
+      "newExample": {
+        "antes": "Uma universidade pública informa que a entrega de documentos ocorrerá de 3 a 7 de maio, no setor de protocolo, e indica um canal institucional para esclarecimentos.",
+        "depois": "Um instituto divulga no portal a convocação dos inscritos, incluindo público, documentos e calendário, em linguagem institucional."
+      },
+      "challenge": {
+        "antes": "Uma mensagem de órgão público pode incluir informação útil a cidadãos sem perder seu caráter oficial? Por quê?",
+        "depois": "Distinga um aviso ao cidadão de publicidade pessoal do dirigente responsável pelo setor."
+      },
+      "optionComments": {
+        "antes": [
+          "Correta. A comunicação oficial pode alcançar cidadãos e instituições, conforme a finalidade pública.",
+          "Incorreta. A comunicação oficial pode alcançar cidadãos e instituições, conforme a finalidade pública."
+        ],
+        "depois": [
+          "Correta: Órgãos e entidades públicas se comunicam também com candidatos, cidadãos e pessoas jurídicas quando a finalidade é institucional.",
+          "Incorreta: Marcar ERRADO restringiria equivocadamente a comunicação oficial a interlocução entre órgãos, excluindo candidatos e cidadãos."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-01-001-02",
+    "moduleId": "RED-01",
+    "alteracoes": {
+      "explanation": {
+        "antes": "Indica o fato e o marco temporal necessário para orientar o destinatário.",
+        "depois": "Informar a alteração concreta e sua data de vigência permite ao usuário organizar-se; elogios ou incerteza não informam o serviço."
+      },
+      "newExample": {
+        "antes": "Uma universidade pública informa que a entrega de documentos ocorrerá de 3 a 7 de maio, no setor de protocolo, e indica um canal institucional para esclarecimentos.",
+        "depois": "A comunicação “A partir de 4 de março, o protocolo encerra às 16h” oferece informação operacional sem propaganda."
+      },
+      "challenge": {
+        "antes": "Uma mensagem de órgão público pode incluir informação útil a cidadãos sem perder seu caráter oficial? Por quê?",
+        "depois": "Reescreva uma abertura laudatória como aviso objetivo com data de vigência confirmada."
+      },
+      "optionComments": {
+        "antes": [
+          "Incorreta. Traz tom pessoal e não especifica a informação de serviço.",
+          "Incorreta. A imprecisão impede que o destinatário conheça a providência.",
+          "Correta. Indica o fato e o marco temporal necessário para orientar o destinatário.",
+          "Incorreta. Exalta o gestor e não informa qual medida afetará o atendimento."
+        ],
+        "depois": [
+          "Incorreta: valoriza a sensação do emissor e deixa indefinida a data da alteração.",
+          "Incorreta: previsão não informa o horário confirmado que o público precisa conhecer.",
+          "Correta. Indica o fato e o marco temporal necessário para orientar o destinatário.",
+          "Incorreta: anuncia mudança sem indicar a hora e a data que o enunciado pede comunicar."
+        ]
+      },
+      "options": {
+        "antes": [
+          "É uma grande alegria pessoal poder anunciar novidades sensacionais.",
+          "Mudanças certamente acontecerão em algum momento futuro.",
+          "Informamos que o atendimento do setor começará às 9h a partir de 5 de abril.",
+          "A gestão brilhante resolveu mais uma questão de enorme importância."
+        ],
+        "depois": [
+          "Temos satisfação em comunicar que algumas melhorias no setor começam em breve.",
+          "O setor prevê ampliar o atendimento pela manhã, conforme disponibilidade de pessoal.",
+          "Informamos que o atendimento do setor começará às 9h a partir de 5 de abril.",
+          "Informamos que a unidade atenderá em novo horário, a ser divulgado após confirmação."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-01-001-03",
+    "moduleId": "RED-01",
+    "alteracoes": {
+      "explanation": {
+        "antes": "I: Selecionar informação depende do objetivo e do destinatário. II: O texto institucional não se presta à promoção pessoal. III: A administração também se comunica com o público externo.",
+        "depois": "I e III identificam finalidade e público externo; a promoção pessoal do signatário em II afronta a impessoalidade institucional."
+      },
+      "newExample": {
+        "antes": "Uma universidade pública informa que a entrega de documentos ocorrerá de 3 a 7 de maio, no setor de protocolo, e indica um canal institucional para esclarecimentos.",
+        "depois": "O mesmo setor envia ofício a uma secretaria e publica aviso aos estudantes: ambos podem ter finalidade institucional."
+      },
+      "challenge": {
+        "antes": "Uma mensagem de órgão público pode incluir informação útil a cidadãos sem perder seu caráter oficial? Por quê?",
+        "depois": "Apresente um exemplo de destinatário externo que não seja outro órgão público."
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-01-001-04",
+    "moduleId": "RED-01",
+    "alteracoes": {
+      "explanation": {
+        "antes": "A exceção é falsa, apesar de as demais condutas estarem corretas. Autopromoção desvia o texto de sua finalidade pública.",
+        "depois": "Elogiar pessoalmente o dirigente como tema principal desvia a informação do serviço; público, etapa e prazo são dados úteis."
+      },
+      "newExample": {
+        "antes": "Uma universidade pública informa que a entrega de documentos ocorrerá de 3 a 7 de maio, no setor de protocolo, e indica um canal institucional para esclarecimentos.",
+        "depois": "O edital muda local de prova: o aviso cita etapa, candidatos atingidos e endereço, sem elogios à gestão."
+      },
+      "challenge": {
+        "antes": "Uma mensagem de órgão público pode incluir informação útil a cidadãos sem perder seu caráter oficial? Por quê?",
+        "depois": "Aponte quais campos são indispensáveis para quem precisa comparecer à nova unidade."
+      },
+      "optionComments": {
+        "antes": [
+          "Não atende ao EXCETO: Delimitar destinatários evita interpretações equivocadas.",
+          "Não atende ao EXCETO: Identificar a etapa permite ao leitor compreender a mensagem.",
+          "Não atende ao EXCETO: Dados operacionais tornam o comunicado útil.",
+          "Correta como exceção: Autopromoção desvia o texto de sua finalidade pública."
+        ],
+        "depois": [
+          "Não atende ao EXCETO: Delimitar destinatários evita interpretações equivocadas.",
+          "Não atende ao EXCETO: Identificar a etapa permite ao leitor compreender a mensagem.",
+          "Não atende ao EXCETO: Dados operacionais tornam o comunicado útil.",
+          "Correta como EXCETO: informação operacional não deve ficar subordinada à promoção da gestão."
+        ]
+      },
+      "options": {
+        "antes": [
+          "Explicitar o público alcançado pela medida informada.",
+          "Esclarecer qual etapa do processo seletivo sofreu alteração.",
+          "Informar o prazo e o canal institucional de esclarecimento.",
+          "Destacar supostas virtudes pessoais do dirigente como assunto principal."
+        ],
+        "depois": [
+          "Explicitar o público alcançado pela medida informada.",
+          "Esclarecer qual etapa do processo seletivo sofreu alteração.",
+          "Informar o prazo e o canal institucional de esclarecimento.",
+          "Abrir o comunicado com avaliação favorável à gestão e deixar o prazo apenas em material promocional separado."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-01-002-01",
+    "moduleId": "RED-01",
+    "alteracoes": {
+      "explanation": {
+        "antes": "Brevidade sem informação essencial não assegura clareza nem precisão.",
+        "depois": "Eliminar o prazo essencial em nome da brevidade prejudica a precisão e a possibilidade de o destinatário agir."
+      },
+      "newExample": {
+        "antes": "Em lugar de “O requerimento será examinado oportunamente”, escrever “O requerimento será analisado até 12 de maio pela Comissão de Matrícula”, se esses dados estiverem confirmados.",
+        "depois": "“Até 21 de junho” pode ser essencial; trocar por “brevemente” corta caracteres, mas não orienta a entrega."
+      },
+      "challenge": {
+        "antes": "Por que “o prazo será informado depois” pode ser inadequado num aviso operacional?",
+        "depois": "Explique por que retirar a data de um prazo conhecido não torna a mensagem mais concisa."
+      },
+      "optionComments": {
+        "antes": [
+          "Correta. Brevidade sem informação essencial não assegura clareza nem precisão.",
+          "Incorreta. Brevidade sem informação essencial não assegura clareza nem precisão."
+        ],
+        "depois": [
+          "Correta: Eliminar o prazo essencial em nome da brevidade prejudica a precisão e a possibilidade de o destinatário agir.",
+          "Incorreta: Marcar ERRADO tomaria concisão como sinônimo de corte indiscriminado, mesmo quando o prazo é condição para agir."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-01-002-02",
+    "moduleId": "RED-01",
+    "alteracoes": {
+      "explanation": {
+        "antes": "Define ato, data, horário e local sem ambiguidade.",
+        "depois": "A opção identifica exatamente documento, data-limite, hora e local, ao contrário de fórmulas vagas."
+      },
+      "newExample": {
+        "antes": "Em lugar de “O requerimento será examinado oportunamente”, escrever “O requerimento será analisado até 12 de maio pela Comissão de Matrícula”, se esses dados estiverem confirmados.",
+        "depois": "“Entregue o requerimento até 9 de maio, às 14h, no protocolo eletrônico da universidade” é orientação operacional."
+      },
+      "challenge": {
+        "antes": "Por que “o prazo será informado depois” pode ser inadequado num aviso operacional?",
+        "depois": "Identifique o dado que falta em “Encaminhe os documentos no prazo normal”."
+      },
+      "optionComments": {
+        "antes": [
+          "Incorreta. Falta informar qual canal é competente para a demanda.",
+          "Correta. Define ato, data, horário e local sem ambiguidade.",
+          "Incorreta. A expressão vaga não orienta quem precisa protocolar um pedido.",
+          "Incorreta. Não indica o que será feito nem um prazo identificável."
+        ],
+        "depois": [
+          "Incorreta: informa o local, mas não apresenta o prazo confirmado da operação.",
+          "Correta. Define ato, data, horário e local sem ambiguidade.",
+          "Incorreta: fornece a data e omite a hora já conhecida, impedindo planejamento preciso.",
+          "Incorreta: define horário, mas não identifica a data-limite indicada no caso."
+        ]
+      },
+      "options": {
+        "antes": [
+          "A demanda será tratada em algum dos canais disponíveis.",
+          "O recebimento da documentação ocorrerá até 18 de agosto, às 17h, no protocolo central.",
+          "Em data oportuna, os pedidos serão devidamente recebidos.",
+          "A chefia resolverá os assuntos tão logo quanto possível."
+        ],
+        "depois": [
+          "O recebimento ocorrerá no protocolo central, no período que será confirmado pela secretaria.",
+          "O recebimento da documentação ocorrerá até 18 de agosto, às 17h, no protocolo central.",
+          "A documentação será recebida até 18 de agosto, em horário que cada setor divulgará posteriormente.",
+          "A entrega será permitida até 17h do último dia do prazo, sem identificar qual é esse dia."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-01-002-03",
+    "moduleId": "RED-01",
+    "alteracoes": {
+      "explanation": {
+        "antes": "I: O destinatário não deve precisar adivinhar o significado. II: Precisão depende do termo adequado, não de sua extensão. III: Nomear o sujeito evita leituras concorrentes.",
+        "depois": "Siglas contextualizadas e referentes nominais explícitos favorecem a precisão; palavras mais longas não são necessariamente mais precisas."
+      },
+      "newExample": {
+        "antes": "Em lugar de “O requerimento será examinado oportunamente”, escrever “O requerimento será analisado até 12 de maio pela Comissão de Matrícula”, se esses dados estiverem confirmados.",
+        "depois": "Primeira menção: Núcleo de Atendimento ao Discente (NAD); nas seguintes, a sigla pode ser usada com clareza."
+      },
+      "challenge": {
+        "antes": "Por que “o prazo será informado depois” pode ser inadequado num aviso operacional?",
+        "depois": "Reescreva um parágrafo com dois possíveis referentes para o pronome “ela”."
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-01-002-04",
+    "moduleId": "RED-01",
+    "alteracoes": {
+      "explanation": {
+        "antes": "A exceção é falsa, apesar de as demais condutas estarem corretas. Substituição estilística pode diminuir a precisão terminológica.",
+        "depois": "Trocar aprovada por aceita pode mudar o estado jurídico ou administrativo indicado; variação estilística exige equivalência efetiva."
+      },
+      "newExample": {
+        "antes": "Em lugar de “O requerimento será examinado oportunamente”, escrever “O requerimento será analisado até 12 de maio pela Comissão de Matrícula”, se esses dados estiverem confirmados.",
+        "depois": "“Solicitação deferida” informa decisão; trocar por “recebida” confunde análise do pedido com mero protocolo."
+      },
+      "challenge": {
+        "antes": "Por que “o prazo será informado depois” pode ser inadequado num aviso operacional?",
+        "depois": "Compare os significados administrativos de recebido, analisado e deferido."
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-01-003-01",
+    "moduleId": "RED-01",
+    "alteracoes": {
+      "explanation": {
+        "antes": "Concisão preserva informação necessária e suprime somente excessos.",
+        "depois": "Concisão elimina excessos, não fundamentos essenciais; omitir justificativa pode comprometer transparência e compreensão."
+      },
+      "newExample": {
+        "antes": "Versão prolixa: “Venho por meio deste informar a todos, com imensa satisfação, que o setor passará a atender às 8h.” Versão objetiva: “O setor passará a atender às 8h.”",
+        "depois": "A frase “Pedido recusado: faltou assinatura exigida” é mais informativa que “Requerimento indeferido”."
+      },
+      "challenge": {
+        "antes": "Que diferença existe entre concisão e corte indiscriminado?",
+        "depois": "Reduza palavras redundantes sem remover o fundamento da decisão."
+      },
+      "optionComments": {
+        "antes": [
+          "Incorreta. Concisão preserva informação necessária e suprime somente excessos.",
+          "Correta. Concisão preserva informação necessária e suprime somente excessos."
+        ],
+        "depois": [
+          "Incorreta: Marcar CERTO confundiria redução de texto com omissão de dados obrigatórios para entender a decisão.",
+          "Correta: Concisão elimina excessos, não fundamentos essenciais; omitir justificativa pode comprometer transparência e compreensão."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-01-003-02",
+    "moduleId": "RED-01",
+    "alteracoes": {
+      "explanation": {
+        "antes": "Registra decisão e fundamento verificável sem opinião privada.",
+        "depois": "A frase registra a decisão e o motivo verificável previsto no edital, sem julgamento pessoal do requerente."
+      },
+      "newExample": {
+        "antes": "Versão prolixa: “Venho por meio deste informar a todos, com imensa satisfação, que o setor passará a atender às 8h.” Versão objetiva: “O setor passará a atender às 8h.”",
+        "depois": "Aviso de indeferimento cita norma e item documental não atendido, sem adjetivar a conduta pessoal do requerente."
+      },
+      "challenge": {
+        "antes": "Que diferença existe entre concisão e corte indiscriminado?",
+        "depois": "Redija fundamento impessoal que não atribua incompetência ou má-fé ao interessado."
+      },
+      "optionComments": {
+        "antes": [
+          "Correta. Registra decisão e fundamento verificável sem opinião privada.",
+          "Incorreta. Transforma decisão institucional em juízo pessoal e ofensivo.",
+          "Incorreta. Substitui informação relevante por autoelogio.",
+          "Incorreta. É vago, valorativo e não apresenta o fundamento concreto."
+        ],
+        "depois": [
+          "Correta. Registra decisão e fundamento verificável sem opinião privada.",
+          "Incorreta: a formulação não remete ao item documental objetivamente ausente e pode insinuar avaliação subjetiva.",
+          "Incorreta: elogia o procedimento em vez de esclarecer o fundamento concreto do indeferimento.",
+          "Incorreta: remete vagamente ao processo sem informar o fundamento documental disponível no caso."
+        ]
+      },
+      "options": {
+        "antes": [
+          "O pedido foi indeferido pela ausência do documento indicado no item 4 do edital.",
+          "Eu jamais aceitaria uma solicitação tão ruim quanto esta.",
+          "Nossa equipe magnífica tomou mais uma decisão perfeita.",
+          "Como todos sabem, os pedidos indesejáveis são rejeitados."
+        ],
+        "depois": [
+          "O pedido foi indeferido pela ausência do documento indicado no item 4 do edital.",
+          "A comissão indeferiu o pedido por entender que a documentação não demonstrou suficientemente a situação do candidato.",
+          "O pedido foi indeferido após análise criteriosa da competente equipe, conforme os devidos procedimentos.",
+          "A solicitação foi indeferida pelos motivos registrados no processo, a consultar."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-01-003-03",
+    "moduleId": "RED-01",
+    "alteracoes": {
+      "explanation": {
+        "antes": "I: Redundâncias sem função prejudicam o foco. II: A identificação funcional do signatário pode ser exigida. III: A linguagem pode ser respeitosa e direta.",
+        "depois": "I e III são verdadeiras; a impessoalidade não afasta o dever de identificar autoridade ou unidade responsável pela decisão."
+      },
+      "newExample": {
+        "antes": "Versão prolixa: “Venho por meio deste informar a todos, com imensa satisfação, que o setor passará a atender às 8h.” Versão objetiva: “O setor passará a atender às 8h.”",
+        "depois": "O ofício informa a unidade signatária e mantém tratamento respeitoso sem exaltar o servidor que o assina."
+      },
+      "challenge": {
+        "antes": "Que diferença existe entre concisão e corte indiscriminado?",
+        "depois": "Distinga impessoalidade de anonimato administrativo ao revisar um ato."
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-01-003-04",
+    "moduleId": "RED-01",
+    "alteracoes": {
+      "explanation": {
+        "antes": "A exceção é falsa, apesar de as demais condutas estarem corretas. A supressão retira informação essencial ao interessado.",
+        "depois": "Suprimir o fundamento relevante do indeferimento pode sacrificar clareza e motivação do ato; concisão não é ocultação."
+      },
+      "newExample": {
+        "antes": "Versão prolixa: “Venho por meio deste informar a todos, com imensa satisfação, que o setor passará a atender às 8h.” Versão objetiva: “O setor passará a atender às 8h.”",
+        "depois": "Trocar “por ausência de comprovante de residência” por “não foi possível” pode apagar a causa formal relevante."
+      },
+      "challenge": {
+        "antes": "Que diferença existe entre concisão e corte indiscriminado?",
+        "depois": "Escolha uma justificativa curta que preserve informação necessária ao interessado."
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-01-004-01",
+    "moduleId": "RED-01",
+    "alteracoes": {
+      "explanation": {
+        "antes": "Formalidade não se confunde com rebuscamento; deve coexistir com clareza.",
+        "depois": "Formalidade corresponde à adequação institucional e ao padrão de linguagem, não ao emprego necessário de vocábulos rebuscados."
+      },
+      "newExample": {
+        "antes": "Uma autarquia utiliza modelo institucional com assunto explícito, data, identificação de expediente e linguagem objetiva, em vez de saudações improvisadas.",
+        "depois": "O texto “Encaminhe o documento até 12h” usa forma simples e adequada, sem vocabulário rebuscado."
+      },
+      "challenge": {
+        "antes": "Por que modelos institucionais podem melhorar a comunicação?",
+        "depois": "Substitua uma expressão pomposa por instrução formal e direta."
+      },
+      "optionComments": {
+        "antes": [
+          "Incorreta. Formalidade não se confunde com rebuscamento; deve coexistir com clareza.",
+          "Correta. Formalidade não se confunde com rebuscamento; deve coexistir com clareza."
+        ],
+        "depois": [
+          "Incorreta: Marcar CERTO confundiria formalidade com pompa lexical, quando o documento exige linguagem adequada e compreensível.",
+          "Correta: Formalidade corresponde à adequação institucional e ao padrão de linguagem, não ao emprego necessário de vocábulos rebuscados."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-01-004-02",
+    "moduleId": "RED-01",
+    "alteracoes": {
+      "explanation": {
+        "antes": "A organização uniforme e a linguagem adequada servem ao expediente.",
+        "depois": "Adoção do modelo institucional e assunto objetivo promove uniformidade, respeito e recuperação da informação."
+      },
+      "newExample": {
+        "antes": "Uma autarquia utiliza modelo institucional com assunto explícito, data, identificação de expediente e linguagem objetiva, em vez de saudações improvisadas.",
+        "depois": "O setor usa modelo aprovado com número, assunto e identificação, e elimina abreviações pessoais da assinatura."
+      },
+      "challenge": {
+        "antes": "Por que modelos institucionais podem melhorar a comunicação?",
+        "depois": "Indique três campos que não devem ser confundidos com formalidade excessiva."
+      },
+      "optionComments": {
+        "antes": [
+          "Incorreta. Siglas opacas prejudicam entendimento e uniformidade.",
+          "Incorreta. Não são recursos apropriados como padrão geral de expediente formal.",
+          "Incorreta. A identificação tem função documental e de responsabilidade.",
+          "Correta. A organização uniforme e a linguagem adequada servem ao expediente."
+        ],
+        "depois": [
+          "Incorreta: a uniformidade da sigla não elimina a necessidade de clareza para o destinatário externo.",
+          "Incorreta: padronização exige observar o regime vigente, não apenas a tradição do setor.",
+          "Incorreta: o conhecimento presumido do leitor não substitui os dados institucionais necessários.",
+          "Correta. A organização uniforme e a linguagem adequada servem ao expediente."
+        ]
+      },
+      "options": {
+        "antes": [
+          "Cada setor inventar uma sigla sem explicá-la para demonstrar especialização.",
+          "Adotar abreviações pessoais e emoticons em todo documento oficial.",
+          "Eliminar a identificação do signatário para deixar a mensagem mais solene.",
+          "Usar o modelo institucional aplicável, com assunto claro e linguagem respeitosa."
+        ],
+        "depois": [
+          "Adotar a mesma sigla em toda unidade, sem registrá-la por extenso na primeira menção a públicos externos.",
+          "Manter fórmulas de tratamento tradicionais mesmo quando norma posterior aplicável determinar outra forma.",
+          "Identificar o cargo da autoridade, mas omitir o setor emissor porque o destinatário já conhece o remetente.",
+          "Usar o modelo institucional aplicável, com assunto claro e linguagem respeitosa."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-01-004-03",
+    "moduleId": "RED-01",
+    "alteracoes": {
+      "explanation": {
+        "antes": "I: Regras gramaticais contribuem para a uniformidade. II: A clareza permanece exigida. III: É preciso considerar a vigência e o alcance de atos como o Decreto nº 9.758/2019.",
+        "depois": "A norma-padrão orienta o registro oficial, e normas posteriores podem especificar tratamentos; solenidade não autoriza vagueza."
+      },
+      "newExample": {
+        "antes": "Uma autarquia utiliza modelo institucional com assunto explícito, data, identificação de expediente e linguagem objetiva, em vez de saudações improvisadas.",
+        "depois": "Uma circular segue a norma-padrão, mas respeita regra específica da instituição para a identificação de emissor."
+      },
+      "challenge": {
+        "antes": "Por que modelos institucionais podem melhorar a comunicação?",
+        "depois": "Explique como orientações gerais e normas institucionais específicas se relacionam."
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-01-004-04",
+    "moduleId": "RED-01",
+    "alteracoes": {
+      "explanation": {
+        "antes": "A exceção é falsa, apesar de as demais condutas estarem corretas. Correção sem precisão não cumpre a finalidade comunicativa.",
+        "depois": "Uma frase pode ser gramaticalmente correta e, ainda assim, não orientar o destinatário; dados concretos seguem necessários."
+      },
+      "newExample": {
+        "antes": "Uma autarquia utiliza modelo institucional com assunto explícito, data, identificação de expediente e linguagem objetiva, em vez de saudações improvisadas.",
+        "depois": "Um comunicado gramaticalmente correto, mas que diz apenas “providências serão tomadas”, não informa quais providências."
+      },
+      "challenge": {
+        "antes": "Por que modelos institucionais podem melhorar a comunicação?",
+        "depois": "Acrescente ao exemplo um responsável ou canal, sem prometer dado ainda não confirmado."
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-01-005-01",
+    "moduleId": "RED-01",
+    "alteracoes": {
+      "explanation": {
+        "antes": "Coesão formal não garante coerência factual.",
+        "depois": "Conectivos não eliminam contradição factual: datas e comandos inconsistentes continuam incoerentes."
+      },
+      "newExample": {
+        "antes": "Incoerente: “As inscrições encerram no dia 10. Serão aceitas até o dia 8, sem exceções”. A revisão precisa verificar qual prazo é válido.",
+        "depois": "O assunto menciona inscrição até dia 10 e o corpo afirma encerramento no dia 8: há incoerência factual a sanar."
+      },
+      "challenge": {
+        "antes": "Por que o uso de “portanto” exige cuidado?",
+        "depois": "Explique por que um conectivo de conclusão não torna compatíveis dois prazos contraditórios."
+      },
+      "optionComments": {
+        "antes": [
+          "Correta. Coesão formal não garante coerência factual.",
+          "Incorreta. Coesão formal não garante coerência factual."
+        ],
+        "depois": [
+          "Correta: Conectivos não eliminam contradição factual: datas e comandos inconsistentes continuam incoerentes.",
+          "Incorreta: Marcar ERRADO presumiria que a mera presença de conectivos resolve divergências reais entre datas ou decisões."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-01-005-02",
+    "moduleId": "RED-01",
+    "alteracoes": {
+      "explanation": {
+        "antes": "Identifica o evento, a data substituída e a nova condição.",
+        "depois": "O enunciado identifica evento, data anterior, data nova e horário, sem negar a alteração anunciada."
+      },
+      "newExample": {
+        "antes": "Incoerente: “As inscrições encerram no dia 10. Serão aceitas até o dia 8, sem exceções”. A revisão precisa verificar qual prazo é válido.",
+        "depois": "“A reunião inicialmente prevista para 7 de julho será realizada em 9 de julho, às 11h” explicita a alteração."
+      },
+      "challenge": {
+        "antes": "Por que o uso de “portanto” exige cuidado?",
+        "depois": "Reescreva um anúncio de remarcação evitando datas conflitantes."
+      },
+      "optionComments": {
+        "antes": [
+          "Incorreta. As proposições são incompatíveis sem distinção de circunstâncias.",
+          "Incorreta. A referência é ambígua por falta de antecedente identificado.",
+          "Correta. Identifica o evento, a data substituída e a nova condição.",
+          "Incorreta. Afirma datas distintas e nega alteração ao mesmo tempo."
+        ],
+        "depois": [
+          "Incorreta: a antecipação anunciada contradiz a manutenção do mesmo horário e falta identificar a mudança.",
+          "Incorreta: não delimita qual ato foi aprovado nem fornece data verificável para a vigência.",
+          "Correta: informa evento, data originalmente prevista, nova data, horário e local, sem contradição.",
+          "Incorreta: afirma simultaneamente manutenção e alteração de data para o mesmo encontro."
+        ]
+      },
+      "options": {
+        "antes": [
+          "O setor cancelou o atendimento; entretanto, o atendimento cancelado não foi cancelado.",
+          "Informamos que essa decisão vale, sem indicar qual das três decisões foi tomada.",
+          "A reunião prevista para 12 de junho ocorrerá em 14 de junho, às 10h, no mesmo local.",
+          "O encontro será em 12 de junho; portanto, será em 10 de junho, sem alteração."
+        ],
+        "depois": [
+          "Informamos que o atendimento ocorrerá no mesmo horário, embora o horário tenha sido antecipado sem indicação da nova hora.",
+          "Informamos que a alteração aprovada entra em vigor amanhã, após a divulgação de três atos diferentes sem identificação.",
+          "A reunião prevista para 12 de junho ocorrerá em 14 de junho, às 10h, na sala 12 do prédio administrativo.",
+          "A reunião prevista para 12 de junho foi reagendada; a data permanece 12 de junho, mas o aviso indica 10 de junho."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-01-005-03",
+    "moduleId": "RED-01",
+    "alteracoes": {
+      "explanation": {
+        "antes": "I: Esse conectivo exige inferência ou consequência contextual. II: Ambiguidade de referente prejudica a compreensão. III: Dados incongruentes produzem contradições práticas.",
+        "depois": "Portanto pode introduzir conclusão, mas referência ambígua não garante precisão, e datas precisam ser consistentes."
+      },
+      "newExample": {
+        "antes": "Incoerente: “As inscrições encerram no dia 10. Serão aceitas até o dia 8, sem exceções”. A revisão precisa verificar qual prazo é válido.",
+        "depois": "“Essa decisão” após três atos da comissão é retomada ambígua; nomear o ato corrige o problema."
+      },
+      "challenge": {
+        "antes": "Por que o uso de “portanto” exige cuidado?",
+        "depois": "Escolha uma expressão nominal para substituir um pronome de referente incerto."
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-01-005-04",
+    "moduleId": "RED-01",
+    "alteracoes": {
+      "explanation": {
+        "antes": "A exceção é falsa, apesar de as demais condutas estarem corretas. Contraste e consequência não são equivalentes.",
+        "depois": "Porém marca contraste; portanto indica conclusão. Trocar sem examinar a relação entre orações altera a progressão lógica."
+      },
+      "newExample": {
+        "antes": "Incoerente: “As inscrições encerram no dia 10. Serão aceitas até o dia 8, sem exceções”. A revisão precisa verificar qual prazo é válido.",
+        "depois": "“Porém” contrapõe afirmações; “portanto” apresenta conclusão: não são intercambiáveis em qualquer texto."
+      },
+      "challenge": {
+        "antes": "Por que o uso de “portanto” exige cuidado?",
+        "depois": "Crie um par de frases em que só um desses conectivos preserve a relação lógica."
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-01-006-01",
+    "moduleId": "RED-01",
+    "alteracoes": {
+      "explanation": {
+        "antes": "A revisão precisa avaliar também fatos, datas, destinatário e providências.",
+        "depois": "Ortografia correta não assegura a presença de prazo, destinatário, anexos ou fundamento exigidos no expediente."
+      },
+      "newExample": {
+        "antes": "Antes de enviar um e-mail sobre recurso, o setor corrige o endereço eletrônico e inclui data completa, assunto e número do processo.",
+        "depois": "A revisão checa endereço eletrônico, prazo de contestação e fundamento, além de corrigir grafia e concordância."
+      },
+      "challenge": {
+        "antes": "Que cuidado é necessário antes de substituir “quinta-feira” por “22 de agosto”?",
+        "depois": "Elabore lista de conferência que inclua dois dados factuais e um aspecto linguístico."
+      },
+      "optionComments": {
+        "antes": [
+          "Incorreta. A revisão precisa avaliar também fatos, datas, destinatário e providências.",
+          "Correta. A revisão precisa avaliar também fatos, datas, destinatário e providências."
+        ],
+        "depois": [
+          "Incorreta: Marcar CERTO reduziria revisão à grafia e deixaria sem exame prazos, anexos e dados institucionais.",
+          "Correta: Ortografia correta não assegura a presença de prazo, destinatário, anexos ou fundamento exigidos no expediente."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-01-006-02",
+    "moduleId": "RED-01",
+    "alteracoes": {
+      "explanation": {
+        "antes": "O leitor precisa de instrução operacional completa.",
+        "depois": "Acrescentar o canal e conferir o prazo corrige a falta operacional que impediria a apresentação do recurso."
+      },
+      "newExample": {
+        "antes": "Antes de enviar um e-mail sobre recurso, o setor corrige o endereço eletrônico e inclui data completa, assunto e número do processo.",
+        "depois": "Uma decisão comunica prazo de recurso, mas omite se ele deve ser enviado pelo portal ou presencialmente."
+      },
+      "challenge": {
+        "antes": "Que cuidado é necessário antes de substituir “quinta-feira” por “22 de agosto”?",
+        "depois": "Identifique qual informação operacional impede o interessado de agir."
+      },
+      "optionComments": {
+        "antes": [
+          "Incorreta. A identificação pode ser necessária ao acompanhamento.",
+          "Correta. O leitor precisa de instrução operacional completa.",
+          "Incorreta. Elogios não corrigem a omissão.",
+          "Incorreta. Variação arbitrária pode prejudicar precisão."
+        ],
+        "depois": [
+          "Incorreta: referência ao processo não indica necessariamente por onde protocolar o recurso.",
+          "Correta. O leitor precisa de instrução operacional completa.",
+          "Incorreta: a saudação não corrige a falta de instrução operacional de encaminhamento.",
+          "Incorreta: recurso e impugnação podem designar procedimentos distintos; troca sem conferir o edital causa imprecisão."
+        ]
+      },
+      "options": {
+        "antes": [
+          "Retirar todos os números de processo para tornar o texto mais curto.",
+          "Acrescentar o canal de apresentação e conferir o prazo do recurso.",
+          "Incluir dois adjetivos elogiosos ao setor que receberá os pedidos.",
+          "Trocar “recurso” por palavra mais rebuscada, sem checar equivalência."
+        ],
+        "depois": [
+          "Manter a referência ao processo, mas omitir o canal porque o interessado poderá consultá-lo por telefone.",
+          "Acrescentar o canal de apresentação e conferir o prazo do recurso.",
+          "Adicionar uma saudação nominal a todos os destinatários sem corrigir a ausência do canal de recurso.",
+          "Substituir a palavra recurso por impugnação sem conferir o nome do instrumento previsto no edital."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-01-006-03",
+    "moduleId": "RED-01",
+    "alteracoes": {
+      "explanation": {
+        "antes": "I: Os elementos precisam se referir à mesma informação. II: Economia verbal não justifica omitir dado necessário. III: O revisor precisa saber o que deve permanecer comunicado.",
+        "depois": "Conferir anexos e finalidade é necessário; uma frase curta que suprime instrução essencial não é melhor."
+      },
+      "newExample": {
+        "antes": "Antes de enviar um e-mail sobre recurso, o setor corrige o endereço eletrônico e inclui data completa, assunto e número do processo.",
+        "depois": "O corpo anuncia dois anexos, mas há só um arquivo: a conferência deve impedir o envio até esclarecer a divergência."
+      },
+      "challenge": {
+        "antes": "Que cuidado é necessário antes de substituir “quinta-feira” por “22 de agosto”?",
+        "depois": "Explique por que a simples correção ortográfica não resolve incompatibilidade entre anexo e corpo."
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-01-006-04",
+    "moduleId": "RED-01",
+    "alteracoes": {
+      "explanation": {
+        "antes": "A exceção é falsa, apesar de as demais condutas estarem corretas. A fundamentação necessária não deve desaparecer.",
+        "depois": "Eliminar fundamentação necessária apenas para encurtar mensagem pode desinformar e fragilizar a comunicação."
+      },
+      "newExample": {
+        "antes": "Antes de enviar um e-mail sobre recurso, o setor corrige o endereço eletrônico e inclui data completa, assunto e número do processo.",
+        "depois": "A justificativa legal é requisito do procedimento; cortá-la apenas para reduzir palavras é revisão inadequada."
+      },
+      "challenge": {
+        "antes": "Que cuidado é necessário antes de substituir “quinta-feira” por “22 de agosto”?",
+        "depois": "Retire um excesso de adjetivos sem omitir o fundamento da decisão."
+      },
+      "optionComments": {
+        "antes": [
+          "Não atende ao EXCETO: As informações devem estar confirmadas.",
+          "Correta como exceção: A fundamentação necessária não deve desaparecer.",
+          "Não atende ao EXCETO: A referência a arquivo inexistente compromete o procedimento.",
+          "Não atende ao EXCETO: Endereçamento correto evita encaminhamento indevido."
+        ],
+        "depois": [
+          "Não atende ao EXCETO: As informações devem estar confirmadas.",
+          "Correta como EXCETO: a base normativa que fundamenta a decisão não deve ser descartada somente por concisão.",
+          "Não atende ao EXCETO: A referência a arquivo inexistente compromete o procedimento.",
+          "Não atende ao EXCETO: Endereçamento correto evita encaminhamento indevido."
+        ]
+      },
+      "options": {
+        "antes": [
+          "Confrontar a data mencionada com o cronograma aprovado.",
+          "Eliminar automaticamente a justificativa legal para reduzir caracteres.",
+          "Verificar se os anexos anunciados estão presentes.",
+          "Confirmar o nome da unidade destinatária."
+        ],
+        "depois": [
+          "Confrontar a data mencionada com o cronograma aprovado.",
+          "Retirar a referência ao dispositivo que fundamenta o indeferimento, apenas para reduzir a extensão da mensagem.",
+          "Verificar se os anexos anunciados estão presentes.",
+          "Confirmar o nome da unidade destinatária."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-02-001-01",
+    "moduleId": "RED-02",
+    "alteracoes": {
+      "explanation": {
+        "antes": "A edição de 2018 unificou esses expedientes no padrão ofício.",
+        "depois": "A terceira edição do Manual uniformiza aviso, ofício e memorando pelo padrão ofício, sem três modelos estanques."
+      },
+      "newExample": {
+        "antes": "Ofício encaminha à coordenação de registros a relação de matrículas conferidas, com assunto, identificação do expediente, referência e solicitação objetiva.",
+        "depois": "O documento antes chamado memorando, quando enquadrado no Manual de 2018, segue a apresentação do padrão ofício."
+      },
+      "challenge": {
+        "antes": "Por que o destinatário não pode ser escolhido apenas pelo nome do modelo?",
+        "depois": "Explique a diferença entre unificar o modelo e dispensar a identificação do expediente."
+      },
+      "optionComments": {
+        "antes": [
+          "Incorreta. A edição de 2018 unificou esses expedientes no padrão ofício.",
+          "Correta. A edição de 2018 unificou esses expedientes no padrão ofício."
+        ],
+        "depois": [
+          "Incorreta: Marcar CERTO ignoraria que a 3ª edição do Manual reuniu os três expedientes num padrão de apresentação.",
+          "Correta: A terceira edição do Manual uniformiza aviso, ofício e memorando pelo padrão ofício, sem três modelos estanques."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-02-001-02",
+    "moduleId": "RED-02",
+    "alteracoes": {
+      "explanation": {
+        "antes": "A unificação do modelo convive com identificação precisa do expediente.",
+        "depois": "Padrão ofício identifica expediente, destinatário e assunto; uso interno não dispensa rastreabilidade documental."
+      },
+      "newExample": {
+        "antes": "Ofício encaminha à coordenação de registros a relação de matrículas conferidas, com assunto, identificação do expediente, referência e solicitação objetiva.",
+        "depois": "Uma universidade envia ofício interno com assunto, número e unidade destinatária, mesmo sem sair do órgão."
+      },
+      "challenge": {
+        "antes": "Por que o destinatário não pode ser escolhido apenas pelo nome do modelo?",
+        "depois": "Indique por que a comunicação interna também precisa ser rastreável."
+      },
+      "optionComments": {
+        "antes": [
+          "Incorreta. A rastreabilidade da comunicação não depende de ser externa.",
+          "Incorreta. A competência e a finalidade definem o destinatário.",
+          "Correta. A unificação do modelo convive com identificação precisa do expediente.",
+          "Incorreta. Assinatura não substitui a síntese do teor do expediente."
+        ],
+        "depois": [
+          "Incorreta: a circulação interna não elimina a função de identificar o expediente formal.",
+          "Incorreta: tratamento adequado não substitui a verificação da competência institucional.",
+          "Correta. A unificação do modelo convive com identificação precisa do expediente.",
+          "Incorreta: número e assunto cumprem funções diferentes; um não substitui o outro."
+        ]
+      },
+      "options": {
+        "antes": [
+          "Dispensar número ou identificação do expediente por ser mensagem interna.",
+          "Escolher o destinatário apenas para preservar uma fórmula antiga de saudação.",
+          "Adotar o padrão ofício e identificar o assunto e o destinatário conforme as regras aplicáveis.",
+          "Suprimir o assunto porque o documento contém assinatura."
+        ],
+        "depois": [
+          "Usar o padrão ofício, mas omitir o número por considerar que comunicações entre setores são localizáveis pelo e-mail.",
+          "Priorizar a forma de tratamento do destinatário antes de verificar se a unidade tem competência para receber o pedido.",
+          "Adotar o padrão ofício e identificar o assunto e o destinatário conforme as regras aplicáveis.",
+          "Registrar o destinatário e a data do envio, mas dispensar o assunto por existir número de expediente."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-02-001-03",
+    "moduleId": "RED-02",
+    "alteracoes": {
+      "explanation": {
+        "antes": "I: A formatação facilita reconhecer e recuperar documentos. II: O conteúdo continua precisando ser funcional. III: O Decreto nº 9.758/2019 disciplina esse campo.",
+        "depois": "Padronização facilita identificar o documento, mas não substitui indicação da providência; atos posteriores regulam endereçamento federal."
+      },
+      "newExample": {
+        "antes": "Ofício encaminha à coordenação de registros a relação de matrículas conferidas, com assunto, identificação do expediente, referência e solicitação objetiva.",
+        "depois": "O padrão ofício padroniza campos; já o Decreto nº 9.758/2019 trata, em seu âmbito, de como se dirigir a agentes federais."
+      },
+      "challenge": {
+        "antes": "Por que o destinatário não pode ser escolhido apenas pelo nome do modelo?",
+        "depois": "Separe qual norma regula apresentação e qual regula tratamento e endereçamento."
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-02-001-04",
+    "moduleId": "RED-02",
+    "alteracoes": {
+      "explanation": {
+        "antes": "A exceção é falsa, apesar de as demais condutas estarem corretas. O padrão não dispensa identificação necessária.",
+        "depois": "Uniformizar o modelo não autoriza apagar a identificação do expediente: o número e demais campos permanecem necessários."
+      },
+      "newExample": {
+        "antes": "Ofício encaminha à coordenação de registros a relação de matrículas conferidas, com assunto, identificação do expediente, referência e solicitação objetiva.",
+        "depois": "Ao anexar parecer ao ofício, a unidade registra o assunto e a identificação documental antes de enviar."
+      },
+      "challenge": {
+        "antes": "Por que o destinatário não pode ser escolhido apenas pelo nome do modelo?",
+        "depois": "Explique a consequência de retirar o número do expediente só porque há um modelo comum."
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-02-002-01",
+    "moduleId": "RED-02",
+    "alteracoes": {
+      "explanation": {
+        "antes": "O assunto oferece síntese para leitura e recuperação.",
+        "depois": "O assunto sintetiza a matéria para orientação e localização; o corpo desenvolve circunstâncias e providências."
+      },
+      "newExample": {
+        "antes": "Cabeçalho: Universidade Federal X; identificação: OFÍCIO Nº 18/2026/PROG; assunto: Atualização de cadastro; texto: dados e providência solicitada.",
+        "depois": "Assunto “Solicitação de acesso ao sistema” sintetiza a matéria; o texto apresenta motivo e providência solicitada."
+      },
+      "challenge": {
+        "antes": "Por que a identificação do expediente não pode ser substituída apenas pelo local e data?",
+        "depois": "Reduza um assunto de duas linhas a uma síntese sem apagar o tema."
+      },
+      "optionComments": {
+        "antes": [
+          "Correta. O assunto oferece síntese para leitura e recuperação.",
+          "Incorreta. O assunto oferece síntese para leitura e recuperação."
+        ],
+        "depois": [
+          "Correta: O assunto sintetiza a matéria para orientação e localização; o corpo desenvolve circunstâncias e providências.",
+          "Incorreta: Marcar ERRADO confundiria o campo assunto com a reprodução do corpo completo do ofício."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-02-002-02",
+    "moduleId": "RED-02",
+    "alteracoes": {
+      "explanation": {
+        "antes": "Cada elemento conserva sua função de identificação ou orientação.",
+        "depois": "Assunto resume o conteúdo; identificação registra o expediente; local e data identificam sua emissão."
+      },
+      "newExample": {
+        "antes": "Cabeçalho: Universidade Federal X; identificação: OFÍCIO Nº 18/2026/PROG; assunto: Atualização de cadastro; texto: dados e providência solicitada.",
+        "depois": "Identificação “Ofício nº 25/2026”; local e data “Natal, 7 de abril de 2026”; assunto “Documentação de estágio”."
+      },
+      "challenge": {
+        "antes": "Por que a identificação do expediente não pode ser substituída apenas pelo local e data?",
+        "depois": "Associe cada campo ao que ajuda a recuperar ou contextualizar no processo."
+      },
+      "optionComments": {
+        "antes": [
+          "Incorreta. Nenhum desses campos substitui o correspondente indicado.",
+          "Correta. Cada elemento conserva sua função de identificação ou orientação.",
+          "Incorreta. Vocativo é chamamento, e o assunto não identifica o signatário.",
+          "Incorreta. Essas correspondências confundem campos de funções distintas."
+        ],
+        "depois": [
+          "Incorreta: local/data se refere à emissão, assunto sintetiza tema, número identifica expediente.",
+          "Correta. Cada elemento conserva sua função de identificação ou orientação.",
+          "Incorreta: vocativo é chamamento, assunto é síntese temática e data registra emissão.",
+          "Incorreta: cabeçalho identifica a origem, número identifica o expediente e vocativo chama o destinatário."
+        ]
+      },
+      "options": {
+        "antes": [
+          "Local/data → endereço do destinatário; assunto → fecho; identificação → corpo do texto.",
+          "Assunto → síntese do tema; identificação → registro do expediente; local/data → referência de emissão.",
+          "Vocativo → resumo do teor; assunto → assinatura; data → identificação do órgão.",
+          "Cabeçalho → pedido detalhado; identificação → saudação; vocativo → número do ofício."
+        ],
+        "depois": [
+          "Local/data → data de recebimento; assunto → identificação do signatário; número → resumo do tema.",
+          "Assunto → síntese do tema; identificação → registro do expediente; local/data → referência de emissão.",
+          "Vocativo → referência de emissão; assunto → identificação do órgão; data → saudação do destinatário.",
+          "Cabeçalho → conclusão do pedido; identificação do expediente → fecho; vocativo → síntese do assunto."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-02-002-03",
+    "moduleId": "RED-02",
+    "alteracoes": {
+      "explanation": {
+        "antes": "I: O campo é um resumo temático. II: Número identifica documento; vocativo dirige o chamamento. III: A identificação institucional é finalidade do cabeçalho.",
+        "depois": "I e III descrevem corretamente assunto e cabeçalho; II confunde identificação numérica do documento com chamamento ao leitor."
+      },
+      "newExample": {
+        "antes": "Cabeçalho: Universidade Federal X; identificação: OFÍCIO Nº 18/2026/PROG; assunto: Atualização de cadastro; texto: dados e providência solicitada.",
+        "depois": "O cabeçalho identifica a instituição, e o vocativo dirige a abertura ao destinatário: não substituem o mesmo dado."
+      },
+      "challenge": {
+        "antes": "Por que a identificação do expediente não pode ser substituída apenas pelo local e data?",
+        "depois": "Explique a diferença funcional entre número do expediente e vocativo."
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-02-002-04",
+    "moduleId": "RED-02",
+    "alteracoes": {
+      "explanation": {
+        "antes": "A exceção é falsa, apesar de as demais condutas estarem corretas. Cortesia não fornece informação de emissão.",
+        "depois": "Adjetivos de cortesia não indicam quando e onde o documento foi emitido; local e data cumprem função documental."
+      },
+      "newExample": {
+        "antes": "Cabeçalho: Universidade Federal X; identificação: OFÍCIO Nº 18/2026/PROG; assunto: Atualização de cadastro; texto: dados e providência solicitada.",
+        "depois": "Em minuta, falta a data de emissão e sobram adjetivos de cortesia: os adjetivos não preenchem o campo ausente."
+      },
+      "challenge": {
+        "antes": "Por que a identificação do expediente não pode ser substituída apenas pelo local e data?",
+        "depois": "Indique por que um preenchimento estético não corrige omissão documental."
+      },
+      "optionComments": {
+        "antes": [
+          "Não atende ao EXCETO: O resumo orienta o destinatário.",
+          "Correta como exceção: Cortesia não fornece informação de emissão.",
+          "Não atende ao EXCETO: O tratamento depende do destinatário e do regime aplicável.",
+          "Não atende ao EXCETO: Ajuda a individualizar o expediente."
+        ],
+        "depois": [
+          "Não atende ao EXCETO: O resumo orienta o destinatário.",
+          "Correta como EXCETO: a fórmula vaga não identifica local e data da emissão do documento.",
+          "Não atende ao EXCETO: O tratamento depende do destinatário e do regime aplicável.",
+          "Não atende ao EXCETO: Ajuda a individualizar o expediente."
+        ]
+      },
+      "options": {
+        "antes": [
+          "Sintetizar o pedido no campo de assunto.",
+          "Substituir o local e a data por adjetivos de cortesia.",
+          "Aplicar o vocativo compatível com a norma de tratamento pertinente.",
+          "Conferir o número e a sigla do setor emissor."
+        ],
+        "depois": [
+          "Sintetizar o pedido no campo de assunto.",
+          "Preencher o campo de local e data apenas com a expressão “na oportunidade”, sem indicar emissão.",
+          "Aplicar o vocativo compatível com a norma de tratamento pertinente.",
+          "Conferir o número e a sigla do setor emissor."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-02-003-01",
+    "moduleId": "RED-02",
+    "alteracoes": {
+      "explanation": {
+        "antes": "Conclusão trata da providência; fecho arremata a mensagem e saúda o destinatário.",
+        "depois": "Conclusão registra encaminhamento ou providência, enquanto o fecho encerra e saúda; não são a mesma etapa."
+      },
+      "newExample": {
+        "antes": "Introdução: solicitação de dados; desenvolvimento: justificativa e período de referência; conclusão: prazo e canal de retorno; fecho e identificação do signatário.",
+        "depois": "Um ofício pede remessa de cópias até dia 15; o fecho “Atenciosamente” apenas encerra a mensagem."
+      },
+      "challenge": {
+        "antes": "Que informação deve permitir a identificação do signatário?",
+        "depois": "Aponte o que o corpo precisa indicar antes da saudação final."
+      },
+      "optionComments": {
+        "antes": [
+          "Incorreta. Conclusão trata da providência; fecho arremata a mensagem e saúda o destinatário.",
+          "Correta. Conclusão trata da providência; fecho arremata a mensagem e saúda o destinatário."
+        ],
+        "depois": [
+          "Incorreta: Marcar CERTO trataria saudação final e providência solicitada como se fossem o mesmo componente do documento.",
+          "Correta: Conclusão registra encaminhamento ou providência, enquanto o fecho encerra e saúda; não são a mesma etapa."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-02-003-02",
+    "moduleId": "RED-02",
+    "alteracoes": {
+      "explanation": {
+        "antes": "Esses são os fechos indicados para as respectivas relações no Manual.",
+        "depois": "Para superior hierárquico o Manual prevê Respeitosamente; para mesma hierarquia prevê Atenciosamente."
+      },
+      "newExample": {
+        "antes": "Introdução: solicitação de dados; desenvolvimento: justificativa e período de referência; conclusão: prazo e canal de retorno; fecho e identificação do signatário.",
+        "depois": "Para destinatário de hierarquia superior, o Manual usa “Respeitosamente”; para mesma hierarquia, “Atenciosamente”."
+      },
+      "challenge": {
+        "antes": "Que informação deve permitir a identificação do signatário?",
+        "depois": "Classifique um fecho adequado quando o signatário é hierarquicamente subordinado ao destinatário."
+      },
+      "optionComments": {
+        "antes": [
+          "Correta. Esses são os fechos indicados para as respectivas relações no Manual.",
+          "Incorreta. A ordem está invertida em relação às hipóteses do Manual.",
+          "Incorreta. O Manual uniformizou dois fechos, não essa dupla.",
+          "Incorreta. São fórmulas não previstas como fechos padronizados."
+        ],
+        "depois": [
+          "Correta. Esses são os fechos indicados para as respectivas relações no Manual.",
+          "Incorreta. A ordem está invertida em relação às hipóteses do Manual.",
+          "Incorreta: “Cordialmente” não é um dos dois fechos previstos pelo Manual de 2018.",
+          "Incorreta: a segunda lacuna exige Atenciosamente para a mesma hierarquia, não Cordialmente."
+        ]
+      },
+      "options": {
+        "antes": [
+          "Respeitosamente; Atenciosamente.",
+          "Atenciosamente; Respeitosamente.",
+          "Cordialmente; Saudações.",
+          "Com elevada estima; Sem mais."
+        ],
+        "depois": [
+          "Respeitosamente; Atenciosamente.",
+          "Atenciosamente; Respeitosamente.",
+          "Cordialmente; Atenciosamente.",
+          "Respeitosamente; Cordialmente."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-02-003-03",
+    "moduleId": "RED-02",
+    "alteracoes": {
+      "explanation": {
+        "antes": "I: O Manual atribui essa finalidade ao encerramento. II: Informação de serviço deve aparecer no texto. III: Nome e cargo permitem reconhecer a autoridade responsável.",
+        "depois": "I e III caracterizam fecho e signatário; a saudação não dispensa que o texto expresse o pedido."
+      },
+      "newExample": {
+        "antes": "Introdução: solicitação de dados; desenvolvimento: justificativa e período de referência; conclusão: prazo e canal de retorno; fecho e identificação do signatário.",
+        "depois": "A identificação final registra nome e cargo da autoridade; não substitui a solicitação feita no corpo."
+      },
+      "challenge": {
+        "antes": "Que informação deve permitir a identificação do signatário?",
+        "depois": "Justifique por que assinatura e providência não são campos intercambiáveis."
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-02-003-04",
+    "moduleId": "RED-02",
+    "alteracoes": {
+      "explanation": {
+        "antes": "A exceção é falsa, apesar de as demais condutas estarem corretas. Fecho não substitui o dado de prazo.",
+        "depois": "O fecho não substitui o prazo operacional indicado no corpo; omiti-lo pode impedir o cumprimento da solicitação."
+      },
+      "newExample": {
+        "antes": "Introdução: solicitação de dados; desenvolvimento: justificativa e período de referência; conclusão: prazo e canal de retorno; fecho e identificação do signatário.",
+        "depois": "Um ofício assinado sem data-limite pode impedir o destinatário de saber quando responder."
+      },
+      "challenge": {
+        "antes": "Que informação deve permitir a identificação do signatário?",
+        "depois": "Explique por que o fecho não supre prazo operacional ausente."
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-02-004-01",
+    "moduleId": "RED-02",
+    "alteracoes": {
+      "explanation": {
+        "antes": "O art. 2º estabelece esse tratamento, flexionado conforme gênero e número.",
+        "depois": "O art. 2º do Decreto nº 9.758/2019 prevê senhor, com flexões, para agentes federais abrangidos."
+      },
+      "newExample": {
+        "antes": "Comunicação interna de autarquia federal pode dirigir-se ao cargo “À Coordenação de Gestão de Pessoas”, sem inserir automaticamente “Excelentíssimo” no endereçamento.",
+        "depois": "No âmbito do Decreto nº 9.758/2019, “Senhora Diretora” atende à regra de tratamento flexionada no feminino."
+      },
+      "challenge": {
+        "antes": "O decreto impede sempre que conste o nome do destinatário no endereçamento?",
+        "depois": "Explique por que a forma “Vossa Excelência” não é exigência geral a agentes federais."
+      },
+      "optionComments": {
+        "antes": [
+          "Correta. O art. 2º estabelece esse tratamento, flexionado conforme gênero e número.",
+          "Incorreta. O art. 2º estabelece esse tratamento, flexionado conforme gênero e número."
+        ],
+        "depois": [
+          "Correta: O art. 2º do Decreto nº 9.758/2019 prevê senhor, com flexões, para agentes federais abrangidos.",
+          "Incorreta: Marcar ERRADO desconsideraria a indicação explícita de “senhor”, flexionável, no art. 2º do Decreto nº 9.758/2019."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-02-004-02",
+    "moduleId": "RED-02",
+    "alteracoes": {
+      "explanation": {
+        "antes": "Arts. 2º e 4º tratam do pronome e das exceções de endereçamento.",
+        "depois": "O Decreto estabelece senhor/senhora e permite nome no endereçamento em hipóteses do art. 4º; o nome não é sempre obrigatório."
+      },
+      "newExample": {
+        "antes": "Comunicação interna de autarquia federal pode dirigir-se ao cargo “À Coordenação de Gestão de Pessoas”, sem inserir automaticamente “Excelentíssimo” no endereçamento.",
+        "depois": "Uma mensagem a agente federal usa “senhor”, e o endereçamento prioriza cargo e setor salvo exceções do art. 4º."
+      },
+      "challenge": {
+        "antes": "O decreto impede sempre que conste o nome do destinatário no endereçamento?",
+        "depois": "Dê exemplo de hipótese em que identificar nominalmente o destinatário pode ser permitido."
+      },
+      "optionComments": {
+        "antes": [
+          "Incorreta. O art. 3º veda essa fórmula no campo de aplicação do decreto.",
+          "Incorreta. O decreto veda “doutor” como forma de tratamento nesse âmbito.",
+          "Incorreta. A regra geral dispensa nome; há exceções específicas.",
+          "Correta. Arts. 2º e 4º tratam do pronome e das exceções de endereçamento."
+        ],
+        "depois": [
+          "Incorreta: a tradição não afasta a vedação do art. 3º no campo de incidência do decreto.",
+          "Incorreta: o art. 3º veda essa forma como tratamento no âmbito do decreto.",
+          "Incorreta: o art. 4º tem regra geral de identificação por cargo/setor, admitindo nome só nas hipóteses previstas.",
+          "Correta. Arts. 2º e 4º tratam do pronome e das exceções de endereçamento."
+        ]
+      },
+      "options": {
+        "antes": [
+          "Exigir “Vossa Excelência” para todo ministro da administração federal.",
+          "Usar “doutor” obrigatoriamente a todo agente com graduação superior.",
+          "Inserir sempre o nome do agente federal, sem examinar as hipóteses do art. 4º.",
+          "Empregar “senhor” ou “senhora” conforme o caso e conferir se o endereçamento exige identificação pessoal."
+        ],
+        "depois": [
+          "Usar “Vossa Excelência” para autoridades federais superiores quando o remetente se sentir obrigado pela tradição.",
+          "Usar “doutor” por presunção da titulação do destinatário, mesmo sem norma aplicável.",
+          "Incluir o nome do agente federal em todo endereçamento por identificar melhor a pessoa, sem avaliar o art. 4º.",
+          "Empregar “senhor” ou “senhora” conforme o caso e conferir se o endereçamento exige identificação pessoal."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-02-004-03",
+    "moduleId": "RED-02",
+    "alteracoes": {
+      "explanation": {
+        "antes": "I: O art. 1º, § 3º, descreve hipóteses especiais. II: A expressão está entre as formas vedadas pelo art. 3º. III: O parágrafo único do art. 4º traz essas exceções.",
+        "depois": "O art. 1º, §3º, delimita exceções; Excelentíssimo é vedado no âmbito geral; o art. 4º admite nome em circunstâncias específicas."
+      },
+      "newExample": {
+        "antes": "Comunicação interna de autarquia federal pode dirigir-se ao cargo “À Coordenação de Gestão de Pessoas”, sem inserir automaticamente “Excelentíssimo” no endereçamento.",
+        "depois": "A troca de mensagens com autoridade de outro Poder pode exigir regra especial prevista no art. 1º, §3º, do decreto."
+      },
+      "challenge": {
+        "antes": "O decreto impede sempre que conste o nome do destinatário no endereçamento?",
+        "depois": "Indique por que não se aplica a mesma fórmula indiscriminadamente a todos os Poderes e entes."
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-02-004-04",
+    "moduleId": "RED-02",
+    "alteracoes": {
+      "explanation": {
+        "antes": "A exceção é falsa, apesar de as demais condutas estarem corretas. A fórmula é vedada pelo art. 3º dentro do âmbito do decreto.",
+        "depois": "O Decreto veda Vossa Magnificência no âmbito dos agentes federais abrangidos; não há obrigação geral para reitor federal."
+      },
+      "newExample": {
+        "antes": "Comunicação interna de autarquia federal pode dirigir-se ao cargo “À Coordenação de Gestão de Pessoas”, sem inserir automaticamente “Excelentíssimo” no endereçamento.",
+        "depois": "O cargo de reitor federal não torna “Vossa Magnificência” obrigatório dentro do campo geral do decreto de 2019."
+      },
+      "challenge": {
+        "antes": "O decreto impede sempre que conste o nome do destinatário no endereçamento?",
+        "depois": "Verifique qual dispositivo veda essa forma no âmbito definido."
+      },
+      "optionComments": {
+        "antes": [
+          "Não atende ao EXCETO: Art. 2º: pronome previsto no regime federal.",
+          "Correta como exceção: A fórmula é vedada pelo art. 3º dentro do âmbito do decreto.",
+          "Não atende ao EXCETO: O decreto contempla hipóteses especiais.",
+          "Não atende ao EXCETO: Essa é a orientação geral do art. 4º."
+        ],
+        "depois": [
+          "Não atende ao EXCETO: Art. 2º: pronome previsto no regime federal.",
+          "Correta como EXCETO: no âmbito do decreto, Vossa Magnificência é forma vedada pelo art. 3º; a tradição não cria obrigação.",
+          "Não atende ao EXCETO: O decreto contempla hipóteses especiais.",
+          "Não atende ao EXCETO: Essa é a orientação geral do art. 4º."
+        ]
+      },
+      "options": {
+        "antes": [
+          "Usar o tratamento “senhor” em comunicação cabível.",
+          "Acrescentar “Vossa Magnificência” como expressão obrigatória para reitor federal.",
+          "Verificar se há exceção que justifique identificação nominal.",
+          "Preferir a identificação do cargo e da unidade no endereçamento, como regra."
+        ],
+        "depois": [
+          "Usar o tratamento “senhor” em comunicação cabível.",
+          "Tratar um reitor federal obrigatoriamente por “Vossa Magnificência”, sem verificar a incidência do Decreto nº 9.758/2019.",
+          "Verificar se há exceção que justifique identificação nominal.",
+          "Preferir a identificação do cargo e da unidade no endereçamento, como regra."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-02-005-01",
+    "moduleId": "RED-02",
+    "alteracoes": {
+      "explanation": {
+        "antes": "A mudança de modelo é uma das alterações centrais de 2018.",
+        "depois": "A edição de 2018 reuniu modelos antes diferenciados, denominando o arranjo padrão ofício."
+      },
+      "newExample": {
+        "antes": "Uma prova diz “segundo a 3ª edição do Manual”: o candidato deve reconhecer o padrão ofício. Uma questão de tratamento federal atual requer considerar também o decreto posterior.",
+        "depois": "O modelo anterior de aviso não deve ser tratado como formato obrigatório distinto no Manual da terceira edição."
+      },
+      "challenge": {
+        "antes": "Por que uma questão de 2018 e uma de 2026 podem ter respostas diferentes sobre tratamento?",
+        "depois": "Explique como a unificação altera a estrutura, sem impedir normas próprias de instituições."
+      },
+      "optionComments": {
+        "antes": [
+          "Correta. A mudança de modelo é uma das alterações centrais de 2018.",
+          "Incorreta. A mudança de modelo é uma das alterações centrais de 2018."
+        ],
+        "depois": [
+          "Correta: A edição de 2018 reuniu modelos antes diferenciados, denominando o arranjo padrão ofício.",
+          "Incorreta: Marcar ERRADO partiria de modelos separados que deixaram de ser a referência da 3ª edição do Manual."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-02-005-02",
+    "moduleId": "RED-02",
+    "alteracoes": {
+      "explanation": {
+        "antes": "A edição de 2018 unificou aviso, ofício e memorando.",
+        "depois": "Aviso e memorando não formam modelos independentes na 3ª edição; a uniformização não extingue competências nem dados."
+      },
+      "newExample": {
+        "antes": "Uma prova diz “segundo a 3ª edição do Manual”: o candidato deve reconhecer o padrão ofício. Uma questão de tratamento federal atual requer considerar também o decreto posterior.",
+        "depois": "Um servidor confere a 3ª edição do Manual e não restaura automaticamente o formato antigo de memorando."
+      },
+      "challenge": {
+        "antes": "Por que uma questão de 2018 e uma de 2026 podem ter respostas diferentes sobre tratamento?",
+        "depois": "Identifique qual afirmativa histórica falha quando confunde modelo unificado com ausência de assunto."
+      },
+      "optionComments": {
+        "antes": [
+          "Incorreta. O decreto trata de formas de tratamento e endereçamento.",
+          "Incorreta. O regime aplicável depende da instituição e das normas específicas.",
+          "Correta. A edição de 2018 unificou aviso, ofício e memorando.",
+          "Incorreta. A padronização manteve elementos necessários de identificação."
+        ],
+        "depois": [
+          "Incorreta: o Decreto de 2019 trata de formas de tratamento e endereçamento, não cria padrão de expediente.",
+          "Incorreta: adoção do modelo não exclui regras complementares aplicáveis ao órgão.",
+          "Correta. A edição de 2018 unificou aviso, ofício e memorando.",
+          "Incorreta: unificar apresentação não torna facultativos os campos previstos para identificação."
+        ]
+      },
+      "options": {
+        "antes": [
+          "O Decreto nº 9.758/2019 reinstaurou três modelos separados de expediente.",
+          "A uniformização de 2018 tornou impossíveis normas locais de apresentação.",
+          "Modelos anteriormente diferenciados foram reunidos no padrão ofício na terceira edição.",
+          "A terceira edição extinguiu assunto e identificação documental em qualquer comunicação."
+        ],
+        "depois": [
+          "A unificação de 2018 foi determinada pelo Decreto nº 9.758/2019, que substituiu o modelo ofício.",
+          "As unidades que adotam o Manual de 2018 ficam impedidas de seguir qualquer orientação específica complementar.",
+          "Modelos anteriormente diferenciados foram reunidos no padrão ofício na terceira edição.",
+          "A unificação de modelos tornou o cabeçalho facultativo para comunicações entre unidades públicas."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-02-005-03",
+    "moduleId": "RED-02",
+    "alteracoes": {
+      "explanation": {
+        "antes": "I: Orientações posteriores podem especificar matéria antes regulada. II: Seu objeto são as formas de tratamento e o endereçamento. III: A uniformização não suprime a rastreabilidade.",
+        "depois": "Versões normativas importam; o Decreto de 2019 regula tratamento e endereçamento e não elimina identificação do expediente."
+      },
+      "newExample": {
+        "antes": "Uma prova diz “segundo a 3ª edição do Manual”: o candidato deve reconhecer o padrão ofício. Uma questão de tratamento federal atual requer considerar também o decreto posterior.",
+        "depois": "O manual foi aprovado em dezembro de 2018; o decreto de tratamento foi publicado em abril de 2019."
+      },
+      "challenge": {
+        "antes": "Por que uma questão de 2018 e uma de 2026 podem ter respostas diferentes sobre tratamento?",
+        "depois": "Monte uma linha do tempo explicando qual fonte pode conter regra posterior."
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-02-005-04",
+    "moduleId": "RED-02",
+    "alteracoes": {
+      "explanation": {
+        "antes": "A exceção é falsa, apesar de as demais condutas estarem corretas. Uma publicação de 2018 não incorpora ato normativo editado depois.",
+        "depois": "O Manual editado em 2018 não poderia já incorporar expressamente regras publicadas apenas em abril de 2019."
+      },
+      "newExample": {
+        "antes": "Uma prova diz “segundo a 3ª edição do Manual”: o candidato deve reconhecer o padrão ofício. Uma questão de tratamento federal atual requer considerar também o decreto posterior.",
+        "depois": "Ao citar a regra de endereçamento, o redator indica o Decreto nº 9.758/2019, não a edição de 2018 como fonte única."
+      },
+      "challenge": {
+        "antes": "Por que uma questão de 2018 e uma de 2026 podem ter respostas diferentes sobre tratamento?",
+        "depois": "Por que não se pode dizer que o Manual de 2018 já incorporava literalmente um decreto de 2019?"
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-02-006-01",
+    "moduleId": "RED-02",
+    "alteracoes": {
+      "explanation": {
+        "antes": "Essa é a hipótese de uso indicada pelo Manual.",
+        "depois": "Atenciosamente corresponde, no Manual de 2018, a destinatário de mesma hierarquia, inferior ou demais casos."
+      },
+      "newExample": {
+        "antes": "Em ofício destinado a unidade da mesma hierarquia, o fecho conforme o Manual é “Atenciosamente”; o tratamento no corpo segue o regime aplicável ao destinatário.",
+        "depois": "Ao colega de mesmo nível, o fecho “Atenciosamente” segue a distinção do Manual de 2018."
+      },
+      "challenge": {
+        "antes": "O Decreto nº 9.758/2019 prevê punição automática por erro de tratamento?",
+        "depois": "Explique por que o fecho não depende apenas do grau de formalidade desejado."
+      },
+      "optionComments": {
+        "antes": [
+          "Correta. Essa é a hipótese de uso indicada pelo Manual.",
+          "Incorreta. Essa é a hipótese de uso indicada pelo Manual."
+        ],
+        "depois": [
+          "Correta: Atenciosamente corresponde, no Manual de 2018, a destinatário de mesma hierarquia, inferior ou demais casos.",
+          "Incorreta: Marcar ERRADO aplicaria “Respeitosamente” mesmo à mesma hierarquia, contrariando a distinção dos fechos no Manual."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-02-006-02",
+    "moduleId": "RED-02",
+    "alteracoes": {
+      "explanation": {
+        "antes": "É o fecho previsto para a mesma hierarquia.",
+        "depois": "O Manual diferencia os fechos pela hierarquia: Atenciosamente para mesma hierarquia, não Respeitosamente universal."
+      },
+      "newExample": {
+        "antes": "Em ofício destinado a unidade da mesma hierarquia, o fecho conforme o Manual é “Atenciosamente”; o tratamento no corpo segue o regime aplicável ao destinatário.",
+        "depois": "Destinatário superior: “Respeitosamente”; mesmo nível: “Atenciosamente”, conforme o Manual."
+      },
+      "challenge": {
+        "antes": "O Decreto nº 9.758/2019 prevê punição automática por erro de tratamento?",
+        "depois": "Escolha o fecho de um ofício do departamento para chefia superior."
+      },
+      "optionComments": {
+        "antes": [
+          "Incorreta. Não é um dos dois fechos definidos no Manual.",
+          "Correta. É o fecho previsto para a mesma hierarquia.",
+          "Incorreta. O fecho não é universal, pois depende da hierarquia.",
+          "Incorreta. Trata-se de forma de tratamento, não do fecho padronizado."
+        ],
+        "depois": [
+          "Incorreta: no Manual, Respeitosamente se destina a autoridade hierarquicamente superior.",
+          "Correta. É o fecho previsto para a mesma hierarquia.",
+          "Incorreta: mesma hierarquia utiliza Atenciosamente; solenidade não altera o critério.",
+          "Incorreta: Cordialmente não é o fecho padronizado para esse caso."
+        ]
+      },
+      "stem": {
+        "antes": "Um servidor redige ofício para outra unidade da mesma hierarquia. Qual fecho é compatível com o Manual de 2018?",
+        "depois": "Uma autoridade pública assina ofício dirigido a outra autoridade de mesma hierarquia, segundo o Manual de Redação da Presidência da República (3ª edição). Qual fecho é o previsto?"
+      },
+      "options": {
+        "antes": [
+          "Digníssimo, por exigência formal do padrão ofício.",
+          "Atenciosamente.",
+          "Respeitosamente, necessariamente em qualquer ofício.",
+          "Excelentíssimo, como encerramento obrigatório."
+        ],
+        "depois": [
+          "Respeitosamente, por se tratar de documento oficial.",
+          "Atenciosamente.",
+          "Respeitosamente, porque a igualdade de hierarquia exige o fecho mais solene.",
+          "Cordialmente, quando o texto já contém saudação no vocativo."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-02-006-03",
+    "moduleId": "RED-02",
+    "alteracoes": {
+      "explanation": {
+        "antes": "I: Um inicia o texto e outro o encerra. II: O art. 3º, § 2º, do Decreto de 2019 veda essa consequência. III: A disciplina pode variar segundo o campo de aplicação.",
+        "depois": "Vocativo e fecho são distintos; o art. 3º, §2º, veda negar ato só por tratamento errado; a norma aplicável depende do destinatário."
+      },
+      "newExample": {
+        "antes": "Em ofício destinado a unidade da mesma hierarquia, o fecho conforme o Manual é “Atenciosamente”; o tratamento no corpo segue o regime aplicável ao destinatário.",
+        "depois": "O vocativo inicia a comunicação; o fecho a encerra; erro na forma de tratamento não justifica negar ato."
+      },
+      "challenge": {
+        "antes": "O Decreto nº 9.758/2019 prevê punição automática por erro de tratamento?",
+        "depois": "Relacione as duas funções e cite a consequência vedada pelo art. 3º, §2º."
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-02-006-04",
+    "moduleId": "RED-02",
+    "alteracoes": {
+      "explanation": {
+        "antes": "A exceção é falsa, apesar de as demais condutas estarem corretas. O decreto veda negar ato pelo erro na forma de tratamento.",
+        "depois": "O art. 3º, §2º, do Decreto veda negar realização do ato administrativo por erro de tratamento dentro de seu âmbito."
+      },
+      "newExample": {
+        "antes": "Em ofício destinado a unidade da mesma hierarquia, o fecho conforme o Manual é “Atenciosamente”; o tratamento no corpo segue o regime aplicável ao destinatário.",
+        "depois": "Um requerente usa saudação inadequada; a unidade não pode recusar automaticamente a prática de ato apenas por isso."
+      },
+      "challenge": {
+        "antes": "O Decreto nº 9.758/2019 prevê punição automática por erro de tratamento?",
+        "depois": "Diferencie revisão de protocolo de punição por fórmula de tratamento errada."
+      },
+      "optionComments": {
+        "antes": [
+          "Não atende ao EXCETO: Art. 2º estabelece esse tratamento.",
+          "Correta como exceção: O decreto veda negar ato pelo erro na forma de tratamento.",
+          "Não atende ao EXCETO: São componentes de funções distintas.",
+          "Não atende ao EXCETO: O Manual diferencia fechos por relação hierárquica."
+        ],
+        "depois": [
+          "Não atende ao EXCETO: Art. 2º estabelece esse tratamento.",
+          "Correta como EXCETO: o art. 3º, §2º, veda negar a realização do ato por erro na forma de tratamento.",
+          "Não atende ao EXCETO: São componentes de funções distintas.",
+          "Não atende ao EXCETO: O Manual diferencia fechos por relação hierárquica."
+        ]
+      },
+      "options": {
+        "antes": [
+          "Usar “senhor/senhora” no âmbito do Decreto nº 9.758/2019.",
+          "Recusar automaticamente requerimento por emprego de tratamento inadequado.",
+          "Distinguir vocativo da identificação do destinatário.",
+          "Verificar a hierarquia do destinatário antes de escolher o fecho."
+        ],
+        "depois": [
+          "Usar “senhor/senhora” no âmbito do Decreto nº 9.758/2019.",
+          "Deixar de praticar o ato administrativo porque o interessado escreveu “Vossa Senhoria” em vez do tratamento previsto no decreto.",
+          "Distinguir vocativo da identificação do destinatário.",
+          "Verificar a hierarquia do destinatário antes de escolher o fecho."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-02-007-01",
+    "moduleId": "RED-02",
+    "alteracoes": {
+      "explanation": {
+        "antes": "Referência sem arquivo correspondente compromete a comunicação.",
+        "depois": "É necessário conferir se o anexo efetivamente acompanha o ofício antes de afirmar seu envio."
+      },
+      "newExample": {
+        "antes": "Antes de enviar um ofício com anexo, o setor confirma o número do processo, a relação de anexos e o prazo de resposta citado no corpo.",
+        "depois": "O texto anuncia três anexos, mas só dois estão inseridos no sistema eletrônico: o envio precisa de conferência."
+      },
+      "challenge": {
+        "antes": "O que fazer se o assunto do ofício divergir do documento efetivamente encaminhado?",
+        "depois": "Que procedimento corrige o problema sem declarar um anexo fictício?"
+      },
+      "optionComments": {
+        "antes": [
+          "Correta. Referência sem arquivo correspondente compromete a comunicação.",
+          "Incorreta. Referência sem arquivo correspondente compromete a comunicação."
+        ],
+        "depois": [
+          "Correta: É necessário conferir se o anexo efetivamente acompanha o ofício antes de afirmar seu envio.",
+          "Incorreta: Marcar ERRADO aceitaria que a simples menção ao anexo basta, sem verificar se foi realmente incluído."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-02-007-02",
+    "moduleId": "RED-02",
+    "alteracoes": {
+      "explanation": {
+        "antes": "O destinatário deve reconhecer o objeto do encaminhamento.",
+        "depois": "A confirmação do arquivo encaminhado e de sua identificação evita entregar objeto diferente do anunciado no expediente."
+      },
+      "newExample": {
+        "antes": "Antes de enviar um ofício com anexo, o setor confirma o número do processo, a relação de anexos e o prazo de resposta citado no corpo.",
+        "depois": "A descrição “Parecer 04/2026 — acompanhamento de contratos” deve apontar para o arquivo efetivamente anexado."
+      },
+      "challenge": {
+        "antes": "O que fazer se o assunto do ofício divergir do documento efetivamente encaminhado?",
+        "depois": "Identifique dois campos que precisam corresponder no ofício de encaminhamento."
+      },
+      "optionComments": {
+        "antes": [
+          "Correta. O destinatário deve reconhecer o objeto do encaminhamento.",
+          "Incorreta. O conteúdo e os dados são elementos essenciais.",
+          "Incorreta. Assinatura não substitui identificação necessária.",
+          "Incorreta. Informação não verificada não deve ser inventada."
+        ],
+        "depois": [
+          "Correta. O destinatário deve reconhecer o objeto do encaminhamento.",
+          "Incorreta: conferir apenas o nome pode deixar passar arquivo com conteúdo ou versão divergente.",
+          "Incorreta: assinatura comprova autoria nas condições aplicáveis, mas não substitui a referência do processo.",
+          "Incorreta: datas devem refletir confirmação oficial, não ser modificadas para aparentar consistência."
+        ]
+      },
+      "options": {
+        "antes": [
+          "Confirmar a identificação do arquivo encaminhado e sua correspondência com o assunto.",
+          "Verificar só a cor do cabeçalho, sem ler o corpo.",
+          "Retirar o número do processo porque há assinatura eletrônica.",
+          "Trocar prazo confirmado por data aleatória para preencher o formulário."
+        ],
+        "depois": [
+          "Confirmar a identificação do arquivo encaminhado e sua correspondência com o assunto.",
+          "Validar o nome do anexo, mas deixar de conferir se o arquivo aberto corresponde à versão citada.",
+          "Conferir a assinatura e, por isso, omitir o número do processo que vincula o encaminhamento.",
+          "Ajustar a data do corpo do texto para coincidir com uma data ainda não confirmada no cronograma."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-02-007-03",
+    "moduleId": "RED-02",
+    "alteracoes": {
+      "explanation": {
+        "antes": "I: A correspondência evita erro de encaminhamento. II: São elementos com funções diferentes. III: Os anexos compõem a informação entregue ao destinatário.",
+        "depois": "Assunto deve corresponder ao corpo; assinatura não dispensa identificação; anexos citados devem ser conferidos."
+      },
+      "newExample": {
+        "antes": "Antes de enviar um ofício com anexo, o setor confirma o número do processo, a relação de anexos e o prazo de resposta citado no corpo.",
+        "depois": "O assunto diz “requerimento de matrícula”, mas o corpo fala de recurso: o revisor precisa esclarecer qual é o objeto."
+      },
+      "challenge": {
+        "antes": "O que fazer se o assunto do ofício divergir do documento efetivamente encaminhado?",
+        "depois": "Explique por que uma assinatura não resolve contradição temática."
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-02-007-04",
+    "moduleId": "RED-02",
+    "alteracoes": {
+      "explanation": {
+        "antes": "A exceção é falsa, apesar de as demais condutas estarem corretas. Afirmação falsa prejudica o registro e a confiança.",
+        "depois": "Declarar encaminhado um anexo inexistente compromete a veracidade e a rastreabilidade documental."
+      },
+      "newExample": {
+        "antes": "Antes de enviar um ofício com anexo, o setor confirma o número do processo, a relação de anexos e o prazo de resposta citado no corpo.",
+        "depois": "O setor cita um relatório inexistente como anexo; a revisão deve corrigir a informação antes de concluir o envio."
+      },
+      "challenge": {
+        "antes": "O que fazer se o assunto do ofício divergir do documento efetivamente encaminhado?",
+        "depois": "Dê um procedimento para preservar a fidelidade do documento e seu registro."
+      },
+      "optionComments": {
+        "antes": [
+          "Não atende ao EXCETO: São elementos relevantes ao expediente.",
+          "Não atende ao EXCETO: O encaminhamento correto favorece o atendimento.",
+          "Não atende ao EXCETO: Esses dados favorecem localização e integridade.",
+          "Correta como exceção: Afirmação falsa prejudica o registro e a confiança."
+        ],
+        "depois": [
+          "Não atende ao EXCETO: São elementos relevantes ao expediente.",
+          "Não atende ao EXCETO: O encaminhamento correto favorece o atendimento.",
+          "Não atende ao EXCETO: Esses dados favorecem localização e integridade.",
+          "Correta como EXCETO: registro de envio não deve afirmar a presença de documento que ainda não acompanha o ofício."
+        ]
+      },
+      "options": {
+        "antes": [
+          "Revisar o pedido, o prazo e a assinatura.",
+          "Checar o destinatário e a competência da unidade.",
+          "Conferir número, assunto e anexos citados.",
+          "Declarar que anexo inexistente foi encaminhado, para não atrasar a emissão."
+        ],
+        "depois": [
+          "Revisar o pedido, o prazo e a assinatura.",
+          "Checar o destinatário e a competência da unidade.",
+          "Conferir número, assunto e anexos citados.",
+          "Anunciar no corpo que foi anexado o parecer final, embora o arquivo ainda não tenha sido incluído no expediente."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-03-001-01",
+    "moduleId": "RED-03",
+    "alteracoes": {
+      "explanation": {
+        "antes": "O correio eletrônico oficial continua sujeito à linguagem profissional.",
+        "depois": "O e-mail institucional admite soluções de apresentação próprias, mas exige clareza, respeito e adequação à finalidade."
+      },
+      "newExample": {
+        "antes": "Assunto: Atualização do cadastro de bolsas — envio até 10/04; corpo informa documentos necessários, unidade responsável e anexo descrito.",
+        "depois": "No e-mail institucional, “Segue anexo relatório de manutenção” é apropriado; abreviações de conversa não são padrão oficial."
+      },
+      "challenge": {
+        "antes": "Qual assunto é mais útil: “Oi” ou “Solicitação de comprovantes — processo 123”?",
+        "depois": "Reescreva uma mensagem cheia de gírias em duas frases claras e respeitosas."
+      },
+      "optionComments": {
+        "antes": [
+          "Correta. O correio eletrônico oficial continua sujeito à linguagem profissional.",
+          "Incorreta. O correio eletrônico oficial continua sujeito à linguagem profissional."
+        ],
+        "depois": [
+          "Correta: O e-mail institucional admite soluções de apresentação próprias, mas exige clareza, respeito e adequação à finalidade.",
+          "Incorreta: Marcar ERRADO equivaleria a tomar abreviações de conversa como padrão geral do correio institucional."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-03-001-02",
+    "moduleId": "RED-03",
+    "alteracoes": {
+      "explanation": {
+        "antes": "Identifica a finalidade e o grupo destinatário.",
+        "depois": "O assunto informa precisamente tipo de documento e público a que se destina; saudações genéricas não auxiliam a busca."
+      },
+      "newExample": {
+        "antes": "Assunto: Atualização do cadastro de bolsas — envio até 10/04; corpo informa documentos necessários, unidade responsável e anexo descrito.",
+        "depois": "Assunto “Atualização de cadastro funcional — formulário 2026” facilita identificar o conteúdo na caixa do órgão."
+      },
+      "challenge": {
+        "antes": "Qual assunto é mais útil: “Oi” ou “Solicitação de comprovantes — processo 123”?",
+        "depois": "Crie assunto que mencione ação e objeto sem repetir todo o corpo da mensagem."
+      },
+      "optionComments": {
+        "antes": [
+          "Incorreta. Não especifica qual providência ou assunto está envolvido.",
+          "Incorreta. A vagueza dificulta localizar a mensagem.",
+          "Correta. Identifica a finalidade e o grupo destinatário.",
+          "Incorreta. É saudação, não resumo da matéria."
+        ],
+        "depois": [
+          "Incorreta: embora relevante, não informa que o e-mail encaminha especificamente o formulário.",
+          "Incorreta: associa diversos temas sem delimitar o objeto do envio.",
+          "Correta. Identifica a finalidade e o grupo destinatário.",
+          "Incorreta: identifica público e assunto amplo, mas não o formulário encaminhado."
+        ]
+      },
+      "options": {
+        "antes": [
+          "Aviso muito importante, leiam!",
+          "Diversos temas, novidades e coisas urgentes.",
+          "Envio de formulário de atualização cadastral — servidores.",
+          "Olá, tudo bem?"
+        ],
+        "depois": [
+          "Atualização cadastral — informações importantes",
+          "Formulário institucional: orientações e outros assuntos",
+          "Envio de formulário de atualização cadastral — servidores.",
+          "Comunicado aos servidores sobre procedimentos e prazos"
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-03-001-03",
+    "moduleId": "RED-03",
+    "alteracoes": {
+      "explanation": {
+        "antes": "I: Permite identificação e busca posterior. II: O Manual orienta identificação do emissor. III: Uma mensagem que anuncia arquivo ausente fica incompleta.",
+        "depois": "I e III previnem desencontro de assunto e anexo; II é falsa porque a identificação de origem integra a comunicação."
+      },
+      "newExample": {
+        "antes": "Assunto: Atualização do cadastro de bolsas — envio até 10/04; corpo informa documentos necessários, unidade responsável e anexo descrito.",
+        "depois": "O setor anuncia uma planilha no corpo do e-mail; antes de enviar, confere se anexou a versão correta e assinou."
+      },
+      "challenge": {
+        "antes": "Qual assunto é mais útil: “Oi” ou “Solicitação de comprovantes — processo 123”?",
+        "depois": "Explique o papel do assunto, da assinatura institucional e da lista de anexos."
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-03-001-04",
+    "moduleId": "RED-03",
+    "alteracoes": {
+      "explanation": {
+        "antes": "A exceção é falsa, apesar de as demais condutas estarem corretas. A linguagem profissional exige adequação e clareza.",
+        "depois": "Emoticons e abreviações de bate-papo não são padrão obrigatório ou adequado à redação institucional; outras ações esclarecem o envio."
+      },
+      "newExample": {
+        "antes": "Assunto: Atualização do cadastro de bolsas — envio até 10/04; corpo informa documentos necessários, unidade responsável e anexo descrito.",
+        "depois": "Na mensagem “Oi gente, vê aí :)”, o receptor não sabe qual documento precisa examinar ou por qual canal responder."
+      },
+      "challenge": {
+        "antes": "Qual assunto é mais útil: “Oi” ou “Solicitação de comprovantes — processo 123”?",
+        "depois": "Transforme a saudação informal numa orientação de encaminhamento oficial."
+      },
+      "optionComments": {
+        "antes": [
+          "Não atende ao EXCETO: Assunto orienta a leitura da mensagem.",
+          "Não atende ao EXCETO: O destinatário deve saber o conteúdo do anexo.",
+          "Não atende ao EXCETO: A assinatura facilita contato e autenticação contextual.",
+          "Correta como exceção: A linguagem profissional exige adequação e clareza."
+        ],
+        "depois": [
+          "Não atende ao EXCETO: Assunto orienta a leitura da mensagem.",
+          "Não atende ao EXCETO: O destinatário deve saber o conteúdo do anexo.",
+          "Não atende ao EXCETO: A assinatura facilita contato e autenticação contextual.",
+          "Correta como EXCETO: assinatura do remetente não substitui campo assunto suficientemente específico."
+        ]
+      },
+      "options": {
+        "antes": [
+          "Adotar assunto específico e compatível com o texto.",
+          "Descrever resumidamente o arquivo anexado.",
+          "Identificar o setor que envia a mensagem.",
+          "Usar emoticons e abreviações de conversa informal como padrão obrigatório."
+        ],
+        "depois": [
+          "Adotar assunto específico e compatível com o texto.",
+          "Descrever resumidamente o arquivo anexado.",
+          "Identificar o setor que envia a mensagem.",
+          "Deixar assunto genérico porque o nome e o cargo já aparecem na assinatura."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-03-002-01",
+    "moduleId": "RED-03",
+    "alteracoes": {
+      "explanation": {
+        "antes": "Enviar e comprovar ciência são eventos diferentes.",
+        "depois": "O comprovante de envio documenta a saída, não a leitura real pelo destinatário; esses eventos são distintos."
+      },
+      "newExample": {
+        "antes": "A unidade registra envio no sistema institucional, vincula a mensagem ao processo e solicita confirmação quando a ciência do destinatário for necessária.",
+        "depois": "O registro de envio de convocação atesta o despacho, mas não prova a leitura pelo destinatário naquele dia."
+      },
+      "challenge": {
+        "antes": "Qual a principal diferença entre mensagem eletrônica e documento eletronicamente autenticado?",
+        "depois": "Diferencie comprovação do envio de confirmação de recebimento e efetiva leitura."
+      },
+      "optionComments": {
+        "antes": [
+          "Correta. Enviar e comprovar ciência são eventos diferentes.",
+          "Incorreta. Enviar e comprovar ciência são eventos diferentes."
+        ],
+        "depois": [
+          "Correta: O comprovante de envio documenta a saída, não a leitura real pelo destinatário; esses eventos são distintos.",
+          "Incorreta: Marcar ERRADO confundiria mensagem efetivamente expedida com mensagem aberta e lida pelo destinatário."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-03-002-02",
+    "moduleId": "RED-03",
+    "alteracoes": {
+      "explanation": {
+        "antes": "Registro verificável permite acompanhar a tramitação.",
+        "depois": "Mecanismo de confirmação adequado e vínculo com processo oferecem rastreabilidade, sem presumir leitura nem dispensar exigências de assinatura."
+      },
+      "newExample": {
+        "antes": "A unidade registra envio no sistema institucional, vincula a mensagem ao processo e solicita confirmação quando a ciência do destinatário for necessária.",
+        "depois": "Um despacho exige prova de entrega: a equipe usa confirmação do sistema e vincula o protocolo à resposta."
+      },
+      "challenge": {
+        "antes": "Qual a principal diferença entre mensagem eletrônica e documento eletronicamente autenticado?",
+        "depois": "Indique qual registro seria necessário se a legislação exigir ciência formal."
+      },
+      "optionComments": {
+        "antes": [
+          "Incorreta. A forma válida depende das regras aplicáveis ao ato.",
+          "Correta. Registro verificável permite acompanhar a tramitação.",
+          "Incorreta. O envio não equivale à confirmação do destinatário.",
+          "Incorreta. A omissão inviabiliza vinculação documental."
+        ],
+        "depois": [
+          "Incorreta: prova de envio não substitui assinatura ou ciência formal quando exigidas.",
+          "Correta. Registro verificável permite acompanhar a tramitação.",
+          "Incorreta: o registro de expedição não comprova automaticamente a leitura ou ciência do destinatário.",
+          "Incorreta: falta de vínculo ao processo impede rastrear qual ato foi comunicado."
+        ]
+      },
+      "options": {
+        "antes": [
+          "Aceitar toda mensagem informal como substituta universal de assinatura exigida.",
+          "Utilizar mecanismo institucional de confirmação e preservar o vínculo com o processo.",
+          "Considerar o botão “Enviar” prova incontestável de leitura.",
+          "Apagar a referência ao processo para não deixar rastros."
+        ],
+        "depois": [
+          "Manter prova de envio e presumir dispensadas as demais formalidades previstas na norma do procedimento.",
+          "Utilizar mecanismo institucional de confirmação e preservar o vínculo com o processo.",
+          "Arquivar o e-mail enviado como se fosse a confirmação de leitura, sem conferir o sistema de ciência.",
+          "Registrar no sistema apenas que houve contato, sem vincular a comunicação ao processo específico."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-03-002-03",
+    "moduleId": "RED-03",
+    "alteracoes": {
+      "explanation": {
+        "antes": "I: O procedimento precisa permitir verificar a origem e a estabilidade do conteúdo. II: O envio não demonstra necessariamente ciência. III: A exigência depende do procedimento e da legislação aplicável.",
+        "depois": "I e III tratam de elementos da autenticidade e regras do sistema; a prova de envio não equivale a confirmação de leitura."
+      },
+      "newExample": {
+        "antes": "A unidade registra envio no sistema institucional, vincula a mensagem ao processo e solicita confirmação quando a ciência do destinatário for necessária.",
+        "depois": "Uma assinatura digital pode ajudar a verificar autoria e integridade; isso não equivale ao evento de leitura do destinatário."
+      },
+      "challenge": {
+        "antes": "Qual a principal diferença entre mensagem eletrônica e documento eletronicamente autenticado?",
+        "depois": "Quais dados separam autenticidade do documento de comprovação de ciência?"
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-03-002-04",
+    "moduleId": "RED-03",
+    "alteracoes": {
+      "explanation": {
+        "antes": "A exceção é falsa, apesar de as demais condutas estarem corretas. Destruir registros necessários compromete rastreabilidade.",
+        "depois": "Eliminar comprovantes sem observar guarda e rastreabilidade inviabiliza verificar o ato eletrônico praticado."
+      },
+      "newExample": {
+        "antes": "A unidade registra envio no sistema institucional, vincula a mensagem ao processo e solicita confirmação quando a ciência do destinatário for necessária.",
+        "depois": "O e-mail de uma decisão é anexado ao processo com seus metadados, obedecendo às regras de guarda aplicáveis."
+      },
+      "challenge": {
+        "antes": "Qual a principal diferença entre mensagem eletrônica e documento eletronicamente autenticado?",
+        "depois": "Explique por que apagar registros de envio compromete rastreabilidade."
+      },
+      "optionComments": {
+        "antes": [
+          "Não atende ao EXCETO: O histórico permite acompanhar o trâmite.",
+          "Correta como exceção: Destruir registros necessários compromete rastreabilidade.",
+          "Não atende ao EXCETO: A validade formal pode depender da espécie documental.",
+          "Não atende ao EXCETO: Vincula a comunicação ao expediente."
+        ],
+        "depois": [
+          "Não atende ao EXCETO: O histórico permite acompanhar o trâmite.",
+          "Correta como EXCETO: excluir registros de expedição sem respeitar guarda e preservação documental prejudica a prova do ato.",
+          "Não atende ao EXCETO: A validade formal pode depender da espécie documental.",
+          "Não atende ao EXCETO: Vincula a comunicação ao expediente."
+        ]
+      },
+      "options": {
+        "antes": [
+          "Registrar o encaminhamento no sistema autorizado.",
+          "Apagar os comprovantes de envio para economizar espaço sem observar regras de guarda.",
+          "Verificar a forma de assinatura exigida para o ato concreto.",
+          "Referenciar o número do processo na mensagem."
+        ],
+        "depois": [
+          "Registrar o encaminhamento no sistema autorizado.",
+          "Eliminar do processo eletrônico os comprovantes de envio após o fechamento da caixa postal, sem verificar prazo de guarda.",
+          "Verificar a forma de assinatura exigida para o ato concreto.",
+          "Referenciar o número do processo na mensagem."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-03-003-01",
+    "moduleId": "RED-03",
+    "alteracoes": {
+      "explanation": {
+        "antes": "A informação prática é essencial ao destinatário.",
+        "depois": "Convite sem local físico, link ou modo de acesso pode impedir a participação de quem recebeu a mensagem."
+      },
+      "newExample": {
+        "antes": "Convite: “A Comissão de Acessibilidade convida para reunião em 12 de maio, às 14h, na sala 3. Confirme participação até 10 de maio pelo endereço indicado”.",
+        "depois": "Convite traz 23 de agosto, 14h, sala virtual e link de acesso; participantes conseguem organizar a presença."
+      },
+      "challenge": {
+        "antes": "Que estrutura deve ter uma resposta a pedido administrativo?",
+        "depois": "Qual informação adicional seria necessária se o evento também fosse presencial?"
+      },
+      "optionComments": {
+        "antes": [
+          "Correta. A informação prática é essencial ao destinatário.",
+          "Incorreta. A informação prática é essencial ao destinatário."
+        ],
+        "depois": [
+          "Correta: Convite sem local físico, link ou modo de acesso pode impedir a participação de quem recebeu a mensagem.",
+          "Incorreta: Marcar ERRADO ignoraria que a pessoa precisa conhecer local, link ou outra forma de participação para comparecer."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-03-003-02",
+    "moduleId": "RED-03",
+    "alteracoes": {
+      "explanation": {
+        "antes": "Objeto, prazo e meio ficam claramente identificados.",
+        "depois": "A primeira sequência identifica objeto solicitado, prazo verificável e canal operacional para protocolo."
+      },
+      "newExample": {
+        "antes": "Convite: “A Comissão de Acessibilidade convida para reunião em 12 de maio, às 14h, na sala 3. Confirme participação até 10 de maio pelo endereço indicado”.",
+        "depois": "Pedido completo: enviar ficha de inscrição até 8 de julho pela plataforma institucional de protocolo."
+      },
+      "challenge": {
+        "antes": "Que estrutura deve ter uma resposta a pedido administrativo?",
+        "depois": "Substitua expressões vagas por objeto, prazo e canal previamente confirmados."
+      },
+      "optionComments": {
+        "antes": [
+          "Correta. Objeto, prazo e meio ficam claramente identificados.",
+          "Incorreta. As três referências são vagas.",
+          "Incorreta. Não define conteúdo, data nem canal.",
+          "Incorreta. O destinatário não conhece uma providência verificável."
+        ],
+        "depois": [
+          "Correta. Objeto, prazo e meio ficam claramente identificados.",
+          "Incorreta: não identifica o prazo calendário nem o canal de envio que o interessado precisa seguir.",
+          "Incorreta: objeto genérico e canal indiscriminado prejudicam o protocolo e a rastreabilidade.",
+          "Incorreta: deixa indefinidos tanto os documentos quanto o canal no momento em que orienta o usuário."
+        ]
+      },
+      "options": {
+        "antes": [
+          "dos comprovantes de matrícula; 18 de agosto; sistema de protocolo.",
+          "de algumas coisas; oportunamente; meio mais simples.",
+          "do que for possível; quando puder; qualquer contato.",
+          "de novidades importantes; tão logo; lugar de costume."
+        ],
+        "depois": [
+          "dos comprovantes de matrícula; 18 de agosto; sistema de protocolo.",
+          "dos documentos pendentes; durante o mês; pelo contato institucional habitual.",
+          "da documentação complementar; assim que possível; pelo e-mail de qualquer servidor.",
+          "do que falta ao processo; no prazo regulamentar; pelo canal que a unidade indicar depois."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-03-003-03",
+    "moduleId": "RED-03",
+    "alteracoes": {
+      "explanation": {
+        "antes": "I: Data e horário orientam a participação. II: Cortesia não substitui resposta pertinente. III: Esses dados tornam a instrução executável.",
+        "depois": "I e III indicam informação necessária a convite e solicitação; cordialidade não supre resposta ao pedido concreto."
+      },
+      "newExample": {
+        "antes": "Convite: “A Comissão de Acessibilidade convida para reunião em 12 de maio, às 14h, na sala 3. Confirme participação até 10 de maio pelo endereço indicado”.",
+        "depois": "Uma resposta informa que o pedido foi deferido e indica a providência seguinte, não apenas uma saudação cordial."
+      },
+      "challenge": {
+        "antes": "Que estrutura deve ter uma resposta a pedido administrativo?",
+        "depois": "Que elemento é indispensável ao responder uma pergunta objetiva do interessado?"
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-03-003-04",
+    "moduleId": "RED-03",
+    "alteracoes": {
+      "explanation": {
+        "antes": "A exceção é falsa, apesar de as demais condutas estarem corretas. Promoção pessoal não substitui dados do convite.",
+        "depois": "Elogios ao organizador não substituem os dados essenciais de um convite, como data, horário e forma de participação."
+      },
+      "newExample": {
+        "antes": "Convite: “A Comissão de Acessibilidade convida para reunião em 12 de maio, às 14h, na sala 3. Confirme participação até 10 de maio pelo endereço indicado”.",
+        "depois": "Convite confirma dia, horário, endereço e orientação de presença para servidores de uma unidade."
+      },
+      "challenge": {
+        "antes": "Que estrutura deve ter uma resposta a pedido administrativo?",
+        "depois": "Elabore convite que inclua acesso remoto para participantes de outra cidade."
+      },
+      "optionComments": {
+        "antes": [
+          "Não atende ao EXCETO: Viabiliza a confirmação conforme as regras do evento.",
+          "Não atende ao EXCETO: Permitem planejamento de presença.",
+          "Não atende ao EXCETO: Indica como participar.",
+          "Correta como exceção: Promoção pessoal não substitui dados do convite."
+        ],
+        "depois": [
+          "Não atende ao EXCETO: Viabiliza a confirmação conforme as regras do evento.",
+          "Não atende ao EXCETO: Permitem planejamento de presença.",
+          "Não atende ao EXCETO: Indica como participar.",
+          "Correta como EXCETO: a omissão dos dados essenciais dificulta a participação dos destinatários convidados."
+        ]
+      },
+      "options": {
+        "antes": [
+          "Contato ou procedimento de confirmação, quando exigido.",
+          "Horário e data confirmados para o encontro.",
+          "Local físico ou link de acesso pertinente.",
+          "Elogios ao organizador como informação principal, sem informar o evento."
+        ],
+        "depois": [
+          "Contato ou procedimento de confirmação, quando exigido.",
+          "Horário e data confirmados para o encontro.",
+          "Local físico ou link de acesso pertinente.",
+          "Informar apenas o tema da reunião e encaminhar data, hora e local somente a quem solicitar."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-03-004-01",
+    "moduleId": "RED-03",
+    "alteracoes": {
+      "explanation": {
+        "antes": "A finalidade do aviso pode ser atingida sem esses dados.",
+        "depois": "A divulgação de horário não exige revelar CPF ou cadastro de usuários; minimização de dados atende à finalidade da comunicação."
+      },
+      "newExample": {
+        "antes": "Ao avisar centenas de alunos sobre mudança de horário, o setor informa a nova data e canal, sem anexar lista de CPF e telefone de cada aluno.",
+        "depois": "Para anunciar novo horário, bastam a unidade, a data de vigência e o canal de atendimento, sem lista de CPFs."
+      },
+      "challenge": {
+        "antes": "Dado pessoal pode ser compartilhado quando necessário?",
+        "depois": "Identifique dados pessoais que não são necessários para simples aviso público."
+      },
+      "optionComments": {
+        "antes": [
+          "Correta. A finalidade do aviso pode ser atingida sem esses dados.",
+          "Incorreta. A finalidade do aviso pode ser atingida sem esses dados."
+        ],
+        "depois": [
+          "Correta: A divulgação de horário não exige revelar CPF ou cadastro de usuários; minimização de dados atende à finalidade da comunicação.",
+          "Incorreta: Marcar ERRADO transformaria divulgação de horário em justificativa para exposição de cadastro pessoal desnecessário."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-03-004-02",
+    "moduleId": "RED-03",
+    "alteracoes": {
+      "explanation": {
+        "antes": "Os dados comunicados são proporcionais à finalidade.",
+        "depois": "É possível anunciar horário e canal sem expor listas pessoais desnecessárias ao público da secretaria."
+      },
+      "newExample": {
+        "antes": "Ao avisar centenas de alunos sobre mudança de horário, o setor informa a nova data e canal, sem anexar lista de CPF e telefone de cada aluno.",
+        "depois": "Uma circular a todos os servidores resume alterações de plantão sem anexar planilha com endereços pessoais."
+      },
+      "challenge": {
+        "antes": "Dado pessoal pode ser compartilhado quando necessário?",
+        "depois": "Escolha entre distribuição ampla e lista restrita segundo finalidade de cada arquivo."
+      },
+      "optionComments": {
+        "antes": [
+          "Incorreta. O excesso não se justifica por simples mudança de horário.",
+          "Incorreta. A exposição coletiva pode ser desnecessária e indevida.",
+          "Incorreta. O texto não cumpre sua finalidade principal e expõe dados.",
+          "Correta. Os dados comunicados são proporcionais à finalidade."
+        ],
+        "depois": [
+          "Incorreta: a lista nominal não é necessária para comunicar um horário geral de atendimento.",
+          "Incorreta: a exposição de contatos pessoais sem necessidade não se justifica por envio coletivo.",
+          "Incorreta: omite informação pública essencial e divulga dados pessoais irrelevantes.",
+          "Correta. Os dados comunicados são proporcionais à finalidade."
+        ]
+      },
+      "options": {
+        "antes": [
+          "Anexar dados cadastrais completos de terceiros para tornar o aviso mais convincente.",
+          "Usar todos os endereços e dados internos em cópia aberta sem avaliar a necessidade.",
+          "Omitir o novo horário, mas divulgar nomes e documentos dos usuários.",
+          "Informar horário e canal de atendimento sem incluir listas pessoais desnecessárias."
+        ],
+        "depois": [
+          "Incluir no aviso público a lista nominal completa dos usuários afetados, apesar de bastar indicar o novo horário.",
+          "Enviar o aviso com todos os endereços particulares visíveis no campo “Para”, sem avaliar necessidade de exposição.",
+          "Detalhar o novo horário somente em documento restrito, enquanto o comunicado público informa dados pessoais.",
+          "Informar horário e canal de atendimento sem incluir listas pessoais desnecessárias."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-03-004-03",
+    "moduleId": "RED-03",
+    "alteracoes": {
+      "explanation": {
+        "antes": "I: A comunicação deve respeitar finalidade e base legal. II: Há limites legais e institucionais ao tratamento. III: O endereçamento errado pode expor dados desnecessariamente.",
+        "depois": "Publicidade não libera todo dado pessoal; conferência de destinatários e base legal é necessária antes de compartilhar informações."
+      },
+      "newExample": {
+        "antes": "Ao avisar centenas de alunos sobre mudança de horário, o setor informa a nova data e canal, sem anexar lista de CPF e telefone de cada aluno.",
+        "depois": "Antes de encaminhar documento individual, a equipe confere autorização, destinatário e conteúdo de cada anexo."
+      },
+      "challenge": {
+        "antes": "Dado pessoal pode ser compartilhado quando necessário?",
+        "depois": "Por que uma informação no poder da administração não é automaticamente pública?"
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-03-004-04",
+    "moduleId": "RED-03",
+    "alteracoes": {
+      "explanation": {
+        "antes": "A exceção é falsa, apesar de as demais condutas estarem corretas. A divulgação não se justifica pela finalidade.",
+        "depois": "A divulgação desnecessária de documentos pessoais não se justifica para dar credibilidade a simples aviso de rotina."
+      },
+      "newExample": {
+        "antes": "Ao avisar centenas de alunos sobre mudança de horário, o setor informa a nova data e canal, sem anexar lista de CPF e telefone de cada aluno.",
+        "depois": "Aviso público divulga novo agendamento sem expor arquivos cadastrais dos usuários do serviço."
+      },
+      "challenge": {
+        "antes": "Dado pessoal pode ser compartilhado quando necessário?",
+        "depois": "Reduza uma lista de divulgação para incluir apenas dados necessários à finalidade."
+      },
+      "optionComments": {
+        "antes": [
+          "Não atende ao EXCETO: Reduz divulgação desnecessária.",
+          "Correta como exceção: A divulgação não se justifica pela finalidade.",
+          "Não atende ao EXCETO: A conferência protege a informação.",
+          "Não atende ao EXCETO: O serviço exige transparência sobre funcionamento."
+        ],
+        "depois": [
+          "Não atende ao EXCETO: Reduz divulgação desnecessária.",
+          "Correta como EXCETO: disponibilizar cadastros pessoais sem necessidade viola o princípio de adequação à finalidade.",
+          "Não atende ao EXCETO: A conferência protege a informação.",
+          "Não atende ao EXCETO: O serviço exige transparência sobre funcionamento."
+        ]
+      },
+      "options": {
+        "antes": [
+          "Remover de anexo dados pessoais irrelevantes à finalidade.",
+          "Publicar lista de documentos pessoais de todos os usuários para comprovar a importância do aviso.",
+          "Verificar destinatários e autorizações antes de compartilhar material individual.",
+          "Divulgar as alterações de horário que interessam ao público."
+        ],
+        "depois": [
+          "Remover de anexo dados pessoais irrelevantes à finalidade.",
+          "Anexar publicamente a planilha completa de CPFs para facilitar a identificação dos interessados, sem necessidade demonstrada.",
+          "Verificar destinatários e autorizações antes de compartilhar material individual.",
+          "Divulgar as alterações de horário que interessam ao público."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-03-005-01",
+    "moduleId": "RED-03",
+    "alteracoes": {
+      "explanation": {
+        "antes": "Urgência deve ser comunicada por prazo e instrução precisos.",
+        "depois": "Exclamações não informam prazo, destinatário ou canal; o e-mail urgente deve indicar a providência e seu limite temporal."
+      },
+      "newExample": {
+        "antes": "Antes: “URGENTÍSSIMO!!! Mande isso pra gente AGORA!!!” Depois: “Solicitamos o envio do documento até 10 de junho, às 17h, pelo portal institucional”.",
+        "depois": "“URGENTE!!!” não informa que a entrega é até às 17h de 3 de abril no sistema indicado."
+      },
+      "challenge": {
+        "antes": "Por que o texto “estamos muito felizes e honrados...” pode ser excessivo?",
+        "depois": "Transforme urgência expressiva em instrução com prazo e canal."
+      },
+      "optionComments": {
+        "antes": [
+          "Incorreta. Urgência deve ser comunicada por prazo e instrução precisos.",
+          "Correta. Urgência deve ser comunicada por prazo e instrução precisos."
+        ],
+        "depois": [
+          "Incorreta: Marcar CERTO substituiria informação operacional de prazo por sinais de pontuação enfáticos.",
+          "Correta: Exclamações não informam prazo, destinatário ou canal; o e-mail urgente deve indicar a providência e seu limite temporal."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-03-005-02",
+    "moduleId": "RED-03",
+    "alteracoes": {
+      "explanation": {
+        "antes": "Mantém pedido, canal e prazo em tom respeitoso.",
+        "depois": "A redação explicita documentos, meio e momento-limite de entrega, usando tom profissional."
+      },
+      "newExample": {
+        "antes": "Antes: “URGENTÍSSIMO!!! Mande isso pra gente AGORA!!!” Depois: “Solicitamos o envio do documento até 10 de junho, às 17h, pelo portal institucional”.",
+        "depois": "Solicitação objetiva: enviar a certidão atualizada até 10h de 15 de setembro pelo protocolo eletrônico."
+      },
+      "challenge": {
+        "antes": "Por que o texto “estamos muito felizes e honrados...” pode ser excessivo?",
+        "depois": "Melhore um pedido agressivo sem retirar prazo, objeto ou destinatário."
+      },
+      "optionComments": {
+        "antes": [
+          "Incorreta. É pessoal e desrespeitosa.",
+          "Incorreta. Não traz providência verificável.",
+          "Correta. Mantém pedido, canal e prazo em tom respeitoso.",
+          "Incorreta. Introduz hostilidade e não identifica informações suficientes."
+        ],
+        "depois": [
+          "Incorreta: deixa sem data-limite a instrução do destinatário.",
+          "Incorreta: adia o prazo e não produz orientação executável no momento do envio.",
+          "Correta. Mantém pedido, canal e prazo em tom respeitoso.",
+          "Incorreta: fornece canais alternativos sem demonstrar que ambos são válidos para o procedimento."
+        ]
+      },
+      "options": {
+        "antes": [
+          "Sua demanda é banal e não merece explicação.",
+          "Estamos muito emocionados; faremos algo por você algum dia.",
+          "Solicitamos o envio dos documentos pelo sistema até 17h de 10 de junho.",
+          "Mande logo tudo, porque já estamos irritados."
+        ],
+        "depois": [
+          "Solicitamos o envio dos documentos por qualquer meio até o final do expediente, sem identificar a data.",
+          "Informamos que os documentos poderão ser enviados pelo sistema quando cada setor indicar prazo posteriormente.",
+          "Solicitamos o envio dos documentos pelo sistema até 17h de 10 de junho.",
+          "O envio da documentação deve ocorrer por e-mail ou sistema, conforme disponibilidade de servidores."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-03-005-03",
+    "moduleId": "RED-03",
+    "alteracoes": {
+      "explanation": {
+        "antes": "I: O destinatário identifica a matéria. II: Destaque gráfico não corrige informação vaga. III: Organização ajuda a localizar providências.",
+        "depois": "Assunto específico e organização em parágrafos favorecem a leitura; caixa alta integral não torna instruções precisas."
+      },
+      "newExample": {
+        "antes": "Antes: “URGENTÍSSIMO!!! Mande isso pra gente AGORA!!!” Depois: “Solicitamos o envio do documento até 10 de junho, às 17h, pelo portal institucional”.",
+        "depois": "Parágrafos de duas a três frases separam motivo, ação e prazo; caixa alta não substitui essa organização."
+      },
+      "challenge": {
+        "antes": "Por que o texto “estamos muito felizes e honrados...” pode ser excessivo?",
+        "depois": "Divida instrução extensa em duas partes sem mudar o conteúdo."
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-03-005-04",
+    "moduleId": "RED-03",
+    "alteracoes": {
+      "explanation": {
+        "antes": "A exceção é falsa, apesar de as demais condutas estarem corretas. O prazo é informação essencial ao destinatário.",
+        "depois": "Retirar prazo confirmado elimina informação essencial para cumprir a solicitação; cortesia não equivale a omissão."
+      },
+      "newExample": {
+        "antes": "Antes: “URGENTÍSSIMO!!! Mande isso pra gente AGORA!!!” Depois: “Solicitamos o envio do documento até 10 de junho, às 17h, pelo portal institucional”.",
+        "depois": "O e-mail omite o prazo para parecer cordial, mas deixa o interessado sem saber quando entregar o documento."
+      },
+      "challenge": {
+        "antes": "Por que o texto “estamos muito felizes e honrados...” pode ser excessivo?",
+        "depois": "Reescreva o aviso conservando o prazo e eliminando exclamações."
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-03-006-01",
+    "moduleId": "RED-03",
+    "alteracoes": {
+      "explanation": {
+        "antes": "Faculdade/possibilidade e obrigação são modalidades distintas.",
+        "depois": "Poderá indica faculdade ou possibilidade, ao passo que deverá impõe dever; os enunciados não são modalmente equivalentes."
+      },
+      "newExample": {
+        "antes": "Original: “O candidato poderá solicitar revisão até 4 de maio”. Reescrita fiel: “É facultado ao candidato solicitar revisão até 4 de maio”, se esse for o regime aplicável.",
+        "depois": "“Os interessados poderão solicitar revisão” permite a escolha; “deverão solicitar” imporia obrigação nova."
+      },
+      "challenge": {
+        "antes": "Uma reescrita mais curta pode ser semanticamente errada?",
+        "depois": "Aponte qual alteração de verbo deslocaria faculdade para dever."
+      },
+      "optionComments": {
+        "antes": [
+          "Incorreta. Faculdade/possibilidade e obrigação são modalidades distintas.",
+          "Correta. Faculdade/possibilidade e obrigação são modalidades distintas."
+        ],
+        "depois": [
+          "Incorreta: Marcar CERTO confundiria possibilidade de requerer com obrigação de requerer, mudando a natureza da orientação.",
+          "Correta: Poderá indica faculdade ou possibilidade, ao passo que deverá impõe dever; os enunciados não são modalmente equivalentes."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-03-006-02",
+    "moduleId": "RED-03",
+    "alteracoes": {
+      "explanation": {
+        "antes": "Restringe o mesmo conjunto sem ampliar a convocação.",
+        "depois": "A convocação fica restrita aos aprovados na etapa 1; o advérbio somente mantém o limite do conjunto convocável."
+      },
+      "newExample": {
+        "antes": "Original: “O candidato poderá solicitar revisão até 4 de maio”. Reescrita fiel: “É facultado ao candidato solicitar revisão até 4 de maio”, se esse for o regime aplicável.",
+        "depois": "A expressão “somente candidatos habilitados” exclui os não habilitados; a restrição não pode desaparecer na paráfrase."
+      },
+      "challenge": {
+        "antes": "Uma reescrita mais curta pode ser semanticamente errada?",
+        "depois": "Formule frase equivalente sem ampliar o universo de convocados."
+      },
+      "optionComments": {
+        "antes": [
+          "Incorreta. Elimina a condição prevista no texto.",
+          "Correta. Restringe o mesmo conjunto sem ampliar a convocação.",
+          "Incorreta. Amplia o conjunto além dos aprovados.",
+          "Incorreta. Nega a convocação prevista."
+        ],
+        "depois": [
+          "Incorreta: amplia o conjunto convocável para não aprovados.",
+          "Correta. Restringe o mesmo conjunto sem ampliar a convocação.",
+          "Incorreta: retira a exigência de aprovação indicada pela expressão somente.",
+          "Incorreta: muda convocação efetiva em possibilidade geral de participação."
+        ]
+      },
+      "options": {
+        "antes": [
+          "Qualquer cidadão pode ser convocado independentemente da etapa.",
+          "A convocação será restrita aos aprovados na etapa 1.",
+          "Todos os inscritos serão convocados, tenham sido aprovados ou não.",
+          "Nenhum aprovado será chamado."
+        ],
+        "depois": [
+          "A convocação poderá alcançar qualquer inscrito, inclusive sem aprovação na etapa 1.",
+          "A convocação será restrita aos aprovados na etapa 1.",
+          "Serão chamados os inscritos da etapa 1, independentemente do resultado nela obtido.",
+          "Somente candidatos aprovados poderão participar do certame, sem que haja previsão de convocação."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-03-006-03",
+    "moduleId": "RED-03",
+    "alteracoes": {
+      "explanation": {
+        "antes": "I: Mudar a modalidade altera o sentido. II: Correção formal não comprova equivalência semântica. III: A referência precisa evita interpretação concorrente.",
+        "depois": "I diferencia faculdade de obrigação; II confunde correção gramatical com equivalência; III exige referente claro."
+      },
+      "newExample": {
+        "antes": "Original: “O candidato poderá solicitar revisão até 4 de maio”. Reescrita fiel: “É facultado ao candidato solicitar revisão até 4 de maio”, se esse for o regime aplicável.",
+        "depois": "“Eles encaminharão o recurso” é ambíguo após citar dois grupos; nomear a comissão elimina a dúvida."
+      },
+      "challenge": {
+        "antes": "Uma reescrita mais curta pode ser semanticamente errada?",
+        "depois": "Separe correção de concordância de preservação de sentido em uma reescrita."
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-03-006-04",
+    "moduleId": "RED-03",
+    "alteracoes": {
+      "explanation": {
+        "antes": "A exceção é falsa, apesar de as demais condutas estarem corretas. A modificação cria obrigação não presente.",
+        "depois": "Trocar poderão por serão obrigados impõe dever não autorizado no enunciado de origem."
+      },
+      "newExample": {
+        "antes": "Original: “O candidato poderá solicitar revisão até 4 de maio”. Reescrita fiel: “É facultado ao candidato solicitar revisão até 4 de maio”, se esse for o regime aplicável.",
+        "depois": "“Poderão optar pelo canal presencial” não equivale a “deverão comparecer presencialmente”."
+      },
+      "challenge": {
+        "antes": "Uma reescrita mais curta pode ser semanticamente errada?",
+        "depois": "Explique por que revisão de tom não autoriza criar obrigação."
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-03-007-01",
+    "moduleId": "RED-03",
+    "alteracoes": {
+      "explanation": {
+        "antes": "O canal não substitui requisitos de forma ou competência.",
+        "depois": "A seleção do meio de resposta depende do procedimento aplicável, do tipo de ato e do destinatário."
+      },
+      "newExample": {
+        "antes": "Uma secretaria protocola pedido, solicita por expediente à unidade competente os dados necessários e envia resposta ao cidadão, com referência ao processo e anexos pertinentes.",
+        "depois": "Resposta formal usa o canal de ciência exigido pelo procedimento, e não qualquer e-mail pessoal disponível."
+      },
+      "challenge": {
+        "antes": "Quais elementos devem constar no encerramento de um caso de protocolo?",
+        "depois": "Identifique um caso em que protocolo eletrônico e caixa postal não sejam alternativas equivalentes."
+      },
+      "optionComments": {
+        "antes": [
+          "Correta. O canal não substitui requisitos de forma ou competência.",
+          "Incorreta. O canal não substitui requisitos de forma ou competência."
+        ],
+        "depois": [
+          "Correta: A seleção do meio de resposta depende do procedimento aplicável, do tipo de ato e do destinatário.",
+          "Incorreta: Marcar ERRADO afastaria as regras próprias do procedimento na escolha do canal de resposta e de ciência."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-03-007-02",
+    "moduleId": "RED-03",
+    "alteracoes": {
+      "explanation": {
+        "antes": "A sequência preserva identificação, competência e resposta.",
+        "depois": "Vincular a resposta ao protocolo, encaminhar a unidade competente e informar interessado preserva rastreabilidade."
+      },
+      "newExample": {
+        "antes": "Uma secretaria protocola pedido, solicita por expediente à unidade competente os dados necessários e envia resposta ao cidadão, com referência ao processo e anexos pertinentes.",
+        "depois": "Um recurso é encaminhado ao setor competente com número de referência, decisão e retorno registrado ao interessado."
+      },
+      "challenge": {
+        "antes": "Quais elementos devem constar no encerramento de um caso de protocolo?",
+        "depois": "Organize três etapas de fluxo para evitar perda de rastreabilidade."
+      },
+      "optionComments": {
+        "antes": [
+          "Correta. A sequência preserva identificação, competência e resposta.",
+          "Incorreta. O procedimento perde rastreabilidade e destinação adequada.",
+          "Incorreta. A divulgação excessiva não decorre da necessidade de tramitação.",
+          "Incorreta. Efeitos do silêncio dependem de norma aplicável, não de regra universal."
+        ],
+        "depois": [
+          "Correta. A sequência preserva identificação, competência e resposta.",
+          "Incorreta: identifica a pessoa, mas perde o vínculo objetivo entre pedido e resposta.",
+          "Incorreta: distribuição indiscriminada de dados não é necessária para encaminhar ao setor competente.",
+          "Incorreta: silêncio não significa deferimento universal; dependeria de previsão normativa específica."
+        ]
+      },
+      "options": {
+        "antes": [
+          "Referenciar o protocolo, encaminhar à unidade competente e comunicar o resultado ao interessado.",
+          "Enviar pedido para qualquer endereço sem registrar o número do processo.",
+          "Publicar indiscriminadamente os dados pessoais do requerente para acelerar o caso.",
+          "Tomar a falta de resposta como aprovação automática em toda hipótese."
+        ],
+        "depois": [
+          "Referenciar o protocolo, encaminhar à unidade competente e comunicar o resultado ao interessado.",
+          "Encaminhar a solicitação com identificação do interessado, mas sem referência ao protocolo anterior.",
+          "Remeter a cópia integral com dados pessoais a todos os setores envolvidos, mesmo sem necessidade de acesso.",
+          "Registrar que não houve resposta e concluir pelo deferimento, sem localizar regra expressa para o procedimento."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-03-007-03",
+    "moduleId": "RED-03",
+    "alteracoes": {
+      "explanation": {
+        "antes": "I: A referência favorece rastreabilidade. II: Seus efeitos dependem da disciplina específica. III: O encaminhamento correto integra a boa gestão documental.",
+        "depois": "I e III descrevem identificação e competência; silêncio administrativo não significa aprovação universal."
+      },
+      "newExample": {
+        "antes": "Uma secretaria protocola pedido, solicita por expediente à unidade competente os dados necessários e envia resposta ao cidadão, com referência ao processo e anexos pertinentes.",
+        "depois": "Uma resposta tardia não significa aprovação automática do recurso salvo norma específica que determine a consequência."
+      },
+      "challenge": {
+        "antes": "Quais elementos devem constar no encerramento de um caso de protocolo?",
+        "depois": "Por que não se deve generalizar efeitos do silêncio administrativo?"
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  },
+  {
+    "id": "Q-RED-03-007-04",
+    "moduleId": "RED-03",
+    "alteracoes": {
+      "explanation": {
+        "antes": "A exceção é falsa, apesar de as demais condutas estarem corretas. Não existe regra geral de aprovação automática por silêncio.",
+        "depois": "A demora do órgão não permite presumir aprovação automática de qualquer requerimento fora das hipóteses legais."
+      },
+      "newExample": {
+        "antes": "Uma secretaria protocola pedido, solicita por expediente à unidade competente os dados necessários e envia resposta ao cidadão, com referência ao processo e anexos pertinentes.",
+        "depois": "Protocolo recebe pendência, unidade competente responde e o interessado é informado pelo canal previsto no processo."
+      },
+      "challenge": {
+        "antes": "Quais elementos devem constar no encerramento de um caso de protocolo?",
+        "depois": "Demonstre como falta de decisão não autoriza presumir deferimento universal."
+      },
+      "optionComments": {
+        "antes": [
+          "Não atende ao EXCETO: Documentação completa possibilita acompanhamento.",
+          "Não atende ao EXCETO: A referência permite reconhecer o pedido.",
+          "Não atende ao EXCETO: A forma e a destinação dependem do caso.",
+          "Correta como exceção: Não existe regra geral de aprovação automática por silêncio."
+        ],
+        "depois": [
+          "Não atende ao EXCETO: Documentação completa possibilita acompanhamento.",
+          "Não atende ao EXCETO: A referência permite reconhecer o pedido.",
+          "Não atende ao EXCETO: A forma e a destinação dependem do caso.",
+          "Correta como EXCETO: a demora, isoladamente, não determina aprovação em todo procedimento."
+        ]
+      },
+      "options": {
+        "antes": [
+          "Registrar anexos pertinentes e a informação enviada ao interessado.",
+          "Citar o protocolo correspondente na resposta.",
+          "Verificar o canal e a competência para o encaminhamento.",
+          "Presumir aprovação de qualquer pedido apenas pela demora da unidade."
+        ],
+        "depois": [
+          "Registrar anexos pertinentes e a informação enviada ao interessado.",
+          "Citar o protocolo correspondente na resposta.",
+          "Verificar o canal e a competência para o encaminhamento.",
+          "Registrar o atraso como deferimento automático, sem identificar previsão legal que produza esse efeito."
+        ]
+      }
+    },
+    "indice_de_resposta_preservado": true,
+    "versao_anterior_arquivada": true
+  }
+]

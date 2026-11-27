@@ -1,0 +1,78 @@
+{
+  "lote": "Correção 3 — Lote 6 (final de revisão)",
+  "revisao": "2026-11-27",
+  "base_git_sha": "1fab73b63c70f33b8826b2ff25cb6539c821dd49",
+  "git_blob_shas": {
+    "POR-24": "254fbaf196223ae783ff6d49a19eec0b2beae0f3",
+    "RED-01": "03b2403504b0a949f42707d24c48a7ebf02f182e",
+    "RED-02": "06278c77eb59a2f680aed9ebcb18a3fead8afd7a",
+    "RED-03": "d8bef286d8fa8821c7f55985dcc719a514c11956"
+  },
+  "modules": [
+    "POR-24",
+    "RED-01",
+    "RED-02",
+    "RED-03"
+  ],
+  "counts": {
+    "POR-24": {
+      "total": 20,
+      "medias": 10,
+      "dificeis": 10,
+      "ce_certo": 1,
+      "ce_errado": 4,
+      "edicoes_de_enunciado_ou_opcoes": 5
+    },
+    "RED-01": {
+      "total": 24,
+      "medias": 12,
+      "dificeis": 12,
+      "ce_certo": 3,
+      "ce_errado": 3,
+      "edicoes_de_enunciado_ou_opcoes": 8
+    },
+    "RED-02": {
+      "total": 28,
+      "medias": 14,
+      "dificeis": 14,
+      "ce_certo": 5,
+      "ce_errado": 2,
+      "edicoes_de_enunciado_ou_opcoes": 11
+    },
+    "RED-03": {
+      "total": 28,
+      "medias": 14,
+      "dificeis": 14,
+      "ce_certo": 5,
+      "ce_errado": 2,
+      "edicoes_de_enunciado_ou_opcoes": 12
+    }
+  },
+  "itens_resolvidos": 100,
+  "ids_inalterados": 100,
+  "gabaritos_inalterados": 100,
+  "exemplos_exclusivos": 100,
+  "desafios_exclusivos": 100,
+  "comentarios_CE_revistos": 25,
+  "edicoes_de_enunciado_ou_opcoes": 36,
+  "publicacao": "Somente questões AUTORAIS; nenhuma atribuição a banca ou prova REAL",
+  "fontes": [
+    "https://www4.planalto.gov.br/centrodeestudos/pages/assuntos/manual-de-redacao-da-presidencia-da-republica.html",
+    "https://portaldalegislacao-classico.presidencia.gov.br/assets/docs/manual-de-redacao.pdf",
+    "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/d9758.htm",
+    "https://www.gov.br/conarq/pt-br/composicao/copy_of_camaras-tecnicas-setoriais-inativas/camara-tecnica-de-documentos-eletronicos-ctde/perguntas-mais-frequentes"
+  ],
+  "limites": [
+    "Conferência por IA; não há parecer de professor independente.",
+    "Manter ID e índice preserva a classificação do acerto antigo, mas não o texto histórico idêntico; snapshots incluídos.",
+    "Formulários oficiais, autoridade signatária e sistemas podem seguir atos específicos, não generalizar o decreto além de seu âmbito.",
+    "Não foram executados testes reais de Google Drive nem UI no navegador."
+  ],
+  "validacoes_locais": {
+    "js_sintaxe": 4,
+    "suite_integracao_l6": "aprovada",
+    "suite_regressao_l4": "aprovada",
+    "suite_regressao_l5": "aprovada",
+    "testes_de_integracao_UI_no_checkout": "somente após upload e Actions"
+  }
+}

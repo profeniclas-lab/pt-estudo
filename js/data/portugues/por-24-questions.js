@@ -1,4 +1,4 @@
-/** PT-ESTUDO — POR-24 — questões; conteúdo autoral original; Lote 08. */
+/** PT-ESTUDO — POR-24: questões AUTORAIS; Correção 3, Lote 6 — revisão pedagógica. */
 export const POR_24_QUESTIONS = [
   {
     "id": "Q-POR-24-001-01",
@@ -14,15 +14,15 @@ export const POR_24_QUESTIONS = [
     ],
     "answer": 1,
     "optionComments": [
-      "Incorreta: A redação fica temática, mas incompleta quanto à operação solicitada.",
-      "Correta: O comando exige pelo menos uma informação de risco além das duas vantagens; três vantagens não substituem esse requisito."
+      "Incorreta: Marcar CERTO suporia que quantidade extra de vantagens compensa a falta do risco expressamente exigido, o que não ocorre.",
+      "Correta: O comando exige vantagens e risco; listar somente vantagens omite um eixo obrigatório, mesmo que acrescente informações ao texto."
     ],
-    "explanation": "O comando exige pelo menos uma informação de risco além das duas vantagens; três vantagens não substituem esse requisito.",
+    "explanation": "O comando exige vantagens e risco; listar somente vantagens omite um eixo obrigatório, mesmo que acrescente informações ao texto.",
     "concept": "Compreender a proposta significa distinguir assunto geral, operação exigida e limites explicitados pelo comando.",
     "trap": "Confundir adequação geral ao tema com atendimento aos itens exigidos.",
     "examTip": "Crie uma lista de exigências verificáveis do enunciado antes de começar: tema, verbos, quantidade, destinatário, limite e forma. Para este item, decida a partir de: O comando exige pelo menos uma informação de risco além das duas vantagens; três vantagens não substituem esse requisito.",
-    "newExample": "Pedido: “compare dois serviços”; descrever apenas um não cumpre a comparação.",
-    "challenge": "Quais três elementos você destacaria no rascunho ao ler o comando do enunciado?",
+    "newExample": "Uma questão pede duas causas de evasão e uma iniciativa de prevenção: citar três causas, sem iniciativa, deixa uma exigência em branco.",
+    "challenge": "Reescreva um comando de prova em três tarefas verificáveis e marque qual faltaria num texto só descritivo.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -36,24 +36,24 @@ export const POR_24_QUESTIONS = [
     "difficulty": "media",
     "stem": "A proposta diz: “Em até 15 linhas, compare atendimento presencial e remoto, indicando uma vantagem e uma limitação de cada modalidade”. Qual plano inicial cumpre o comando?",
     "options": [
-      "Descrever só o atendimento remoto, com três vantagens e sem limites.",
-      "Apresentar o histórico dos serviços públicos e concluir sem comparar modalidades.",
-      "Explicar uma vantagem de cada modalidade, sem mencionar limitações.",
+      "Explicar o atendimento remoto com vantagem e limitação, mas descrever o presencial apenas de modo geral.",
+      "Comparar os dois canais por custo e velocidade, mas não apontar explicitamente uma limitação de cada um.",
+      "Apresentar uma vantagem de cada modalidade e reservar a conclusão para uma recomendação, sem abordar suas limitações.",
       "Estabelecer critérios comuns, indicar vantagem e limitação de cada modalidade e respeitar 15 linhas."
     ],
     "answer": 3,
     "optionComments": [
-      "Incorreta: omite uma modalidade e as limitações exigidas.",
-      "Incorreta: não executa comparação nem responde aos critérios solicitados.",
-      "Incompleta: atende às vantagens, mas não às duas limitações.",
+      "Incorreta: o presencial fica sem vantagem e limitação individualizadas, exigidas pelo comando.",
+      "Incorreta: critérios comuns não dispensam a identificação de uma limitação em cada canal.",
+      "Incorreta: a proposta exige uma limitação de cada modalidade, além das vantagens.",
       "Correta: contempla modalidades, critérios, vantagens, limites e extensão."
     ],
-    "explanation": "O comando pede comparação simétrica das modalidades e quatro elementos mínimos dentro do limite de linhas.",
+    "explanation": "O plano correto contém critérios comuns de comparação, uma vantagem e uma limitação por modalidade e observa o teto de 15 linhas.",
     "concept": "Compreender a proposta significa distinguir assunto geral, operação exigida e limites explicitados pelo comando.",
     "trap": "Trocar o verbo comparar por descrever de modo unilateral.",
     "examTip": "Crie uma lista de exigências verificáveis do enunciado antes de começar: tema, verbos, quantidade, destinatário, limite e forma. Para este item, decida a partir de: O comando pede comparação simétrica das modalidades e quatro elementos mínimos dentro do limite de linhas.",
-    "newExample": "“Compare um portal e um balcão e indique custo e acessibilidade” exige examinar ambos pelos mesmos critérios.",
-    "challenge": "Quais palavras do comando correspondem a quantidade, tarefa e restrição formal?",
+    "newExample": "Para comparar protocolo físico e digital em 15 linhas, reserve uma frase inicial, uma análise por canal e síntese dos critérios.",
+    "challenge": "Esboce uma comparação com um benefício e um obstáculo de cada forma de protocolo, sem ultrapassar o espaço.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -79,12 +79,12 @@ export const POR_24_QUESTIONS = [
       "Incorreta: I é verdadeira e IV é falsa; o limite deve ser observado.",
       "Incorreta: III é verdadeira e IV falsa."
     ],
-    "explanation": "A sequência V-F-V-F distingue critérios de conteúdo, proposta de solução e extensão definida pela banca.",
+    "explanation": "I e III atendem ao levantamento de causas e à pertinência da medida; II ignora parte do comando e IV desrespeita a extensão exigida.",
     "concept": "Compreender a proposta significa distinguir assunto geral, operação exigida e limites explicitados pelo comando.",
     "trap": "Dar prioridade a acabamento linguístico para justificar omissão de requisitos objetivos.",
     "examTip": "Crie uma lista de exigências verificáveis do enunciado antes de começar: tema, verbos, quantidade, destinatário, limite e forma. Para este item, decida a partir de: A sequência V-F-V-F distingue critérios de conteúdo, proposta de solução e extensão definida pela banca.",
-    "newExample": "Uma prova pode pedir “um efeito e duas soluções”; uma redação excelente que ignore as soluções permanece incompleta.",
-    "challenge": "O que seria uma medida factível ligada à causa “informações confusas sobre documentos”?",
+    "newExample": "Um texto apresenta duas causas de lentidão do atendimento, mas propõe medida que não trata de nenhuma delas.",
+    "challenge": "Indique qual elemento do comando foi atendido e por que a intervenção não dialoga com as causas descritas.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "question-bank-hard"
@@ -110,12 +110,12 @@ export const POR_24_QUESTIONS = [
       "Adequada: material motivador orienta o tema, mas não dispensa autoria.",
       "Inadequada: estrutura e intervenção dependem do gênero e do comando específico, não de fórmula universal."
     ],
-    "explanation": "Não existe regra universal de cinco parágrafos nem intervenção obrigatória em todas as discursivas de concurso.",
+    "explanation": "Não existe modelo obrigatório de cinco parágrafos ou intervenção para toda questão discursiva: extensão, gênero e tarefa dependem do edital.",
     "concept": "Compreender a proposta significa distinguir assunto geral, operação exigida e limites explicitados pelo comando.",
     "trap": "Importar modelo de redação de outra prova sem verificar seu comando.",
     "examTip": "Crie uma lista de exigências verificáveis do enunciado antes de começar: tema, verbos, quantidade, destinatário, limite e forma. Para este item, decida a partir de: Não existe regra universal de cinco parágrafos nem intervenção obrigatória em todas as discursivas de concurso.",
-    "newExample": "Uma resposta técnica de dez linhas pode exigir justificativa breve, sem a estrutura de dissertação extensa.",
-    "challenge": "Que informação do edital você verificaria antes de fixar número de parágrafos?",
+    "newExample": "Uma questão técnica solicita resposta em 10 linhas sem intervenção: quatro parágrafos com proposta política podem ocupar espaço indevido.",
+    "challenge": "Crie dois planos diferentes para comandos distintos, um de comparação e outro de justificativa.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "question-bank-hard"
@@ -134,15 +134,15 @@ export const POR_24_QUESTIONS = [
     ],
     "answer": 0,
     "optionComments": [
-      "Correta: A formulação associa benefício da digitalização à condição concreta de apoio presencial e delimita o público vulnerável à exclusão digital.",
-      "Incorreta: Não é uma generalização absoluta: explicita em que circunstância o benefício é mais defensável."
+      "Correta: A tese identifica o benefício possível da digitalização e condiciona sua inclusão ao apoio presencial a usuários com barreiras tecnológicas.",
+      "Incorreta: Marcar ERRADO desconsideraria que a tese delimita a condição de acessibilidade e não garante inclusão digital automática."
     ],
-    "explanation": "A formulação associa benefício da digitalização à condição concreta de apoio presencial e delimita o público vulnerável à exclusão digital.",
+    "explanation": "A tese identifica o benefício possível da digitalização e condiciona sua inclusão ao apoio presencial a usuários com barreiras tecnológicas.",
     "concept": "Tese é a posição central defendida; recorte define o aspecto específico do tema que será examinado.",
     "trap": "Confundir tese delimitada com declaração absoluta sobre tecnologia.",
     "examTip": "Procure uma tese que possa ser sustentada pelos argumentos disponíveis e reescrita em uma frase nítida. Para este item, decida a partir de: A formulação associa benefício da digitalização à condição concreta de apoio presencial e delimita o público vulnerável à exclusão digital.",
-    "newExample": "“Bibliotecas ampliam acesso se combinarem acervo e orientação ao leitor” contém condição delimitadora.",
-    "challenge": "Que argumentos poderiam sustentar a condição de suporte presencial?",
+    "newExample": "Tese delimitada: manter balcão assistido pode reduzir exclusão digital dos requerentes com baixo acesso à rede.",
+    "challenge": "Identifique o recorte e a condição da tese sem transformá-la em afirmação absoluta sobre tecnologia.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -168,12 +168,12 @@ export const POR_24_QUESTIONS = [
       "Correta: tese, recorte e planejamento cumprem funções complementares.",
       "Incompleta: III também é verdadeira; ordem de argumentos importa."
     ],
-    "explanation": "I, II e III distinguem função argumentativa, delimitação e organização textual.",
+    "explanation": "Tese, recorte e plano argumentativo cumprem funções complementares: posição defendida, aspecto focalizado e ordem dos argumentos.",
     "concept": "Tese é a posição central defendida; recorte define o aspecto específico do tema que será examinado.",
     "trap": "Confundir o tema geral proposto pela banca com a posição específica do candidato.",
     "examTip": "Procure uma tese que possa ser sustentada pelos argumentos disponíveis e reescrita em uma frase nítida. Para este item, decida a partir de: I, II e III distinguem função argumentativa, delimitação e organização textual.",
-    "newExample": "Tema: “uso de dados públicos”; recorte: “clareza e acessibilidade dos portais”; tese: “padrões simples favorecem o acesso”.",
-    "challenge": "Uma tese ampla demais pode dificultar que cada parágrafo a sustente por quê?",
+    "newExample": "Antes de escrever, delimite: tema filas; recorte agendamento eletrônico; tese organização dos horários pode reduzir espera.",
+    "challenge": "Organize em três notas separadas o tema geral, o foco e a posição defendida.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -187,24 +187,24 @@ export const POR_24_QUESTIONS = [
     "difficulty": "dificil",
     "stem": "Para o tema “atendimento digital em municípios”, qual tese é mais delimitada e defensável para um texto de até 20 linhas?",
     "options": [
-      "A tecnologia é sempre a solução perfeita para todos os cidadãos.",
-      "Os municípios não devem pensar em tecnologia porque isso é assunto complexo.",
-      "Tudo o que envolve serviços públicos é muito importante atualmente.",
+      "Serviços digitais reduzem o tempo de atendimento em todos os municípios, independentemente da infraestrutura.",
+      "O atendimento digital é mais importante que o presencial em qualquer região.",
+      "O uso de tecnologia merece reflexão porque a administração precisa evoluir.",
       "A ampliação de canais digitais pode agilizar solicitações, desde que haja orientação e alternativa de acesso aos usuários sem conectividade."
     ],
     "answer": 3,
     "optionComments": [
-      "Incorreta: sempre e todos fazem generalização difícil de sustentar.",
-      "Incorreta: rejeita o tema com justificativa vaga e não examina condições.",
-      "Incorreta: frase genérica não apresenta uma posição específica.",
+      "Incorreta: generaliza resultado sem dados sobre infraestrutura ou acesso local.",
+      "Incorreta: afirma superioridade universal e ignora as barreiras previstas no recorte.",
+      "Incorreta: apresenta juízo amplo e não formula tese delimitada e verificável.",
       "Correta: combina benefício, condição de acesso e público afetado, permitindo argumentação concreta."
     ],
-    "explanation": "A última tese indica benefício possível, duas condições práticas e público delimitado, ao contrário das generalizações.",
+    "explanation": "A tese delimita municípios, agilização e condição de acessibilidade; as alternativas absolutistas ou genéricas não são sustentáveis.",
     "concept": "Tese é a posição central defendida; recorte define o aspecto específico do tema que será examinado.",
     "trap": "Achar que tese forte exige necessariamente expressões absolutas.",
     "examTip": "Procure uma tese que possa ser sustentada pelos argumentos disponíveis e reescrita em uma frase nítida. Para este item, decida a partir de: A última tese indica benefício possível, duas condições práticas e público delimitado, ao contrário das generalizações.",
-    "newExample": "“A informatização de cadastros requer treinamento de equipes para reduzir erros” oferece vínculo específico de causa e condição.",
-    "challenge": "Quais dois argumentos poderiam apoiar a tese correta sem inventar estatísticas?",
+    "newExample": "Tese defensável: agendamento digital pode melhorar a previsibilidade, desde que exista alternativa para usuários sem conexão.",
+    "challenge": "Substitua uma frase do tipo “a tecnologia resolve tudo” por uma proposição delimitada e argumentável.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "question-bank-hard"
@@ -230,12 +230,12 @@ export const POR_24_QUESTIONS = [
       "Incorreta: a segunda especifica público, mas ainda não assume posição.",
       "Incorreta: a primeira não defende uma medida; é tema."
     ],
-    "explanation": "A escala vai do assunto geral ao recorte e à tese prescritiva sobre atendimento assistido.",
+    "explanation": "Tema é o assunto amplo; recorte foca o grupo com conexão limitada; tese defende a necessidade de atendimento assistido.",
     "concept": "Tese é a posição central defendida; recorte define o aspecto específico do tema que será examinado.",
     "trap": "Tratar uma expressão nominal de assunto como se já fosse posição defensável.",
     "examTip": "Procure uma tese que possa ser sustentada pelos argumentos disponíveis e reescrita em uma frase nítida. Para este item, decida a partir de: A escala vai do assunto geral ao recorte e à tese prescritiva sobre atendimento assistido.",
-    "newExample": "Para “educação ambiental”, um recorte seria “coleta seletiva nas escolas”, e uma tese poderia defender oficinas regulares.",
-    "challenge": "Por que “acesso a serviços” ainda não é tese argumentativa?",
+    "newExample": "Tema: transparência; recorte: divulgação de prazos em editais; tese: a tabela de datas deve ser acessível também por telefone.",
+    "challenge": "Classifique três frases de sua autoria como tema, recorte e tese.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "question-bank-hard"
@@ -254,15 +254,15 @@ export const POR_24_QUESTIONS = [
     ],
     "answer": 1,
     "optionComments": [
-      "Incorreta: Afirmar validade para todos os municípios excede o alcance probatório de um único exemplo.",
-      "Correta: Um caso não autoriza generalização universal sem análise de condições, escala e evidência comparável."
+      "Incorreta: Marcar CERTO trataria uma experiência isolada como prova universal de eficácia, sem observar diferenças entre municípios.",
+      "Correta: Um caso singular não prova eficácia universal; generalizar para todos os municípios exige evidências e condições comparáveis."
     ],
-    "explanation": "Um caso não autoriza generalização universal sem análise de condições, escala e evidência comparável.",
+    "explanation": "Um caso singular não prova eficácia universal; generalizar para todos os municípios exige evidências e condições comparáveis.",
     "concept": "Argumentar é conectar uma tese a razões; exemplificar não substitui explicar por que a razão sustenta a tese.",
     "trap": "Generalizar uma experiência localizada como prova universal.",
     "examTip": "A cada exemplo, responda: “Como esse fato demonstra a ideia anterior?”. Se não houver resposta, o exemplo está solto. Para este item, decida a partir de: Um caso não autoriza generalização universal sem análise de condições, escala e evidência comparável.",
-    "newExample": "“Uma escola reduziu filas com agendamento” não prova que toda escola obterá o mesmo resultado.",
-    "challenge": "Que condição poderia fazer uma solução útil em um município fracassar em outro?",
+    "newExample": "A experiência positiva de uma agência de bairro não garante eficácia idêntica em todas as unidades do estado.",
+    "challenge": "Indique quais dados seriam necessários antes de extrapolar o caso isolado para todas as unidades.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -276,24 +276,24 @@ export const POR_24_QUESTIONS = [
     "difficulty": "media",
     "stem": "Uma redação afirma: “A manutenção de canais presenciais ajuda a incluir usuários sem internet”. Qual desenvolvimento acrescenta justificativa efetiva?",
     "options": [
-      "Isso acontece porque o mundo é moderno e tudo muda muito rápido.",
-      "Muitos cidadãos gostam de coisas boas; isso comprova a tese.",
+      "A manutenção de unidades físicas é tradicional e por isso deve ser preservada em todos os serviços.",
+      "Muitos cidadãos usam atendimento presencial; esse fato basta para comprovar sua superioridade em qualquer caso.",
       "Quem não dispõe de conexão pode concluir solicitações com apoio no balcão, reduzindo uma barreira de acesso.",
-      "O atendimento é importante, muito importante, extremamente importante."
+      "A medida é conveniente porque preserva canais físicos, embora não haja necessidade de explicar como eles ajudam."
     ],
     "answer": 2,
     "optionComments": [
-      "Incorreta: a ideia de modernidade não explica a inclusão sem internet.",
-      "Incorreta: preferência genérica não demonstra acesso de usuários desconectados.",
+      "Incorreta: a tradição não demonstra de que forma o canal elimina a barreira de conexão.",
+      "Incorreta: frequência de uso isolada não comprova superioridade nem liga a premissa ao problema.",
       "Correta: a justificativa identifica o mecanismo que liga canal presencial e inclusão.",
-      "Incorreta: repete avaliação sem oferecer razão ou exemplo analisado."
+      "Incorreta: reformula a conclusão sem demonstrar o mecanismo que a sustenta."
     ],
-    "explanation": "Identificar um mecanismo concreto — atendimento no balcão apesar da falta de conexão — sustenta a tese.",
+    "explanation": "O argumento explicita o mecanismo causal: balcão assistido supre falta de conexão e permite concluir solicitações.",
     "concept": "Argumentar é conectar uma tese a razões; exemplificar não substitui explicar por que a razão sustenta a tese.",
     "trap": "Confundir repetição enfática da tese com desenvolvimento de argumento.",
     "examTip": "A cada exemplo, responda: “Como esse fato demonstra a ideia anterior?”. Se não houver resposta, o exemplo está solto. Para este item, decida a partir de: Identificar um mecanismo concreto — atendimento no balcão apesar da falta de conexão — sustenta a tese.",
-    "newExample": "“Treinamento de servidores reduz erros quando ensina o preenchimento correto dos formulários” explicita mecanismo.",
-    "challenge": "Que exemplo adicional poderia demonstrar apoio a pessoas com dificuldade de leitura digital?",
+    "newExample": "Sem acesso à internet, um usuário depende do guichê para completar cadastro; daí a importância de alternativa presencial.",
+    "challenge": "Transforme uma afirmação abstrata em justificativa mostrando o mecanismo entre problema e solução.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -319,12 +319,12 @@ export const POR_24_QUESTIONS = [
       "Incorreta: III não demonstra eficácia e I é verdadeira.",
       "Incorreta: novidade não prova resultado, logo III é falsa."
     ],
-    "explanation": "I e II são verdadeiras, ao passo que III atribui eficácia apenas à novidade, sem evidência.",
+    "explanation": "I é razão pertinente e II identifica generalização indevida; III confunde novidade tecnológica com demonstração de eficácia.",
     "concept": "Argumentar é conectar uma tese a razões; exemplificar não substitui explicar por que a razão sustenta a tese.",
     "trap": "Usar novidade ou popularidade como substituto de evidência de eficácia.",
     "examTip": "A cada exemplo, responda: “Como esse fato demonstra a ideia anterior?”. Se não houver resposta, o exemplo está solto. Para este item, decida a partir de: I e II são verdadeiras, ao passo que III atribui eficácia apenas à novidade, sem evidência.",
-    "newExample": "“O software tem interface recente” não demonstra que o usuário consegue navegar sem assistência.",
-    "challenge": "Que informação empírica poderia ajudar a avaliar se o formulário ficou mais acessível?",
+    "newExample": "A frase “formulários simples evitam erros” é hipótese justificável; uma avaliação de um usuário não demonstra impacto geral.",
+    "challenge": "Identifique o salto lógico entre amostra individual e generalização para todos os serviços.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "question-bank-hard"
@@ -350,12 +350,12 @@ export const POR_24_QUESTIONS = [
       "Inadequada: percentuais inventados fabricam evidência e prejudicam confiabilidade.",
       "Adequada: opinião e informação verificável têm papéis argumentativos distintos."
     ],
-    "explanation": "Criar números sem fonte não fortalece a argumentação; introduz informação falsa.",
+    "explanation": "Inventar percentuais transforma suposição em suposto dado e enfraquece a confiabilidade; os demais métodos preservam evidências.",
     "concept": "Argumentar é conectar uma tese a razões; exemplificar não substitui explicar por que a razão sustenta a tese.",
     "trap": "Confundir aparência técnica de um número com evidência confiável.",
     "examTip": "A cada exemplo, responda: “Como esse fato demonstra a ideia anterior?”. Se não houver resposta, o exemplo está solto. Para este item, decida a partir de: Criar números sem fonte não fortalece a argumentação; introduz informação falsa.",
-    "newExample": "“Segundo a tabela apresentada na proposta, 12 dos 20 entrevistados preferiram atendimento híbrido” conserva os limites da amostra fictícia fornecida.",
-    "challenge": "Como você escreveria um argumento convincente sem recorrer a percentual inexistente?",
+    "newExample": "Escrever “85% dos usuários preferem aplicativo” sem pesquisa ou fonte não constitui dado demonstrado.",
+    "challenge": "Reformule argumento com base em observação qualitativa sem inventar porcentagem.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "question-bank-hard"
@@ -374,15 +374,15 @@ export const POR_24_QUESTIONS = [
     ],
     "answer": 1,
     "optionComments": [
-      "Incorreta: Um portanto não cria premissas nem elimina contradições entre afirmações.",
-      "Correta: O conectivo apenas sinaliza inferência; a relação entre ideias precisa ser sustentada pelo conteúdo."
+      "Incorreta: Marcar CERTO atribuiria a um conectivo a força de provar inferências que as premissas não sustentam.",
+      "Correta: Um conectivo de conclusão não cria inferência válida quando as proposições não sustentam uma à outra."
     ],
-    "explanation": "O conectivo apenas sinaliza inferência; a relação entre ideias precisa ser sustentada pelo conteúdo.",
+    "explanation": "Um conectivo de conclusão não cria inferência válida quando as proposições não sustentam uma à outra.",
     "concept": "Progressão textual acrescenta informações novas que se conectam às anteriores; conclusão retoma a orientação central sem contradizê-la.",
     "trap": "Achar que coesão por conectivos garante coerência argumentativa.",
     "examTip": "Confira se cada frase adiciona uma informação e se o último parágrafo responde à tese em vez de abrir assunto novo. Para este item, decida a partir de: O conectivo apenas sinaliza inferência; a relação entre ideias precisa ser sustentada pelo conteúdo.",
-    "newExample": "“O formulário é longo. Portanto, há etapas que podem confundir usuários” exige ainda justificativa que ligue extensão e dificuldade.",
-    "challenge": "Que tipo de ligação causal precisa existir antes de usar “por isso” na conclusão?",
+    "newExample": "A frase “há menos atendentes; portanto, o prazo foi prorrogado” exige premissa sobre a relação entre pessoal e prazo.",
+    "challenge": "Elabore um par de frases em que “portanto” introduza conclusão efetivamente fundamentada.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -408,12 +408,12 @@ export const POR_24_QUESTIONS = [
       "Incorreta: oposição por apesar disso/contudo não traduz as relações pretendidas.",
       "Incorreta: formas concessivas não encerram a inferência exposta."
     ],
-    "explanation": "Por isso liga falha de orientação à consequência, e assim permite encaminhar medida coerente.",
+    "explanation": "A ausência de orientação pode levar a formulários incompletos (por isso), e instruções claras são a resposta proposta (assim).",
     "concept": "Progressão textual acrescenta informações novas que se conectam às anteriores; conclusão retoma a orientação central sem contradizê-la.",
     "trap": "Escolher conectivos pela aparência formal sem identificar causa, consequência e contraste.",
     "examTip": "Confira se cada frase adiciona uma informação e se o último parágrafo responde à tese em vez de abrir assunto novo. Para este item, decida a partir de: Por isso liga falha de orientação à consequência, e assim permite encaminhar medida coerente.",
-    "newExample": "“O prazo foi reduzido. Desse modo, os pedidos passaram a exigir planejamento mais rápido” sinaliza consequência.",
-    "challenge": "Que alteração de informação tornaria “contudo” apropriado no segundo espaço?",
+    "newExample": "Sem guias de preenchimento, alguns formulários chegam incompletos; por isso, uma lista de instruções pode ser útil.",
+    "challenge": "Troque dois conectivos inadequados sem mudar a relação de causa e consequência entre as frases.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -439,12 +439,12 @@ export const POR_24_QUESTIONS = [
       "Incorreta: I é verdadeira e IV também é verdadeira.",
       "Incorreta: III também é verdadeira; repetição não desenvolve."
     ],
-    "explanation": "A sequência V-F-V-V reconhece a progressão, a coerência final e a dependência do comando.",
+    "explanation": "I reforça progressão, II confunde conectivo com raciocínio, III distingue repetição de desenvolvimento e IV respeita o comando da banca.",
     "concept": "Progressão textual acrescenta informações novas que se conectam às anteriores; conclusão retoma a orientação central sem contradizê-la.",
     "trap": "Confundir progressão textual com repetição e conectivo com prova lógica.",
     "examTip": "Confira se cada frase adiciona uma informação e se o último parágrafo responde à tese em vez de abrir assunto novo. Para este item, decida a partir de: A sequência V-F-V-V reconhece a progressão, a coerência final e a dependência do comando.",
-    "newExample": "“O município precisa de acesso híbrido; logo, convém oferecer suporte presencial” conserva orientação temática.",
-    "challenge": "Por que repetir a tese em três parágrafos não supre a ausência de razões?",
+    "newExample": "Um texto defende canais acessíveis, apresenta barreiras e encerra com a mesma defesa, sem acrescentar tema novo.",
+    "challenge": "Explique por que inserir estatística não verificada apenas na conclusão prejudicaria a progressão.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "question-bank-hard"
@@ -458,24 +458,24 @@ export const POR_24_QUESTIONS = [
     "difficulty": "dificil",
     "stem": "Tese: “A digitalização pode ampliar o acesso, desde que exista apoio aos usuários sem internet”. O desenvolvimento explica barreiras de conexão e sugere balcões assistidos. Qual conclusão é coerente?",
     "options": [
-      "Portanto, deve-se eliminar imediatamente todo atendimento presencial.",
-      "Assim, o acesso depende exclusivamente de aplicativos e dispensa orientação.",
+      "Portanto, as unidades devem migrar imediatamente para canais digitais, deixando a orientação presencial para uma etapa posterior.",
+      "Assim, os canais digitais ampliam o acesso apenas se o apoio presencial deixar de ser necessário.",
       "Logo, serviços digitais e apoio presencial podem atuar de forma complementar para reduzir exclusões.",
-      "Conclui-se que o tema central é a história dos computadores no Brasil."
+      "Conclui-se que a eficiência deve orientar decisões, embora as barreiras digitais não precisem entrar na conclusão."
     ],
     "answer": 2,
     "optionComments": [
-      "Incorreta: extinguir apoio presencial contraria a condição expressa na tese.",
-      "Incorreta: exclui orientação que o desenvolvimento defendeu.",
+      "Incorreta: a eliminação antecipada do suporte contraria a condição de inclusão discutida.",
+      "Incorreta: supõe desaparecer a necessidade de apoio, quando a tese é complementá-lo.",
       "Correta: sintetiza complementaridade digital e presencial discutida nos argumentos.",
-      "Incorreta: introduz tema diferente da tese e do desenvolvimento."
+      "Incorreta: a conclusão abandona a condição de apoio que sustentava a tese."
     ],
-    "explanation": "A conclusão adequada retoma a necessidade de complementaridade sem acrescentar contradição.",
+    "explanation": "A conclusão retoma a complementaridade entre serviço digital e apoio presencial defendida e justificada no desenvolvimento.",
     "concept": "Progressão textual acrescenta informações novas que se conectam às anteriores; conclusão retoma a orientação central sem contradizê-la.",
     "trap": "Concluir com posição incompatível com a tese em nome de uma fórmula conclusiva.",
     "examTip": "Confira se cada frase adiciona uma informação e se o último parágrafo responde à tese em vez de abrir assunto novo. Para este item, decida a partir de: A conclusão adequada retoma a necessidade de complementaridade sem acrescentar contradição.",
-    "newExample": "“A orientação no balcão e o agendamento eletrônico podem atender necessidades distintas” também sintetiza uma tese híbrida.",
-    "challenge": "Qual expressão da tese original precisa estar representada na conclusão?",
+    "newExample": "Após defender digitalização com assistência, concluir pela coexistência dos canais retoma argumento e evidências expostos.",
+    "challenge": "Redija uma conclusão curta que não contradiga a condição de acesso presencial expressa na tese.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "question-bank-hard"
@@ -494,15 +494,15 @@ export const POR_24_QUESTIONS = [
     ],
     "answer": 1,
     "optionComments": [
-      "Incorreta: A troca não elimina apenas excesso verbal: modifica o grau de certeza da decisão.",
-      "Correta: Poderá exprime possibilidade; reabrirá apresenta ação futura como certa, alterando modalidade e compromisso informacional."
+      "Incorreta: Marcar CERTO apagaria a diferença entre faculdade futura e decisão afirmada como certa.",
+      "Correta: Poderá expressa possibilidade e reabrirá afirma realização futura; a troca altera o compromisso transmitido."
     ],
-    "explanation": "Poderá exprime possibilidade; reabrirá apresenta ação futura como certa, alterando modalidade e compromisso informacional.",
+    "explanation": "Poderá expressa possibilidade e reabrirá afirma realização futura; a troca altera o compromisso transmitido.",
     "concept": "Revisão eficaz verifica cumprimento do comando, coerência argumentativa e apresentação formal, não apenas correção ortográfica.",
     "trap": "Revisar para frases curtas sem preservar modalidade verbal.",
     "examTip": "Faça três passagens: comando e argumentos; coesão e clareza; norma-padrão e apresentação solicitada. Para este item, decida a partir de: Poderá exprime possibilidade; reabrirá apresenta ação futura como certa, alterando modalidade e compromisso informacional.",
-    "newExample": "“A unidade pode responder em 48 horas” não equivale a “A unidade responderá em 48 horas”.",
-    "challenge": "Qual termo você conservaria para não transformar autorização em obrigação?",
+    "newExample": "“O setor poderá ampliar o prazo” não autoriza informar ao cidadão “O setor ampliará o prazo”.",
+    "challenge": "Distinga em uma linha a diferença de compromisso entre possibilidade e decisão confirmada.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -528,12 +528,12 @@ export const POR_24_QUESTIONS = [
       "Incorreta: vínculo da conclusão com argumentos não é revisão apenas de regência.",
       "Incorreta: exigências do comando não se reduzem à norma-padrão."
     ],
-    "explanation": "Revisar conteúdo, coerência e língua em camadas ajuda a não confundir naturezas distintas de falha.",
+    "explanation": "Atendimento ao comando controla os dois itens; progressão verifica a relação entre tese e conclusão; norma-padrão rege concordância e regência.",
     "concept": "Revisão eficaz verifica cumprimento do comando, coerência argumentativa e apresentação formal, não apenas correção ortográfica.",
     "trap": "Achar que revisão significa exclusivamente corrigir acentos e vírgulas.",
     "examTip": "Faça três passagens: comando e argumentos; coesão e clareza; norma-padrão e apresentação solicitada. Para este item, decida a partir de: Revisar conteúdo, coerência e língua em camadas ajuda a não confundir naturezas distintas de falha.",
-    "newExample": "“Verificar limite de 20 linhas” é checagem do comando; “evitar pronome sem referente” é checagem de coesão.",
-    "challenge": "Em que etapa você identificaria argumento contraditório não percebido na primeira leitura?",
+    "newExample": "Uma revisão separa três checagens: itens pedidos, relação entre parágrafos e concordância no texto final.",
+    "challenge": "Associe cada problema detectado à etapa adequada, sem confundir cumprimento de comando com gramática.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -550,21 +550,21 @@ export const POR_24_QUESTIONS = [
       "Reduzir “em razão do fato de que” para “porque”, quando a relação causal se mantém.",
       "Conferir se as duas soluções estão explicitamente identificáveis.",
       "Verificar se a norma-padrão e o limite de linhas foram respeitados.",
-      "Incluir um terceiro tema não solicitado apenas para tornar o encerramento mais longo."
+      "Inserir análise extensa sobre um terceiro problema, sem relação com as duas soluções solicitadas."
     ],
     "answer": 3,
     "optionComments": [
       "Adequada: o corte mantém causa e reduz palavras desnecessárias.",
       "Adequada: duas soluções são condição objetiva da proposta.",
       "Adequada: correção e extensão podem integrar os critérios da banca.",
-      "Inadequada: assunto extra pode prejudicar foco, coesão e extensão."
+      "Correta como EXCETO: a nova discussão desvia o foco de uma resposta com duas soluções e espaço limitado."
     ],
-    "explanation": "Em resposta técnica curta, incluir tema não pedido apenas por extensão não fortalece o atendimento ao comando.",
+    "explanation": "Inserir assunto não solicitado não aprimora uma resposta limitada a duas soluções e até doze linhas; pode comprometer foco e extensão.",
     "concept": "Revisão eficaz verifica cumprimento do comando, coerência argumentativa e apresentação formal, não apenas correção ortográfica.",
     "trap": "Confundir maior extensão com maior qualidade argumentativa.",
     "examTip": "Faça três passagens: comando e argumentos; coesão e clareza; norma-padrão e apresentação solicitada. Para este item, decida a partir de: Em resposta técnica curta, incluir tema não pedido apenas por extensão não fortalece o atendimento ao comando.",
-    "newExample": "“O setor avaliou os pedidos após conferir os documentos” é mais conciso que uma cadeia redundante de expressões equivalentes.",
-    "challenge": "Que corte de palavras poderia liberar espaço sem retirar uma das duas soluções?",
+    "newExample": "A banca exige duas medidas em 12 linhas; um longo histórico de informática consome espaço sem resolver a tarefa.",
+    "challenge": "Corte uma frase irrelevante e mantenha as duas medidas com linguagem técnica.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "question-bank-hard"
@@ -590,12 +590,12 @@ export const POR_24_QUESTIONS = [
       "Correta: I respeita edital e III preserva o alcance de dados; II é falsa.",
       "Incorreta: não há tabela de descontos universal para todos os concursos."
     ],
-    "explanation": "Rubricas variam entre bancas, e a interpretação de dados deve respeitar o material fornecido.",
+    "explanation": "A rubrica varia por banca (I), não há desconto gramatical universal (II falsa), e dados motivadores não devem ser generalizados (III).",
     "concept": "Revisão eficaz verifica cumprimento do comando, coerência argumentativa e apresentação formal, não apenas correção ortográfica.",
     "trap": "Importar automaticamente critérios de correção de outra prova.",
     "examTip": "Faça três passagens: comando e argumentos; coesão e clareza; norma-padrão e apresentação solicitada. Para este item, decida a partir de: Rubricas variam entre bancas, e a interpretação de dados deve respeitar o material fornecido.",
-    "newExample": "Uma prova pode avaliar dois pontos temáticos específicos; outra pode solicitar apenas justificativa de decisão administrativa.",
-    "challenge": "Por que dados de uma amostra local não autorizam afirmar comportamento de toda a população?",
+    "newExample": "O edital dá pontuação maior ao conteúdo do que à forma; o candidato usa a rubrica real em vez de inventar critérios.",
+    "challenge": "Explique por que a grade de uma banca não pode ser automaticamente aplicada a uma prova diferente.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "question-bank-hard"

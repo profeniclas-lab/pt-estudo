@@ -1,4 +1,4 @@
-/* PT-ESTUDO — RED-02 — banco autoral com gabarito comentado; Lote 09. */
+/** PT-ESTUDO — RED-02: questões AUTORAIS; Correção 3, Lote 6 — revisão pedagógica. */
 export const RED_02_QUESTIONS = [
   {
     "moduleId": "RED-02",
@@ -7,8 +7,8 @@ export const RED_02_QUESTIONS = [
     "concept": "O padrão ofício é o modelo unificado de comunicação oficial do Manual de 2018; o conteúdo determina destinatário e finalidade.",
     "trap": "Imaginar que o padrão ofício elimina a necessidade de destinatário ou que “memorando” continua sendo modelo separado no Manual de 2018.",
     "examTip": "Se a banca disser “padrão ofício na 3ª edição”, pense na unificação dos expedientes e em suas partes.",
-    "newExample": "Ofício encaminha à coordenação de registros a relação de matrículas conferidas, com assunto, identificação do expediente, referência e solicitação objetiva.",
-    "challenge": "Por que o destinatário não pode ser escolhido apenas pelo nome do modelo?",
+    "newExample": "O documento antes chamado memorando, quando enquadrado no Manual de 2018, segue a apresentação do padrão ofício.",
+    "challenge": "Explique a diferença entre unificar o modelo e dispensar a identificação do expediente.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -27,10 +27,10 @@ export const RED_02_QUESTIONS = [
     ],
     "answer": 1,
     "optionComments": [
-      "Incorreta. A edição de 2018 unificou esses expedientes no padrão ofício.",
-      "Correta. A edição de 2018 unificou esses expedientes no padrão ofício."
+      "Incorreta: Marcar CERTO ignoraria que a 3ª edição do Manual reuniu os três expedientes num padrão de apresentação.",
+      "Correta: A terceira edição do Manual uniformiza aviso, ofício e memorando pelo padrão ofício, sem três modelos estanques."
     ],
-    "explanation": "A edição de 2018 unificou esses expedientes no padrão ofício."
+    "explanation": "A terceira edição do Manual uniformiza aviso, ofício e memorando pelo padrão ofício, sem três modelos estanques."
   },
   {
     "moduleId": "RED-02",
@@ -39,8 +39,8 @@ export const RED_02_QUESTIONS = [
     "concept": "O padrão ofício é o modelo unificado de comunicação oficial do Manual de 2018; o conteúdo determina destinatário e finalidade.",
     "trap": "Imaginar que o padrão ofício elimina a necessidade de destinatário ou que “memorando” continua sendo modelo separado no Manual de 2018.",
     "examTip": "Se a banca disser “padrão ofício na 3ª edição”, pense na unificação dos expedientes e em suas partes.",
-    "newExample": "Ofício encaminha à coordenação de registros a relação de matrículas conferidas, com assunto, identificação do expediente, referência e solicitação objetiva.",
-    "challenge": "Por que o destinatário não pode ser escolhido apenas pelo nome do modelo?",
+    "newExample": "Uma universidade envia ofício interno com assunto, número e unidade destinatária, mesmo sem sair do órgão.",
+    "challenge": "Indique por que a comunicação interna também precisa ser rastreável.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -54,19 +54,19 @@ export const RED_02_QUESTIONS = [
     "difficulty": "media",
     "stem": "Uma unidade quer encaminhar solicitação formal a outra. Qual procedimento é adequado?",
     "options": [
-      "Dispensar número ou identificação do expediente por ser mensagem interna.",
-      "Escolher o destinatário apenas para preservar uma fórmula antiga de saudação.",
+      "Usar o padrão ofício, mas omitir o número por considerar que comunicações entre setores são localizáveis pelo e-mail.",
+      "Priorizar a forma de tratamento do destinatário antes de verificar se a unidade tem competência para receber o pedido.",
       "Adotar o padrão ofício e identificar o assunto e o destinatário conforme as regras aplicáveis.",
-      "Suprimir o assunto porque o documento contém assinatura."
+      "Registrar o destinatário e a data do envio, mas dispensar o assunto por existir número de expediente."
     ],
     "answer": 2,
     "optionComments": [
-      "Incorreta. A rastreabilidade da comunicação não depende de ser externa.",
-      "Incorreta. A competência e a finalidade definem o destinatário.",
+      "Incorreta: a circulação interna não elimina a função de identificar o expediente formal.",
+      "Incorreta: tratamento adequado não substitui a verificação da competência institucional.",
       "Correta. A unificação do modelo convive com identificação precisa do expediente.",
-      "Incorreta. Assinatura não substitui a síntese do teor do expediente."
+      "Incorreta: número e assunto cumprem funções diferentes; um não substitui o outro."
     ],
-    "explanation": "A unificação do modelo convive com identificação precisa do expediente."
+    "explanation": "Padrão ofício identifica expediente, destinatário e assunto; uso interno não dispensa rastreabilidade documental."
   },
   {
     "moduleId": "RED-02",
@@ -75,8 +75,8 @@ export const RED_02_QUESTIONS = [
     "concept": "O padrão ofício é o modelo unificado de comunicação oficial do Manual de 2018; o conteúdo determina destinatário e finalidade.",
     "trap": "Imaginar que o padrão ofício elimina a necessidade de destinatário ou que “memorando” continua sendo modelo separado no Manual de 2018.",
     "examTip": "Se a banca disser “padrão ofício na 3ª edição”, pense na unificação dos expedientes e em suas partes.",
-    "newExample": "Ofício encaminha à coordenação de registros a relação de matrículas conferidas, com assunto, identificação do expediente, referência e solicitação objetiva.",
-    "challenge": "Por que o destinatário não pode ser escolhido apenas pelo nome do modelo?",
+    "newExample": "O padrão ofício padroniza campos; já o Decreto nº 9.758/2019 trata, em seu âmbito, de como se dirigir a agentes federais.",
+    "challenge": "Separe qual norma regula apresentação e qual regula tratamento e endereçamento.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -104,7 +104,7 @@ export const RED_02_QUESTIONS = [
       "Incorreta. II é falsa: O conteúdo continua precisando ser funcional. III é verdadeira: O Decreto nº 9.758/2019 disciplina esse campo.",
       "Incorreta. I é verdadeira: A formatação facilita reconhecer e recuperar documentos. II é falsa: O conteúdo continua precisando ser funcional."
     ],
-    "explanation": "I: A formatação facilita reconhecer e recuperar documentos. II: O conteúdo continua precisando ser funcional. III: O Decreto nº 9.758/2019 disciplina esse campo."
+    "explanation": "Padronização facilita identificar o documento, mas não substitui indicação da providência; atos posteriores regulam endereçamento federal."
   },
   {
     "moduleId": "RED-02",
@@ -113,8 +113,8 @@ export const RED_02_QUESTIONS = [
     "concept": "O padrão ofício é o modelo unificado de comunicação oficial do Manual de 2018; o conteúdo determina destinatário e finalidade.",
     "trap": "Imaginar que o padrão ofício elimina a necessidade de destinatário ou que “memorando” continua sendo modelo separado no Manual de 2018.",
     "examTip": "Se a banca disser “padrão ofício na 3ª edição”, pense na unificação dos expedientes e em suas partes.",
-    "newExample": "Ofício encaminha à coordenação de registros a relação de matrículas conferidas, com assunto, identificação do expediente, referência e solicitação objetiva.",
-    "challenge": "Por que o destinatário não pode ser escolhido apenas pelo nome do modelo?",
+    "newExample": "Ao anexar parecer ao ofício, a unidade registra o assunto e a identificação documental antes de enviar.",
+    "challenge": "Explique a consequência de retirar o número do expediente só porque há um modelo comum.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -140,7 +140,7 @@ export const RED_02_QUESTIONS = [
       "Não atende ao EXCETO: O encaminhamento deve atingir quem pode adotar a providência.",
       "Correta como exceção: O padrão não dispensa identificação necessária."
     ],
-    "explanation": "A exceção é falsa, apesar de as demais condutas estarem corretas. O padrão não dispensa identificação necessária."
+    "explanation": "Uniformizar o modelo não autoriza apagar a identificação do expediente: o número e demais campos permanecem necessários."
   },
   {
     "moduleId": "RED-02",
@@ -149,8 +149,8 @@ export const RED_02_QUESTIONS = [
     "concept": "Cabeçalho, identificação, local e data, assunto e vocativo têm funções distintas na organização do padrão ofício.",
     "trap": "Confundir assunto com saudação, identificação numérica com data ou vocativo com endereço postal.",
     "examTip": "Classifique cada campo por sua função antes de julgar o alinhamento ou a fórmula de tratamento.",
-    "newExample": "Cabeçalho: Universidade Federal X; identificação: OFÍCIO Nº 18/2026/PROG; assunto: Atualização de cadastro; texto: dados e providência solicitada.",
-    "challenge": "Por que a identificação do expediente não pode ser substituída apenas pelo local e data?",
+    "newExample": "Assunto “Solicitação de acesso ao sistema” sintetiza a matéria; o texto apresenta motivo e providência solicitada.",
+    "challenge": "Reduza um assunto de duas linhas a uma síntese sem apagar o tema.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -169,10 +169,10 @@ export const RED_02_QUESTIONS = [
     ],
     "answer": 0,
     "optionComments": [
-      "Correta. O assunto oferece síntese para leitura e recuperação.",
-      "Incorreta. O assunto oferece síntese para leitura e recuperação."
+      "Correta: O assunto sintetiza a matéria para orientação e localização; o corpo desenvolve circunstâncias e providências.",
+      "Incorreta: Marcar ERRADO confundiria o campo assunto com a reprodução do corpo completo do ofício."
     ],
-    "explanation": "O assunto oferece síntese para leitura e recuperação."
+    "explanation": "O assunto sintetiza a matéria para orientação e localização; o corpo desenvolve circunstâncias e providências."
   },
   {
     "moduleId": "RED-02",
@@ -181,8 +181,8 @@ export const RED_02_QUESTIONS = [
     "concept": "Cabeçalho, identificação, local e data, assunto e vocativo têm funções distintas na organização do padrão ofício.",
     "trap": "Confundir assunto com saudação, identificação numérica com data ou vocativo com endereço postal.",
     "examTip": "Classifique cada campo por sua função antes de julgar o alinhamento ou a fórmula de tratamento.",
-    "newExample": "Cabeçalho: Universidade Federal X; identificação: OFÍCIO Nº 18/2026/PROG; assunto: Atualização de cadastro; texto: dados e providência solicitada.",
-    "challenge": "Por que a identificação do expediente não pode ser substituída apenas pelo local e data?",
+    "newExample": "Identificação “Ofício nº 25/2026”; local e data “Natal, 7 de abril de 2026”; assunto “Documentação de estágio”.",
+    "challenge": "Associe cada campo ao que ajuda a recuperar ou contextualizar no processo.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -196,19 +196,19 @@ export const RED_02_QUESTIONS = [
     "difficulty": "media",
     "stem": "Associe corretamente os elementos e suas funções no padrão ofício. Qual correspondência está adequada?",
     "options": [
-      "Local/data → endereço do destinatário; assunto → fecho; identificação → corpo do texto.",
+      "Local/data → data de recebimento; assunto → identificação do signatário; número → resumo do tema.",
       "Assunto → síntese do tema; identificação → registro do expediente; local/data → referência de emissão.",
-      "Vocativo → resumo do teor; assunto → assinatura; data → identificação do órgão.",
-      "Cabeçalho → pedido detalhado; identificação → saudação; vocativo → número do ofício."
+      "Vocativo → referência de emissão; assunto → identificação do órgão; data → saudação do destinatário.",
+      "Cabeçalho → conclusão do pedido; identificação do expediente → fecho; vocativo → síntese do assunto."
     ],
     "answer": 1,
     "optionComments": [
-      "Incorreta. Nenhum desses campos substitui o correspondente indicado.",
+      "Incorreta: local/data se refere à emissão, assunto sintetiza tema, número identifica expediente.",
       "Correta. Cada elemento conserva sua função de identificação ou orientação.",
-      "Incorreta. Vocativo é chamamento, e o assunto não identifica o signatário.",
-      "Incorreta. Essas correspondências confundem campos de funções distintas."
+      "Incorreta: vocativo é chamamento, assunto é síntese temática e data registra emissão.",
+      "Incorreta: cabeçalho identifica a origem, número identifica o expediente e vocativo chama o destinatário."
     ],
-    "explanation": "Cada elemento conserva sua função de identificação ou orientação."
+    "explanation": "Assunto resume o conteúdo; identificação registra o expediente; local e data identificam sua emissão."
   },
   {
     "moduleId": "RED-02",
@@ -217,8 +217,8 @@ export const RED_02_QUESTIONS = [
     "concept": "Cabeçalho, identificação, local e data, assunto e vocativo têm funções distintas na organização do padrão ofício.",
     "trap": "Confundir assunto com saudação, identificação numérica com data ou vocativo com endereço postal.",
     "examTip": "Classifique cada campo por sua função antes de julgar o alinhamento ou a fórmula de tratamento.",
-    "newExample": "Cabeçalho: Universidade Federal X; identificação: OFÍCIO Nº 18/2026/PROG; assunto: Atualização de cadastro; texto: dados e providência solicitada.",
-    "challenge": "Por que a identificação do expediente não pode ser substituída apenas pelo local e data?",
+    "newExample": "O cabeçalho identifica a instituição, e o vocativo dirige a abertura ao destinatário: não substituem o mesmo dado.",
+    "challenge": "Explique a diferença funcional entre número do expediente e vocativo.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -246,7 +246,7 @@ export const RED_02_QUESTIONS = [
       "Incorreta. I é verdadeira: O campo é um resumo temático.",
       "Correta. I: O campo é um resumo temático. II: Número identifica documento; vocativo dirige o chamamento. III: A identificação institucional é finalidade do cabeçalho."
     ],
-    "explanation": "I: O campo é um resumo temático. II: Número identifica documento; vocativo dirige o chamamento. III: A identificação institucional é finalidade do cabeçalho."
+    "explanation": "I e III descrevem corretamente assunto e cabeçalho; II confunde identificação numérica do documento com chamamento ao leitor."
   },
   {
     "moduleId": "RED-02",
@@ -255,8 +255,8 @@ export const RED_02_QUESTIONS = [
     "concept": "Cabeçalho, identificação, local e data, assunto e vocativo têm funções distintas na organização do padrão ofício.",
     "trap": "Confundir assunto com saudação, identificação numérica com data ou vocativo com endereço postal.",
     "examTip": "Classifique cada campo por sua função antes de julgar o alinhamento ou a fórmula de tratamento.",
-    "newExample": "Cabeçalho: Universidade Federal X; identificação: OFÍCIO Nº 18/2026/PROG; assunto: Atualização de cadastro; texto: dados e providência solicitada.",
-    "challenge": "Por que a identificação do expediente não pode ser substituída apenas pelo local e data?",
+    "newExample": "Em minuta, falta a data de emissão e sobram adjetivos de cortesia: os adjetivos não preenchem o campo ausente.",
+    "challenge": "Indique por que um preenchimento estético não corrige omissão documental.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -271,18 +271,18 @@ export const RED_02_QUESTIONS = [
     "stem": "Ao montar o início de um ofício, todos os procedimentos são adequados, EXCETO:",
     "options": [
       "Sintetizar o pedido no campo de assunto.",
-      "Substituir o local e a data por adjetivos de cortesia.",
+      "Preencher o campo de local e data apenas com a expressão “na oportunidade”, sem indicar emissão.",
       "Aplicar o vocativo compatível com a norma de tratamento pertinente.",
       "Conferir o número e a sigla do setor emissor."
     ],
     "answer": 1,
     "optionComments": [
       "Não atende ao EXCETO: O resumo orienta o destinatário.",
-      "Correta como exceção: Cortesia não fornece informação de emissão.",
+      "Correta como EXCETO: a fórmula vaga não identifica local e data da emissão do documento.",
       "Não atende ao EXCETO: O tratamento depende do destinatário e do regime aplicável.",
       "Não atende ao EXCETO: Ajuda a individualizar o expediente."
     ],
-    "explanation": "A exceção é falsa, apesar de as demais condutas estarem corretas. Cortesia não fornece informação de emissão."
+    "explanation": "Adjetivos de cortesia não indicam quando e onde o documento foi emitido; local e data cumprem função documental."
   },
   {
     "moduleId": "RED-02",
@@ -291,8 +291,8 @@ export const RED_02_QUESTIONS = [
     "concept": "O texto do padrão ofício organiza introdução, desenvolvimento quando necessário e conclusão; fecho e signatário encerram o expediente.",
     "trap": "Confundir “Atenciosamente” com ordem de providência ou considerar que o signatário é um campo opcional por estar assinado digitalmente.",
     "examTip": "Distingua conclusão substantiva do fecho de cortesia e verifique o grau hierárquico quando a questão citar o Manual.",
-    "newExample": "Introdução: solicitação de dados; desenvolvimento: justificativa e período de referência; conclusão: prazo e canal de retorno; fecho e identificação do signatário.",
-    "challenge": "Que informação deve permitir a identificação do signatário?",
+    "newExample": "Um ofício pede remessa de cópias até dia 15; o fecho “Atenciosamente” apenas encerra a mensagem.",
+    "challenge": "Aponte o que o corpo precisa indicar antes da saudação final.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -311,10 +311,10 @@ export const RED_02_QUESTIONS = [
     ],
     "answer": 1,
     "optionComments": [
-      "Incorreta. Conclusão trata da providência; fecho arremata a mensagem e saúda o destinatário.",
-      "Correta. Conclusão trata da providência; fecho arremata a mensagem e saúda o destinatário."
+      "Incorreta: Marcar CERTO trataria saudação final e providência solicitada como se fossem o mesmo componente do documento.",
+      "Correta: Conclusão registra encaminhamento ou providência, enquanto o fecho encerra e saúda; não são a mesma etapa."
     ],
-    "explanation": "Conclusão trata da providência; fecho arremata a mensagem e saúda o destinatário."
+    "explanation": "Conclusão registra encaminhamento ou providência, enquanto o fecho encerra e saúda; não são a mesma etapa."
   },
   {
     "moduleId": "RED-02",
@@ -323,8 +323,8 @@ export const RED_02_QUESTIONS = [
     "concept": "O texto do padrão ofício organiza introdução, desenvolvimento quando necessário e conclusão; fecho e signatário encerram o expediente.",
     "trap": "Confundir “Atenciosamente” com ordem de providência ou considerar que o signatário é um campo opcional por estar assinado digitalmente.",
     "examTip": "Distingua conclusão substantiva do fecho de cortesia e verifique o grau hierárquico quando a questão citar o Manual.",
-    "newExample": "Introdução: solicitação de dados; desenvolvimento: justificativa e período de referência; conclusão: prazo e canal de retorno; fecho e identificação do signatário.",
-    "challenge": "Que informação deve permitir a identificação do signatário?",
+    "newExample": "Para destinatário de hierarquia superior, o Manual usa “Respeitosamente”; para mesma hierarquia, “Atenciosamente”.",
+    "challenge": "Classifique um fecho adequado quando o signatário é hierarquicamente subordinado ao destinatário.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -340,17 +340,17 @@ export const RED_02_QUESTIONS = [
     "options": [
       "Respeitosamente; Atenciosamente.",
       "Atenciosamente; Respeitosamente.",
-      "Cordialmente; Saudações.",
-      "Com elevada estima; Sem mais."
+      "Cordialmente; Atenciosamente.",
+      "Respeitosamente; Cordialmente."
     ],
     "answer": 0,
     "optionComments": [
       "Correta. Esses são os fechos indicados para as respectivas relações no Manual.",
       "Incorreta. A ordem está invertida em relação às hipóteses do Manual.",
-      "Incorreta. O Manual uniformizou dois fechos, não essa dupla.",
-      "Incorreta. São fórmulas não previstas como fechos padronizados."
+      "Incorreta: “Cordialmente” não é um dos dois fechos previstos pelo Manual de 2018.",
+      "Incorreta: a segunda lacuna exige Atenciosamente para a mesma hierarquia, não Cordialmente."
     ],
-    "explanation": "Esses são os fechos indicados para as respectivas relações no Manual."
+    "explanation": "Para superior hierárquico o Manual prevê Respeitosamente; para mesma hierarquia prevê Atenciosamente."
   },
   {
     "moduleId": "RED-02",
@@ -359,8 +359,8 @@ export const RED_02_QUESTIONS = [
     "concept": "O texto do padrão ofício organiza introdução, desenvolvimento quando necessário e conclusão; fecho e signatário encerram o expediente.",
     "trap": "Confundir “Atenciosamente” com ordem de providência ou considerar que o signatário é um campo opcional por estar assinado digitalmente.",
     "examTip": "Distingua conclusão substantiva do fecho de cortesia e verifique o grau hierárquico quando a questão citar o Manual.",
-    "newExample": "Introdução: solicitação de dados; desenvolvimento: justificativa e período de referência; conclusão: prazo e canal de retorno; fecho e identificação do signatário.",
-    "challenge": "Que informação deve permitir a identificação do signatário?",
+    "newExample": "A identificação final registra nome e cargo da autoridade; não substitui a solicitação feita no corpo.",
+    "challenge": "Justifique por que assinatura e providência não são campos intercambiáveis.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -388,7 +388,7 @@ export const RED_02_QUESTIONS = [
       "Incorreta. I é verdadeira: O Manual atribui essa finalidade ao encerramento. II é falsa: Informação de serviço deve aparecer no texto.",
       "Incorreta. I é verdadeira: O Manual atribui essa finalidade ao encerramento."
     ],
-    "explanation": "I: O Manual atribui essa finalidade ao encerramento. II: Informação de serviço deve aparecer no texto. III: Nome e cargo permitem reconhecer a autoridade responsável."
+    "explanation": "I e III caracterizam fecho e signatário; a saudação não dispensa que o texto expresse o pedido."
   },
   {
     "moduleId": "RED-02",
@@ -397,8 +397,8 @@ export const RED_02_QUESTIONS = [
     "concept": "O texto do padrão ofício organiza introdução, desenvolvimento quando necessário e conclusão; fecho e signatário encerram o expediente.",
     "trap": "Confundir “Atenciosamente” com ordem de providência ou considerar que o signatário é um campo opcional por estar assinado digitalmente.",
     "examTip": "Distingua conclusão substantiva do fecho de cortesia e verifique o grau hierárquico quando a questão citar o Manual.",
-    "newExample": "Introdução: solicitação de dados; desenvolvimento: justificativa e período de referência; conclusão: prazo e canal de retorno; fecho e identificação do signatário.",
-    "challenge": "Que informação deve permitir a identificação do signatário?",
+    "newExample": "Um ofício assinado sem data-limite pode impedir o destinatário de saber quando responder.",
+    "challenge": "Explique por que o fecho não supre prazo operacional ausente.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -424,7 +424,7 @@ export const RED_02_QUESTIONS = [
       "Não atende ao EXCETO: O fecho depende da situação descrita.",
       "Correta como exceção: Fecho não substitui o dado de prazo."
     ],
-    "explanation": "A exceção é falsa, apesar de as demais condutas estarem corretas. Fecho não substitui o dado de prazo."
+    "explanation": "O fecho não substitui o prazo operacional indicado no corpo; omiti-lo pode impedir o cumprimento da solicitação."
   },
   {
     "moduleId": "RED-02",
@@ -433,8 +433,8 @@ export const RED_02_QUESTIONS = [
     "concept": "O tratamento e o endereçamento devem observar o alcance do Decreto nº 9.758/2019 e eventuais exceções normativas.",
     "trap": "Aplicar de forma universal o Decreto federal a autoridades estrangeiras ou supor que “Vossa Excelência” continua exigível para todo ministro federal.",
     "examTip": "Identifique o destinatário e consulte arts. 1º a 4º do Decreto nº 9.758/2019 antes de escolher forma de tratamento.",
-    "newExample": "Comunicação interna de autarquia federal pode dirigir-se ao cargo “À Coordenação de Gestão de Pessoas”, sem inserir automaticamente “Excelentíssimo” no endereçamento.",
-    "challenge": "O decreto impede sempre que conste o nome do destinatário no endereçamento?",
+    "newExample": "No âmbito do Decreto nº 9.758/2019, “Senhora Diretora” atende à regra de tratamento flexionada no feminino.",
+    "challenge": "Explique por que a forma “Vossa Excelência” não é exigência geral a agentes federais.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -453,10 +453,10 @@ export const RED_02_QUESTIONS = [
     ],
     "answer": 0,
     "optionComments": [
-      "Correta. O art. 2º estabelece esse tratamento, flexionado conforme gênero e número.",
-      "Incorreta. O art. 2º estabelece esse tratamento, flexionado conforme gênero e número."
+      "Correta: O art. 2º do Decreto nº 9.758/2019 prevê senhor, com flexões, para agentes federais abrangidos.",
+      "Incorreta: Marcar ERRADO desconsideraria a indicação explícita de “senhor”, flexionável, no art. 2º do Decreto nº 9.758/2019."
     ],
-    "explanation": "O art. 2º estabelece esse tratamento, flexionado conforme gênero e número."
+    "explanation": "O art. 2º do Decreto nº 9.758/2019 prevê senhor, com flexões, para agentes federais abrangidos."
   },
   {
     "moduleId": "RED-02",
@@ -465,8 +465,8 @@ export const RED_02_QUESTIONS = [
     "concept": "O tratamento e o endereçamento devem observar o alcance do Decreto nº 9.758/2019 e eventuais exceções normativas.",
     "trap": "Aplicar de forma universal o Decreto federal a autoridades estrangeiras ou supor que “Vossa Excelência” continua exigível para todo ministro federal.",
     "examTip": "Identifique o destinatário e consulte arts. 1º a 4º do Decreto nº 9.758/2019 antes de escolher forma de tratamento.",
-    "newExample": "Comunicação interna de autarquia federal pode dirigir-se ao cargo “À Coordenação de Gestão de Pessoas”, sem inserir automaticamente “Excelentíssimo” no endereçamento.",
-    "challenge": "O decreto impede sempre que conste o nome do destinatário no endereçamento?",
+    "newExample": "Uma mensagem a agente federal usa “senhor”, e o endereçamento prioriza cargo e setor salvo exceções do art. 4º.",
+    "challenge": "Dê exemplo de hipótese em que identificar nominalmente o destinatário pode ser permitido.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -480,19 +480,19 @@ export const RED_02_QUESTIONS = [
     "difficulty": "media",
     "stem": "Qual orientação observa o Decreto nº 9.758/2019 ao dirigir comunicação a agente federal nele abrangido?",
     "options": [
-      "Exigir “Vossa Excelência” para todo ministro da administração federal.",
-      "Usar “doutor” obrigatoriamente a todo agente com graduação superior.",
-      "Inserir sempre o nome do agente federal, sem examinar as hipóteses do art. 4º.",
+      "Usar “Vossa Excelência” para autoridades federais superiores quando o remetente se sentir obrigado pela tradição.",
+      "Usar “doutor” por presunção da titulação do destinatário, mesmo sem norma aplicável.",
+      "Incluir o nome do agente federal em todo endereçamento por identificar melhor a pessoa, sem avaliar o art. 4º.",
       "Empregar “senhor” ou “senhora” conforme o caso e conferir se o endereçamento exige identificação pessoal."
     ],
     "answer": 3,
     "optionComments": [
-      "Incorreta. O art. 3º veda essa fórmula no campo de aplicação do decreto.",
-      "Incorreta. O decreto veda “doutor” como forma de tratamento nesse âmbito.",
-      "Incorreta. A regra geral dispensa nome; há exceções específicas.",
+      "Incorreta: a tradição não afasta a vedação do art. 3º no campo de incidência do decreto.",
+      "Incorreta: o art. 3º veda essa forma como tratamento no âmbito do decreto.",
+      "Incorreta: o art. 4º tem regra geral de identificação por cargo/setor, admitindo nome só nas hipóteses previstas.",
       "Correta. Arts. 2º e 4º tratam do pronome e das exceções de endereçamento."
     ],
-    "explanation": "Arts. 2º e 4º tratam do pronome e das exceções de endereçamento."
+    "explanation": "O Decreto estabelece senhor/senhora e permite nome no endereçamento em hipóteses do art. 4º; o nome não é sempre obrigatório."
   },
   {
     "moduleId": "RED-02",
@@ -501,8 +501,8 @@ export const RED_02_QUESTIONS = [
     "concept": "O tratamento e o endereçamento devem observar o alcance do Decreto nº 9.758/2019 e eventuais exceções normativas.",
     "trap": "Aplicar de forma universal o Decreto federal a autoridades estrangeiras ou supor que “Vossa Excelência” continua exigível para todo ministro federal.",
     "examTip": "Identifique o destinatário e consulte arts. 1º a 4º do Decreto nº 9.758/2019 antes de escolher forma de tratamento.",
-    "newExample": "Comunicação interna de autarquia federal pode dirigir-se ao cargo “À Coordenação de Gestão de Pessoas”, sem inserir automaticamente “Excelentíssimo” no endereçamento.",
-    "challenge": "O decreto impede sempre que conste o nome do destinatário no endereçamento?",
+    "newExample": "A troca de mensagens com autoridade de outro Poder pode exigir regra especial prevista no art. 1º, §3º, do decreto.",
+    "challenge": "Indique por que não se aplica a mesma fórmula indiscriminadamente a todos os Poderes e entes.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -530,7 +530,7 @@ export const RED_02_QUESTIONS = [
       "Correta. I: O art. 1º, § 3º, descreve hipóteses especiais. II: A expressão está entre as formas vedadas pelo art. 3º. III: O parágrafo único do art. 4º traz essas exceções.",
       "Incorreta. I é verdadeira: O art. 1º, § 3º, descreve hipóteses especiais. III é verdadeira: O parágrafo único do art. 4º traz essas exceções."
     ],
-    "explanation": "I: O art. 1º, § 3º, descreve hipóteses especiais. II: A expressão está entre as formas vedadas pelo art. 3º. III: O parágrafo único do art. 4º traz essas exceções."
+    "explanation": "O art. 1º, §3º, delimita exceções; Excelentíssimo é vedado no âmbito geral; o art. 4º admite nome em circunstâncias específicas."
   },
   {
     "moduleId": "RED-02",
@@ -539,8 +539,8 @@ export const RED_02_QUESTIONS = [
     "concept": "O tratamento e o endereçamento devem observar o alcance do Decreto nº 9.758/2019 e eventuais exceções normativas.",
     "trap": "Aplicar de forma universal o Decreto federal a autoridades estrangeiras ou supor que “Vossa Excelência” continua exigível para todo ministro federal.",
     "examTip": "Identifique o destinatário e consulte arts. 1º a 4º do Decreto nº 9.758/2019 antes de escolher forma de tratamento.",
-    "newExample": "Comunicação interna de autarquia federal pode dirigir-se ao cargo “À Coordenação de Gestão de Pessoas”, sem inserir automaticamente “Excelentíssimo” no endereçamento.",
-    "challenge": "O decreto impede sempre que conste o nome do destinatário no endereçamento?",
+    "newExample": "O cargo de reitor federal não torna “Vossa Magnificência” obrigatório dentro do campo geral do decreto de 2019.",
+    "challenge": "Verifique qual dispositivo veda essa forma no âmbito definido.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -555,18 +555,18 @@ export const RED_02_QUESTIONS = [
     "stem": "Um servidor federal prepara mensagem a agente público federal abrangido pelo decreto. Todas as escolhas abaixo são adequadas, EXCETO:",
     "options": [
       "Usar o tratamento “senhor” em comunicação cabível.",
-      "Acrescentar “Vossa Magnificência” como expressão obrigatória para reitor federal.",
+      "Tratar um reitor federal obrigatoriamente por “Vossa Magnificência”, sem verificar a incidência do Decreto nº 9.758/2019.",
       "Verificar se há exceção que justifique identificação nominal.",
       "Preferir a identificação do cargo e da unidade no endereçamento, como regra."
     ],
     "answer": 1,
     "optionComments": [
       "Não atende ao EXCETO: Art. 2º: pronome previsto no regime federal.",
-      "Correta como exceção: A fórmula é vedada pelo art. 3º dentro do âmbito do decreto.",
+      "Correta como EXCETO: no âmbito do decreto, Vossa Magnificência é forma vedada pelo art. 3º; a tradição não cria obrigação.",
       "Não atende ao EXCETO: O decreto contempla hipóteses especiais.",
       "Não atende ao EXCETO: Essa é a orientação geral do art. 4º."
     ],
-    "explanation": "A exceção é falsa, apesar de as demais condutas estarem corretas. A fórmula é vedada pelo art. 3º dentro do âmbito do decreto."
+    "explanation": "O Decreto veda Vossa Magnificência no âmbito dos agentes federais abrangidos; não há obrigação geral para reitor federal."
   },
   {
     "moduleId": "RED-02",
@@ -575,8 +575,8 @@ export const RED_02_QUESTIONS = [
     "concept": "A terceira edição do Manual unifica a comunicação em padrão ofício e deve ser distinguida de modelos anteriores e normas subsequentes.",
     "trap": "Tratar “modelo anterior” como “modelo vigente” sem examinar a data e a fonte da questão.",
     "examTip": "Leia os marcadores “até a 2ª edição”, “3ª edição de 2018” e “a partir de 2019” antes de julgar.",
-    "newExample": "Uma prova diz “segundo a 3ª edição do Manual”: o candidato deve reconhecer o padrão ofício. Uma questão de tratamento federal atual requer considerar também o decreto posterior.",
-    "challenge": "Por que uma questão de 2018 e uma de 2026 podem ter respostas diferentes sobre tratamento?",
+    "newExample": "O modelo anterior de aviso não deve ser tratado como formato obrigatório distinto no Manual da terceira edição.",
+    "challenge": "Explique como a unificação altera a estrutura, sem impedir normas próprias de instituições.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -595,10 +595,10 @@ export const RED_02_QUESTIONS = [
     ],
     "answer": 0,
     "optionComments": [
-      "Correta. A mudança de modelo é uma das alterações centrais de 2018.",
-      "Incorreta. A mudança de modelo é uma das alterações centrais de 2018."
+      "Correta: A edição de 2018 reuniu modelos antes diferenciados, denominando o arranjo padrão ofício.",
+      "Incorreta: Marcar ERRADO partiria de modelos separados que deixaram de ser a referência da 3ª edição do Manual."
     ],
-    "explanation": "A mudança de modelo é uma das alterações centrais de 2018."
+    "explanation": "A edição de 2018 reuniu modelos antes diferenciados, denominando o arranjo padrão ofício."
   },
   {
     "moduleId": "RED-02",
@@ -607,8 +607,8 @@ export const RED_02_QUESTIONS = [
     "concept": "A terceira edição do Manual unifica a comunicação em padrão ofício e deve ser distinguida de modelos anteriores e normas subsequentes.",
     "trap": "Tratar “modelo anterior” como “modelo vigente” sem examinar a data e a fonte da questão.",
     "examTip": "Leia os marcadores “até a 2ª edição”, “3ª edição de 2018” e “a partir de 2019” antes de julgar.",
-    "newExample": "Uma prova diz “segundo a 3ª edição do Manual”: o candidato deve reconhecer o padrão ofício. Uma questão de tratamento federal atual requer considerar também o decreto posterior.",
-    "challenge": "Por que uma questão de 2018 e uma de 2026 podem ter respostas diferentes sobre tratamento?",
+    "newExample": "Um servidor confere a 3ª edição do Manual e não restaura automaticamente o formato antigo de memorando.",
+    "challenge": "Identifique qual afirmativa histórica falha quando confunde modelo unificado com ausência de assunto.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -622,19 +622,19 @@ export const RED_02_QUESTIONS = [
     "difficulty": "media",
     "stem": "Assinale a distinção histórica correta entre modelos documentais no Manual da Presidência.",
     "options": [
-      "O Decreto nº 9.758/2019 reinstaurou três modelos separados de expediente.",
-      "A uniformização de 2018 tornou impossíveis normas locais de apresentação.",
+      "A unificação de 2018 foi determinada pelo Decreto nº 9.758/2019, que substituiu o modelo ofício.",
+      "As unidades que adotam o Manual de 2018 ficam impedidas de seguir qualquer orientação específica complementar.",
       "Modelos anteriormente diferenciados foram reunidos no padrão ofício na terceira edição.",
-      "A terceira edição extinguiu assunto e identificação documental em qualquer comunicação."
+      "A unificação de modelos tornou o cabeçalho facultativo para comunicações entre unidades públicas."
     ],
     "answer": 2,
     "optionComments": [
-      "Incorreta. O decreto trata de formas de tratamento e endereçamento.",
-      "Incorreta. O regime aplicável depende da instituição e das normas específicas.",
+      "Incorreta: o Decreto de 2019 trata de formas de tratamento e endereçamento, não cria padrão de expediente.",
+      "Incorreta: adoção do modelo não exclui regras complementares aplicáveis ao órgão.",
       "Correta. A edição de 2018 unificou aviso, ofício e memorando.",
-      "Incorreta. A padronização manteve elementos necessários de identificação."
+      "Incorreta: unificar apresentação não torna facultativos os campos previstos para identificação."
     ],
-    "explanation": "A edição de 2018 unificou aviso, ofício e memorando."
+    "explanation": "Aviso e memorando não formam modelos independentes na 3ª edição; a uniformização não extingue competências nem dados."
   },
   {
     "moduleId": "RED-02",
@@ -643,8 +643,8 @@ export const RED_02_QUESTIONS = [
     "concept": "A terceira edição do Manual unifica a comunicação em padrão ofício e deve ser distinguida de modelos anteriores e normas subsequentes.",
     "trap": "Tratar “modelo anterior” como “modelo vigente” sem examinar a data e a fonte da questão.",
     "examTip": "Leia os marcadores “até a 2ª edição”, “3ª edição de 2018” e “a partir de 2019” antes de julgar.",
-    "newExample": "Uma prova diz “segundo a 3ª edição do Manual”: o candidato deve reconhecer o padrão ofício. Uma questão de tratamento federal atual requer considerar também o decreto posterior.",
-    "challenge": "Por que uma questão de 2018 e uma de 2026 podem ter respostas diferentes sobre tratamento?",
+    "newExample": "O manual foi aprovado em dezembro de 2018; o decreto de tratamento foi publicado em abril de 2019.",
+    "challenge": "Monte uma linha do tempo explicando qual fonte pode conter regra posterior.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -672,7 +672,7 @@ export const RED_02_QUESTIONS = [
       "Incorreta. I é verdadeira: Orientações posteriores podem especificar matéria antes regulada.",
       "Incorreta. III é verdadeira: A uniformização não suprime a rastreabilidade."
     ],
-    "explanation": "I: Orientações posteriores podem especificar matéria antes regulada. II: Seu objeto são as formas de tratamento e o endereçamento. III: A uniformização não suprime a rastreabilidade."
+    "explanation": "Versões normativas importam; o Decreto de 2019 regula tratamento e endereçamento e não elimina identificação do expediente."
   },
   {
     "moduleId": "RED-02",
@@ -681,8 +681,8 @@ export const RED_02_QUESTIONS = [
     "concept": "A terceira edição do Manual unifica a comunicação em padrão ofício e deve ser distinguida de modelos anteriores e normas subsequentes.",
     "trap": "Tratar “modelo anterior” como “modelo vigente” sem examinar a data e a fonte da questão.",
     "examTip": "Leia os marcadores “até a 2ª edição”, “3ª edição de 2018” e “a partir de 2019” antes de julgar.",
-    "newExample": "Uma prova diz “segundo a 3ª edição do Manual”: o candidato deve reconhecer o padrão ofício. Uma questão de tratamento federal atual requer considerar também o decreto posterior.",
-    "challenge": "Por que uma questão de 2018 e uma de 2026 podem ter respostas diferentes sobre tratamento?",
+    "newExample": "Ao citar a regra de endereçamento, o redator indica o Decreto nº 9.758/2019, não a edição de 2018 como fonte única.",
+    "challenge": "Por que não se pode dizer que o Manual de 2018 já incorporava literalmente um decreto de 2019?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -708,7 +708,7 @@ export const RED_02_QUESTIONS = [
       "Não atende ao EXCETO: Ele trata de tratamento e endereçamento.",
       "Correta como exceção: Uma publicação de 2018 não incorpora ato normativo editado depois."
     ],
-    "explanation": "A exceção é falsa, apesar de as demais condutas estarem corretas. Uma publicação de 2018 não incorpora ato normativo editado depois."
+    "explanation": "O Manual editado em 2018 não poderia já incorporar expressamente regras publicadas apenas em abril de 2019."
   },
   {
     "moduleId": "RED-02",
@@ -717,8 +717,8 @@ export const RED_02_QUESTIONS = [
     "concept": "Vocativo, pronome de tratamento e fecho cumprem funções próprias e devem corresponder à norma e ao destinatário.",
     "trap": "Entender “Respeitosamente” como fecho universal e confundir erro de tratamento com motivo para negar ato administrativo.",
     "examTip": "Confira se o item trata de fecho (hierarquia), vocativo (chamamento) ou endereçamento (identificação do destino).",
-    "newExample": "Em ofício destinado a unidade da mesma hierarquia, o fecho conforme o Manual é “Atenciosamente”; o tratamento no corpo segue o regime aplicável ao destinatário.",
-    "challenge": "O Decreto nº 9.758/2019 prevê punição automática por erro de tratamento?",
+    "newExample": "Ao colega de mesmo nível, o fecho “Atenciosamente” segue a distinção do Manual de 2018.",
+    "challenge": "Explique por que o fecho não depende apenas do grau de formalidade desejado.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -737,10 +737,10 @@ export const RED_02_QUESTIONS = [
     ],
     "answer": 0,
     "optionComments": [
-      "Correta. Essa é a hipótese de uso indicada pelo Manual.",
-      "Incorreta. Essa é a hipótese de uso indicada pelo Manual."
+      "Correta: Atenciosamente corresponde, no Manual de 2018, a destinatário de mesma hierarquia, inferior ou demais casos.",
+      "Incorreta: Marcar ERRADO aplicaria “Respeitosamente” mesmo à mesma hierarquia, contrariando a distinção dos fechos no Manual."
     ],
-    "explanation": "Essa é a hipótese de uso indicada pelo Manual."
+    "explanation": "Atenciosamente corresponde, no Manual de 2018, a destinatário de mesma hierarquia, inferior ou demais casos."
   },
   {
     "moduleId": "RED-02",
@@ -749,8 +749,8 @@ export const RED_02_QUESTIONS = [
     "concept": "Vocativo, pronome de tratamento e fecho cumprem funções próprias e devem corresponder à norma e ao destinatário.",
     "trap": "Entender “Respeitosamente” como fecho universal e confundir erro de tratamento com motivo para negar ato administrativo.",
     "examTip": "Confira se o item trata de fecho (hierarquia), vocativo (chamamento) ou endereçamento (identificação do destino).",
-    "newExample": "Em ofício destinado a unidade da mesma hierarquia, o fecho conforme o Manual é “Atenciosamente”; o tratamento no corpo segue o regime aplicável ao destinatário.",
-    "challenge": "O Decreto nº 9.758/2019 prevê punição automática por erro de tratamento?",
+    "newExample": "Destinatário superior: “Respeitosamente”; mesmo nível: “Atenciosamente”, conforme o Manual.",
+    "challenge": "Escolha o fecho de um ofício do departamento para chefia superior.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -762,21 +762,21 @@ export const RED_02_QUESTIONS = [
     "id": "Q-RED-02-006-02",
     "type": "classica",
     "difficulty": "media",
-    "stem": "Um servidor redige ofício para outra unidade da mesma hierarquia. Qual fecho é compatível com o Manual de 2018?",
+    "stem": "Uma autoridade pública assina ofício dirigido a outra autoridade de mesma hierarquia, segundo o Manual de Redação da Presidência da República (3ª edição). Qual fecho é o previsto?",
     "options": [
-      "Digníssimo, por exigência formal do padrão ofício.",
+      "Respeitosamente, por se tratar de documento oficial.",
       "Atenciosamente.",
-      "Respeitosamente, necessariamente em qualquer ofício.",
-      "Excelentíssimo, como encerramento obrigatório."
+      "Respeitosamente, porque a igualdade de hierarquia exige o fecho mais solene.",
+      "Cordialmente, quando o texto já contém saudação no vocativo."
     ],
     "answer": 1,
     "optionComments": [
-      "Incorreta. Não é um dos dois fechos definidos no Manual.",
+      "Incorreta: no Manual, Respeitosamente se destina a autoridade hierarquicamente superior.",
       "Correta. É o fecho previsto para a mesma hierarquia.",
-      "Incorreta. O fecho não é universal, pois depende da hierarquia.",
-      "Incorreta. Trata-se de forma de tratamento, não do fecho padronizado."
+      "Incorreta: mesma hierarquia utiliza Atenciosamente; solenidade não altera o critério.",
+      "Incorreta: Cordialmente não é o fecho padronizado para esse caso."
     ],
-    "explanation": "É o fecho previsto para a mesma hierarquia."
+    "explanation": "O Manual diferencia os fechos pela hierarquia: Atenciosamente para mesma hierarquia, não Respeitosamente universal."
   },
   {
     "moduleId": "RED-02",
@@ -785,8 +785,8 @@ export const RED_02_QUESTIONS = [
     "concept": "Vocativo, pronome de tratamento e fecho cumprem funções próprias e devem corresponder à norma e ao destinatário.",
     "trap": "Entender “Respeitosamente” como fecho universal e confundir erro de tratamento com motivo para negar ato administrativo.",
     "examTip": "Confira se o item trata de fecho (hierarquia), vocativo (chamamento) ou endereçamento (identificação do destino).",
-    "newExample": "Em ofício destinado a unidade da mesma hierarquia, o fecho conforme o Manual é “Atenciosamente”; o tratamento no corpo segue o regime aplicável ao destinatário.",
-    "challenge": "O Decreto nº 9.758/2019 prevê punição automática por erro de tratamento?",
+    "newExample": "O vocativo inicia a comunicação; o fecho a encerra; erro na forma de tratamento não justifica negar ato.",
+    "challenge": "Relacione as duas funções e cite a consequência vedada pelo art. 3º, §2º.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -814,7 +814,7 @@ export const RED_02_QUESTIONS = [
       "Incorreta. I é verdadeira: Um inicia o texto e outro o encerra. III é verdadeira: A disciplina pode variar segundo o campo de aplicação.",
       "Incorreta. III é verdadeira: A disciplina pode variar segundo o campo de aplicação."
     ],
-    "explanation": "I: Um inicia o texto e outro o encerra. II: O art. 3º, § 2º, do Decreto de 2019 veda essa consequência. III: A disciplina pode variar segundo o campo de aplicação."
+    "explanation": "Vocativo e fecho são distintos; o art. 3º, §2º, veda negar ato só por tratamento errado; a norma aplicável depende do destinatário."
   },
   {
     "moduleId": "RED-02",
@@ -823,8 +823,8 @@ export const RED_02_QUESTIONS = [
     "concept": "Vocativo, pronome de tratamento e fecho cumprem funções próprias e devem corresponder à norma e ao destinatário.",
     "trap": "Entender “Respeitosamente” como fecho universal e confundir erro de tratamento com motivo para negar ato administrativo.",
     "examTip": "Confira se o item trata de fecho (hierarquia), vocativo (chamamento) ou endereçamento (identificação do destino).",
-    "newExample": "Em ofício destinado a unidade da mesma hierarquia, o fecho conforme o Manual é “Atenciosamente”; o tratamento no corpo segue o regime aplicável ao destinatário.",
-    "challenge": "O Decreto nº 9.758/2019 prevê punição automática por erro de tratamento?",
+    "newExample": "Um requerente usa saudação inadequada; a unidade não pode recusar automaticamente a prática de ato apenas por isso.",
+    "challenge": "Diferencie revisão de protocolo de punição por fórmula de tratamento errada.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -839,18 +839,18 @@ export const RED_02_QUESTIONS = [
     "stem": "Ao preparar fecho e tratamento, todas as decisões são corretas, EXCETO:",
     "options": [
       "Usar “senhor/senhora” no âmbito do Decreto nº 9.758/2019.",
-      "Recusar automaticamente requerimento por emprego de tratamento inadequado.",
+      "Deixar de praticar o ato administrativo porque o interessado escreveu “Vossa Senhoria” em vez do tratamento previsto no decreto.",
       "Distinguir vocativo da identificação do destinatário.",
       "Verificar a hierarquia do destinatário antes de escolher o fecho."
     ],
     "answer": 1,
     "optionComments": [
       "Não atende ao EXCETO: Art. 2º estabelece esse tratamento.",
-      "Correta como exceção: O decreto veda negar ato pelo erro na forma de tratamento.",
+      "Correta como EXCETO: o art. 3º, §2º, veda negar a realização do ato por erro na forma de tratamento.",
       "Não atende ao EXCETO: São componentes de funções distintas.",
       "Não atende ao EXCETO: O Manual diferencia fechos por relação hierárquica."
     ],
-    "explanation": "A exceção é falsa, apesar de as demais condutas estarem corretas. O decreto veda negar ato pelo erro na forma de tratamento."
+    "explanation": "O art. 3º, §2º, do Decreto veda negar realização do ato administrativo por erro de tratamento dentro de seu âmbito."
   },
   {
     "moduleId": "RED-02",
@@ -859,8 +859,8 @@ export const RED_02_QUESTIONS = [
     "concept": "A conferência final do padrão ofício verifica campos, informações, consistência e apresentação sem alterar o conteúdo institucional.",
     "trap": "Considerar “documento visualmente bem formatado” sinônimo de expediente completo e correto.",
     "examTip": "Use lista de conferência de conteúdo e dados, não apenas revisão do layout.",
-    "newExample": "Antes de enviar um ofício com anexo, o setor confirma o número do processo, a relação de anexos e o prazo de resposta citado no corpo.",
-    "challenge": "O que fazer se o assunto do ofício divergir do documento efetivamente encaminhado?",
+    "newExample": "O texto anuncia três anexos, mas só dois estão inseridos no sistema eletrônico: o envio precisa de conferência.",
+    "challenge": "Que procedimento corrige o problema sem declarar um anexo fictício?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -879,10 +879,10 @@ export const RED_02_QUESTIONS = [
     ],
     "answer": 0,
     "optionComments": [
-      "Correta. Referência sem arquivo correspondente compromete a comunicação.",
-      "Incorreta. Referência sem arquivo correspondente compromete a comunicação."
+      "Correta: É necessário conferir se o anexo efetivamente acompanha o ofício antes de afirmar seu envio.",
+      "Incorreta: Marcar ERRADO aceitaria que a simples menção ao anexo basta, sem verificar se foi realmente incluído."
     ],
-    "explanation": "Referência sem arquivo correspondente compromete a comunicação."
+    "explanation": "É necessário conferir se o anexo efetivamente acompanha o ofício antes de afirmar seu envio."
   },
   {
     "moduleId": "RED-02",
@@ -891,8 +891,8 @@ export const RED_02_QUESTIONS = [
     "concept": "A conferência final do padrão ofício verifica campos, informações, consistência e apresentação sem alterar o conteúdo institucional.",
     "trap": "Considerar “documento visualmente bem formatado” sinônimo de expediente completo e correto.",
     "examTip": "Use lista de conferência de conteúdo e dados, não apenas revisão do layout.",
-    "newExample": "Antes de enviar um ofício com anexo, o setor confirma o número do processo, a relação de anexos e o prazo de resposta citado no corpo.",
-    "challenge": "O que fazer se o assunto do ofício divergir do documento efetivamente encaminhado?",
+    "newExample": "A descrição “Parecer 04/2026 — acompanhamento de contratos” deve apontar para o arquivo efetivamente anexado.",
+    "challenge": "Identifique dois campos que precisam corresponder no ofício de encaminhamento.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -907,18 +907,18 @@ export const RED_02_QUESTIONS = [
     "stem": "Qual conferência é indispensável antes de emitir um ofício de encaminhamento?",
     "options": [
       "Confirmar a identificação do arquivo encaminhado e sua correspondência com o assunto.",
-      "Verificar só a cor do cabeçalho, sem ler o corpo.",
-      "Retirar o número do processo porque há assinatura eletrônica.",
-      "Trocar prazo confirmado por data aleatória para preencher o formulário."
+      "Validar o nome do anexo, mas deixar de conferir se o arquivo aberto corresponde à versão citada.",
+      "Conferir a assinatura e, por isso, omitir o número do processo que vincula o encaminhamento.",
+      "Ajustar a data do corpo do texto para coincidir com uma data ainda não confirmada no cronograma."
     ],
     "answer": 0,
     "optionComments": [
       "Correta. O destinatário deve reconhecer o objeto do encaminhamento.",
-      "Incorreta. O conteúdo e os dados são elementos essenciais.",
-      "Incorreta. Assinatura não substitui identificação necessária.",
-      "Incorreta. Informação não verificada não deve ser inventada."
+      "Incorreta: conferir apenas o nome pode deixar passar arquivo com conteúdo ou versão divergente.",
+      "Incorreta: assinatura comprova autoria nas condições aplicáveis, mas não substitui a referência do processo.",
+      "Incorreta: datas devem refletir confirmação oficial, não ser modificadas para aparentar consistência."
     ],
-    "explanation": "O destinatário deve reconhecer o objeto do encaminhamento."
+    "explanation": "A confirmação do arquivo encaminhado e de sua identificação evita entregar objeto diferente do anunciado no expediente."
   },
   {
     "moduleId": "RED-02",
@@ -927,8 +927,8 @@ export const RED_02_QUESTIONS = [
     "concept": "A conferência final do padrão ofício verifica campos, informações, consistência e apresentação sem alterar o conteúdo institucional.",
     "trap": "Considerar “documento visualmente bem formatado” sinônimo de expediente completo e correto.",
     "examTip": "Use lista de conferência de conteúdo e dados, não apenas revisão do layout.",
-    "newExample": "Antes de enviar um ofício com anexo, o setor confirma o número do processo, a relação de anexos e o prazo de resposta citado no corpo.",
-    "challenge": "O que fazer se o assunto do ofício divergir do documento efetivamente encaminhado?",
+    "newExample": "O assunto diz “requerimento de matrícula”, mas o corpo fala de recurso: o revisor precisa esclarecer qual é o objeto.",
+    "challenge": "Explique por que uma assinatura não resolve contradição temática.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -956,7 +956,7 @@ export const RED_02_QUESTIONS = [
       "Incorreta. III é verdadeira: Os anexos compõem a informação entregue ao destinatário.",
       "Correta. A correspondência evita erro de encaminhamento. São elementos com funções diferentes. Os anexos compõem a informação entregue ao destinatário."
     ],
-    "explanation": "I: A correspondência evita erro de encaminhamento. II: São elementos com funções diferentes. III: Os anexos compõem a informação entregue ao destinatário."
+    "explanation": "Assunto deve corresponder ao corpo; assinatura não dispensa identificação; anexos citados devem ser conferidos."
   },
   {
     "moduleId": "RED-02",
@@ -965,8 +965,8 @@ export const RED_02_QUESTIONS = [
     "concept": "A conferência final do padrão ofício verifica campos, informações, consistência e apresentação sem alterar o conteúdo institucional.",
     "trap": "Considerar “documento visualmente bem formatado” sinônimo de expediente completo e correto.",
     "examTip": "Use lista de conferência de conteúdo e dados, não apenas revisão do layout.",
-    "newExample": "Antes de enviar um ofício com anexo, o setor confirma o número do processo, a relação de anexos e o prazo de resposta citado no corpo.",
-    "challenge": "O que fazer se o assunto do ofício divergir do documento efetivamente encaminhado?",
+    "newExample": "O setor cita um relatório inexistente como anexo; a revisão deve corrigir a informação antes de concluir o envio.",
+    "challenge": "Dê um procedimento para preservar a fidelidade do documento e seu registro.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -983,15 +983,15 @@ export const RED_02_QUESTIONS = [
       "Revisar o pedido, o prazo e a assinatura.",
       "Checar o destinatário e a competência da unidade.",
       "Conferir número, assunto e anexos citados.",
-      "Declarar que anexo inexistente foi encaminhado, para não atrasar a emissão."
+      "Anunciar no corpo que foi anexado o parecer final, embora o arquivo ainda não tenha sido incluído no expediente."
     ],
     "answer": 3,
     "optionComments": [
       "Não atende ao EXCETO: São elementos relevantes ao expediente.",
       "Não atende ao EXCETO: O encaminhamento correto favorece o atendimento.",
       "Não atende ao EXCETO: Esses dados favorecem localização e integridade.",
-      "Correta como exceção: Afirmação falsa prejudica o registro e a confiança."
+      "Correta como EXCETO: registro de envio não deve afirmar a presença de documento que ainda não acompanha o ofício."
     ],
-    "explanation": "A exceção é falsa, apesar de as demais condutas estarem corretas. Afirmação falsa prejudica o registro e a confiança."
+    "explanation": "Declarar encaminhado um anexo inexistente compromete a veracidade e a rastreabilidade documental."
   }
 ];

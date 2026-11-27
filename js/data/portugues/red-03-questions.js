@@ -1,4 +1,4 @@
-/* PT-ESTUDO — RED-03 — banco autoral com gabarito comentado; Lote 09. */
+/** PT-ESTUDO — RED-03: questões AUTORAIS; Correção 3, Lote 6 — revisão pedagógica. */
 export const RED_03_QUESTIONS = [
   {
     "moduleId": "RED-03",
@@ -7,8 +7,8 @@ export const RED_03_QUESTIONS = [
     "concept": "O e-mail institucional requer assunto específico, linguagem adequada, identificação do emissor e anexos pertinentes.",
     "trap": "Confundir flexibilidade do e-mail com licença para usar “vc”, emoticons ou assunto genérico no contexto profissional.",
     "examTip": "Na questão sobre e-mail, identifique assunto, destinatário, corpo, anexos e assinatura: cada parte tem função.",
-    "newExample": "Assunto: Atualização do cadastro de bolsas — envio até 10/04; corpo informa documentos necessários, unidade responsável e anexo descrito.",
-    "challenge": "Qual assunto é mais útil: “Oi” ou “Solicitação de comprovantes — processo 123”?",
+    "newExample": "No e-mail institucional, “Segue anexo relatório de manutenção” é apropriado; abreviações de conversa não são padrão oficial.",
+    "challenge": "Reescreva uma mensagem cheia de gírias em duas frases claras e respeitosas.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -27,10 +27,10 @@ export const RED_03_QUESTIONS = [
     ],
     "answer": 0,
     "optionComments": [
-      "Correta. O correio eletrônico oficial continua sujeito à linguagem profissional.",
-      "Incorreta. O correio eletrônico oficial continua sujeito à linguagem profissional."
+      "Correta: O e-mail institucional admite soluções de apresentação próprias, mas exige clareza, respeito e adequação à finalidade.",
+      "Incorreta: Marcar ERRADO equivaleria a tomar abreviações de conversa como padrão geral do correio institucional."
     ],
-    "explanation": "O correio eletrônico oficial continua sujeito à linguagem profissional."
+    "explanation": "O e-mail institucional admite soluções de apresentação próprias, mas exige clareza, respeito e adequação à finalidade."
   },
   {
     "moduleId": "RED-03",
@@ -39,8 +39,8 @@ export const RED_03_QUESTIONS = [
     "concept": "O e-mail institucional requer assunto específico, linguagem adequada, identificação do emissor e anexos pertinentes.",
     "trap": "Confundir flexibilidade do e-mail com licença para usar “vc”, emoticons ou assunto genérico no contexto profissional.",
     "examTip": "Na questão sobre e-mail, identifique assunto, destinatário, corpo, anexos e assinatura: cada parte tem função.",
-    "newExample": "Assunto: Atualização do cadastro de bolsas — envio até 10/04; corpo informa documentos necessários, unidade responsável e anexo descrito.",
-    "challenge": "Qual assunto é mais útil: “Oi” ou “Solicitação de comprovantes — processo 123”?",
+    "newExample": "Assunto “Atualização de cadastro funcional — formulário 2026” facilita identificar o conteúdo na caixa do órgão.",
+    "challenge": "Crie assunto que mencione ação e objeto sem repetir todo o corpo da mensagem.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -54,19 +54,19 @@ export const RED_03_QUESTIONS = [
     "difficulty": "media",
     "stem": "Um setor encaminha formulário por e-mail. Qual campo assunto é mais informativo?",
     "options": [
-      "Aviso muito importante, leiam!",
-      "Diversos temas, novidades e coisas urgentes.",
+      "Atualização cadastral — informações importantes",
+      "Formulário institucional: orientações e outros assuntos",
       "Envio de formulário de atualização cadastral — servidores.",
-      "Olá, tudo bem?"
+      "Comunicado aos servidores sobre procedimentos e prazos"
     ],
     "answer": 2,
     "optionComments": [
-      "Incorreta. Não especifica qual providência ou assunto está envolvido.",
-      "Incorreta. A vagueza dificulta localizar a mensagem.",
+      "Incorreta: embora relevante, não informa que o e-mail encaminha especificamente o formulário.",
+      "Incorreta: associa diversos temas sem delimitar o objeto do envio.",
       "Correta. Identifica a finalidade e o grupo destinatário.",
-      "Incorreta. É saudação, não resumo da matéria."
+      "Incorreta: identifica público e assunto amplo, mas não o formulário encaminhado."
     ],
-    "explanation": "Identifica a finalidade e o grupo destinatário."
+    "explanation": "O assunto informa precisamente tipo de documento e público a que se destina; saudações genéricas não auxiliam a busca."
   },
   {
     "moduleId": "RED-03",
@@ -75,8 +75,8 @@ export const RED_03_QUESTIONS = [
     "concept": "O e-mail institucional requer assunto específico, linguagem adequada, identificação do emissor e anexos pertinentes.",
     "trap": "Confundir flexibilidade do e-mail com licença para usar “vc”, emoticons ou assunto genérico no contexto profissional.",
     "examTip": "Na questão sobre e-mail, identifique assunto, destinatário, corpo, anexos e assinatura: cada parte tem função.",
-    "newExample": "Assunto: Atualização do cadastro de bolsas — envio até 10/04; corpo informa documentos necessários, unidade responsável e anexo descrito.",
-    "challenge": "Qual assunto é mais útil: “Oi” ou “Solicitação de comprovantes — processo 123”?",
+    "newExample": "O setor anuncia uma planilha no corpo do e-mail; antes de enviar, confere se anexou a versão correta e assinou.",
+    "challenge": "Explique o papel do assunto, da assinatura institucional e da lista de anexos.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -104,7 +104,7 @@ export const RED_03_QUESTIONS = [
       "Incorreta. II é falsa: O Manual orienta identificação do emissor. III é verdadeira: Uma mensagem que anuncia arquivo ausente fica incompleta.",
       "Incorreta. I é verdadeira: Permite identificação e busca posterior. II é falsa: O Manual orienta identificação do emissor."
     ],
-    "explanation": "I: Permite identificação e busca posterior. II: O Manual orienta identificação do emissor. III: Uma mensagem que anuncia arquivo ausente fica incompleta."
+    "explanation": "I e III previnem desencontro de assunto e anexo; II é falsa porque a identificação de origem integra a comunicação."
   },
   {
     "moduleId": "RED-03",
@@ -113,8 +113,8 @@ export const RED_03_QUESTIONS = [
     "concept": "O e-mail institucional requer assunto específico, linguagem adequada, identificação do emissor e anexos pertinentes.",
     "trap": "Confundir flexibilidade do e-mail com licença para usar “vc”, emoticons ou assunto genérico no contexto profissional.",
     "examTip": "Na questão sobre e-mail, identifique assunto, destinatário, corpo, anexos e assinatura: cada parte tem função.",
-    "newExample": "Assunto: Atualização do cadastro de bolsas — envio até 10/04; corpo informa documentos necessários, unidade responsável e anexo descrito.",
-    "challenge": "Qual assunto é mais útil: “Oi” ou “Solicitação de comprovantes — processo 123”?",
+    "newExample": "Na mensagem “Oi gente, vê aí :)”, o receptor não sabe qual documento precisa examinar ou por qual canal responder.",
+    "challenge": "Transforme a saudação informal numa orientação de encaminhamento oficial.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -131,16 +131,16 @@ export const RED_03_QUESTIONS = [
       "Adotar assunto específico e compatível com o texto.",
       "Descrever resumidamente o arquivo anexado.",
       "Identificar o setor que envia a mensagem.",
-      "Usar emoticons e abreviações de conversa informal como padrão obrigatório."
+      "Deixar assunto genérico porque o nome e o cargo já aparecem na assinatura."
     ],
     "answer": 3,
     "optionComments": [
       "Não atende ao EXCETO: Assunto orienta a leitura da mensagem.",
       "Não atende ao EXCETO: O destinatário deve saber o conteúdo do anexo.",
       "Não atende ao EXCETO: A assinatura facilita contato e autenticação contextual.",
-      "Correta como exceção: A linguagem profissional exige adequação e clareza."
+      "Correta como EXCETO: assinatura do remetente não substitui campo assunto suficientemente específico."
     ],
-    "explanation": "A exceção é falsa, apesar de as demais condutas estarem corretas. A linguagem profissional exige adequação e clareza."
+    "explanation": "Emoticons e abreviações de bate-papo não são padrão obrigatório ou adequado à redação institucional; outras ações esclarecem o envio."
   },
   {
     "moduleId": "RED-03",
@@ -149,8 +149,8 @@ export const RED_03_QUESTIONS = [
     "concept": "Rastreabilidade exige registro adequado de origem, data, destinatário e conteúdo, sem confundir transmissão eletrônica com prova absoluta de autenticidade.",
     "trap": "Equiparar mensagem na pasta “Enviados” à certeza de leitura, aceitação ou validade formal de qualquer ato.",
     "examTip": "Diferencie envio, recebimento, autoria, integridade e forma legalmente exigida; são questões separadas.",
-    "newExample": "A unidade registra envio no sistema institucional, vincula a mensagem ao processo e solicita confirmação quando a ciência do destinatário for necessária.",
-    "challenge": "Qual a principal diferença entre mensagem eletrônica e documento eletronicamente autenticado?",
+    "newExample": "O registro de envio de convocação atesta o despacho, mas não prova a leitura pelo destinatário naquele dia.",
+    "challenge": "Diferencie comprovação do envio de confirmação de recebimento e efetiva leitura.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -169,10 +169,10 @@ export const RED_03_QUESTIONS = [
     ],
     "answer": 0,
     "optionComments": [
-      "Correta. Enviar e comprovar ciência são eventos diferentes.",
-      "Incorreta. Enviar e comprovar ciência são eventos diferentes."
+      "Correta: O comprovante de envio documenta a saída, não a leitura real pelo destinatário; esses eventos são distintos.",
+      "Incorreta: Marcar ERRADO confundiria mensagem efetivamente expedida com mensagem aberta e lida pelo destinatário."
     ],
-    "explanation": "Enviar e comprovar ciência são eventos diferentes."
+    "explanation": "O comprovante de envio documenta a saída, não a leitura real pelo destinatário; esses eventos são distintos."
   },
   {
     "moduleId": "RED-03",
@@ -181,8 +181,8 @@ export const RED_03_QUESTIONS = [
     "concept": "Rastreabilidade exige registro adequado de origem, data, destinatário e conteúdo, sem confundir transmissão eletrônica com prova absoluta de autenticidade.",
     "trap": "Equiparar mensagem na pasta “Enviados” à certeza de leitura, aceitação ou validade formal de qualquer ato.",
     "examTip": "Diferencie envio, recebimento, autoria, integridade e forma legalmente exigida; são questões separadas.",
-    "newExample": "A unidade registra envio no sistema institucional, vincula a mensagem ao processo e solicita confirmação quando a ciência do destinatário for necessária.",
-    "challenge": "Qual a principal diferença entre mensagem eletrônica e documento eletronicamente autenticado?",
+    "newExample": "Um despacho exige prova de entrega: a equipe usa confirmação do sistema e vincula o protocolo à resposta.",
+    "challenge": "Indique qual registro seria necessário se a legislação exigir ciência formal.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -196,19 +196,19 @@ export const RED_03_QUESTIONS = [
     "difficulty": "media",
     "stem": "Um procedimento requer confirmação de recebimento. Qual conduta atende melhor à necessidade?",
     "options": [
-      "Aceitar toda mensagem informal como substituta universal de assinatura exigida.",
+      "Manter prova de envio e presumir dispensadas as demais formalidades previstas na norma do procedimento.",
       "Utilizar mecanismo institucional de confirmação e preservar o vínculo com o processo.",
-      "Considerar o botão “Enviar” prova incontestável de leitura.",
-      "Apagar a referência ao processo para não deixar rastros."
+      "Arquivar o e-mail enviado como se fosse a confirmação de leitura, sem conferir o sistema de ciência.",
+      "Registrar no sistema apenas que houve contato, sem vincular a comunicação ao processo específico."
     ],
     "answer": 1,
     "optionComments": [
-      "Incorreta. A forma válida depende das regras aplicáveis ao ato.",
+      "Incorreta: prova de envio não substitui assinatura ou ciência formal quando exigidas.",
       "Correta. Registro verificável permite acompanhar a tramitação.",
-      "Incorreta. O envio não equivale à confirmação do destinatário.",
-      "Incorreta. A omissão inviabiliza vinculação documental."
+      "Incorreta: o registro de expedição não comprova automaticamente a leitura ou ciência do destinatário.",
+      "Incorreta: falta de vínculo ao processo impede rastrear qual ato foi comunicado."
     ],
-    "explanation": "Registro verificável permite acompanhar a tramitação."
+    "explanation": "Mecanismo de confirmação adequado e vínculo com processo oferecem rastreabilidade, sem presumir leitura nem dispensar exigências de assinatura."
   },
   {
     "moduleId": "RED-03",
@@ -217,8 +217,8 @@ export const RED_03_QUESTIONS = [
     "concept": "Rastreabilidade exige registro adequado de origem, data, destinatário e conteúdo, sem confundir transmissão eletrônica com prova absoluta de autenticidade.",
     "trap": "Equiparar mensagem na pasta “Enviados” à certeza de leitura, aceitação ou validade formal de qualquer ato.",
     "examTip": "Diferencie envio, recebimento, autoria, integridade e forma legalmente exigida; são questões separadas.",
-    "newExample": "A unidade registra envio no sistema institucional, vincula a mensagem ao processo e solicita confirmação quando a ciência do destinatário for necessária.",
-    "challenge": "Qual a principal diferença entre mensagem eletrônica e documento eletronicamente autenticado?",
+    "newExample": "Uma assinatura digital pode ajudar a verificar autoria e integridade; isso não equivale ao evento de leitura do destinatário.",
+    "challenge": "Quais dados separam autenticidade do documento de comprovação de ciência?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -246,7 +246,7 @@ export const RED_03_QUESTIONS = [
       "Incorreta. I é verdadeira: O procedimento precisa permitir verificar a origem e a estabilidade do conteúdo.",
       "Correta. I: O procedimento precisa permitir verificar a origem e a estabilidade do conteúdo. II: O envio não demonstra necessariamente ciência. III: A exigência depende do procedimento e da legislação aplicável."
     ],
-    "explanation": "I: O procedimento precisa permitir verificar a origem e a estabilidade do conteúdo. II: O envio não demonstra necessariamente ciência. III: A exigência depende do procedimento e da legislação aplicável."
+    "explanation": "I e III tratam de elementos da autenticidade e regras do sistema; a prova de envio não equivale a confirmação de leitura."
   },
   {
     "moduleId": "RED-03",
@@ -255,8 +255,8 @@ export const RED_03_QUESTIONS = [
     "concept": "Rastreabilidade exige registro adequado de origem, data, destinatário e conteúdo, sem confundir transmissão eletrônica com prova absoluta de autenticidade.",
     "trap": "Equiparar mensagem na pasta “Enviados” à certeza de leitura, aceitação ou validade formal de qualquer ato.",
     "examTip": "Diferencie envio, recebimento, autoria, integridade e forma legalmente exigida; são questões separadas.",
-    "newExample": "A unidade registra envio no sistema institucional, vincula a mensagem ao processo e solicita confirmação quando a ciência do destinatário for necessária.",
-    "challenge": "Qual a principal diferença entre mensagem eletrônica e documento eletronicamente autenticado?",
+    "newExample": "O e-mail de uma decisão é anexado ao processo com seus metadados, obedecendo às regras de guarda aplicáveis.",
+    "challenge": "Explique por que apagar registros de envio compromete rastreabilidade.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -271,18 +271,18 @@ export const RED_03_QUESTIONS = [
     "stem": "Uma unidade deseja rastrear decisão enviada eletronicamente. Todas as medidas ajudam, EXCETO:",
     "options": [
       "Registrar o encaminhamento no sistema autorizado.",
-      "Apagar os comprovantes de envio para economizar espaço sem observar regras de guarda.",
+      "Eliminar do processo eletrônico os comprovantes de envio após o fechamento da caixa postal, sem verificar prazo de guarda.",
       "Verificar a forma de assinatura exigida para o ato concreto.",
       "Referenciar o número do processo na mensagem."
     ],
     "answer": 1,
     "optionComments": [
       "Não atende ao EXCETO: O histórico permite acompanhar o trâmite.",
-      "Correta como exceção: Destruir registros necessários compromete rastreabilidade.",
+      "Correta como EXCETO: excluir registros de expedição sem respeitar guarda e preservação documental prejudica a prova do ato.",
       "Não atende ao EXCETO: A validade formal pode depender da espécie documental.",
       "Não atende ao EXCETO: Vincula a comunicação ao expediente."
     ],
-    "explanation": "A exceção é falsa, apesar de as demais condutas estarem corretas. Destruir registros necessários compromete rastreabilidade."
+    "explanation": "Eliminar comprovantes sem observar guarda e rastreabilidade inviabiliza verificar o ato eletrônico praticado."
   },
   {
     "moduleId": "RED-03",
@@ -291,8 +291,8 @@ export const RED_03_QUESTIONS = [
     "concept": "Solicitações, convites e respostas institucionais devem explicitar finalidade, público, providência, tempo e canal de contato.",
     "trap": "Escrever “você está convidado” sem informar quando e onde ocorrerá o evento.",
     "examTip": "Confira cinco dados em convite ou solicitação: objeto, público, prazo/data, canal/local e providência.",
-    "newExample": "Convite: “A Comissão de Acessibilidade convida para reunião em 12 de maio, às 14h, na sala 3. Confirme participação até 10 de maio pelo endereço indicado”.",
-    "challenge": "Que estrutura deve ter uma resposta a pedido administrativo?",
+    "newExample": "Convite traz 23 de agosto, 14h, sala virtual e link de acesso; participantes conseguem organizar a presença.",
+    "challenge": "Qual informação adicional seria necessária se o evento também fosse presencial?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -311,10 +311,10 @@ export const RED_03_QUESTIONS = [
     ],
     "answer": 0,
     "optionComments": [
-      "Correta. A informação prática é essencial ao destinatário.",
-      "Incorreta. A informação prática é essencial ao destinatário."
+      "Correta: Convite sem local físico, link ou modo de acesso pode impedir a participação de quem recebeu a mensagem.",
+      "Incorreta: Marcar ERRADO ignoraria que a pessoa precisa conhecer local, link ou outra forma de participação para comparecer."
     ],
-    "explanation": "A informação prática é essencial ao destinatário."
+    "explanation": "Convite sem local físico, link ou modo de acesso pode impedir a participação de quem recebeu a mensagem."
   },
   {
     "moduleId": "RED-03",
@@ -323,8 +323,8 @@ export const RED_03_QUESTIONS = [
     "concept": "Solicitações, convites e respostas institucionais devem explicitar finalidade, público, providência, tempo e canal de contato.",
     "trap": "Escrever “você está convidado” sem informar quando e onde ocorrerá o evento.",
     "examTip": "Confira cinco dados em convite ou solicitação: objeto, público, prazo/data, canal/local e providência.",
-    "newExample": "Convite: “A Comissão de Acessibilidade convida para reunião em 12 de maio, às 14h, na sala 3. Confirme participação até 10 de maio pelo endereço indicado”.",
-    "challenge": "Que estrutura deve ter uma resposta a pedido administrativo?",
+    "newExample": "Pedido completo: enviar ficha de inscrição até 8 de julho pela plataforma institucional de protocolo.",
+    "challenge": "Substitua expressões vagas por objeto, prazo e canal previamente confirmados.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -339,18 +339,18 @@ export const RED_03_QUESTIONS = [
     "stem": "Complete a solicitação: “Solicitamos o envio ___ até ___, pelo ___”. Qual sequência torna a orientação operacional?",
     "options": [
       "dos comprovantes de matrícula; 18 de agosto; sistema de protocolo.",
-      "de algumas coisas; oportunamente; meio mais simples.",
-      "do que for possível; quando puder; qualquer contato.",
-      "de novidades importantes; tão logo; lugar de costume."
+      "dos documentos pendentes; durante o mês; pelo contato institucional habitual.",
+      "da documentação complementar; assim que possível; pelo e-mail de qualquer servidor.",
+      "do que falta ao processo; no prazo regulamentar; pelo canal que a unidade indicar depois."
     ],
     "answer": 0,
     "optionComments": [
       "Correta. Objeto, prazo e meio ficam claramente identificados.",
-      "Incorreta. As três referências são vagas.",
-      "Incorreta. Não define conteúdo, data nem canal.",
-      "Incorreta. O destinatário não conhece uma providência verificável."
+      "Incorreta: não identifica o prazo calendário nem o canal de envio que o interessado precisa seguir.",
+      "Incorreta: objeto genérico e canal indiscriminado prejudicam o protocolo e a rastreabilidade.",
+      "Incorreta: deixa indefinidos tanto os documentos quanto o canal no momento em que orienta o usuário."
     ],
-    "explanation": "Objeto, prazo e meio ficam claramente identificados."
+    "explanation": "A primeira sequência identifica objeto solicitado, prazo verificável e canal operacional para protocolo."
   },
   {
     "moduleId": "RED-03",
@@ -359,8 +359,8 @@ export const RED_03_QUESTIONS = [
     "concept": "Solicitações, convites e respostas institucionais devem explicitar finalidade, público, providência, tempo e canal de contato.",
     "trap": "Escrever “você está convidado” sem informar quando e onde ocorrerá o evento.",
     "examTip": "Confira cinco dados em convite ou solicitação: objeto, público, prazo/data, canal/local e providência.",
-    "newExample": "Convite: “A Comissão de Acessibilidade convida para reunião em 12 de maio, às 14h, na sala 3. Confirme participação até 10 de maio pelo endereço indicado”.",
-    "challenge": "Que estrutura deve ter uma resposta a pedido administrativo?",
+    "newExample": "Uma resposta informa que o pedido foi deferido e indica a providência seguinte, não apenas uma saudação cordial.",
+    "challenge": "Que elemento é indispensável ao responder uma pergunta objetiva do interessado?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -388,7 +388,7 @@ export const RED_03_QUESTIONS = [
       "Incorreta. I é verdadeira: Data e horário orientam a participação. II é falsa: Cortesia não substitui resposta pertinente.",
       "Incorreta. I é verdadeira: Data e horário orientam a participação."
     ],
-    "explanation": "I: Data e horário orientam a participação. II: Cortesia não substitui resposta pertinente. III: Esses dados tornam a instrução executável."
+    "explanation": "I e III indicam informação necessária a convite e solicitação; cordialidade não supre resposta ao pedido concreto."
   },
   {
     "moduleId": "RED-03",
@@ -397,8 +397,8 @@ export const RED_03_QUESTIONS = [
     "concept": "Solicitações, convites e respostas institucionais devem explicitar finalidade, público, providência, tempo e canal de contato.",
     "trap": "Escrever “você está convidado” sem informar quando e onde ocorrerá o evento.",
     "examTip": "Confira cinco dados em convite ou solicitação: objeto, público, prazo/data, canal/local e providência.",
-    "newExample": "Convite: “A Comissão de Acessibilidade convida para reunião em 12 de maio, às 14h, na sala 3. Confirme participação até 10 de maio pelo endereço indicado”.",
-    "challenge": "Que estrutura deve ter uma resposta a pedido administrativo?",
+    "newExample": "Convite confirma dia, horário, endereço e orientação de presença para servidores de uma unidade.",
+    "challenge": "Elabore convite que inclua acesso remoto para participantes de outra cidade.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -415,16 +415,16 @@ export const RED_03_QUESTIONS = [
       "Contato ou procedimento de confirmação, quando exigido.",
       "Horário e data confirmados para o encontro.",
       "Local físico ou link de acesso pertinente.",
-      "Elogios ao organizador como informação principal, sem informar o evento."
+      "Informar apenas o tema da reunião e encaminhar data, hora e local somente a quem solicitar."
     ],
     "answer": 3,
     "optionComments": [
       "Não atende ao EXCETO: Viabiliza a confirmação conforme as regras do evento.",
       "Não atende ao EXCETO: Permitem planejamento de presença.",
       "Não atende ao EXCETO: Indica como participar.",
-      "Correta como exceção: Promoção pessoal não substitui dados do convite."
+      "Correta como EXCETO: a omissão dos dados essenciais dificulta a participação dos destinatários convidados."
     ],
-    "explanation": "A exceção é falsa, apesar de as demais condutas estarem corretas. Promoção pessoal não substitui dados do convite."
+    "explanation": "Elogios ao organizador não substituem os dados essenciais de um convite, como data, horário e forma de participação."
   },
   {
     "moduleId": "RED-03",
@@ -433,8 +433,8 @@ export const RED_03_QUESTIONS = [
     "concept": "Publicidade do ato e proteção de dados exigem comunicação transparente com exposição proporcional de informações pessoais.",
     "trap": "Confundir transparência de serviço público com exposição ilimitada de dados pessoais em cópias coletivas.",
     "examTip": "Avalie necessidade, finalidade, destinatário e meio de envio antes de compartilhar identificadores pessoais.",
-    "newExample": "Ao avisar centenas de alunos sobre mudança de horário, o setor informa a nova data e canal, sem anexar lista de CPF e telefone de cada aluno.",
-    "challenge": "Dado pessoal pode ser compartilhado quando necessário?",
+    "newExample": "Para anunciar novo horário, bastam a unidade, a data de vigência e o canal de atendimento, sem lista de CPFs.",
+    "challenge": "Identifique dados pessoais que não são necessários para simples aviso público.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -453,10 +453,10 @@ export const RED_03_QUESTIONS = [
     ],
     "answer": 0,
     "optionComments": [
-      "Correta. A finalidade do aviso pode ser atingida sem esses dados.",
-      "Incorreta. A finalidade do aviso pode ser atingida sem esses dados."
+      "Correta: A divulgação de horário não exige revelar CPF ou cadastro de usuários; minimização de dados atende à finalidade da comunicação.",
+      "Incorreta: Marcar ERRADO transformaria divulgação de horário em justificativa para exposição de cadastro pessoal desnecessário."
     ],
-    "explanation": "A finalidade do aviso pode ser atingida sem esses dados."
+    "explanation": "A divulgação de horário não exige revelar CPF ou cadastro de usuários; minimização de dados atende à finalidade da comunicação."
   },
   {
     "moduleId": "RED-03",
@@ -465,8 +465,8 @@ export const RED_03_QUESTIONS = [
     "concept": "Publicidade do ato e proteção de dados exigem comunicação transparente com exposição proporcional de informações pessoais.",
     "trap": "Confundir transparência de serviço público com exposição ilimitada de dados pessoais em cópias coletivas.",
     "examTip": "Avalie necessidade, finalidade, destinatário e meio de envio antes de compartilhar identificadores pessoais.",
-    "newExample": "Ao avisar centenas de alunos sobre mudança de horário, o setor informa a nova data e canal, sem anexar lista de CPF e telefone de cada aluno.",
-    "challenge": "Dado pessoal pode ser compartilhado quando necessário?",
+    "newExample": "Uma circular a todos os servidores resume alterações de plantão sem anexar planilha com endereços pessoais.",
+    "challenge": "Escolha entre distribuição ampla e lista restrita segundo finalidade de cada arquivo.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -480,19 +480,19 @@ export const RED_03_QUESTIONS = [
     "difficulty": "media",
     "stem": "Uma secretaria enviará aviso coletivo. Qual conduta melhor observa adequação de dados?",
     "options": [
-      "Anexar dados cadastrais completos de terceiros para tornar o aviso mais convincente.",
-      "Usar todos os endereços e dados internos em cópia aberta sem avaliar a necessidade.",
-      "Omitir o novo horário, mas divulgar nomes e documentos dos usuários.",
+      "Incluir no aviso público a lista nominal completa dos usuários afetados, apesar de bastar indicar o novo horário.",
+      "Enviar o aviso com todos os endereços particulares visíveis no campo “Para”, sem avaliar necessidade de exposição.",
+      "Detalhar o novo horário somente em documento restrito, enquanto o comunicado público informa dados pessoais.",
       "Informar horário e canal de atendimento sem incluir listas pessoais desnecessárias."
     ],
     "answer": 3,
     "optionComments": [
-      "Incorreta. O excesso não se justifica por simples mudança de horário.",
-      "Incorreta. A exposição coletiva pode ser desnecessária e indevida.",
-      "Incorreta. O texto não cumpre sua finalidade principal e expõe dados.",
+      "Incorreta: a lista nominal não é necessária para comunicar um horário geral de atendimento.",
+      "Incorreta: a exposição de contatos pessoais sem necessidade não se justifica por envio coletivo.",
+      "Incorreta: omite informação pública essencial e divulga dados pessoais irrelevantes.",
       "Correta. Os dados comunicados são proporcionais à finalidade."
     ],
-    "explanation": "Os dados comunicados são proporcionais à finalidade."
+    "explanation": "É possível anunciar horário e canal sem expor listas pessoais desnecessárias ao público da secretaria."
   },
   {
     "moduleId": "RED-03",
@@ -501,8 +501,8 @@ export const RED_03_QUESTIONS = [
     "concept": "Publicidade do ato e proteção de dados exigem comunicação transparente com exposição proporcional de informações pessoais.",
     "trap": "Confundir transparência de serviço público com exposição ilimitada de dados pessoais em cópias coletivas.",
     "examTip": "Avalie necessidade, finalidade, destinatário e meio de envio antes de compartilhar identificadores pessoais.",
-    "newExample": "Ao avisar centenas de alunos sobre mudança de horário, o setor informa a nova data e canal, sem anexar lista de CPF e telefone de cada aluno.",
-    "challenge": "Dado pessoal pode ser compartilhado quando necessário?",
+    "newExample": "Antes de encaminhar documento individual, a equipe confere autorização, destinatário e conteúdo de cada anexo.",
+    "challenge": "Por que uma informação no poder da administração não é automaticamente pública?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -530,7 +530,7 @@ export const RED_03_QUESTIONS = [
       "Correta. I: A comunicação deve respeitar finalidade e base legal. II: Há limites legais e institucionais ao tratamento. III: O endereçamento errado pode expor dados desnecessariamente.",
       "Incorreta. I é verdadeira: A comunicação deve respeitar finalidade e base legal. III é verdadeira: O endereçamento errado pode expor dados desnecessariamente."
     ],
-    "explanation": "I: A comunicação deve respeitar finalidade e base legal. II: Há limites legais e institucionais ao tratamento. III: O endereçamento errado pode expor dados desnecessariamente."
+    "explanation": "Publicidade não libera todo dado pessoal; conferência de destinatários e base legal é necessária antes de compartilhar informações."
   },
   {
     "moduleId": "RED-03",
@@ -539,8 +539,8 @@ export const RED_03_QUESTIONS = [
     "concept": "Publicidade do ato e proteção de dados exigem comunicação transparente com exposição proporcional de informações pessoais.",
     "trap": "Confundir transparência de serviço público com exposição ilimitada de dados pessoais em cópias coletivas.",
     "examTip": "Avalie necessidade, finalidade, destinatário e meio de envio antes de compartilhar identificadores pessoais.",
-    "newExample": "Ao avisar centenas de alunos sobre mudança de horário, o setor informa a nova data e canal, sem anexar lista de CPF e telefone de cada aluno.",
-    "challenge": "Dado pessoal pode ser compartilhado quando necessário?",
+    "newExample": "Aviso público divulga novo agendamento sem expor arquivos cadastrais dos usuários do serviço.",
+    "challenge": "Reduza uma lista de divulgação para incluir apenas dados necessários à finalidade.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -555,18 +555,18 @@ export const RED_03_QUESTIONS = [
     "stem": "Ao publicar aviso de rotina e proteger dados pessoais, tudo é adequado, EXCETO:",
     "options": [
       "Remover de anexo dados pessoais irrelevantes à finalidade.",
-      "Publicar lista de documentos pessoais de todos os usuários para comprovar a importância do aviso.",
+      "Anexar publicamente a planilha completa de CPFs para facilitar a identificação dos interessados, sem necessidade demonstrada.",
       "Verificar destinatários e autorizações antes de compartilhar material individual.",
       "Divulgar as alterações de horário que interessam ao público."
     ],
     "answer": 1,
     "optionComments": [
       "Não atende ao EXCETO: Reduz divulgação desnecessária.",
-      "Correta como exceção: A divulgação não se justifica pela finalidade.",
+      "Correta como EXCETO: disponibilizar cadastros pessoais sem necessidade viola o princípio de adequação à finalidade.",
       "Não atende ao EXCETO: A conferência protege a informação.",
       "Não atende ao EXCETO: O serviço exige transparência sobre funcionamento."
     ],
-    "explanation": "A exceção é falsa, apesar de as demais condutas estarem corretas. A divulgação não se justifica pela finalidade."
+    "explanation": "A divulgação desnecessária de documentos pessoais não se justifica para dar credibilidade a simples aviso de rotina."
   },
   {
     "moduleId": "RED-03",
@@ -575,8 +575,8 @@ export const RED_03_QUESTIONS = [
     "concept": "Revisar e-mail institucional requer tom respeitoso, concisão informativa, assunto específico e organização do pedido.",
     "trap": "Confundir uma mensagem urgente com autorização para impor tom hostil ou omitir o prazo real.",
     "examTip": "Substitua exclamação e adjetivo por instrução precisa, preservando a cortesia.",
-    "newExample": "Antes: “URGENTÍSSIMO!!! Mande isso pra gente AGORA!!!” Depois: “Solicitamos o envio do documento até 10 de junho, às 17h, pelo portal institucional”.",
-    "challenge": "Por que o texto “estamos muito felizes e honrados...” pode ser excessivo?",
+    "newExample": "“URGENTE!!!” não informa que a entrega é até às 17h de 3 de abril no sistema indicado.",
+    "challenge": "Transforme urgência expressiva em instrução com prazo e canal.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -595,10 +595,10 @@ export const RED_03_QUESTIONS = [
     ],
     "answer": 1,
     "optionComments": [
-      "Incorreta. Urgência deve ser comunicada por prazo e instrução precisos.",
-      "Correta. Urgência deve ser comunicada por prazo e instrução precisos."
+      "Incorreta: Marcar CERTO substituiria informação operacional de prazo por sinais de pontuação enfáticos.",
+      "Correta: Exclamações não informam prazo, destinatário ou canal; o e-mail urgente deve indicar a providência e seu limite temporal."
     ],
-    "explanation": "Urgência deve ser comunicada por prazo e instrução precisos."
+    "explanation": "Exclamações não informam prazo, destinatário ou canal; o e-mail urgente deve indicar a providência e seu limite temporal."
   },
   {
     "moduleId": "RED-03",
@@ -607,8 +607,8 @@ export const RED_03_QUESTIONS = [
     "concept": "Revisar e-mail institucional requer tom respeitoso, concisão informativa, assunto específico e organização do pedido.",
     "trap": "Confundir uma mensagem urgente com autorização para impor tom hostil ou omitir o prazo real.",
     "examTip": "Substitua exclamação e adjetivo por instrução precisa, preservando a cortesia.",
-    "newExample": "Antes: “URGENTÍSSIMO!!! Mande isso pra gente AGORA!!!” Depois: “Solicitamos o envio do documento até 10 de junho, às 17h, pelo portal institucional”.",
-    "challenge": "Por que o texto “estamos muito felizes e honrados...” pode ser excessivo?",
+    "newExample": "Solicitação objetiva: enviar a certidão atualizada até 10h de 15 de setembro pelo protocolo eletrônico.",
+    "challenge": "Melhore um pedido agressivo sem retirar prazo, objeto ou destinatário.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -622,19 +622,19 @@ export const RED_03_QUESTIONS = [
     "difficulty": "media",
     "stem": "Qual revisão melhora o tom e preserva a finalidade da solicitação?",
     "options": [
-      "Sua demanda é banal e não merece explicação.",
-      "Estamos muito emocionados; faremos algo por você algum dia.",
+      "Solicitamos o envio dos documentos por qualquer meio até o final do expediente, sem identificar a data.",
+      "Informamos que os documentos poderão ser enviados pelo sistema quando cada setor indicar prazo posteriormente.",
       "Solicitamos o envio dos documentos pelo sistema até 17h de 10 de junho.",
-      "Mande logo tudo, porque já estamos irritados."
+      "O envio da documentação deve ocorrer por e-mail ou sistema, conforme disponibilidade de servidores."
     ],
     "answer": 2,
     "optionComments": [
-      "Incorreta. É pessoal e desrespeitosa.",
-      "Incorreta. Não traz providência verificável.",
+      "Incorreta: deixa sem data-limite a instrução do destinatário.",
+      "Incorreta: adia o prazo e não produz orientação executável no momento do envio.",
       "Correta. Mantém pedido, canal e prazo em tom respeitoso.",
-      "Incorreta. Introduz hostilidade e não identifica informações suficientes."
+      "Incorreta: fornece canais alternativos sem demonstrar que ambos são válidos para o procedimento."
     ],
-    "explanation": "Mantém pedido, canal e prazo em tom respeitoso."
+    "explanation": "A redação explicita documentos, meio e momento-limite de entrega, usando tom profissional."
   },
   {
     "moduleId": "RED-03",
@@ -643,8 +643,8 @@ export const RED_03_QUESTIONS = [
     "concept": "Revisar e-mail institucional requer tom respeitoso, concisão informativa, assunto específico e organização do pedido.",
     "trap": "Confundir uma mensagem urgente com autorização para impor tom hostil ou omitir o prazo real.",
     "examTip": "Substitua exclamação e adjetivo por instrução precisa, preservando a cortesia.",
-    "newExample": "Antes: “URGENTÍSSIMO!!! Mande isso pra gente AGORA!!!” Depois: “Solicitamos o envio do documento até 10 de junho, às 17h, pelo portal institucional”.",
-    "challenge": "Por que o texto “estamos muito felizes e honrados...” pode ser excessivo?",
+    "newExample": "Parágrafos de duas a três frases separam motivo, ação e prazo; caixa alta não substitui essa organização.",
+    "challenge": "Divida instrução extensa em duas partes sem mudar o conteúdo.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -672,7 +672,7 @@ export const RED_03_QUESTIONS = [
       "Incorreta. I é verdadeira: O destinatário identifica a matéria.",
       "Incorreta. III é verdadeira: Organização ajuda a localizar providências."
     ],
-    "explanation": "I: O destinatário identifica a matéria. II: Destaque gráfico não corrige informação vaga. III: Organização ajuda a localizar providências."
+    "explanation": "Assunto específico e organização em parágrafos favorecem a leitura; caixa alta integral não torna instruções precisas."
   },
   {
     "moduleId": "RED-03",
@@ -681,8 +681,8 @@ export const RED_03_QUESTIONS = [
     "concept": "Revisar e-mail institucional requer tom respeitoso, concisão informativa, assunto específico e organização do pedido.",
     "trap": "Confundir uma mensagem urgente com autorização para impor tom hostil ou omitir o prazo real.",
     "examTip": "Substitua exclamação e adjetivo por instrução precisa, preservando a cortesia.",
-    "newExample": "Antes: “URGENTÍSSIMO!!! Mande isso pra gente AGORA!!!” Depois: “Solicitamos o envio do documento até 10 de junho, às 17h, pelo portal institucional”.",
-    "challenge": "Por que o texto “estamos muito felizes e honrados...” pode ser excessivo?",
+    "newExample": "O e-mail omite o prazo para parecer cordial, mas deixa o interessado sem saber quando entregar o documento.",
+    "challenge": "Reescreva o aviso conservando o prazo e eliminando exclamações.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -708,7 +708,7 @@ export const RED_03_QUESTIONS = [
       "Não atende ao EXCETO: Reduz a agressividade de apresentação.",
       "Correta como exceção: O prazo é informação essencial ao destinatário."
     ],
-    "explanation": "A exceção é falsa, apesar de as demais condutas estarem corretas. O prazo é informação essencial ao destinatário."
+    "explanation": "Retirar prazo confirmado elimina informação essencial para cumprir a solicitação; cortesia não equivale a omissão."
   },
   {
     "moduleId": "RED-03",
@@ -717,8 +717,8 @@ export const RED_03_QUESTIONS = [
     "concept": "Reescrever mensagens oficiais requer preservar fatos e efeitos jurídicos enquanto se aprimoram clareza, precisão e impessoalidade.",
     "trap": "Trocar poderá por deverá ou todos por alguns sob o pretexto de tornar a frase mais direta.",
     "examTip": "Compare destinatário, condições, tempo, obrigação, possibilidade e alcance dos quantificadores.",
-    "newExample": "Original: “O candidato poderá solicitar revisão até 4 de maio”. Reescrita fiel: “É facultado ao candidato solicitar revisão até 4 de maio”, se esse for o regime aplicável.",
-    "challenge": "Uma reescrita mais curta pode ser semanticamente errada?",
+    "newExample": "“Os interessados poderão solicitar revisão” permite a escolha; “deverão solicitar” imporia obrigação nova.",
+    "challenge": "Aponte qual alteração de verbo deslocaria faculdade para dever.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -737,10 +737,10 @@ export const RED_03_QUESTIONS = [
     ],
     "answer": 1,
     "optionComments": [
-      "Incorreta. Faculdade/possibilidade e obrigação são modalidades distintas.",
-      "Correta. Faculdade/possibilidade e obrigação são modalidades distintas."
+      "Incorreta: Marcar CERTO confundiria possibilidade de requerer com obrigação de requerer, mudando a natureza da orientação.",
+      "Correta: Poderá indica faculdade ou possibilidade, ao passo que deverá impõe dever; os enunciados não são modalmente equivalentes."
     ],
-    "explanation": "Faculdade/possibilidade e obrigação são modalidades distintas."
+    "explanation": "Poderá indica faculdade ou possibilidade, ao passo que deverá impõe dever; os enunciados não são modalmente equivalentes."
   },
   {
     "moduleId": "RED-03",
@@ -749,8 +749,8 @@ export const RED_03_QUESTIONS = [
     "concept": "Reescrever mensagens oficiais requer preservar fatos e efeitos jurídicos enquanto se aprimoram clareza, precisão e impessoalidade.",
     "trap": "Trocar poderá por deverá ou todos por alguns sob o pretexto de tornar a frase mais direta.",
     "examTip": "Compare destinatário, condições, tempo, obrigação, possibilidade e alcance dos quantificadores.",
-    "newExample": "Original: “O candidato poderá solicitar revisão até 4 de maio”. Reescrita fiel: “É facultado ao candidato solicitar revisão até 4 de maio”, se esse for o regime aplicável.",
-    "challenge": "Uma reescrita mais curta pode ser semanticamente errada?",
+    "newExample": "A expressão “somente candidatos habilitados” exclui os não habilitados; a restrição não pode desaparecer na paráfrase.",
+    "challenge": "Formule frase equivalente sem ampliar o universo de convocados.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -764,19 +764,19 @@ export const RED_03_QUESTIONS = [
     "difficulty": "media",
     "stem": "Qual reescrita mantém o conteúdo de “Somente os aprovados na etapa 1 serão convocados”?",
     "options": [
-      "Qualquer cidadão pode ser convocado independentemente da etapa.",
+      "A convocação poderá alcançar qualquer inscrito, inclusive sem aprovação na etapa 1.",
       "A convocação será restrita aos aprovados na etapa 1.",
-      "Todos os inscritos serão convocados, tenham sido aprovados ou não.",
-      "Nenhum aprovado será chamado."
+      "Serão chamados os inscritos da etapa 1, independentemente do resultado nela obtido.",
+      "Somente candidatos aprovados poderão participar do certame, sem que haja previsão de convocação."
     ],
     "answer": 1,
     "optionComments": [
-      "Incorreta. Elimina a condição prevista no texto.",
+      "Incorreta: amplia o conjunto convocável para não aprovados.",
       "Correta. Restringe o mesmo conjunto sem ampliar a convocação.",
-      "Incorreta. Amplia o conjunto além dos aprovados.",
-      "Incorreta. Nega a convocação prevista."
+      "Incorreta: retira a exigência de aprovação indicada pela expressão somente.",
+      "Incorreta: muda convocação efetiva em possibilidade geral de participação."
     ],
-    "explanation": "Restringe o mesmo conjunto sem ampliar a convocação."
+    "explanation": "A convocação fica restrita aos aprovados na etapa 1; o advérbio somente mantém o limite do conjunto convocável."
   },
   {
     "moduleId": "RED-03",
@@ -785,8 +785,8 @@ export const RED_03_QUESTIONS = [
     "concept": "Reescrever mensagens oficiais requer preservar fatos e efeitos jurídicos enquanto se aprimoram clareza, precisão e impessoalidade.",
     "trap": "Trocar poderá por deverá ou todos por alguns sob o pretexto de tornar a frase mais direta.",
     "examTip": "Compare destinatário, condições, tempo, obrigação, possibilidade e alcance dos quantificadores.",
-    "newExample": "Original: “O candidato poderá solicitar revisão até 4 de maio”. Reescrita fiel: “É facultado ao candidato solicitar revisão até 4 de maio”, se esse for o regime aplicável.",
-    "challenge": "Uma reescrita mais curta pode ser semanticamente errada?",
+    "newExample": "“Eles encaminharão o recurso” é ambíguo após citar dois grupos; nomear a comissão elimina a dúvida.",
+    "challenge": "Separe correção de concordância de preservação de sentido em uma reescrita.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -814,7 +814,7 @@ export const RED_03_QUESTIONS = [
       "Incorreta. I é verdadeira: Mudar a modalidade altera o sentido. III é verdadeira: A referência precisa evita interpretação concorrente.",
       "Incorreta. III é verdadeira: A referência precisa evita interpretação concorrente."
     ],
-    "explanation": "I: Mudar a modalidade altera o sentido. II: Correção formal não comprova equivalência semântica. III: A referência precisa evita interpretação concorrente."
+    "explanation": "I diferencia faculdade de obrigação; II confunde correção gramatical com equivalência; III exige referente claro."
   },
   {
     "moduleId": "RED-03",
@@ -823,8 +823,8 @@ export const RED_03_QUESTIONS = [
     "concept": "Reescrever mensagens oficiais requer preservar fatos e efeitos jurídicos enquanto se aprimoram clareza, precisão e impessoalidade.",
     "trap": "Trocar poderá por deverá ou todos por alguns sob o pretexto de tornar a frase mais direta.",
     "examTip": "Compare destinatário, condições, tempo, obrigação, possibilidade e alcance dos quantificadores.",
-    "newExample": "Original: “O candidato poderá solicitar revisão até 4 de maio”. Reescrita fiel: “É facultado ao candidato solicitar revisão até 4 de maio”, se esse for o regime aplicável.",
-    "challenge": "Uma reescrita mais curta pode ser semanticamente errada?",
+    "newExample": "“Poderão optar pelo canal presencial” não equivale a “deverão comparecer presencialmente”.",
+    "challenge": "Explique por que revisão de tom não autoriza criar obrigação.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -850,7 +850,7 @@ export const RED_03_QUESTIONS = [
       "Não atende ao EXCETO: A divisão pode melhorar clareza sem alterar os dados.",
       "Não atende ao EXCETO: O referente e a condição permanecem iguais."
     ],
-    "explanation": "A exceção é falsa, apesar de as demais condutas estarem corretas. A modificação cria obrigação não presente."
+    "explanation": "Trocar poderão por serão obrigados impõe dever não autorizado no enunciado de origem."
   },
   {
     "moduleId": "RED-03",
@@ -859,8 +859,8 @@ export const RED_03_QUESTIONS = [
     "concept": "Casos integradores exigem selecionar o gênero apropriado, conferir registros, redigir com clareza e acompanhar a tramitação.",
     "trap": "Escolher meio eletrônico por comodidade e ignorar forma exigida, dados pessoais, destinatário ou protocolo.",
     "examTip": "Mapeie o fluxo: receber, registrar, consultar unidade, decidir ou informar, responder e arquivar.",
-    "newExample": "Uma secretaria protocola pedido, solicita por expediente à unidade competente os dados necessários e envia resposta ao cidadão, com referência ao processo e anexos pertinentes.",
-    "challenge": "Quais elementos devem constar no encerramento de um caso de protocolo?",
+    "newExample": "Resposta formal usa o canal de ciência exigido pelo procedimento, e não qualquer e-mail pessoal disponível.",
+    "challenge": "Identifique um caso em que protocolo eletrônico e caixa postal não sejam alternativas equivalentes.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -879,10 +879,10 @@ export const RED_03_QUESTIONS = [
     ],
     "answer": 0,
     "optionComments": [
-      "Correta. O canal não substitui requisitos de forma ou competência.",
-      "Incorreta. O canal não substitui requisitos de forma ou competência."
+      "Correta: A seleção do meio de resposta depende do procedimento aplicável, do tipo de ato e do destinatário.",
+      "Incorreta: Marcar ERRADO afastaria as regras próprias do procedimento na escolha do canal de resposta e de ciência."
     ],
-    "explanation": "O canal não substitui requisitos de forma ou competência."
+    "explanation": "A seleção do meio de resposta depende do procedimento aplicável, do tipo de ato e do destinatário."
   },
   {
     "moduleId": "RED-03",
@@ -891,8 +891,8 @@ export const RED_03_QUESTIONS = [
     "concept": "Casos integradores exigem selecionar o gênero apropriado, conferir registros, redigir com clareza e acompanhar a tramitação.",
     "trap": "Escolher meio eletrônico por comodidade e ignorar forma exigida, dados pessoais, destinatário ou protocolo.",
     "examTip": "Mapeie o fluxo: receber, registrar, consultar unidade, decidir ou informar, responder e arquivar.",
-    "newExample": "Uma secretaria protocola pedido, solicita por expediente à unidade competente os dados necessários e envia resposta ao cidadão, com referência ao processo e anexos pertinentes.",
-    "challenge": "Quais elementos devem constar no encerramento de um caso de protocolo?",
+    "newExample": "Um recurso é encaminhado ao setor competente com número de referência, decisão e retorno registrado ao interessado.",
+    "challenge": "Organize três etapas de fluxo para evitar perda de rastreabilidade.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -907,18 +907,18 @@ export const RED_03_QUESTIONS = [
     "stem": "Uma solicitação registrada precisa de resposta de outro setor. Qual fluxo é mais adequado?",
     "options": [
       "Referenciar o protocolo, encaminhar à unidade competente e comunicar o resultado ao interessado.",
-      "Enviar pedido para qualquer endereço sem registrar o número do processo.",
-      "Publicar indiscriminadamente os dados pessoais do requerente para acelerar o caso.",
-      "Tomar a falta de resposta como aprovação automática em toda hipótese."
+      "Encaminhar a solicitação com identificação do interessado, mas sem referência ao protocolo anterior.",
+      "Remeter a cópia integral com dados pessoais a todos os setores envolvidos, mesmo sem necessidade de acesso.",
+      "Registrar que não houve resposta e concluir pelo deferimento, sem localizar regra expressa para o procedimento."
     ],
     "answer": 0,
     "optionComments": [
       "Correta. A sequência preserva identificação, competência e resposta.",
-      "Incorreta. O procedimento perde rastreabilidade e destinação adequada.",
-      "Incorreta. A divulgação excessiva não decorre da necessidade de tramitação.",
-      "Incorreta. Efeitos do silêncio dependem de norma aplicável, não de regra universal."
+      "Incorreta: identifica a pessoa, mas perde o vínculo objetivo entre pedido e resposta.",
+      "Incorreta: distribuição indiscriminada de dados não é necessária para encaminhar ao setor competente.",
+      "Incorreta: silêncio não significa deferimento universal; dependeria de previsão normativa específica."
     ],
-    "explanation": "A sequência preserva identificação, competência e resposta."
+    "explanation": "Vincular a resposta ao protocolo, encaminhar a unidade competente e informar interessado preserva rastreabilidade."
   },
   {
     "moduleId": "RED-03",
@@ -927,8 +927,8 @@ export const RED_03_QUESTIONS = [
     "concept": "Casos integradores exigem selecionar o gênero apropriado, conferir registros, redigir com clareza e acompanhar a tramitação.",
     "trap": "Escolher meio eletrônico por comodidade e ignorar forma exigida, dados pessoais, destinatário ou protocolo.",
     "examTip": "Mapeie o fluxo: receber, registrar, consultar unidade, decidir ou informar, responder e arquivar.",
-    "newExample": "Uma secretaria protocola pedido, solicita por expediente à unidade competente os dados necessários e envia resposta ao cidadão, com referência ao processo e anexos pertinentes.",
-    "challenge": "Quais elementos devem constar no encerramento de um caso de protocolo?",
+    "newExample": "Uma resposta tardia não significa aprovação automática do recurso salvo norma específica que determine a consequência.",
+    "challenge": "Por que não se deve generalizar efeitos do silêncio administrativo?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -956,7 +956,7 @@ export const RED_03_QUESTIONS = [
       "Incorreta. III é verdadeira: O encaminhamento correto integra a boa gestão documental.",
       "Correta. A referência favorece rastreabilidade. Seus efeitos dependem da disciplina específica. O encaminhamento correto integra a boa gestão documental."
     ],
-    "explanation": "I: A referência favorece rastreabilidade. II: Seus efeitos dependem da disciplina específica. III: O encaminhamento correto integra a boa gestão documental."
+    "explanation": "I e III descrevem identificação e competência; silêncio administrativo não significa aprovação universal."
   },
   {
     "moduleId": "RED-03",
@@ -965,8 +965,8 @@ export const RED_03_QUESTIONS = [
     "concept": "Casos integradores exigem selecionar o gênero apropriado, conferir registros, redigir com clareza e acompanhar a tramitação.",
     "trap": "Escolher meio eletrônico por comodidade e ignorar forma exigida, dados pessoais, destinatário ou protocolo.",
     "examTip": "Mapeie o fluxo: receber, registrar, consultar unidade, decidir ou informar, responder e arquivar.",
-    "newExample": "Uma secretaria protocola pedido, solicita por expediente à unidade competente os dados necessários e envia resposta ao cidadão, com referência ao processo e anexos pertinentes.",
-    "challenge": "Quais elementos devem constar no encerramento de um caso de protocolo?",
+    "newExample": "Protocolo recebe pendência, unidade competente responde e o interessado é informado pelo canal previsto no processo.",
+    "challenge": "Demonstre como falta de decisão não autoriza presumir deferimento universal.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalRevision": "RED-L09-2026",
@@ -983,15 +983,15 @@ export const RED_03_QUESTIONS = [
       "Registrar anexos pertinentes e a informação enviada ao interessado.",
       "Citar o protocolo correspondente na resposta.",
       "Verificar o canal e a competência para o encaminhamento.",
-      "Presumir aprovação de qualquer pedido apenas pela demora da unidade."
+      "Registrar o atraso como deferimento automático, sem identificar previsão legal que produza esse efeito."
     ],
     "answer": 3,
     "optionComments": [
       "Não atende ao EXCETO: Documentação completa possibilita acompanhamento.",
       "Não atende ao EXCETO: A referência permite reconhecer o pedido.",
       "Não atende ao EXCETO: A forma e a destinação dependem do caso.",
-      "Correta como exceção: Não existe regra geral de aprovação automática por silêncio."
+      "Correta como EXCETO: a demora, isoladamente, não determina aprovação em todo procedimento."
     ],
-    "explanation": "A exceção é falsa, apesar de as demais condutas estarem corretas. Não existe regra geral de aprovação automática por silêncio."
+    "explanation": "A demora do órgão não permite presumir aprovação automática de qualquer requerimento fora das hipóteses legais."
   }
 ];
