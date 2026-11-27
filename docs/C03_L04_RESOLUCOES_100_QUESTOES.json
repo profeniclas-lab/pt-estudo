@@ -1,0 +1,1958 @@
+[
+  {
+    "id": "Q-POR-14-001-01",
+    "modulo": "POR-14",
+    "subtopico": "POR-14-001",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "“Atenção!” comunica um aviso sem verbo: é frase nominal, não oração.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-14-001-02",
+    "modulo": "POR-14",
+    "subtopico": "POR-14-001",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "“Devem apresentar” é locução verbal: auxiliar e principal formam um único núcleo oracional.",
+    "alternativa_resolvida": "Uma, porque “devem apresentar” forma uma locução verbal.",
+    "indice_resolvido": 1,
+    "indice_original": 1,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample",
+      "optionComments",
+      "options"
+    ],
+    "atencao_editorial": "revisada",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-14-001-03",
+    "modulo": "POR-14",
+    "subtopico": "POR-14-001",
+    "tipo": "afirmacoes",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "“Silêncio!” não tem verbo; “chegou” forma uma oração; “choveu” e “parou” introduzem duas: I, II e III são verdadeiras.",
+    "alternativa_resolvida": "I, II e III.",
+    "indice_resolvido": 2,
+    "indice_original": 2,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-14-001-04",
+    "modulo": "POR-14",
+    "subtopico": "POR-14-001",
+    "tipo": "vf",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "As duas primeiras afirmações são verdadeiras; a condicional contém duas orações; “vai avaliar” é locução única: V–V–F–V.",
+    "alternativa_resolvida": "V – V – F – V.",
+    "indice_resolvido": 3,
+    "indice_original": 3,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-14-002-01",
+    "modulo": "POR-14",
+    "subtopico": "POR-14-002",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "O verbo existir é pessoal: “vagas” é seu sujeito e determina a flexão plural.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-14-002-02",
+    "modulo": "POR-14",
+    "subtopico": "POR-14-002",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "“Haver”, no sentido de existir, é impessoal; “muitos documentos” não exerce função de sujeito.",
+    "alternativa_resolvida": "O verbo haver tem sentido existencial e a oração não apresenta sujeito.",
+    "indice_resolvido": 2,
+    "indice_original": 2,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample",
+      "optionComments",
+      "options"
+    ],
+    "atencao_editorial": "revisada",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-14-002-03",
+    "modulo": "POR-14",
+    "subtopico": "POR-14-002",
+    "tipo": "associacao",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "Em “chegaram relatórios”, relatórios é sujeito posposto (C); “fizemos” tem sujeito nós implícito (A); “havia” existencial não tem sujeito (B).",
+    "alternativa_resolvida": "C – A – B.",
+    "indice_resolvido": 3,
+    "indice_original": 3,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-14-002-04",
+    "modulo": "POR-14",
+    "subtopico": "POR-14-002",
+    "tipo": "exceto",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "“Houveram oportunidades” contraria a impessoalidade de haver existencial; o correto é “houve oportunidades”.",
+    "alternativa_resolvida": "“Houveram oportunidades”: haver existencial concorda normalmente com oportunidades.",
+    "indice_resolvido": 0,
+    "indice_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample",
+      "stem"
+    ],
+    "atencao_editorial": "revisada",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-14-003-01",
+    "modulo": "POR-14",
+    "subtopico": "POR-14-003",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "“Voltou” enuncia ação e “satisfeita” atribui estado ao sujeito: predicado verbo-nominal.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-14-003-02",
+    "modulo": "POR-14",
+    "subtopico": "POR-14-003",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "“Permaneceu” relaciona “ambiente” a “silencioso”; o núcleo informativo é o predicativo, em predicado nominal.",
+    "alternativa_resolvida": "Nominal.",
+    "indice_resolvido": 3,
+    "indice_original": 3,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "explanation",
+      "newExample"
+    ],
+    "atencao_editorial": "revisada",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-14-003-03",
+    "modulo": "POR-14",
+    "subtopico": "POR-14-003",
+    "tipo": "associacao",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "“Trabalham” é verbal (C), “estão disponíveis” é nominal (A) e “chegaram exaustos” é verbo-nominal (B).",
+    "alternativa_resolvida": "C – A – B.",
+    "indice_resolvido": 0,
+    "indice_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-14-003-04",
+    "modulo": "POR-14",
+    "subtopico": "POR-14-003",
+    "tipo": "afirmacoes",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "“Ficou alegre” tem verbo de ligação; “ficou na sala” exprime permanência espacial; “saiu alegre” reúne ação e predicativo: todas verdadeiras.",
+    "alternativa_resolvida": "I, II e III.",
+    "indice_resolvido": 1,
+    "indice_original": 1,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample",
+      "stem"
+    ],
+    "atencao_editorial": "revisada",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-14-004-01",
+    "modulo": "POR-14",
+    "subtopico": "POR-14-004",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "“Viável” qualifica a proposta, complemento de “julgaram”, portanto é predicativo do objeto.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-14-004-02",
+    "modulo": "POR-14",
+    "subtopico": "POR-14-004",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "“Preocupados” caracteriza o sujeito “os estudantes” no momento em que saíram.",
+    "alternativa_resolvida": "Predicativo do sujeito.",
+    "indice_resolvido": 0,
+    "indice_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-14-004-03",
+    "modulo": "POR-14",
+    "subtopico": "POR-14-004",
+    "tipo": "associacao",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "Em “é viável” há predicativo do sujeito nominal (C); em “considero ... viável”, do objeto (A); em “chegaram animados”, do sujeito com verbo significativo (B).",
+    "alternativa_resolvida": "C – A – B.",
+    "indice_resolvido": 1,
+    "indice_original": 1,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-14-004-04",
+    "modulo": "POR-14",
+    "subtopico": "POR-14-004",
+    "tipo": "exceto",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "“Alegres”, em “os participantes chegaram alegres”, caracteriza o sujeito, não um objeto.",
+    "alternativa_resolvida": "“Os participantes chegaram alegres”: alegres é predicativo do objeto.",
+    "indice_resolvido": 2,
+    "indice_original": 2,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample",
+      "stem"
+    ],
+    "atencao_editorial": "revisada",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-14-005-01",
+    "modulo": "POR-14",
+    "subtopico": "POR-14-005",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "“Computadores” é sujeito paciente de “vendem-se”, equivalente a “computadores são vendidos”.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-14-005-02",
+    "modulo": "POR-14",
+    "subtopico": "POR-14-005",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "“Precisar de” é transitivo indireto; o “se” indetermina o sujeito e o verbo fica na terceira pessoa do singular.",
+    "alternativa_resolvida": "Índice de indeterminação do sujeito.",
+    "indice_resolvido": 1,
+    "indice_original": 1,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample",
+      "optionComments",
+      "options"
+    ],
+    "atencao_editorial": "revisada",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-14-005-03",
+    "modulo": "POR-14",
+    "subtopico": "POR-14-005",
+    "tipo": "vf",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "“Convites” é sujeito de chegaram e entregam-se; “há” é impessoal; “necessita-se de” não concorda com o complemento: V–V–V–F.",
+    "alternativa_resolvida": "V – V – V – F.",
+    "indice_resolvido": 2,
+    "indice_original": 2,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-14-005-04",
+    "modulo": "POR-14",
+    "subtopico": "POR-14-005",
+    "tipo": "lacunas",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "“Há” é impessoal, “existem” concorda com candidatos e “entregam-se” concorda com comprovantes: há/existem/entregam-se.",
+    "alternativa_resolvida": "Há / existem / entregam-se.",
+    "indice_resolvido": 3,
+    "indice_original": 3,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-15-001-01",
+    "modulo": "POR-15",
+    "subtopico": "POR-15-001",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "“Encaminhou” pede o documento encaminhado (objeto direto) e seu destinatário, “à direção” (indireto).",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-15-001-02",
+    "modulo": "POR-15",
+    "subtopico": "POR-15-001",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "O verbo necessitar, na construção selecionada, rege “de”; “de informações” é seu objeto indireto.",
+    "alternativa_resolvida": "Objeto indireto, exigido pela regência de “necessitar de”.",
+    "indice_resolvido": 2,
+    "indice_original": 2,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample",
+      "optionComments",
+      "options"
+    ],
+    "atencao_editorial": "revisada",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-15-001-03",
+    "modulo": "POR-15",
+    "subtopico": "POR-15-001",
+    "tipo": "associacao",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "“O parecer” é objeto direto (C); “ao órgão”, objeto indireto (B); “durante a reunião”, circunstância temporal (A).",
+    "alternativa_resolvida": "C – B – A.",
+    "indice_resolvido": 3,
+    "indice_original": 3,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-15-001-04",
+    "modulo": "POR-15",
+    "subtopico": "POR-15-001",
+    "tipo": "exceto",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "“Durante a tarde” localiza a ação no tempo; não é complemento exigido pelo verbo trabalhar.",
+    "alternativa_resolvida": "“Trabalhou durante a tarde”: durante a tarde é objeto indireto exigido por trabalhar.",
+    "indice_resolvido": 0,
+    "indice_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample",
+      "stem"
+    ],
+    "atencao_editorial": "revisada",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-15-002-01",
+    "modulo": "POR-15",
+    "subtopico": "POR-15-002",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "“Necessidade” é nome abstrato completado semanticamente por “de esclarecimentos”: complemento nominal.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-15-002-02",
+    "modulo": "POR-15",
+    "subtopico": "POR-15-002",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "“De madeira” expressa a matéria da mesa e a caracteriza: adjunto adnominal, não complemento de nome abstrato.",
+    "alternativa_resolvida": "Adjunto adnominal que caracteriza “mesa”.",
+    "indice_resolvido": 3,
+    "indice_original": 3,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "explanation",
+      "newExample"
+    ],
+    "atencao_editorial": "revisada",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-15-002-03",
+    "modulo": "POR-15",
+    "subtopico": "POR-15-002",
+    "tipo": "associacao",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "“Na equipe” completa confiança (B), “de vidro” caracteriza porta (A) e “ao candidato” completa respondeu (C).",
+    "alternativa_resolvida": "B – A – C.",
+    "indice_resolvido": 0,
+    "indice_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-15-002-04",
+    "modulo": "POR-15",
+    "subtopico": "POR-15-002",
+    "tipo": "afirmacoes",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "“Da ponte” pode ser o resultado da ação de construir (complemento nominal); “do setor” marca vínculo/autoria (adjunto); nem todo “de” é complemento.",
+    "alternativa_resolvida": "I e II apenas.",
+    "indice_resolvido": 1,
+    "indice_original": 1,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample",
+      "stem"
+    ],
+    "atencao_editorial": "revisada",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-15-003-01",
+    "modulo": "POR-15",
+    "subtopico": "POR-15-003",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "Na passiva “foram publicados”, “pela comissão” indica o agente que praticou a ação.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-15-003-02",
+    "modulo": "POR-15",
+    "subtopico": "POR-15-003",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "A passiva analítica põe “os documentos” como sujeito paciente, preserva a ação e explicita “pela equipe” como agente.",
+    "alternativa_resolvida": "Os documentos foram revisados pela equipe.",
+    "indice_resolvido": 0,
+    "indice_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "explanation",
+      "newExample",
+      "optionComments",
+      "options"
+    ],
+    "atencao_editorial": "revisada",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-15-003-03",
+    "modulo": "POR-15",
+    "subtopico": "POR-15-003",
+    "tipo": "associacao",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "“O parecer” é sujeito paciente (C), “foi assinado” locução passiva (A), “pela coordenadora” agente da passiva (B).",
+    "alternativa_resolvida": "C – A – B.",
+    "indice_resolvido": 1,
+    "indice_original": 1,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-15-003-04",
+    "modulo": "POR-15",
+    "subtopico": "POR-15-003",
+    "tipo": "vf",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "O agente existe na primeira oração, não na segunda com “passou”; pode ficar omitido na terceira; a quarta admite passivização: V–F–V–V.",
+    "alternativa_resolvida": "V – F – V – V.",
+    "indice_resolvido": 2,
+    "indice_original": 2,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample",
+      "stem"
+    ],
+    "atencao_editorial": "revisada",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-15-004-01",
+    "modulo": "POR-15",
+    "subtopico": "POR-15-004",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "“Ontem” situa a chegada dos relatórios no tempo, exercendo função adverbial.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-15-004-02",
+    "modulo": "POR-15",
+    "subtopico": "POR-15-004",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "“Cedo” modifica a circunstância temporal de “chegaram”, diferentemente dos determinantes do nome “respostas”.",
+    "alternativa_resolvida": "Cedo.",
+    "indice_resolvido": 1,
+    "indice_original": 1,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-15-004-03",
+    "modulo": "POR-15",
+    "subtopico": "POR-15-004",
+    "tipo": "associacao",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "“Da manhã” caracteriza “visita” (B), “de manhã” modifica “visitamos” (A), “três” quantifica “arquivos” (C).",
+    "alternativa_resolvida": "B – A – C.",
+    "indice_resolvido": 2,
+    "indice_original": 2,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample",
+      "stem"
+    ],
+    "atencao_editorial": "revisada",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-15-004-04",
+    "modulo": "POR-15",
+    "subtopico": "POR-15-004",
+    "tipo": "exceto",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "“Ontem” refere-se ao tempo de “chegaram”, não é determinante do substantivo relatórios.",
+    "alternativa_resolvida": "Em “os relatórios chegaram ontem”, “ontem” é adjunto adnominal de relatórios.",
+    "indice_resolvido": 3,
+    "indice_original": 3,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-15-005-01",
+    "modulo": "POR-15",
+    "subtopico": "POR-15-005",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "“Candidatos” é um chamamento separado por vírgula; o sujeito do imperativo está elíptico.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-15-005-02",
+    "modulo": "POR-15",
+    "subtopico": "POR-15-005",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "“Capital do Rio Grande do Norte” explica “Natal”, exercendo função de aposto explicativo.",
+    "alternativa_resolvida": "Aposto explicativo.",
+    "indice_resolvido": 2,
+    "indice_original": 2,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-15-005-03",
+    "modulo": "POR-15",
+    "subtopico": "POR-15-005",
+    "tipo": "associacao",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "“Senhores” chama o destinatário (B), “município potiguar” explica Mossoró (A), e a enumeração após dois-pontos especifica setores (C).",
+    "alternativa_resolvida": "B – A – C.",
+    "indice_resolvido": 3,
+    "indice_original": 3,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "explanation",
+      "newExample",
+      "optionComments",
+      "stem"
+    ],
+    "atencao_editorial": "revisada",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-15-005-04",
+    "modulo": "POR-15",
+    "subtopico": "POR-15-005",
+    "tipo": "afirmacoes",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "“Coordenadora da equipe” é aposto; “Maria” antes do imperativo é vocativo; “amigos” não é o sujeito de “chegaram”: apenas I e II.",
+    "alternativa_resolvida": "I e II apenas.",
+    "indice_resolvido": 0,
+    "indice_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "explanation",
+      "newExample"
+    ],
+    "atencao_editorial": "revisada",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-16-001-01",
+    "modulo": "POR-16",
+    "subtopico": "POR-16-001",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "O núcleo do sujeito é “relação”, singular; “dos classificados” é termo dependente que não comanda a concordância.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-16-001-02",
+    "modulo": "POR-16",
+    "subtopico": "POR-16-001",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "“Os dados” é sujeito plural e exige “foram conferidos”; as demais frases discordam do núcleo do sujeito.",
+    "alternativa_resolvida": "Os dados da pesquisa foram conferidos.",
+    "indice_resolvido": 2,
+    "indice_original": 2,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample",
+      "stem"
+    ],
+    "atencao_editorial": "revisada",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-16-001-03",
+    "modulo": "POR-16",
+    "subtopico": "POR-16-001",
+    "tipo": "vf",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "“Coleção ... chegou” e “chegaram os pareceres” concordam; “taxas ... permanece” e “resultado ... foram” não: V–F–V–F.",
+    "alternativa_resolvida": "V, F, V, F.",
+    "indice_resolvido": 3,
+    "indice_original": 3,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-16-001-04",
+    "modulo": "POR-16",
+    "subtopico": "POR-16-001",
+    "tipo": "exceto",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "Em “a identificação dos inscritos constam”, o núcleo é “identificação” e o verbo deveria ser “consta”.",
+    "alternativa_resolvida": "A identificação dos inscritos constam da planilha.",
+    "indice_resolvido": 1,
+    "indice_original": 1,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-16-002-01",
+    "modulo": "POR-16",
+    "subtopico": "POR-16-002",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "Dois núcleos coordenados antepostos — “revisora” e “coordenador” — exigem normalmente verbo plural.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-16-002-02",
+    "modulo": "POR-16",
+    "subtopico": "POR-16-002",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "Sujeito composto anteposto com dois agentes pede “revisaram”; as formas singulares não concordam.",
+    "alternativa_resolvida": "A diretora e o contador revisaram as notas.",
+    "indice_resolvido": 1,
+    "indice_original": 1,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-16-002-03",
+    "modulo": "POR-16",
+    "subtopico": "POR-16-002",
+    "tipo": "afirmacoes",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "“Eu e ... concluímos” e “chegaram a pauta e os anexos” são adequadas; sujeito composto posposto pode admitir concordância com o núcleo mais próximo, contrariando III.",
+    "alternativa_resolvida": "Apenas I e II.",
+    "indice_resolvido": 0,
+    "indice_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "explanation",
+      "newExample"
+    ],
+    "atencao_editorial": "revisada",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-16-002-04",
+    "modulo": "POR-16",
+    "subtopico": "POR-16-002",
+    "tipo": "lacunas",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "“Eu e meus colegas” → conferimos; sujeito composto anteposto → validaram; “pareceres e atas” → chegaram.",
+    "alternativa_resolvida": "conferimos — validaram — chegaram",
+    "indice_resolvido": 2,
+    "indice_original": 2,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample",
+      "stem"
+    ],
+    "atencao_editorial": "revisada",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-16-003-01",
+    "modulo": "POR-16",
+    "subtopico": "POR-16-003",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "“Haver” existencial é impessoal: “houve várias inscrições”, e não “houveram”.",
+    "alternativa_resolvida": "ERRADO",
+    "indice_resolvido": 1,
+    "indice_original": 1,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-16-003-02",
+    "modulo": "POR-16",
+    "subtopico": "POR-16-003",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "“Fazer” com sentido de tempo transcorrido é impessoal: “faz dois anos”; o auxiliar também não vai ao plural nessa construção.",
+    "alternativa_resolvida": "Faz dois anos que a unidade mudou de sede.",
+    "indice_resolvido": 2,
+    "indice_original": 2,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "explanation",
+      "newExample"
+    ],
+    "atencao_editorial": "revisada",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-16-003-03",
+    "modulo": "POR-16",
+    "subtopico": "POR-16-003",
+    "tipo": "vf",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "“Houve” e “faz” são impessoais; “existiam” concorda com arquivos; “devem haver” está inadequado: V–V–F–V.",
+    "alternativa_resolvida": "V, V, F, V.",
+    "indice_resolvido": 1,
+    "indice_original": 1,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-16-003-04",
+    "modulo": "POR-16",
+    "subtopico": "POR-16-003",
+    "tipo": "exceto",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "“Dever haver” com haver existencial conserva o auxiliar no singular: “deve haver”, não “devem haver”.",
+    "alternativa_resolvida": "Devem haver novas vagas no setor.",
+    "indice_resolvido": 3,
+    "indice_original": 3,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample",
+      "stem"
+    ],
+    "atencao_editorial": "revisada",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-16-004-01",
+    "modulo": "POR-16",
+    "subtopico": "POR-16-004",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "“Meio” é advérbio de intensidade, sem variação de gênero diante de “preocupadas”.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-16-004-02",
+    "modulo": "POR-16",
+    "subtopico": "POR-16-004",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "“Anexas” concorda com “atas”; as demais violam concordância de predicativo/particípio ou empregam “meias” como advérbio.",
+    "alternativa_resolvida": "As atas seguem anexas ao processo.",
+    "indice_resolvido": 1,
+    "indice_original": 1,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "explanation",
+      "newExample"
+    ],
+    "atencao_editorial": "revisada",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-16-004-03",
+    "modulo": "POR-16",
+    "subtopico": "POR-16-004",
+    "tipo": "associacao",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "“Meia hora” é numeral fracionário; “meio cansadas” é advérbio invariável; “bastantes argumentos” apresenta determinante plural.",
+    "alternativa_resolvida": "1–numeral fracionário; 2–advérbio invariável; 3–determinante variável.",
+    "indice_resolvido": 2,
+    "indice_original": 2,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-16-004-04",
+    "modulo": "POR-16",
+    "subtopico": "POR-16-004",
+    "tipo": "exceto",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "“Anexo”, como adjetivo após “seguiram”, deveria concordar com “planilhas”: “anexas”.",
+    "alternativa_resolvida": "As planilhas seguiram anexo à mensagem.",
+    "indice_resolvido": 2,
+    "indice_original": 2,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "explanation",
+      "newExample"
+    ],
+    "atencao_editorial": "revisada",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-16-005-01",
+    "modulo": "POR-16",
+    "subtopico": "POR-16-005",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "Na voz passiva analítica, “listas” é sujeito paciente plural e rege “foram publicadas”.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-16-005-02",
+    "modulo": "POR-16",
+    "subtopico": "POR-16-005",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "“Existir” tem sujeito “duas respostas pendentes” e exige plural “existiam”; “haver” existencial não admite plural.",
+    "alternativa_resolvida": "Existiam duas respostas pendentes.",
+    "indice_resolvido": 3,
+    "indice_original": 3,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample",
+      "optionComments",
+      "options",
+      "stem"
+    ],
+    "atencao_editorial": "revisada",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-16-005-03",
+    "modulo": "POR-16",
+    "subtopico": "POR-16-005",
+    "tipo": "vf",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "A passiva analítica conserva sentido em I; “precisa-se de” fica singular; a passiva sintética de III é válida; “uma revisão” pede “existiu”: V–F–V–F.",
+    "alternativa_resolvida": "V, F, V, F.",
+    "indice_resolvido": 1,
+    "indice_original": 1,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-16-005-04",
+    "modulo": "POR-16",
+    "subtopico": "POR-16-005",
+    "tipo": "afirmacoes",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "Passiva analítica de “revisou” e passiva sintética de “oferecem-se” são válidas; “precisa-se de voluntários” é impessoal quanto ao sujeito.",
+    "alternativa_resolvida": "Apenas I e II.",
+    "indice_resolvido": 2,
+    "indice_original": 2,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-17-001-01",
+    "modulo": "POR-17",
+    "subtopico": "POR-17-001",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "Na acepção “necessitar”, “precisar de documentos” exige complemento preposicionado “de documentos”.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-17-001-02",
+    "modulo": "POR-17",
+    "subtopico": "POR-17-001",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "“O documento” é o objeto enviado, direto; “à chefia” indica destinatário regido por “a”, indireto.",
+    "alternativa_resolvida": "“O documento” é objeto direto e “à chefia” é objeto indireto.",
+    "indice_resolvido": 1,
+    "indice_original": 1,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-17-001-03",
+    "modulo": "POR-17",
+    "subtopico": "POR-17-001",
+    "tipo": "associacao",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "“Depender de”, “confiar em” e “referir-se a” definem a sequência de/em/a.",
+    "alternativa_resolvida": "de — em — a",
+    "indice_resolvido": 0,
+    "indice_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample",
+      "stem"
+    ],
+    "atencao_editorial": "revisada",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-17-001-04",
+    "modulo": "POR-17",
+    "subtopico": "POR-17-001",
+    "tipo": "lacunas",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "A regência é “necessitar de”, “consistir em” e “referir-se a”; antes de “norma” há artigo feminino, formando “à”.",
+    "alternativa_resolvida": "de — em — à",
+    "indice_resolvido": 1,
+    "indice_original": 1,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-17-002-01",
+    "modulo": "POR-17",
+    "subtopico": "POR-17-002",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "“Assistir”, no sentido formal tradicional de presenciar, rege preposição a: “assistiram ao debate”.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-17-002-02",
+    "modulo": "POR-17",
+    "subtopico": "POR-17-002",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "A preferência é expressa na construção formal “preferir X a Y”, sem “mais ... do que”.",
+    "alternativa_resolvida": "Prefiro escrever a revisar.",
+    "indice_resolvido": 2,
+    "indice_original": 2,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample",
+      "stem"
+    ],
+    "atencao_editorial": "revisada",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-17-002-03",
+    "modulo": "POR-17",
+    "subtopico": "POR-17-002",
+    "tipo": "vf",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "“Assistir a”, “obedecer a” e “aspirar” no sentido de inalar estão corretos; “preferir mais ... do que” viola a construção tradicional: V–V–V–F.",
+    "alternativa_resolvida": "V, V, V, F.",
+    "indice_resolvido": 3,
+    "indice_original": 3,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-17-002-04",
+    "modulo": "POR-17",
+    "subtopico": "POR-17-002",
+    "tipo": "exceto",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "“Preferia mais ... do que” é a única construção contrária à regência tradicional “preferir X a Y”.",
+    "alternativa_resolvida": "A candidata preferia mais o turno da manhã do que o da noite.",
+    "indice_resolvido": 3,
+    "indice_original": 3,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-17-003-01",
+    "modulo": "POR-17",
+    "subtopico": "POR-17-003",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "“Aspirar” significa inalar com objeto direto e almejar com “a” + complemento.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-17-003-02",
+    "modulo": "POR-17",
+    "subtopico": "POR-17-003",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "“Assistir ao filme” significa presenciar; “assistir o paciente” significa prestar assistência, com objeto direto na regência tradicional.",
+    "alternativa_resolvida": "“Assistiu ao filme” = presenciou; “assistiu o paciente” = prestou auxílio.",
+    "indice_resolvido": 1,
+    "indice_original": 1,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "explanation",
+      "newExample",
+      "optionComments",
+      "options"
+    ],
+    "atencao_editorial": "revisada",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-17-003-03",
+    "modulo": "POR-17",
+    "subtopico": "POR-17-003",
+    "tipo": "associacao",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "“Aspirou o perfume”=inalou, “ao emprego”=almejou, “assistiu o ferido”=auxiliou e “ao recital”=presenciou.",
+    "alternativa_resolvida": "1–inalar; 2–almejar; 3–auxiliar; 4–presenciar.",
+    "indice_resolvido": 2,
+    "indice_original": 2,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-17-003-04",
+    "modulo": "POR-17",
+    "subtopico": "POR-17-003",
+    "tipo": "lacunas",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "Na regência tradicional: “aspirou a fragrância” (sem crase), “aspirava à chefia”, “assistiu o estudante” e “assistiu à apresentação”.",
+    "alternativa_resolvida": "a — à — o — à",
+    "indice_resolvido": 2,
+    "indice_original": 2,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample",
+      "stem"
+    ],
+    "atencao_editorial": "revisada",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-17-004-01",
+    "modulo": "POR-17",
+    "subtopico": "POR-17-004",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "“Compatível” exige a preposição “com” na construção dada: compatível com o regulamento.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-17-004-02",
+    "modulo": "POR-17",
+    "subtopico": "POR-17-004",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "“Compatível com as normas” é adequada; “favorável a”, “consciente de” e “necessidade de” tornam incorretas as demais.",
+    "alternativa_resolvida": "O procedimento era compatível com as normas.",
+    "indice_resolvido": 2,
+    "indice_original": 2,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "explanation",
+      "newExample"
+    ],
+    "atencao_editorial": "revisada",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-17-004-03",
+    "modulo": "POR-17",
+    "subtopico": "POR-17-004",
+    "tipo": "associacao",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "“Favorável a”, “confiança em”, “necessidade de”, “compatível com” correspondem à sequência a/em/de/com.",
+    "alternativa_resolvida": "a — em — de — com",
+    "indice_resolvido": 0,
+    "indice_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-17-004-04",
+    "modulo": "POR-17",
+    "subtopico": "POR-17-004",
+    "tipo": "exceto",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "“Aversão” admite “a/por”, não a preposição “com” na construção tradicional selecionada.",
+    "alternativa_resolvida": "A direção manifestou aversão com a proposta.",
+    "indice_resolvido": 2,
+    "indice_original": 2,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample",
+      "stem"
+    ],
+    "atencao_editorial": "revisada",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-17-005-01",
+    "modulo": "POR-17",
+    "subtopico": "POR-17-005",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "Na relativa “relatório de que precisamos”, a preposição de foi corretamente anteposta a “que”.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-17-005-02",
+    "modulo": "POR-17",
+    "subtopico": "POR-17-005",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "Discordar rege “de”; a relativa deve conservar essa preposição: “a decisão de que discordamos”.",
+    "alternativa_resolvida": "A decisão de que discordamos.",
+    "indice_resolvido": 3,
+    "indice_original": 3,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "explanation",
+      "newExample"
+    ],
+    "atencao_editorial": "revisada",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-17-005-03",
+    "modulo": "POR-17",
+    "subtopico": "POR-17-005",
+    "tipo": "vf",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "“Tratar de”, “trabalhar em” e “referir-se a” estão atendidos; falta a preposição a em “a norma que obedecemos”: V–F–V–V.",
+    "alternativa_resolvida": "V, F, V, V.",
+    "indice_resolvido": 2,
+    "indice_original": 2,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-17-005-04",
+    "modulo": "POR-17",
+    "subtopico": "POR-17-005",
+    "tipo": "exceto",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "“Precisar de” exige “de que precisamos”; “o assunto que precisamos” omite a preposição na variante formal exigida.",
+    "alternativa_resolvida": "Este é o assunto que precisamos para a revisão.",
+    "indice_resolvido": 3,
+    "indice_original": 3,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "explanation",
+      "newExample"
+    ],
+    "atencao_editorial": "revisada",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-18-001-01",
+    "modulo": "POR-18",
+    "subtopico": "POR-18-001",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "“Dirigir-se a” + artigo “a” de “a coordenadora” produz “à coordenadora”.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-18-001-02",
+    "modulo": "POR-18",
+    "subtopico": "POR-18-001",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "“Enviou ... à supervisora” une preposição exigida pela regência a artigo feminino; não se craseia antes de infinitivo ou pronome masculino.",
+    "alternativa_resolvida": "O setor enviou a resposta à supervisora.",
+    "indice_resolvido": 1,
+    "indice_original": 1,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample",
+      "stem"
+    ],
+    "atencao_editorial": "revisada",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-18-001-03",
+    "modulo": "POR-18",
+    "subtopico": "POR-18-001",
+    "tipo": "associacao",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "A substituição masculina evidencia “ao colégio”, “aos regulamentos” e “a um encontro”: terceira ocorrência sem fusão.",
+    "alternativa_resolvida": "1–ao colégio; 2–aos regulamentos; 3–a um encontro.",
+    "indice_resolvido": 0,
+    "indice_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-18-001-04",
+    "modulo": "POR-18",
+    "subtopico": "POR-18-001",
+    "tipo": "vf",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "I e III têm fusão válida; não há crase antes de infinitivo “revisar” nem antes de “ele”: V–F–V–F.",
+    "alternativa_resolvida": "V, F, V, F.",
+    "indice_resolvido": 0,
+    "indice_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample",
+      "stem"
+    ],
+    "atencao_editorial": "revisada",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-18-002-01",
+    "modulo": "POR-18",
+    "subtopico": "POR-18-002",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "“À medida que” é locução conjuntiva proporcional grafada com acento grave.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-18-002-02",
+    "modulo": "POR-18",
+    "subtopico": "POR-18-002",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "“À tarde” recebe acento grave; “às pressas”, “à noite” também o exigiriam; “a partir de” não recebe crase.",
+    "alternativa_resolvida": "O serviço será retomado à tarde.",
+    "indice_resolvido": 2,
+    "indice_original": 2,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample",
+      "optionComments",
+      "options"
+    ],
+    "atencao_editorial": "revisada",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-18-002-03",
+    "modulo": "POR-18",
+    "subtopico": "POR-18-002",
+    "tipo": "lacunas",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "As locuções femininas são “à noite”, “às pressas” e “à espera”; cada qual exige a forma correspondente.",
+    "alternativa_resolvida": "à — às — à",
+    "indice_resolvido": 3,
+    "indice_original": 3,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-18-002-04",
+    "modulo": "POR-18",
+    "subtopico": "POR-18-002",
+    "tipo": "exceto",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "A locução prepositiva “a partir de” não leva crase antes do infinitivo “partir”.",
+    "alternativa_resolvida": "O protocolo será alterado à partir de segunda-feira.",
+    "indice_resolvido": 2,
+    "indice_original": 2,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "explanation",
+      "newExample"
+    ],
+    "atencao_editorial": "revisada",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-18-003-01",
+    "modulo": "POR-18",
+    "subtopico": "POR-18-003",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "Antes do infinitivo “conferir” não cabe artigo feminino: o acento de “à conferir” é incorreto.",
+    "alternativa_resolvida": "ERRADO",
+    "indice_resolvido": 1,
+    "indice_original": 1,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-18-003-02",
+    "modulo": "POR-18",
+    "subtopico": "POR-18-003",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "“Começou a organizar” não admite crase diante do infinitivo; as outras frases usam crase adequada em contexto diverso.",
+    "alternativa_resolvida": "O funcionário começou a organizar os arquivos.",
+    "indice_resolvido": 3,
+    "indice_original": 3,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample",
+      "stem"
+    ],
+    "atencao_editorial": "revisada",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-18-003-03",
+    "modulo": "POR-18",
+    "subtopico": "POR-18-003",
+    "tipo": "vf",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "A preposição a diante de “uma” e “ela” não se funde com artigo; “à revisar” é inadequado e “frente a frente” não tem crase: V–V–F–V.",
+    "alternativa_resolvida": "V, V, F, V.",
+    "indice_resolvido": 0,
+    "indice_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-18-003-04",
+    "modulo": "POR-18",
+    "subtopico": "POR-18-003",
+    "tipo": "afirmacoes",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "I é verdadeira; II é falsa porque “ela” não recebe artigo; III é verdadeira pela fusão com demonstrativo “aquela”.",
+    "alternativa_resolvida": "Apenas I e III.",
+    "indice_resolvido": 1,
+    "indice_original": 1,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-18-004-01",
+    "modulo": "POR-18",
+    "subtopico": "POR-18-004",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "Antes do possessivo feminino singular “minha professora”, o artigo é facultativo, permitindo “a minha” e “à minha”.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-18-004-02",
+    "modulo": "POR-18",
+    "subtopico": "POR-18-004",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "“A minha orientadora” e “à minha orientadora” são admitidas porque o artigo antes do possessivo feminino singular é facultativo.",
+    "alternativa_resolvida": "Entreguei o relatório a minha orientadora / Entreguei o relatório à minha orientadora.",
+    "indice_resolvido": 2,
+    "indice_original": 2,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample",
+      "stem"
+    ],
+    "atencao_editorial": "revisada",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-18-004-03",
+    "modulo": "POR-18",
+    "subtopico": "POR-18-004",
+    "tipo": "associacao",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "A crase é facultativa antes de possessivo feminino singular; vedada diante de “ela”; e obrigatória nos exemplos “à senhora” e “àquela servidora”.",
+    "alternativa_resolvida": "1–facultativa; 2–proibida; 3–obrigatória; 4–obrigatória.",
+    "indice_resolvido": 1,
+    "indice_original": 1,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-18-004-04",
+    "modulo": "POR-18",
+    "subtopico": "POR-18-004",
+    "tipo": "exceto",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "O pronome pessoal “ela” não admite artigo anteposto, logo “à ela” não decorre de fusão legítima.",
+    "alternativa_resolvida": "“À ela” é admitida sempre que o referente do pronome é mulher.",
+    "indice_resolvido": 2,
+    "indice_original": 2,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample",
+      "optionComments",
+      "options"
+    ],
+    "atencao_editorial": "revisada",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-18-005-01",
+    "modulo": "POR-18",
+    "subtopico": "POR-18-005",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "O topônimo Bahia pede artigo feminino: “voltar da Bahia”, justificando “viajar à Bahia” no destino indicado.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-18-005-02",
+    "modulo": "POR-18",
+    "subtopico": "POR-18-005",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_semantica_independente": "Na hora exata “às 14 horas”, ocorre a preposição a mais artigo plural “as”.",
+    "alternativa_resolvida": "A sessão começará às 14 horas.",
+    "indice_resolvido": 1,
+    "indice_original": 1,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-18-005-03",
+    "modulo": "POR-18",
+    "subtopico": "POR-18-005",
+    "tipo": "associacao",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "A forma é “à Bahia” e “à Paraíba” por admitirem artigo; “a Natal” é sem artigo na indicação usual de destino.",
+    "alternativa_resolvida": "à — a — à",
+    "indice_resolvido": 2,
+    "indice_original": 2,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "newExample"
+    ],
+    "atencao_editorial": "sem alteracao adicional",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  },
+  {
+    "id": "Q-POR-18-005-04",
+    "modulo": "POR-18",
+    "subtopico": "POR-18-005",
+    "tipo": "exceto",
+    "dificuldade": "dificil",
+    "solucao_semantica_independente": "No padrão editorial do Senado, intervalos com artigo seguem “das ... às ...”; “de 8h às 12h” quebra o paralelismo exigido nesse padrão.",
+    "alternativa_resolvida": "O atendimento funciona de 8h às 12h.",
+    "indice_resolvido": 3,
+    "indice_original": 3,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "challenge",
+      "examTip",
+      "explanation",
+      "newExample",
+      "stem"
+    ],
+    "atencao_editorial": "revisada",
+    "origem": "AUTORAL_INEDITA",
+    "fonte": "Item autoral; sem atribuição a prova oficial"
+  }
+]

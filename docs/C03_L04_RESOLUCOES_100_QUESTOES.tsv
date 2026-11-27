@@ -1,0 +1,101 @@
+ID	Módulo	Tipo	Gabarito original	Gabarito resolvido	Resolução independente	Campos modificados
+Q-POR-14-001-01	POR-14	ce	0	0	“Atenção!” comunica um aviso sem verbo: é frase nominal, não oração.	challenge, newExample
+Q-POR-14-001-02	POR-14	classica	1	1	“Devem apresentar” é locução verbal: auxiliar e principal formam um único núcleo oracional.	challenge, newExample, optionComments, options
+Q-POR-14-001-03	POR-14	afirmacoes	2	2	“Silêncio!” não tem verbo; “chegou” forma uma oração; “choveu” e “parou” introduzem duas: I, II e III são verdadeiras.	challenge, newExample
+Q-POR-14-001-04	POR-14	vf	3	3	As duas primeiras afirmações são verdadeiras; a condicional contém duas orações; “vai avaliar” é locução única: V–V–F–V.	challenge, newExample
+Q-POR-14-002-01	POR-14	ce	0	0	O verbo existir é pessoal: “vagas” é seu sujeito e determina a flexão plural.	challenge, newExample
+Q-POR-14-002-02	POR-14	classica	2	2	“Haver”, no sentido de existir, é impessoal; “muitos documentos” não exerce função de sujeito.	challenge, newExample, optionComments, options
+Q-POR-14-002-03	POR-14	associacao	3	3	Em “chegaram relatórios”, relatórios é sujeito posposto (C); “fizemos” tem sujeito nós implícito (A); “havia” existencial não tem sujeito (B).	challenge, newExample
+Q-POR-14-002-04	POR-14	exceto	0	0	“Houveram oportunidades” contraria a impessoalidade de haver existencial; o correto é “houve oportunidades”.	challenge, newExample, stem
+Q-POR-14-003-01	POR-14	ce	0	0	“Voltou” enuncia ação e “satisfeita” atribui estado ao sujeito: predicado verbo-nominal.	challenge, newExample
+Q-POR-14-003-02	POR-14	classica	3	3	“Permaneceu” relaciona “ambiente” a “silencioso”; o núcleo informativo é o predicativo, em predicado nominal.	challenge, explanation, newExample
+Q-POR-14-003-03	POR-14	associacao	0	0	“Trabalham” é verbal (C), “estão disponíveis” é nominal (A) e “chegaram exaustos” é verbo-nominal (B).	challenge, newExample
+Q-POR-14-003-04	POR-14	afirmacoes	1	1	“Ficou alegre” tem verbo de ligação; “ficou na sala” exprime permanência espacial; “saiu alegre” reúne ação e predicativo: todas verdadeiras.	challenge, newExample, stem
+Q-POR-14-004-01	POR-14	ce	0	0	“Viável” qualifica a proposta, complemento de “julgaram”, portanto é predicativo do objeto.	challenge, newExample
+Q-POR-14-004-02	POR-14	classica	0	0	“Preocupados” caracteriza o sujeito “os estudantes” no momento em que saíram.	challenge, newExample
+Q-POR-14-004-03	POR-14	associacao	1	1	Em “é viável” há predicativo do sujeito nominal (C); em “considero ... viável”, do objeto (A); em “chegaram animados”, do sujeito com verbo significativo (B).	challenge, newExample
+Q-POR-14-004-04	POR-14	exceto	2	2	“Alegres”, em “os participantes chegaram alegres”, caracteriza o sujeito, não um objeto.	challenge, newExample, stem
+Q-POR-14-005-01	POR-14	ce	0	0	“Computadores” é sujeito paciente de “vendem-se”, equivalente a “computadores são vendidos”.	challenge, newExample
+Q-POR-14-005-02	POR-14	classica	1	1	“Precisar de” é transitivo indireto; o “se” indetermina o sujeito e o verbo fica na terceira pessoa do singular.	challenge, newExample, optionComments, options
+Q-POR-14-005-03	POR-14	vf	2	2	“Convites” é sujeito de chegaram e entregam-se; “há” é impessoal; “necessita-se de” não concorda com o complemento: V–V–V–F.	challenge, newExample
+Q-POR-14-005-04	POR-14	lacunas	3	3	“Há” é impessoal, “existem” concorda com candidatos e “entregam-se” concorda com comprovantes: há/existem/entregam-se.	challenge, newExample
+Q-POR-15-001-01	POR-15	ce	0	0	“Encaminhou” pede o documento encaminhado (objeto direto) e seu destinatário, “à direção” (indireto).	challenge, newExample
+Q-POR-15-001-02	POR-15	classica	2	2	O verbo necessitar, na construção selecionada, rege “de”; “de informações” é seu objeto indireto.	challenge, newExample, optionComments, options
+Q-POR-15-001-03	POR-15	associacao	3	3	“O parecer” é objeto direto (C); “ao órgão”, objeto indireto (B); “durante a reunião”, circunstância temporal (A).	challenge, newExample
+Q-POR-15-001-04	POR-15	exceto	0	0	“Durante a tarde” localiza a ação no tempo; não é complemento exigido pelo verbo trabalhar.	challenge, newExample, stem
+Q-POR-15-002-01	POR-15	ce	0	0	“Necessidade” é nome abstrato completado semanticamente por “de esclarecimentos”: complemento nominal.	challenge, newExample
+Q-POR-15-002-02	POR-15	classica	3	3	“De madeira” expressa a matéria da mesa e a caracteriza: adjunto adnominal, não complemento de nome abstrato.	challenge, explanation, newExample
+Q-POR-15-002-03	POR-15	associacao	0	0	“Na equipe” completa confiança (B), “de vidro” caracteriza porta (A) e “ao candidato” completa respondeu (C).	challenge, newExample
+Q-POR-15-002-04	POR-15	afirmacoes	1	1	“Da ponte” pode ser o resultado da ação de construir (complemento nominal); “do setor” marca vínculo/autoria (adjunto); nem todo “de” é complemento.	challenge, newExample, stem
+Q-POR-15-003-01	POR-15	ce	0	0	Na passiva “foram publicados”, “pela comissão” indica o agente que praticou a ação.	challenge, newExample
+Q-POR-15-003-02	POR-15	classica	0	0	A passiva analítica põe “os documentos” como sujeito paciente, preserva a ação e explicita “pela equipe” como agente.	challenge, explanation, newExample, optionComments, options
+Q-POR-15-003-03	POR-15	associacao	1	1	“O parecer” é sujeito paciente (C), “foi assinado” locução passiva (A), “pela coordenadora” agente da passiva (B).	challenge, newExample
+Q-POR-15-003-04	POR-15	vf	2	2	O agente existe na primeira oração, não na segunda com “passou”; pode ficar omitido na terceira; a quarta admite passivização: V–F–V–V.	challenge, newExample, stem
+Q-POR-15-004-01	POR-15	ce	0	0	“Ontem” situa a chegada dos relatórios no tempo, exercendo função adverbial.	challenge, newExample
+Q-POR-15-004-02	POR-15	classica	1	1	“Cedo” modifica a circunstância temporal de “chegaram”, diferentemente dos determinantes do nome “respostas”.	challenge, newExample
+Q-POR-15-004-03	POR-15	associacao	2	2	“Da manhã” caracteriza “visita” (B), “de manhã” modifica “visitamos” (A), “três” quantifica “arquivos” (C).	challenge, newExample, stem
+Q-POR-15-004-04	POR-15	exceto	3	3	“Ontem” refere-se ao tempo de “chegaram”, não é determinante do substantivo relatórios.	challenge, newExample
+Q-POR-15-005-01	POR-15	ce	0	0	“Candidatos” é um chamamento separado por vírgula; o sujeito do imperativo está elíptico.	challenge, newExample
+Q-POR-15-005-02	POR-15	classica	2	2	“Capital do Rio Grande do Norte” explica “Natal”, exercendo função de aposto explicativo.	challenge, newExample
+Q-POR-15-005-03	POR-15	associacao	3	3	“Senhores” chama o destinatário (B), “município potiguar” explica Mossoró (A), e a enumeração após dois-pontos especifica setores (C).	challenge, explanation, newExample, optionComments, stem
+Q-POR-15-005-04	POR-15	afirmacoes	0	0	“Coordenadora da equipe” é aposto; “Maria” antes do imperativo é vocativo; “amigos” não é o sujeito de “chegaram”: apenas I e II.	challenge, explanation, newExample
+Q-POR-16-001-01	POR-16	ce	0	0	O núcleo do sujeito é “relação”, singular; “dos classificados” é termo dependente que não comanda a concordância.	challenge, newExample
+Q-POR-16-001-02	POR-16	classica	2	2	“Os dados” é sujeito plural e exige “foram conferidos”; as demais frases discordam do núcleo do sujeito.	challenge, newExample, stem
+Q-POR-16-001-03	POR-16	vf	3	3	“Coleção ... chegou” e “chegaram os pareceres” concordam; “taxas ... permanece” e “resultado ... foram” não: V–F–V–F.	challenge, newExample
+Q-POR-16-001-04	POR-16	exceto	1	1	Em “a identificação dos inscritos constam”, o núcleo é “identificação” e o verbo deveria ser “consta”.	challenge, newExample
+Q-POR-16-002-01	POR-16	ce	0	0	Dois núcleos coordenados antepostos — “revisora” e “coordenador” — exigem normalmente verbo plural.	challenge, newExample
+Q-POR-16-002-02	POR-16	classica	1	1	Sujeito composto anteposto com dois agentes pede “revisaram”; as formas singulares não concordam.	challenge, newExample
+Q-POR-16-002-03	POR-16	afirmacoes	0	0	“Eu e ... concluímos” e “chegaram a pauta e os anexos” são adequadas; sujeito composto posposto pode admitir concordância com o núcleo mais próximo, contrariando III.	challenge, explanation, newExample
+Q-POR-16-002-04	POR-16	lacunas	2	2	“Eu e meus colegas” → conferimos; sujeito composto anteposto → validaram; “pareceres e atas” → chegaram.	challenge, newExample, stem
+Q-POR-16-003-01	POR-16	ce	1	1	“Haver” existencial é impessoal: “houve várias inscrições”, e não “houveram”.	challenge, newExample
+Q-POR-16-003-02	POR-16	classica	2	2	“Fazer” com sentido de tempo transcorrido é impessoal: “faz dois anos”; o auxiliar também não vai ao plural nessa construção.	challenge, explanation, newExample
+Q-POR-16-003-03	POR-16	vf	1	1	“Houve” e “faz” são impessoais; “existiam” concorda com arquivos; “devem haver” está inadequado: V–V–F–V.	challenge, newExample
+Q-POR-16-003-04	POR-16	exceto	3	3	“Dever haver” com haver existencial conserva o auxiliar no singular: “deve haver”, não “devem haver”.	challenge, newExample, stem
+Q-POR-16-004-01	POR-16	ce	0	0	“Meio” é advérbio de intensidade, sem variação de gênero diante de “preocupadas”.	challenge, newExample
+Q-POR-16-004-02	POR-16	classica	1	1	“Anexas” concorda com “atas”; as demais violam concordância de predicativo/particípio ou empregam “meias” como advérbio.	challenge, explanation, newExample
+Q-POR-16-004-03	POR-16	associacao	2	2	“Meia hora” é numeral fracionário; “meio cansadas” é advérbio invariável; “bastantes argumentos” apresenta determinante plural.	challenge, newExample
+Q-POR-16-004-04	POR-16	exceto	2	2	“Anexo”, como adjetivo após “seguiram”, deveria concordar com “planilhas”: “anexas”.	challenge, explanation, newExample
+Q-POR-16-005-01	POR-16	ce	0	0	Na voz passiva analítica, “listas” é sujeito paciente plural e rege “foram publicadas”.	challenge, newExample
+Q-POR-16-005-02	POR-16	classica	3	3	“Existir” tem sujeito “duas respostas pendentes” e exige plural “existiam”; “haver” existencial não admite plural.	challenge, newExample, optionComments, options, stem
+Q-POR-16-005-03	POR-16	vf	1	1	A passiva analítica conserva sentido em I; “precisa-se de” fica singular; a passiva sintética de III é válida; “uma revisão” pede “existiu”: V–F–V–F.	challenge, newExample
+Q-POR-16-005-04	POR-16	afirmacoes	2	2	Passiva analítica de “revisou” e passiva sintética de “oferecem-se” são válidas; “precisa-se de voluntários” é impessoal quanto ao sujeito.	challenge, newExample
+Q-POR-17-001-01	POR-17	ce	0	0	Na acepção “necessitar”, “precisar de documentos” exige complemento preposicionado “de documentos”.	challenge, newExample
+Q-POR-17-001-02	POR-17	classica	1	1	“O documento” é o objeto enviado, direto; “à chefia” indica destinatário regido por “a”, indireto.	challenge, newExample
+Q-POR-17-001-03	POR-17	associacao	0	0	“Depender de”, “confiar em” e “referir-se a” definem a sequência de/em/a.	challenge, newExample, stem
+Q-POR-17-001-04	POR-17	lacunas	1	1	A regência é “necessitar de”, “consistir em” e “referir-se a”; antes de “norma” há artigo feminino, formando “à”.	challenge, newExample
+Q-POR-17-002-01	POR-17	ce	0	0	“Assistir”, no sentido formal tradicional de presenciar, rege preposição a: “assistiram ao debate”.	challenge, newExample
+Q-POR-17-002-02	POR-17	classica	2	2	A preferência é expressa na construção formal “preferir X a Y”, sem “mais ... do que”.	challenge, newExample, stem
+Q-POR-17-002-03	POR-17	vf	3	3	“Assistir a”, “obedecer a” e “aspirar” no sentido de inalar estão corretos; “preferir mais ... do que” viola a construção tradicional: V–V–V–F.	challenge, newExample
+Q-POR-17-002-04	POR-17	exceto	3	3	“Preferia mais ... do que” é a única construção contrária à regência tradicional “preferir X a Y”.	challenge, newExample
+Q-POR-17-003-01	POR-17	ce	0	0	“Aspirar” significa inalar com objeto direto e almejar com “a” + complemento.	challenge, newExample
+Q-POR-17-003-02	POR-17	classica	1	1	“Assistir ao filme” significa presenciar; “assistir o paciente” significa prestar assistência, com objeto direto na regência tradicional.	challenge, explanation, newExample, optionComments, options
+Q-POR-17-003-03	POR-17	associacao	2	2	“Aspirou o perfume”=inalou, “ao emprego”=almejou, “assistiu o ferido”=auxiliou e “ao recital”=presenciou.	challenge, newExample
+Q-POR-17-003-04	POR-17	lacunas	2	2	Na regência tradicional: “aspirou a fragrância” (sem crase), “aspirava à chefia”, “assistiu o estudante” e “assistiu à apresentação”.	challenge, newExample, stem
+Q-POR-17-004-01	POR-17	ce	0	0	“Compatível” exige a preposição “com” na construção dada: compatível com o regulamento.	challenge, newExample
+Q-POR-17-004-02	POR-17	classica	2	2	“Compatível com as normas” é adequada; “favorável a”, “consciente de” e “necessidade de” tornam incorretas as demais.	challenge, explanation, newExample
+Q-POR-17-004-03	POR-17	associacao	0	0	“Favorável a”, “confiança em”, “necessidade de”, “compatível com” correspondem à sequência a/em/de/com.	challenge, newExample
+Q-POR-17-004-04	POR-17	exceto	2	2	“Aversão” admite “a/por”, não a preposição “com” na construção tradicional selecionada.	challenge, newExample, stem
+Q-POR-17-005-01	POR-17	ce	0	0	Na relativa “relatório de que precisamos”, a preposição de foi corretamente anteposta a “que”.	challenge, newExample
+Q-POR-17-005-02	POR-17	classica	3	3	Discordar rege “de”; a relativa deve conservar essa preposição: “a decisão de que discordamos”.	challenge, explanation, newExample
+Q-POR-17-005-03	POR-17	vf	2	2	“Tratar de”, “trabalhar em” e “referir-se a” estão atendidos; falta a preposição a em “a norma que obedecemos”: V–F–V–V.	challenge, newExample
+Q-POR-17-005-04	POR-17	exceto	3	3	“Precisar de” exige “de que precisamos”; “o assunto que precisamos” omite a preposição na variante formal exigida.	challenge, explanation, newExample
+Q-POR-18-001-01	POR-18	ce	0	0	“Dirigir-se a” + artigo “a” de “a coordenadora” produz “à coordenadora”.	challenge, newExample
+Q-POR-18-001-02	POR-18	classica	1	1	“Enviou ... à supervisora” une preposição exigida pela regência a artigo feminino; não se craseia antes de infinitivo ou pronome masculino.	challenge, newExample, stem
+Q-POR-18-001-03	POR-18	associacao	0	0	A substituição masculina evidencia “ao colégio”, “aos regulamentos” e “a um encontro”: terceira ocorrência sem fusão.	challenge, newExample
+Q-POR-18-001-04	POR-18	vf	0	0	I e III têm fusão válida; não há crase antes de infinitivo “revisar” nem antes de “ele”: V–F–V–F.	challenge, newExample, stem
+Q-POR-18-002-01	POR-18	ce	0	0	“À medida que” é locução conjuntiva proporcional grafada com acento grave.	challenge, newExample
+Q-POR-18-002-02	POR-18	classica	2	2	“À tarde” recebe acento grave; “às pressas”, “à noite” também o exigiriam; “a partir de” não recebe crase.	challenge, newExample, optionComments, options
+Q-POR-18-002-03	POR-18	lacunas	3	3	As locuções femininas são “à noite”, “às pressas” e “à espera”; cada qual exige a forma correspondente.	challenge, newExample
+Q-POR-18-002-04	POR-18	exceto	2	2	A locução prepositiva “a partir de” não leva crase antes do infinitivo “partir”.	challenge, explanation, newExample
+Q-POR-18-003-01	POR-18	ce	1	1	Antes do infinitivo “conferir” não cabe artigo feminino: o acento de “à conferir” é incorreto.	challenge, newExample
+Q-POR-18-003-02	POR-18	classica	3	3	“Começou a organizar” não admite crase diante do infinitivo; as outras frases usam crase adequada em contexto diverso.	challenge, newExample, stem
+Q-POR-18-003-03	POR-18	vf	0	0	A preposição a diante de “uma” e “ela” não se funde com artigo; “à revisar” é inadequado e “frente a frente” não tem crase: V–V–F–V.	challenge, newExample
+Q-POR-18-003-04	POR-18	afirmacoes	1	1	I é verdadeira; II é falsa porque “ela” não recebe artigo; III é verdadeira pela fusão com demonstrativo “aquela”.	challenge, newExample
+Q-POR-18-004-01	POR-18	ce	0	0	Antes do possessivo feminino singular “minha professora”, o artigo é facultativo, permitindo “a minha” e “à minha”.	challenge, newExample
+Q-POR-18-004-02	POR-18	classica	2	2	“A minha orientadora” e “à minha orientadora” são admitidas porque o artigo antes do possessivo feminino singular é facultativo.	challenge, newExample, stem
+Q-POR-18-004-03	POR-18	associacao	1	1	A crase é facultativa antes de possessivo feminino singular; vedada diante de “ela”; e obrigatória nos exemplos “à senhora” e “àquela servidora”.	challenge, newExample
+Q-POR-18-004-04	POR-18	exceto	2	2	O pronome pessoal “ela” não admite artigo anteposto, logo “à ela” não decorre de fusão legítima.	challenge, newExample, optionComments, options
+Q-POR-18-005-01	POR-18	ce	0	0	O topônimo Bahia pede artigo feminino: “voltar da Bahia”, justificando “viajar à Bahia” no destino indicado.	challenge, newExample
+Q-POR-18-005-02	POR-18	classica	1	1	Na hora exata “às 14 horas”, ocorre a preposição a mais artigo plural “as”.	challenge, newExample
+Q-POR-18-005-03	POR-18	associacao	2	2	A forma é “à Bahia” e “à Paraíba” por admitirem artigo; “a Natal” é sem artigo na indicação usual de destino.	challenge, newExample
+Q-POR-18-005-04	POR-18	exceto	3	3	No padrão editorial do Senado, intervalos com artigo seguem “das ... às ...”; “de 8h às 12h” quebra o paralelismo exigido nesse padrão.	challenge, examTip, explanation, newExample, stem

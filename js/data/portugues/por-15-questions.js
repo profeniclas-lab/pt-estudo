@@ -1,4 +1,4 @@
-/** PT-ESTUDO POR-15: 20 questões autorais com comentários individuais */
+/** PT-ESTUDO — POR-15: termos integrantes e acessórios. Revisão pedagógica C03/L04. */
 export const POR_15_QUESTIONS = [
   {
     "type": "ce",
@@ -21,8 +21,8 @@ export const POR_15_QUESTIONS = [
     "concept": "Objeto direto complementa verbo transitivo direto, geralmente sem preposição exigida; objeto indireto complementa verbo transitivo indireto, com preposição regida pelo verbo.",
     "trap": "Observe a regência do verbo e se o termo completa seu sentido ou acrescenta apenas circunstância.",
     "examTip": "Observe a regência do verbo e se o termo completa seu sentido ou acrescenta apenas circunstância.",
-    "newExample": "“O servidor informou a mudança aos colegas”: a mudança é objeto direto; aos colegas é objeto indireto.",
-    "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+    "newExample": "“A equipe remeteu um memorando ao setor”: memorando é objeto direto; setor, destinatário indireto.",
+    "challenge": "Separe os dois objetos em “A secretaria entregou os certificados aos participantes”.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -32,18 +32,18 @@ export const POR_15_QUESTIONS = [
     "difficulty": "media",
     "stem": "Na frase “A comissão necessita de informações”, qual é a função de “de informações”?",
     "options": [
-      "Sujeito simples.",
-      "Adjunto adverbial de lugar.",
-      "Objeto indireto.",
-      "Objeto direto sem preposição."
+      "Complemento nominal de “comissão”, porque vem depois de um substantivo.",
+      "Adjunto adverbial de assunto, por indicar o tema da atividade.",
+      "Objeto indireto, exigido pela regência de “necessitar de”.",
+      "Objeto direto preposicionado, pois a preposição não seria exigida pelo verbo."
     ],
     "answer": 2,
     "explanation": "O verbo necessitar rege de nesse emprego, e a expressão completa seu sentido.",
     "optionComments": [
-      "Incorreta: a comissão exerce a função de sujeito.",
-      "Incorreta: informações não nomeia local ou circunstância de necessidade.",
-      "Correta: “de informações” é complemento exigido pelo verbo.",
-      "Incorreta: a preposição de é exigida nessa construção verbal."
+      "Incorreta: a expressão depende do verbo “necessita”, não do sujeito “comissão”.",
+      "Incorreta: trata-se de complemento necessário à regência de necessitar, não de mera circunstância.",
+      "Correta: a regência verbal pede “de”, que introduz o objeto indireto.",
+      "Incorreta: a preposição “de” é regida pelo verbo, caracterizando objeto indireto."
     ],
     "id": "Q-POR-15-001-02",
     "moduleId": "POR-15",
@@ -52,8 +52,8 @@ export const POR_15_QUESTIONS = [
     "concept": "Objeto direto complementa verbo transitivo direto, geralmente sem preposição exigida; objeto indireto complementa verbo transitivo indireto, com preposição regida pelo verbo.",
     "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
     "examTip": "Observe a regência do verbo e se o termo completa seu sentido ou acrescenta apenas circunstância.",
-    "newExample": "“O servidor informou a mudança aos colegas”: a mudança é objeto direto; aos colegas é objeto indireto.",
-    "challenge": "Quais os dois complementos de “A chefia comunicou a decisão aos servidores”?",
+    "newExample": "“Os participantes confiam na comissão”: “na comissão” é complemento regido por confiar em.",
+    "challenge": "Diferencie “no parecer” em “Confiamos no parecer” de “no arquivo” em “Trabalhamos no arquivo”.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -83,8 +83,8 @@ export const POR_15_QUESTIONS = [
     "concept": "Objeto direto complementa verbo transitivo direto, geralmente sem preposição exigida; objeto indireto complementa verbo transitivo indireto, com preposição regida pelo verbo.",
     "trap": "Observe a regência do verbo e se o termo completa seu sentido ou acrescenta apenas circunstância.",
     "examTip": "Observe a regência do verbo e se o termo completa seu sentido ou acrescenta apenas circunstância.",
-    "newExample": "“O servidor informou a mudança aos colegas”: a mudança é objeto direto; aos colegas é objeto indireto.",
-    "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+    "newExample": "“Encaminhei o relatório ao diretor ontem”: relatório é OD, diretor é OI e ontem exprime tempo.",
+    "challenge": "Classifique os três termos finais de “Enviei a ata aos conselheiros ontem”.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -92,7 +92,7 @@ export const POR_15_QUESTIONS = [
   {
     "type": "exceto",
     "difficulty": "dificil",
-    "stem": "Em relação a objetos e circunstâncias, marque a alternativa INCORRETA:",
+    "stem": "Considerando a regência dos verbos e a função das circunstâncias de tempo, marque a alternativa INCORRETA:",
     "options": [
       "“Trabalhou durante a tarde”: durante a tarde é objeto indireto exigido por trabalhar.",
       "“Confiou no resultado”: no resultado completa o verbo confiar.",
@@ -114,8 +114,8 @@ export const POR_15_QUESTIONS = [
     "concept": "Objeto direto complementa verbo transitivo direto, geralmente sem preposição exigida; objeto indireto complementa verbo transitivo indireto, com preposição regida pelo verbo.",
     "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
     "examTip": "Observe a regência do verbo e se o termo completa seu sentido ou acrescenta apenas circunstância.",
-    "newExample": "“O servidor informou a mudança aos colegas”: a mudança é objeto direto; aos colegas é objeto indireto.",
-    "challenge": "Quais os dois complementos de “A chefia comunicou a decisão aos servidores”?",
+    "newExample": "“Conversou durante horas”: “durante horas” mede duração, não objeto indireto do verbo.",
+    "challenge": "Invente uma oração em que termo preposicionado seja objeto indireto e outra em que seja adjunto adverbial.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -141,8 +141,8 @@ export const POR_15_QUESTIONS = [
     "concept": "Complemento nominal completa o sentido de substantivo abstrato, adjetivo ou advérbio que exige complemento; adjunto adnominal determina ou caracteriza um substantivo.",
     "trap": "O nome abstrato pode exigir complemento; mas analise a relação semântica e não decida somente pela preposição.",
     "examTip": "O nome abstrato pode exigir complemento; mas analise a relação semântica e não decida somente pela preposição.",
-    "newExample": "“A confiança nos resultados” exige um objeto da confiança; “o relatório da equipe” indica vinculação/posse.",
-    "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+    "newExample": "“O interesse pela pesquisa cresceu”: “pela pesquisa” completa o sentido do nome abstrato interesse.",
+    "challenge": "Substitua “necessidade” por outro substantivo abstrato que peça complemento preposicionado.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -158,7 +158,7 @@ export const POR_15_QUESTIONS = [
       "Adjunto adnominal que caracteriza “mesa”."
     ],
     "answer": 3,
-    "explanation": "“De madeira” informa material da mesa, funcionando como caracterização do substantivo.",
+    "explanation": "Na expressão “mesa de madeira”, “de madeira” indica matéria/característica do objeto concreto e funciona como adjunto adnominal. “Mesa” não exige complemento nominal como faria um nome abstrato em “necessidade de revisão”.",
     "optionComments": [
       "Incorreta: mesa não exige semanticamente um complemento do tipo necessário a certos nomes abstratos.",
       "Incorreta: a expressão está dentro do grupo nominal sujeito, não complementa o verbo.",
@@ -172,8 +172,8 @@ export const POR_15_QUESTIONS = [
     "concept": "Complemento nominal completa o sentido de substantivo abstrato, adjetivo ou advérbio que exige complemento; adjunto adnominal determina ou caracteriza um substantivo.",
     "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
     "examTip": "O nome abstrato pode exigir complemento; mas analise a relação semântica e não decida somente pela preposição.",
-    "newExample": "“A confiança nos resultados” exige um objeto da confiança; “o relatório da equipe” indica vinculação/posse.",
-    "challenge": "Qual a função de “ao candidato” em “A resposta ao candidato foi enviada”?",
+    "newExample": "“Prateleira de aço” indica material e caracteriza o substantivo prateleira.",
+    "challenge": "Compare “porta de madeira” e “necessidade de madeira”: o mesmo “de” tem que função em cada caso?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -203,8 +203,8 @@ export const POR_15_QUESTIONS = [
     "concept": "Complemento nominal completa o sentido de substantivo abstrato, adjetivo ou advérbio que exige complemento; adjunto adnominal determina ou caracteriza um substantivo.",
     "trap": "O nome abstrato pode exigir complemento; mas analise a relação semântica e não decida somente pela preposição.",
     "examTip": "O nome abstrato pode exigir complemento; mas analise a relação semântica e não decida somente pela preposição.",
-    "newExample": "“A confiança nos resultados” exige um objeto da confiança; “o relatório da equipe” indica vinculação/posse.",
-    "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+    "newExample": "“Respeito às regras”, “copo de vidro” e “respondeu ao chefe” exemplificam complemento nominal, adjunto e objeto indireto.",
+    "challenge": "Classifique a expressão com “a/ao” em “respeito à lei” e “obedecer à lei”.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -212,7 +212,7 @@ export const POR_15_QUESTIONS = [
   {
     "type": "afirmacoes",
     "difficulty": "dificil",
-    "stem": "Examine: I. Em “a construção da ponte”, da ponte pode designar o objeto construído e funcionar como complemento nominal. II. Em “o relatório do setor”, do setor pode indicar autoria/vínculo e funcionar como adjunto adnominal. III. Toda expressão com “de” depois de um substantivo será complemento nominal. Assinale:",
+    "stem": "Considere o valor semântico das expressões preposicionadas: I. Em “a construção da ponte”, “da ponte” pode designar o objeto construído e funcionar como complemento nominal. II. Em “o relatório do setor”, “do setor” pode indicar autoria ou vínculo, funcionando como adjunto adnominal. III. Toda expressão iniciada por “de” após substantivo será complemento nominal. Assinale:",
     "options": [
       "I e III apenas.",
       "I e II apenas.",
@@ -234,8 +234,8 @@ export const POR_15_QUESTIONS = [
     "concept": "Complemento nominal completa o sentido de substantivo abstrato, adjetivo ou advérbio que exige complemento; adjunto adnominal determina ou caracteriza um substantivo.",
     "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
     "examTip": "O nome abstrato pode exigir complemento; mas analise a relação semântica e não decida somente pela preposição.",
-    "newExample": "“A confiança nos resultados” exige um objeto da confiança; “o relatório da equipe” indica vinculação/posse.",
-    "challenge": "Qual a função de “ao candidato” em “A resposta ao candidato foi enviada”?",
+    "newExample": "“A análise do documento” pode ter documento como objeto analisado; “a análise do perito” pode indicar seu autor.",
+    "challenge": "Explique por que a função de “do perito” depende da relação semântica com “análise”.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -261,8 +261,8 @@ export const POR_15_QUESTIONS = [
     "concept": "Agente da passiva é termo que, em construção passiva, indica quem pratica a ação sofrida pelo sujeito paciente.",
     "trap": "Na passagem de ativa para passiva, o objeto direto normalmente vira sujeito paciente; o sujeito ativo pode virar agente da passiva.",
     "examTip": "Na passagem de ativa para passiva, o objeto direto normalmente vira sujeito paciente; o sujeito ativo pode virar agente da passiva.",
-    "newExample": "“Os dados foram revisados pelos técnicos” → “Os técnicos revisaram os dados”.",
-    "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+    "newExample": "“A proposta foi aprovada pelos conselheiros”: o grupo introduzido por “por” é agente da passiva.",
+    "challenge": "Passe “Os coordenadores aprovaram o plano” à voz passiva e localize o agente.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -273,17 +273,17 @@ export const POR_15_QUESTIONS = [
     "stem": "Qual transformação mantém o sentido básico de “A equipe revisou os documentos” na voz passiva analítica?",
     "options": [
       "Os documentos foram revisados pela equipe.",
+      "Os documentos foram revisados para a equipe.",
       "A equipe foi revisada pelos documentos.",
-      "Os documentos revisaram a equipe.",
-      "Revisaram-se a equipe pelos documentos."
+      "Os documentos seriam revisados pela equipe."
     ],
     "answer": 0,
-    "explanation": "O objeto direto da ativa torna-se sujeito paciente; o antigo sujeito pode aparecer como agente da passiva.",
+    "explanation": "Na transposição para a passiva analítica, o objeto direto “os documentos” vira sujeito paciente, o agente “a equipe” passa a “pela equipe”, e o pretérito perfeito é mantido por “foram revisados”.",
     "optionComments": [
-      "Correta: documentos continuam sendo o elemento revisado e equipe, o agente.",
-      "Incorreta: inverte as relações de agente e paciente.",
-      "Incorreta: mantém voz ativa e troca os papéis semânticos.",
-      "Incorreta: muda os papéis e combina de modo inadequado construções ativas e passivas."
+      "Correta: mantém documentos como paciente, equipe como agente e passado concluído.",
+      "Incorreta: “para a equipe” indica finalidade/destinatário, não o agente que revisou.",
+      "Incorreta: troca paciente e agente, alterando os papéis temáticos.",
+      "Incorreta: o futuro do pretérito introduz hipótese e não preserva o fato concluído."
     ],
     "id": "Q-POR-15-003-02",
     "moduleId": "POR-15",
@@ -292,8 +292,8 @@ export const POR_15_QUESTIONS = [
     "concept": "Agente da passiva é termo que, em construção passiva, indica quem pratica a ação sofrida pelo sujeito paciente.",
     "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
     "examTip": "Na passagem de ativa para passiva, o objeto direto normalmente vira sujeito paciente; o sujeito ativo pode virar agente da passiva.",
-    "newExample": "“Os dados foram revisados pelos técnicos” → “Os técnicos revisaram os dados”.",
-    "challenge": "Qual o agente da passiva em “As notas foram conferidas pela secretaria”?",
+    "newExample": "“A secretaria arquivou as fichas” → “As fichas foram arquivadas pela secretaria”.",
+    "challenge": "Produza a passiva analítica de “Os fiscais conferiram os documentos”.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -323,8 +323,8 @@ export const POR_15_QUESTIONS = [
     "concept": "Agente da passiva é termo que, em construção passiva, indica quem pratica a ação sofrida pelo sujeito paciente.",
     "trap": "Na passagem de ativa para passiva, o objeto direto normalmente vira sujeito paciente; o sujeito ativo pode virar agente da passiva.",
     "examTip": "Na passagem de ativa para passiva, o objeto direto normalmente vira sujeito paciente; o sujeito ativo pode virar agente da passiva.",
-    "newExample": "“Os dados foram revisados pelos técnicos” → “Os técnicos revisaram os dados”.",
-    "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+    "newExample": "“O edital foi enviado pela direção”: edital é paciente, “foi enviado” locução, direção é agente.",
+    "challenge": "Localize paciente, locução verbal e agente em “O texto foi corrigido pelos revisores”.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -332,7 +332,7 @@ export const POR_15_QUESTIONS = [
   {
     "type": "vf",
     "difficulty": "dificil",
-    "stem": "Julgue: ( ) “O edital foi divulgado pelo órgão”: pelo órgão é agente da passiva. ( ) “O servidor passou pelo corredor”: pelo corredor é agente da passiva. ( ) “O aviso foi enviado”: pode haver passiva sem agente expresso. ( ) “Os técnicos concluíram o parecer” admite “O parecer foi concluído pelos técnicos”. Sequência:",
+    "stem": "Julgue as quatro análises da voz passiva: ( ) Em “O edital foi divulgado pelo órgão”, “pelo órgão” é agente da passiva. ( ) Em “O servidor passou pelo corredor”, “pelo corredor” é agente da passiva. ( ) Em “O aviso foi enviado”, pode haver passiva sem agente expresso. ( ) “Os técnicos concluíram o parecer” admite “O parecer foi concluído pelos técnicos”. Sequência:",
     "options": [
       "V – V – F – V.",
       "F – F – V – V.",
@@ -354,8 +354,8 @@ export const POR_15_QUESTIONS = [
     "concept": "Agente da passiva é termo que, em construção passiva, indica quem pratica a ação sofrida pelo sujeito paciente.",
     "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
     "examTip": "Na passagem de ativa para passiva, o objeto direto normalmente vira sujeito paciente; o sujeito ativo pode virar agente da passiva.",
-    "newExample": "“Os dados foram revisados pelos técnicos” → “Os técnicos revisaram os dados”.",
-    "challenge": "Qual o agente da passiva em “As notas foram conferidas pela secretaria”?",
+    "newExample": "“O documento foi extraviado”: a passiva existe mesmo sem indicação de quem o extraviou.",
+    "challenge": "Explique por que “pelo corredor” em “passou pelo corredor” não é agente da passiva.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -381,8 +381,8 @@ export const POR_15_QUESTIONS = [
     "concept": "Adjunto adnominal acompanha o nome, determinando-o ou caracterizando-o; adjunto adverbial acrescenta circunstâncias à ação, ao estado ou ao enunciado.",
     "trap": "Expressões com “de” podem ter funções distintas: “visita da manhã” versus “visitou de manhã”.",
     "examTip": "Expressões com “de” podem ter funções distintas: “visita da manhã” versus “visitou de manhã”.",
-    "newExample": "“Os dois documentos novos chegaram cedo”: os/dois/novos são adjuntos adnominais; cedo é adjunto adverbial.",
-    "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+    "newExample": "“A equipe apresentou o trabalho hoje”: “hoje” localiza a apresentação no tempo.",
+    "challenge": "Troque “hoje” por outra expressão de tempo sem alterar sua função sintática.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -412,8 +412,8 @@ export const POR_15_QUESTIONS = [
     "concept": "Adjunto adnominal acompanha o nome, determinando-o ou caracterizando-o; adjunto adverbial acrescenta circunstâncias à ação, ao estado ou ao enunciado.",
     "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
     "examTip": "Expressões com “de” podem ter funções distintas: “visita da manhã” versus “visitou de manhã”.",
-    "newExample": "“Os dois documentos novos chegaram cedo”: os/dois/novos são adjuntos adnominais; cedo é adjunto adverbial.",
-    "challenge": "Em “As quatro propostas recentes chegaram ontem”, qual termo indica tempo da chegada?",
+    "newExample": "“Cinco” em “cinco cópias” quantifica o nome; “cedo” em “chegaram cedo” modifica o verbo.",
+    "challenge": "Identifique os adjuntos adnominais de “As três novas atas chegaram rapidamente”.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -421,7 +421,7 @@ export const POR_15_QUESTIONS = [
   {
     "type": "associacao",
     "difficulty": "dificil",
-    "stem": "Associe as expressões destacadas por aspas: 1. “A visita da manhã” foi cancelada (“da manhã”). 2. “Visitamos de manhã” (“de manhã”). 3. “Os três arquivos” chegaram (“três”). Classifique: A. adjunto adverbial; B. adjunto adnominal de valor temporal; C. adjunto adnominal de quantificação. Sequência:",
+    "stem": "Analise os segmentos expressamente isolados por aspas: 1. Em “A visita da manhã foi cancelada”, o segmento “da manhã”. 2. Em “Visitamos de manhã”, o segmento “de manhã”. 3. Em “Os três arquivos chegaram”, o segmento “três”. Classifique: A. adjunto adverbial; B. adjunto adnominal de valor temporal; C. adjunto adnominal de quantificação. Sequência:",
     "options": [
       "A – B – C.",
       "B – C – A.",
@@ -443,8 +443,8 @@ export const POR_15_QUESTIONS = [
     "concept": "Adjunto adnominal acompanha o nome, determinando-o ou caracterizando-o; adjunto adverbial acrescenta circunstâncias à ação, ao estado ou ao enunciado.",
     "trap": "Expressões com “de” podem ter funções distintas: “visita da manhã” versus “visitou de manhã”.",
     "examTip": "Expressões com “de” podem ter funções distintas: “visita da manhã” versus “visitou de manhã”.",
-    "newExample": "“Os dois documentos novos chegaram cedo”: os/dois/novos são adjuntos adnominais; cedo é adjunto adverbial.",
-    "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+    "newExample": "“O plantão noturno” usa qualificativo adnominal; “trabalhou à noite” usa expressão adverbial.",
+    "challenge": "Compare “reunião da tarde” com “reunimo-nos à tarde” e explique os núcleos modificados.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -474,8 +474,8 @@ export const POR_15_QUESTIONS = [
     "concept": "Adjunto adnominal acompanha o nome, determinando-o ou caracterizando-o; adjunto adverbial acrescenta circunstâncias à ação, ao estado ou ao enunciado.",
     "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
     "examTip": "Expressões com “de” podem ter funções distintas: “visita da manhã” versus “visitou de manhã”.",
-    "newExample": "“Os dois documentos novos chegaram cedo”: os/dois/novos são adjuntos adnominais; cedo é adjunto adverbial.",
-    "challenge": "Em “As quatro propostas recentes chegaram ontem”, qual termo indica tempo da chegada?",
+    "newExample": "“Os dois relatórios chegaram ontem”: dois determina relatórios; ontem modifica chegaram.",
+    "challenge": "Reescreva a análise incorreta do item, trocando “adjunto adnominal” pelo termo correto.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -501,8 +501,8 @@ export const POR_15_QUESTIONS = [
     "concept": "Aposto explica, especifica, resume ou enumera termo da oração; vocativo chama ou interpela o interlocutor e fica fora da estrutura argumental do verbo.",
     "trap": "Identifique a função discursiva: explicar um termo existente (aposto) ou dirigir-se a alguém (vocativo).",
     "examTip": "Identifique a função discursiva: explicar um termo existente (aposto) ou dirigir-se a alguém (vocativo).",
-    "newExample": "“Marina, coordenadora do setor, respondeu. Marina, confirme a agenda!”: primeiro há aposto; depois, vocativo.",
-    "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+    "newExample": "“Colegas, enviem os anexos” tem vocativo “colegas”; o sujeito do imperativo é vocês.",
+    "challenge": "Reescreva a frase sem vocativo e explique quem continua sendo o sujeito de “enviem”.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -532,8 +532,8 @@ export const POR_15_QUESTIONS = [
     "concept": "Aposto explica, especifica, resume ou enumera termo da oração; vocativo chama ou interpela o interlocutor e fica fora da estrutura argumental do verbo.",
     "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
     "examTip": "Identifique a função discursiva: explicar um termo existente (aposto) ou dirigir-se a alguém (vocativo).",
-    "newExample": "“Marina, coordenadora do setor, respondeu. Marina, confirme a agenda!”: primeiro há aposto; depois, vocativo.",
-    "challenge": "Em “Colegas, revisem o comunicado”, “Colegas” é sujeito?",
+    "newExample": "“Brasília, capital federal, recebe visitantes”: o segmento intermediário explica Brasília.",
+    "challenge": "Localize o aposto de “A obra, referência da cidade, foi restaurada”.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -541,7 +541,7 @@ export const POR_15_QUESTIONS = [
   {
     "type": "associacao",
     "difficulty": "dificil",
-    "stem": "Associe: 1. “Senhores, a sessão começou.” 2. “Mossoró, município potiguar, recebe o evento.” 3. “Os coordenadores, Ana e Paulo, ouviram o aviso.” Termos: A. aposto explicativo; B. vocativo; C. aposto enumerativo que especifica “os coordenadores”. Sequência:",
+    "stem": "Associe: 1. “Senhores, a sessão começou.” 2. “Mossoró, município potiguar, recebe o evento.” 3. “O órgão dispõe de três setores: recepção, triagem e protocolo.” Termos: A. aposto explicativo; B. vocativo; C. aposto enumerativo que explicita os três setores. Sequência:",
     "options": [
       "A – B – C.",
       "B – C – A.",
@@ -549,12 +549,12 @@ export const POR_15_QUESTIONS = [
       "B – A – C."
     ],
     "answer": 3,
-    "explanation": "Senhores chama os interlocutores; município potiguar explica Mossoró; Ana e Paulo enumeram os coordenadores.",
+    "explanation": "“Senhores” é vocativo de chamamento (B); “município potiguar” explica Mossoró (A); a lista “recepção, triagem e protocolo”, após dois-pontos, enumera os setores anteriormente anunciados (C).",
     "optionComments": [
-      "Incorreta: Senhores não explica substantivo anterior; é chamamento.",
-      "Incorreta: município potiguar é explicação do nome da cidade.",
-      "Incorreta: Senhores não enumera os coordenadores; ele interpela ouvintes.",
-      "Correta: distingue aposto e vocativo pela referência dentro ou fora da oração."
+      "Incorreta: o chamamento “Senhores” é vocativo, não aposto.",
+      "Incorreta: “município potiguar” é explicação de Mossoró, não enumeração.",
+      "Incorreta: a enumeração final não é vocativo.",
+      "Correta: 1 é vocativo (B); 2 é aposto explicativo (A); 3 é aposto enumerativo (C)."
     ],
     "id": "Q-POR-15-005-03",
     "moduleId": "POR-15",
@@ -563,8 +563,8 @@ export const POR_15_QUESTIONS = [
     "concept": "Aposto explica, especifica, resume ou enumera termo da oração; vocativo chama ou interpela o interlocutor e fica fora da estrutura argumental do verbo.",
     "trap": "Identifique a função discursiva: explicar um termo existente (aposto) ou dirigir-se a alguém (vocativo).",
     "examTip": "Identifique a função discursiva: explicar um termo existente (aposto) ou dirigir-se a alguém (vocativo).",
-    "newExample": "“Marina, coordenadora do setor, respondeu. Marina, confirme a agenda!”: primeiro há aposto; depois, vocativo.",
-    "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+    "newExample": "“Senhoras e senhores, iniciamos”; “Fortaleza, capital cearense,...”; “Três áreas: arquivo, recepção e protocolo”.",
+    "challenge": "Classifique o trecho após os dois-pontos em “Os setores atendidos foram três: arquivo, recepção e protocolo”.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -580,7 +580,7 @@ export const POR_15_QUESTIONS = [
       "I, II e III."
     ],
     "answer": 0,
-    "explanation": "I e II descrevem funções diferentes do nome Maria; no último exemplo, mensagens é sujeito posposto e amigos é vocativo.",
+    "explanation": "“Coordenadora da equipe” explica quem é Maria, sendo aposto; “Maria” diante do imperativo é um vocativo; “Amigos” também é chamamento, enquanto “as mensagens” é sujeito posposto de “chegaram”.",
     "optionComments": [
       "Correta: aposto explica Maria na primeira e vocativo interpela Maria na segunda.",
       "Incorreta: III é falsa, pois o sujeito de chegaram é mensagens.",
@@ -594,8 +594,8 @@ export const POR_15_QUESTIONS = [
     "concept": "Aposto explica, especifica, resume ou enumera termo da oração; vocativo chama ou interpela o interlocutor e fica fora da estrutura argumental do verbo.",
     "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
     "examTip": "Identifique a função discursiva: explicar um termo existente (aposto) ou dirigir-se a alguém (vocativo).",
-    "newExample": "“Marina, coordenadora do setor, respondeu. Marina, confirme a agenda!”: primeiro há aposto; depois, vocativo.",
-    "challenge": "Em “Colegas, revisem o comunicado”, “Colegas” é sujeito?",
+    "newExample": "“Paula, chefe do setor, anunciou a decisão” contém aposto; “Paula, anuncie a decisão” contém vocativo.",
+    "challenge": "Compare o papel de “Paula” nas duas frases e indique o sujeito verbal em cada caso.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"

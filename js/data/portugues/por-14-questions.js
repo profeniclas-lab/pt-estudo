@@ -1,4 +1,4 @@
-/** PT-ESTUDO POR-14: 20 questões autorais com comentários individuais */
+/** PT-ESTUDO — POR-14: sintaxe da oração e termos essenciais. Revisão pedagógica C03/L04. */
 export const POR_14_QUESTIONS = [
   {
     "type": "ce",
@@ -21,8 +21,8 @@ export const POR_14_QUESTIONS = [
     "concept": "Frase é enunciado com sentido na situação de uso; oração organiza-se em torno de verbo ou locução verbal; período é enunciado estruturado em uma ou mais orações.",
     "trap": "Duas formas verbais nem sempre equivalem a duas orações: a locução verbal normalmente opera como uma unidade.",
     "examTip": "Duas formas verbais nem sempre equivalem a duas orações: a locução verbal normalmente opera como uma unidade.",
-    "newExample": "“A comissão vai publicar o edital”: a locução “vai publicar” funciona como núcleo verbal de uma oração.",
-    "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+    "newExample": "“Socorro!” constitui frase nominal; “Os fiscais chegaram” constitui frase e oração.",
+    "challenge": "Crie uma frase de aviso sem verbo e outra com verbo; justifique qual delas forma oração.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -32,18 +32,18 @@ export const POR_14_QUESTIONS = [
     "difficulty": "media",
     "stem": "No enunciado “Os candidatos devem apresentar os comprovantes”, quantas orações há na análise escolar habitual?",
     "options": [
-      "Duas, porque há duas formas verbais obrigatoriamente independentes.",
+      "Duas, porque o infinitivo “apresentar” seria sempre núcleo oracional independente.",
       "Uma, porque “devem apresentar” forma uma locução verbal.",
-      "Nenhuma, porque não aparece verbo conjugado isolado.",
-      "Três, porque há sujeito, verbo e objeto."
+      "Nenhuma, pois a forma “apresentar” não está flexionada em pessoa.",
+      "Duas, porque a presença do modal “dever” separaria as ações do enunciado."
     ],
     "answer": 1,
     "explanation": "A locução “devem apresentar” funciona como uma unidade predicativa, formando uma oração.",
     "optionComments": [
-      "Incorreta: a contagem não é feita por número bruto de formas verbais.",
-      "Correta: o auxiliar e o infinitivo integram a mesma locução.",
-      "Incorreta: “devem” é flexionado e integra o núcleo verbal.",
-      "Incorreta: contar termos sintáticos não equivale a contar orações."
+      "Incorreta: o infinitivo integra a locução “devem apresentar”; não há dois predicados oracionais autônomos.",
+      "Correta: a locução verbal constitui uma unidade no padrão escolar de contagem.",
+      "Incorreta: o auxiliar “devem” está flexionado, e a oração possui núcleo verbal.",
+      "Incorreta: a modalidade de dever não basta para criar outra oração."
     ],
     "id": "Q-POR-14-001-02",
     "moduleId": "POR-14",
@@ -52,8 +52,8 @@ export const POR_14_QUESTIONS = [
     "concept": "Frase é enunciado com sentido na situação de uso; oração organiza-se em torno de verbo ou locução verbal; período é enunciado estruturado em uma ou mais orações.",
     "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
     "examTip": "Duas formas verbais nem sempre equivalem a duas orações: a locução verbal normalmente opera como uma unidade.",
-    "newExample": "“A comissão vai publicar o edital”: a locução “vai publicar” funciona como núcleo verbal de uma oração.",
-    "challenge": "“Atenção!” pode ser frase mesmo sem verbo?",
+    "newExample": "“A equipe poderá revisar os dados” contém a locução “poderá revisar”, que integra uma oração.",
+    "challenge": "Conte as orações de “Os estudantes devem concluir o cadastro” e explique sua contagem.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -83,8 +83,8 @@ export const POR_14_QUESTIONS = [
     "concept": "Frase é enunciado com sentido na situação de uso; oração organiza-se em torno de verbo ou locução verbal; período é enunciado estruturado em uma ou mais orações.",
     "trap": "Duas formas verbais nem sempre equivalem a duas orações: a locução verbal normalmente opera como uma unidade.",
     "examTip": "Duas formas verbais nem sempre equivalem a duas orações: a locução verbal normalmente opera como uma unidade.",
-    "newExample": "“A comissão vai publicar o edital”: a locução “vai publicar” funciona como núcleo verbal de uma oração.",
-    "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+    "newExample": "“Proibida a entrada!” é frase nominal; “O órgão decidiu” é período simples; “Se houver recurso, responderemos” tem duas orações.",
+    "challenge": "Classifique separadamente cada um dos três novos enunciados quanto à presença de oração.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -114,8 +114,8 @@ export const POR_14_QUESTIONS = [
     "concept": "Frase é enunciado com sentido na situação de uso; oração organiza-se em torno de verbo ou locução verbal; período é enunciado estruturado em uma ou mais orações.",
     "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
     "examTip": "Duas formas verbais nem sempre equivalem a duas orações: a locução verbal normalmente opera como uma unidade.",
-    "newExample": "“A comissão vai publicar o edital”: a locução “vai publicar” funciona como núcleo verbal de uma oração.",
-    "challenge": "“Atenção!” pode ser frase mesmo sem verbo?",
+    "newExample": "“Abertas as inscrições!” é frase nominal; “O edital foi assinado” tem uma oração; “Quando avisarem, sairemos” tem duas.",
+    "challenge": "Substitua “Quando avisarem, sairemos” por um período de uma só oração, preservando uma ideia de tempo.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -141,8 +141,8 @@ export const POR_14_QUESTIONS = [
     "concept": "Sujeito simples tem um núcleo; composto tem mais de um; sujeito oculto é recuperável pela flexão ou contexto; indeterminado não tem referente identificável; orações impessoais não têm sujeito.",
     "trap": "O complemento de “haver” existencial não é sujeito, embora tenha sentido semelhante ao sujeito de “existir”.",
     "examTip": "O complemento de “haver” existencial não é sujeito, embora tenha sentido semelhante ao sujeito de “existir”.",
-    "newExample": "“Existem documentos arquivados” tem sujeito “documentos arquivados”; “Há documentos arquivados” não possui sujeito.",
-    "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+    "newExample": "“Surgiram dúvidas” tem sujeito posposto “dúvidas”; compare com “Houve dúvidas”.",
+    "challenge": "Substitua “existem pendências” por “haver” sem criar uma forma plural inadequada.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -152,18 +152,18 @@ export const POR_14_QUESTIONS = [
     "difficulty": "media",
     "stem": "Em “Havia muitos documentos sobre a mesa”, qual análise é adequada?",
     "options": [
-      "“Muitos documentos” é sujeito composto.",
-      "“Muitos documentos” é sujeito simples posposto.",
+      "“Muitos documentos” é sujeito composto, porque reúne plural e quantificador.",
+      "“Muitos documentos” é sujeito simples posposto, como ocorreria com existir.",
       "O verbo haver tem sentido existencial e a oração não apresenta sujeito.",
-      "O sujeito é oculto e recuperável como “eles”."
+      "“Sobre a mesa” é o sujeito, porque indica onde estavam os documentos."
     ],
     "answer": 2,
     "explanation": "Haver com sentido de existir é impessoal, e “muitos documentos” não exerce função de sujeito.",
     "optionComments": [
-      "Incorreta: não há dois núcleos de sujeito; na verdade, não há sujeito.",
-      "Incorreta: a semelhança com “existiam documentos” não cria sujeito para haver.",
-      "Correta: haver existencial se mantém na 3ª pessoa do singular.",
-      "Incorreta: não há referente elíptico recuperável para o verbo impessoal."
+      "Incorreta: número e quantificação não criam vários núcleos do sujeito.",
+      "Incorreta: o plural seria sujeito de “existiam”, mas não de haver existencial.",
+      "Correta: haver existencial é impessoal, mesmo seguido de plural.",
+      "Incorreta: “sobre a mesa” é uma circunstância de lugar."
     ],
     "id": "Q-POR-14-002-02",
     "moduleId": "POR-14",
@@ -172,8 +172,8 @@ export const POR_14_QUESTIONS = [
     "concept": "Sujeito simples tem um núcleo; composto tem mais de um; sujeito oculto é recuperável pela flexão ou contexto; indeterminado não tem referente identificável; orações impessoais não têm sujeito.",
     "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
     "examTip": "O complemento de “haver” existencial não é sujeito, embora tenha sentido semelhante ao sujeito de “existir”.",
-    "newExample": "“Existem documentos arquivados” tem sujeito “documentos arquivados”; “Há documentos arquivados” não possui sujeito.",
-    "challenge": "Por que se diz “Existem vagas”, mas “Há vagas”?",
+    "newExample": "“Havia pedidos urgentes” não tem sujeito; “Existiam pedidos urgentes” tem sujeito plural.",
+    "challenge": "Explique por que “pedidos urgentes” muda de função na troca de haver por existir.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -203,8 +203,8 @@ export const POR_14_QUESTIONS = [
     "concept": "Sujeito simples tem um núcleo; composto tem mais de um; sujeito oculto é recuperável pela flexão ou contexto; indeterminado não tem referente identificável; orações impessoais não têm sujeito.",
     "trap": "O complemento de “haver” existencial não é sujeito, embora tenha sentido semelhante ao sujeito de “existir”.",
     "examTip": "O complemento de “haver” existencial não é sujeito, embora tenha sentido semelhante ao sujeito de “existir”.",
-    "newExample": "“Existem documentos arquivados” tem sujeito “documentos arquivados”; “Há documentos arquivados” não possui sujeito.",
-    "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+    "newExample": "“Chegaram os avisos”: sujeito posposto; “Enviamos avisos”: sujeito nós não expresso; “Há avisos”: oração sem sujeito.",
+    "challenge": "Classifique o sujeito de “Recebemos três mensagens” e compare com “Faz três dias”.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -212,7 +212,7 @@ export const POR_14_QUESTIONS = [
   {
     "type": "exceto",
     "difficulty": "dificil",
-    "stem": "Sobre sujeito e impessoalidade, todas as análises estão corretas, EXCETO:",
+    "stem": "Na norma-padrão, todas as análises da concordância e do sujeito estão corretas, EXCETO:",
     "options": [
       "“Houveram oportunidades”: haver existencial concorda normalmente com oportunidades.",
       "“Faz dois anos”: fazer temporal é impessoal.",
@@ -234,8 +234,8 @@ export const POR_14_QUESTIONS = [
     "concept": "Sujeito simples tem um núcleo; composto tem mais de um; sujeito oculto é recuperável pela flexão ou contexto; indeterminado não tem referente identificável; orações impessoais não têm sujeito.",
     "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
     "examTip": "O complemento de “haver” existencial não é sujeito, embora tenha sentido semelhante ao sujeito de “existir”.",
-    "newExample": "“Existem documentos arquivados” tem sujeito “documentos arquivados”; “Há documentos arquivados” não possui sujeito.",
-    "challenge": "Por que se diz “Existem vagas”, mas “Há vagas”?",
+    "newExample": "“Houve alterações no sistema” mantém haver no singular, apesar do complemento plural.",
+    "challenge": "Reescreva “Houveram atrasos” na norma-padrão e explique o motivo da correção.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -261,8 +261,8 @@ export const POR_14_QUESTIONS = [
     "concept": "Predicado verbal tem verbo significativo como núcleo; nominal tem predicativo do sujeito ligado por verbo de ligação; verbo-nominal reúne verbo significativo e predicativo.",
     "trap": "Para identificar verbo-nominal, localize o verbo significativo e a qualidade atribuída ao sujeito ou ao objeto.",
     "examTip": "Para identificar verbo-nominal, localize o verbo significativo e a qualidade atribuída ao sujeito ou ao objeto.",
-    "newExample": "“A equipe retornou animada”: retornou expressa ação; animada qualifica o sujeito no predicado.",
-    "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+    "newExample": "“Os visitantes saíram felizes” une ação a estado atribuído aos visitantes.",
+    "challenge": "Distingua o predicado de “Os visitantes saíram felizes” do de “Os visitantes estavam felizes”.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -278,7 +278,7 @@ export const POR_14_QUESTIONS = [
       "Nominal."
     ],
     "answer": 3,
-    "explanation": "“Permaneceu” atua como verbo de ligação no sentido de manter estado, e “silencioso” predica o sujeito.",
+    "explanation": "Em “O ambiente permaneceu silencioso”, permanecer funciona como verbo de ligação e “silencioso” é predicativo do sujeito; por isso, a classificação escolar é predicado nominal.",
     "optionComments": [
       "Incorreta: não há ação independente como núcleo informativo principal.",
       "Incorreta: faltaria verbo significativo somado a predicativo.",
@@ -292,8 +292,8 @@ export const POR_14_QUESTIONS = [
     "concept": "Predicado verbal tem verbo significativo como núcleo; nominal tem predicativo do sujeito ligado por verbo de ligação; verbo-nominal reúne verbo significativo e predicativo.",
     "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
     "examTip": "Para identificar verbo-nominal, localize o verbo significativo e a qualidade atribuída ao sujeito ou ao objeto.",
-    "newExample": "“A equipe retornou animada”: retornou expressa ação; animada qualifica o sujeito no predicado.",
-    "challenge": "Que tipo de predicado aparece em “O servidor saiu preocupado”?",
+    "newExample": "“A sala continuou vazia” traz predicado nominal com predicativo “vazia”.",
+    "challenge": "Substitua “continuou vazia” por expressão com verbo significativo e compare os predicados.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -323,8 +323,8 @@ export const POR_14_QUESTIONS = [
     "concept": "Predicado verbal tem verbo significativo como núcleo; nominal tem predicativo do sujeito ligado por verbo de ligação; verbo-nominal reúne verbo significativo e predicativo.",
     "trap": "Para identificar verbo-nominal, localize o verbo significativo e a qualidade atribuída ao sujeito ou ao objeto.",
     "examTip": "Para identificar verbo-nominal, localize o verbo significativo e a qualidade atribuída ao sujeito ou ao objeto.",
-    "newExample": "“A equipe retornou animada”: retornou expressa ação; animada qualifica o sujeito no predicado.",
-    "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+    "newExample": "“As crianças brincavam” é verbal; “estavam tranquilas”, nominal; “voltaram cansadas”, verbo-nominal.",
+    "challenge": "Classifique o predicado em “As estudantes chegaram confiantes” e justifique os dois núcleos.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -332,7 +332,7 @@ export const POR_14_QUESTIONS = [
   {
     "type": "afirmacoes",
     "difficulty": "dificil",
-    "stem": "Considere: I. Em “Ela ficou alegre”, “ficou” pode atuar como verbo de ligação. II. Em “Ela ficou na sala”, “ficou” tem valor de permanência espacial e predicado verbal. III. Em “Ela saiu alegre”, há predicado verbo-nominal. Assinale:",
+    "stem": "Considere as construções indicadas, distinguindo o valor de estado e o de permanência espacial: I. Em “Ela ficou alegre”, “ficou” atua como verbo de ligação. II. Em “Ela ficou na sala”, “ficou” indica permanência em lugar e forma predicado verbal na análise escolar adotada. III. Em “Ela saiu alegre”, há predicado verbo-nominal. Assinale:",
     "options": [
       "Apenas I e II.",
       "I, II e III.",
@@ -354,8 +354,8 @@ export const POR_14_QUESTIONS = [
     "concept": "Predicado verbal tem verbo significativo como núcleo; nominal tem predicativo do sujeito ligado por verbo de ligação; verbo-nominal reúne verbo significativo e predicativo.",
     "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
     "examTip": "Para identificar verbo-nominal, localize o verbo significativo e a qualidade atribuída ao sujeito ou ao objeto.",
-    "newExample": "“A equipe retornou animada”: retornou expressa ação; animada qualifica o sujeito no predicado.",
-    "challenge": "Que tipo de predicado aparece em “O servidor saiu preocupado”?",
+    "newExample": "“O servidor ficou imóvel” apresenta verbo de ligação; “ficou na recepção” descreve permanência espacial.",
+    "challenge": "Compare “a aluna ficou contente” e “a aluna ficou na escola” pela função de “ficou”.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -381,8 +381,8 @@ export const POR_14_QUESTIONS = [
     "concept": "Predicativo do sujeito atribui estado ou qualidade ao sujeito; predicativo do objeto atribui característica ao objeto de um verbo.",
     "trap": "Pergunte “quem foi considerado ou julgado assim?” antes de classificar o predicativo.",
     "examTip": "Pergunte “quem foi considerado ou julgado assim?” antes de classificar o predicativo.",
-    "newExample": "“Nomearam Carla coordenadora”: coordenadora caracteriza Carla, objeto direto da nomeação.",
-    "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+    "newExample": "“Declararam o processo encerrado”: “encerrado” predica “o processo”, objeto direto.",
+    "challenge": "Identifique o objeto e seu predicativo em “A comissão considerou a prova difícil”.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -412,8 +412,8 @@ export const POR_14_QUESTIONS = [
     "concept": "Predicativo do sujeito atribui estado ou qualidade ao sujeito; predicativo do objeto atribui característica ao objeto de um verbo.",
     "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
     "examTip": "Pergunte “quem foi considerado ou julgado assim?” antes de classificar o predicativo.",
-    "newExample": "“Nomearam Carla coordenadora”: coordenadora caracteriza Carla, objeto direto da nomeação.",
-    "challenge": "Em “A comissão julgou a documentação insuficiente”, a quem se refere “insuficiente”?",
+    "newExample": "“As pesquisadoras regressaram exaustas”: “exaustas” caracteriza as pesquisadoras.",
+    "challenge": "Explique por que “exaustas” não pode ser objeto de “regressaram”.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -443,8 +443,8 @@ export const POR_14_QUESTIONS = [
     "concept": "Predicativo do sujeito atribui estado ou qualidade ao sujeito; predicativo do objeto atribui característica ao objeto de um verbo.",
     "trap": "Pergunte “quem foi considerado ou julgado assim?” antes de classificar o predicativo.",
     "examTip": "Pergunte “quem foi considerado ou julgado assim?” antes de classificar o predicativo.",
-    "newExample": "“Nomearam Carla coordenadora”: coordenadora caracteriza Carla, objeto direto da nomeação.",
-    "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+    "newExample": "“O texto parece claro” é predicativo do sujeito; “Julguei o texto claro” é predicativo do objeto.",
+    "challenge": "Atribua função a “pronto” em “O relatório ficou pronto” e “Considerei o relatório pronto”.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -452,7 +452,7 @@ export const POR_14_QUESTIONS = [
   {
     "type": "exceto",
     "difficulty": "dificil",
-    "stem": "Assinale a análise INCORRETA dos termos destacados em suas orações:",
+    "stem": "Assinale a alternativa em que a classificação do termo expressamente citado é INCORRETA:",
     "options": [
       "“A banca considerou o resultado satisfatório”: satisfatório é predicativo do objeto.",
       "“Os candidatos permaneceram atentos”: atentos é predicativo do sujeito.",
@@ -474,8 +474,8 @@ export const POR_14_QUESTIONS = [
     "concept": "Predicativo do sujeito atribui estado ou qualidade ao sujeito; predicativo do objeto atribui característica ao objeto de um verbo.",
     "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
     "examTip": "Pergunte “quem foi considerado ou julgado assim?” antes de classificar o predicativo.",
-    "newExample": "“Nomearam Carla coordenadora”: coordenadora caracteriza Carla, objeto direto da nomeação.",
-    "challenge": "Em “A comissão julgou a documentação insuficiente”, a quem se refere “insuficiente”?",
+    "newExample": "“Os alunos chegaram animados”: animados caracteriza o sujeito, mesmo com verbo significativo.",
+    "challenge": "Transforme a alternativa com análise errada em uma classificação verdadeira, sem mudar a oração.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -501,8 +501,8 @@ export const POR_14_QUESTIONS = [
     "concept": "Sujeito posposto aparece depois do verbo; a indeterminação evita identificar o agente; impessoalidade exclui sujeito; a passiva sintética apresenta sujeito paciente.",
     "trap": "Se houver “se”, teste a possibilidade de transformação em passiva analítica e confira a transitividade.",
     "examTip": "Se houver “se”, teste a possibilidade de transformação em passiva analítica e confira a transitividade.",
-    "newExample": "“Publicam-se resultados” admite paráfrase “Resultados são publicados”; “Confia-se nos resultados” não apresenta a mesma estrutura passiva.",
-    "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+    "newExample": "“Distribuem-se senhas” equivale a “Senhas são distribuídas”: sujeito paciente plural.",
+    "challenge": "Faça a passagem de “Alugam-se salas” à passiva analítica e identifique o sujeito.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -512,18 +512,18 @@ export const POR_14_QUESTIONS = [
     "difficulty": "media",
     "stem": "Em “Precisa-se de atendentes”, a análise tradicional da partícula “se” é:",
     "options": [
-      "Partícula apassivadora com “atendentes” como sujeito.",
+      "Partícula apassivadora, porque “atendentes” seriam o sujeito paciente da oração.",
       "Índice de indeterminação do sujeito.",
-      "Pronome reflexivo com sujeito expresso.",
-      "Conjunção condicional."
+      "Pronome reflexivo, pois os atendentes precisariam de si mesmos.",
+      "Partícula apassivadora, porque todo verbo seguido de “se” aceita passiva analítica."
     ],
     "answer": 1,
     "explanation": "“Precisar de” é transitivo indireto; o se indetermina o sujeito, e o verbo fica na 3ª pessoa do singular.",
     "optionComments": [
-      "Incorreta: a paráfrase “atendentes são precisados” não equivale à construção.",
-      "Correta: o segmento “de atendentes” complementa verbo transitivo indireto.",
-      "Incorreta: ninguém pratica ação sobre si expresso como sujeito.",
-      "Incorreta: se não introduz oração subordinada condicional."
+      "Incorreta: “de atendentes” é complemento preposicionado, não sujeito paciente.",
+      "Correta: com “precisar de”, a oração mantém verbo singular e sujeito indeterminado.",
+      "Incorreta: o enunciado não descreve ação que recai reflexivamente sobre o agente.",
+      "Incorreta: a função do “se” depende da transitividade do verbo; não é sempre apassivador."
     ],
     "id": "Q-POR-14-005-02",
     "moduleId": "POR-14",
@@ -532,8 +532,8 @@ export const POR_14_QUESTIONS = [
     "concept": "Sujeito posposto aparece depois do verbo; a indeterminação evita identificar o agente; impessoalidade exclui sujeito; a passiva sintética apresenta sujeito paciente.",
     "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
     "examTip": "Se houver “se”, teste a possibilidade de transformação em passiva analítica e confira a transitividade.",
-    "newExample": "“Publicam-se resultados” admite paráfrase “Resultados são publicados”; “Confia-se nos resultados” não apresenta a mesma estrutura passiva.",
-    "challenge": "Em “Analisam-se recursos”, o que acontece com “recursos”?",
+    "newExample": "“Necessita-se de revisores” não admite “necessitam-se” nessa acepção.",
+    "challenge": "Compare a função de “se” em “Alugam-se salas” e “Precisa-se de salas”.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -563,8 +563,8 @@ export const POR_14_QUESTIONS = [
     "concept": "Sujeito posposto aparece depois do verbo; a indeterminação evita identificar o agente; impessoalidade exclui sujeito; a passiva sintética apresenta sujeito paciente.",
     "trap": "Se houver “se”, teste a possibilidade de transformação em passiva analítica e confira a transitividade.",
     "examTip": "Se houver “se”, teste a possibilidade de transformação em passiva analítica e confira a transitividade.",
-    "newExample": "“Publicam-se resultados” admite paráfrase “Resultados são publicados”; “Confia-se nos resultados” não apresenta a mesma estrutura passiva.",
-    "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+    "newExample": "“Publicaram-se pareceres” tem sujeito paciente; “Tratou-se de pareceres” não apresenta passiva sintética.",
+    "challenge": "Explique por que a presença de “de” em “necessita-se de auxílio” afeta a análise de “se”.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -594,8 +594,8 @@ export const POR_14_QUESTIONS = [
     "concept": "Sujeito posposto aparece depois do verbo; a indeterminação evita identificar o agente; impessoalidade exclui sujeito; a passiva sintética apresenta sujeito paciente.",
     "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
     "examTip": "Se houver “se”, teste a possibilidade de transformação em passiva analítica e confira a transitividade.",
-    "newExample": "“Publicam-se resultados” admite paráfrase “Resultados são publicados”; “Confia-se nos resultados” não apresenta a mesma estrutura passiva.",
-    "challenge": "Em “Analisam-se recursos”, o que acontece com “recursos”?",
+    "newExample": "“Há comunicados”; “existem comunicados”; “enviam-se comunicados” usam, respectivamente, haver impessoal, existir pessoal e passiva.",
+    "challenge": "Flexione corretamente “haver”, “existir” e “divulgar-se” diante de “novos resultados”.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"

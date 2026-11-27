@@ -1,0 +1,3012 @@
+{
+  "POR-14": [
+    {
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "“Atenção!” pode constituir frase, mas não oração, porque não contém verbo.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "explanation": "A frase nominal tem sentido comunicativo, mas não possui núcleo verbal para configurar oração.",
+      "optionComments": [
+        "Correta: um enunciado sem verbo pode ser frase.",
+        "Incorreta: não é necessário verbo para haver frase, mas é necessário para haver oração."
+      ],
+      "id": "Q-POR-14-001-01",
+      "moduleId": "POR-14",
+      "subtopicId": "POR-14-001",
+      "topic": "Frase, oração, período e predicação",
+      "concept": "Frase é enunciado com sentido na situação de uso; oração organiza-se em torno de verbo ou locução verbal; período é enunciado estruturado em uma ou mais orações.",
+      "trap": "Duas formas verbais nem sempre equivalem a duas orações: a locução verbal normalmente opera como uma unidade.",
+      "examTip": "Duas formas verbais nem sempre equivalem a duas orações: a locução verbal normalmente opera como uma unidade.",
+      "newExample": "“A comissão vai publicar o edital”: a locução “vai publicar” funciona como núcleo verbal de uma oração.",
+      "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "No enunciado “Os candidatos devem apresentar os comprovantes”, quantas orações há na análise escolar habitual?",
+      "options": [
+        "Duas, porque há duas formas verbais obrigatoriamente independentes.",
+        "Uma, porque “devem apresentar” forma uma locução verbal.",
+        "Nenhuma, porque não aparece verbo conjugado isolado.",
+        "Três, porque há sujeito, verbo e objeto."
+      ],
+      "answer": 1,
+      "explanation": "A locução “devem apresentar” funciona como uma unidade predicativa, formando uma oração.",
+      "optionComments": [
+        "Incorreta: a contagem não é feita por número bruto de formas verbais.",
+        "Correta: o auxiliar e o infinitivo integram a mesma locução.",
+        "Incorreta: “devem” é flexionado e integra o núcleo verbal.",
+        "Incorreta: contar termos sintáticos não equivale a contar orações."
+      ],
+      "id": "Q-POR-14-001-02",
+      "moduleId": "POR-14",
+      "subtopicId": "POR-14-001",
+      "topic": "Frase, oração, período e predicação",
+      "concept": "Frase é enunciado com sentido na situação de uso; oração organiza-se em torno de verbo ou locução verbal; período é enunciado estruturado em uma ou mais orações.",
+      "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
+      "examTip": "Duas formas verbais nem sempre equivalem a duas orações: a locução verbal normalmente opera como uma unidade.",
+      "newExample": "“A comissão vai publicar o edital”: a locução “vai publicar” funciona como núcleo verbal de uma oração.",
+      "challenge": "“Atenção!” pode ser frase mesmo sem verbo?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "afirmacoes",
+      "difficulty": "dificil",
+      "stem": "Julgue: I. “Silêncio!” é frase sem verbo. II. “Chegou o documento” é período simples. III. “Quando choveu, a equipe parou” contém duas orações. Assinale:",
+      "options": [
+        "I e II apenas.",
+        "II e III apenas.",
+        "I, II e III.",
+        "I apenas."
+      ],
+      "answer": 2,
+      "explanation": "As três afirmações estão corretas segundo as definições de frase, oração e período.",
+      "optionComments": [
+        "Incorreta: III também é verdadeira, pois choveu e parou são dois núcleos oracionais.",
+        "Incorreta: I também é verdadeira; “Silêncio!” é frase nominal.",
+        "Correta: a classificação é coerente nas três construções.",
+        "Incorreta: II e III também descrevem corretamente os períodos."
+      ],
+      "id": "Q-POR-14-001-03",
+      "moduleId": "POR-14",
+      "subtopicId": "POR-14-001",
+      "topic": "Frase, oração, período e predicação",
+      "concept": "Frase é enunciado com sentido na situação de uso; oração organiza-se em torno de verbo ou locução verbal; período é enunciado estruturado em uma ou mais orações.",
+      "trap": "Duas formas verbais nem sempre equivalem a duas orações: a locução verbal normalmente opera como uma unidade.",
+      "examTip": "Duas formas verbais nem sempre equivalem a duas orações: a locução verbal normalmente opera como uma unidade.",
+      "newExample": "“A comissão vai publicar o edital”: a locução “vai publicar” funciona como núcleo verbal de uma oração.",
+      "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "vf",
+      "difficulty": "dificil",
+      "stem": "Classifique: ( ) “Boa sorte!” pode ser frase nominal. ( ) “O edital foi publicado” é período simples. ( ) “Se a inscrição acabar, enviaremos aviso” tem apenas uma oração. ( ) Em “A comissão vai avaliar”, a locução verbal não exige, por si, duas orações. Sequência:",
+      "options": [
+        "V – F – V – V.",
+        "F – V – F – V.",
+        "V – V – V – F.",
+        "V – V – F – V."
+      ],
+      "answer": 3,
+      "explanation": "A terceira é falsa: há as orações “Se a inscrição acabar” e “enviaremos aviso”.",
+      "optionComments": [
+        "Incorreta: “foi publicado” é locução de uma oração, e a terceira afirmação é falsa.",
+        "Incorreta: “Boa sorte!” pode funcionar como frase nominal.",
+        "Incorreta: a terceira é falsa, enquanto a locução final constitui uma oração.",
+        "Correta: os demais itens distinguem frase nominal e locução verbal."
+      ],
+      "id": "Q-POR-14-001-04",
+      "moduleId": "POR-14",
+      "subtopicId": "POR-14-001",
+      "topic": "Frase, oração, período e predicação",
+      "concept": "Frase é enunciado com sentido na situação de uso; oração organiza-se em torno de verbo ou locução verbal; período é enunciado estruturado em uma ou mais orações.",
+      "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
+      "examTip": "Duas formas verbais nem sempre equivalem a duas orações: a locução verbal normalmente opera como uma unidade.",
+      "newExample": "“A comissão vai publicar o edital”: a locução “vai publicar” funciona como núcleo verbal de uma oração.",
+      "challenge": "“Atenção!” pode ser frase mesmo sem verbo?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Em “Existem vagas”, “vagas” é sujeito do verbo existir, que concorda com esse termo.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "explanation": "“Existir” é pessoal e concorda com seu sujeito, aqui posposto ao verbo.",
+      "optionComments": [
+        "Correta: o plural “existem” é exigido pela concordância com “vagas”.",
+        "Incorreta: a impessoalidade de haver existencial não se transfere para existir."
+      ],
+      "id": "Q-POR-14-002-01",
+      "moduleId": "POR-14",
+      "subtopicId": "POR-14-002",
+      "topic": "Tipos de sujeito e oração sem sujeito",
+      "concept": "Sujeito simples tem um núcleo; composto tem mais de um; sujeito oculto é recuperável pela flexão ou contexto; indeterminado não tem referente identificável; orações impessoais não têm sujeito.",
+      "trap": "O complemento de “haver” existencial não é sujeito, embora tenha sentido semelhante ao sujeito de “existir”.",
+      "examTip": "O complemento de “haver” existencial não é sujeito, embora tenha sentido semelhante ao sujeito de “existir”.",
+      "newExample": "“Existem documentos arquivados” tem sujeito “documentos arquivados”; “Há documentos arquivados” não possui sujeito.",
+      "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Em “Havia muitos documentos sobre a mesa”, qual análise é adequada?",
+      "options": [
+        "“Muitos documentos” é sujeito composto.",
+        "“Muitos documentos” é sujeito simples posposto.",
+        "O verbo haver tem sentido existencial e a oração não apresenta sujeito.",
+        "O sujeito é oculto e recuperável como “eles”."
+      ],
+      "answer": 2,
+      "explanation": "Haver com sentido de existir é impessoal, e “muitos documentos” não exerce função de sujeito.",
+      "optionComments": [
+        "Incorreta: não há dois núcleos de sujeito; na verdade, não há sujeito.",
+        "Incorreta: a semelhança com “existiam documentos” não cria sujeito para haver.",
+        "Correta: haver existencial se mantém na 3ª pessoa do singular.",
+        "Incorreta: não há referente elíptico recuperável para o verbo impessoal."
+      ],
+      "id": "Q-POR-14-002-02",
+      "moduleId": "POR-14",
+      "subtopicId": "POR-14-002",
+      "topic": "Tipos de sujeito e oração sem sujeito",
+      "concept": "Sujeito simples tem um núcleo; composto tem mais de um; sujeito oculto é recuperável pela flexão ou contexto; indeterminado não tem referente identificável; orações impessoais não têm sujeito.",
+      "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
+      "examTip": "O complemento de “haver” existencial não é sujeito, embora tenha sentido semelhante ao sujeito de “existir”.",
+      "newExample": "“Existem documentos arquivados” tem sujeito “documentos arquivados”; “Há documentos arquivados” não possui sujeito.",
+      "challenge": "Por que se diz “Existem vagas”, mas “Há vagas”?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "associacao",
+      "difficulty": "dificil",
+      "stem": "Associe: 1. “Chegaram relatórios”. 2. “Fizemos a revisão”. 3. “Havia solicitações”. Funções: A. sujeito oculto nós; B. oração sem sujeito; C. sujeito simples posposto. Sequência 1–2–3:",
+      "options": [
+        "A – C – B.",
+        "C – B – A.",
+        "B – A – C.",
+        "C – A – B."
+      ],
+      "answer": 3,
+      "explanation": "Relatórios concorda com chegaram; fizemos recupera nós; haver existencial não tem sujeito.",
+      "optionComments": [
+        "Incorreta: inverte sujeito oculto e posposto.",
+        "Incorreta: “fizemos” não é verbo impessoal.",
+        "Incorreta: haver existencial não apresenta sujeito simples posposto.",
+        "Correta: as três relações correspondem à flexão verbal."
+      ],
+      "id": "Q-POR-14-002-03",
+      "moduleId": "POR-14",
+      "subtopicId": "POR-14-002",
+      "topic": "Tipos de sujeito e oração sem sujeito",
+      "concept": "Sujeito simples tem um núcleo; composto tem mais de um; sujeito oculto é recuperável pela flexão ou contexto; indeterminado não tem referente identificável; orações impessoais não têm sujeito.",
+      "trap": "O complemento de “haver” existencial não é sujeito, embora tenha sentido semelhante ao sujeito de “existir”.",
+      "examTip": "O complemento de “haver” existencial não é sujeito, embora tenha sentido semelhante ao sujeito de “existir”.",
+      "newExample": "“Existem documentos arquivados” tem sujeito “documentos arquivados”; “Há documentos arquivados” não possui sujeito.",
+      "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "Sobre sujeito e impessoalidade, todas as análises estão corretas, EXCETO:",
+      "options": [
+        "“Houveram oportunidades”: haver existencial concorda normalmente com oportunidades.",
+        "“Faz dois anos”: fazer temporal é impessoal.",
+        "“Existem oportunidades”: oportunidades é sujeito.",
+        "“Chegaram avisos”: avisos é sujeito posposto."
+      ],
+      "answer": 0,
+      "explanation": "Haver existencial é impessoal; na norma-padrão diz-se “houve oportunidades”.",
+      "optionComments": [
+        "Incorreta e responde ao EXCETO: haver existencial permanece no singular.",
+        "Correta: “fazer” com tempo transcorrido é impessoal.",
+        "Correta: oportunidades determina o plural de existir.",
+        "Correta: avisos determina o plural de chegaram."
+      ],
+      "id": "Q-POR-14-002-04",
+      "moduleId": "POR-14",
+      "subtopicId": "POR-14-002",
+      "topic": "Tipos de sujeito e oração sem sujeito",
+      "concept": "Sujeito simples tem um núcleo; composto tem mais de um; sujeito oculto é recuperável pela flexão ou contexto; indeterminado não tem referente identificável; orações impessoais não têm sujeito.",
+      "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
+      "examTip": "O complemento de “haver” existencial não é sujeito, embora tenha sentido semelhante ao sujeito de “existir”.",
+      "newExample": "“Existem documentos arquivados” tem sujeito “documentos arquivados”; “Há documentos arquivados” não possui sujeito.",
+      "challenge": "Por que se diz “Existem vagas”, mas “Há vagas”?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Em “A comissão voltou satisfeita”, o predicado pode ser classificado como verbo-nominal.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "explanation": "Voltou indica processo verbal e satisfeita atribui estado ao sujeito comissão.",
+      "optionComments": [
+        "Correta: coexistem verbo significativo e predicativo do sujeito.",
+        "Incorreta: satisfeita não é objeto do verbo nem transforma o predicado em puramente verbal."
+      ],
+      "id": "Q-POR-14-003-01",
+      "moduleId": "POR-14",
+      "subtopicId": "POR-14-003",
+      "topic": "Predicado nominal, verbal e verbo-nominal",
+      "concept": "Predicado verbal tem verbo significativo como núcleo; nominal tem predicativo do sujeito ligado por verbo de ligação; verbo-nominal reúne verbo significativo e predicativo.",
+      "trap": "Para identificar verbo-nominal, localize o verbo significativo e a qualidade atribuída ao sujeito ou ao objeto.",
+      "examTip": "Para identificar verbo-nominal, localize o verbo significativo e a qualidade atribuída ao sujeito ou ao objeto.",
+      "newExample": "“A equipe retornou animada”: retornou expressa ação; animada qualifica o sujeito no predicado.",
+      "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Que tipo de predicado ocorre em “O ambiente permaneceu silencioso”?",
+      "options": [
+        "Verbal.",
+        "Verbo-nominal.",
+        "Oração sem predicado.",
+        "Nominal."
+      ],
+      "answer": 3,
+      "explanation": "“Permaneceu” atua como verbo de ligação no sentido de manter estado, e “silencioso” predica o sujeito.",
+      "optionComments": [
+        "Incorreta: não há ação independente como núcleo informativo principal.",
+        "Incorreta: faltaria verbo significativo somado a predicativo.",
+        "Incorreta: há predicado construído com verbo de ligação e predicativo.",
+        "Correta: o núcleo significativo do predicado é a qualidade silencioso."
+      ],
+      "id": "Q-POR-14-003-02",
+      "moduleId": "POR-14",
+      "subtopicId": "POR-14-003",
+      "topic": "Predicado nominal, verbal e verbo-nominal",
+      "concept": "Predicado verbal tem verbo significativo como núcleo; nominal tem predicativo do sujeito ligado por verbo de ligação; verbo-nominal reúne verbo significativo e predicativo.",
+      "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
+      "examTip": "Para identificar verbo-nominal, localize o verbo significativo e a qualidade atribuída ao sujeito ou ao objeto.",
+      "newExample": "“A equipe retornou animada”: retornou expressa ação; animada qualifica o sujeito no predicado.",
+      "challenge": "Que tipo de predicado aparece em “O servidor saiu preocupado”?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "associacao",
+      "difficulty": "dificil",
+      "stem": "Associe: 1. “Os técnicos trabalham”. 2. “Os técnicos estão disponíveis”. 3. “Os técnicos chegaram exaustos”. Tipos: A. nominal; B. verbo-nominal; C. verbal. Sequência 1–2–3:",
+      "options": [
+        "C – A – B.",
+        "A – B – C.",
+        "C – B – A.",
+        "B – A – C."
+      ],
+      "answer": 0,
+      "explanation": "Trabalham é verbo significativo sem predicativo; estão disponíveis liga sujeito a atributo; chegaram exaustos combina ação e estado.",
+      "optionComments": [
+        "Correta: distingue os três tipos pelo núcleo e predicativos.",
+        "Incorreta: “trabalham” não é cópula e “chegaram exaustos” não é puramente verbal.",
+        "Incorreta: “estão disponíveis” é nominal, não verbo-nominal.",
+        "Incorreta: “trabalham” não tem predicativo."
+      ],
+      "id": "Q-POR-14-003-03",
+      "moduleId": "POR-14",
+      "subtopicId": "POR-14-003",
+      "topic": "Predicado nominal, verbal e verbo-nominal",
+      "concept": "Predicado verbal tem verbo significativo como núcleo; nominal tem predicativo do sujeito ligado por verbo de ligação; verbo-nominal reúne verbo significativo e predicativo.",
+      "trap": "Para identificar verbo-nominal, localize o verbo significativo e a qualidade atribuída ao sujeito ou ao objeto.",
+      "examTip": "Para identificar verbo-nominal, localize o verbo significativo e a qualidade atribuída ao sujeito ou ao objeto.",
+      "newExample": "“A equipe retornou animada”: retornou expressa ação; animada qualifica o sujeito no predicado.",
+      "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "afirmacoes",
+      "difficulty": "dificil",
+      "stem": "Considere: I. Em “Ela ficou alegre”, “ficou” pode atuar como verbo de ligação. II. Em “Ela ficou na sala”, “ficou” tem valor de permanência espacial e predicado verbal. III. Em “Ela saiu alegre”, há predicado verbo-nominal. Assinale:",
+      "options": [
+        "Apenas I e II.",
+        "I, II e III.",
+        "Apenas II e III.",
+        "Apenas I."
+      ],
+      "answer": 1,
+      "explanation": "O mesmo verbo pode assumir função diferente segundo a construção, e saiu alegre combina evento e predicativo.",
+      "optionComments": [
+        "Incorreta: III também é verdadeira, pois alegre predica o sujeito na saída.",
+        "Correta: os três enunciados refletem a dependência contextual da predicação.",
+        "Incorreta: I também é correta na construção com atributo.",
+        "Incorreta: II e III também são corretas."
+      ],
+      "id": "Q-POR-14-003-04",
+      "moduleId": "POR-14",
+      "subtopicId": "POR-14-003",
+      "topic": "Predicado nominal, verbal e verbo-nominal",
+      "concept": "Predicado verbal tem verbo significativo como núcleo; nominal tem predicativo do sujeito ligado por verbo de ligação; verbo-nominal reúne verbo significativo e predicativo.",
+      "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
+      "examTip": "Para identificar verbo-nominal, localize o verbo significativo e a qualidade atribuída ao sujeito ou ao objeto.",
+      "newExample": "“A equipe retornou animada”: retornou expressa ação; animada qualifica o sujeito no predicado.",
+      "challenge": "Que tipo de predicado aparece em “O servidor saiu preocupado”?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Em “Julgaram a proposta viável”, “viável” funciona como predicativo do objeto “a proposta”.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "explanation": "Viável é característica atribuída ao objeto direto proposta por meio do verbo julgar.",
+      "optionComments": [
+        "Correta: o termo avalia o objeto, não o sujeito indeterminado de julgaram.",
+        "Incorreta: “viável” não modifica o evento de julgar como circunstância."
+      ],
+      "id": "Q-POR-14-004-01",
+      "moduleId": "POR-14",
+      "subtopicId": "POR-14-004",
+      "topic": "Predicativo do sujeito e do objeto",
+      "concept": "Predicativo do sujeito atribui estado ou qualidade ao sujeito; predicativo do objeto atribui característica ao objeto de um verbo.",
+      "trap": "Pergunte “quem foi considerado ou julgado assim?” antes de classificar o predicativo.",
+      "examTip": "Pergunte “quem foi considerado ou julgado assim?” antes de classificar o predicativo.",
+      "newExample": "“Nomearam Carla coordenadora”: coordenadora caracteriza Carla, objeto direto da nomeação.",
+      "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Em “Os estudantes saíram preocupados”, que função tem “preocupados”?",
+      "options": [
+        "Predicativo do sujeito.",
+        "Objeto direto do verbo sair.",
+        "Predicativo do objeto.",
+        "Adjunto adverbial de lugar."
+      ],
+      "answer": 0,
+      "explanation": "Preocupados descreve os estudantes, sujeito da oração, no momento da saída.",
+      "optionComments": [
+        "Correta: qualifica o sujeito, combinado ao verbo significativo saíram.",
+        "Incorreta: sair nessa construção não exige objeto direto.",
+        "Incorreta: não há objeto a receber a característica.",
+        "Incorreta: preocupado indica estado, não localidade."
+      ],
+      "id": "Q-POR-14-004-02",
+      "moduleId": "POR-14",
+      "subtopicId": "POR-14-004",
+      "topic": "Predicativo do sujeito e do objeto",
+      "concept": "Predicativo do sujeito atribui estado ou qualidade ao sujeito; predicativo do objeto atribui característica ao objeto de um verbo.",
+      "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
+      "examTip": "Pergunte “quem foi considerado ou julgado assim?” antes de classificar o predicativo.",
+      "newExample": "“Nomearam Carla coordenadora”: coordenadora caracteriza Carla, objeto direto da nomeação.",
+      "challenge": "Em “A comissão julgou a documentação insuficiente”, a quem se refere “insuficiente”?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "associacao",
+      "difficulty": "dificil",
+      "stem": "Associe: 1. “O projeto é viável”. 2. “Considero o projeto viável”. 3. “Os técnicos chegaram animados”. Classifique o termo final: A. predicativo do objeto; B. predicativo do sujeito em oração com verbo significativo; C. predicativo do sujeito em predicado nominal. Sequência:",
+      "options": [
+        "A – B – C.",
+        "C – A – B.",
+        "C – B – A.",
+        "B – C – A."
+      ],
+      "answer": 1,
+      "explanation": "Na primeira, viável predica o sujeito com cópula; na segunda, o objeto de considerar; na terceira, o sujeito de chegaram.",
+      "optionComments": [
+        "Incorreta: a primeira não possui objeto a que viável se refira.",
+        "Correta: a relação com sujeito ou objeto determina a classificação.",
+        "Incorreta: no segundo caso, viável refere-se ao objeto projeto.",
+        "Incorreta: “chegaram animados” não é predicado nominal."
+      ],
+      "id": "Q-POR-14-004-03",
+      "moduleId": "POR-14",
+      "subtopicId": "POR-14-004",
+      "topic": "Predicativo do sujeito e do objeto",
+      "concept": "Predicativo do sujeito atribui estado ou qualidade ao sujeito; predicativo do objeto atribui característica ao objeto de um verbo.",
+      "trap": "Pergunte “quem foi considerado ou julgado assim?” antes de classificar o predicativo.",
+      "examTip": "Pergunte “quem foi considerado ou julgado assim?” antes de classificar o predicativo.",
+      "newExample": "“Nomearam Carla coordenadora”: coordenadora caracteriza Carla, objeto direto da nomeação.",
+      "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "Assinale a análise INCORRETA dos termos destacados em suas orações:",
+      "options": [
+        "“A banca considerou o resultado satisfatório”: satisfatório é predicativo do objeto.",
+        "“Os candidatos permaneceram atentos”: atentos é predicativo do sujeito.",
+        "“Os participantes chegaram alegres”: alegres é predicativo do objeto.",
+        "“A comissão achou o texto inadequado”: inadequado é predicativo do objeto."
+      ],
+      "answer": 2,
+      "explanation": "Alegres refere-se ao sujeito participantes; não existe objeto no enunciado.",
+      "optionComments": [
+        "Adequada: satisfatório qualifica resultado, objeto de considerou.",
+        "Adequada: atentos caracteriza candidatos, sujeito de permaneceram.",
+        "Incorreta e responde ao pedido: alegres qualifica participantes, sujeito de chegaram.",
+        "Adequada: inadequado recai sobre texto, objeto de achou."
+      ],
+      "id": "Q-POR-14-004-04",
+      "moduleId": "POR-14",
+      "subtopicId": "POR-14-004",
+      "topic": "Predicativo do sujeito e do objeto",
+      "concept": "Predicativo do sujeito atribui estado ou qualidade ao sujeito; predicativo do objeto atribui característica ao objeto de um verbo.",
+      "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
+      "examTip": "Pergunte “quem foi considerado ou julgado assim?” antes de classificar o predicativo.",
+      "newExample": "“Nomearam Carla coordenadora”: coordenadora caracteriza Carla, objeto direto da nomeação.",
+      "challenge": "Em “A comissão julgou a documentação insuficiente”, a quem se refere “insuficiente”?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Em “Vendem-se computadores”, “computadores” é sujeito paciente de uma construção de passiva sintética.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "explanation": "Com verbo transitivo direto acompanhado de se apassivador, computadores recebe a ação e determina a concordância.",
+      "optionComments": [
+        "Correta: a paráfrase “Computadores são vendidos” confirma o sujeito paciente.",
+        "Incorreta: o plural do verbo não decorre de sujeito indeterminado nesse uso."
+      ],
+      "id": "Q-POR-14-005-01",
+      "moduleId": "POR-14",
+      "subtopicId": "POR-14-005",
+      "topic": "Sujeito posposto, indeterminação e impessoalidade",
+      "concept": "Sujeito posposto aparece depois do verbo; a indeterminação evita identificar o agente; impessoalidade exclui sujeito; a passiva sintética apresenta sujeito paciente.",
+      "trap": "Se houver “se”, teste a possibilidade de transformação em passiva analítica e confira a transitividade.",
+      "examTip": "Se houver “se”, teste a possibilidade de transformação em passiva analítica e confira a transitividade.",
+      "newExample": "“Publicam-se resultados” admite paráfrase “Resultados são publicados”; “Confia-se nos resultados” não apresenta a mesma estrutura passiva.",
+      "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Em “Precisa-se de atendentes”, a análise tradicional da partícula “se” é:",
+      "options": [
+        "Partícula apassivadora com “atendentes” como sujeito.",
+        "Índice de indeterminação do sujeito.",
+        "Pronome reflexivo com sujeito expresso.",
+        "Conjunção condicional."
+      ],
+      "answer": 1,
+      "explanation": "“Precisar de” é transitivo indireto; o se indetermina o sujeito, e o verbo fica na 3ª pessoa do singular.",
+      "optionComments": [
+        "Incorreta: a paráfrase “atendentes são precisados” não equivale à construção.",
+        "Correta: o segmento “de atendentes” complementa verbo transitivo indireto.",
+        "Incorreta: ninguém pratica ação sobre si expresso como sujeito.",
+        "Incorreta: se não introduz oração subordinada condicional."
+      ],
+      "id": "Q-POR-14-005-02",
+      "moduleId": "POR-14",
+      "subtopicId": "POR-14-005",
+      "topic": "Sujeito posposto, indeterminação e impessoalidade",
+      "concept": "Sujeito posposto aparece depois do verbo; a indeterminação evita identificar o agente; impessoalidade exclui sujeito; a passiva sintética apresenta sujeito paciente.",
+      "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
+      "examTip": "Se houver “se”, teste a possibilidade de transformação em passiva analítica e confira a transitividade.",
+      "newExample": "“Publicam-se resultados” admite paráfrase “Resultados são publicados”; “Confia-se nos resultados” não apresenta a mesma estrutura passiva.",
+      "challenge": "Em “Analisam-se recursos”, o que acontece com “recursos”?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "vf",
+      "difficulty": "dificil",
+      "stem": "Julgue: ( ) “Chegaram convites”: sujeito posposto convites. ( ) “Há convites”: oração sem sujeito. ( ) “Entregam-se convites”: convites é sujeito paciente. ( ) “Necessita-se de convites”: convites exige plural verbal. Sequência:",
+      "options": [
+        "V – F – V – F.",
+        "F – V – V – V.",
+        "V – V – V – F.",
+        "V – V – F – V."
+      ],
+      "answer": 2,
+      "explanation": "No último caso, necessita-se de é construção com verbo transitivo indireto e sujeito indeterminado; o verbo fica no singular.",
+      "optionComments": [
+        "Incorreta: “há convites” não apresenta sujeito.",
+        "Incorreta: “chegaram convites” concorda com sujeito posposto e o último item é falso.",
+        "Correta: os três primeiros termos recebem análises diferentes e válidas.",
+        "Incorreta: “entregam-se” permite leitura passiva; “necessita-se” não concorda com convites."
+      ],
+      "id": "Q-POR-14-005-03",
+      "moduleId": "POR-14",
+      "subtopicId": "POR-14-005",
+      "topic": "Sujeito posposto, indeterminação e impessoalidade",
+      "concept": "Sujeito posposto aparece depois do verbo; a indeterminação evita identificar o agente; impessoalidade exclui sujeito; a passiva sintética apresenta sujeito paciente.",
+      "trap": "Se houver “se”, teste a possibilidade de transformação em passiva analítica e confira a transitividade.",
+      "examTip": "Se houver “se”, teste a possibilidade de transformação em passiva analítica e confira a transitividade.",
+      "newExample": "“Publicam-se resultados” admite paráfrase “Resultados são publicados”; “Confia-se nos resultados” não apresenta a mesma estrutura passiva.",
+      "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "lacunas",
+      "difficulty": "dificil",
+      "stem": "Complete a sequência em norma-padrão: “________ novas vagas na unidade; ________ candidatos interessados e ________ comprovantes”. Use, na ordem, haver existencial, existir e passiva sintética de entregar.",
+      "options": [
+        "Hão / existe / entrega-se.",
+        "Hão / existem / entrega-se.",
+        "Há / existe / entrega-se.",
+        "Há / existem / entregam-se."
+      ],
+      "answer": 3,
+      "explanation": "Haver existencial fica no singular; existir concorda com candidatos; entregar-se na voz passiva concorda com comprovantes.",
+      "optionComments": [
+        "Incorreta: pluraliza haver e singulariza existir e entregar com sujeitos plurais.",
+        "Incorreta: pluraliza haver e deixa entregar no singular apesar de comprovantes.",
+        "Incorreta: existir e entregar exigem plural nas construções apresentadas.",
+        "Correta: respeita a impessoalidade, a concordância do sujeito posposto e a passiva sintética."
+      ],
+      "id": "Q-POR-14-005-04",
+      "moduleId": "POR-14",
+      "subtopicId": "POR-14-005",
+      "topic": "Sujeito posposto, indeterminação e impessoalidade",
+      "concept": "Sujeito posposto aparece depois do verbo; a indeterminação evita identificar o agente; impessoalidade exclui sujeito; a passiva sintética apresenta sujeito paciente.",
+      "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
+      "examTip": "Se houver “se”, teste a possibilidade de transformação em passiva analítica e confira a transitividade.",
+      "newExample": "“Publicam-se resultados” admite paráfrase “Resultados são publicados”; “Confia-se nos resultados” não apresenta a mesma estrutura passiva.",
+      "challenge": "Em “Analisam-se recursos”, o que acontece com “recursos”?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    }
+  ],
+  "POR-15": [
+    {
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Em “O setor encaminhou o ofício à direção”, “o ofício” funciona como objeto direto e “à direção” como objeto indireto.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "explanation": "Encaminhar admite um conteúdo encaminhado sem preposição exigida e um destinatário introduzido por a.",
+      "optionComments": [
+        "Correta: ofício é o conteúdo encaminhado e direção é o destinatário.",
+        "Incorreta: a presença de à não torna direção adjunto adverbial nesta regência."
+      ],
+      "id": "Q-POR-15-001-01",
+      "moduleId": "POR-15",
+      "subtopicId": "POR-15-001",
+      "topic": "Objeto direto, indireto e complementos verbais",
+      "concept": "Objeto direto complementa verbo transitivo direto, geralmente sem preposição exigida; objeto indireto complementa verbo transitivo indireto, com preposição regida pelo verbo.",
+      "trap": "Observe a regência do verbo e se o termo completa seu sentido ou acrescenta apenas circunstância.",
+      "examTip": "Observe a regência do verbo e se o termo completa seu sentido ou acrescenta apenas circunstância.",
+      "newExample": "“O servidor informou a mudança aos colegas”: a mudança é objeto direto; aos colegas é objeto indireto.",
+      "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Na frase “A comissão necessita de informações”, qual é a função de “de informações”?",
+      "options": [
+        "Sujeito simples.",
+        "Adjunto adverbial de lugar.",
+        "Objeto indireto.",
+        "Objeto direto sem preposição."
+      ],
+      "answer": 2,
+      "explanation": "O verbo necessitar rege de nesse emprego, e a expressão completa seu sentido.",
+      "optionComments": [
+        "Incorreta: a comissão exerce a função de sujeito.",
+        "Incorreta: informações não nomeia local ou circunstância de necessidade.",
+        "Correta: “de informações” é complemento exigido pelo verbo.",
+        "Incorreta: a preposição de é exigida nessa construção verbal."
+      ],
+      "id": "Q-POR-15-001-02",
+      "moduleId": "POR-15",
+      "subtopicId": "POR-15-001",
+      "topic": "Objeto direto, indireto e complementos verbais",
+      "concept": "Objeto direto complementa verbo transitivo direto, geralmente sem preposição exigida; objeto indireto complementa verbo transitivo indireto, com preposição regida pelo verbo.",
+      "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
+      "examTip": "Observe a regência do verbo e se o termo completa seu sentido ou acrescenta apenas circunstância.",
+      "newExample": "“O servidor informou a mudança aos colegas”: a mudança é objeto direto; aos colegas é objeto indireto.",
+      "challenge": "Quais os dois complementos de “A chefia comunicou a decisão aos servidores”?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "associacao",
+      "difficulty": "dificil",
+      "stem": "Relacione em “A equipe enviou o parecer ao órgão durante a reunião”: 1. “o parecer”; 2. “ao órgão”; 3. “durante a reunião”. Funções: A. adjunto adverbial temporal; B. objeto indireto; C. objeto direto. Sequência:",
+      "options": [
+        "B – C – A.",
+        "C – A – B.",
+        "A – B – C.",
+        "C – B – A."
+      ],
+      "answer": 3,
+      "explanation": "Parecer é o conteúdo enviado, órgão o destinatário e durante a reunião a circunstância temporal.",
+      "optionComments": [
+        "Incorreta: inverte conteúdo e destinatário.",
+        "Incorreta: “ao órgão” não informa quando ocorreu a ação.",
+        "Incorreta: “o parecer” não exprime circunstância temporal.",
+        "Correta: reconhece dois complementos e um adjunto temporal."
+      ],
+      "id": "Q-POR-15-001-03",
+      "moduleId": "POR-15",
+      "subtopicId": "POR-15-001",
+      "topic": "Objeto direto, indireto e complementos verbais",
+      "concept": "Objeto direto complementa verbo transitivo direto, geralmente sem preposição exigida; objeto indireto complementa verbo transitivo indireto, com preposição regida pelo verbo.",
+      "trap": "Observe a regência do verbo e se o termo completa seu sentido ou acrescenta apenas circunstância.",
+      "examTip": "Observe a regência do verbo e se o termo completa seu sentido ou acrescenta apenas circunstância.",
+      "newExample": "“O servidor informou a mudança aos colegas”: a mudança é objeto direto; aos colegas é objeto indireto.",
+      "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "Em relação a objetos e circunstâncias, marque a alternativa INCORRETA:",
+      "options": [
+        "“Trabalhou durante a tarde”: durante a tarde é objeto indireto exigido por trabalhar.",
+        "“Confiou no resultado”: no resultado completa o verbo confiar.",
+        "“Entregou os documentos à servidora”: há objeto direto e indireto.",
+        "“Chegou de manhã”: de manhã expressa tempo da chegada."
+      ],
+      "answer": 0,
+      "explanation": "“Durante a tarde” é adjunto adverbial de tempo, e não complemento verbal exigido.",
+      "optionComments": [
+        "Incorreta e responde à questão: a expressão acrescenta circunstância temporal, sem completar regência de trabalhar.",
+        "Adequada: confiar em pede complemento preposicionado.",
+        "Adequada: documentos é objeto direto e à servidora, destinatário.",
+        "Adequada: de manhã localiza o evento no tempo."
+      ],
+      "id": "Q-POR-15-001-04",
+      "moduleId": "POR-15",
+      "subtopicId": "POR-15-001",
+      "topic": "Objeto direto, indireto e complementos verbais",
+      "concept": "Objeto direto complementa verbo transitivo direto, geralmente sem preposição exigida; objeto indireto complementa verbo transitivo indireto, com preposição regida pelo verbo.",
+      "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
+      "examTip": "Observe a regência do verbo e se o termo completa seu sentido ou acrescenta apenas circunstância.",
+      "newExample": "“O servidor informou a mudança aos colegas”: a mudança é objeto direto; aos colegas é objeto indireto.",
+      "challenge": "Quais os dois complementos de “A chefia comunicou a decisão aos servidores”?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Em “A necessidade de esclarecimentos ficou evidente”, “de esclarecimentos” é complemento nominal de “necessidade”.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "explanation": "O nome abstrato necessidade pede informação sobre o que é necessário; o termo preposicionado completa esse sentido.",
+      "optionComments": [
+        "Correta: de esclarecimentos especifica o objeto da necessidade.",
+        "Incorreta: não designa matéria, posse ou autoria que caracterize um substantivo concreto."
+      ],
+      "id": "Q-POR-15-002-01",
+      "moduleId": "POR-15",
+      "subtopicId": "POR-15-002",
+      "topic": "Complemento nominal e distinção de adjunto",
+      "concept": "Complemento nominal completa o sentido de substantivo abstrato, adjetivo ou advérbio que exige complemento; adjunto adnominal determina ou caracteriza um substantivo.",
+      "trap": "O nome abstrato pode exigir complemento; mas analise a relação semântica e não decida somente pela preposição.",
+      "examTip": "O nome abstrato pode exigir complemento; mas analise a relação semântica e não decida somente pela preposição.",
+      "newExample": "“A confiança nos resultados” exige um objeto da confiança; “o relatório da equipe” indica vinculação/posse.",
+      "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Em “Uma mesa de madeira foi colocada na sala”, a função de “de madeira” é:",
+      "options": [
+        "Complemento nominal exigido por “mesa”.",
+        "Objeto indireto de “colocada”.",
+        "Agente da passiva de “foi colocada”.",
+        "Adjunto adnominal que caracteriza “mesa”."
+      ],
+      "answer": 3,
+      "explanation": "“De madeira” informa material da mesa, funcionando como caracterização do substantivo.",
+      "optionComments": [
+        "Incorreta: mesa não exige semanticamente um complemento do tipo necessário a certos nomes abstratos.",
+        "Incorreta: a expressão está dentro do grupo nominal sujeito, não complementa o verbo.",
+        "Incorreta: a madeira não é apresentada como agente que colocou a mesa.",
+        "Correta: caracteriza o nome concreto mesa."
+      ],
+      "id": "Q-POR-15-002-02",
+      "moduleId": "POR-15",
+      "subtopicId": "POR-15-002",
+      "topic": "Complemento nominal e distinção de adjunto",
+      "concept": "Complemento nominal completa o sentido de substantivo abstrato, adjetivo ou advérbio que exige complemento; adjunto adnominal determina ou caracteriza um substantivo.",
+      "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
+      "examTip": "O nome abstrato pode exigir complemento; mas analise a relação semântica e não decida somente pela preposição.",
+      "newExample": "“A confiança nos resultados” exige um objeto da confiança; “o relatório da equipe” indica vinculação/posse.",
+      "challenge": "Qual a função de “ao candidato” em “A resposta ao candidato foi enviada”?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "associacao",
+      "difficulty": "dificil",
+      "stem": "Associe: 1. “Confiança na equipe”. 2. “Porta de vidro”. 3. “A secretaria respondeu ao candidato”. Classificação das expressões: A. adjunto adnominal; B. complemento nominal; C. objeto indireto. Sequência 1–2–3:",
+      "options": [
+        "B – A – C.",
+        "A – B – C.",
+        "B – C – A.",
+        "A – C – B."
+      ],
+      "answer": 0,
+      "explanation": "Na equipe completa o nome confiança; de vidro caracteriza porta; ao candidato complementa o verbo responder.",
+      "optionComments": [
+        "Correta: há complemento nominal, adjunto adnominal e objeto indireto nessa ordem.",
+        "Incorreta: “na equipe” completa o nome abstrato confiança, não o verbo.",
+        "Incorreta: “de vidro” especifica material de porta, não completa o verbo.",
+        "Incorreta: “ao candidato” complementa o verbo respondeu, não o substantivo secretaria."
+      ],
+      "id": "Q-POR-15-002-03",
+      "moduleId": "POR-15",
+      "subtopicId": "POR-15-002",
+      "topic": "Complemento nominal e distinção de adjunto",
+      "concept": "Complemento nominal completa o sentido de substantivo abstrato, adjetivo ou advérbio que exige complemento; adjunto adnominal determina ou caracteriza um substantivo.",
+      "trap": "O nome abstrato pode exigir complemento; mas analise a relação semântica e não decida somente pela preposição.",
+      "examTip": "O nome abstrato pode exigir complemento; mas analise a relação semântica e não decida somente pela preposição.",
+      "newExample": "“A confiança nos resultados” exige um objeto da confiança; “o relatório da equipe” indica vinculação/posse.",
+      "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "afirmacoes",
+      "difficulty": "dificil",
+      "stem": "Examine: I. Em “a construção da ponte”, da ponte pode designar o objeto construído e funcionar como complemento nominal. II. Em “o relatório do setor”, do setor pode indicar autoria/vínculo e funcionar como adjunto adnominal. III. Toda expressão com “de” depois de um substantivo será complemento nominal. Assinale:",
+      "options": [
+        "I e III apenas.",
+        "I e II apenas.",
+        "II e III apenas.",
+        "I, II e III."
+      ],
+      "answer": 1,
+      "explanation": "I e II mostram usos semânticos distintos; a preposição não determina sozinha a função.",
+      "optionComments": [
+        "Incorreta: III é falsa; “de vidro” e “do setor” podem ser adjuntos.",
+        "Correta: o valor paciente/objeto do nome e o de autoria/vínculo ajudam a distinguir.",
+        "Incorreta: III é falsa, enquanto I pode ser complemento nominal.",
+        "Incorreta: III generaliza incorretamente uma classificação contextual."
+      ],
+      "id": "Q-POR-15-002-04",
+      "moduleId": "POR-15",
+      "subtopicId": "POR-15-002",
+      "topic": "Complemento nominal e distinção de adjunto",
+      "concept": "Complemento nominal completa o sentido de substantivo abstrato, adjetivo ou advérbio que exige complemento; adjunto adnominal determina ou caracteriza um substantivo.",
+      "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
+      "examTip": "O nome abstrato pode exigir complemento; mas analise a relação semântica e não decida somente pela preposição.",
+      "newExample": "“A confiança nos resultados” exige um objeto da confiança; “o relatório da equipe” indica vinculação/posse.",
+      "challenge": "Qual a função de “ao candidato” em “A resposta ao candidato foi enviada”?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Em “Os resultados foram publicados pela comissão”, “pela comissão” exerce a função de agente da passiva.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "explanation": "A comissão pratica a ação de publicar, enquanto os resultados são o sujeito paciente da construção passiva.",
+      "optionComments": [
+        "Correta: a forma ativa correspondente é “A comissão publicou os resultados”.",
+        "Incorreta: pela comissão não indica local, mas quem executou a publicação."
+      ],
+      "id": "Q-POR-15-003-01",
+      "moduleId": "POR-15",
+      "subtopicId": "POR-15-003",
+      "topic": "Agente da passiva e transformações",
+      "concept": "Agente da passiva é termo que, em construção passiva, indica quem pratica a ação sofrida pelo sujeito paciente.",
+      "trap": "Na passagem de ativa para passiva, o objeto direto normalmente vira sujeito paciente; o sujeito ativo pode virar agente da passiva.",
+      "examTip": "Na passagem de ativa para passiva, o objeto direto normalmente vira sujeito paciente; o sujeito ativo pode virar agente da passiva.",
+      "newExample": "“Os dados foram revisados pelos técnicos” → “Os técnicos revisaram os dados”.",
+      "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Qual transformação mantém o sentido básico de “A equipe revisou os documentos” na voz passiva analítica?",
+      "options": [
+        "Os documentos foram revisados pela equipe.",
+        "A equipe foi revisada pelos documentos.",
+        "Os documentos revisaram a equipe.",
+        "Revisaram-se a equipe pelos documentos."
+      ],
+      "answer": 0,
+      "explanation": "O objeto direto da ativa torna-se sujeito paciente; o antigo sujeito pode aparecer como agente da passiva.",
+      "optionComments": [
+        "Correta: documentos continuam sendo o elemento revisado e equipe, o agente.",
+        "Incorreta: inverte as relações de agente e paciente.",
+        "Incorreta: mantém voz ativa e troca os papéis semânticos.",
+        "Incorreta: muda os papéis e combina de modo inadequado construções ativas e passivas."
+      ],
+      "id": "Q-POR-15-003-02",
+      "moduleId": "POR-15",
+      "subtopicId": "POR-15-003",
+      "topic": "Agente da passiva e transformações",
+      "concept": "Agente da passiva é termo que, em construção passiva, indica quem pratica a ação sofrida pelo sujeito paciente.",
+      "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
+      "examTip": "Na passagem de ativa para passiva, o objeto direto normalmente vira sujeito paciente; o sujeito ativo pode virar agente da passiva.",
+      "newExample": "“Os dados foram revisados pelos técnicos” → “Os técnicos revisaram os dados”.",
+      "challenge": "Qual o agente da passiva em “As notas foram conferidas pela secretaria”?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "associacao",
+      "difficulty": "dificil",
+      "stem": "Observe “O parecer foi assinado pela coordenadora”. Relacione: 1. “O parecer”; 2. “foi assinado”; 3. “pela coordenadora”. Funções: A. locução verbal da passiva; B. agente da passiva; C. sujeito paciente. Sequência:",
+      "options": [
+        "B – A – C.",
+        "C – A – B.",
+        "C – B – A.",
+        "A – C – B."
+      ],
+      "answer": 1,
+      "explanation": "O parecer sofre a ação, a locução marca a voz passiva e a coordenadora assina.",
+      "optionComments": [
+        "Incorreta: a coordenadora é agente, não sujeito paciente.",
+        "Correta: distingue sujeito paciente, núcleo verbal passivo e agente.",
+        "Incorreta: “foi assinado” não nomeia quem praticou a ação.",
+        "Incorreta: “o parecer” não é locução verbal."
+      ],
+      "id": "Q-POR-15-003-03",
+      "moduleId": "POR-15",
+      "subtopicId": "POR-15-003",
+      "topic": "Agente da passiva e transformações",
+      "concept": "Agente da passiva é termo que, em construção passiva, indica quem pratica a ação sofrida pelo sujeito paciente.",
+      "trap": "Na passagem de ativa para passiva, o objeto direto normalmente vira sujeito paciente; o sujeito ativo pode virar agente da passiva.",
+      "examTip": "Na passagem de ativa para passiva, o objeto direto normalmente vira sujeito paciente; o sujeito ativo pode virar agente da passiva.",
+      "newExample": "“Os dados foram revisados pelos técnicos” → “Os técnicos revisaram os dados”.",
+      "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "vf",
+      "difficulty": "dificil",
+      "stem": "Julgue: ( ) “O edital foi divulgado pelo órgão”: pelo órgão é agente da passiva. ( ) “O servidor passou pelo corredor”: pelo corredor é agente da passiva. ( ) “O aviso foi enviado”: pode haver passiva sem agente expresso. ( ) “Os técnicos concluíram o parecer” admite “O parecer foi concluído pelos técnicos”. Sequência:",
+      "options": [
+        "V – V – F – V.",
+        "F – F – V – V.",
+        "V – F – V – V.",
+        "V – F – F – V."
+      ],
+      "answer": 2,
+      "explanation": "A segunda expressão indica trajeto numa construção ativa, não agente; as demais identificam vozes e transformações válidas.",
+      "optionComments": [
+        "Incorreta: “pelo corredor” é circunstância espacial e uma passiva pode omitir agente.",
+        "Incorreta: a primeira expressão é agente da passiva.",
+        "Correta: apenas o segundo emprego de pelo não é agente da passiva.",
+        "Incorreta: a passiva “foi enviado” pode omitir agente sem perder estrutura passiva."
+      ],
+      "id": "Q-POR-15-003-04",
+      "moduleId": "POR-15",
+      "subtopicId": "POR-15-003",
+      "topic": "Agente da passiva e transformações",
+      "concept": "Agente da passiva é termo que, em construção passiva, indica quem pratica a ação sofrida pelo sujeito paciente.",
+      "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
+      "examTip": "Na passagem de ativa para passiva, o objeto direto normalmente vira sujeito paciente; o sujeito ativo pode virar agente da passiva.",
+      "newExample": "“Os dados foram revisados pelos técnicos” → “Os técnicos revisaram os dados”.",
+      "challenge": "Qual o agente da passiva em “As notas foram conferidas pela secretaria”?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Na frase “Os três relatórios antigos chegaram ontem”, “ontem” exerce função de adjunto adverbial de tempo.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "explanation": "Ontem situa temporalmente a chegada; os, três e antigos integram o grupo nominal relatórios.",
+      "optionComments": [
+        "Correta: “ontem” responde à pergunta quando chegaram.",
+        "Incorreta: o termo não caracteriza o substantivo relatórios como os adjuntos adnominais."
+      ],
+      "id": "Q-POR-15-004-01",
+      "moduleId": "POR-15",
+      "subtopicId": "POR-15-004",
+      "topic": "Adjunto adnominal e adjunto adverbial",
+      "concept": "Adjunto adnominal acompanha o nome, determinando-o ou caracterizando-o; adjunto adverbial acrescenta circunstâncias à ação, ao estado ou ao enunciado.",
+      "trap": "Expressões com “de” podem ter funções distintas: “visita da manhã” versus “visitou de manhã”.",
+      "examTip": "Expressões com “de” podem ter funções distintas: “visita da manhã” versus “visitou de manhã”.",
+      "newExample": "“Os dois documentos novos chegaram cedo”: os/dois/novos são adjuntos adnominais; cedo é adjunto adverbial.",
+      "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Em “As duas respostas detalhadas chegaram cedo”, qual termo é adjunto adverbial?",
+      "options": [
+        "Duas.",
+        "Cedo.",
+        "Detalhadas.",
+        "As."
+      ],
+      "answer": 1,
+      "explanation": "“Cedo” modifica a ocorrência da chegada, indicando tempo.",
+      "optionComments": [
+        "Incorreta: duas quantifica respostas e integra o grupo nominal.",
+        "Correta: cedo introduz circunstância temporal do predicado.",
+        "Incorreta: detalhadas caracteriza respostas, o substantivo.",
+        "Incorreta: as determina o substantivo respostas."
+      ],
+      "id": "Q-POR-15-004-02",
+      "moduleId": "POR-15",
+      "subtopicId": "POR-15-004",
+      "topic": "Adjunto adnominal e adjunto adverbial",
+      "concept": "Adjunto adnominal acompanha o nome, determinando-o ou caracterizando-o; adjunto adverbial acrescenta circunstâncias à ação, ao estado ou ao enunciado.",
+      "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
+      "examTip": "Expressões com “de” podem ter funções distintas: “visita da manhã” versus “visitou de manhã”.",
+      "newExample": "“Os dois documentos novos chegaram cedo”: os/dois/novos são adjuntos adnominais; cedo é adjunto adverbial.",
+      "challenge": "Em “As quatro propostas recentes chegaram ontem”, qual termo indica tempo da chegada?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "associacao",
+      "difficulty": "dificil",
+      "stem": "Associe as expressões destacadas por aspas: 1. “A visita da manhã” foi cancelada (“da manhã”). 2. “Visitamos de manhã” (“de manhã”). 3. “Os três arquivos” chegaram (“três”). Classifique: A. adjunto adverbial; B. adjunto adnominal de valor temporal; C. adjunto adnominal de quantificação. Sequência:",
+      "options": [
+        "A – B – C.",
+        "B – C – A.",
+        "B – A – C.",
+        "C – A – B."
+      ],
+      "answer": 2,
+      "explanation": "Da manhã delimita o nome visita; de manhã situa o verbo visitar; três quantifica arquivos.",
+      "optionComments": [
+        "Incorreta: “da manhã” na primeira oração modifica visita, não o cancelamento.",
+        "Incorreta: “de manhã” não determina o substantivo visitamos.",
+        "Correta: identifica termo nominal, circunstância verbal e quantificador nominal.",
+        "Incorreta: “da manhã” não quantifica a visita e três não é adjunto adverbial."
+      ],
+      "id": "Q-POR-15-004-03",
+      "moduleId": "POR-15",
+      "subtopicId": "POR-15-004",
+      "topic": "Adjunto adnominal e adjunto adverbial",
+      "concept": "Adjunto adnominal acompanha o nome, determinando-o ou caracterizando-o; adjunto adverbial acrescenta circunstâncias à ação, ao estado ou ao enunciado.",
+      "trap": "Expressões com “de” podem ter funções distintas: “visita da manhã” versus “visitou de manhã”.",
+      "examTip": "Expressões com “de” podem ter funções distintas: “visita da manhã” versus “visitou de manhã”.",
+      "newExample": "“Os dois documentos novos chegaram cedo”: os/dois/novos são adjuntos adnominais; cedo é adjunto adverbial.",
+      "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "Assinale a análise INCORRETA:",
+      "options": [
+        "Em “os novos relatórios”, “novos” é adjunto adnominal.",
+        "Em “trabalharam à noite”, “à noite” é adjunto adverbial de tempo.",
+        "Em “os cinco servidores”, “cinco” determina numericamente o substantivo.",
+        "Em “os relatórios chegaram ontem”, “ontem” é adjunto adnominal de relatórios."
+      ],
+      "answer": 3,
+      "explanation": "Ontem situa o evento de chegaram e não caracteriza o substantivo relatórios.",
+      "optionComments": [
+        "Adequada: novos é adjetivo dentro do grupo nominal.",
+        "Adequada: à noite indica circunstância temporal do trabalho.",
+        "Adequada: cinco quantifica servidores no sintagma nominal.",
+        "Incorreta e responde à questão: ontem é adjunto adverbial temporal."
+      ],
+      "id": "Q-POR-15-004-04",
+      "moduleId": "POR-15",
+      "subtopicId": "POR-15-004",
+      "topic": "Adjunto adnominal e adjunto adverbial",
+      "concept": "Adjunto adnominal acompanha o nome, determinando-o ou caracterizando-o; adjunto adverbial acrescenta circunstâncias à ação, ao estado ou ao enunciado.",
+      "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
+      "examTip": "Expressões com “de” podem ter funções distintas: “visita da manhã” versus “visitou de manhã”.",
+      "newExample": "“Os dois documentos novos chegaram cedo”: os/dois/novos são adjuntos adnominais; cedo é adjunto adverbial.",
+      "challenge": "Em “As quatro propostas recentes chegaram ontem”, qual termo indica tempo da chegada?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Em “Candidatos, entreguem a documentação”, “Candidatos” é vocativo e não sujeito expresso do verbo “entreguem”.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "explanation": "O termo interpela os destinatários; o sujeito do imperativo é recuperável como vocês.",
+      "optionComments": [
+        "Correta: candidatos chama o interlocutor, ficando fora da estrutura argumental de entreguem.",
+        "Incorreta: não basta haver substantivo antes do verbo para classificá-lo como sujeito."
+      ],
+      "id": "Q-POR-15-005-01",
+      "moduleId": "POR-15",
+      "subtopicId": "POR-15-005",
+      "topic": "Aposto, vocativo e valores sintáticos",
+      "concept": "Aposto explica, especifica, resume ou enumera termo da oração; vocativo chama ou interpela o interlocutor e fica fora da estrutura argumental do verbo.",
+      "trap": "Identifique a função discursiva: explicar um termo existente (aposto) ou dirigir-se a alguém (vocativo).",
+      "examTip": "Identifique a função discursiva: explicar um termo existente (aposto) ou dirigir-se a alguém (vocativo).",
+      "newExample": "“Marina, coordenadora do setor, respondeu. Marina, confirme a agenda!”: primeiro há aposto; depois, vocativo.",
+      "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Em “Natal, capital do Rio Grande do Norte, sediará a conferência”, qual é a função da expressão entre vírgulas?",
+      "options": [
+        "Vocativo de chamamento.",
+        "Objeto indireto.",
+        "Aposto explicativo.",
+        "Adjunto adverbial de tempo."
+      ],
+      "answer": 2,
+      "explanation": "A expressão “capital do Rio Grande do Norte” renomeia/esclarece o substantivo próprio Natal.",
+      "optionComments": [
+        "Incorreta: a frase não chama Natal como interlocutor.",
+        "Incorreta: sediar é verbo transitivo direto aqui e a expressão não o complementa.",
+        "Correta: oferece uma identificação explicativa do nome anterior.",
+        "Incorreta: não informa quando a conferência ocorrerá."
+      ],
+      "id": "Q-POR-15-005-02",
+      "moduleId": "POR-15",
+      "subtopicId": "POR-15-005",
+      "topic": "Aposto, vocativo e valores sintáticos",
+      "concept": "Aposto explica, especifica, resume ou enumera termo da oração; vocativo chama ou interpela o interlocutor e fica fora da estrutura argumental do verbo.",
+      "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
+      "examTip": "Identifique a função discursiva: explicar um termo existente (aposto) ou dirigir-se a alguém (vocativo).",
+      "newExample": "“Marina, coordenadora do setor, respondeu. Marina, confirme a agenda!”: primeiro há aposto; depois, vocativo.",
+      "challenge": "Em “Colegas, revisem o comunicado”, “Colegas” é sujeito?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "associacao",
+      "difficulty": "dificil",
+      "stem": "Associe: 1. “Senhores, a sessão começou.” 2. “Mossoró, município potiguar, recebe o evento.” 3. “Os coordenadores, Ana e Paulo, ouviram o aviso.” Termos: A. aposto explicativo; B. vocativo; C. aposto enumerativo que especifica “os coordenadores”. Sequência:",
+      "options": [
+        "A – B – C.",
+        "B – C – A.",
+        "C – A – B.",
+        "B – A – C."
+      ],
+      "answer": 3,
+      "explanation": "Senhores chama os interlocutores; município potiguar explica Mossoró; Ana e Paulo enumeram os coordenadores.",
+      "optionComments": [
+        "Incorreta: Senhores não explica substantivo anterior; é chamamento.",
+        "Incorreta: município potiguar é explicação do nome da cidade.",
+        "Incorreta: Senhores não enumera os coordenadores; ele interpela ouvintes.",
+        "Correta: distingue aposto e vocativo pela referência dentro ou fora da oração."
+      ],
+      "id": "Q-POR-15-005-03",
+      "moduleId": "POR-15",
+      "subtopicId": "POR-15-005",
+      "topic": "Aposto, vocativo e valores sintáticos",
+      "concept": "Aposto explica, especifica, resume ou enumera termo da oração; vocativo chama ou interpela o interlocutor e fica fora da estrutura argumental do verbo.",
+      "trap": "Identifique a função discursiva: explicar um termo existente (aposto) ou dirigir-se a alguém (vocativo).",
+      "examTip": "Identifique a função discursiva: explicar um termo existente (aposto) ou dirigir-se a alguém (vocativo).",
+      "newExample": "“Marina, coordenadora do setor, respondeu. Marina, confirme a agenda!”: primeiro há aposto; depois, vocativo.",
+      "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "afirmacoes",
+      "difficulty": "dificil",
+      "stem": "Considere: I. Em “Maria, coordenadora da equipe, respondeu”, “coordenadora da equipe” é aposto explicativo. II. Em “Maria, responda ao e-mail”, “Maria” é vocativo. III. Em “Amigos, chegaram as mensagens”, “Amigos” é sujeito de “chegaram”. Quais estão corretas?",
+      "options": [
+        "I e II apenas.",
+        "I e III apenas.",
+        "II e III apenas.",
+        "I, II e III."
+      ],
+      "answer": 0,
+      "explanation": "I e II descrevem funções diferentes do nome Maria; no último exemplo, mensagens é sujeito posposto e amigos é vocativo.",
+      "optionComments": [
+        "Correta: aposto explica Maria na primeira e vocativo interpela Maria na segunda.",
+        "Incorreta: III é falsa, pois o sujeito de chegaram é mensagens.",
+        "Incorreta: III é falsa e I descreve aposto corretamente.",
+        "Incorreta: III confunde chamamento com sujeito do verbo."
+      ],
+      "id": "Q-POR-15-005-04",
+      "moduleId": "POR-15",
+      "subtopicId": "POR-15-005",
+      "topic": "Aposto, vocativo e valores sintáticos",
+      "concept": "Aposto explica, especifica, resume ou enumera termo da oração; vocativo chama ou interpela o interlocutor e fica fora da estrutura argumental do verbo.",
+      "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
+      "examTip": "Identifique a função discursiva: explicar um termo existente (aposto) ou dirigir-se a alguém (vocativo).",
+      "newExample": "“Marina, coordenadora do setor, respondeu. Marina, confirme a agenda!”: primeiro há aposto; depois, vocativo.",
+      "challenge": "Em “Colegas, revisem o comunicado”, “Colegas” é sujeito?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    }
+  ],
+  "POR-16": [
+    {
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Em “A relação dos classificados foi divulgada”, o verbo está no singular porque concorda com o núcleo “relação”.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: “Relação” é núcleo singular do sujeito; “dos classificados” apenas especifica o conjunto e não governa a concordância de “foi”.",
+        "Incorreta: “Relação” é núcleo singular do sujeito; “dos classificados” apenas especifica o conjunto e não governa a concordância de “foi”."
+      ],
+      "explanation": "“Relação” é núcleo singular do sujeito; “dos classificados” apenas especifica o conjunto e não governa a concordância de “foi”.",
+      "trap": "O plural “classificados”, mais próximo de “foi”, pode induzir a flexão incorreta “foram”.",
+      "examTip": "Separe o núcleo nominal de seus complementos antes de decidir a forma do verbo.",
+      "newExample": "“O conjunto de documentos chegou”: o núcleo conjunto exige chegou.",
+      "challenge": "Qual seria a flexão em “As relações dos classificados ___ divulgadas”?",
+      "id": "Q-POR-16-001-01",
+      "moduleId": "POR-16",
+      "subtopicId": "POR-16-001",
+      "topic": "Regra geral de concordância verbal",
+      "concept": "Na regra geral, o verbo concorda em número e pessoa com o núcleo do sujeito, e não com o termo plural mais próximo.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Considerando a concordância verbal da norma-padrão, assinale a frase correta.",
+      "options": [
+        "O conjunto de formulários chegaram hoje.",
+        "As respostas do candidato foi arquivadas.",
+        "Os dados da pesquisa foram conferidos.",
+        "A lista de inscritos estavam disponível."
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta: o núcleo do sujeito é conjunto, no singular; a forma é chegou.",
+        "Incorreta: respostas é núcleo plural e exige foram, além do particípio arquivadas.",
+        "Correta: o sujeito tem núcleo dados, plural, e o auxiliar foram concorda com ele.",
+        "Incorreta: lista é núcleo singular e exige estava; o adjetivo permanece disponível."
+      ],
+      "explanation": "O verbo concorda com o núcleo do sujeito. Em “Os dados da pesquisa”, dados é plural; expressões preposicionadas não substituem o núcleo.",
+      "trap": "Termos plurais perto do verbo podem ser confundidos com o sujeito principal.",
+      "examTip": "Na dúvida, substitua o sujeito completo por “ele” ou “eles” e confira a flexão.",
+      "newExample": "“As atas da comissão permaneceram guardadas” concorda com atas.",
+      "challenge": "Explique por que “A equipe de fiscais estavam” não segue a regra geral.",
+      "id": "Q-POR-16-001-02",
+      "moduleId": "POR-16",
+      "subtopicId": "POR-16-001",
+      "topic": "Regra geral de concordância verbal",
+      "concept": "Na regra geral, o verbo concorda em número e pessoa com o núcleo do sujeito, e não com o termo plural mais próximo.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "vf",
+      "difficulty": "dificil",
+      "stem": "Julgue as afirmações sobre concordância: I. “A coleção de provas chegou” está adequada. II. “As taxas do edital permanece estáveis” está adequada. III. “Chegaram os pareceres da comissão” está adequada. IV. “O resultado das análises foram publicados” está adequada. Qual sequência corresponde, na ordem, a I–IV?",
+      "options": [
+        "V, V, F, F.",
+        "F, F, V, V.",
+        "V, F, F, V.",
+        "V, F, V, F."
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Incorreta: II é falsa, pois taxas pede permanecem; III é verdadeira com pareceres plural.",
+        "Incorreta: I é verdadeira com coleção singular; IV é falsa com resultado singular.",
+        "Incorreta: III é verdadeira e IV é falsa; a inversão não elimina concordância.",
+        "Correta: coleção/chegou e pareceres/chegaram estão adequados; II e IV discordam dos núcleos."
+      ],
+      "explanation": "I e III respeitam o núcleo coleção (singular) e pareceres (plural). Em II, o correto é permanecem; em IV, o sujeito “O resultado” pede foi publicado.",
+      "trap": "O sujeito posposto de III e o plural subordinado de IV são armadilhas de proximidade.",
+      "examTip": "Marque o núcleo dos quatro sujeitos antes de julgar a sequência V/F.",
+      "newExample": "“Publicou-se a lista” é singular; “Publicaram-se as listas” é plural.",
+      "challenge": "Reescreva as frases II e IV tornando-as plenamente corretas.",
+      "id": "Q-POR-16-001-03",
+      "moduleId": "POR-16",
+      "subtopicId": "POR-16-001",
+      "topic": "Regra geral de concordância verbal",
+      "concept": "Na regra geral, o verbo concorda em número e pessoa com o núcleo do sujeito, e não com o termo plural mais próximo.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "Todas as frases seguintes estão adequadas à norma-padrão quanto à concordância verbal, EXCETO:",
+      "options": [
+        "Faltam poucas etapas para a homologação.",
+        "A identificação dos inscritos constam da planilha.",
+        "O número de recursos aumentou no período.",
+        "Restaram três documentos para conferência."
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Correta como frase: faltam concorda com o sujeito plural poucas etapas; não é a exceção.",
+        "Incorreta como frase e resposta: o núcleo identificação exige consta, no singular.",
+        "Correta como frase: número é núcleo singular e pede aumentou.",
+        "Correta como frase: três documentos é sujeito plural posposto e pede restaram."
+      ],
+      "explanation": "A exceção é “A identificação dos inscritos constam”: identificação é o núcleo singular, e a construção regular é “consta da planilha”.",
+      "trap": "O distrator plural inscritos está dentro do adjunto do nome identificação, não constitui sujeito independente.",
+      "examTip": "Em questões EXCETO, confirme o núcleo de cada sujeito e procure uma única discordância real.",
+      "newExample": "“A numeração das páginas aparece no índice”: o núcleo numeração rege aparece.",
+      "challenge": "Por que o sujeito posposto em “Restaram três documentos” não justifica singular?",
+      "id": "Q-POR-16-001-04",
+      "moduleId": "POR-16",
+      "subtopicId": "POR-16-001",
+      "topic": "Regra geral de concordância verbal",
+      "concept": "Na regra geral, o verbo concorda em número e pessoa com o núcleo do sujeito, e não com o termo plural mais próximo.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Em “A revisora e o coordenador assinaram a ata”, o plural “assinaram” corresponde à regra geral para sujeito composto anteposto.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: Dois núcleos distintos (revisora e coordenador) formam sujeito composto antes do verbo; na leitura usual, a forma plural é exigida.",
+        "Incorreta: Dois núcleos distintos (revisora e coordenador) formam sujeito composto antes do verbo; na leitura usual, a forma plural é exigida."
+      ],
+      "explanation": "Dois núcleos distintos (revisora e coordenador) formam sujeito composto antes do verbo; na leitura usual, a forma plural é exigida.",
+      "trap": "A proximidade de “coordenador” singular pode induzir “assinou” apesar do sujeito composto anteposto.",
+      "examTip": "Confira se os núcleos coordenados estão antes ou depois do verbo e se designam participantes diferentes.",
+      "newExample": "“A bibliotecária e a supervisora registraram a ocorrência” exige plural.",
+      "challenge": "Por que o verbo não pode concordar apenas com “coordenador” nessa ordem?",
+      "id": "Q-POR-16-002-01",
+      "moduleId": "POR-16",
+      "subtopicId": "POR-16-002",
+      "topic": "Sujeito composto, posposto e casos especiais",
+      "concept": "Sujeito composto anteposto geralmente exige plural; sujeito composto posposto pode permitir concordância plural ou com o núcleo mais próximo, segundo a tradição gramatical.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Qual alternativa apresenta a concordância esperada quando o sujeito composto com dois agentes está antes do verbo?",
+      "options": [
+        "A diretora e o contador revisou as notas.",
+        "A diretora e o contador revisaram as notas.",
+        "A diretora e o contador revisa as notas.",
+        "A diretora e o contador revisava as notas."
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: diretora e contador são dois núcleos antepostos e pedem revisaram.",
+        "Correta: sujeito composto anteposto determina o plural na leitura de duas pessoas.",
+        "Incorreta: revisa está no singular e não concorda com o sujeito composto.",
+        "Incorreta: revisava continua singular, apesar dos dois núcleos antepostos."
+      ],
+      "explanation": "A coordenação dos dois núcleos do sujeito anteposto exige o plural “revisaram”. O verbo não se limita a concordar com o termo mais próximo.",
+      "trap": "Uma resposta com singular pode parecer atraente por proximidade com contador.",
+      "examTip": "Identifique se o sujeito está inteiramente colocado antes do verbo; isso elimina a falsa atração.",
+      "newExample": "“A presidente e o secretário convocaram a reunião” expressa ação de ambos.",
+      "challenge": "Se o sujeito fosse apenas “A diretora”, que forma verbal caberia?",
+      "id": "Q-POR-16-002-02",
+      "moduleId": "POR-16",
+      "subtopicId": "POR-16-002",
+      "topic": "Sujeito composto, posposto e casos especiais",
+      "concept": "Sujeito composto anteposto geralmente exige plural; sujeito composto posposto pode permitir concordância plural ou com o núcleo mais próximo, segundo a tradição gramatical.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "afirmacoes",
+      "difficulty": "dificil",
+      "stem": "Analise as afirmações: I. “Eu e os assistentes concluímos o serviço” está adequada. II. “Chegaram a pauta e os anexos” está adequada. III. Em qualquer sujeito composto posposto, o singular é obrigatoriamente incorreto. Assinale a combinação correta.",
+      "options": [
+        "Apenas I e II.",
+        "Apenas II e III.",
+        "Apenas I e III.",
+        "I, II e III."
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: I usa primeira pessoa plural; II usa plural com sujeito composto posposto; III é absoluta e falsa.",
+        "Incorreta: I está correta e III ignora possibilidades de concordância por atração após o verbo.",
+        "Incorreta: II está correta; III não expressa a variação tradicional admitida.",
+        "Incorreta: III erra ao proibir toda concordância por atração em sujeitos pospostos."
+      ],
+      "explanation": "A primeira pessoa do plural abrange eu + outros. O plural “chegaram” serve ao sujeito composto posposto. Algumas construções pospostas admitem concordância com o núcleo mais próximo, de modo que III não é universal.",
+      "trap": "Uma formulação com “sempre” tenta transformar a concordância plural preferencial em regra sem exceções.",
+      "examTip": "Diferencie a regra dominante da licença de atração reconhecida em sujeito composto posposto.",
+      "newExample": "“Vieram o técnico e a gestora” é construção plural inequívoca.",
+      "challenge": "Por que uma prova não deveria classificar automaticamente “Chegou o técnico e a gestora” como erro absoluto?",
+      "id": "Q-POR-16-002-03",
+      "moduleId": "POR-16",
+      "subtopicId": "POR-16-002",
+      "topic": "Sujeito composto, posposto e casos especiais",
+      "concept": "Sujeito composto anteposto geralmente exige plural; sujeito composto posposto pode permitir concordância plural ou com o núcleo mais próximo, segundo a tradição gramatical.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "lacunas",
+      "difficulty": "dificil",
+      "stem": "Complete em conformidade com a norma-padrão: “Eu e meus colegas ___ os dados; a coordenadora e o revisor ___ a versão final; os pareceres e as atas ___ à diretoria.”",
+      "options": [
+        "conferiu — validou — chegou",
+        "conferimos — validou — chegaram",
+        "conferimos — validaram — chegaram",
+        "conferiram — validaram — chegaram"
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta: as três formas singulares desrespeitam sujeitos plurais.",
+        "Incorreta: a segunda lacuna requer validaram por haver dois agentes antepostos.",
+        "Correta: a primeira construção pede primeira pessoa plural; as outras, terceira pessoa plural.",
+        "Incorreta: eu + colegas exige primeira pessoa do plural, não conferiram."
+      ],
+      "explanation": "“Eu e meus colegas” leva conferimos; “a coordenadora e o revisor” leva validaram; “os pareceres e as atas” leva chegaram. A flexão depende de pessoa e número dos sujeitos.",
+      "trap": "A alternativa que usa terceira pessoa em “eu e meus colegas” ignora a prevalência da primeira pessoa.",
+      "examTip": "Analise separadamente pessoa e número; estar no plural não basta quando há “eu”.",
+      "newExample": "“Eu e a equipe preparamos o formulário; os fiscais e a chefe aprovaram-no”.",
+      "challenge": "Qual mudança ocorre na primeira lacuna se “Eu e meus colegas” for substituído por “Meus colegas”?",
+      "id": "Q-POR-16-002-04",
+      "moduleId": "POR-16",
+      "subtopicId": "POR-16-002",
+      "topic": "Sujeito composto, posposto e casos especiais",
+      "concept": "Sujeito composto anteposto geralmente exige plural; sujeito composto posposto pode permitir concordância plural ou com o núcleo mais próximo, segundo a tradição gramatical.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Na norma-padrão, a frase “Houveram várias inscrições ontem” está adequada porque inscrições é plural.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: Haver com sentido de existir é impessoal e fica no singular: “Houve várias inscrições ontem”; inscrições não é sujeito desse verbo.",
+        "Correta: Haver com sentido de existir é impessoal e fica no singular: “Houve várias inscrições ontem”; inscrições não é sujeito desse verbo."
+      ],
+      "explanation": "Haver com sentido de existir é impessoal e fica no singular: “Houve várias inscrições ontem”; inscrições não é sujeito desse verbo.",
+      "trap": "A confusão surge ao aplicar a “haver” a concordância de “existir”: “Existiram várias inscrições”.",
+      "examTip": "Pergunte se haver equivale a existir; nesse emprego, não há sujeito que determine o plural.",
+      "newExample": "“Havia muitas dúvidas, mas existiam respostas disponíveis”.",
+      "challenge": "Reescreva a frase com haver e com existir, ajustando a flexão.",
+      "id": "Q-POR-16-003-01",
+      "moduleId": "POR-16",
+      "subtopicId": "POR-16-003",
+      "topic": "Verbos impessoais haver e fazer; existir",
+      "concept": "Haver com sentido de existir e fazer indicando tempo decorrido são impessoais e ficam na terceira pessoa do singular; existir concorda com o sujeito.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Assinale a frase corretamente formada, segundo a norma-padrão, ao indicar tempo decorrido.",
+      "options": [
+        "Fazem dois anos que a unidade mudou de sede.",
+        "Haviam três meses de atraso no sistema.",
+        "Faz dois anos que a unidade mudou de sede.",
+        "Devem fazer dois anos que o prazo encerrou."
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta: fazer temporal é impessoal e permanece no singular.",
+        "Incorreta: haver no sentido de existir não vai ao plural.",
+        "Correta: fazer impessoal com valor temporal fica no singular.",
+        "Incorreta: a impessoalidade de fazer temporal passa ao auxiliar deve."
+      ],
+      "explanation": "Fazer indicando tempo decorrido não tem sujeito e permanece na terceira pessoa singular, inclusive com auxiliares: “deve fazer”.",
+      "trap": "O plural do adjunto temporal “dois anos” é confundido com sujeito.",
+      "examTip": "Para fazer temporal, teste se expressa tempo transcorrido, e não um agente que faz alguma coisa.",
+      "newExample": "“Vai fazer cinco meses que a obra terminou”: vai não flexiona pelo tempo.",
+      "challenge": "Por que “Os servidores fizeram o relatório” admite plural, mas “Faz três meses” não?",
+      "id": "Q-POR-16-003-02",
+      "moduleId": "POR-16",
+      "subtopicId": "POR-16-003",
+      "topic": "Verbos impessoais haver e fazer; existir",
+      "concept": "Haver com sentido de existir e fazer indicando tempo decorrido são impessoais e ficam na terceira pessoa do singular; existir concorda com o sujeito.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "vf",
+      "difficulty": "dificil",
+      "stem": "Considere: I. “Houve muitas dúvidas na reunião.” II. “Existiam arquivos sem identificação.” III. “Devem haver saídas alternativas.” IV. “Faz quatro semanas que a avaliação terminou.” Qual é a sequência correta de V/F?",
+      "options": [
+        "V, F, V, V.",
+        "V, V, F, V.",
+        "F, V, F, V.",
+        "V, V, V, F."
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: II é correta porque existir concorda com arquivos; III é incorreta.",
+        "Correta: houve e faz são impessoais; existiam concorda com arquivos; devem haver deveria ser deve haver.",
+        "Incorreta: I está correta com haver existencial no singular.",
+        "Incorreta: III está incorreta e IV está correta com fazer temporal singular."
+      ],
+      "explanation": "Houve e faz são impessoais nos sentidos apresentados; existir é pessoal; em locução com haver existencial, o auxiliar deve permanecer no singular: “Deve haver saídas”.",
+      "trap": "A presença do auxiliar em “devem haver” pode disfarçar a impessoalidade de haver.",
+      "examTip": "Avalie o sentido do verbo principal antes de decidir a concordância do auxiliar.",
+      "newExample": "“Pode haver recursos; podem existir recursos” mostra a diferença de flexão.",
+      "challenge": "O que muda no item III quando trocamos “haver” por “existir”?",
+      "id": "Q-POR-16-003-03",
+      "moduleId": "POR-16",
+      "subtopicId": "POR-16-003",
+      "topic": "Verbos impessoais haver e fazer; existir",
+      "concept": "Haver com sentido de existir e fazer indicando tempo decorrido são impessoais e ficam na terceira pessoa do singular; existir concorda com o sujeito.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "As construções a seguir seguem a concordância da norma-padrão, EXCETO:",
+      "options": [
+        "Pode haver mudanças no cronograma.",
+        "Existem informações contraditórias no parecer.",
+        "Há meses aguardamos a resposta.",
+        "Devem haver novas vagas no setor."
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Correta como frase: haver existencial impessoal mantém pode singular.",
+        "Correta como frase: informações é sujeito plural de existem.",
+        "Correta como frase: há indica tempo decorrido no singular.",
+        "Incorreta como frase e resposta: o auxiliar deve fica singular com haver existencial."
+      ],
+      "explanation": "Em “Devem haver”, o auxiliar herda a impessoalidade do verbo haver com sentido de existir; a forma adequada é “Deve haver novas vagas”.",
+      "trap": "Nem a palavra vagas nem o auxiliar criam sujeito para haver impessoal.",
+      "examTip": "Compare “Deve haver vagas” com “Devem existir vagas” antes de escolher a exceção.",
+      "newExample": "“Vai haver inscrições” tem auxiliar singular, mas “Vão existir inscrições” tem plural.",
+      "challenge": "Explique por que “Podem existir mudanças” não viola a norma-padrão.",
+      "id": "Q-POR-16-003-04",
+      "moduleId": "POR-16",
+      "subtopicId": "POR-16-003",
+      "topic": "Verbos impessoais haver e fazer; existir",
+      "concept": "Haver com sentido de existir e fazer indicando tempo decorrido são impessoais e ficam na terceira pessoa do singular; existir concorda com o sujeito.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Em “As servidoras ficaram meio preocupadas”, a palavra “meio” permanece invariável por funcionar como advérbio de intensidade.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: “Meio” equivale a “um pouco” e modifica preocupadas; como advérbio, não flexiona: “meio preocupadas”.",
+        "Incorreta: “Meio” equivale a “um pouco” e modifica preocupadas; como advérbio, não flexiona: “meio preocupadas”."
+      ],
+      "explanation": "“Meio” equivale a “um pouco” e modifica preocupadas; como advérbio, não flexiona: “meio preocupadas”.",
+      "trap": "A ideia de feminino plural pode levar à forma inadequada “meias preocupadas”.",
+      "examTip": "Substitua “meio” por “um pouco” para reconhecer o advérbio invariável.",
+      "newExample": "“Os técnicos ficaram meio surpresos com o resultado”.",
+      "challenge": "Como se escreve “A gerente estava ___ cansada”, usando o valor de “um pouco”?",
+      "id": "Q-POR-16-004-01",
+      "moduleId": "POR-16",
+      "subtopicId": "POR-16-004",
+      "topic": "Concordância nominal e expressões invariáveis",
+      "concept": "Adjetivos, artigos, pronomes e particípios em função adjetiva acompanham o gênero/número do núcleo; advérbios como meio e bastante intensificadores são invariáveis.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Em qual frase a concordância nominal segue a norma-padrão?",
+      "options": [
+        "As certidões foram entregue ontem.",
+        "As atas seguem anexas ao processo.",
+        "As servidoras estavam meias apreensivas.",
+        "Foi recebida bastante reclamações."
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: na passiva com certidões, o particípio exige entregues.",
+        "Correta: anexas é adjetivo feminino plural concordante com atas.",
+        "Incorreta: meio com sentido de um pouco é advérbio invariável.",
+        "Incorreta: reclamações pede foram recebidas; bastante como determinante admite bastantes."
+      ],
+      "explanation": "O adjetivo anexas acompanha atas no feminino plural. Na passiva, particípio também concorda com o sujeito; meio advérbio não varia.",
+      "trap": "Aparência feminina de palavras vizinhas favorece flexão indevida do advérbio meio.",
+      "examTip": "Diferencie adjetivo variável de advérbio intensificador antes de flexionar.",
+      "newExample": "“As declarações estavam prontas, mas as atendentes pareciam meio cansadas”.",
+      "challenge": "Por que “Os documentos seguem anexo” precisa ser ajustado?",
+      "id": "Q-POR-16-004-02",
+      "moduleId": "POR-16",
+      "subtopicId": "POR-16-004",
+      "topic": "Concordância nominal e expressões invariáveis",
+      "concept": "Adjetivos, artigos, pronomes e particípios em função adjetiva acompanham o gênero/número do núcleo; advérbios como meio e bastante intensificadores são invariáveis.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "associacao",
+      "difficulty": "dificil",
+      "stem": "Associe a expressão ao emprego correto: 1. “meia” em “meia hora”; 2. “meio” em “meio cansadas”; 3. “bastantes” em “bastantes argumentos”. Qual associação está correta?",
+      "options": [
+        "1–advérbio de intensidade; 2–numeral; 3–advérbio invariável.",
+        "1–numeral; 2–adjetivo de estado; 3–advérbio invariável.",
+        "1–numeral fracionário; 2–advérbio invariável; 3–determinante variável.",
+        "1–pronome pessoal; 2–numeral; 3–verbo auxiliar."
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta: meia significa metade; meio intensifica; bastantes acompanha substantivo.",
+        "Incorreta: meio é advérbio; bastantes atua como determinante com flexão.",
+        "Correta: meia equivale a metade; meio a um pouco; bastantes quantifica argumentos.",
+        "Incorreta: nenhuma das três classificações corresponde às funções no enunciado."
+      ],
+      "explanation": "“Meia hora” contém numeral que flexiona; “meio cansadas” contém advérbio que não flexiona; “bastantes argumentos” tem determinante variável junto ao nome.",
+      "trap": "A mesma forma lexical pode mudar de classe sem preservar sua flexão.",
+      "examTip": "Faça substituições: metade, um pouco e muitos para reconhecer cada função.",
+      "newExample": "“Ela tomou meia xícara e ficou meio satisfeita com bastantes resultados”.",
+      "challenge": "Em “As pessoas estavam bastante tranquilas”, bastante também deve ficar no plural?",
+      "id": "Q-POR-16-004-03",
+      "moduleId": "POR-16",
+      "subtopicId": "POR-16-004",
+      "topic": "Concordância nominal e expressões invariáveis",
+      "concept": "Adjetivos, artigos, pronomes e particípios em função adjetiva acompanham o gênero/número do núcleo; advérbios como meio e bastante intensificadores são invariáveis.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "Assinale a única frase com concordância nominal inadequada, considerando o uso de adjetivos e advérbios.",
+      "options": [
+        "As próprias gestoras assinaram a resposta.",
+        "Havia menos solicitações nesta semana.",
+        "As planilhas seguiram anexo à mensagem.",
+        "Os relatórios chegaram devidamente assinados."
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Correta como frase: próprias concorda com gestoras.",
+        "Correta como frase: menos é invariável; não existe “menas”.",
+        "Incorreta como frase e resposta: anexo, como adjetivo, deve concordar com planilhas: anexas.",
+        "Correta como frase: assinados concorda com relatórios."
+      ],
+      "explanation": "Na frase incorreta, anexo funciona como adjetivo e deve ser “anexas”; os outros empregos respeitam a flexão ou invariabilidade de suas classes.",
+      "trap": "A expressão “em anexo” é invariável, mas “anexo” adjetivo isolado concorda com o nome.",
+      "examTip": "Compare “As planilhas seguem anexas” com “As planilhas seguem em anexo”.",
+      "newExample": "“O demonstrativo segue anexo; as declarações seguem anexas”.",
+      "challenge": "Como corrigir a frase da terceira alternativa sem retirar o adjetivo?",
+      "id": "Q-POR-16-004-04",
+      "moduleId": "POR-16",
+      "subtopicId": "POR-16-004",
+      "topic": "Concordância nominal e expressões invariáveis",
+      "concept": "Adjetivos, artigos, pronomes e particípios em função adjetiva acompanham o gênero/número do núcleo; advérbios como meio e bastante intensificadores são invariáveis.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "A passiva “Foram publicadas as listas” respeita a concordância com o sujeito paciente plural “as listas”.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: A transformação passiva cria sujeito paciente plural “as listas”, exigindo foram e publicadas no feminino plural.",
+        "Incorreta: A transformação passiva cria sujeito paciente plural “as listas”, exigindo foram e publicadas no feminino plural."
+      ],
+      "explanation": "A transformação passiva cria sujeito paciente plural “as listas”, exigindo foram e publicadas no feminino plural.",
+      "trap": "A ordem invertida pode fazer parecer que as listas é objeto, mas na passiva constitui sujeito paciente.",
+      "examTip": "Na passiva, localize o sujeito paciente, ainda que apareça depois do verbo.",
+      "newExample": "“Foram encaminhadas as propostas” concorda com propostas.",
+      "challenge": "Transforme “A comissão aprovou as atas” em passiva analítica.",
+      "id": "Q-POR-16-005-01",
+      "moduleId": "POR-16",
+      "subtopicId": "POR-16-005",
+      "topic": "Concordância em reescritas e casos de prova",
+      "concept": "A reescrita exige reavaliar sujeito e predicado: passiva analítica flexiona auxiliar/particípio; substituição entre haver e existir pode mudar o número verbal.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Qual reescrita de “Havia duas respostas pendentes” com o verbo existir está de acordo com a norma-padrão?",
+      "options": [
+        "Existia duas respostas pendentes.",
+        "Haviam duas respostas pendentes.",
+        "Existiriam duas resposta pendente.",
+        "Existiam duas respostas pendentes."
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Incorreta: existir é pessoal e o sujeito duas respostas exige plural.",
+        "Incorreta: mantém haver existencial e introduz plural indevido.",
+        "Incorreta: há discordância nominal entre duas e resposta pendente, além de alterar o valor temporal.",
+        "Correta: existir concorda com o sujeito plural duas respostas."
+      ],
+      "explanation": "A mudança de haver (impessoal) para existir (pessoal) exige plural “existiam”. O sentido de existência pode ser mantido com concordância própria de cada verbo.",
+      "trap": "Copiar o singular de haver para existir é erro de reescrita.",
+      "examTip": "Depois de substituir um verbo, volte a identificar se a nova forma tem sujeito.",
+      "newExample": "“Houve falhas” → “Existiram falhas”.",
+      "challenge": "Por que não podemos trocar “Houve inscrições” por “Existiu inscrições”?",
+      "id": "Q-POR-16-005-02",
+      "moduleId": "POR-16",
+      "subtopicId": "POR-16-005",
+      "topic": "Concordância em reescritas e casos de prova",
+      "concept": "A reescrita exige reavaliar sujeito e predicado: passiva analítica flexiona auxiliar/particípio; substituição entre haver e existir pode mudar o número verbal.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "vf",
+      "difficulty": "dificil",
+      "stem": "Julgue as reescritas: I. “O setor enviou as cartas” → “As cartas foram enviadas pelo setor”. II. “Precisa-se de apoio” → “Precisam-se de apoio”. III. “Publicaram-se as decisões” → “As decisões foram publicadas”. IV. “Houve uma revisão” → “Existiram uma revisão”. Qual sequência V/F está correta?",
+      "options": [
+        "V, V, F, F.",
+        "V, F, V, F.",
+        "F, F, V, V.",
+        "V, F, F, V."
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: II é falsa pela indeterminação do sujeito e III é verdadeira com passiva.",
+        "Correta: I e III mantêm passiva com concordância; II e IV introduzem plural indevido.",
+        "Incorreta: I está correta; IV deveria ter existiu, não existiram.",
+        "Incorreta: III é correta e IV é incorreta quanto ao singular de uma revisão."
+      ],
+      "explanation": "I é passiva analítica correta; II usa se como índice de indeterminação, pedindo precisa-se; III corresponde à passiva sintética; IV exige “Existiu uma revisão”.",
+      "trap": "O pronome se não tem a mesma função em “precisa-se de” e “publicam-se as”.",
+      "examTip": "Na reescrita, identifique passiva ou sujeito indeterminado antes de decidir plural.",
+      "newExample": "“Vendiam-se ingressos” equivale a “Ingressos eram vendidos”; “Necessita-se de ajuda” fica singular.",
+      "challenge": "Explique por que II não é passiva sintética na regência apresentada.",
+      "id": "Q-POR-16-005-03",
+      "moduleId": "POR-16",
+      "subtopicId": "POR-16-005",
+      "topic": "Concordância em reescritas e casos de prova",
+      "concept": "A reescrita exige reavaliar sujeito e predicado: passiva analítica flexiona auxiliar/particípio; substituição entre haver e existir pode mudar o número verbal.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "afirmacoes",
+      "difficulty": "dificil",
+      "stem": "Considere: I. A passiva de “A equipe revisou os contratos” pode ser “Os contratos foram revisados pela equipe”. II. Em “Oferecem-se vagas”, vagas é sujeito paciente na passiva sintética. III. Em “Precisa-se de voluntários”, o verbo deve concordar com voluntários e ir ao plural. Assinale a combinação correta.",
+      "options": [
+        "Apenas III.",
+        "I, II e III.",
+        "Apenas I e II.",
+        "Apenas II e III."
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta: III é falsa; I e II descrevem construções passivas adequadas.",
+        "Incorreta: precisa-se de contém se indeterminador e permanece singular.",
+        "Correta: I e II são passivas com sujeito paciente; III confunde indeterminação com passiva.",
+        "Incorreta: I é correta; III ignora a regência com de e a impessoalização da frase."
+      ],
+      "explanation": "I flexiona auxiliar/particípio para contratos; II apresenta passiva sintética com sujeito vagas; III contém índice de indeterminação com verbo transitivo indireto e fica “precisa-se”.",
+      "trap": "A mesma partícula se pode ser apassivadora ou indeterminadora conforme a transitividade.",
+      "examTip": "Retire se e identifique se o verbo admite objeto direto, pois isso orienta a análise da voz.",
+      "newExample": "“Alugam-se salas” é passiva; “Trata-se de assuntos urgentes” fica singular.",
+      "challenge": "Qual o sujeito de “Oferecem-se vagas” e por que ele é diferente de “Precisa-se de voluntários”?",
+      "id": "Q-POR-16-005-04",
+      "moduleId": "POR-16",
+      "subtopicId": "POR-16-005",
+      "topic": "Concordância em reescritas e casos de prova",
+      "concept": "A reescrita exige reavaliar sujeito e predicado: passiva analítica flexiona auxiliar/particípio; substituição entre haver e existir pode mudar o número verbal.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    }
+  ],
+  "POR-17": [
+    {
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Em “A comissão precisa de documentos”, a expressão “de documentos” completa o sentido do verbo com preposição exigida.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: No emprego apresentado, precisar rege de; “de documentos” funciona como objeto indireto, e não como simples circunstância de lugar.",
+        "Incorreta: No emprego apresentado, precisar rege de; “de documentos” funciona como objeto indireto, e não como simples circunstância de lugar."
+      ],
+      "explanation": "No emprego apresentado, precisar rege de; “de documentos” funciona como objeto indireto, e não como simples circunstância de lugar.",
+      "trap": "Qualquer grupo introduzido por preposição pode ser confundido com adjunto adverbial.",
+      "examTip": "Experimente perguntar “precisa de quê?” para reconhecer a complementação exigida.",
+      "newExample": "“A equipe depende de autorização para prosseguir”: de autorização é complemento verbal.",
+      "challenge": "Em “Atendeu durante a manhã”, por que “durante a manhã” não é objeto indireto?",
+      "id": "Q-POR-17-001-01",
+      "moduleId": "POR-17",
+      "subtopicId": "POR-17-001",
+      "topic": "Transitividade e seleção de preposições",
+      "concept": "Regência verbal descreve a ligação entre o verbo e seus complementos; verbos podem exigir objeto direto, indireto ou ambos conforme o emprego.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Qual análise está correta quanto aos complementos de “O servidor enviou o documento à chefia”?",
+      "options": [
+        "“À chefia” é sujeito composto; “o documento” é adjunto adnominal.",
+        "“O documento” é objeto direto e “à chefia” é objeto indireto.",
+        "“O documento” é objeto indireto porque vem após o verbo.",
+        "“À chefia” é adjunto adverbial de tempo."
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: o sujeito é O servidor; os demais termos completam enviar.",
+        "Correta: enviar admite coisa enviada sem preposição exigida e destinatário com a.",
+        "Incorreta: posição após o verbo não cria preposição nem define objeto indireto.",
+        "Incorreta: chefia é destinatário exigido nessa construção de enviar, não tempo."
+      ],
+      "explanation": "Enviar permite construção bitransitiva: enviar algo a alguém. O documento é aquilo que foi enviado; à chefia identifica o destinatário.",
+      "trap": "A presença do acento grave pode fazer “à chefia” parecer um adjunto circunstancial.",
+      "examTip": "Pergunte simultaneamente “enviou o quê?” e “enviou a quem?”.",
+      "newExample": "“A secretária apresentou o orçamento ao diretor”: orçamento é direto; ao diretor, indireto.",
+      "challenge": "Que mudança ocorreria em “O servidor enviou à chefia” se omitíssemos o conteúdo enviado?",
+      "id": "Q-POR-17-001-02",
+      "moduleId": "POR-17",
+      "subtopicId": "POR-17-001",
+      "topic": "Transitividade e seleção de preposições",
+      "concept": "Regência verbal descreve a ligação entre o verbo e seus complementos; verbos podem exigir objeto direto, indireto ou ambos conforme o emprego.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "associacao",
+      "difficulty": "dificil",
+      "stem": "Associe a construção à preposição tradicionalmente exigida pelo verbo: 1. depender ___ autorização; 2. confiar ___ dados; 3. referir-se ___ regulamento. Qual sequência completa corretamente 1–3?",
+      "options": [
+        "de — em — a",
+        "em — de — com",
+        "a — em — de",
+        "de — a — em"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: depender de; confiar em; referir-se a são relações regenciais próprias.",
+        "Incorreta: nenhuma das três preposições corresponde à combinação usual dos regentes apresentados.",
+        "Incorreta: confiar em está correto, mas depender de e referir-se a foram trocados.",
+        "Incorreta: depender de é correto, mas confiar em e referir-se a não foram respeitados."
+      ],
+      "explanation": "Os verbos selecionar preposições distintas: depender de, confiar em e referir-se a. A escolha depende do verbo e não apenas do tema do complemento.",
+      "trap": "Aparentes sinônimos não autorizam trocar automaticamente as preposições exigidas.",
+      "examTip": "Recomponha cada sintagma verbal isoladamente antes de avaliar a sequência.",
+      "newExample": "“Dependo de colegas, confio na equipe e me refiro ao edital”.",
+      "challenge": "Construa uma oração formal com “referir-se” e objeto indireto feminino definido.",
+      "id": "Q-POR-17-001-03",
+      "moduleId": "POR-17",
+      "subtopicId": "POR-17-001",
+      "topic": "Transitividade e seleção de preposições",
+      "concept": "Regência verbal descreve a ligação entre o verbo e seus complementos; verbos podem exigir objeto direto, indireto ou ambos conforme o emprego.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "lacunas",
+      "difficulty": "dificil",
+      "stem": "Complete as lacunas mantendo a regência: “A servidora necessitou ___ ajuda; a equipe consistiu ___ três especialistas; o parecer se referiu ___ norma atualizada.”",
+      "options": [
+        "com — de — em",
+        "de — em — à",
+        "a — em — de",
+        "de — a — por"
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: necessitar rege de, consistir em, referir-se a.",
+        "Correta: necessitou de; consistiu em; referiu-se à norma, com crase da preposição mais artigo a.",
+        "Incorreta: consistir em está correto, mas necessitar de e referir-se a não.",
+        "Incorreta: consistir em é a regência no sentido de ser constituído; referir-se a é exigência formal."
+      ],
+      "explanation": "As regências são necessitar de ajuda, consistir em três especialistas e referir-se à norma atualizada (preposição a + artigo a).",
+      "trap": "A terceira lacuna precisa de preposição a, que se contrai com o artigo feminino plural.",
+      "examTip": "Primeiro complete com preposições básicas; depois realize as contrações necessárias.",
+      "newExample": "“O programa consiste em etapas e se refere às exigências do edital”.",
+      "challenge": "Explique por que a última lacuna resulta em “à” no texto final.",
+      "id": "Q-POR-17-001-04",
+      "moduleId": "POR-17",
+      "subtopicId": "POR-17-001",
+      "topic": "Transitividade e seleção de preposições",
+      "concept": "Regência verbal descreve a ligação entre o verbo e seus complementos; verbos podem exigir objeto direto, indireto ou ambos conforme o emprego.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Na regência formal tradicional, “Os candidatos assistiram ao debate” está correta quando assistir significa presenciar.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: Assistir no sentido de presenciar/ver é tradicionalmente transitivo indireto com preposição a: “assistiram ao debate”.",
+        "Incorreta: Assistir no sentido de presenciar/ver é tradicionalmente transitivo indireto com preposição a: “assistiram ao debate”."
+      ],
+      "explanation": "Assistir no sentido de presenciar/ver é tradicionalmente transitivo indireto com preposição a: “assistiram ao debate”.",
+      "trap": "O uso corrente sem preposição pode induzir a ignorar a regência pedida em prova formal.",
+      "examTip": "Distingua “assistir a” = presenciar de “assistir alguém” = prestar assistência.",
+      "newExample": "“O público assistiu à palestra”: a + a se une em à.",
+      "challenge": "Como usar assistir no sentido de auxiliar um paciente?",
+      "id": "Q-POR-17-002-01",
+      "moduleId": "POR-17",
+      "subtopicId": "POR-17-002",
+      "topic": "Regência de verbos frequentes em concursos",
+      "concept": "Na norma-padrão ensinada em concursos, assistir no sentido de ver rege a; obedecer rege a; preferir tem construção “preferir X a Y”; aspirar no sentido de desejar rege a.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Assinale a frase que segue a regência tradicional de “preferir” na norma-padrão.",
+      "options": [
+        "Prefiro mais escrever do que revisar.",
+        "Prefiro escrever do que revisar.",
+        "Prefiro escrever a revisar.",
+        "Prefiro muito mais escrever a revisar."
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta: preferir já exprime comparação; a fórmula normativa dispensa mais/do que.",
+        "Incorreta no padrão solicitado: a construção canônica pede preferir X a Y.",
+        "Correta: a comparação de preferência é expressa por preferir X a Y.",
+        "Incorreta no padrão formal conservador: a intensificação muito mais é redundante com preferir."
+      ],
+      "explanation": "Na construção tradicional, “preferir uma opção a outra” emprega a como preposição do segundo termo e evita intensificação comparativa redundante.",
+      "trap": "O uso de “mais ... do que” parece intuitivo, mas não reproduz a regência formal de preferir.",
+      "examTip": "Reconstrua a fórmula “preferir X a Y” antes de marcar a alternativa.",
+      "newExample": "“Prefiro o relatório completo ao resumo preliminar”.",
+      "challenge": "Reescreva “Prefiro mais estudar do que sair” no padrão formal pedido.",
+      "id": "Q-POR-17-002-02",
+      "moduleId": "POR-17",
+      "subtopicId": "POR-17-002",
+      "topic": "Regência de verbos frequentes em concursos",
+      "concept": "Na norma-padrão ensinada em concursos, assistir no sentido de ver rege a; obedecer rege a; preferir tem construção “preferir X a Y”; aspirar no sentido de desejar rege a.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "vf",
+      "difficulty": "dificil",
+      "stem": "Julgue as frases segundo a regência formal tradicional: I. “Assistimos ao seminário.” II. “Obedecemos às normas internas.” III. “Aspiramos o perfume da flor.” IV. “Preferimos mais conferir do que arquivar.” Qual sequência V/F é correta?",
+      "options": [
+        "V, F, V, F.",
+        "V, V, F, F.",
+        "F, V, V, V.",
+        "V, V, V, F."
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Incorreta: II está correta; obedecer rege a e normas tem artigo plural.",
+        "Incorreta: III está correta porque aspirar, no sentido de inalar, é transitivo direto.",
+        "Incorreta: I está correta e IV não segue a construção tradicional preferir X a Y.",
+        "Correta: os três primeiros empregos estão corretos; a construção IV acumula mais e do que."
+      ],
+      "explanation": "Assistir a (presenciar), obedecer a e aspirar algo (inalar) estão adequados. Preferir X a Y rejeita a comparação redundante “mais ... do que” no padrão solicitado.",
+      "trap": "O verbo aspirar muda a regência conforme signifique inalar ou almejar.",
+      "examTip": "Classifique o sentido do verbo antes de julgar a preposição.",
+      "newExample": "“Obedeceram à orientação e aspiraram o ar limpo”.",
+      "challenge": "Como reescrever IV sem alterar o sentido de preferência?",
+      "id": "Q-POR-17-002-03",
+      "moduleId": "POR-17",
+      "subtopicId": "POR-17-002",
+      "topic": "Regência de verbos frequentes em concursos",
+      "concept": "Na norma-padrão ensinada em concursos, assistir no sentido de ver rege a; obedecer rege a; preferir tem construção “preferir X a Y”; aspirar no sentido de desejar rege a.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "No padrão tradicional de regência formal, as frases estão adequadas, EXCETO:",
+      "options": [
+        "A gestora obedeceu às orientações.",
+        "A turma assistiu ao pronunciamento.",
+        "O concorrente aspirava ao cargo de técnico.",
+        "A candidata preferia mais o turno da manhã do que o da noite."
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Correta como frase: obedecer exige a e orientações recebe artigo as.",
+        "Correta como frase: assistir a significa presenciar.",
+        "Correta como frase: aspirar a significa almejar, no padrão tradicional.",
+        "Incorreta como frase e resposta: a norma formal canônica prefere “preferia o turno da manhã ao da noite”."
+      ],
+      "explanation": "O emprego “preferia mais ... do que” contraria a fórmula formal tradicional preferir X a Y; as outras construções respeitam as preposições exigidas em seus sentidos.",
+      "trap": "Há formas correntes de comparação, mas a pergunta delimita expressamente a regência normativa tradicional.",
+      "examTip": "Resolva cada verbo pelo significado e pelo registro formal explicitado no comando.",
+      "newExample": "“Prefiro a versão final à minuta inicial” é comparação sem reforço com mais.",
+      "challenge": "Que função tem “ao” em “aspirava ao cargo”, e que significado possui aspirar?",
+      "id": "Q-POR-17-002-04",
+      "moduleId": "POR-17",
+      "subtopicId": "POR-17-002",
+      "topic": "Regência de verbos frequentes em concursos",
+      "concept": "Na norma-padrão ensinada em concursos, assistir no sentido de ver rege a; obedecer rege a; preferir tem construção “preferir X a Y”; aspirar no sentido de desejar rege a.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Na norma tradicional, o verbo aspirar pode ser transitivo direto em “aspirou o aroma” e indireto em “aspirou ao cargo”.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: Aspirar significa inalar no primeiro exemplo, admitindo objeto direto; significa desejar/almejar no segundo, pedindo preposição a.",
+        "Incorreta: Aspirar significa inalar no primeiro exemplo, admitindo objeto direto; significa desejar/almejar no segundo, pedindo preposição a."
+      ],
+      "explanation": "Aspirar significa inalar no primeiro exemplo, admitindo objeto direto; significa desejar/almejar no segundo, pedindo preposição a.",
+      "trap": "A mesma grafia verbal pode induzir a imaginar regência única em sentidos diferentes.",
+      "examTip": "Substitua aspirar por inalar ou almejar para identificar a regência.",
+      "newExample": "“Aspirou o ar úmido; depois aspirou à coordenação do projeto”.",
+      "challenge": "Em qual frase cabe substituir aspirar por “desejar alcançar”?",
+      "id": "Q-POR-17-003-01",
+      "moduleId": "POR-17",
+      "subtopicId": "POR-17-003",
+      "topic": "Mudança de sentido segundo a regência",
+      "concept": "Alguns verbos alternam regência porque expressam ações distintas: aspirar = inalar/desejar; assistir = ver/auxiliar; visar = pôr visto/ter objetivo.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Qual alternativa distingue corretamente dois sentidos e duas regências tradicionais de “assistir”?",
+      "options": [
+        "“Assistiu ao filme” = auxiliou o filme; “assistiu o paciente” = presenciou o paciente.",
+        "“Assistiu ao filme” = presenciou; “assistiu o paciente” = prestou auxílio.",
+        "“Assistiu ao filme” = guardou; “assistiu o paciente” = escreveu.",
+        "“Assistiu ao filme” = aspirou; “assistiu o paciente” = preferiu."
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: os sentidos foram invertidos; ao filme indica presenciar, o paciente indica auxiliar.",
+        "Correta: a construção preposicionada marca presenciar; a direta, assistir alguém no sentido de ajudar.",
+        "Incorreta: nenhum desses sentidos corresponde aos usos apresentados.",
+        "Incorreta: os verbos assistiu, aspirou e preferiu não são intercambiáveis."
+      ],
+      "explanation": "Assistir a um evento, no padrão tradicional, significa ver/presenciar; assistir um paciente significa auxiliar ou prestar cuidados.",
+      "trap": "O mesmo verbo tem sentidos distintos; a mera presença de a altera a análise do complemento.",
+      "examTip": "Troque mentalmente por “presenciar” e “auxiliar” e identifique o objeto adequado.",
+      "newExample": "“A enfermeira assistiu o idoso, enquanto a família assistia à palestra”.",
+      "challenge": "Por que “assistiu ao filme” não significa “prestou assistência ao filme”?",
+      "id": "Q-POR-17-003-02",
+      "moduleId": "POR-17",
+      "subtopicId": "POR-17-003",
+      "topic": "Mudança de sentido segundo a regência",
+      "concept": "Alguns verbos alternam regência porque expressam ações distintas: aspirar = inalar/desejar; assistir = ver/auxiliar; visar = pôr visto/ter objetivo.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "associacao",
+      "difficulty": "dificil",
+      "stem": "Associe: 1. “Aspirou o perfume”; 2. “Aspirou ao emprego”; 3. “Assistiu o ferido”; 4. “Assistiu ao recital”. Qual associação está correta?",
+      "options": [
+        "1–almejar; 2–inalar; 3–presenciar; 4–auxiliar.",
+        "1–inalar; 2–almejar; 3–presenciar; 4–auxiliar.",
+        "1–inalar; 2–almejar; 3–auxiliar; 4–presenciar.",
+        "1–presenciar; 2–auxiliar; 3–inalar; 4–almejar."
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta: os quatro significados foram trocados entre construções de regência diferente.",
+        "Incorreta: os significados de assistir o ferido e assistir ao recital estão invertidos.",
+        "Correta: objeto direto e objeto indireto distinguem as acepções tradicionais indicadas.",
+        "Incorreta: essa sequência não descreve o sentido de nenhum emprego concreto."
+      ],
+      "explanation": "Aspirar o perfume é inalá-lo; aspirar ao emprego é desejá-lo; assistir o ferido é ajudá-lo; assistir ao recital é presenciá-lo.",
+      "trap": "Classificar apenas pela preposição sem recuperar o significado pode inverter os pares.",
+      "examTip": "Reescreva os verbos por um sinônimo inequívoco antes de associar cada acepção.",
+      "newExample": "“Aspirou à vaga e assistiu ao concerto”: almejar e presenciar, respectivamente.",
+      "challenge": "Em qual dos quatro casos caberia substituir o verbo por “socorrer”?",
+      "id": "Q-POR-17-003-03",
+      "moduleId": "POR-17",
+      "subtopicId": "POR-17-003",
+      "topic": "Mudança de sentido segundo a regência",
+      "concept": "Alguns verbos alternam regência porque expressam ações distintas: aspirar = inalar/desejar; assistir = ver/auxiliar; visar = pôr visto/ter objetivo.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "lacunas",
+      "difficulty": "dificil",
+      "stem": "Complete conforme a regência tradicional de cada sentido: “Ela aspirou ___ fragrância; aspirava ___ chefia; assistiu ___ estudante ferido; assistiu ___ apresentação.”",
+      "options": [
+        "a — a — ao — a",
+        "a — à — o — a",
+        "a — à — o — à",
+        "à — à — ao — à"
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta: o primeiro e o terceiro sentidos admitem objeto direto; o último requer a mais artigo.",
+        "Incorreta: aspirar inalar é direto (“a fragrância”, sem preposição, mas com artigo a); o último exige à apresentação.",
+        "Correta: a fragrância é objeto direto com artigo; à chefia e à apresentação recebem preposição a + artigo; o estudante é direto.",
+        "Incorreta: não há preposição a antes de fragrância na acepção inalar nem antes de estudante na acepção auxiliar."
+      ],
+      "explanation": "“Aspirou a fragrância” tem apenas artigo a; “aspirava à chefia” une a + a; “assistiu o estudante” tem objeto direto; “assistiu à apresentação” significa presenciar e rege a.",
+      "trap": "O artigo a sem preposição não leva crase: a presença de palavra feminina é insuficiente.",
+      "examTip": "Para cada lacuna, identifique primeiro o sentido verbal; depois decida artigo e preposição.",
+      "newExample": "“Aspirou o ar; aspirou à vaga; assistiu a vítima; assistiu à conferência”.",
+      "challenge": "Por que a primeira lacuna não recebe à, apesar de fragrância ser feminino?",
+      "id": "Q-POR-17-003-04",
+      "moduleId": "POR-17",
+      "subtopicId": "POR-17-003",
+      "topic": "Mudança de sentido segundo a regência",
+      "concept": "Alguns verbos alternam regência porque expressam ações distintas: aspirar = inalar/desejar; assistir = ver/auxiliar; visar = pôr visto/ter objetivo.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Em “A solução é compatível com o regulamento”, a preposição “com” é exigida pelo adjetivo “compatível”.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: O adjetivo compatível seleciona a preposição com; trata-se de regência nominal, não de objeto indireto do verbo ser.",
+        "Incorreta: O adjetivo compatível seleciona a preposição com; trata-se de regência nominal, não de objeto indireto do verbo ser."
+      ],
+      "explanation": "O adjetivo compatível seleciona a preposição com; trata-se de regência nominal, não de objeto indireto do verbo ser.",
+      "trap": "A proximidade do verbo é pode levar a atribuir a preposição ao verbo em vez do adjetivo.",
+      "examTip": "Pergunte qual palavra exige a preposição: “compatível com quê?”.",
+      "newExample": "“O procedimento é coerente com as diretrizes da unidade”.",
+      "challenge": "Qual a diferença entre complemento de “compatível” e complemento de “depender”?",
+      "id": "Q-POR-17-004-01",
+      "moduleId": "POR-17",
+      "subtopicId": "POR-17-004",
+      "topic": "Regência nominal e complementos preposicionados",
+      "concept": "Regência nominal é a relação de nomes, adjetivos ou advérbios com complementos preposicionados: favorável a, necessidade de, confiança em, compatível com.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Assinale a construção adequada segundo a regência nominal da norma-padrão.",
+      "options": [
+        "A decisão foi favorável com a proposta.",
+        "A equipe estava consciente com os riscos.",
+        "O procedimento era compatível com as normas.",
+        "O parecer demonstrava necessidade em revisão."
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta: favorável pede a, não com, no sentido apresentado.",
+        "Incorreta: consciente pede de, resultando em consciente dos riscos.",
+        "Correta: o adjetivo compatível seleciona com.",
+        "Incorreta: necessidade nesse uso pede de revisão."
+      ],
+      "explanation": "Compatível com é a relação nominal adequada; favorável a, consciente de e necessidade de pedem outras preposições.",
+      "trap": "A preposição mais frequente em um verbo não deve ser aplicada indiscriminadamente a nomes.",
+      "examTip": "Localize o núcleo regente (adjetivo ou substantivo) de cada expressão.",
+      "newExample": "“A orientação é favorável à mudança, mas depende de parecer”.",
+      "challenge": "Reescreva as outras três alternativas com as preposições adequadas.",
+      "id": "Q-POR-17-004-02",
+      "moduleId": "POR-17",
+      "subtopicId": "POR-17-004",
+      "topic": "Regência nominal e complementos preposicionados",
+      "concept": "Regência nominal é a relação de nomes, adjetivos ou advérbios com complementos preposicionados: favorável a, necessidade de, confiança em, compatível com.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "associacao",
+      "difficulty": "dificil",
+      "stem": "Associe os nomes/adjetivos à preposição que rege o complemento: 1. favorável ___ alteração; 2. confiança ___ equipe; 3. necessidade ___ prazo; 4. compatível ___ norma. Qual sequência corresponde?",
+      "options": [
+        "a — em — de — com",
+        "com — de — a — em",
+        "a — de — com — em",
+        "em — a — de — com"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: favorável a, confiança em, necessidade de, compatível com.",
+        "Incorreta: as quatro regências divergem das construções nominais exigidas.",
+        "Incorreta: só favorável a está correto; os outros núcleos selecionam em, de e com.",
+        "Incorreta: necessidade de e compatível com estão corretas; favorável e confiança estão trocadas."
+      ],
+      "explanation": "Cada núcleo seleciona sua preposição: favorável a alteração, confiança na equipe, necessidade de prazo, compatível com norma. As formas contraídas resultam da presença de artigos.",
+      "trap": "As contrações “à” e “na” podem mascarar as preposições a e em.",
+      "examTip": "Separe a preposição do artigo antes de comparar opções de regência.",
+      "newExample": "“A comissão era favorável à melhoria e tinha confiança nos servidores”.",
+      "challenge": "Por que se usa “na” em “confiança na equipe”, mas “à” em “favorável à equipe”?",
+      "id": "Q-POR-17-004-03",
+      "moduleId": "POR-17",
+      "subtopicId": "POR-17-004",
+      "topic": "Regência nominal e complementos preposicionados",
+      "concept": "Regência nominal é a relação de nomes, adjetivos ou advérbios com complementos preposicionados: favorável a, necessidade de, confiança em, compatível com.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "As frases a seguir seguem a regência nominal formal, EXCETO:",
+      "options": [
+        "O sistema é compatível com os protocolos.",
+        "O relatório demonstra necessidade de revisão.",
+        "A direção manifestou aversão com a proposta.",
+        "O setor tem confiança nos resultados."
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Correta como frase: compatível pede com.",
+        "Correta como frase: necessidade pode exigir de.",
+        "Incorreta como frase e resposta: o nome aversão rege a (ou por em determinados usos), não com nessa construção.",
+        "Correta como frase: confiança rege em, contraído com os em nos."
+      ],
+      "explanation": "“Aversão com a proposta” usa preposição inadequada. A formulação usual é “aversão à proposta”, pela regência aversão a e pelo artigo feminino.",
+      "trap": "A escolha de com por analogia com compatível cria erro de regência nominal.",
+      "examTip": "Distinga a preposição de cada nome em vez de usar uma só relação para todos.",
+      "newExample": "“A gestora expressou aversão ao desperdício de recursos”.",
+      "challenge": "Por que “compatível com” não autoriza “aversão com”?",
+      "id": "Q-POR-17-004-04",
+      "moduleId": "POR-17",
+      "subtopicId": "POR-17-004",
+      "topic": "Regência nominal e complementos preposicionados",
+      "concept": "Regência nominal é a relação de nomes, adjetivos ou advérbios com complementos preposicionados: favorável a, necessidade de, confiança em, compatível com.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Na norma-padrão formal, “O relatório de que precisamos” conserva a preposição exigida por precisar de.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: Em “precisamos de relatório”, de introduz o objeto indireto; na oração relativa, desloca-se para antes de que: “de que precisamos”.",
+        "Incorreta: Em “precisamos de relatório”, de introduz o objeto indireto; na oração relativa, desloca-se para antes de que: “de que precisamos”."
+      ],
+      "explanation": "Em “precisamos de relatório”, de introduz o objeto indireto; na oração relativa, desloca-se para antes de que: “de que precisamos”.",
+      "trap": "A supressão de de é comum em certos usos, mas não mantém a regência formal tradicional.",
+      "examTip": "Volte à oração independente: “precisamos de algo”; depois coloque a preposição antes do relativo.",
+      "newExample": "“Este é o documento a que me referi”, pois referir-se rege a.",
+      "challenge": "Como fica “o assunto” na frase “tratamos do assunto” ao formar uma oração relativa?",
+      "id": "Q-POR-17-005-01",
+      "moduleId": "POR-17",
+      "subtopicId": "POR-17-005",
+      "topic": "Regência na norma-padrão e reescrita",
+      "concept": "Quando um termo relativo é complemento preposicionado, a preposição regida deve aparecer antes do relativo: “o tema de que tratamos”.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Qual reescrita mantém a regência formal de “Discordamos da decisão”?",
+      "options": [
+        "A decisão que discordamos.",
+        "A decisão com que discordamos.",
+        "A decisão por que discordamos.",
+        "A decisão de que discordamos."
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Incorreta: falta a preposição de exigida pelo verbo discordar.",
+        "Incorreta: o verbo discordar pede de no emprego apresentado.",
+        "Incorreta: por não reproduz a regência de discordar de.",
+        "Correta: a preposição de antecede o pronome relativo que."
+      ],
+      "explanation": "O verbo discordar rege de; ao relativizar o complemento, a preposição deve aparecer antes de que para preservar a construção da norma-padrão formal.",
+      "trap": "Relativos com “que” podem induzir a omitir a preposição sem perceber a mudança de registro.",
+      "examTip": "Reconstrua “discordamos de algo” antes de escolher a oração relativa.",
+      "newExample": "“A tese de que discordamos será debatida” mantém a preposição de.",
+      "challenge": "Como ficaria “O relatório” em “Referimo-nos ao relatório”?",
+      "id": "Q-POR-17-005-02",
+      "moduleId": "POR-17",
+      "subtopicId": "POR-17-005",
+      "topic": "Regência na norma-padrão e reescrita",
+      "concept": "Quando um termo relativo é complemento preposicionado, a preposição regida deve aparecer antes do relativo: “o tema de que tratamos”.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "vf",
+      "difficulty": "dificil",
+      "stem": "Julgue as construções relativas na norma-padrão formal: I. “O tema de que tratamos é complexo.” II. “A norma que obedecemos foi revista.” III. “O setor em que trabalho ampliou o atendimento.” IV. “O assunto a que me referi já foi resolvido.” Qual sequência V/F está correta?",
+      "options": [
+        "V, V, F, F.",
+        "F, V, V, F.",
+        "V, F, V, V.",
+        "V, F, F, V."
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta: II é falsa porque obedecer pede a, e III e IV preservam as preposições.",
+        "Incorreta: I é correta com tratar de, II é incorreta e IV é correta com referir-se a.",
+        "Correta: I, III e IV apresentam as preposições de, em e a; II omite a de obedecer a.",
+        "Incorreta: III está correta, pois trabalhar em um setor mantém em que."
+      ],
+      "explanation": "Tratar de, trabalhar em e referir-se a estão preservados; obedecer a exige “A norma a que obedecemos”.",
+      "trap": "O pronome relativo que não elimina automaticamente a preposição exigida pelo verbo.",
+      "examTip": "Transforme a oração relativa em frase simples para localizar a preposição.",
+      "newExample": "“A pessoa com quem conversei” deriva de conversar com alguém.",
+      "challenge": "Corrija II e indique a regência do verbo obedecer.",
+      "id": "Q-POR-17-005-03",
+      "moduleId": "POR-17",
+      "subtopicId": "POR-17-005",
+      "topic": "Regência na norma-padrão e reescrita",
+      "concept": "Quando um termo relativo é complemento preposicionado, a preposição regida deve aparecer antes do relativo: “o tema de que tratamos”.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "Nas orações relativas seguintes, a regência verbal está preservada, EXCETO:",
+      "options": [
+        "Este é o parecer de que discordamos.",
+        "Essa é a proposta a que me referi.",
+        "Aquela é a norma de que dependemos.",
+        "Este é o assunto que precisamos para a revisão."
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Correta como frase: discordar de exige de que.",
+        "Correta como frase: referir-se a exige a que.",
+        "Correta como frase: depender de exige de que.",
+        "Incorreta como frase e resposta: precisar de exige “assunto de que precisamos” no registro formal."
+      ],
+      "explanation": "A última alternativa omite a preposição de exigida por precisar: “Este é o assunto de que precisamos para a revisão”.",
+      "trap": "A extensão da frase após que não dispensa a preposição selecionada pelo verbo.",
+      "examTip": "Recupere “precisamos de assunto” para reconstruir a oração relativa.",
+      "newExample": "“A orientação de que necessitamos está disponível”.",
+      "challenge": "A reescrita “Este é o tema que discordo” precisaria de qual preposição?",
+      "id": "Q-POR-17-005-04",
+      "moduleId": "POR-17",
+      "subtopicId": "POR-17-005",
+      "topic": "Regência na norma-padrão e reescrita",
+      "concept": "Quando um termo relativo é complemento preposicionado, a preposição regida deve aparecer antes do relativo: “o tema de que tratamos”.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    }
+  ],
+  "POR-18": [
+    {
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Em “Dirigiu-se à coordenadora”, o acento grave marca a união da preposição “a” exigida por dirigir-se ao artigo feminino “a”.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: “Dirigir-se a alguém” exige preposição a; coordenadora admite artigo definido a. A fusão a+a produz à.",
+        "Incorreta: “Dirigir-se a alguém” exige preposição a; coordenadora admite artigo definido a. A fusão a+a produz à."
+      ],
+      "explanation": "“Dirigir-se a alguém” exige preposição a; coordenadora admite artigo definido a. A fusão a+a produz à.",
+      "trap": "Uma palavra feminina sozinha não basta; neste caso existem regência e artigo.",
+      "examTip": "Teste o masculino: “dirigiu-se ao coordenador” confirma a fusão.",
+      "newExample": "“Entregou o relatório à analista” corresponde a “entregou o relatório ao analista”.",
+      "challenge": "A frase “Dirigiu-se a ela” levaria crase? Justifique.",
+      "id": "Q-POR-18-001-01",
+      "moduleId": "POR-18",
+      "subtopicId": "POR-18-001",
+      "topic": "Fusão de preposição e artigo; teste do masculino",
+      "concept": "Crase é a fusão da preposição a com artigo feminino a(s) ou com o a inicial de determinados demonstrativos; o acento grave sinaliza essa fusão.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Qual frase usa o acento grave por fusão de preposição exigida e artigo feminino?",
+      "options": [
+        "A estudante começou à ler o edital.",
+        "O setor enviou a resposta à supervisora.",
+        "A mensagem foi enviada à ele.",
+        "O documento foi entregue à um candidato."
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: ler é infinitivo e não admite artigo feminino; usa-se a ler.",
+        "Correta: enviar algo a alguém + artigo a antes de supervisora resulta em à.",
+        "Incorreta: o pronome pessoal ele não admite artigo feminino; usa-se a ele.",
+        "Incorreta: um é artigo indefinido masculino; usa-se a um candidato."
+      ],
+      "explanation": "Enviar rege preposição a diante do destinatário e supervisora vem com artigo a. As demais frases não possuem o segundo a que permitiria crase.",
+      "trap": "Ver um destinatário depois do verbo não significa que qualquer pronome aceite artigo feminino.",
+      "examTip": "Confirme regência e teste “ao supervisor” antes de acentuar o a.",
+      "newExample": "“A chefia encaminhou os autos à relatora” = “encaminhou os autos ao relator”.",
+      "challenge": "Por que o teste do masculino não justifica “à um candidato”?",
+      "id": "Q-POR-18-001-02",
+      "moduleId": "POR-18",
+      "subtopicId": "POR-18-001",
+      "topic": "Fusão de preposição e artigo; teste do masculino",
+      "concept": "Crase é a fusão da preposição a com artigo feminino a(s) ou com o a inicial de determinados demonstrativos; o acento grave sinaliza essa fusão.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "associacao",
+      "difficulty": "dificil",
+      "stem": "Associe a forma feminina ao teste masculino correspondente: 1. à escola; 2. às normas; 3. a uma reunião. Qual par explica corretamente a presença ou ausência de crase?",
+      "options": [
+        "1–ao colégio; 2–aos regulamentos; 3–a um encontro.",
+        "1–a o colégio; 2–a os regulamentos; 3–ao encontro.",
+        "1–ao colégio; 2–a regulamentos; 3–aos encontros.",
+        "1–o colégio; 2–os regulamentos; 3–ao encontro."
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: as duas primeiras têm preposição e artigo definido; a terceira, artigo indefinido.",
+        "Incorreta: a o e a os se contraem em ao e aos; uma é indefinido, não o definido de ao.",
+        "Incorreta: a correspondência do plural com às é aos, e a uma não corresponde a aos.",
+        "Incorreta: nas duas primeiras, faltaria representar a preposição exigida pelo termo regente."
+      ],
+      "explanation": "A alternância à/ao e às/aos indica preposição+artigo definido; a uma/a um contém preposição mais artigo indefinido e não usa crase.",
+      "trap": "Uma contração masculina não pode ser fabricada ignorando que “uma” é indefinido.",
+      "examTip": "Use o teste do masculino com o mesmo determinante do original, preservando o sentido.",
+      "newExample": "“Foi à biblioteca e ao arquivo; dirigiu-se a uma candidata e a um candidato”.",
+      "challenge": "Que sequência masculina corresponderia a “às professoras” num mesmo contexto regencial?",
+      "id": "Q-POR-18-001-03",
+      "moduleId": "POR-18",
+      "subtopicId": "POR-18-001",
+      "topic": "Fusão de preposição e artigo; teste do masculino",
+      "concept": "Crase é a fusão da preposição a com artigo feminino a(s) ou com o a inicial de determinados demonstrativos; o acento grave sinaliza essa fusão.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "vf",
+      "difficulty": "dificil",
+      "stem": "Julgue: I. “Enviei o parecer à diretora” usa crase por a+a. II. “Começou à revisar” está correta. III. “Referiu-se àquela minuta” marca fusão com o demonstrativo aquela. IV. “Falou à ele” está correta. Qual a sequência V/F?",
+      "options": [
+        "V, F, V, F.",
+        "V, V, F, F.",
+        "F, F, V, V.",
+        "V, F, F, V."
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: a diretora e aquela admitem as fusões; infinitivo e ele não admitem artigo feminino.",
+        "Incorreta: II está errada diante de infinitivo; III está certa com a + aquela.",
+        "Incorreta: I está certa com diretora; IV está errada com pronome pessoal ele.",
+        "Incorreta: III é verdadeira e IV é falsa; pronomes distintos seguem mecanismos distintos."
+      ],
+      "explanation": "I contém preposição + artigo definido; II antepõe acento indevido a verbo; III traz a + aquela; IV tenta crase diante de pronome pessoal masculino.",
+      "trap": "Concluir que “todo pronome proíbe crase” falha para aquela; concluir que “todo a recebe crase” falha para infinitivo.",
+      "examTip": "Classifique o termo seguinte antes de decidir: artigo, demonstrativo, pronome pessoal ou verbo.",
+      "newExample": "“Entregou àquela comissão, mas não a esta equipe”: demonstrativos com comportamentos distintos.",
+      "challenge": "Reescreva II e IV sem alterar as palavras principais.",
+      "id": "Q-POR-18-001-04",
+      "moduleId": "POR-18",
+      "subtopicId": "POR-18-001",
+      "topic": "Fusão de preposição e artigo; teste do masculino",
+      "concept": "Crase é a fusão da preposição a com artigo feminino a(s) ou com o a inicial de determinados demonstrativos; o acento grave sinaliza essa fusão.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "A locução proporcional “à medida que” é grafada com acento grave em “À medida que estudamos, aprimoramos a leitura”.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: “À medida que” é locução conjuntiva consagrada, de sentido proporcional, grafada com crase.",
+        "Incorreta: “À medida que” é locução conjuntiva consagrada, de sentido proporcional, grafada com crase."
+      ],
+      "explanation": "“À medida que” é locução conjuntiva consagrada, de sentido proporcional, grafada com crase.",
+      "trap": "A semelhança com “na medida em que” pode levar a grafias e sentidos misturados.",
+      "examTip": "Verifique se há proporção entre dois processos; use a locução fixa “à medida que”.",
+      "newExample": "“À medida que o projeto avançou, surgiram novas dúvidas”.",
+      "challenge": "Qual relação de sentido estabelece “à medida que” no exemplo apresentado?",
+      "id": "Q-POR-18-002-01",
+      "moduleId": "POR-18",
+      "subtopicId": "POR-18-002",
+      "topic": "Crase obrigatória em locuções e termos femininos",
+      "concept": "Locuções adverbiais, prepositivas e conjuntivas femininas costumam apresentar crase em expressões como “à noite”, “às pressas”, “à medida que” e “à procura de”.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Assinale a frase em que a locução feminina foi grafada corretamente.",
+      "options": [
+        "A equipe concluiu tudo as pressas.",
+        "A revisão ocorrerá a noite.",
+        "O serviço será retomado à tarde.",
+        "As reuniões começam à partir de amanhã."
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta: a locução adverbial é às pressas, com crase e plural.",
+        "Incorreta: a locução adverbial temporal consagrada é à noite.",
+        "Correta: à tarde é locução adverbial feminina com acento grave.",
+        "Incorreta: a partir de não recebe crase diante de partir, forma verbal."
+      ],
+      "explanation": "À tarde é locução adverbial feminina acentuada. À noite e às pressas exigiriam grave; a partir de não o admite.",
+      "trap": "A presença da preposição a em “a partir” não cria fusão com artigo feminino.",
+      "examTip": "Memorize locuções fixas, mas confronte a classe da palavra seguinte para evitar à partir.",
+      "newExample": "“O protocolo estará disponível à noite, e as respostas chegarão às vezes no dia seguinte”.",
+      "challenge": "Corrija a primeira, a segunda e a quarta alternativas.",
+      "id": "Q-POR-18-002-02",
+      "moduleId": "POR-18",
+      "subtopicId": "POR-18-002",
+      "topic": "Crase obrigatória em locuções e termos femininos",
+      "concept": "Locuções adverbiais, prepositivas e conjuntivas femininas costumam apresentar crase em expressões como “à noite”, “às pressas”, “à medida que” e “à procura de”.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "lacunas",
+      "difficulty": "dificil",
+      "stem": "Complete as locuções: “O setor respondeu ___ noite, organizou os papéis ___ pressas e permaneceu ___ espera do parecer.”",
+      "options": [
+        "a — as — a",
+        "à — as — à",
+        "à — às — a",
+        "à — às — à"
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Incorreta: as três expressões são locuções femininas grafadas com acento grave.",
+        "Incorreta: “às pressas” exige acento e forma plural.",
+        "Incorreta: “à espera de” é locução prepositiva feminina com crase.",
+        "Correta: à noite, às pressas e à espera de são expressões femininas consagradas com crase."
+      ],
+      "explanation": "As três lacunas pertencem às locuções “à noite”, “às pressas” e “à espera de”. O acento grave integra essas grafias no padrão formal.",
+      "trap": "O plural em “pressas” exige às, não à; grafias sem acento são armadilhas.",
+      "examTip": "Confira singular/plural do artigo e reconheça a unidade da locução.",
+      "newExample": "“Às vezes, a equipe trabalha à noite e fica à disposição dos usuários”.",
+      "challenge": "Por que seria incorreto usar “à pressas” na segunda lacuna?",
+      "id": "Q-POR-18-002-03",
+      "moduleId": "POR-18",
+      "subtopicId": "POR-18-002",
+      "topic": "Crase obrigatória em locuções e termos femininos",
+      "concept": "Locuções adverbiais, prepositivas e conjuntivas femininas costumam apresentar crase em expressões como “à noite”, “às pressas”, “à medida que” e “à procura de”.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "As locuções destacadas estão grafadas adequadamente, EXCETO:",
+      "options": [
+        "A documentação chegou à noite.",
+        "À medida que o atendimento cresceu, o setor se reorganizou.",
+        "O protocolo será alterado à partir de segunda-feira.",
+        "O prazo foi prorrogado às pressas."
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Correta como frase: à noite é locução temporal feminina.",
+        "Correta como frase: à medida que é locução proporcional.",
+        "Incorreta como frase e resposta: a partir de não admite crase diante de partir.",
+        "Correta como frase: às pressas é locução adverbial feminina plural."
+      ],
+      "explanation": "A única grafia indevida é “à partir”, porque “partir” é verbo e não há artigo feminino que se funda com a preposição a.",
+      "trap": "A sequência “a partir de” parece locução feminina por analogia indevida com “à medida que”.",
+      "examTip": "Compare a categoria da palavra nuclear: partir é infinitivo; noite, pressas e medida são nomes.",
+      "newExample": "“A contagem começa a partir do dia seguinte ao edital”.",
+      "challenge": "Qual alteração específica retira o erro da terceira alternativa?",
+      "id": "Q-POR-18-002-04",
+      "moduleId": "POR-18",
+      "subtopicId": "POR-18-002",
+      "topic": "Crase obrigatória em locuções e termos femininos",
+      "concept": "Locuções adverbiais, prepositivas e conjuntivas femininas costumam apresentar crase em expressões como “à noite”, “às pressas”, “à medida que” e “à procura de”.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Em “A equipe começou à conferir os dados”, o acento grave é obrigatório por preceder verbo no infinitivo.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: Antes do infinitivo conferir não se admite artigo feminino; portanto, escreve-se “começou a conferir”, sem crase.",
+        "Correta: Antes do infinitivo conferir não se admite artigo feminino; portanto, escreve-se “começou a conferir”, sem crase."
+      ],
+      "explanation": "Antes do infinitivo conferir não se admite artigo feminino; portanto, escreve-se “começou a conferir”, sem crase.",
+      "trap": "A regra “palavra feminina adiante” não se aplica porque conferir é verbo, não substantivo com artigo.",
+      "examTip": "Se o a antecede diretamente verbo, rejeite crase no uso estudado.",
+      "newExample": "“Os candidatos passaram a revisar o conteúdo” não recebe acento grave.",
+      "challenge": "Por que em “voltou à revisão” pode haver crase, diferentemente de “voltou a revisar”?",
+      "id": "Q-POR-18-003-01",
+      "moduleId": "POR-18",
+      "subtopicId": "POR-18-003",
+      "topic": "Casos proibidos e situações sem artigo",
+      "concept": "Não ocorre crase antes de verbo, em geral antes de artigo indefinido e de pronomes pessoais, nem quando não existe artigo feminino.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Assinale a frase em que a ausência de crase é obrigatória segundo o contexto.",
+      "options": [
+        "A reunião começou às nove horas.",
+        "A solicitação foi encaminhada à secretaria.",
+        "O setor se referiu àquela decisão.",
+        "O funcionário começou a organizar os arquivos."
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Incorreta como resposta: a indicação de hora definida com a preposição a exige às.",
+        "Incorreta como resposta: a secretaria admite artigo feminino e o verbo enviar rege a.",
+        "Incorreta como resposta: referir-se a + aquela produz àquela.",
+        "Correta: organizar é infinitivo e não admite artigo feminino que gere crase."
+      ],
+      "explanation": "A preposição a antes de organizar não se funde com artigo: verbos no infinitivo não são precedidos do artigo feminino a.",
+      "trap": "Horário determinado, artigo feminino e demonstrativo aquela podem exigir crase em outros contextos.",
+      "examTip": "Diferencie a classe gramatical do termo imediatamente posterior ao a.",
+      "newExample": "“Passou a estudar depois do expediente”, sem acento antes de estudar.",
+      "challenge": "Por que “àquela” pode receber crase mesmo sendo pronome?",
+      "id": "Q-POR-18-003-02",
+      "moduleId": "POR-18",
+      "subtopicId": "POR-18-003",
+      "topic": "Casos proibidos e situações sem artigo",
+      "concept": "Não ocorre crase antes de verbo, em geral antes de artigo indefinido e de pronomes pessoais, nem quando não existe artigo feminino.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "vf",
+      "difficulty": "dificil",
+      "stem": "Julgue a grafia: I. “Entregou o documento a uma candidata.” II. “O servidor informou a ela o resultado.” III. “O técnico voltou à revisar a planilha.” IV. “Os colegas se encontraram frente a frente.” Qual sequência V/F é correta?",
+      "options": [
+        "V, V, F, V.",
+        "V, F, V, F.",
+        "F, V, F, V.",
+        "V, V, V, F."
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: a uma, a ela e frente a frente não têm crase; à revisar está errada.",
+        "Incorreta: II é correta com ela sem artigo; III é incorreta diante de infinitivo.",
+        "Incorreta: I está correta diante de indefinido uma.",
+        "Incorreta: III é incorreta e IV é uma construção fixa sem crase."
+      ],
+      "explanation": "I usa preposição e artigo indefinido; II contém pronome pessoal sem artigo; III põe crase antes de verbo, erro; IV é expressão repetida sem artigo feminino.",
+      "trap": "A palavra uma feminina não torna obrigatória a fusão com artigo definido a.",
+      "examTip": "Separe casos de infinitivo, indefinido, pronome pessoal e expressão repetida.",
+      "newExample": "“Entregou a alguém e voltou a estudar”: nenhum a resulta de fusão com artigo definido.",
+      "challenge": "Reescreva III corretamente e explique a ausência de artigo feminino.",
+      "id": "Q-POR-18-003-03",
+      "moduleId": "POR-18",
+      "subtopicId": "POR-18-003",
+      "topic": "Casos proibidos e situações sem artigo",
+      "concept": "Não ocorre crase antes de verbo, em geral antes de artigo indefinido e de pronomes pessoais, nem quando não existe artigo feminino.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "afirmacoes",
+      "difficulty": "dificil",
+      "stem": "Considere: I. Antes de verbo no infinitivo, não se emprega crase em construções como “passou a estudar”. II. Em “escreveu a ela”, há crase porque ela é feminino. III. “Referiu-se àquela norma” é possível, pois a preposição a se combina ao demonstrativo aquela. Assinale a opção correta.",
+      "options": [
+        "Apenas I.",
+        "Apenas I e III.",
+        "Apenas II e III.",
+        "I, II e III."
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: III também está correta com àquela.",
+        "Correta: I e III descrevem mecanismos distintos; II erra ao atribuir artigo a ela.",
+        "Incorreta: II é falsa diante de pronome pessoal, e I é verdadeira.",
+        "Incorreta: II é falsa; a feminilidade de ela não cria artigo feminino."
+      ],
+      "explanation": "I aplica a ausência de artigo diante de infinitivo. II é falsa: pronomes pessoais não recebem artigo feminino nesse uso. III mostra crase com demonstrativo aquela.",
+      "trap": "Confundir a proibição diante de pronomes pessoais com a crase em demonstrativos iniciados por a.",
+      "examTip": "Agrupe os pronomes por classe: ela ≠ aquela quanto ao mecanismo da fusão.",
+      "newExample": "“O chefe explicou a ela e se referiu àquela decisão”.",
+      "challenge": "Por que a mesma regra não se aplica de modo idêntico a “ela” e “aquela”?",
+      "id": "Q-POR-18-003-04",
+      "moduleId": "POR-18",
+      "subtopicId": "POR-18-003",
+      "topic": "Casos proibidos e situações sem artigo",
+      "concept": "Não ocorre crase antes de verbo, em geral antes de artigo indefinido e de pronomes pessoais, nem quando não existe artigo feminino.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Em construções em que o artigo antes de possessivo feminino singular é facultativo, “Escreveu a minha professora” e “Escreveu à minha professora” podem ser aceitas.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: Quando o artigo diante de minha professora é facultativo, há duas análises: só a preposição a (sem crase) ou preposição a + artigo a (com crase).",
+        "Incorreta: Quando o artigo diante de minha professora é facultativo, há duas análises: só a preposição a (sem crase) ou preposição a + artigo a (com crase)."
+      ],
+      "explanation": "Quando o artigo diante de minha professora é facultativo, há duas análises: só a preposição a (sem crase) ou preposição a + artigo a (com crase).",
+      "trap": "A presença de possessivo não obriga nem proíbe automaticamente o acento grave.",
+      "examTip": "Verifique se o artigo é opcional antes do possessivo feminino singular no contexto.",
+      "newExample": "“Enviei o parecer a/à minha orientadora”: duas formas admitidas quando o artigo é facultativo.",
+      "challenge": "Por que a faculdade descrita não justifica escrever “à ela”?",
+      "id": "Q-POR-18-004-01",
+      "moduleId": "POR-18",
+      "subtopicId": "POR-18-004",
+      "topic": "Casos facultativos e pronomes",
+      "concept": "Diante de nome próprio feminino e de pronome possessivo feminino singular anteposto a substantivo, a crase pode ser facultativa quando o artigo também for facultativo.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Considerando a faculdade de artigo diante de possessivo feminino singular, qual par apresenta duas formas admitidas na norma-padrão?",
+      "options": [
+        "Dirigi-me à ela / Dirigi-me a ela.",
+        "Referi-me a esta norma / Referi-me à esta norma.",
+        "Entreguei o relatório a minha orientadora / Entreguei o relatório à minha orientadora.",
+        "Obedeci a senhora / Obedeci à senhora."
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta: ela é pronome pessoal e não admite artigo feminino; só a ela.",
+        "Incorreta: esta não admite a fusão com artigo; “à esta” é inadequado.",
+        "Correta: o artigo antes do possessivo feminino singular pode ser facultativo.",
+        "Incorreta como par facultativo: no tratamento senhora determinado o artigo é exigido; a forma padrão é à senhora."
+      ],
+      "explanation": "O artigo que antecede pronome possessivo feminino singular pode ser opcional, criando as formas a minha orientadora e à minha orientadora. Esse fenômeno não se aplica a ela, esta ou senhora nesse contexto.",
+      "trap": "Uma questão pode apresentar duas grafias corretas, mas o par válido depende da classe do termo seguinte.",
+      "examTip": "Distinga possessivo, demonstrativo, pessoal e tratamento antes de julgar facultatividade.",
+      "newExample": "“Apresentei a documentação a/à minha supervisora” pode variar com a opção por artigo.",
+      "challenge": "Por que “à esta norma” continua inadequado mesmo quando “à minha orientadora” é possível?",
+      "id": "Q-POR-18-004-02",
+      "moduleId": "POR-18",
+      "subtopicId": "POR-18-004",
+      "topic": "Casos facultativos e pronomes",
+      "concept": "Diante de nome próprio feminino e de pronome possessivo feminino singular anteposto a substantivo, a crase pode ser facultativa quando o artigo também for facultativo.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "associacao",
+      "difficulty": "dificil",
+      "stem": "Associe o termo à regra: 1. a/à minha professora; 2. a ela; 3. à senhora; 4. àquela servidora. Qual associação é correta?",
+      "options": [
+        "1–obrigatória; 2–facultativa; 3–proibida; 4–proibida.",
+        "1–facultativa; 2–proibida; 3–obrigatória; 4–obrigatória.",
+        "1–proibida; 2–obrigatória; 3–facultativa; 4–obrigatória.",
+        "1–facultativa; 2–obrigatória; 3–obrigatória; 4–proibida."
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: a faculdade cabe a minha professora, a ausência cabe a ela, e as outras duas exigem crase.",
+        "Correta: artigo facultativo antes de possessivo; pronome pessoal sem artigo; tratamento senhora e aquela com fusão.",
+        "Incorreta: o pronome pessoal ela não recebe crase e senhora não é caso facultativo nesse uso.",
+        "Incorreta: a ela não admite crase, e àquela envolve combinação com demonstrativo."
+      ],
+      "explanation": "A forma diante de minha professora pode variar conforme artigo; a ela nunca recebe grave nesse uso; à senhora envolve artigo, e àquela recebe a preposição fundida ao pronome.",
+      "trap": "Generalizar a regra dos possessivos para todos os pronomes produz duas respostas falsas.",
+      "examTip": "Classifique cada elemento destacado antes de optar por obrigatoriedade ou faculdade.",
+      "newExample": "“Escrevi àquela servidora, conversei com minha chefe e respondi a ela”.",
+      "challenge": "Qual diferença gramatical separa “a ela” de “àquela” no mesmo período?",
+      "id": "Q-POR-18-004-03",
+      "moduleId": "POR-18",
+      "subtopicId": "POR-18-004",
+      "topic": "Casos facultativos e pronomes",
+      "concept": "Diante de nome próprio feminino e de pronome possessivo feminino singular anteposto a substantivo, a crase pode ser facultativa quando o artigo também for facultativo.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "Segundo as regras tradicionais de crase, todas as afirmações estão corretas, EXCETO:",
+      "options": [
+        "“Àquela” pode resultar de a + aquela em “Referi-me àquela norma”.",
+        "O artigo diante de possessivo feminino singular pode ser facultativo em “à minha amiga”.",
+        "“À ela” é forma admitida se a pessoa referida é do sexo feminino.",
+        "A construção “Dirigi-me à senhora” apresenta crase diante do tratamento senhora."
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Correta como afirmação: a preposição se funde ao a inicial do demonstrativo.",
+        "Correta como afirmação: a ocorrência do artigo pode variar nesse contexto.",
+        "Incorreta como afirmação e resposta: pronomes pessoais não recebem artigo feminino nessa construção; escreve-se a ela.",
+        "Correta como afirmação: senhora vem com artigo feminino na construção indicada."
+      ],
+      "explanation": "A forma “à ela” não é justificada pelo gênero da pessoa: não há artigo definido a diante do pronome pessoal ela no uso apresentado.",
+      "trap": "Aplicar crase a pronome pessoal só por indicar pessoa feminina é erro clássico.",
+      "examTip": "Pergunte se há efetivamente outro a que possa fundir-se à preposição.",
+      "newExample": "“Expliquei a ela a decisão que apresentei àquela comissão”.",
+      "challenge": "Por que o uso de “àquela comissão” não serve de argumento para “à ela”?",
+      "id": "Q-POR-18-004-04",
+      "moduleId": "POR-18",
+      "subtopicId": "POR-18-004",
+      "topic": "Casos facultativos e pronomes",
+      "concept": "Diante de nome próprio feminino e de pronome possessivo feminino singular anteposto a substantivo, a crase pode ser facultativa quando o artigo também for facultativo.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Na indicação neutra de destino, “Viajou à Bahia” tem crase porque o topônimo admite artigo feminino: “voltou da Bahia”.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: A construção “voltar da Bahia” revela artigo a; com preposição a de destino, ocorre a fusão “à Bahia”.",
+        "Incorreta: A construção “voltar da Bahia” revela artigo a; com preposição a de destino, ocorre a fusão “à Bahia”."
+      ],
+      "explanation": "A construção “voltar da Bahia” revela artigo a; com preposição a de destino, ocorre a fusão “à Bahia”.",
+      "trap": "Aplicar a mesma crase automaticamente a todas as cidades ignora que há nomes sem artigo.",
+      "examTip": "Teste “voltar da/de” com o topônimo, observando se ele está determinado por modificadores.",
+      "newExample": "“A comissão foi à Paraíba e regressou da Paraíba”.",
+      "challenge": "Por que “viajou a Natal” em contexto neutro não costuma receber crase?",
+      "id": "Q-POR-18-005-01",
+      "moduleId": "POR-18",
+      "subtopicId": "POR-18-005",
+      "topic": "Crase em topônimos, horas e reescritas",
+      "concept": "Topônimos podem ou não receber artigo; horas determinadas com preposição a costumam exigir crase; intervalos devem manter paralelismo de “de... a...” ou “das... às...”.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Assinale a frase com indicação de horário determinada corretamente acentuada.",
+      "options": [
+        "A sessão começará as 14 horas.",
+        "A sessão começará às 14 horas.",
+        "A sessão durará às duas horas.",
+        "A sessão começará à 14 horas."
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: com preposição a indicando instante e artigo plural as, escreve-se às 14 horas.",
+        "Correta: preposição a + artigo as diante de hora determinada resulta em às.",
+        "Incorreta: duas horas indica duração como objeto do verbo durar, sem preposição a exigida.",
+        "Incorreta: hora expressa no plural exige às, não à."
+      ],
+      "explanation": "A indicação de instante “começará às 14 horas” envolve preposição a e artigo as. Na duração “durará duas horas”, a preposição não é exigida.",
+      "trap": "Uma questão pode confundir o instante de início com o tempo de duração.",
+      "examTip": "Determine se a expressão informa “a que horas?” ou “por quanto tempo?”.",
+      "newExample": "“O expediente termina às 18h e dura oito horas”.",
+      "challenge": "Por que “durará às duas horas” não exprime adequadamente duração?",
+      "id": "Q-POR-18-005-02",
+      "moduleId": "POR-18",
+      "subtopicId": "POR-18-005",
+      "topic": "Crase em topônimos, horas e reescritas",
+      "concept": "Topônimos podem ou não receber artigo; horas determinadas com preposição a costumam exigir crase; intervalos devem manter paralelismo de “de... a...” ou “das... às...”.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "associacao",
+      "difficulty": "dificil",
+      "stem": "Associe topônimo e forma usual: 1. ir ___ Bahia (voltar da Bahia); 2. ir ___ Natal (voltar de Natal); 3. ir ___ Paraíba (voltar da Paraíba). Qual sequência é correta?",
+      "options": [
+        "a — à — a",
+        "à — à — à",
+        "à — a — à",
+        "a — a — à"
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta: troca o comportamento dos artigos dos três topônimos.",
+        "Incorreta: Natal em contexto neutro não recebe artigo; não há crase.",
+        "Correta: Bahia e Paraíba admitem artigo a; Natal geralmente ocorre sem artigo nesse contexto.",
+        "Incorreta: Bahia admite artigo feminino, produzindo à com a preposição de destino."
+      ],
+      "explanation": "Em contextos neutros, vai-se à Bahia e à Paraíba (volta-se da), mas vai-se a Natal (volta-se de). O comportamento do artigo define a crase.",
+      "trap": "A palavra cidade pode ser feminina sem que o nome da cidade receba artigo.",
+      "examTip": "Use o teste “volto de/da” para cada nome de lugar individualmente.",
+      "newExample": "“Viajaram à Bahia e depois chegaram a Natal”, em nomes sem modificadores.",
+      "challenge": "Como um modificador como “Natal da minha infância” pode alterar o comportamento do artigo?",
+      "id": "Q-POR-18-005-03",
+      "moduleId": "POR-18",
+      "subtopicId": "POR-18-005",
+      "topic": "Crase em topônimos, horas e reescritas",
+      "concept": "Topônimos podem ou não receber artigo; horas determinadas com preposição a costumam exigir crase; intervalos devem manter paralelismo de “de... a...” ou “das... às...”.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "Conforme a padronização do Manual de Comunicação do Senado para indicar horários, todas as frases estão adequadas, EXCETO:",
+      "options": [
+        "O atendimento funciona das 8h às 12h.",
+        "A sessão será encerrada às 18h.",
+        "A reunião está marcada às 15h.",
+        "O atendimento funciona de 8h às 12h."
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Correta como frase: o par das... às... preserva preposição e artigos definidos.",
+        "Correta como frase: a indicação de hora definida sob preposição recebe às.",
+        "Correta como frase: horário determinado sob preposição a recebe às.",
+        "Incorreta como frase e resposta: há assimetria entre de e às; prefira de 8h a 12h ou das 8h às 12h."
+      ],
+      "explanation": "O Manual de Comunicação do Senado padroniza intervalos com artigo definido: “das 8h às 12h”. A forma “de 8h às 12h” combina estruturas sem paralelismo e não segue esse padrão.",
+      "trap": "A última alternativa tem crase isoladamente plausível em horas, mas o par misto descumpre o paralelismo do intervalo.",
+      "examTip": "Examine os dois extremos do intervalo; a pontuação não corrige assimetria de artigo.",
+      "newExample": "“O laboratório abre das 9h às 17h” usa artigos definidos nos dois limites.",
+      "challenge": "Reescreva a última alternativa de acordo com o padrão de horas adotado pelo Manual de Comunicação do Senado.",
+      "id": "Q-POR-18-005-04",
+      "moduleId": "POR-18",
+      "subtopicId": "POR-18-005",
+      "topic": "Crase em topônimos, horas e reescritas",
+      "concept": "Topônimos podem ou não receber artigo; horas determinadas com preposição a costumam exigir crase; intervalos devem manter paralelismo de “de... a...” ou “das... às...”.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    }
+  ]
+}
