@@ -1,0 +1,1763 @@
+[
+  {
+    "id": "Q-POR-19-001-01",
+    "modulo": "POR-19",
+    "subtopico": "POR-19-001",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "gabarito_original": 0,
+    "gabarito_resolvido_independentemente": 0,
+    "alternativa_solucao": "CERTO",
+    "resolucao_pelo_conteudo": "“Mas” introduz contraste entre a divulgação da lista e os recursos, logo há coordenação sindética adversativa.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample",
+      "optionComments"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-19-001-02",
+    "modulo": "POR-19",
+    "subtopico": "POR-19-001",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "gabarito_original": 1,
+    "gabarito_resolvido_independentemente": 1,
+    "alternativa_solucao": "Conclusão: a segunda oração apresenta desfecho argumentativo.",
+    "resolucao_pelo_conteudo": "“Portanto” apresenta a segunda oração como conclusão inferida da primeira; não expressa adição nem alternância.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-19-001-03",
+    "modulo": "POR-19",
+    "subtopico": "POR-19-001",
+    "tipo": "vf",
+    "dificuldade": "dificil",
+    "gabarito_original": 0,
+    "gabarito_resolvido_independentemente": 0,
+    "alternativa_solucao": "V, V, V, F.",
+    "resolucao_pelo_conteudo": "I é assindética por justaposição, II é adversativa com “porém”, III justifica o imperativo com “pois”, IV usa “ou” para alternativa: V–V–V–F.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-19-001-04",
+    "modulo": "POR-19",
+    "subtopico": "POR-19-001",
+    "tipo": "exceto",
+    "dificuldade": "dificil",
+    "gabarito_original": 3,
+    "gabarito_resolvido_independentemente": 3,
+    "alternativa_solucao": "“Concluímos a análise, porém faltam assinaturas” — explicativa.",
+    "resolucao_pelo_conteudo": "“Porém” é adversativa, não explicativa; as demais associações empregam corretamente mas, logo e ou.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-19-002-01",
+    "modulo": "POR-19",
+    "subtopico": "POR-19-002",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "gabarito_original": 1,
+    "gabarito_resolvido_independentemente": 1,
+    "alternativa_solucao": "ERRADO",
+    "resolucao_pelo_conteudo": "“Que todos conheçam o regulamento” exerce função de sujeito de “é importante”, não de objeto direto do verbo ser.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "explanation",
+      "newExample",
+      "optionComments",
+      "stem"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-19-002-02",
+    "modulo": "POR-19",
+    "subtopico": "POR-19-002",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "gabarito_original": 2,
+    "gabarito_resolvido_independentemente": 2,
+    "alternativa_solucao": "Objeto direto do verbo “comunicou”.",
+    "resolucao_pelo_conteudo": "“Comunicou” é transitivo direto na construção e a oração introduzida por “que” é o conteúdo comunicado.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-19-002-03",
+    "modulo": "POR-19",
+    "subtopico": "POR-19-002",
+    "tipo": "afirmacoes",
+    "dificuldade": "dificil",
+    "gabarito_original": 2,
+    "gabarito_resolvido_independentemente": 2,
+    "alternativa_solucao": "I, II e III.",
+    "resolucao_pelo_conteudo": "“Que você compareça” completa desejo; “de que virá” completa o nome certeza; “que falta energia” é predicativo: I, II e III verdadeiros.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-19-002-04",
+    "modulo": "POR-19",
+    "subtopico": "POR-19-002",
+    "tipo": "associacao",
+    "dificuldade": "dificil",
+    "gabarito_original": 1,
+    "gabarito_resolvido_independentemente": 1,
+    "alternativa_solucao": "I subjetiva; II objetiva direta; III apositiva.",
+    "resolucao_pelo_conteudo": "“Convém que ...” tem subordinada subjetiva, “pediu que ...” objetiva direta e “isto: que ...” é apositiva de isto.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-19-003-01",
+    "modulo": "POR-19",
+    "subtopico": "POR-19-003",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "gabarito_original": 0,
+    "gabarito_resolvido_independentemente": 0,
+    "alternativa_solucao": "CERTO",
+    "resolucao_pelo_conteudo": "A relativa sem vírgulas delimita os candidatos que entregaram comprovantes, podendo excluir os demais.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample",
+      "optionComments"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-19-003-02",
+    "modulo": "POR-19",
+    "subtopico": "POR-19-003",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "gabarito_original": 3,
+    "gabarito_resolvido_independentemente": 3,
+    "alternativa_solucao": "A diretora, que coordena o projeto, assinou a ata.",
+    "resolucao_pelo_conteudo": "A relativa entre vírgulas “que preside a comissão” acrescenta informação explicativa sobre o diretor; as demais não exibem essa estrutura.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "explanation",
+      "newExample",
+      "optionComments",
+      "options"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-19-003-03",
+    "modulo": "POR-19",
+    "subtopico": "POR-19-003",
+    "tipo": "exceto",
+    "dificuldade": "dificil",
+    "gabarito_original": 2,
+    "gabarito_resolvido_independentemente": 2,
+    "alternativa_solucao": "A inserção de vírgulas entre as relativas nunca modifica o alcance da referência.",
+    "resolucao_pelo_conteudo": "Retirar ou inserir vírgulas pode converter relativa restritiva em explicativa e alterar o conjunto referido; por isso “nunca” é falso.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-19-003-04",
+    "modulo": "POR-19",
+    "subtopico": "POR-19-003",
+    "tipo": "vf",
+    "dificuldade": "dificil",
+    "gabarito_original": 2,
+    "gabarito_resolvido_independentemente": 2,
+    "alternativa_solucao": "V, F, V.",
+    "resolucao_pelo_conteudo": "Em I, que recupera requerimento; em II, é conjunção integrante após informaram; em III, as vírgulas marcam explicativa: V–F–V.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-19-004-01",
+    "modulo": "POR-19",
+    "subtopico": "POR-19-004",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "gabarito_original": 1,
+    "gabarito_resolvido_independentemente": 1,
+    "alternativa_solucao": "ERRADO",
+    "resolucao_pelo_conteudo": "“Embora” instaura concessão: estudar não impediu o erro, mas não se afirma que o estudo tenha sido sua causa.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample",
+      "optionComments"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-19-004-02",
+    "modulo": "POR-19",
+    "subtopico": "POR-19-004",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "gabarito_original": 1,
+    "gabarito_resolvido_independentemente": 1,
+    "alternativa_solucao": "Condição, pois a abertura depende de hipótese expressa.",
+    "resolucao_pelo_conteudo": "A oração com “se” especifica a hipótese de que depende a abertura da turma, sendo condicional.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-19-004-03",
+    "modulo": "POR-19",
+    "subtopico": "POR-19-004",
+    "tipo": "lacunas",
+    "dificuldade": "dificil",
+    "gabarito_original": 1,
+    "gabarito_resolvido_independentemente": 1,
+    "alternativa_solucao": "Embora — quando — para que.",
+    "resolucao_pelo_conteudo": "“Embora” sinaliza concessão; “quando” remete ao momento futuro; “para que” exprime finalidade com subjuntivo.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample",
+      "optionComments",
+      "options"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-19-004-04",
+    "modulo": "POR-19",
+    "subtopico": "POR-19-004",
+    "tipo": "afirmacoes",
+    "dificuldade": "dificil",
+    "gabarito_original": 3,
+    "gabarito_resolvido_independentemente": 3,
+    "alternativa_solucao": "I, II e III.",
+    "resolucao_pelo_conteudo": "“Como” anteposto explica a causa; “tão ... que” expressa consequência; “para que” introduz finalidade: todas verdadeiras.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-19-005-01",
+    "modulo": "POR-19",
+    "subtopico": "POR-19-005",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "gabarito_original": 0,
+    "gabarito_resolvido_independentemente": 0,
+    "alternativa_solucao": "CERTO",
+    "resolucao_pelo_conteudo": "“Ao concluir” marca circunstância temporal da ação principal; “quando concluiu” a desenvolve sem trocar essa relação.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample",
+      "optionComments"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-19-005-02",
+    "modulo": "POR-19",
+    "subtopico": "POR-19-005",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "gabarito_original": 2,
+    "gabarito_resolvido_independentemente": 2,
+    "alternativa_solucao": "A equipe se reuniu para que os cadastros fossem conferidos.",
+    "resolucao_pelo_conteudo": "“Para que os cadastros fossem conferidos” mantém propósito e exprime sujeito paciente; as demais trocam finalidade por causa, tempo ou concessão.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-19-005-03",
+    "modulo": "POR-19",
+    "subtopico": "POR-19-005",
+    "tipo": "associacao",
+    "dificuldade": "dificil",
+    "gabarito_original": 0,
+    "gabarito_resolvido_independentemente": 0,
+    "alternativa_solucao": "I concessão; II finalidade; III tempo.",
+    "resolucao_pelo_conteudo": "“Apesar de” marca concessão, “para” finalidade, e o particípio “concluída” situa temporalmente a liberação posterior.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-19-005-04",
+    "modulo": "POR-19",
+    "subtopico": "POR-19-005",
+    "tipo": "exceto",
+    "dificuldade": "dificil",
+    "gabarito_original": 2,
+    "gabarito_resolvido_independentemente": 2,
+    "alternativa_solucao": "“Para obter aprovação, estudou” → “Como obteve aprovação, estudou”.",
+    "resolucao_pelo_conteudo": "A reescrita com “como obteve” transforma finalidade em suposta causa factual; as demais mantêm o nexo central.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-20-001-01",
+    "modulo": "POR-20",
+    "subtopico": "POR-20-001",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "gabarito_original": 0,
+    "gabarito_resolvido_independentemente": 0,
+    "alternativa_solucao": "CERTO",
+    "resolucao_pelo_conteudo": "“Senhores candidatos” é vocativo e, por ser chamamento, se separa da ordem mediante vírgula.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample",
+      "optionComments"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-20-001-02",
+    "modulo": "POR-20",
+    "subtopico": "POR-20-001",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "gabarito_original": 3,
+    "gabarito_resolvido_independentemente": 3,
+    "alternativa_solucao": "A coordenadora, responsável pelo projeto, explicou o procedimento.",
+    "resolucao_pelo_conteudo": "Para tratar “responsável pelo projeto” como informação intercalada sobre “a coordenadora”, devem-se usar duas vírgulas; as outras posições rompem unidades sintáticas.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-20-001-03",
+    "modulo": "POR-20",
+    "subtopico": "POR-20-001",
+    "tipo": "vf",
+    "dificuldade": "dificil",
+    "gabarito_original": 0,
+    "gabarito_resolvido_independentemente": 0,
+    "alternativa_solucao": "V, V, F, V.",
+    "resolucao_pelo_conteudo": "A e B isolam vocativo/intercalação; C afirma exclusividade inexistente para adjunto adverbial inicial curto; D enumera objetos: V–V–F–V.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-20-001-04",
+    "modulo": "POR-20",
+    "subtopico": "POR-20-001",
+    "tipo": "lacunas",
+    "dificuldade": "dificil",
+    "gabarito_original": 1,
+    "gabarito_resolvido_independentemente": 1,
+    "alternativa_solucao": "Candidatos, / , / ,",
+    "resolucao_pelo_conteudo": "O vocativo inicial pede vírgula; a expressão apositiva “responsável pela avaliação”, se explicativa, exige abertura e fechamento.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "explanation",
+      "newExample",
+      "stem"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-20-002-01",
+    "modulo": "POR-20",
+    "subtopico": "POR-20-002",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "gabarito_original": 1,
+    "gabarito_resolvido_independentemente": 1,
+    "alternativa_solucao": "ERRADO",
+    "resolucao_pelo_conteudo": "Não se separa “informou” de sua subordinada substantiva objetiva direta com vírgula nessas condições.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample",
+      "optionComments"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-20-002-02",
+    "modulo": "POR-20",
+    "subtopico": "POR-20-002",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "gabarito_original": 0,
+    "gabarito_resolvido_independentemente": 0,
+    "alternativa_solucao": "Se a senha for confirmada, o cadastro será liberado.",
+    "resolucao_pelo_conteudo": "A condicional anteposta “Se a senha for confirmada” recebe vírgula na ordem apresentada; nas demais há cortes entre sujeito e verbo ou verbo e complemento.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-20-002-03",
+    "modulo": "POR-20",
+    "subtopico": "POR-20-002",
+    "tipo": "afirmacoes",
+    "dificuldade": "dificil",
+    "gabarito_original": 1,
+    "gabarito_resolvido_independentemente": 1,
+    "alternativa_solucao": "Apenas I e III.",
+    "resolucao_pelo_conteudo": "I é concessiva anteposta isolada, II corta verbo e objeto oracional indevidamente, III é adjetiva explicativa: apenas I e III.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-20-002-04",
+    "modulo": "POR-20",
+    "subtopico": "POR-20-002",
+    "tipo": "exceto",
+    "dificuldade": "dificil",
+    "gabarito_original": 2,
+    "gabarito_resolvido_independentemente": 2,
+    "alternativa_solucao": "“O edital informou, que as vagas seriam abertas” — objetiva direta.",
+    "resolucao_pelo_conteudo": "A vírgula em “informou, que ...” separa verbo do objeto direto oracional; as outras pontuações possuem justificativa sintática.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-20-003-01",
+    "modulo": "POR-20",
+    "subtopico": "POR-20-003",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "gabarito_original": 0,
+    "gabarito_resolvido_independentemente": 0,
+    "alternativa_solucao": "CERTO",
+    "resolucao_pelo_conteudo": "O sujeito “Os certificados apresentados pela equipe” não deve ser separado por vírgula do predicado “estavam incompletos”.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample",
+      "optionComments"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-20-003-02",
+    "modulo": "POR-20",
+    "subtopico": "POR-20-003",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "gabarito_original": 2,
+    "gabarito_resolvido_independentemente": 2,
+    "alternativa_solucao": "A secretaria publicou o comunicado.",
+    "resolucao_pelo_conteudo": "A frase sem vírgula entre publicou e o comunicado conserva a unidade verbo–objeto; as outras introduzem cortes sem função.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample",
+      "optionComments",
+      "options"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-20-003-03",
+    "modulo": "POR-20",
+    "subtopico": "POR-20-003",
+    "tipo": "vf",
+    "dificuldade": "dificil",
+    "gabarito_original": 0,
+    "gabarito_resolvido_independentemente": 0,
+    "alternativa_solucao": "V, V, V, F.",
+    "resolucao_pelo_conteudo": "I quebra sujeito e verbo; II intercala adjunto, III quebra verbo e objeto, IV separa a conjunção integrante de sua oração: V–V–V–F.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-20-003-04",
+    "modulo": "POR-20",
+    "subtopico": "POR-20-003",
+    "tipo": "exceto",
+    "dificuldade": "dificil",
+    "gabarito_original": 2,
+    "gabarito_resolvido_independentemente": 2,
+    "alternativa_solucao": "“A comissão, reuniu os dados e elaborou a conclusão.”",
+    "resolucao_pelo_conteudo": "“A comissão, reuniu ...” separa sujeito e verbo; as outras têm adjuntos antepostos/intercalados ou oração em ordem direta.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-20-004-01",
+    "modulo": "POR-20",
+    "subtopico": "POR-20-004",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "gabarito_original": 0,
+    "gabarito_resolvido_independentemente": 0,
+    "alternativa_solucao": "CERTO",
+    "resolucao_pelo_conteudo": "Dois-pontos apresentam discriminação; o ponto e vírgula separa dois blocos estruturados com elipse de verbo.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample",
+      "optionComments"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-20-004-02",
+    "modulo": "POR-20",
+    "subtopico": "POR-20-004",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "gabarito_original": 1,
+    "gabarito_resolvido_independentemente": 1,
+    "alternativa_solucao": "Dois-pontos, pois a sequência apresenta os três anexos.",
+    "resolucao_pelo_conteudo": "Os dois-pontos introduzem a lista enumerativa que especifica os três anexos; os demais sinais não cumprem tal função.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-20-004-03",
+    "modulo": "POR-20",
+    "subtopico": "POR-20-004",
+    "tipo": "associacao",
+    "dificuldade": "dificil",
+    "gabarito_original": 1,
+    "gabarito_resolvido_independentemente": 1,
+    "alternativa_solucao": "I introduz explicação; II separa blocos com vírgulas; III isola expressão explicativa.",
+    "resolucao_pelo_conteudo": "I introduz explicação após isto; II separa blocos paralelos que já contêm vírgulas; III isola uma intercalação explicativa.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-20-004-04",
+    "modulo": "POR-20",
+    "subtopico": "POR-20-004",
+    "tipo": "vf",
+    "dificuldade": "dificil",
+    "gabarito_original": 0,
+    "gabarito_resolvido_independentemente": 0,
+    "alternativa_solucao": "V, V, V, F.",
+    "resolucao_pelo_conteudo": "Dois-pontos podem explicar, ponto e vírgula separa blocos complexos, travessões isolam intercalação; travessão não indica somente fala: V–V–V–F.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-20-005-01",
+    "modulo": "POR-20",
+    "subtopico": "POR-20-005",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "gabarito_original": 0,
+    "gabarito_resolvido_independentemente": 0,
+    "alternativa_solucao": "CERTO",
+    "resolucao_pelo_conteudo": "A relativa sem vírgulas seleciona subconjunto; com vírgulas, comenta grupo já delimitado. O alcance pode mudar.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample",
+      "optionComments"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-20-005-02",
+    "modulo": "POR-20",
+    "subtopico": "POR-20-005",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "gabarito_original": 1,
+    "gabarito_resolvido_independentemente": 1,
+    "alternativa_solucao": "A primeira pode expressar autorização após uma negativa isolada; a segunda nega o verbo autorizar.",
+    "resolucao_pelo_conteudo": "“Não, autorizo” permite negar algo antes de autorizar; sem vírgula, “não” incide diretamente sobre “autorizo”.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "explanation",
+      "newExample",
+      "stem"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-20-005-03",
+    "modulo": "POR-20",
+    "subtopico": "POR-20-005",
+    "tipo": "afirmacoes",
+    "dificuldade": "dificil",
+    "gabarito_original": 0,
+    "gabarito_resolvido_independentemente": 0,
+    "alternativa_solucao": "Apenas I e II.",
+    "resolucao_pelo_conteudo": "A primeira relativa é restritiva, a segunda explicativa; a mudança pode alterar abrangência: apenas I e II.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-20-005-04",
+    "modulo": "POR-20",
+    "subtopico": "POR-20-005",
+    "tipo": "exceto",
+    "dificuldade": "dificil",
+    "gabarito_original": 2,
+    "gabarito_resolvido_independentemente": 2,
+    "alternativa_solucao": "“Os inscritos que entregaram o documento foram chamados” → “Os inscritos, que entregaram o documento, foram chamados”.",
+    "resolucao_pelo_conteudo": "A passagem de restritiva a explicativa muda potencialmente quais inscritos são chamados; as outras mantêm a relação principal.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-21-001-01",
+    "modulo": "POR-21",
+    "subtopico": "POR-21-001",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "gabarito_original": 0,
+    "gabarito_resolvido_independentemente": 0,
+    "alternativa_solucao": "CERTO",
+    "resolucao_pelo_conteudo": "“Me” antecede “avisou”, portanto é próclise; “ninguém” funciona como elemento atrativo.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample",
+      "optionComments"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-21-001-02",
+    "modulo": "POR-21",
+    "subtopico": "POR-21-001",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "gabarito_original": 3,
+    "gabarito_resolvido_independentemente": 3,
+    "alternativa_solucao": "Entregaram-me a certidão.",
+    "resolucao_pelo_conteudo": "Em “Entregaram-me”, o átono vem depois do verbo; “dir-se-ia” é mesóclise e os demais exemplos são de próclise.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-21-001-03",
+    "modulo": "POR-21",
+    "subtopico": "POR-21-001",
+    "tipo": "vf",
+    "dificuldade": "dificil",
+    "gabarito_original": 0,
+    "gabarito_resolvido_independentemente": 0,
+    "alternativa_solucao": "V, V, V, F.",
+    "resolucao_pelo_conteudo": "“Avisaram-me” é ênclise; “Nunca me avisaram” próclise; “Avisar-me-ão” mesóclise. Hífen não torna todo caso mesóclise: V–V–V–F.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-21-001-04",
+    "modulo": "POR-21",
+    "subtopico": "POR-21-001",
+    "tipo": "associacao",
+    "dificuldade": "dificil",
+    "gabarito_original": 1,
+    "gabarito_resolvido_independentemente": 1,
+    "alternativa_solucao": "I próclise; II ênclise; III mesóclise.",
+    "resolucao_pelo_conteudo": "Em “não nos”, o pronome antecede o verbo; em “chamaram-nos”, segue-o; em “chamar-nos-ão”, intercala-se no futuro.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-21-002-01",
+    "modulo": "POR-21",
+    "subtopico": "POR-21-002",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "gabarito_original": 1,
+    "gabarito_resolvido_independentemente": 1,
+    "alternativa_solucao": "ERRADO",
+    "resolucao_pelo_conteudo": "A palavra negativa “ninguém” atrai o átono na tradição formal: “ninguém me informou”, não “ninguém informou-me”.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample",
+      "optionComments"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-21-002-02",
+    "modulo": "POR-21",
+    "subtopico": "POR-21-002",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "gabarito_original": 1,
+    "gabarito_resolvido_independentemente": 1,
+    "alternativa_solucao": "O parecer que se perdeu foi encontrado.",
+    "resolucao_pelo_conteudo": "O “que” relativo atrai “se” para a posição anterior a “perdeu”, formando “que se perdeu”.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-21-002-03",
+    "modulo": "POR-21",
+    "subtopico": "POR-21-002",
+    "tipo": "lacunas",
+    "dificuldade": "dificil",
+    "gabarito_original": 0,
+    "gabarito_resolvido_independentemente": 0,
+    "alternativa_solucao": "me avisou — me enviaram — me informem",
+    "resolucao_pelo_conteudo": "“Ninguém”, o relativo “que” e a conjunção “que” favorecem próclise: me avisou, me enviaram, me informem, respeitando pessoas e tempos pedidos.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample",
+      "stem"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-21-002-04",
+    "modulo": "POR-21",
+    "subtopico": "POR-21-002",
+    "tipo": "exceto",
+    "dificuldade": "dificil",
+    "gabarito_original": 3,
+    "gabarito_resolvido_independentemente": 3,
+    "alternativa_solucao": "“Jamais informaram-me o resultado.”",
+    "resolucao_pelo_conteudo": "“Jamais” atrai próclise; “Jamais informaram-me” viola a colocação tradicional, ao contrário dos três outros exemplos.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-21-003-01",
+    "modulo": "POR-21",
+    "subtopico": "POR-21-003",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "gabarito_original": 0,
+    "gabarito_resolvido_independentemente": 0,
+    "alternativa_solucao": "CERTO",
+    "resolucao_pelo_conteudo": "No início do período formal sem palavra atrativa, “Envie-me” usa ênclise; o imperativo afirmativo é contexto compatível.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample",
+      "optionComments"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-21-003-02",
+    "modulo": "POR-21",
+    "subtopico": "POR-21-003",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "gabarito_original": 2,
+    "gabarito_resolvido_independentemente": 2,
+    "alternativa_solucao": "Entreguem-me os documentos.",
+    "resolucao_pelo_conteudo": "“Entreguem-me” usa ênclise com imperativo afirmativo; “não” atrairia próclise e a vírgula isolando clítico é indevida.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "explanation",
+      "newExample",
+      "optionComments"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-21-003-03",
+    "modulo": "POR-21",
+    "subtopico": "POR-21-003",
+    "tipo": "afirmacoes",
+    "dificuldade": "dificil",
+    "gabarito_original": 0,
+    "gabarito_resolvido_independentemente": 0,
+    "alternativa_solucao": "Apenas I e II.",
+    "resolucao_pelo_conteudo": "I e II exemplificam ênclise inicial e próclise com não; III não corresponde à prescrição tradicional para início formal.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-21-003-04",
+    "modulo": "POR-21",
+    "subtopico": "POR-21-003",
+    "tipo": "vf",
+    "dificuldade": "dificil",
+    "gabarito_original": 0,
+    "gabarito_resolvido_independentemente": 0,
+    "alternativa_solucao": "V, V, F, V.",
+    "resolucao_pelo_conteudo": "“Comunique-me” e “Não me comunique” seguem ênclise e próclise; “Comunique, me” está pontuado indevidamente: V–V–F–V.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-21-004-01",
+    "modulo": "POR-21",
+    "subtopico": "POR-21-004",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "gabarito_original": 1,
+    "gabarito_resolvido_independentemente": 1,
+    "alternativa_solucao": "ERRADO",
+    "resolucao_pelo_conteudo": "“Não” é palavra atrativa e impede a mesóclise “dir-lhe-ei”; “não lhe direi” é a colocação formal.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample",
+      "optionComments"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-21-004-02",
+    "modulo": "POR-21",
+    "subtopico": "POR-21-004",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "gabarito_original": 2,
+    "gabarito_resolvido_independentemente": 2,
+    "alternativa_solucao": "Enviar-me-ão os documentos.",
+    "resolucao_pelo_conteudo": "“Enviar-me-ão” intercala o pronome no futuro do presente sem palavra atrativa, ao passo que não me enviarão usa próclise.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-21-004-03",
+    "modulo": "POR-21",
+    "subtopico": "POR-21-004",
+    "tipo": "lacunas",
+    "dificuldade": "dificil",
+    "gabarito_original": 0,
+    "gabarito_resolvido_independentemente": 0,
+    "alternativa_solucao": "informar-lhes-ei / lhes informarei",
+    "resolucao_pelo_conteudo": "Sem atrator e com futuro, “informar-lhes-ei” é mesóclise; com “não”, usa-se “não lhes informarei”.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "explanation",
+      "newExample",
+      "stem"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-21-004-04",
+    "modulo": "POR-21",
+    "subtopico": "POR-21-004",
+    "tipo": "exceto",
+    "dificuldade": "dificil",
+    "gabarito_original": 3,
+    "gabarito_resolvido_independentemente": 3,
+    "alternativa_solucao": "“Nunca enviar-lhe-ei uma cópia.”",
+    "resolucao_pelo_conteudo": "“Nunca” atrai próclise e bloqueia a mesóclise em “nunca enviar-lhe-ei”. As demais são adequadas à norma formal delimitada.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-21-005-01",
+    "modulo": "POR-21",
+    "subtopico": "POR-21-005",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "gabarito_original": 0,
+    "gabarito_resolvido_independentemente": 0,
+    "alternativa_solucao": "CERTO",
+    "resolucao_pelo_conteudo": "O particípio não recebe ênclise na norma tradicional da locução verbal; o clítico deve vincular-se ao auxiliar.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample",
+      "optionComments"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-21-005-02",
+    "modulo": "POR-21",
+    "subtopico": "POR-21-005",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "gabarito_original": 1,
+    "gabarito_resolvido_independentemente": 1,
+    "alternativa_solucao": "O servidor havia-me encaminhado a declaração.",
+    "resolucao_pelo_conteudo": "“Havia-me encaminhado” coloca o clítico depois do auxiliar; “encaminhado-me” prende clítico ao particípio e não é admitido nesse padrão.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "explanation",
+      "newExample",
+      "stem"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-21-005-03",
+    "modulo": "POR-21",
+    "subtopico": "POR-21-005",
+    "tipo": "vf",
+    "dificuldade": "dificil",
+    "gabarito_original": 0,
+    "gabarito_resolvido_independentemente": 0,
+    "alternativa_solucao": "V, F, V, F.",
+    "resolucao_pelo_conteudo": "I usa ênclise ao auxiliar, II liga indevidamente ao particípio, III usa próclise com não, IV generaliza regra falsa: V–F–V–F.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-21-005-04",
+    "modulo": "POR-21",
+    "subtopico": "POR-21-005",
+    "tipo": "associacao",
+    "dificuldade": "dificil",
+    "gabarito_original": 0,
+    "gabarito_resolvido_independentemente": 0,
+    "alternativa_solucao": "I(a); II(b); III(c).",
+    "resolucao_pelo_conteudo": "I é próclise ao auxiliar pela negação, II é ênclise ao auxiliar e III liga indevidamente pronome ao particípio.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "challenge",
+      "newExample"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-22-001-01",
+    "modulo": "POR-22",
+    "subtopico": "POR-22-001",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "gabarito_original": 1,
+    "gabarito_resolvido_independentemente": 1,
+    "alternativa_solucao": "ERRADO",
+    "resolucao_pelo_conteudo": "“Alguns” não abrange necessariamente a totalidade; trocar por “todos” amplia a proposição e pode alterar sua verdade.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "optionComments"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-22-001-02",
+    "modulo": "POR-22",
+    "subtopico": "POR-22-001",
+    "tipo": "lacunas",
+    "dificuldade": "media",
+    "gabarito_original": 1,
+    "gabarito_resolvido_independentemente": 1,
+    "alternativa_solucao": "em razão de",
+    "resolucao_pelo_conteudo": "“Em razão de” preserva a causa do adiamento; “apesar de” é concessão, “a fim de” finalidade, “desde que” condição.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-22-001-03",
+    "modulo": "POR-22",
+    "subtopico": "POR-22-001",
+    "tipo": "afirmacoes",
+    "dificuldade": "dificil",
+    "gabarito_original": 2,
+    "gabarito_resolvido_independentemente": 2,
+    "alternativa_solucao": "Apenas I e III.",
+    "resolucao_pelo_conteudo": "A equivalência I mantém o restritor apenas/somente; III preserva a concessão; II amplia para todos os cursos.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-22-001-04",
+    "modulo": "POR-22",
+    "subtopico": "POR-22-001",
+    "tipo": "exceto",
+    "dificuldade": "dificil",
+    "gabarito_original": 3,
+    "gabarito_resolvido_independentemente": 3,
+    "alternativa_solucao": "O setor reavaliará obrigatoriamente todos os pedidos, mesmo sem novos documentos.",
+    "resolucao_pelo_conteudo": "O original expressa possibilidade condicionada a novos documentos; a alternativa 3 transforma possibilidade em obrigação incondicional.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "optionComments",
+      "options"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-22-002-01",
+    "modulo": "POR-22",
+    "subtopico": "POR-22-002",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "gabarito_original": 0,
+    "gabarito_resolvido_independentemente": 0,
+    "alternativa_solucao": "CERTO",
+    "resolucao_pelo_conteudo": "A passiva “foram analisadas” mantém as propostas como paciente, a comissão como agente e o pretérito perfeito.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "optionComments"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-22-002-02",
+    "modulo": "POR-22",
+    "subtopico": "POR-22-002",
+    "tipo": "associacao",
+    "dificuldade": "media",
+    "gabarito_original": 2,
+    "gabarito_resolvido_independentemente": 2,
+    "alternativa_solucao": "2 – 1 – 3",
+    "resolucao_pelo_conteudo": "“Foram publicados” é passiva analítica, “publicou” é ativa e “publicaram-se” é passiva sintética: 2–1–3.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-22-002-03",
+    "modulo": "POR-22",
+    "subtopico": "POR-22-002",
+    "tipo": "classica",
+    "dificuldade": "dificil",
+    "gabarito_original": 1,
+    "gabarito_resolvido_independentemente": 1,
+    "alternativa_solucao": "Os documentos serão conferidos amanhã pelos fiscais.",
+    "resolucao_pelo_conteudo": "O futuro do presente “conferirão” exige “serão conferidos” na passiva, com documentos como sujeito paciente.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-22-002-04",
+    "modulo": "POR-22",
+    "subtopico": "POR-22-002",
+    "tipo": "exceto",
+    "dificuldade": "dificil",
+    "gabarito_original": 2,
+    "gabarito_resolvido_independentemente": 2,
+    "alternativa_solucao": "“Houve atrasos” admite passiva analítica direta “Atrasos foram havidos” com o mesmo uso impessoal.",
+    "resolucao_pelo_conteudo": "“Haver” existencial impessoal não admite a passivização direta “foram havidos”; as outras nominalizações/passivas são possíveis.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "stem"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-22-003-01",
+    "modulo": "POR-22",
+    "subtopico": "POR-22-003",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "gabarito_original": 1,
+    "gabarito_resolvido_independentemente": 1,
+    "alternativa_solucao": "ERRADO",
+    "resolucao_pelo_conteudo": "A coordenação alterna verbo no infinitivo e sintagma nominal sem estrutura paralela: o paralelismo não é pleno.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "optionComments"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-22-003-02",
+    "modulo": "POR-22",
+    "subtopico": "POR-22-003",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "gabarito_original": 3,
+    "gabarito_resolvido_independentemente": 3,
+    "alternativa_solucao": "O setor busca ampliar o horário e reduzir as filas.",
+    "resolucao_pelo_conteudo": "Dois infinitivos coordenados — ampliar e reduzir — preservam as duas metas com simetria sintática.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-22-003-03",
+    "modulo": "POR-22",
+    "subtopico": "POR-22-003",
+    "tipo": "afirmacoes",
+    "dificuldade": "dificil",
+    "gabarito_original": 2,
+    "gabarito_resolvido_independentemente": 2,
+    "alternativa_solucao": "Apenas I e III.",
+    "resolucao_pelo_conteudo": "I nominaliza duas ações simetricamente; II mistura nome e verbo, III coordena infinitivos, logo apenas I e III.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-22-003-04",
+    "modulo": "POR-22",
+    "subtopico": "POR-22-003",
+    "tipo": "associacao",
+    "dificuldade": "dificil",
+    "gabarito_original": 1,
+    "gabarito_resolvido_independentemente": 1,
+    "alternativa_solucao": "2 – 1 – 3",
+    "resolucao_pelo_conteudo": "I compara serviço digital a guichês (referentes não homogêneos), II combina complementos de estruturas diferentes, III coordena dois infinitivos.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "explanation",
+      "optionComments",
+      "stem"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-22-004-01",
+    "modulo": "POR-22",
+    "subtopico": "POR-22-004",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "gabarito_original": 1,
+    "gabarito_resolvido_independentemente": 1,
+    "alternativa_solucao": "ERRADO",
+    "resolucao_pelo_conteudo": "“Sua” pode retomar a diretora ou a analista; a frase isolada não identifica sem ambiguidade a possuidora da proposta.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "optionComments"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-22-004-02",
+    "modulo": "POR-22",
+    "subtopico": "POR-22-004",
+    "tipo": "lacunas",
+    "dificuldade": "media",
+    "gabarito_original": 2,
+    "gabarito_resolvido_independentemente": 2,
+    "alternativa_solucao": "o referente pretendido; a relação de posse",
+    "resolucao_pelo_conteudo": "Não se deve escolher arbitrariamente o referente: primeiro se identifica a pessoa pretendida e depois se explicita a posse.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-22-004-03",
+    "modulo": "POR-22",
+    "subtopico": "POR-22-004",
+    "tipo": "classica",
+    "dificuldade": "dificil",
+    "gabarito_original": 3,
+    "gabarito_resolvido_independentemente": 3,
+    "alternativa_solucao": "Perguntar quem usava os binóculos e reescrever para explicitar essa relação.",
+    "resolucao_pelo_conteudo": "“Com os binóculos” admite associação a quem observa ou à pessoa observada; a revisão precisa esclarecer o instrumento.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-22-004-04",
+    "modulo": "POR-22",
+    "subtopico": "POR-22-004",
+    "tipo": "exceto",
+    "dificuldade": "dificil",
+    "gabarito_original": 1,
+    "gabarito_resolvido_independentemente": 1,
+    "alternativa_solucao": "“A chefia confirmou por escrito a decisão” → “A chefia confirmou a decisão”.",
+    "resolucao_pelo_conteudo": "A informação “por escrito” especifica um modo de confirmação; suprimi-la pode retirar um dado verificável, ao contrário de redundâncias estritas.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "explanation",
+      "optionComments",
+      "options"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-22-005-01",
+    "modulo": "POR-22",
+    "subtopico": "POR-22-005",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "gabarito_original": 0,
+    "gabarito_resolvido_independentemente": 0,
+    "alternativa_solucao": "CERTO",
+    "resolucao_pelo_conteudo": "A relativa restritiva delimita quais editais serão publicados; com vírgulas, passa a comentar um conjunto já identificado.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "optionComments"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-22-005-02",
+    "modulo": "POR-22",
+    "subtopico": "POR-22-005",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "gabarito_original": 1,
+    "gabarito_resolvido_independentemente": 1,
+    "alternativa_solucao": "Precisa-se de técnicos para o atendimento.",
+    "resolucao_pelo_conteudo": "“Precisa-se de técnicos” apresenta sujeito indeterminado e complemento indireto, conservando o verbo singular.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "optionComments"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-22-005-03",
+    "modulo": "POR-22",
+    "subtopico": "POR-22-005",
+    "tipo": "afirmacoes",
+    "dificuldade": "dificil",
+    "gabarito_original": 2,
+    "gabarito_resolvido_independentemente": 2,
+    "alternativa_solucao": "Apenas I e III.",
+    "resolucao_pelo_conteudo": "O primeiro “que” introduz conteúdo afirmado, o segundo restringe candidatos; a alteração para futuro muda a previsão e vírgulas podem mudar referência.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-22-005-04",
+    "modulo": "POR-22",
+    "subtopico": "POR-22-005",
+    "tipo": "vf",
+    "dificuldade": "dificil",
+    "gabarito_original": 0,
+    "gabarito_resolvido_independentemente": 0,
+    "alternativa_solucao": "V – F – V – F",
+    "resolucao_pelo_conteudo": "“Publicaram-se” é passiva sintética plural; “precisa-se de” fica singular; relativa entre vírgulas é explicativa; “embora” não conserva causalidade: V–F–V–F.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-23-001-01",
+    "modulo": "POR-23",
+    "subtopico": "POR-23-001",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "gabarito_original": 0,
+    "gabarito_resolvido_independentemente": 0,
+    "alternativa_solucao": "CERTO",
+    "resolucao_pelo_conteudo": "No contexto de leitura, “Machado de Assis” designa obras do autor por relação autor–obra, isto é, metonímia.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "optionComments"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-23-001-02",
+    "modulo": "POR-23",
+    "subtopico": "POR-23-001",
+    "tipo": "associacao",
+    "dificuldade": "media",
+    "gabarito_original": 0,
+    "gabarito_resolvido_independentemente": 0,
+    "alternativa_solucao": "1 – 2 – 3",
+    "resolucao_pelo_conteudo": "“Arquivo é labirinto” usa analogia implícita; “palco” remete a artistas por contiguidade; “parece labirinto” explicita comparação.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "stem"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-23-001-03",
+    "modulo": "POR-23",
+    "subtopico": "POR-23-001",
+    "tipo": "classica",
+    "dificuldade": "dificil",
+    "gabarito_original": 1,
+    "gabarito_resolvido_independentemente": 1,
+    "alternativa_solucao": "Trata-se de metáfora: livro é aproximado de janela pela possibilidade de acesso a outras experiências.",
+    "resolucao_pelo_conteudo": "A frase associa livro a janela por semelhança funcional de acesso a outros mundos; isso constitui metáfora.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-23-001-04",
+    "modulo": "POR-23",
+    "subtopico": "POR-23-001",
+    "tipo": "exceto",
+    "dificuldade": "dificil",
+    "gabarito_original": 3,
+    "gabarito_resolvido_independentemente": 3,
+    "alternativa_solucao": "“Bebeu um copo de água”: copo pela água é metáfora fundada na semelhança.",
+    "resolucao_pelo_conteudo": "Copo pelo conteúdo exemplifica relação recipiente–conteúdo (metonímia), não semelhança metafórica.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-23-002-01",
+    "modulo": "POR-23",
+    "subtopico": "POR-23-002",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "gabarito_original": 0,
+    "gabarito_resolvido_independentemente": 0,
+    "alternativa_solucao": "CERTO",
+    "resolucao_pelo_conteudo": "“Cheia” e “ausências” podem formar paradoxo expressivo se o contexto opõe presença física a lembranças.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "optionComments"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-23-002-02",
+    "modulo": "POR-23",
+    "subtopico": "POR-23-002",
+    "tipo": "afirmacoes",
+    "dificuldade": "media",
+    "gabarito_original": 3,
+    "gabarito_resolvido_independentemente": 3,
+    "alternativa_solucao": "I, II e III.",
+    "resolucao_pelo_conteudo": "I põe condutas opostas em contraste; II reúne dor e alegria numa tensão expressiva; III atenua referência a falecimento: todas possíveis no contexto.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-23-002-03",
+    "modulo": "POR-23",
+    "subtopico": "POR-23-002",
+    "tipo": "associacao",
+    "dificuldade": "dificil",
+    "gabarito_original": 3,
+    "gabarito_resolvido_independentemente": 3,
+    "alternativa_solucao": "3 – 2 – 1",
+    "resolucao_pelo_conteudo": "“Reduzir quadro” suaviza demissões, “ausência... presença” produz aparente contradição, “silenciaram... protestaram” opõe ações.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "stem"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-23-002-04",
+    "modulo": "POR-23",
+    "subtopico": "POR-23-002",
+    "tipo": "exceto",
+    "dificuldade": "dificil",
+    "gabarito_original": 2,
+    "gabarito_resolvido_independentemente": 2,
+    "alternativa_solucao": "O eufemismo sempre aumenta a precisão informativa de documentos oficiais.",
+    "resolucao_pelo_conteudo": "Eufemismo pode suavizar, mas não garante precisão; em comunicação oficial pode ocultar informação indispensável.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-23-003-01",
+    "modulo": "POR-23",
+    "subtopico": "POR-23-003",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "gabarito_original": 0,
+    "gabarito_resolvido_independentemente": 0,
+    "alternativa_solucao": "CERTO",
+    "resolucao_pelo_conteudo": "“Reclamar” é ato humano atribuído a relógio, constituindo personificação.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "optionComments"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-23-003-02",
+    "modulo": "POR-23",
+    "subtopico": "POR-23-003",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "gabarito_original": 1,
+    "gabarito_resolvido_independentemente": 1,
+    "alternativa_solucao": "Hipérbole, pois há exagero intencional da duração percebida.",
+    "resolucao_pelo_conteudo": "“Mil vidas” exagera intencionalmente o tempo de espera, configurando hipérbole.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "stem"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-23-003-03",
+    "modulo": "POR-23",
+    "subtopico": "POR-23-003",
+    "tipo": "vf",
+    "dificuldade": "dificil",
+    "gabarito_original": 1,
+    "gabarito_resolvido_independentemente": 1,
+    "alternativa_solucao": "V – V – F – V",
+    "resolucao_pelo_conteudo": "O elogio literal pode ser irônico diante de atraso; sem contexto pode ser sincero; ironia não exige “não”: V–V–F–V.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-23-003-04",
+    "modulo": "POR-23",
+    "subtopico": "POR-23-003",
+    "tipo": "associacao",
+    "dificuldade": "dificil",
+    "gabarito_original": 0,
+    "gabarito_resolvido_independentemente": 0,
+    "alternativa_solucao": "2 – 1 – 3",
+    "resolucao_pelo_conteudo": "O vento protesta (personificação); dez séculos exagera espera (hipérbole); elogio após atraso é ironia: 2–1–3.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-23-004-01",
+    "modulo": "POR-23",
+    "subtopico": "POR-23-004",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "gabarito_original": 0,
+    "gabarito_resolvido_independentemente": 0,
+    "alternativa_solucao": "CERTO",
+    "resolucao_pelo_conteudo": "“Paulo, o anexo” omite o verbo corrigiu já empregado anteriormente, caso de zeugma.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "optionComments"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-23-004-02",
+    "modulo": "POR-23",
+    "subtopico": "POR-23-004",
+    "tipo": "associacao",
+    "dificuldade": "media",
+    "gabarito_original": 2,
+    "gabarito_resolvido_independentemente": 2,
+    "alternativa_solucao": "1 – 2 – 3",
+    "resolucao_pelo_conteudo": "“Bruno, duas” omite leu; “vi com meus próprios olhos” repete semanticamente para enfatizar; “Da praça vinham” inverte ordem.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-23-004-03",
+    "modulo": "POR-23",
+    "subtopico": "POR-23-004",
+    "tipo": "classica",
+    "dificuldade": "dificil",
+    "gabarito_original": 0,
+    "gabarito_resolvido_independentemente": 0,
+    "alternativa_solucao": "A expressão “com meus próprios olhos” pode ser pleonasmo enfático, intensificando o testemunho.",
+    "resolucao_pelo_conteudo": "“Com meus próprios olhos” repete a ideia de testemunho visual para reforçá-la, pleonasmo expressivo no contexto de crônica.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-23-004-04",
+    "modulo": "POR-23",
+    "subtopico": "POR-23-004",
+    "tipo": "vf",
+    "dificuldade": "dificil",
+    "gabarito_original": 2,
+    "gabarito_resolvido_independentemente": 2,
+    "alternativa_solucao": "V – V – V – F",
+    "resolucao_pelo_conteudo": "I omite assinou, II desloca o objeto, III é redundância de direção, IV erra ao atribuir erro obrigatório à elipse: V–V–V–F.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "stem"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-23-005-01",
+    "modulo": "POR-23",
+    "subtopico": "POR-23-005",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "gabarito_original": 1,
+    "gabarito_resolvido_independentemente": 1,
+    "alternativa_solucao": "ERRADO",
+    "resolucao_pelo_conteudo": "Uma cidade não desperta sorrindo literalmente como pessoa; a crônica permite personificação da cidade.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "optionComments"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-23-005-02",
+    "modulo": "POR-23",
+    "subtopico": "POR-23-005",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "gabarito_original": 2,
+    "gabarito_resolvido_independentemente": 2,
+    "alternativa_solucao": "Sugere que a leitura cria possibilidades de conhecimento e experiência.",
+    "resolucao_pelo_conteudo": "O cartaz usa “abrir caminhos” figuradamente para sugerir acesso a conhecimentos e experiências, sem exclusividade.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-23-005-03",
+    "modulo": "POR-23",
+    "subtopico": "POR-23-005",
+    "tipo": "afirmacoes",
+    "dificuldade": "dificil",
+    "gabarito_original": 2,
+    "gabarito_resolvido_independentemente": 2,
+    "alternativa_solucao": "Apenas I e III.",
+    "resolucao_pelo_conteudo": "“O rio rugiu de fúria” pode intensificar expressividade, mas deixa de informar a medida objetiva de 2,5 metros, relevante ao risco.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [
+      "explanation",
+      "stem"
+    ],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  },
+  {
+    "id": "Q-POR-23-005-04",
+    "modulo": "POR-23",
+    "subtopico": "POR-23-005",
+    "tipo": "exceto",
+    "dificuldade": "dificil",
+    "gabarito_original": 2,
+    "gabarito_resolvido_independentemente": 2,
+    "alternativa_solucao": "O efeito de uma figura não depende do gênero nem do público; é sempre fixo.",
+    "resolucao_pelo_conteudo": "A interpretação de metáfora, ironia e outras figuras depende de gênero, público e contexto, não de efeito invariável.",
+    "validacao": "COINCIDE; gabarito preservado",
+    "campos_alterados": [],
+    "origem": "AUTORAL_INEDITA",
+    "tipo_fonte": "Questão autoral; nenhuma banca atribuída"
+  }
+]

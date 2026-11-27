@@ -1,0 +1,77 @@
+{
+  "lote": "Correção 3 — Lote 5",
+  "modules": [
+    "POR-19",
+    "POR-20",
+    "POR-21",
+    "POR-22",
+    "POR-23"
+  ],
+  "questoes_revisadas": 100,
+  "questoes_com_alteracao_adicional": {
+    "POR-19": 7,
+    "POR-20": 8,
+    "POR-21": 9,
+    "POR-22": 10,
+    "POR-23": 10
+  },
+  "novos_exemplos_desafios": 60,
+  "comentarios_CE_individualizados": 25,
+  "resolucoes_documentadas": 100,
+  "indices_e_IDS_preservados": 100,
+  "distribuicao_ce": {
+    "POR-19": {
+      "CERTO": 3,
+      "ERRADO": 2
+    },
+    "POR-20": {
+      "CERTO": 4,
+      "ERRADO": 1
+    },
+    "POR-21": {
+      "CERTO": 3,
+      "ERRADO": 2
+    },
+    "POR-22": {
+      "CERTO": 2,
+      "ERRADO": 3
+    },
+    "POR-23": {
+      "CERTO": 4,
+      "ERRADO": 1
+    }
+  },
+  "dificuldades": {
+    "POR-19": {
+      "media": 10,
+      "dificil": 10
+    },
+    "POR-20": {
+      "media": 10,
+      "dificil": 10
+    },
+    "POR-21": {
+      "media": 10,
+      "dificil": 10
+    },
+    "POR-22": {
+      "media": 10,
+      "dificil": 10
+    },
+    "POR-23": {
+      "media": 10,
+      "dificil": 10
+    }
+  },
+  "base_fonte": "branch nova-arquitetura; arquivos originais POR-19 a POR-23 com SHA Git idêntico aos originais dos Lotes 7 e 8",
+  "referencias_externas": [
+    "https://www12.senado.leg.br/manualdecomunicacao/estilos/virgula",
+    "https://funag.gov.br/manual/index.php?title=Coloca%C3%A7%C3%A3o_pronominal",
+    "https://ead.stf.jus.br/cursos/empregodavirgula/aula3/index.php?pg=1"
+  ],
+  "limites": [
+    "Não há auditoria humana independente.",
+    "Preservação de índice não recupera automaticamente a versão literal de resposta histórica; snapshot editorial incluído.",
+    "Testes reais no navegador, backup Google Drive e GitHub Actions dependem de homologação após upload."
+  ]
+}

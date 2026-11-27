@@ -1,4 +1,4 @@
-/** PT-ESTUDO — POR-23 — questões; conteúdo autoral original; Lote 08. */
+/** PT-ESTUDO — POR-23: itens AUTORAIS inéditos, Correção 3 / Lote 5. */
 export const POR_23_QUESTIONS = [
   {
     "id": "Q-POR-23-001-01",
@@ -14,8 +14,8 @@ export const POR_23_QUESTIONS = [
     ],
     "answer": 0,
     "optionComments": [
-      "Correta: Em contexto de leitura, a relação autor–obra permite usar o nome do escritor para nomear os livros escritos por ele.",
-      "Incorreta: Não se trata de afirmar que o leitor leu a pessoa fisicamente; a troca de designação é metonímica."
+      "Correta: no contexto de leitura, o nome de Machado de Assis representa seus textos por metonímia autor–obra.",
+      "Incorreta: não é uma aproximação metafórica por semelhança, mas troca de referência baseada em relação efetiva."
     ],
     "explanation": "Em contexto de leitura, a relação autor–obra permite usar o nome do escritor para nomear os livros escritos por ele.",
     "concept": "Metáfora estabelece aproximação implícita; comparação explicita semelhança; metonímia troca designações por vínculo de contiguidade.",
@@ -34,7 +34,7 @@ export const POR_23_QUESTIONS = [
     "topic": "Metáfora, metonímia e comparação",
     "type": "associacao",
     "difficulty": "media",
-    "stem": "Associe (1. metáfora; 2. metonímia; 3. comparação) às frases: \n( ) “O arquivo é um labirinto.”\n( ) “O público aplaudiu o palco.” (palco = artistas)\n( ) “O arquivo parece um labirinto.”",
+    "stem": "No contexto de uma apresentação teatral, considere que “palco” representa os artistas. Associe (1. metáfora; 2. metonímia; 3. comparação): ( ) “O arquivo é um labirinto.” ( ) “O público aplaudiu o palco.” ( ) “O arquivo parece um labirinto.”",
     "options": [
       "1 – 2 – 3",
       "2 – 1 – 3",
@@ -134,8 +134,8 @@ export const POR_23_QUESTIONS = [
     ],
     "answer": 0,
     "optionComments": [
-      "Correta: Cheia e ausências articulam ideias em tensão, cuja interpretação figurada depende do contexto de lembrança.",
-      "Incorreta: Não é necessário que as palavras formem frase literal sem contradição para existir sentido paradoxal."
+      "Correta: a oposição “cheia”/“ausências” pode funcionar como paradoxo ao evocar a presença das lembranças.",
+      "Incorreta: “pode” e o contexto de recordação afastam a exigência de interpretação literal."
     ],
     "explanation": "Cheia e ausências articulam ideias em tensão, cuja interpretação figurada depende do contexto de lembrança.",
     "concept": "Antítese aproxima sentidos opostos; paradoxo reúne ideias aparentemente incompatíveis; eufemismo suaviza expressão potencialmente dura.",
@@ -185,7 +185,7 @@ export const POR_23_QUESTIONS = [
     "topic": "Antítese, paradoxo e eufemismo",
     "type": "associacao",
     "difficulty": "dificil",
-    "stem": "Associe as figuras (1. antítese; 2. paradoxo; 3. eufemismo) às frases contextualizadas: \n( ) “A empresa reduzirá o quadro” (em aviso sobre demissões).\n( ) “A ausência dele era a presença mais forte na reunião” (crônica).\n( ) “Alguns silenciaram; outros protestaram” (relato).",
+    "stem": "Associe as figuras (1. antítese; 2. paradoxo; 3. eufemismo) aos casos: ( ) “A empresa reduzirá o quadro”, em comunicado que se refere a demissões. ( ) “A ausência dele era a presença mais forte na reunião”, em crônica. ( ) “Alguns silenciaram; outros protestaram”, em relato.",
     "options": [
       "1 – 2 – 3",
       "3 – 1 – 2",
@@ -254,8 +254,8 @@ export const POR_23_QUESTIONS = [
     ],
     "answer": 0,
     "optionComments": [
-      "Correta: Reclamar é comportamento humano figurativamente atribuído a um objeto inanimado.",
-      "Incorreta: Não se lê reclamar como função literal do relógio; por isso não cabe marcar ERRADO."
+      "Correta: o verbo “reclamar” atribui ao relógio ação tipicamente humana.",
+      "Incorreta: o relógio não está reclamando fisicamente, e sim sendo personificado."
     ],
     "explanation": "Reclamar é comportamento humano figurativamente atribuído a um objeto inanimado.",
     "concept": "Hipérbole intensifica além do literal; personificação atribui ações humanas a não humanos; ironia opõe sentido literal e intenção contextual.",
@@ -274,7 +274,7 @@ export const POR_23_QUESTIONS = [
     "topic": "Hipérbole, personificação e ironia",
     "type": "classica",
     "difficulty": "media",
-    "stem": "Uma fila demora muito e alguém exclama “Esperei mil vidas para ser atendido!”. Qual figura predomina?",
+    "stem": "Uma fila demora muito e alguém exclama, em evidente reclamação: “Esperei mil vidas para ser atendido!”. Qual figura predomina?",
     "options": [
       "Metonímia, pois vidas substitui guichês por contiguidade.",
       "Hipérbole, pois há exagero intencional da duração percebida.",
@@ -374,8 +374,8 @@ export const POR_23_QUESTIONS = [
     ],
     "answer": 0,
     "optionComments": [
-      "Correta: Corrigiu é recuperado do primeiro segmento e fica elíptico no segundo, caracterizando zeugma.",
-      "Incorreta: Não se trata de ausência irreparável de predicado; a estrutura permite recuperar corrigiu."
+      "Correta: “corrigiu” fica elíptico depois de “Paulo”, sendo recuperado do primeiro membro (zeugma).",
+      "Incorreta: não é simples ausência de informação: o verbo foi mencionado e pode ser recuperado."
     ],
     "explanation": "Corrigiu é recuperado do primeiro segmento e fica elíptico no segundo, caracterizando zeugma.",
     "concept": "Elipse omite termo recuperável; pleonasmo repete conteúdo, com ou sem valor expressivo; inversão altera a ordem não marcada dos termos.",
@@ -456,7 +456,7 @@ export const POR_23_QUESTIONS = [
     "topic": "Elipse, pleonasmo e inversão",
     "type": "vf",
     "difficulty": "dificil",
-    "stem": "Julgue os fenômenos em frases independentes.\nI. “O diretor assinou três documentos; a vice-diretora, dois” contém elipse de assinou.\nII. “As decisões, tomei-as ontem” apresenta deslocamento/topicalização da ordem mais usual.\nIII. Em “subir para cima”, a duplicação de direção tende a ser redundante em texto informativo.\nIV. Toda elipse constitui necessariamente erro de concordância.",
+    "stem": "Julgue os fenômenos nas frases abaixo, conforme a análise sintática e o contexto: I. “O diretor assinou três documentos; a vice-diretora, dois” contém zeugma do verbo “assinou”. II. “As decisões, tomei-as ontem” apresenta deslocamento do objeto para tópico. III. Em texto informativo comum, “subir para cima” tende a ser redundante. IV. Toda elipse constitui necessariamente erro de concordância.",
     "options": [
       "V – F – V – F",
       "F – V – V – F",
@@ -494,8 +494,8 @@ export const POR_23_QUESTIONS = [
     ],
     "answer": 1,
     "optionComments": [
-      "Incorreta: A interpretação literal rígida desprezaria gênero e transferência expressiva da crônica.",
-      "Correta: Prédios não despertam nem sorriem; a expressão pode personificar cidade ou evocar seus habitantes."
+      "Incorreta: uma cidade não sorri nem desperta biologicamente; a crônica autoriza personificação.",
+      "Correta: o advérbio “obrigatoriamente” torna falsa a afirmação de leitura literal."
     ],
     "explanation": "Prédios não despertam nem sorriem; a expressão pode personificar cidade ou evocar seus habitantes.",
     "concept": "Figuras de linguagem só são interpretadas adequadamente em relação ao gênero, à situação comunicativa e ao efeito produzido.",
@@ -545,7 +545,7 @@ export const POR_23_QUESTIONS = [
     "topic": "Efeito expressivo e interpretação contextual",
     "type": "afirmacoes",
     "difficulty": "dificil",
-    "stem": "Em um aviso técnico, alguém propõe substituir “A água chegou a 2,5 metros” por “O rio rugiu de fúria”. Julgue.\nI. A versão figurada pode produzir força expressiva.\nII. Ela preserva necessariamente a medida objetiva do aviso original.\nIII. Para comunicação de risco, a perda da medida pode prejudicar a precisão.",
+    "stem": "Em um alerta de enchente, alguém propõe substituir a medição “A água atingiu 2,5 metros na régua da estação” por “O rio rugiu de fúria”. Julgue as afirmações sobre precisão e expressividade. I. A versão figurada pode intensificar a percepção do perigo. II. Ela conserva necessariamente a medida objetiva informada. III. Em comunicação de risco, a perda da medida pode reduzir a precisão.",
     "options": [
       "Apenas I.",
       "Apenas II e III.",
@@ -559,7 +559,7 @@ export const POR_23_QUESTIONS = [
       "Correta: expressividade aumenta, mas não substitui o dado quantitativo relevante.",
       "Incorreta: II não mantém os 2,5 metros do aviso."
     ],
-    "explanation": "Verdadeiras I e III: a personificação evoca perigo, mas não informa altura da água em metros.",
+    "explanation": "A imagem figurada pode intensificar um alerta, mas não apresenta a medida verificável registrada na régua da estação. Logo, I e III são verdadeiras e II é falsa.",
     "concept": "Figuras de linguagem só são interpretadas adequadamente em relação ao gênero, à situação comunicativa e ao efeito produzido.",
     "trap": "Admitir que metáfora ou personificação conserva sempre os dados técnicos do original.",
     "examTip": "As perguntas “por quê?”, “para quem?” e “em qual gênero?” ajudam mais que procurar figuras isoladas em listas. Para este item, decida a partir de: Verdadeiras I e III: a personificação evoca perigo, mas não informa altura da água em metros.",

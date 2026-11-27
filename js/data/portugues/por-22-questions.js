@@ -1,4 +1,4 @@
-/** PT-ESTUDO — POR-22 — questões; conteúdo autoral original; Lote 08. */
+/** PT-ESTUDO — POR-22: itens AUTORAIS inéditos, Correção 3 / Lote 5. */
 export const POR_22_QUESTIONS = [
   {
     "id": "Q-POR-22-001-01",
@@ -14,8 +14,8 @@ export const POR_22_QUESTIONS = [
     ],
     "answer": 1,
     "optionComments": [
-      "Incorreta: Considerar as frases equivalentes apagaria a diferença entre parte e totalidade do conjunto.",
-      "Correta: O quantificador todos atribui a ação ao conjunto inteiro; alguns não exige essa totalidade."
+      "Incorreta: “alguns” é quantificador parcial; trocar por “todos” altera a extensão da afirmação.",
+      "Correta: o original não autoriza dizer que cada setor enviou o relatório."
     ],
     "explanation": "O quantificador todos atribui a ação ao conjunto inteiro; alguns não exige essa totalidade.",
     "concept": "Reescrita equivalente conserva as relações de sentido, as informações relevantes e a referência dos elementos do texto, além da adequação gramatical.",
@@ -102,15 +102,15 @@ export const POR_22_QUESTIONS = [
     "options": [
       "O setor terá a possibilidade de reavaliar os pedidos caso apareçam novos documentos.",
       "Se surgirem documentos adicionais, será possível ao setor reavaliar os pedidos.",
-      "A reavaliação dos pedidos pelo setor poderá ocorrer na hipótese de novos documentos.",
+      "A reavaliação dos pedidos pelo setor poderá ocorrer caso surjam documentos novos.",
       "O setor reavaliará obrigatoriamente todos os pedidos, mesmo sem novos documentos."
     ],
     "answer": 3,
     "optionComments": [
-      "Equivalente: mantém a possibilidade e a condição de surgirem documentos.",
-      "Equivalente: conserva modalidade eventual e hipótese condicionante.",
-      "Equivalente: admite a reavaliação apenas como possibilidade condicionada.",
-      "Correta no comando: transforma possibilidade em obrigação e elimina a condição."
+      "Correta como paráfrase do original: mantém possibilidade, agente e condição.",
+      "Correta como paráfrase: documentos novos são hipótese para eventual reavaliação.",
+      "Correta como paráfrase: nominaliza o verbo e preserva a condição com caso surjam.",
+      "Incorreta como paráfrase: impõe obrigação e elimina a condição de documentos novos; é a alternativa EXCETO."
     ],
     "explanation": "A última alternativa retira a condição e troca poderá por reavaliará obrigatoriamente, alterando dois elementos essenciais.",
     "concept": "Reescrita equivalente conserva as relações de sentido, as informações relevantes e a referência dos elementos do texto, além da adequação gramatical.",
@@ -136,8 +136,8 @@ export const POR_22_QUESTIONS = [
     ],
     "answer": 0,
     "optionComments": [
-      "Correta: A passiva analítica mantém o passado e identifica a comissão como agente da análise.",
-      "Incorreta: Não há troca de agente nem passagem para o futuro; por isso a escolha ERRADO não procede."
+      "Correta: ativa e passiva mantêm comissão como agente, propostas como paciente e tempo passado.",
+      "Incorreta: a mudança de voz não altera por si só o agente nem transforma o fato em hipótese."
     ],
     "explanation": "A passiva analítica mantém o passado e identifica a comissão como agente da análise.",
     "concept": "Na passagem da ativa à passiva analítica, o objeto direto torna-se sujeito paciente; tempos, agentes e papéis semânticos devem ser preservados.",
@@ -218,7 +218,7 @@ export const POR_22_QUESTIONS = [
     "topic": "Voz passiva, nominalização e transformação",
     "type": "exceto",
     "difficulty": "dificil",
-    "stem": "Quanto às transformações e à nominalização, assinale a afirmação INCORRETA.",
+    "stem": "Considerando a voz passiva e a nominalização, qual afirmação está INCORRETA segundo a norma-padrão?",
     "options": [
       "“A chefia autorizou o pedido” pode ser nominalizada como “A autorização do pedido pela chefia”.",
       "“A equipe elaborou o relatório” admite “O relatório foi elaborado pela equipe”.",
@@ -256,8 +256,8 @@ export const POR_22_QUESTIONS = [
     ],
     "answer": 1,
     "optionComments": [
-      "Incorreta: Não é correto chamar a estrutura plenamente paralela só porque ambos os trechos se referem a tarefas.",
-      "Correta: O primeiro elemento é verbo no infinitivo, enquanto o segundo é sintagma nominal; a enumeração perde simetria."
+      "Incorreta: o original coordena infinitivo e nome com construção desequilibrada.",
+      "Correta: “cadastrar os usuários” e “a verificação dos dados” não têm paralelismo sintático pleno."
     ],
     "explanation": "O primeiro elemento é verbo no infinitivo, enquanto o segundo é sintagma nominal; a enumeração perde simetria.",
     "concept": "Paralelismo é a correspondência formal e lógica entre elementos apresentados como equivalentes numa enumeração, coordenação ou comparação.",
@@ -338,7 +338,7 @@ export const POR_22_QUESTIONS = [
     "topic": "Paralelismo sintático e semântico",
     "type": "associacao",
     "difficulty": "dificil",
-    "stem": "Associe o problema (1. paralelismo sintático; 2. comparação de referentes; 3. ausência de problema relevante) às construções: \n( ) “O atendimento digital é mais rápido que os guichês.”\n( ) “O programa quer orientar pessoas e a inclusão digital.”\n( ) “O plano pretende reduzir custos e ampliar horários.”",
+    "stem": "Em um relatório de gestão, associe os problemas (1. paralelismo sintático; 2. comparação de indicadores incompatíveis; 3. ausência de problema relevante) às construções: ( ) “O índice de satisfação do atendimento digital superou o tempo médio de espera nos guichês.” ( ) “O programa quer orientar pessoas e a inclusão digital.” ( ) “O plano pretende reduzir custos e ampliar horários.”",
     "options": [
       "1 – 2 – 3",
       "2 – 1 – 3",
@@ -347,12 +347,12 @@ export const POR_22_QUESTIONS = [
     ],
     "answer": 1,
     "optionComments": [
-      "Incorreta: a primeira construção compara atendimento e guichês, não apenas formas verbais.",
-      "Correta: referentes de comparação distintos; formas coordenadas assimétricas; dois infinitivos paralelos.",
-      "Incorreta: a segunda construção tem assimetria de categoria, não exemplo bem formado.",
-      "Incorreta: a primeira tem base comparativa heterogênea e a terceira já é paralela."
+      "Incorreta: o primeiro problema é a comparação de grandezas diferentes, não a estrutura dos verbos; o segundo é paralelismo.",
+      "Correta: primeiro há comparação de indicadores incompatíveis; depois, paralelismo heterogêneo; por último, coordenação adequada.",
+      "Incorreta: o segundo enunciado mistura “orientar” com “a inclusão”, portanto apresenta problema de paralelismo, não ausência de problema.",
+      "Incorreta: o primeiro enunciado não é comparação adequada e o terceiro já contém dois infinitivos paralelos."
     ],
-    "explanation": "A comparação mistura serviço e local; a coordenação seguinte mistura infinitivo e nome; a última mantém verbos paralelos.",
+    "explanation": "O primeiro enunciado contrapõe um índice de satisfação ao tempo de espera — grandezas de natureza e unidades distintas — em vez de comparar indicadores homogêneos. O segundo mistura infinitivo e sintagma nominal; o terceiro coordena infinitivos: 2–1–3.",
     "concept": "Paralelismo é a correspondência formal e lógica entre elementos apresentados como equivalentes numa enumeração, coordenação ou comparação.",
     "trap": "Tratar comparação mal construída e enumeração não paralela como um único tipo de falha.",
     "examTip": "Observe a categoria gramatical e o papel dos elementos unidos por e, ou, tanto...quanto; só julgue incorreção absoluta se houver fundamento sintático. Para este item, decida a partir de: A comparação mistura serviço e local; a coordenação seguinte mistura infinitivo e nome; a última mantém verbos paralelos.",
@@ -376,8 +376,8 @@ export const POR_22_QUESTIONS = [
     ],
     "answer": 1,
     "optionComments": [
-      "Incorreta: A referência do possessivo não está inequivocamente fixada apenas pela estrutura da frase.",
-      "Correta: Sua pode remeter tanto à diretora quanto à analista, sem contexto desambiguador."
+      "Incorreta: “sua” pode remeter à diretora ou à analista, dependendo de contexto ausente.",
+      "Correta: o possessivo sem referente explicitado não resolve sozinho de quem é a proposta."
     ],
     "explanation": "Sua pode remeter tanto à diretora quanto à analista, sem contexto desambiguador.",
     "concept": "Ambiguidade relevante permite mais de uma leitura plausível; redundância repete informação sem ganho funcional no contexto.",
@@ -463,16 +463,16 @@ export const POR_22_QUESTIONS = [
       "“A equipe repetiu novamente o aviso” → “A equipe repetiu o aviso”.",
       "“A chefia confirmou por escrito a decisão” → “A chefia confirmou a decisão”.",
       "“O servidor planejou antecipadamente as tarefas” → “O servidor planejou as tarefas”.",
-      "“A assistente fez a revisão final definitiva do texto” → “A assistente fez a revisão definitiva do texto”."
+      "“A assistente preparou uma síntese resumida dos resultados” → “A assistente preparou uma síntese dos resultados”."
     ],
     "answer": 1,
     "optionComments": [
-      "Adequada: repetiu já expressa nova realização do aviso; novamente é redundante aqui.",
-      "Correta no comando: retirar por escrito apaga o meio formal da confirmação, informação relevante.",
-      "Adequada: planejou pode dispensar antecipadamente sem perda da ação de planejar.",
-      "Adequada no contexto: definitiva já caracteriza a versão final, permitindo remover final."
+      "Correta como redução de redundância: repetir implica fazer novamente.",
+      "Incorreta como equivalência integral: “por escrito” identifica meio ou registro da confirmação e sua supressão elimina um dado. Esta é a EXCETO.",
+      "Correta como redução de redundância no contexto: o planejamento já pressupõe antecipação às tarefas.",
+      "Correta como redução de redundância: uma síntese já se caracteriza por condensar informações."
     ],
-    "explanation": "A segunda revisão elimina o meio por escrito; os demais cortes atingem reforços redundantes no contexto proposto.",
+    "explanation": "A expressão “por escrito” especifica o meio de confirmação; suprimi-la perde uma informação verificável, ao contrário da eliminação de “novamente” após repetir e de “resumida” após síntese. O mesmo raciocínio só é seguro quando o contexto não atribui ao advérbio uma diferença adicional.",
     "concept": "Ambiguidade relevante permite mais de uma leitura plausível; redundância repete informação sem ganho funcional no contexto.",
     "trap": "Eliminar informação de circunstância necessária sob pretexto de concisão.",
     "examTip": "Para localizar ambiguidade, teste dois referentes possíveis para cada possessivo e dois encaixes para cada adjunto deslocável. Para este item, decida a partir de: A segunda revisão elimina o meio por escrito; os demais cortes atingem reforços redundantes no contexto proposto.",
@@ -496,8 +496,8 @@ export const POR_22_QUESTIONS = [
     ],
     "answer": 0,
     "optionComments": [
-      "Correta: A relativa sem vírgulas restringe o grupo; entre vírgulas, pode atribuir a revisão ao conjunto inteiro referido.",
-      "Incorreta: Não há garantia de equivalência semântica entre restrição e explicação, logo ERRADO seria inadequado."
+      "Correta: as relativas sem/com vírgulas podem delimitar grupos diferentes de editais.",
+      "Incorreta: tratar as duas leituras como necessariamente equivalentes ignora a força restritiva da primeira."
     ],
     "explanation": "A relativa sem vírgulas restringe o grupo; entre vírgulas, pode atribuir a revisão ao conjunto inteiro referido.",
     "concept": "A revisão integrada verifica simultaneamente relações lógicas, estrutura sintática, marcas de concordância, regência e pontuação.",
@@ -525,10 +525,10 @@ export const POR_22_QUESTIONS = [
     ],
     "answer": 1,
     "optionComments": [
-      "Incorreta: resultados é sujeito paciente plural; recomenda-se “Divulgaram-se”.",
-      "Correta: precisar de é transitivo indireto e se indetermina o sujeito, com verbo no singular.",
-      "Incorreta: haver existencial é impessoal; usa-se houve mudanças.",
-      "Incorreta: fazer indicando tempo decorrido é impessoal; usa-se faz duas semanas."
+      "Incorreta: “divulgar-se” é passiva sintética e “resultados” pede “divulgaram-se”.",
+      "Correta: “precisar de” tem sujeito indeterminado com se e verbo singular.",
+      "Incorreta: “haver” existencial é impessoal; exige “houve mudanças”.",
+      "Incorreta: “fazer” temporal é impessoal; exige “faz duas semanas”."
     ],
     "explanation": "Com precisar de, se é índice de indeterminação do sujeito; o verbo permanece na terceira pessoa do singular.",
     "concept": "A revisão integrada verifica simultaneamente relações lógicas, estrutura sintática, marcas de concordância, regência e pontuação.",

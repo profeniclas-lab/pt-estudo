@@ -1,0 +1,101 @@
+ID	Módulo	Subtópico	Tipo	Gabarito original	Gabarito resolvido	Fundamentação independente	Campos revisados
+Q-POR-19-001-01	POR-19	POR-19-001	ce	0	0	“Mas” introduz contraste entre a divulgação da lista e os recursos, logo há coordenação sindética adversativa.	challenge, newExample, optionComments
+Q-POR-19-001-02	POR-19	POR-19-001	classica	1	1	“Portanto” apresenta a segunda oração como conclusão inferida da primeira; não expressa adição nem alternância.	challenge, newExample
+Q-POR-19-001-03	POR-19	POR-19-001	vf	0	0	I é assindética por justaposição, II é adversativa com “porém”, III justifica o imperativo com “pois”, IV usa “ou” para alternativa: V–V–V–F.	challenge, newExample
+Q-POR-19-001-04	POR-19	POR-19-001	exceto	3	3	“Porém” é adversativa, não explicativa; as demais associações empregam corretamente mas, logo e ou.	challenge, newExample
+Q-POR-19-002-01	POR-19	POR-19-002	ce	1	1	“Que todos conheçam o regulamento” exerce função de sujeito de “é importante”, não de objeto direto do verbo ser.	challenge, explanation, newExample, optionComments, stem
+Q-POR-19-002-02	POR-19	POR-19-002	classica	2	2	“Comunicou” é transitivo direto na construção e a oração introduzida por “que” é o conteúdo comunicado.	challenge, newExample
+Q-POR-19-002-03	POR-19	POR-19-002	afirmacoes	2	2	“Que você compareça” completa desejo; “de que virá” completa o nome certeza; “que falta energia” é predicativo: I, II e III verdadeiros.	challenge, newExample
+Q-POR-19-002-04	POR-19	POR-19-002	associacao	1	1	“Convém que ...” tem subordinada subjetiva, “pediu que ...” objetiva direta e “isto: que ...” é apositiva de isto.	challenge, newExample
+Q-POR-19-003-01	POR-19	POR-19-003	ce	0	0	A relativa sem vírgulas delimita os candidatos que entregaram comprovantes, podendo excluir os demais.	challenge, newExample, optionComments
+Q-POR-19-003-02	POR-19	POR-19-003	classica	3	3	A relativa entre vírgulas “que preside a comissão” acrescenta informação explicativa sobre o diretor; as demais não exibem essa estrutura.	challenge, explanation, newExample, optionComments, options
+Q-POR-19-003-03	POR-19	POR-19-003	exceto	2	2	Retirar ou inserir vírgulas pode converter relativa restritiva em explicativa e alterar o conjunto referido; por isso “nunca” é falso.	challenge, newExample
+Q-POR-19-003-04	POR-19	POR-19-003	vf	2	2	Em I, que recupera requerimento; em II, é conjunção integrante após informaram; em III, as vírgulas marcam explicativa: V–F–V.	challenge, newExample
+Q-POR-19-004-01	POR-19	POR-19-004	ce	1	1	“Embora” instaura concessão: estudar não impediu o erro, mas não se afirma que o estudo tenha sido sua causa.	challenge, newExample, optionComments
+Q-POR-19-004-02	POR-19	POR-19-004	classica	1	1	A oração com “se” especifica a hipótese de que depende a abertura da turma, sendo condicional.	challenge, newExample
+Q-POR-19-004-03	POR-19	POR-19-004	lacunas	1	1	“Embora” sinaliza concessão; “quando” remete ao momento futuro; “para que” exprime finalidade com subjuntivo.	challenge, newExample, optionComments, options
+Q-POR-19-004-04	POR-19	POR-19-004	afirmacoes	3	3	“Como” anteposto explica a causa; “tão ... que” expressa consequência; “para que” introduz finalidade: todas verdadeiras.	challenge, newExample
+Q-POR-19-005-01	POR-19	POR-19-005	ce	0	0	“Ao concluir” marca circunstância temporal da ação principal; “quando concluiu” a desenvolve sem trocar essa relação.	challenge, newExample, optionComments
+Q-POR-19-005-02	POR-19	POR-19-005	classica	2	2	“Para que os cadastros fossem conferidos” mantém propósito e exprime sujeito paciente; as demais trocam finalidade por causa, tempo ou concessão.	challenge, newExample
+Q-POR-19-005-03	POR-19	POR-19-005	associacao	0	0	“Apesar de” marca concessão, “para” finalidade, e o particípio “concluída” situa temporalmente a liberação posterior.	challenge, newExample
+Q-POR-19-005-04	POR-19	POR-19-005	exceto	2	2	A reescrita com “como obteve” transforma finalidade em suposta causa factual; as demais mantêm o nexo central.	challenge, newExample
+Q-POR-20-001-01	POR-20	POR-20-001	ce	0	0	“Senhores candidatos” é vocativo e, por ser chamamento, se separa da ordem mediante vírgula.	challenge, newExample, optionComments
+Q-POR-20-001-02	POR-20	POR-20-001	classica	3	3	Para tratar “responsável pelo projeto” como informação intercalada sobre “a coordenadora”, devem-se usar duas vírgulas; as outras posições rompem unidades sintáticas.	challenge, newExample
+Q-POR-20-001-03	POR-20	POR-20-001	vf	0	0	A e B isolam vocativo/intercalação; C afirma exclusividade inexistente para adjunto adverbial inicial curto; D enumera objetos: V–V–F–V.	challenge, newExample
+Q-POR-20-001-04	POR-20	POR-20-001	lacunas	1	1	O vocativo inicial pede vírgula; a expressão apositiva “responsável pela avaliação”, se explicativa, exige abertura e fechamento.	challenge, explanation, newExample, stem
+Q-POR-20-002-01	POR-20	POR-20-002	ce	1	1	Não se separa “informou” de sua subordinada substantiva objetiva direta com vírgula nessas condições.	challenge, newExample, optionComments
+Q-POR-20-002-02	POR-20	POR-20-002	classica	0	0	A condicional anteposta “Se a senha for confirmada” recebe vírgula na ordem apresentada; nas demais há cortes entre sujeito e verbo ou verbo e complemento.	challenge, newExample
+Q-POR-20-002-03	POR-20	POR-20-002	afirmacoes	1	1	I é concessiva anteposta isolada, II corta verbo e objeto oracional indevidamente, III é adjetiva explicativa: apenas I e III.	challenge, newExample
+Q-POR-20-002-04	POR-20	POR-20-002	exceto	2	2	A vírgula em “informou, que ...” separa verbo do objeto direto oracional; as outras pontuações possuem justificativa sintática.	challenge, newExample
+Q-POR-20-003-01	POR-20	POR-20-003	ce	0	0	O sujeito “Os certificados apresentados pela equipe” não deve ser separado por vírgula do predicado “estavam incompletos”.	challenge, newExample, optionComments
+Q-POR-20-003-02	POR-20	POR-20-003	classica	2	2	A frase sem vírgula entre publicou e o comunicado conserva a unidade verbo–objeto; as outras introduzem cortes sem função.	challenge, newExample, optionComments, options
+Q-POR-20-003-03	POR-20	POR-20-003	vf	0	0	I quebra sujeito e verbo; II intercala adjunto, III quebra verbo e objeto, IV separa a conjunção integrante de sua oração: V–V–V–F.	challenge, newExample
+Q-POR-20-003-04	POR-20	POR-20-003	exceto	2	2	“A comissão, reuniu ...” separa sujeito e verbo; as outras têm adjuntos antepostos/intercalados ou oração em ordem direta.	challenge, newExample
+Q-POR-20-004-01	POR-20	POR-20-004	ce	0	0	Dois-pontos apresentam discriminação; o ponto e vírgula separa dois blocos estruturados com elipse de verbo.	challenge, newExample, optionComments
+Q-POR-20-004-02	POR-20	POR-20-004	classica	1	1	Os dois-pontos introduzem a lista enumerativa que especifica os três anexos; os demais sinais não cumprem tal função.	challenge, newExample
+Q-POR-20-004-03	POR-20	POR-20-004	associacao	1	1	I introduz explicação após isto; II separa blocos paralelos que já contêm vírgulas; III isola uma intercalação explicativa.	challenge, newExample
+Q-POR-20-004-04	POR-20	POR-20-004	vf	0	0	Dois-pontos podem explicar, ponto e vírgula separa blocos complexos, travessões isolam intercalação; travessão não indica somente fala: V–V–V–F.	challenge, newExample
+Q-POR-20-005-01	POR-20	POR-20-005	ce	0	0	A relativa sem vírgulas seleciona subconjunto; com vírgulas, comenta grupo já delimitado. O alcance pode mudar.	challenge, newExample, optionComments
+Q-POR-20-005-02	POR-20	POR-20-005	classica	1	1	“Não, autorizo” permite negar algo antes de autorizar; sem vírgula, “não” incide diretamente sobre “autorizo”.	challenge, explanation, newExample, stem
+Q-POR-20-005-03	POR-20	POR-20-005	afirmacoes	0	0	A primeira relativa é restritiva, a segunda explicativa; a mudança pode alterar abrangência: apenas I e II.	challenge, newExample
+Q-POR-20-005-04	POR-20	POR-20-005	exceto	2	2	A passagem de restritiva a explicativa muda potencialmente quais inscritos são chamados; as outras mantêm a relação principal.	challenge, newExample
+Q-POR-21-001-01	POR-21	POR-21-001	ce	0	0	“Me” antecede “avisou”, portanto é próclise; “ninguém” funciona como elemento atrativo.	challenge, newExample, optionComments
+Q-POR-21-001-02	POR-21	POR-21-001	classica	3	3	Em “Entregaram-me”, o átono vem depois do verbo; “dir-se-ia” é mesóclise e os demais exemplos são de próclise.	challenge, newExample
+Q-POR-21-001-03	POR-21	POR-21-001	vf	0	0	“Avisaram-me” é ênclise; “Nunca me avisaram” próclise; “Avisar-me-ão” mesóclise. Hífen não torna todo caso mesóclise: V–V–V–F.	challenge, newExample
+Q-POR-21-001-04	POR-21	POR-21-001	associacao	1	1	Em “não nos”, o pronome antecede o verbo; em “chamaram-nos”, segue-o; em “chamar-nos-ão”, intercala-se no futuro.	challenge, newExample
+Q-POR-21-002-01	POR-21	POR-21-002	ce	1	1	A palavra negativa “ninguém” atrai o átono na tradição formal: “ninguém me informou”, não “ninguém informou-me”.	challenge, newExample, optionComments
+Q-POR-21-002-02	POR-21	POR-21-002	classica	1	1	O “que” relativo atrai “se” para a posição anterior a “perdeu”, formando “que se perdeu”.	challenge, newExample
+Q-POR-21-002-03	POR-21	POR-21-002	lacunas	0	0	“Ninguém”, o relativo “que” e a conjunção “que” favorecem próclise: me avisou, me enviaram, me informem, respeitando pessoas e tempos pedidos.	challenge, newExample, stem
+Q-POR-21-002-04	POR-21	POR-21-002	exceto	3	3	“Jamais” atrai próclise; “Jamais informaram-me” viola a colocação tradicional, ao contrário dos três outros exemplos.	challenge, newExample
+Q-POR-21-003-01	POR-21	POR-21-003	ce	0	0	No início do período formal sem palavra atrativa, “Envie-me” usa ênclise; o imperativo afirmativo é contexto compatível.	challenge, newExample, optionComments
+Q-POR-21-003-02	POR-21	POR-21-003	classica	2	2	“Entreguem-me” usa ênclise com imperativo afirmativo; “não” atrairia próclise e a vírgula isolando clítico é indevida.	challenge, explanation, newExample, optionComments
+Q-POR-21-003-03	POR-21	POR-21-003	afirmacoes	0	0	I e II exemplificam ênclise inicial e próclise com não; III não corresponde à prescrição tradicional para início formal.	challenge, newExample
+Q-POR-21-003-04	POR-21	POR-21-003	vf	0	0	“Comunique-me” e “Não me comunique” seguem ênclise e próclise; “Comunique, me” está pontuado indevidamente: V–V–F–V.	challenge, newExample
+Q-POR-21-004-01	POR-21	POR-21-004	ce	1	1	“Não” é palavra atrativa e impede a mesóclise “dir-lhe-ei”; “não lhe direi” é a colocação formal.	challenge, newExample, optionComments
+Q-POR-21-004-02	POR-21	POR-21-004	classica	2	2	“Enviar-me-ão” intercala o pronome no futuro do presente sem palavra atrativa, ao passo que não me enviarão usa próclise.	challenge, newExample
+Q-POR-21-004-03	POR-21	POR-21-004	lacunas	0	0	Sem atrator e com futuro, “informar-lhes-ei” é mesóclise; com “não”, usa-se “não lhes informarei”.	challenge, explanation, newExample, stem
+Q-POR-21-004-04	POR-21	POR-21-004	exceto	3	3	“Nunca” atrai próclise e bloqueia a mesóclise em “nunca enviar-lhe-ei”. As demais são adequadas à norma formal delimitada.	challenge, newExample
+Q-POR-21-005-01	POR-21	POR-21-005	ce	0	0	O particípio não recebe ênclise na norma tradicional da locução verbal; o clítico deve vincular-se ao auxiliar.	challenge, newExample, optionComments
+Q-POR-21-005-02	POR-21	POR-21-005	classica	1	1	“Havia-me encaminhado” coloca o clítico depois do auxiliar; “encaminhado-me” prende clítico ao particípio e não é admitido nesse padrão.	challenge, explanation, newExample, stem
+Q-POR-21-005-03	POR-21	POR-21-005	vf	0	0	I usa ênclise ao auxiliar, II liga indevidamente ao particípio, III usa próclise com não, IV generaliza regra falsa: V–F–V–F.	challenge, newExample
+Q-POR-21-005-04	POR-21	POR-21-005	associacao	0	0	I é próclise ao auxiliar pela negação, II é ênclise ao auxiliar e III liga indevidamente pronome ao particípio.	challenge, newExample
+Q-POR-22-001-01	POR-22	POR-22-001	ce	1	1	“Alguns” não abrange necessariamente a totalidade; trocar por “todos” amplia a proposição e pode alterar sua verdade.	optionComments
+Q-POR-22-001-02	POR-22	POR-22-001	lacunas	1	1	“Em razão de” preserva a causa do adiamento; “apesar de” é concessão, “a fim de” finalidade, “desde que” condição.	
+Q-POR-22-001-03	POR-22	POR-22-001	afirmacoes	2	2	A equivalência I mantém o restritor apenas/somente; III preserva a concessão; II amplia para todos os cursos.	
+Q-POR-22-001-04	POR-22	POR-22-001	exceto	3	3	O original expressa possibilidade condicionada a novos documentos; a alternativa 3 transforma possibilidade em obrigação incondicional.	optionComments, options
+Q-POR-22-002-01	POR-22	POR-22-002	ce	0	0	A passiva “foram analisadas” mantém as propostas como paciente, a comissão como agente e o pretérito perfeito.	optionComments
+Q-POR-22-002-02	POR-22	POR-22-002	associacao	2	2	“Foram publicados” é passiva analítica, “publicou” é ativa e “publicaram-se” é passiva sintética: 2–1–3.	
+Q-POR-22-002-03	POR-22	POR-22-002	classica	1	1	O futuro do presente “conferirão” exige “serão conferidos” na passiva, com documentos como sujeito paciente.	
+Q-POR-22-002-04	POR-22	POR-22-002	exceto	2	2	“Haver” existencial impessoal não admite a passivização direta “foram havidos”; as outras nominalizações/passivas são possíveis.	stem
+Q-POR-22-003-01	POR-22	POR-22-003	ce	1	1	A coordenação alterna verbo no infinitivo e sintagma nominal sem estrutura paralela: o paralelismo não é pleno.	optionComments
+Q-POR-22-003-02	POR-22	POR-22-003	classica	3	3	Dois infinitivos coordenados — ampliar e reduzir — preservam as duas metas com simetria sintática.	
+Q-POR-22-003-03	POR-22	POR-22-003	afirmacoes	2	2	I nominaliza duas ações simetricamente; II mistura nome e verbo, III coordena infinitivos, logo apenas I e III.	
+Q-POR-22-003-04	POR-22	POR-22-003	associacao	1	1	I compara serviço digital a guichês (referentes não homogêneos), II combina complementos de estruturas diferentes, III coordena dois infinitivos.	explanation, optionComments, stem
+Q-POR-22-004-01	POR-22	POR-22-004	ce	1	1	“Sua” pode retomar a diretora ou a analista; a frase isolada não identifica sem ambiguidade a possuidora da proposta.	optionComments
+Q-POR-22-004-02	POR-22	POR-22-004	lacunas	2	2	Não se deve escolher arbitrariamente o referente: primeiro se identifica a pessoa pretendida e depois se explicita a posse.	
+Q-POR-22-004-03	POR-22	POR-22-004	classica	3	3	“Com os binóculos” admite associação a quem observa ou à pessoa observada; a revisão precisa esclarecer o instrumento.	
+Q-POR-22-004-04	POR-22	POR-22-004	exceto	1	1	A informação “por escrito” especifica um modo de confirmação; suprimi-la pode retirar um dado verificável, ao contrário de redundâncias estritas.	explanation, optionComments, options
+Q-POR-22-005-01	POR-22	POR-22-005	ce	0	0	A relativa restritiva delimita quais editais serão publicados; com vírgulas, passa a comentar um conjunto já identificado.	optionComments
+Q-POR-22-005-02	POR-22	POR-22-005	classica	1	1	“Precisa-se de técnicos” apresenta sujeito indeterminado e complemento indireto, conservando o verbo singular.	optionComments
+Q-POR-22-005-03	POR-22	POR-22-005	afirmacoes	2	2	O primeiro “que” introduz conteúdo afirmado, o segundo restringe candidatos; a alteração para futuro muda a previsão e vírgulas podem mudar referência.	
+Q-POR-22-005-04	POR-22	POR-22-005	vf	0	0	“Publicaram-se” é passiva sintética plural; “precisa-se de” fica singular; relativa entre vírgulas é explicativa; “embora” não conserva causalidade: V–F–V–F.	
+Q-POR-23-001-01	POR-23	POR-23-001	ce	0	0	No contexto de leitura, “Machado de Assis” designa obras do autor por relação autor–obra, isto é, metonímia.	optionComments
+Q-POR-23-001-02	POR-23	POR-23-001	associacao	0	0	“Arquivo é labirinto” usa analogia implícita; “palco” remete a artistas por contiguidade; “parece labirinto” explicita comparação.	stem
+Q-POR-23-001-03	POR-23	POR-23-001	classica	1	1	A frase associa livro a janela por semelhança funcional de acesso a outros mundos; isso constitui metáfora.	
+Q-POR-23-001-04	POR-23	POR-23-001	exceto	3	3	Copo pelo conteúdo exemplifica relação recipiente–conteúdo (metonímia), não semelhança metafórica.	
+Q-POR-23-002-01	POR-23	POR-23-002	ce	0	0	“Cheia” e “ausências” podem formar paradoxo expressivo se o contexto opõe presença física a lembranças.	optionComments
+Q-POR-23-002-02	POR-23	POR-23-002	afirmacoes	3	3	I põe condutas opostas em contraste; II reúne dor e alegria numa tensão expressiva; III atenua referência a falecimento: todas possíveis no contexto.	
+Q-POR-23-002-03	POR-23	POR-23-002	associacao	3	3	“Reduzir quadro” suaviza demissões, “ausência... presença” produz aparente contradição, “silenciaram... protestaram” opõe ações.	stem
+Q-POR-23-002-04	POR-23	POR-23-002	exceto	2	2	Eufemismo pode suavizar, mas não garante precisão; em comunicação oficial pode ocultar informação indispensável.	
+Q-POR-23-003-01	POR-23	POR-23-003	ce	0	0	“Reclamar” é ato humano atribuído a relógio, constituindo personificação.	optionComments
+Q-POR-23-003-02	POR-23	POR-23-003	classica	1	1	“Mil vidas” exagera intencionalmente o tempo de espera, configurando hipérbole.	stem
+Q-POR-23-003-03	POR-23	POR-23-003	vf	1	1	O elogio literal pode ser irônico diante de atraso; sem contexto pode ser sincero; ironia não exige “não”: V–V–F–V.	
+Q-POR-23-003-04	POR-23	POR-23-003	associacao	0	0	O vento protesta (personificação); dez séculos exagera espera (hipérbole); elogio após atraso é ironia: 2–1–3.	
+Q-POR-23-004-01	POR-23	POR-23-004	ce	0	0	“Paulo, o anexo” omite o verbo corrigiu já empregado anteriormente, caso de zeugma.	optionComments
+Q-POR-23-004-02	POR-23	POR-23-004	associacao	2	2	“Bruno, duas” omite leu; “vi com meus próprios olhos” repete semanticamente para enfatizar; “Da praça vinham” inverte ordem.	
+Q-POR-23-004-03	POR-23	POR-23-004	classica	0	0	“Com meus próprios olhos” repete a ideia de testemunho visual para reforçá-la, pleonasmo expressivo no contexto de crônica.	
+Q-POR-23-004-04	POR-23	POR-23-004	vf	2	2	I omite assinou, II desloca o objeto, III é redundância de direção, IV erra ao atribuir erro obrigatório à elipse: V–V–V–F.	stem
+Q-POR-23-005-01	POR-23	POR-23-005	ce	1	1	Uma cidade não desperta sorrindo literalmente como pessoa; a crônica permite personificação da cidade.	optionComments
+Q-POR-23-005-02	POR-23	POR-23-005	classica	2	2	O cartaz usa “abrir caminhos” figuradamente para sugerir acesso a conhecimentos e experiências, sem exclusividade.	
+Q-POR-23-005-03	POR-23	POR-23-005	afirmacoes	2	2	“O rio rugiu de fúria” pode intensificar expressividade, mas deixa de informar a medida objetiva de 2,5 metros, relevante ao risco.	explanation, stem
+Q-POR-23-005-04	POR-23	POR-23-005	exceto	2	2	A interpretação de metáfora, ironia e outras figuras depende de gênero, público e contexto, não de efeito invariável.	

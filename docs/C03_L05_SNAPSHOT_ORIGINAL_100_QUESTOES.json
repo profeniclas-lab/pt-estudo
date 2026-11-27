@@ -1,0 +1,3014 @@
+{
+  "POR-19": [
+    {
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "No período “A lista foi divulgada, mas alguns candidatos apresentaram recurso”, a segunda oração é coordenada sindética adversativa.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: O conectivo “mas” liga duas orações relativamente independentes e introduz uma oposição à expectativa de encerramento do processo.",
+        "Incorreta: O conectivo “mas” liga duas orações relativamente independentes e introduz uma oposição à expectativa de encerramento do processo."
+      ],
+      "explanation": "O conectivo “mas” liga duas orações relativamente independentes e introduz uma oposição à expectativa de encerramento do processo.",
+      "concept": "Orações coordenadas conservam autonomia sintática relativa; a ligação pode ocorrer sem conjunção (assindética) ou com conjunção (sindética). O conectivo sinaliza relação discursiva.",
+      "trap": "A existência de sequência cronológica não elimina o valor adversativo da conjunção.",
+      "examTip": "Localize os verbos “foi divulgada” e “apresentaram” e observe o contraste assinalado por “mas”.",
+      "newExample": "“Os documentos foram recebidos, porém ainda precisam de conferência” repete a relação adversativa.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-19-001-01",
+      "moduleId": "POR-19",
+      "subtopicId": "POR-19-001",
+      "topic": "Orações coordenadas sindéticas e assindéticas",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Em “Os fiscais conferiram as salas, portanto a aplicação começou”, qual a relação sinalizada por “portanto”?",
+      "options": [
+        "Adição: inclui um segundo fato sem conexão argumentativa.",
+        "Conclusão: a segunda oração apresenta desfecho argumentativo.",
+        "Alternância: oferece duas opções mutuamente excludentes.",
+        "Explicação: apresenta a causa de uma ordem anterior."
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: portanto assinala conclusão derivada do fato anterior, não simples acréscimo.",
+        "Correta: portanto é conjunção coordenativa conclusiva no período apresentado.",
+        "Incorreta: não há estrutura alternativa como “ou...ou”, mas uma conclusão.",
+        "Incorreta: o segundo segmento constitui consequência inferida, e não justificativa de imperativo anterior."
+      ],
+      "explanation": "O conectivo “portanto” estabelece conclusão: a conferência das salas fundamenta o início da aplicação.",
+      "concept": "Orações coordenadas conservam autonomia sintática relativa; a ligação pode ocorrer sem conjunção (assindética) ou com conjunção (sindética). O conectivo sinaliza relação discursiva.",
+      "trap": "Confundir uma conclusão com a causa que a sustenta altera o sentido do conectivo.",
+      "examTip": "Substitua “portanto” por “logo” e verifique se o nexo se mantém.",
+      "newExample": "“O sistema validou as inscrições, logo a lista pôde ser publicada”.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-19-001-02",
+      "moduleId": "POR-19",
+      "subtopicId": "POR-19-001",
+      "topic": "Orações coordenadas sindéticas e assindéticas",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "vf",
+      "difficulty": "dificil",
+      "stem": "Classifique como V ou F: I. “O acesso abriu, os usuários entraram” tem coordenação assindética. II. “A fila aumentou, porém o atendimento prosseguiu” exprime oposição. III. “Estude, pois há prova amanhã” apresenta justificativa. IV. Em “Envie o documento ou aguarde”, “ou” indica conclusão.",
+      "options": [
+        "V, V, V, F.",
+        "V, F, V, F.",
+        "F, V, V, F.",
+        "V, V, F, V."
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: I é assindética; II adversativa; III explicativa; IV é alternativa, não conclusiva.",
+        "Incorreta: porém indica precisamente oposição, tornando II verdadeira.",
+        "Incorreta: a justaposição sem conjunção em I caracteriza coordenação assindética.",
+        "Incorreta: pois justifica a orientação, e “ou” não converte opções em conclusão."
+      ],
+      "explanation": "Oração assindética dispensa conjunção; porém marca adversidade; pois justifica a ordem; ou estabelece alternativa.",
+      "concept": "Orações coordenadas conservam autonomia sintática relativa; a ligação pode ocorrer sem conjunção (assindética) ou com conjunção (sindética). O conectivo sinaliza relação discursiva.",
+      "trap": "O item IV tenta atribuir valor conclusivo a um conectivo nitidamente alternativo.",
+      "examTip": "Julgue cada trecho pela função discursiva, não pela pontuação isolada.",
+      "newExample": "“Assine o formulário ou solicite auxílio” também estabelece alternativas.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-19-001-03",
+      "moduleId": "POR-19",
+      "subtopicId": "POR-19-001",
+      "topic": "Orações coordenadas sindéticas e assindéticas",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "Assinale a alternativa cuja classificação da oração coordenada introduzida pelo conectivo está INCORRETA.",
+      "options": [
+        "“O prazo venceu, mas o setor manteve o plantão” — adversativa.",
+        "“O relatório está pronto, logo pode ser enviado” — conclusiva.",
+        "“Ou revisamos os dados, ou adiaremos o envio” — alternativa.",
+        "“Concluímos a análise, porém faltam assinaturas” — explicativa."
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Incorreta como resposta: mas realmente introduz coordenada adversativa.",
+        "Incorreta como resposta: logo assinala conclusão ou consequência argumentativa.",
+        "Incorreta como resposta: a correlação ou...ou exprime alternância.",
+        "Correta como resposta EXCETO: porém é adversativo, e não explicativo, pois contrapõe conclusão e pendência."
+      ],
+      "explanation": "A coordenação introduzida por “porém” é adversativa: a pendência contrasta com a conclusão da análise.",
+      "concept": "Orações coordenadas conservam autonomia sintática relativa; a ligação pode ocorrer sem conjunção (assindética) ou com conjunção (sindética). O conectivo sinaliza relação discursiva.",
+      "trap": "O comando EXCETO exige localizar um único rótulo falso entre classificações verdadeiras.",
+      "examTip": "Troque “porém” por “mas” para reconhecer o sentido opositivo.",
+      "newExample": "“Foi aprovado, todavia exige revisão” usa outra conjunção adversativa.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-19-001-04",
+      "moduleId": "POR-19",
+      "subtopicId": "POR-19-001",
+      "topic": "Orações coordenadas sindéticas e assindéticas",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Em “É importante que todos conheçam o regulamento”, a oração iniciada por “que” exerce a função de objeto direto do verbo ser.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: “Que todos conheçam o regulamento” funciona como sujeito da estrutura “é importante”: “Isso é importante”. Trata-se de substantiva subjetiva.",
+        "Correta: “Que todos conheçam o regulamento” funciona como sujeito da estrutura “é importante”: “Isso é importante”. Trata-se de substantiva subjetiva."
+      ],
+      "explanation": "“Que todos conheçam o regulamento” funciona como sujeito da estrutura “é importante”: “Isso é importante”. Trata-se de substantiva subjetiva.",
+      "concept": "A oração subordinada substantiva ocupa, em relação à principal, posição sintática equivalente à de um substantivo ou sintagma nominal.",
+      "trap": "A proximidade de “ser” não transforma qualquer subordinada que vem depois em objeto direto.",
+      "examTip": "Faça o teste “Isso é importante” e identifique o sujeito, não apenas a posição da oração.",
+      "newExample": "“É desejável que o sistema funcione” também apresenta subordinada substantiva subjetiva.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-19-002-01",
+      "moduleId": "POR-19",
+      "subtopicId": "POR-19-002",
+      "topic": "Subordinadas substantivas e funções",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Em “A direção comunicou que a reunião foi adiada”, qual a função da oração “que a reunião foi adiada”?",
+      "options": [
+        "Sujeito de “comunicou”, pois vem depois do verbo.",
+        "Oração adjetiva, pois “que” retoma direção.",
+        "Objeto direto do verbo “comunicou”.",
+        "Adjunto adverbial de tempo da comunicação."
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta: o sujeito de comunicou é “A direção”; a oração fornece o conteúdo comunicado.",
+        "Incorreta: que é conjunção integrante e não retoma o substantivo direção.",
+        "Correta: comunicou isso; a oração completa o verbo transitivo diretamente.",
+        "Incorreta: a subordinada relata o conteúdo da comunicação, não quando ela ocorreu."
+      ],
+      "explanation": "O verbo comunicar admite objeto direto representado por uma oração substantiva introduzida pela conjunção integrante que.",
+      "concept": "A oração subordinada substantiva ocupa, em relação à principal, posição sintática equivalente à de um substantivo ou sintagma nominal.",
+      "trap": "A palavra “que” também pode ser pronome relativo, mas não possui antecedente nesse período.",
+      "examTip": "Substitua toda a subordinada por “isso”: “A direção comunicou isso”.",
+      "newExample": "“O setor explicou que o cadastro mudou” também contém objeto direto oracional.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-19-002-02",
+      "moduleId": "POR-19",
+      "subtopicId": "POR-19-002",
+      "topic": "Subordinadas substantivas e funções",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "afirmacoes",
+      "difficulty": "dificil",
+      "stem": "Julgue as análises: I. “Desejo que você compareça”: substantiva objetiva direta. II. “Tenho certeza de que virá”: substantiva completiva nominal. III. “O problema é que falta energia”: substantiva predicativa. Qual alternativa está correta?",
+      "options": [
+        "Apenas I e II.",
+        "Apenas II e III.",
+        "I, II e III.",
+        "Apenas I e III."
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta: III também é correta, pois a subordinada funciona como predicativo do sujeito problema.",
+        "Incorreta: I é correta: desejo isso, sendo a subordinada objeto direto de desejo.",
+        "Correta: I completa desejo, II completa o nome certeza e III predica o sujeito problema.",
+        "Incorreta: II é completiva nominal por integrar “certeza de ...”, e também está correta."
+      ],
+      "explanation": "A mesma conjunção integrante pode introduzir funções diferentes: objeto direto, complemento de nome e predicativo, conforme a estrutura regente.",
+      "concept": "A oração subordinada substantiva ocupa, em relação à principal, posição sintática equivalente à de um substantivo ou sintagma nominal.",
+      "trap": "Classificar pela palavra “que” sem investigar a regência apaga a diferença entre as três funções.",
+      "examTip": "Substitua as orações por “isso”: “desejo isso”, “certeza disso” e “o problema é isso”.",
+      "newExample": "“A certeza de que vencerão animou a equipe” traz completiva nominal integrada ao sujeito.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-19-002-03",
+      "moduleId": "POR-19",
+      "subtopicId": "POR-19-002",
+      "topic": "Subordinadas substantivas e funções",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "associacao",
+      "difficulty": "dificil",
+      "stem": "Associe as construções I–III à função da subordinada: I. “Convém que todos participem.” II. “O gerente pediu que aguardassem.” III. “Só solicitou isto: que a resposta fosse clara.” Qual associação é correta?",
+      "options": [
+        "I objetiva direta; II subjetiva; III predicativa.",
+        "I subjetiva; II objetiva direta; III apositiva.",
+        "I subjetiva; II completiva nominal; III objetiva indireta.",
+        "I predicativa; II objetiva direta; III subjetiva."
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: convém exige sujeito oracional, pediu exige objeto e isto é explicado por aposto.",
+        "Correta: a oração é sujeito de convém, objeto direto de pediu e aposto esclarecedor de isto.",
+        "Incorreta: pediu rege objeto direto e a construção após dois-pontos explica isto.",
+        "Incorreta: não há verbo de ligação predicando sujeito em I, nem função de sujeito em III."
+      ],
+      "explanation": "“Que todos participem” é sujeito de convém; “que aguardassem” completa pediu; “que a resposta fosse clara” explica o demonstrativo isto.",
+      "concept": "A oração subordinada substantiva ocupa, em relação à principal, posição sintática equivalente à de um substantivo ou sintagma nominal.",
+      "trap": "A ordem pós-verbal não basta para determinar a função sintática da subordinada.",
+      "examTip": "Identifique o termo regente: convém [algo], pediu [algo], isto: [esclarecimento].",
+      "newExample": "“Importa que todos saibam; informei que todos sabem; peço isto: que todos venham” reproduz as três funções.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-19-002-04",
+      "moduleId": "POR-19",
+      "subtopicId": "POR-19-002",
+      "topic": "Subordinadas substantivas e funções",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Em “Os candidatos que entregaram os comprovantes foram chamados”, a oração “que entregaram os comprovantes” restringe o grupo de candidatos referido.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: A oração relativa sem vírgulas seleciona o subconjunto dos candidatos que entregaram os comprovantes; é subordinada adjetiva restritiva.",
+        "Incorreta: A oração relativa sem vírgulas seleciona o subconjunto dos candidatos que entregaram os comprovantes; é subordinada adjetiva restritiva."
+      ],
+      "explanation": "A oração relativa sem vírgulas seleciona o subconjunto dos candidatos que entregaram os comprovantes; é subordinada adjetiva restritiva.",
+      "concept": "Orações subordinadas adjetivas caracterizam um antecedente e costumam ser iniciadas por pronome relativo. A restritiva delimita o conjunto; a explicativa acrescenta informação acessória.",
+      "trap": "O fato de a informação ser importante não faz da oração uma explicativa sem vírgulas.",
+      "examTip": "Observe se a oração delimita quais candidatos são mencionados.",
+      "newExample": "“Os alunos que concluíram o curso receberam certificado” também contém relativa restritiva.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-19-003-01",
+      "moduleId": "POR-19",
+      "subtopicId": "POR-19-003",
+      "topic": "Subordinadas adjetivas restritivas e explicativas",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Qual alternativa contém uma oração adjetiva explicativa claramente isolada por vírgulas?",
+      "options": [
+        "Os relatórios que estavam incompletos voltaram para revisão.",
+        "A comissão informou que os resultados saíram.",
+        "Os servidores que participaram receberam o aviso.",
+        "O diretor, que preside a comissão, assinou a ata."
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Incorreta: sem vírgulas, “que estavam incompletos” restringe quais relatórios voltaram.",
+        "Incorreta: “que os resultados saíram” é substantiva objetiva direta, não adjetiva.",
+        "Incorreta: a relativa sem vírgulas seleciona os servidores participantes.",
+        "Correta: “que preside a comissão” acrescenta informação explicativa sobre o diretor referido."
+      ],
+      "explanation": "A relativa “que preside a comissão” caracteriza diretor e aparece entre vírgulas, com valor explicativo.",
+      "concept": "Orações subordinadas adjetivas caracterizam um antecedente e costumam ser iniciadas por pronome relativo. A restritiva delimita o conjunto; a explicativa acrescenta informação acessória.",
+      "trap": "A simples presença de “que” é insuficiente para classificar uma subordinada como adjetiva.",
+      "examTip": "Confirme o antecedente de que e a presença de intercalação explicativa.",
+      "newExample": "“A servidora, que coordenou o projeto, explicou a decisão” apresenta relativa explicativa.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-19-003-02",
+      "moduleId": "POR-19",
+      "subtopicId": "POR-19-003",
+      "topic": "Subordinadas adjetivas restritivas e explicativas",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "Sobre restritivas e explicativas, todas as afirmações estão corretas, EXCETO:",
+      "options": [
+        "“As propostas que chegaram hoje” identifica parte das propostas.",
+        "“As propostas, que chegaram hoje,” pode apresentar a chegada como comentário sobre o grupo referido.",
+        "A inserção de vírgulas entre as relativas nunca modifica o alcance da referência.",
+        "O “que” relativo retoma um antecedente nominal."
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta como resposta: a relativa sem vírgulas restringe o conjunto de propostas.",
+        "Incorreta como resposta: o isolamento por vírgulas dá leitura explicativa ao grupo contextualizado.",
+        "Correta como EXCETO: vírgulas podem trocar leitura restritiva por explicativa e alterar o conjunto referido.",
+        "Incorreta como resposta: a retomada do antecedente é traço do pronome relativo."
+      ],
+      "explanation": "Pontuar uma relativa pode afetar sua natureza e a extensão do conjunto referido; não é sempre troca estilística indiferente.",
+      "concept": "Orações subordinadas adjetivas caracterizam um antecedente e costumam ser iniciadas por pronome relativo. A restritiva delimita o conjunto; a explicativa acrescenta informação acessória.",
+      "trap": "O advérbio “nunca” tenta impor regra absoluta contrária aos efeitos semânticos da pontuação.",
+      "examTip": "Compare quem recebe a ação antes e depois das vírgulas na mesma oração.",
+      "newExample": "“Os fiscais que chegaram cedo entraram” versus “Os fiscais, que chegaram cedo, entraram” altera a delimitação.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-19-003-03",
+      "moduleId": "POR-19",
+      "subtopicId": "POR-19-003",
+      "topic": "Subordinadas adjetivas restritivas e explicativas",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "vf",
+      "difficulty": "dificil",
+      "stem": "Julgue V/F: I. Em “O requerimento que chegou ontem foi aceito”, “que” retoma requerimento. II. Em “Informaram que chegou um requerimento”, “que” retoma requerimento como relativo. III. Em “Os técnicos, que estavam presentes, votaram”, a relativa é explicativa.",
+      "options": [
+        "V, V, F.",
+        "F, F, V.",
+        "V, F, V.",
+        "V, F, F."
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta: o que do item II é integrante, e a relativa do item III é explicativa.",
+        "Incorreta: o “que” de I é pronome relativo e retoma requerimento.",
+        "Correta: I tem relativo; II conjunção integrante; III relativa entre vírgulas explicativa.",
+        "Incorreta: III é explicativa, porque o segmento adjetivo aparece entre vírgulas."
+      ],
+      "explanation": "O relativo retoma antecedente; a conjunção integrante introduz conteúdo subordinado ao verbo informar; vírgulas isolam a relativa explicativa.",
+      "concept": "Orações subordinadas adjetivas caracterizam um antecedente e costumam ser iniciadas por pronome relativo. A restritiva delimita o conjunto; a explicativa acrescenta informação acessória.",
+      "trap": "Ver “que” em dois períodos distintos pode induzir classificação idêntica sem observar o antecedente.",
+      "examTip": "Pergunte se “que” equivale a “o qual” em cada caso; no item II, não equivale.",
+      "newExample": "“A lei que mudou vigora” versus “Noticiaram que a lei mudou” demonstra as duas funções.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-19-003-04",
+      "moduleId": "POR-19",
+      "subtopicId": "POR-19-003",
+      "topic": "Subordinadas adjetivas restritivas e explicativas",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Em “Embora tenha estudado, o candidato errou a questão”, a oração inicial exprime uma causa direta do erro.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: “Embora” expressa concessão: estudar poderia sugerir acerto, mas não impediu o erro. Não apresenta a causa responsável pelo erro.",
+        "Correta: “Embora” expressa concessão: estudar poderia sugerir acerto, mas não impediu o erro. Não apresenta a causa responsável pelo erro."
+      ],
+      "explanation": "“Embora” expressa concessão: estudar poderia sugerir acerto, mas não impediu o erro. Não apresenta a causa responsável pelo erro.",
+      "concept": "A oração adverbial expressa circunstância ou relação lógica em torno da oração principal: condição, causa, tempo, finalidade, concessão, consequência etc.",
+      "trap": "Confundir obstáculo superado com explicação causal altera o encadeamento argumentativo.",
+      "examTip": "Parafraseie com “apesar de”: “Apesar de ter estudado, errou”.",
+      "newExample": "“Embora estivesse preparado, precisou rever o conteúdo” também exprime concessão.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-19-004-01",
+      "moduleId": "POR-19",
+      "subtopicId": "POR-19-004",
+      "topic": "Subordinadas adverbiais e valores semânticos",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Que relação a oração inicial estabelece em “Se houver inscrições suficientes, a turma será aberta”?",
+      "options": [
+        "Concessão, pois um obstáculo não impede o efeito.",
+        "Condição, pois a abertura depende de hipótese expressa.",
+        "Consequência, pois indica resultado de intensidade.",
+        "Finalidade, pois descreve objetivo pretendido."
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: a abertura depende de uma hipótese, não ocorre apesar de um obstáculo.",
+        "Correta: “se houver inscrições suficientes” estabelece condição para abertura.",
+        "Incorreta: a oração não emprega estrutura consecutiva como “tão...que”.",
+        "Incorreta: não equivale a “para que” e sim a “caso”."
+      ],
+      "explanation": "O conectivo “se” introduz uma condição hipotética para a abertura da turma.",
+      "concept": "A oração adverbial expressa circunstância ou relação lógica em torno da oração principal: condição, causa, tempo, finalidade, concessão, consequência etc.",
+      "trap": "A possibilidade futura não basta para classificar a oração como finalidade.",
+      "examTip": "Substitua “se” por “caso” e compare a preservação de sentido.",
+      "newExample": "“Caso o edital seja retificado, faremos nova inscrição” também exprime condição.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-19-004-02",
+      "moduleId": "POR-19",
+      "subtopicId": "POR-19-004",
+      "topic": "Subordinadas adverbiais e valores semânticos",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "lacunas",
+      "difficulty": "dificil",
+      "stem": "Complete os períodos preservando os valores indicados: I. “___ chovesse, a prova ocorreu” (concessão). II. “___ o prazo terminar, enviaremos os arquivos” (tempo futuro). III. “Revisamos o texto ___ não haja ambiguidades” (finalidade).",
+      "options": [
+        "Porque — embora — porque.",
+        "Embora — quando — para que.",
+        "Se — porque — apesar de que.",
+        "Quando — se — tanto que."
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: a primeira passa a causa, a segunda concessão, e a terceira causa, contrariando os valores.",
+        "Correta: embora marca concessão; quando marca referência temporal; para que introduz finalidade.",
+        "Incorreta: se é condição; porque é causa; apesar de que não indica finalidade.",
+        "Incorreta: quando introduz tempo; se condição; tanto que não conserva a finalidade."
+      ],
+      "explanation": "As três relações solicitadas se realizam por “embora”, “quando” e “para que”, com flexões verbais adequadas às construções.",
+      "concept": "A oração adverbial expressa circunstância ou relação lógica em torno da oração principal: condição, causa, tempo, finalidade, concessão, consequência etc.",
+      "trap": "A semelhança de conjunções subordinativas pode levar a ignorar a função semântica exigida.",
+      "examTip": "Transforme cada período em paráfrase com “apesar de”, “no momento em que” e “com o objetivo de”.",
+      "newExample": "“Embora houvesse dificuldades, continuaram; quando terminou, saíram; revisaram para que todos entendessem”.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-19-004-03",
+      "moduleId": "POR-19",
+      "subtopicId": "POR-19-004",
+      "topic": "Subordinadas adverbiais e valores semânticos",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "afirmacoes",
+      "difficulty": "dificil",
+      "stem": "Analise: I. “Como o arquivo sumiu, refiz o relatório” exprime causa. II. “O material era tão extenso que a leitura demorou” exprime consequência. III. “A equipe treinou para que todos compreendessem o sistema” exprime finalidade. Assinale a opção correta.",
+      "options": [
+        "Somente I e III.",
+        "Somente II.",
+        "Somente II e III.",
+        "I, II e III."
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Incorreta: a construção tão...que do item II é consecutiva e também está correta.",
+        "Incorreta: como em I introduz causa, e para que em III introduz finalidade.",
+        "Incorreta: I também é verdadeira porque o sumiço explica o refazimento do relatório.",
+        "Correta: causa, consequência de intensidade e finalidade estão adequadamente reconhecidas."
+      ],
+      "explanation": "O contexto causal em I, a construção intensiva consecutiva em II e o propósito com para que em III fundamentam as classificações.",
+      "concept": "A oração adverbial expressa circunstância ou relação lógica em torno da oração principal: condição, causa, tempo, finalidade, concessão, consequência etc.",
+      "trap": "Um “como” causal no início do período pode ser confundido com comparação; o contexto esclarece.",
+      "examTip": "Testar paráfrases “porque”, “de modo que” e “com a intenção de” evita inversões.",
+      "newExample": "“Já que faltou tinta, adiamos; havia tantos candidatos que a sala lotou; treinamos para que todos participassem”.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-19-004-04",
+      "moduleId": "POR-19",
+      "subtopicId": "POR-19-004",
+      "topic": "Subordinadas adverbiais e valores semânticos",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Em “Ao concluir a revisão, a analista enviou o parecer”, “Ao concluir a revisão” pode ser desenvolvido como “Quando concluiu a revisão”, preservando o valor temporal.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: A oração reduzida de infinitivo “ao concluir” pode ser desenvolvida mediante oração temporal com quando, mantendo o mesmo sujeito no contexto.",
+        "Incorreta: A oração reduzida de infinitivo “ao concluir” pode ser desenvolvida mediante oração temporal com quando, mantendo o mesmo sujeito no contexto."
+      ],
+      "explanation": "A oração reduzida de infinitivo “ao concluir” pode ser desenvolvida mediante oração temporal com quando, mantendo o mesmo sujeito no contexto.",
+      "concept": "Orações reduzidas apresentam verbo em infinitivo, gerúndio ou particípio sem a conjunção subordinativa típica da desenvolvida; a expansão precisa conservar a relação expressa.",
+      "trap": "Uma forma reduzida não deve ser classificada apenas pelo infinitivo; é o valor temporal do “ao” que orienta.",
+      "examTip": "Verifique a anterioridade temporal: primeiro concluiu a revisão, depois enviou o parecer.",
+      "newExample": "“Ao terminar o expediente, saiu” corresponde a “Quando terminou o expediente, saiu”.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-19-005-01",
+      "moduleId": "POR-19",
+      "subtopicId": "POR-19-005",
+      "topic": "Orações reduzidas, desenvolvidas e reescritas",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Qual desenvolvimento preserva a relação final em “A equipe se reuniu para conferir os cadastros”?",
+      "options": [
+        "A equipe se reuniu, embora conferisse os cadastros.",
+        "A equipe se reuniu porque conferiu os cadastros.",
+        "A equipe se reuniu para que os cadastros fossem conferidos.",
+        "A equipe se reuniu quando os cadastros foram conferidos."
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta: embora troca finalidade por concessão.",
+        "Incorreta: porque dá uma causa já efetivada, e não o objetivo da reunião.",
+        "Correta: para que mantém a finalidade de conferir os cadastros.",
+        "Incorreta: quando transforma a finalidade em indicação temporal."
+      ],
+      "explanation": "A locução reduzida “para conferir” tem valor final; sua forma desenvolvida pode empregar “para que” e um verbo finito adequado.",
+      "concept": "Orações reduzidas apresentam verbo em infinitivo, gerúndio ou particípio sem a conjunção subordinativa típica da desenvolvida; a expansão precisa conservar a relação expressa.",
+      "trap": "Trocar o conectivo altera a relação lógica mesmo quando as palavras de conteúdo permanecem.",
+      "examTip": "Compare a pergunta “Com que objetivo a equipe se reuniu?” antes e depois da transformação.",
+      "newExample": "“O setor treinou para melhorar a análise” → “O setor treinou para que a análise melhorasse”.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-19-005-02",
+      "moduleId": "POR-19",
+      "subtopicId": "POR-19-005",
+      "topic": "Orações reduzidas, desenvolvidas e reescritas",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "associacao",
+      "difficulty": "dificil",
+      "stem": "Associe as reduzidas I–III a seus valores no contexto: I. “Apesar de alertado, o servidor persistiu.” II. “Para evitar erros, revisou o documento.” III. “Concluída a conferência, liberaram-se os dados.”",
+      "options": [
+        "I concessão; II finalidade; III tempo.",
+        "I causa; II tempo; III consequência.",
+        "I concessão; II consequência; III finalidade.",
+        "I condição; II finalidade; III oposição."
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: apesar de marca concessão, para indica objetivo e concluída indica anterioridade temporal.",
+        "Incorreta: “apesar de” não explica causa; “para” não indica tempo; o particípio indica anterioridade.",
+        "Incorreta: revisar para evitar aponta propósito, e a conferência concluída precede a liberação.",
+        "Incorreta: I concede oposição à expectativa, e III situa temporalmente a liberação."
+      ],
+      "explanation": "As reduzidas deixam implícita uma relação que pode ser explicitada: embora alertado, para que evitasse, depois que foi concluída.",
+      "concept": "Orações reduzidas apresentam verbo em infinitivo, gerúndio ou particípio sem a conjunção subordinativa típica da desenvolvida; a expansão precisa conservar a relação expressa.",
+      "trap": "O particípio “concluída” pode criar ideia de tempo; não confunda automaticamente com consequência.",
+      "examTip": "Desenvolva cada oração separadamente e escolha a conjunção equivalente.",
+      "newExample": "“Embora cansado, continuou; para que acertasse, revisou; terminada a prova, saiu”.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-19-005-03",
+      "moduleId": "POR-19",
+      "subtopicId": "POR-19-005",
+      "topic": "Orações reduzidas, desenvolvidas e reescritas",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "Todas as reescritas preservam a relação semântica principal dos trechos, EXCETO:",
+      "options": [
+        "“Ao receber a mensagem, respondeu” → “Quando recebeu a mensagem, respondeu”.",
+        "“Embora cansada, participou” → “Apesar de estar cansada, participou”.",
+        "“Para obter aprovação, estudou” → “Como obteve aprovação, estudou”.",
+        "“Concluída a conferência, iniciou-se a distribuição” → “Depois que a conferência foi concluída, iniciou-se a distribuição”."
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta como EXCETO: a leitura temporal é preservada.",
+        "Incorreta como EXCETO: ambas as construções exprimem concessão.",
+        "Correta como EXCETO: objetivo de estudar transforma-se em causa já realizada; a relação é alterada.",
+        "Incorreta como EXCETO: a anterioridade da conferência é mantida."
+      ],
+      "explanation": "A terceira reescrita transforma a oração de finalidade “para obter” em causa “como obteve”, mudando a orientação temporal e lógica.",
+      "concept": "Orações reduzidas apresentam verbo em infinitivo, gerúndio ou particípio sem a conjunção subordinativa típica da desenvolvida; a expansão precisa conservar a relação expressa.",
+      "trap": "Repetir as mesmas palavras de conteúdo não garante preservação do sentido entre orações.",
+      "examTip": "Reescreva cada caso respondendo “quando?”, “apesar de quê?” e “para quê?”.",
+      "newExample": "“Para ser aprovado, treinou” não equivale a “Porque foi aprovado, treinou”.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-19-005-04",
+      "moduleId": "POR-19",
+      "subtopicId": "POR-19-005",
+      "topic": "Orações reduzidas, desenvolvidas e reescritas",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    }
+  ],
+  "POR-20": [
+    {
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Em “Senhores candidatos, apresentem o documento”, a vírgula separa o vocativo do restante do enunciado.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: “Senhores candidatos” é chamamento dirigido ao interlocutor, isto é, vocativo, e deve ser separado por vírgula da orientação dada.",
+        "Incorreta: “Senhores candidatos” é chamamento dirigido ao interlocutor, isto é, vocativo, e deve ser separado por vírgula da orientação dada."
+      ],
+      "explanation": "“Senhores candidatos” é chamamento dirigido ao interlocutor, isto é, vocativo, e deve ser separado por vírgula da orientação dada.",
+      "concept": "A vírgula demarca relações de coordenação, intercalação, explicação e deslocamento; não é simples registro da pausa respiratória.",
+      "trap": "Um grupo nominal no início do período não é sempre o sujeito do verbo que o segue.",
+      "examTip": "Observe que o imperativo “apresentem” dirige-se aos candidatos e não forma predicado com vocativo.",
+      "newExample": "“Prezada equipe, encaminhe a informação” também isola um chamamento inicial.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-20-001-01",
+      "moduleId": "POR-20",
+      "subtopicId": "POR-20-001",
+      "topic": "Vírgula e termos deslocados, intercalados ou enumerados",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Qual alternativa pontua corretamente uma intercalação explicativa sobre a coordenadora?",
+      "options": [
+        "A coordenadora responsável pelo projeto, explicou o procedimento.",
+        "A coordenadora, responsável pelo projeto explicou o procedimento.",
+        "A coordenadora responsável, pelo projeto, explicou o procedimento.",
+        "A coordenadora, responsável pelo projeto, explicou o procedimento."
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Incorreta: a vírgula única separa indevidamente o sujeito extenso do verbo explicou.",
+        "Incorreta: falta fechar a intercalação explicativa antes do verbo explicou.",
+        "Incorreta: as vírgulas separam de modo artificial uma parte da expressão responsável pelo projeto.",
+        "Correta: a expressão explicativa “responsável pelo projeto” é isolada por duas vírgulas."
+      ],
+      "explanation": "A intercalação que acrescenta esclarecimento à referência “A coordenadora” deve ser aberta e fechada com vírgulas.",
+      "concept": "A vírgula demarca relações de coordenação, intercalação, explicação e deslocamento; não é simples registro da pausa respiratória.",
+      "trap": "Uma vírgula única após o sujeito não basta para marcar uma expressão intercalada.",
+      "examTip": "Teste retirar o trecho: “A coordenadora explicou o procedimento”. A estrutura principal fica íntegra.",
+      "newExample": "“A servidora, integrante da comissão, revisou a proposta” contém aposto explicativo.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-20-001-02",
+      "moduleId": "POR-20",
+      "subtopicId": "POR-20-001",
+      "topic": "Vírgula e termos deslocados, intercalados ou enumerados",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "vf",
+      "difficulty": "dificil",
+      "stem": "Julgue V/F: I. “Ana, confira os dados” isola um vocativo. II. “O chefe, após a reunião, respondeu” intercala adjunto. III. “Hoje, enviaremos o comunicado” é necessariamente a única grafia normativa; sem vírgula haveria erro. IV. “A pasta contém ofícios, atas e recibos” enumera objetos.",
+      "options": [
+        "V, V, F, V.",
+        "V, F, V, V.",
+        "F, V, F, V.",
+        "V, V, V, F."
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: I tem vocativo, II intercalação, III exagera pois adjunto curto pode admitir facultatividade, IV enumeração.",
+        "Incorreta: o adjunto deslocado/intercalado após a reunião está legitimamente isolado e III é falsa.",
+        "Incorreta: Ana é vocativo e precisa de isolamento por vírgula.",
+        "Incorreta: a pausa depois de hoje pode ser facultativa e a enumeração IV está correta."
+      ],
+      "explanation": "Vocativo e intercalação justificam vírgulas; o adjunto curto “hoje” pode dispensá-la; enumeração separa objetos de mesma função.",
+      "concept": "A vírgula demarca relações de coordenação, intercalação, explicação e deslocamento; não é simples registro da pausa respiratória.",
+      "trap": "O item III usa “necessariamente” para converter preferência estilística em obrigação absoluta.",
+      "examTip": "Diferencie sinais obrigatórios de opção de estilo em adjunto adverbial curto.",
+      "newExample": "“Amanhã faremos a reunião” e “Amanhã, faremos a reunião” podem ser aceitáveis.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-20-001-03",
+      "moduleId": "POR-20",
+      "subtopicId": "POR-20-001",
+      "topic": "Vírgula e termos deslocados, intercalados ou enumerados",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "lacunas",
+      "difficulty": "dificil",
+      "stem": "Complete a orientação formal com a pontuação mais adequada: “___ compareçam às 9h. O coordenador___ responsável pela avaliação___ dará as instruções.”",
+      "options": [
+        "Candidatos / , / (sem sinal)",
+        "Candidatos, / , / ,",
+        "Candidatos, / (sem sinal) / ,",
+        "Candidatos / (sem sinal) / (sem sinal)"
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: após vocativo “Candidatos” falta vírgula, e a intercalação deveria ser fechada.",
+        "Correta: vocativo pede vírgula e a expressão “responsável pela avaliação” fica entre duas vírgulas.",
+        "Incorreta: uma única vírgula antes do verbo separa sujeito e predicado sem abrir intercalação.",
+        "Incorreta: deixa o vocativo sem pontuação e não marca a expressão como explicativa."
+      ],
+      "explanation": "O período formal contém vocativo inicial e aposto explicativo intercalado: “Candidatos, compareçam às 9h. O coordenador, responsável pela avaliação, dará as instruções”.",
+      "concept": "A vírgula demarca relações de coordenação, intercalação, explicação e deslocamento; não é simples registro da pausa respiratória.",
+      "trap": "A combinação de duas funções distintas de vírgula exige localizar cada uma antes de preencher lacunas.",
+      "examTip": "Leia a estrutura restante sem aposto e observe a necessidade de dois limites na intercalação.",
+      "newExample": "“Senhores, compareçam. A diretora, chefe da equipe, apresentará o plano”.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-20-001-04",
+      "moduleId": "POR-20",
+      "subtopicId": "POR-20-001",
+      "topic": "Vírgula e termos deslocados, intercalados ou enumerados",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "No período “A direção informou, que o prazo mudou”, a vírgula é adequada porque separa duas orações.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: A oração “que o prazo mudou” é substantiva objetiva direta de informou; a vírgula separa indevidamente o verbo de seu complemento oracional.",
+        "Correta: A oração “que o prazo mudou” é substantiva objetiva direta de informou; a vírgula separa indevidamente o verbo de seu complemento oracional."
+      ],
+      "explanation": "A oração “que o prazo mudou” é substantiva objetiva direta de informou; a vírgula separa indevidamente o verbo de seu complemento oracional.",
+      "concept": "Entre orações, a vírgula depende da articulação sintática e semântica: adversativas, explicativas intercaladas, adverbiais antepostas e adjetivas explicativas têm usos característicos.",
+      "trap": "Nem toda fronteira entre duas orações admite vírgula: algumas subordinadas funcionam como termos essenciais da principal.",
+      "examTip": "Troque a subordinada por “isso”: “A direção informou isso”, sem vírgula.",
+      "newExample": "“O setor comunicou que a plataforma voltou” mantém verbo e objeto direto sem separação.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-20-002-01",
+      "moduleId": "POR-20",
+      "subtopicId": "POR-20-002",
+      "topic": "Vírgula entre orações e conjunções",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Qual período apresenta vírgula adequada ao isolamento de uma oração condicional anteposta?",
+      "options": [
+        "Se a senha for confirmada, o cadastro será liberado.",
+        "O sistema, enviará a senha quando estiver pronto.",
+        "A equipe informou, que o cadastro havia sido liberado.",
+        "O responsável garantiu que, a decisão seria divulgada."
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: a subordinada adverbial condicional vem antes da oração principal e é isolada.",
+        "Incorreta: a vírgula separa o sujeito “O sistema” de seu predicado.",
+        "Incorreta: a vírgula separa informou de seu objeto direto oracional.",
+        "Incorreta: a vírgula entre que e a subordinada não marca termo intercalado nessa construção."
+      ],
+      "explanation": "A oração “Se a senha for confirmada” ocupa posição anterior e exprime condição, justificando vírgula antes da principal.",
+      "concept": "Entre orações, a vírgula depende da articulação sintática e semântica: adversativas, explicativas intercaladas, adverbiais antepostas e adjetivas explicativas têm usos característicos.",
+      "trap": "Uma expressão introduzida por “que” não autoriza vírgula automática sem função intercalada.",
+      "examTip": "Analise a posição da condicional e depois verifique a relação sujeito-verbo.",
+      "newExample": "“Caso o sistema funcione, a inscrição será registrada”.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-20-002-02",
+      "moduleId": "POR-20",
+      "subtopicId": "POR-20-002",
+      "topic": "Vírgula entre orações e conjunções",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "afirmacoes",
+      "difficulty": "dificil",
+      "stem": "Avalie: I. “Embora chovesse, a prova ocorreu” isola concessiva anteposta. II. “O servidor alegou, que se confundiu” apresenta pontuação adequada para objeto oracional. III. “Os documentos, que foram revisados, seguiram ao arquivo” usa relativa explicativa. Qual a combinação correta?",
+      "options": [
+        "Apenas I.",
+        "Apenas I e III.",
+        "Apenas II e III.",
+        "I, II e III."
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: III também está correta com relativa explicativa isolada por vírgulas.",
+        "Correta: I separa concessiva anteposta; II separa verbo e objeto; III isola relativa explicativa.",
+        "Incorreta: II contém vírgula indevida, enquanto I também é correta.",
+        "Incorreta: a vírgula entre alegou e sua oração objeto torna II inadequada."
+      ],
+      "explanation": "A concessiva anteposta é isolada por vírgula; a objetiva direta não é destacada do verbo; a relativa explicativa vem entre vírgulas.",
+      "concept": "Entre orações, a vírgula depende da articulação sintática e semântica: adversativas, explicativas intercaladas, adverbiais antepostas e adjetivas explicativas têm usos característicos.",
+      "trap": "O item II confunde início de subordinada integrante com posição autorizada para vírgula.",
+      "examTip": "Teste se a subordinada equivale ao objeto “isso” e não o separe de seu verbo.",
+      "newExample": "“Informou que voltaria” não exige vírgula; “Apesar do atraso, voltou” exige isolamento do deslocamento.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-20-002-03",
+      "moduleId": "POR-20",
+      "subtopicId": "POR-20-002",
+      "topic": "Vírgula entre orações e conjunções",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "As vírgulas dos períodos estão justificadas pela função sintática descrita, EXCETO:",
+      "options": [
+        "“Quando o sinal tocou, todos entraram” — adverbial temporal anteposta.",
+        "“O cronograma, que já estava publicado, foi alterado” — relativa explicativa.",
+        "“O edital informou, que as vagas seriam abertas” — objetiva direta.",
+        "“A equipe conferiu os dados, mas não concluiu a análise” — coordenação adversativa."
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta como EXCETO: a oração adverbial anteposta é isolada por vírgula.",
+        "Incorreta como EXCETO: a adjetiva explicativa está corretamente entre vírgulas.",
+        "Correta como EXCETO: a vírgula separa indevidamente o verbo informou da oração objeto direto.",
+        "Incorreta como EXCETO: a vírgula antecede corretamente a coordenada com mas."
+      ],
+      "explanation": "O verbo informar rege o conteúdo informado como objeto direto; a oração iniciada por que não deve ser apartada por vírgula.",
+      "concept": "Entre orações, a vírgula depende da articulação sintática e semântica: adversativas, explicativas intercaladas, adverbiais antepostas e adjetivas explicativas têm usos característicos.",
+      "trap": "O rótulo “objetiva direta” denuncia a ligação sintática que impede a vírgula apresentada.",
+      "examTip": "Substitua “que as vagas seriam abertas” por “isso”: não se escreve “informou, isso”.",
+      "newExample": "“A chefia comunicou que haverá reunião” preserva o objeto sem vírgula.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-20-002-04",
+      "moduleId": "POR-20",
+      "subtopicId": "POR-20-002",
+      "topic": "Vírgula entre orações e conjunções",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "O período “Os certificados apresentados pela equipe, estavam incompletos” contém vírgula indevida entre sujeito e predicado.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: O sujeito extenso “Os certificados apresentados pela equipe” liga-se diretamente ao predicado “estavam incompletos”; não há termo intercalado que autorize a vírgula.",
+        "Incorreta: O sujeito extenso “Os certificados apresentados pela equipe” liga-se diretamente ao predicado “estavam incompletos”; não há termo intercalado que autorize a vírgula."
+      ],
+      "explanation": "O sujeito extenso “Os certificados apresentados pela equipe” liga-se diretamente ao predicado “estavam incompletos”; não há termo intercalado que autorize a vírgula.",
+      "concept": "A vírgula não deve separar termos que integram diretamente uma relação sintática essencial, quando não há elemento intercalado.",
+      "trap": "Uma pausa na leitura de um sujeito extenso não justifica o sinal que interrompe sua ligação com o verbo.",
+      "examTip": "Localize o núcleo “certificados” e o verbo “estavam”; retire a vírgula isolada.",
+      "newExample": "“A documentação entregue pelos candidatos estava correta” também não separa o sujeito do verbo.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-20-003-01",
+      "moduleId": "POR-20",
+      "subtopicId": "POR-20-003",
+      "topic": "Restrições: sujeito, verbo e complementos",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Qual alternativa evita a separação indevida entre verbo e objeto direto?",
+      "options": [
+        "A secretaria, publicou o comunicado.",
+        "A secretaria publicou, o comunicado.",
+        "A secretaria publicou o comunicado.",
+        "A secretaria publicou o, comunicado."
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta: a vírgula separa o sujeito “A secretaria” do verbo publicou.",
+        "Incorreta: a vírgula separa o verbo transitivo de seu objeto direto.",
+        "Correta: sujeito, verbo e objeto direto permanecem conectados sem vírgulas indevidas.",
+        "Incorreta: a vírgula fragmenta o grupo nominal que exerce a função de objeto direto."
+      ],
+      "explanation": "A sequência em ordem direta “A secretaria publicou o comunicado” não recebe vírgulas entre termos essenciais.",
+      "concept": "A vírgula não deve separar termos que integram diretamente uma relação sintática essencial, quando não há elemento intercalado.",
+      "trap": "A vírgula colocada após um verbo transitivo rompe a ligação com seu complemento.",
+      "examTip": "Faça as perguntas “quem publicou?” e “publicou o quê?” para localizar sujeito e objeto.",
+      "newExample": "“O servidor enviou a declaração” conserva verbo e objeto direto juntos.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-20-003-02",
+      "moduleId": "POR-20",
+      "subtopicId": "POR-20-003",
+      "topic": "Restrições: sujeito, verbo e complementos",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "vf",
+      "difficulty": "dificil",
+      "stem": "Julgue V/F: I. “O resultado da seleção, saiu ontem” separa sujeito e verbo indevidamente. II. “A diretora, após a reunião, respondeu” pode isolar termo intercalado. III. “O setor recebeu, o processo” separa verbo e objeto. IV. “A comissão aprovou que, o recurso fosse aceito” mantém adequada a conexão verbo-objeto.",
+      "options": [
+        "V, V, V, F.",
+        "V, F, V, V.",
+        "F, V, V, F.",
+        "V, V, F, F."
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: I e III são desvios, II intercala termo legitimamente, IV separa indevidamente conjunção e conteúdo subordinado.",
+        "Incorreta: II é aceitável e IV introduz ruptura inadequada na subordinada.",
+        "Incorreta: I tem uma vírgula isolando sujeito de verbo, portanto a afirmação é verdadeira.",
+        "Incorreta: III corretamente aponta separação indevida entre recebeu e objeto o processo."
+      ],
+      "explanation": "As restrições de pontuação proíbem separar relações essenciais; expressões realmente intercaladas admitem isolamento por dois sinais.",
+      "concept": "A vírgula não deve separar termos que integram diretamente uma relação sintática essencial, quando não há elemento intercalado.",
+      "trap": "A presença de verbo subordinado em IV pode dar falsa impressão de que a vírgula é livre após “que”.",
+      "examTip": "Diferencie os períodos com vírgula solitária e os com termo intercalado isolado em ambos os lados.",
+      "newExample": "“Os técnicos, depois do curso, trabalharam” contém intercalação, não separação gratuita.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-20-003-03",
+      "moduleId": "POR-20",
+      "subtopicId": "POR-20-003",
+      "topic": "Restrições: sujeito, verbo e complementos",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "Todas as frases apresentam uso adequado da vírgula na norma-padrão, EXCETO:",
+      "options": [
+        "“Durante a visita, a comissão ouviu os servidores.”",
+        "“A comissão, após a visita, reuniu os dados.”",
+        "“A comissão, reuniu os dados e elaborou a conclusão.”",
+        "“A comissão reuniu os dados e elaborou a conclusão.”"
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta como EXCETO: a vírgula isola adjunto temporal deslocado.",
+        "Incorreta como EXCETO: duas vírgulas isolam adjunto intercalado.",
+        "Correta como EXCETO: a vírgula separa o sujeito “A comissão” do verbo “reuniu” sem termo intercalado.",
+        "Incorreta como EXCETO: sujeito único e ações coordenadas sem intercalação admitem ausência de vírgula."
+      ],
+      "explanation": "A vírgula logo depois de “A comissão” rompe indevidamente a relação entre o sujeito e o verbo reuniu, pois não há intercalação.",
+      "concept": "A vírgula não deve separar termos que integram diretamente uma relação sintática essencial, quando não há elemento intercalado.",
+      "trap": "A mera possibilidade de pausa oral depois do sujeito não justifica uma vírgula nesse contexto.",
+      "examTip": "Verifique se aparece algum trecho intercalado entre o sujeito e o verbo; sem ele, a separação é inadequada.",
+      "newExample": "“A comissão, após reunir os dados, elaborou a conclusão” exemplifica intercalação verdadeira.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-20-003-04",
+      "moduleId": "POR-20",
+      "subtopicId": "POR-20-003",
+      "topic": "Restrições: sujeito, verbo e complementos",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Em “Os setores tiveram responsabilidades diferentes: a secretaria, o protocolo; a comissão, a análise”, os dois-pontos anunciam a discriminação das responsabilidades, e o ponto e vírgula separa blocos.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: Os dois-pontos introduzem a enumeração das tarefas; o ponto e vírgula separa segmentos com vírgulas internas, facilitando a leitura.",
+        "Incorreta: Os dois-pontos introduzem a enumeração das tarefas; o ponto e vírgula separa segmentos com vírgulas internas, facilitando a leitura."
+      ],
+      "explanation": "Os dois-pontos introduzem a enumeração das tarefas; o ponto e vírgula separa segmentos com vírgulas internas, facilitando a leitura.",
+      "concept": "Ponto e vírgula separa segmentos relativamente autônomos, sobretudo em enumerações complexas; dois-pontos anunciam explicação, citação ou enumeração; travessões destacam inserções e falas.",
+      "trap": "O ponto e vírgula não precisa ser confundido com encerramento definitivo do período.",
+      "examTip": "Identifique a estrutura de anúncio e a repetição de blocos que já contêm vírgula.",
+      "newExample": "“Distribuíram-se funções: Ana, a recepção; Bruno, o protocolo; Carla, o arquivo”.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-20-004-01",
+      "moduleId": "POR-20",
+      "subtopicId": "POR-20-004",
+      "topic": "Ponto e vírgula, dois-pontos e travessão",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Qual sinal melhor completa “O edital exige três anexos___ documento de identidade, declaração e comprovante”, anunciando uma enumeração?",
+      "options": [
+        "Ponto e vírgula, pois os anexos são orações independentes.",
+        "Dois-pontos, pois a sequência apresenta os três anexos.",
+        "Travessão de encerramento de fala, pois há mudança de locutor.",
+        "Vírgula entre sujeito e verbo, pois o sinal equivale a uma pausa."
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: os itens não são orações independentes; são uma lista anunciada.",
+        "Correta: os dois-pontos introduzem enumeração explicitamente anunciada.",
+        "Incorreta: não ocorre alternância de fala nem citação de outro interlocutor.",
+        "Incorreta: não há separação sujeito-verbo, e a função é anunciar uma lista."
+      ],
+      "explanation": "Após “três anexos”, os dois-pontos introduzem o conjunto nomeado a seguir e tornam a enumeração explícita.",
+      "concept": "Ponto e vírgula separa segmentos relativamente autônomos, sobretudo em enumerações complexas; dois-pontos anunciam explicação, citação ou enumeração; travessões destacam inserções e falas.",
+      "trap": "O ponto e vírgula separa blocos, mas não é o sinal preferencial de anúncio simples de itens.",
+      "examTip": "Pergunte se o texto prepara o leitor para uma lista: nesse caso, dois-pontos resolvem.",
+      "newExample": "“Foram aprovadas duas medidas: revisão do formulário e reforço da equipe”.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-20-004-02",
+      "moduleId": "POR-20",
+      "subtopicId": "POR-20-004",
+      "topic": "Ponto e vírgula, dois-pontos e travessão",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "associacao",
+      "difficulty": "dificil",
+      "stem": "Associe os sinais ao uso: I. Dois-pontos em “Faltava apenas isto: assinatura”. II. Ponto e vírgula em “Ana, na sede; Beto, no arquivo”. III. Travessões em “O edital — já retificado — foi republicado”.",
+      "options": [
+        "I separa enumeração complexa; II anuncia explicação; III marca mudança de fala.",
+        "I introduz explicação; II separa blocos com vírgulas; III isola expressão explicativa.",
+        "I indica vocativo; II marca sujeito; III substitui oração objetiva direta.",
+        "I marca consequência; II introduz enumeração; III indica imperativo."
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: os dois-pontos de I anunciam esclarecimento, o ponto e vírgula de II separa blocos, e os travessões intercalam explicação.",
+        "Correta: os três usos respeitam respectivamente anúncio, separação de segmentos e intercalação.",
+        "Incorreta: nenhum dos sinais realiza as funções alegadas nessa sequência.",
+        "Incorreta: os valores atribuídos não correspondem aos sinais nos três períodos."
+      ],
+      "explanation": "Dois-pontos podem explicar “isto”; ponto e vírgula separa blocos de enumeração com vírgula interna; travessões isolam informação acessória.",
+      "concept": "Ponto e vírgula separa segmentos relativamente autônomos, sobretudo em enumerações complexas; dois-pontos anunciam explicação, citação ou enumeração; travessões destacam inserções e falas.",
+      "trap": "O nome do sinal não revela sozinho sua função sem observar os segmentos conectados.",
+      "examTip": "Localize a pergunta que cada sinal resolve: o quê?, como separar blocos?, o que está intercalado?",
+      "newExample": "“Restava uma etapa: assinar; Ana, no balcão; Beto, na direção; a equipe — já preparada — aguardou”.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-20-004-03",
+      "moduleId": "POR-20",
+      "subtopicId": "POR-20-004",
+      "topic": "Ponto e vírgula, dois-pontos e travessão",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "vf",
+      "difficulty": "dificil",
+      "stem": "Julgue V/F: I. Os dois-pontos podem introduzir uma explicação. II. O ponto e vírgula pode separar itens extensos que contêm vírgulas. III. Dois travessões podem isolar intercalação explicativa. IV. Todo travessão deve indicar obrigatoriamente fala direta.",
+      "options": [
+        "V, V, V, F.",
+        "V, F, V, V.",
+        "F, V, V, F.",
+        "V, V, F, V."
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: as três primeiras aplicações são reconhecidas; travessões também isolam explicações sem fala direta.",
+        "Incorreta: o ponto e vírgula pode separar itens complexos; travessão não se restringe a fala.",
+        "Incorreta: dois-pontos podem introduzir justamente uma explicação, tornando I verdadeira.",
+        "Incorreta: travessões podem isolar explicação, e não são exclusivos da fala direta."
+      ],
+      "explanation": "Dois-pontos anunciam explicação; ponto e vírgula organiza blocos; travessões também isolam elementos explicativos.",
+      "concept": "Ponto e vírgula separa segmentos relativamente autônomos, sobretudo em enumerações complexas; dois-pontos anunciam explicação, citação ou enumeração; travessões destacam inserções e falas.",
+      "trap": "A palavra “todo” do item IV indevidamente restringe um sinal de múltiplas funções.",
+      "examTip": "Considere um período institucional sem diálogo para testar o uso de travessões.",
+      "newExample": "“A assinatura — indispensável ao processo — não foi localizada” não é fala direta.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-20-004-04",
+      "moduleId": "POR-20",
+      "subtopicId": "POR-20-004",
+      "topic": "Ponto e vírgula, dois-pontos e travessão",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Inserir vírgulas em “As servidoras que concluíram o curso foram chamadas” para escrever “As servidoras, que concluíram o curso, foram chamadas” pode alterar o conjunto de pessoas referido.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: A relativa sem vírgulas é restritiva; com vírgulas, é explicativa, o que pode ampliar a referência a todo o grupo contextualizado.",
+        "Incorreta: A relativa sem vírgulas é restritiva; com vírgulas, é explicativa, o que pode ampliar a referência a todo o grupo contextualizado."
+      ],
+      "explanation": "A relativa sem vírgulas é restritiva; com vírgulas, é explicativa, o que pode ampliar a referência a todo o grupo contextualizado.",
+      "concept": "Uma reescrita pontuada corretamente pode mudar referência, foco ou sentido; equivalência exige manter conteúdo e relações argumentativas.",
+      "trap": "A pontuação das relativas não é sempre uma escolha sem consequência de sentido.",
+      "examTip": "Observe se há subconjunto definido pela característica ou comentário sobre grupo já identificado.",
+      "newExample": "“As inscrições que chegaram ontem foram aceitas” e “As inscrições, que chegaram ontem, foram aceitas” diferem na referência.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-20-005-01",
+      "moduleId": "POR-20",
+      "subtopicId": "POR-20-005",
+      "topic": "Pontuação, sentido e reescrita de textos",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Qual alternativa explica adequadamente a diferença entre “Não, autorizo o envio” e “Não autorizo o envio”?",
+      "options": [
+        "As duas frases proíbem igualmente o envio, pois a vírgula não afeta o escopo da negação.",
+        "A primeira pode expressar autorização após uma negativa isolada; a segunda nega o verbo autorizar.",
+        "A segunda frase autoriza o envio, e a primeira o proíbe.",
+        "A vírgula transforma o verbo em sujeito oracional, sem mudar a negação."
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: na primeira, não pode responder a fala anterior e depois vir uma autorização.",
+        "Correta: a posição da vírgula altera o alcance sintático-pragmático da palavra não.",
+        "Incorreta: inverte os efeitos: sem vírgula a negação incide sobre autorizo.",
+        "Incorreta: não há função de sujeito oracional nessa construção; o efeito é sobre o escopo de não."
+      ],
+      "explanation": "Com vírgula, “não” pode funcionar como resposta autônoma e “autorizo” expressa consentimento; sem vírgula, nega-se a autorização.",
+      "concept": "Uma reescrita pontuada corretamente pode mudar referência, foco ou sentido; equivalência exige manter conteúdo e relações argumentativas.",
+      "trap": "A mesma palavra “não” pode atuar com abrangências distintas conforme a pontuação.",
+      "examTip": "Interprete a frase como diálogo e identifique a pergunta anterior implícita no primeiro caso.",
+      "newExample": "“Não, aceite o recurso” permite uma orientação afirmativa; “Não aceite o recurso” proíbe aceitá-lo.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-20-005-02",
+      "moduleId": "POR-20",
+      "subtopicId": "POR-20-005",
+      "topic": "Pontuação, sentido e reescrita de textos",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "afirmacoes",
+      "difficulty": "dificil",
+      "stem": "Considere I. Em “Os alunos que terminaram saíram”, a relativa restringe o grupo. II. Em “Os alunos, que terminaram, saíram”, a relativa se apresenta como explicação sobre o grupo. III. A inclusão das vírgulas jamais afeta o alcance da referência. Assinale o correto.",
+      "options": [
+        "Apenas I e II.",
+        "Apenas II e III.",
+        "Apenas I e III.",
+        "I, II e III."
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: I e II apresentam leituras diferentes, portanto III é generalização falsa.",
+        "Incorreta: I também é verdadeira e III nega uma diferença semântica real.",
+        "Incorreta: II também é verdadeira e III torna-se falsa pela mudança de leitura.",
+        "Incorreta: III contraria o efeito de restringir versus explicar o grupo referido."
+      ],
+      "explanation": "O isolamento por vírgulas transforma a oração adjetiva em explicativa e pode alterar o grupo sobre o qual se afirma algo.",
+      "concept": "Uma reescrita pontuada corretamente pode mudar referência, foco ou sentido; equivalência exige manter conteúdo e relações argumentativas.",
+      "trap": "O advérbio “jamais” ignora as diferenças entre informação restritiva e explicativa.",
+      "examTip": "Faça dois conjuntos: todos os alunos e apenas os que terminaram.",
+      "newExample": "“Os técnicos que compareceram votaram” delimita subconjunto; com vírgulas, pode predicar chegada do grupo mencionado.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-20-005-03",
+      "moduleId": "POR-20",
+      "subtopicId": "POR-20-005",
+      "topic": "Pontuação, sentido e reescrita de textos",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "As reescritas preservam claramente o sentido central, EXCETO:",
+      "options": [
+        "“O prazo terminou, portanto a inscrição fechou” → “O prazo terminou; logo, a inscrição fechou”.",
+        "“Embora houvesse fila, o atendimento ocorreu” → “Apesar da fila, o atendimento ocorreu”.",
+        "“Os inscritos que entregaram o documento foram chamados” → “Os inscritos, que entregaram o documento, foram chamados”.",
+        "“Quando a lista saiu, os candidatos consultaram o portal” → “Os candidatos consultaram o portal quando a lista saiu”."
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta como EXCETO: portanto e logo mantêm conclusão da mesma informação anterior.",
+        "Incorreta como EXCETO: a relação concessiva permanece nas duas versões.",
+        "Correta como EXCETO: as vírgulas trocam restrição por explicação, podendo alterar quem foi chamado.",
+        "Incorreta como EXCETO: a relação temporal permanece apesar da mudança de ordem."
+      ],
+      "explanation": "A terceira troca altera o valor da relativa: sem vírgulas, seleciona os inscritos que entregaram; com vírgulas, acrescenta informação explicativa.",
+      "concept": "Uma reescrita pontuada corretamente pode mudar referência, foco ou sentido; equivalência exige manter conteúdo e relações argumentativas.",
+      "trap": "Uma reescrita pode ser gramatical nas duas formas e ainda assim alterar quem participa da ação.",
+      "examTip": "Localize o conjunto de indivíduos referido em cada oração relativa.",
+      "newExample": "“Os setores que abriram receberam auxílio” não é sempre equivalente à versão com vírgulas.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-20-005-04",
+      "moduleId": "POR-20",
+      "subtopicId": "POR-20-005",
+      "topic": "Pontuação, sentido e reescrita de textos",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    }
+  ],
+  "POR-21": [
+    {
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Em “Ninguém me avisou”, o pronome “me” está em próclise, porque aparece antes da forma verbal “avisou”.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: O pronome átono me antecede o verbo avisou; essa posição chama-se próclise, favorecida no período pela palavra negativa ninguém.",
+        "Incorreta: O pronome átono me antecede o verbo avisou; essa posição chama-se próclise, favorecida no período pela palavra negativa ninguém."
+      ],
+      "explanation": "O pronome átono me antecede o verbo avisou; essa posição chama-se próclise, favorecida no período pela palavra negativa ninguém.",
+      "concept": "Próclise coloca o pronome átono antes do verbo; ênclise, depois; mesóclise intercala-o em formas de futuro sintético, em condições formais específicas.",
+      "trap": "Não confunda a posição do pronome com a classificação de seu papel sintático na oração.",
+      "examTip": "Localize o verbo e verifique a posição de me, te, se, nos, o, a, lhe.",
+      "newExample": "“Jamais se esqueceu da tarefa” também coloca o clítico antes do verbo.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-21-001-01",
+      "moduleId": "POR-21",
+      "subtopicId": "POR-21-001",
+      "topic": "Posições pronominais e critérios gerais",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Qual alternativa apresenta uma forma inequívoca de ênclise?",
+      "options": [
+        "Não me enviaram o aviso.",
+        "Os colegas lhe disseram a notícia.",
+        "Dir-se-ia que houve um engano.",
+        "Entregaram-me a certidão."
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Incorreta: o pronome me aparece antes do verbo enviaram, formando próclise.",
+        "Incorreta: lhe aparece antes da forma verbal disseram, portanto há próclise.",
+        "Incorreta: se aparece intercalado no futuro do pretérito, caracterizando mesóclise.",
+        "Correta: me aparece depois do verbo entregaram, ligado por hífen, caracterizando ênclise."
+      ],
+      "explanation": "Ênclise consiste em posicionar o clítico após o verbo. “Entregaram-me” evidencia a posição sem elemento atrativo anterior.",
+      "concept": "Próclise coloca o pronome átono antes do verbo; ênclise, depois; mesóclise intercala-o em formas de futuro sintético, em condições formais específicas.",
+      "trap": "A presença do hífen não distingue sozinha ênclise de mesóclise, que usa dois segmentos.",
+      "examTip": "Procure o verbo e observe se o pronome aparece antes, depois ou no interior da forma verbal.",
+      "newExample": "“Aguardou-nos à saída” é exemplo de ênclise em construção formal.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-21-001-02",
+      "moduleId": "POR-21",
+      "subtopicId": "POR-21-001",
+      "topic": "Posições pronominais e critérios gerais",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "vf",
+      "difficulty": "dificil",
+      "stem": "Julgue V/F: I. “Avisaram-me” apresenta ênclise. II. “Nunca me avisaram” apresenta próclise. III. “Avisar-me-ão” apresenta mesóclise. IV. “Avisaram-me” apresenta mesóclise por ter hífen.",
+      "options": [
+        "V, V, V, F.",
+        "V, F, V, V.",
+        "F, V, V, F.",
+        "V, V, F, V."
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: I identifica ênclise; II próclise; III mesóclise; IV confunde o hífen simples da ênclise.",
+        "Incorreta: nunca atrai próclise em II; hífen de avisaram-me não cria mesóclise.",
+        "Incorreta: avisaram-me é ênclise, porque me vem depois do verbo.",
+        "Incorreta: avisar-me-ão é mesóclise e avisaram-me é ênclise."
+      ],
+      "explanation": "As três colocações se identificam pela posição do pronome, não pela mera presença de hífen ou pelo sentido do verbo.",
+      "concept": "Próclise coloca o pronome átono antes do verbo; ênclise, depois; mesóclise intercala-o em formas de futuro sintético, em condições formais específicas.",
+      "trap": "O item IV induz a equiparar todas as formas hifenizadas a mesóclise.",
+      "examTip": "Separe graficamente “avisar-me-ão” em radical e desinência futura com pronome no meio.",
+      "newExample": "“Dir-te-ei”, “não te direi” e “direi-te” evidenciam posições e adequações diferentes.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-21-001-03",
+      "moduleId": "POR-21",
+      "subtopicId": "POR-21-001",
+      "topic": "Posições pronominais e critérios gerais",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "associacao",
+      "difficulty": "dificil",
+      "stem": "Associe I. “Não nos chamaram.” II. “Chamaram-nos.” III. “Chamar-nos-ão.” à posição pronominal correta.",
+      "options": [
+        "I ênclise; II mesóclise; III próclise.",
+        "I próclise; II ênclise; III mesóclise.",
+        "I próclise; II mesóclise; III ênclise.",
+        "I mesóclise; II próclise; III ênclise."
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: I tem pronome antes, II depois e III no interior do futuro.",
+        "Correta: nos vem antes em I, depois em II e intercalado no futuro em III.",
+        "Incorreta: o hífen único de II é ênclise; o futuro hifenizado em III é mesóclise.",
+        "Incorreta: a posição observável de nos contradiz as três etiquetas."
+      ],
+      "explanation": "A relação entre pronome e forma verbal mostra próclise em não nos chamaram, ênclise em chamaram-nos e mesóclise em chamar-nos-ão.",
+      "concept": "Próclise coloca o pronome átono antes do verbo; ênclise, depois; mesóclise intercala-o em formas de futuro sintético, em condições formais específicas.",
+      "trap": "A semelhança gráfica das formas com hífen pode esconder a diferença de interioridade da mesóclise.",
+      "examTip": "Retire a negação e examine a forma temporal de cada verbo.",
+      "newExample": "“Não lhe informarei”, “informaram-lhe”, “informar-lhe-ão” exemplifica posições semelhantes.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-21-001-04",
+      "moduleId": "POR-21",
+      "subtopicId": "POR-21-001",
+      "topic": "Posições pronominais e critérios gerais",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Na norma-padrão tradicional, “Ninguém informou-me o resultado” é a colocação esperada, pois a palavra “ninguém” não interfere na posição do pronome.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: A palavra negativa ninguém é fator de atração de próclise: a formulação esperada é “Ninguém me informou o resultado”.",
+        "Correta: A palavra negativa ninguém é fator de atração de próclise: a formulação esperada é “Ninguém me informou o resultado”."
+      ],
+      "explanation": "A palavra negativa ninguém é fator de atração de próclise: a formulação esperada é “Ninguém me informou o resultado”.",
+      "concept": "Em construções normativas tradicionais, certos termos anteriores atraem o pronome átono para antes do verbo da oração.",
+      "trap": "A ênclise sem observação do termo negativo anterior viola a regra escolar tradicional.",
+      "examTip": "Localize ninguém como sujeito negativo e observe o clítico me antes de informou.",
+      "newExample": "“Nada nos surpreendeu” também apresenta próclise após pronome negativo.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-21-002-01",
+      "moduleId": "POR-21",
+      "subtopicId": "POR-21-002",
+      "topic": "Fatores de atração da próclise",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Segundo a norma formal tradicional, qual frase emprega o pronome conforme a atração de uma oração relativa?",
+      "options": [
+        "O parecer que perdeu-se foi encontrado.",
+        "O parecer que se perdeu foi encontrado.",
+        "O parecer, que perdeu-se, foi encontrado.",
+        "O parecer que perdeu, se, foi encontrado."
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: o relativo que favorece “que se perdeu” dentro da subordinada.",
+        "Correta: que relativo favorece próclise de se à forma perdeu.",
+        "Incorreta: vírgulas não anulam a atração normativa do relativo que.",
+        "Incorreta: se não pode ser isolado por vírgulas dessa forma, e a construção perde organização."
+      ],
+      "explanation": "A oração adjetiva “que se perdeu” é introduzida pelo pronome relativo que, que favorece próclise no registro formal.",
+      "concept": "Em construções normativas tradicionais, certos termos anteriores atraem o pronome átono para antes do verbo da oração.",
+      "trap": "Alterar a pontuação da relativa não autoriza, por si só, ênclise após verbo precedido de que relativo.",
+      "examTip": "Reconheça o antecedente parecer e o papel de que dentro da subordinada.",
+      "newExample": "“Os documentos que nos enviaram chegaram” contém próclise após relativo.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-21-002-02",
+      "moduleId": "POR-21",
+      "subtopicId": "POR-21-002",
+      "topic": "Fatores de atração da próclise",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "lacunas",
+      "difficulty": "dificil",
+      "stem": "Complete as orações, inserindo em cada lacuna o pronome “me” com o verbo indicado no tempo adequado e respeitando a atração de próclise: I. “Ninguém ___ sobre a prova.” (avisar, pretérito perfeito); II. “O documento que ___ chegou ontem.” (enviar, pretérito perfeito, sujeito eles); III. “Espero que ___ o resultado.” (informar, presente do subjuntivo, sujeito vocês).",
+      "options": [
+        "me avisou — me enviaram — me informem",
+        "avisou-me — enviaram-me — informem-me",
+        "me avisou — enviaram-me — me informem",
+        "avisou-me — me enviaram — informem-me"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: ninguém, que relativo e que subordinativo criam três contextos de próclise; tempos e pessoas estão corretos.",
+        "Incorreta: as três ênclises contrariam os fatores atrativos anteriores na mesma oração.",
+        "Incorreta: a oração relativa “que enviaram-me” não segue a próclise formal favorecida por que.",
+        "Incorreta: os clíticos de I e III ficam depois de verbos precedidos por ninguém e que."
+      ],
+      "explanation": "A palavra negativa ninguém, o relativo que e o que subordinativo favorecem próclise: “Ninguém me avisou”, “que me enviaram”, “que me informem”.",
+      "concept": "Em construções normativas tradicionais, certos termos anteriores atraem o pronome átono para antes do verbo da oração.",
+      "trap": "Uma forma enclítica usual em frase isolada pode ser inadequada após palavra atrativa na oração.",
+      "examTip": "Verifique cada termo atrativo e mantenha as flexões pedidas: avisou, enviaram e informem.",
+      "newExample": "“Jamais me responderam; o livro que me deram; espero que me respondam” reproduz os três contextos.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-21-002-03",
+      "moduleId": "POR-21",
+      "subtopicId": "POR-21-002",
+      "topic": "Fatores de atração da próclise",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "Todas as construções seguem a colocação formal tradicional diante de palavra atrativa, EXCETO:",
+      "options": [
+        "“Não me comunicaram a alteração.”",
+        "“Os dados que se perderam foram recuperados.”",
+        "“Espero que lhe enviem a resposta.”",
+        "“Jamais informaram-me o resultado.”"
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Incorreta como EXCETO: a negação atrai corretamente me.",
+        "Incorreta como EXCETO: o pronome relativo que favorece se antes do verbo.",
+        "Incorreta como EXCETO: que subordinativo favorece próclise de lhe.",
+        "Correta como EXCETO: jamais é palavra negativa atrativa; deve-se usar “Jamais me informaram”."
+      ],
+      "explanation": "O advérbio negativo jamais atrai próclise no registro escolar formal; “informaram-me” depois dele é a construção inadequada.",
+      "concept": "Em construções normativas tradicionais, certos termos anteriores atraem o pronome átono para antes do verbo da oração.",
+      "trap": "Uma construção enclítica isoladamente correta pode falhar quando precedida de palavra negativa na mesma oração.",
+      "examTip": "Localize o advérbio jamais e reposicione me antes do verbo.",
+      "newExample": "“Nunca me entregaram a ficha” é construção formal paralela.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-21-002-04",
+      "moduleId": "POR-21",
+      "subtopicId": "POR-21-002",
+      "topic": "Fatores de atração da próclise",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Na prescrição tradicional para o início de período formal, “Envie-me a ata” emprega ênclise adequada com imperativo afirmativo.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: Com imperativo afirmativo no início do período e sem palavra atrativa, a convenção formal escolar favorece “Envie-me”, pronome após o verbo.",
+        "Incorreta: Com imperativo afirmativo no início do período e sem palavra atrativa, a convenção formal escolar favorece “Envie-me”, pronome após o verbo."
+      ],
+      "explanation": "Com imperativo afirmativo no início do período e sem palavra atrativa, a convenção formal escolar favorece “Envie-me”, pronome após o verbo.",
+      "concept": "Na convenção normativa formal, sem elemento atrativo, a ênclise é característica de início de período com verbo e de determinadas formas do imperativo afirmativo.",
+      "trap": "A frequência coloquial de “Me envie” não torna a forma inicial a recomendada em provas de norma-padrão.",
+      "examTip": "Observe o imperativo afirmativo inicial e a ausência de atrativos anteriores.",
+      "newExample": "“Informe-nos o horário” segue a mesma colocação formal.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-21-003-01",
+      "moduleId": "POR-21",
+      "subtopicId": "POR-21-003",
+      "topic": "Ênclise e construções formais",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Qual início de instrução corresponde claramente à norma-padrão formal tradicional?",
+      "options": [
+        "Me entreguem os documentos.",
+        "Não entreguem-me os documentos.",
+        "Entreguem-me os documentos.",
+        "Entreguem, me os documentos."
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta: pronome átono abrindo período é usual coloquialmente, mas não a recomendação formal tradicional.",
+        "Incorreta: “não” atrai próclise; seria “Não me entreguem”.",
+        "Correta: o imperativo afirmativo abre período com ênclise e não há palavra atrativa.",
+        "Incorreta: a vírgula não substitui a ligação por hífen da ênclise ao verbo."
+      ],
+      "explanation": "O imperativo afirmativo no início da frase em registro formal tradicional é adequadamente construído como “Entreguem-me”.",
+      "concept": "Na convenção normativa formal, sem elemento atrativo, a ênclise é característica de início de período com verbo e de determinadas formas do imperativo afirmativo.",
+      "trap": "A linguagem coloquial brasileira tolera pronome inicial, mas o comando especifica prescrição formal.",
+      "examTip": "Compare o mesmo verbo com e sem negação: “Entreguem-me” / “Não me entreguem”.",
+      "newExample": "“Comuniquem-nos o resultado” segue o padrão do imperativo afirmativo.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-21-003-02",
+      "moduleId": "POR-21",
+      "subtopicId": "POR-21-003",
+      "topic": "Ênclise e construções formais",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "afirmacoes",
+      "difficulty": "dificil",
+      "stem": "Analise a norma formal tradicional: I. “Avise-me amanhã” apresenta ênclise admitida no início do período. II. “Não me avise amanhã” usa próclise atraída por não. III. “Me avise amanhã” é a formulação prescrita para iniciar uma comunicação oficial. Está correto:",
+      "options": [
+        "Apenas I e II.",
+        "Apenas II e III.",
+        "Apenas I e III.",
+        "I, II e III."
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: I e II seguem a convenção formal; III confunde uso coloquial com prescrição de abertura de período.",
+        "Incorreta: I também é normativa; III não é a abertura preferida na tradição escolar formal.",
+        "Incorreta: II está correta e III contraria a regra formal de pronome átono inicial.",
+        "Incorreta: III não atende ao registro formal tradicional indicado no enunciado."
+      ],
+      "explanation": "Sem atrativo, usa-se ênclise no imperativo afirmativo inicial; com não, há próclise; pronome inicial é comum no coloquial, não a prescrição escolar.",
+      "concept": "Na convenção normativa formal, sem elemento atrativo, a ênclise é característica de início de período com verbo e de determinadas formas do imperativo afirmativo.",
+      "trap": "A distinção entre registro cotidiano e registro normativo formal é o fator decisivo.",
+      "examTip": "Não classifique “Me avise” como inexistente na língua, apenas inadequado ao registro explicitado.",
+      "newExample": "“Informe-nos; não nos informe” preserva contraste de polaridade e posição.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-21-003-03",
+      "moduleId": "POR-21",
+      "subtopicId": "POR-21-003",
+      "topic": "Ênclise e construções formais",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "vf",
+      "difficulty": "dificil",
+      "stem": "Julgue V/F na norma escolar formal: I. “Comunique-me a decisão” emprega ênclise. II. “Não me comunique a decisão” emprega próclise. III. “Comunique, me a decisão” emprega ênclise adequada. IV. O imperativo negativo com não admite próclise.",
+      "options": [
+        "V, V, F, V.",
+        "V, F, V, V.",
+        "F, V, F, V.",
+        "V, V, V, F."
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: I usa ênclise, II e IV próclise normativa; III introduz vírgula inadequada no lugar do hífen.",
+        "Incorreta: II apresenta próclise adequada e III não constitui ênclise gramatical.",
+        "Incorreta: “Comunique-me” é exemplo inequívoco de ênclise.",
+        "Incorreta: III não emprega corretamente a ligação com clítico; IV descreve o negativo com não."
+      ],
+      "explanation": "A posição muda conforme o caráter afirmativo ou negativo do imperativo; na ênclise escreve-se hífen, não vírgula.",
+      "concept": "Na convenção normativa formal, sem elemento atrativo, a ênclise é característica de início de período com verbo e de determinadas formas do imperativo afirmativo.",
+      "trap": "A pontuação não substitui a ortografia morfológica das formas pronominais.",
+      "examTip": "Observe o verbo em cada comando e avalie a influência de não.",
+      "newExample": "“Solicite-lhe o dado; não lhe solicite o dado” ilustra a alternância normativa.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-21-003-04",
+      "moduleId": "POR-21",
+      "subtopicId": "POR-21-003",
+      "topic": "Ênclise e construções formais",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Segundo a norma formal tradicional, em “Não dir-lhe-ei a resposta”, a mesóclise está adequada porque qualquer futuro admite pronome intercalado mesmo com negação.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: A palavra negativa não atrai o pronome para antes do futuro: “Não lhe direi a resposta”. A mesóclise exige ausência de elemento atrativo.",
+        "Correta: A palavra negativa não atrai o pronome para antes do futuro: “Não lhe direi a resposta”. A mesóclise exige ausência de elemento atrativo."
+      ],
+      "explanation": "A palavra negativa não atrai o pronome para antes do futuro: “Não lhe direi a resposta”. A mesóclise exige ausência de elemento atrativo.",
+      "concept": "A mesóclise é colocação pronominal no interior de futuro sintético do presente ou do pretérito, quando não há elemento que atraia próclise.",
+      "trap": "Aplicar mesóclise automaticamente ao futuro ignora a força da negação anterior.",
+      "examTip": "Procure não e coloque lhe antes de direi em registro normativo.",
+      "newExample": "“Nunca me dirão isso” tem futuro do presente e próclise atraída por nunca.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-21-004-01",
+      "moduleId": "POR-21",
+      "subtopicId": "POR-21-004",
+      "topic": "Mesóclise e tempos verbais",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Qual construção exemplifica mesóclise com futuro do presente, sem palavra atrativa?",
+      "options": [
+        "Não me enviarão os documentos.",
+        "Enviaram-me os documentos.",
+        "Enviar-me-ão os documentos.",
+        "Os documentos me foram enviados."
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta: me antes de enviarão é próclise causada pela negação.",
+        "Incorreta: enviaram-me é ênclise no pretérito, não futuro do presente.",
+        "Correta: me é intercalado na forma sintética do futuro do presente “enviarão”.",
+        "Incorreta: me antes de foram é próclise em construção passiva."
+      ],
+      "explanation": "A forma enviar-me-ão decompõe-se em radical de futuro, pronome me e desinência -ão, caracterizando mesóclise.",
+      "concept": "A mesóclise é colocação pronominal no interior de futuro sintético do presente ou do pretérito, quando não há elemento que atraia próclise.",
+      "trap": "O hífen em enviaram-me pode induzir confusão com a forma futura intercalada.",
+      "examTip": "Confira se existe futuro sintético e se o pronome está realmente no interior da forma.",
+      "newExample": "“Informar-lhe-ei o resultado” é outra mesóclise no futuro do presente.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-21-004-02",
+      "moduleId": "POR-21",
+      "subtopicId": "POR-21-004",
+      "topic": "Mesóclise e tempos verbais",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "lacunas",
+      "difficulty": "dificil",
+      "stem": "Complete segundo a norma formal tradicional: “Amanhã, ___ as regras aos candidatos” (mesóclise com informar + lhes); “Não ___ as regras aos candidatos” (próclise no futuro do presente com informar + lhes).",
+      "options": [
+        "informar-lhes-ei / lhes informarei",
+        "informarei-lhes / informar-lhes-ei",
+        "lhes informei / informar-lhes-ia",
+        "informei-lhes / informei-lhes"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: mesóclise no futuro sem atrativo e próclise no futuro com negação.",
+        "Incorreta: a primeira usa ênclise indevida ao futuro sintético, e a segunda não respeita não.",
+        "Incorreta: altera tempos verbais e não observa a força atrativa da negação.",
+        "Incorreta: usa pretérito em vez de futuro e não atende à segunda exigência de próclise."
+      ],
+      "explanation": "“Informar-lhes-ei” é mesóclise no futuro do presente; depois de não, a forma normativa passa a “lhes informarei”.",
+      "concept": "A mesóclise é colocação pronominal no interior de futuro sintético do presente ou do pretérito, quando não há elemento que atraia próclise.",
+      "trap": "A semelhança de formas com dois hífens pode esconder tempo verbal inadequado.",
+      "examTip": "Identifique futuro do presente por -ei e classifique a atração de não no segundo segmento.",
+      "newExample": "“Entregar-lhe-ei a pasta; não lhe entregarei a pasta” segue o mesmo contraste.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-21-004-03",
+      "moduleId": "POR-21",
+      "subtopicId": "POR-21-004",
+      "topic": "Mesóclise e tempos verbais",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "Todas as construções pronominais são adequadas à norma formal tradicional explicitada, EXCETO:",
+      "options": [
+        "“Enviar-lhe-ei os dados amanhã.”",
+        "“Não lhe enviarei os dados amanhã.”",
+        "“Dir-se-ia que houve engano.”",
+        "“Nunca enviar-lhe-ei uma cópia.”"
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Incorreta como EXCETO: mesóclise sem palavra atrativa em futuro do presente.",
+        "Incorreta como EXCETO: não atrai próclise antes de enviarei.",
+        "Incorreta como EXCETO: mesóclise em futuro do pretérito sem elemento atrativo.",
+        "Correta como EXCETO: nunca é negativo e exige “Nunca lhe enviarei uma cópia” no padrão formal."
+      ],
+      "explanation": "O advérbio nunca atrai o pronome para antes do verbo; a mesóclise não se mantém diante desse elemento negativo.",
+      "concept": "A mesóclise é colocação pronominal no interior de futuro sintético do presente ou do pretérito, quando não há elemento que atraia próclise.",
+      "trap": "A presença de futuro não é condição suficiente para mesóclise quando há atrativo na mesma oração.",
+      "examTip": "Antes de aprovar a forma mesoclítica, procure negativos e relativos anteriores.",
+      "newExample": "“Jamais me esquecerei do aviso” segue próclise no futuro com advérbio negativo.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-21-004-04",
+      "moduleId": "POR-21",
+      "subtopicId": "POR-21-004",
+      "topic": "Mesóclise e tempos verbais",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Na norma escolar tradicional, “O setor tinha enviado-me o aviso” emprega ênclise ao particípio, construção que deve ser evitada em favor de forma ligada ao auxiliar.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: O particípio enviado não recebe pronome átono em ênclise na tradição escolar: pode-se escrever “O setor tinha-me enviado o aviso” com pronome junto ao auxiliar.",
+        "Incorreta: O particípio enviado não recebe pronome átono em ênclise na tradição escolar: pode-se escrever “O setor tinha-me enviado o aviso” com pronome junto ao auxiliar."
+      ],
+      "explanation": "O particípio enviado não recebe pronome átono em ênclise na tradição escolar: pode-se escrever “O setor tinha-me enviado o aviso” com pronome junto ao auxiliar.",
+      "concept": "Em locuções verbais a posição do clítico depende do verbo auxiliar, do principal, de atrativos e da tradição normativa; uma mesma ideia pode admitir mais de uma forma.",
+      "trap": "Confundir a possibilidade de ênclise ao infinitivo com a impossibilidade normativa após particípio produz esse desvio.",
+      "examTip": "Identifique o particípio “enviado” e ligue o pronome ao auxiliar tinha, em forma formal adequada.",
+      "newExample": "“Haviam-lhe encaminhado as instruções” liga o clítico ao auxiliar, não a encaminhado.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-21-005-01",
+      "moduleId": "POR-21",
+      "subtopicId": "POR-21-005",
+      "topic": "Colocação pronominal em locuções e reescrita",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Qual versão segue claramente a norma formal tradicional em locução com particípio?",
+      "options": [
+        "O servidor havia encaminhado-me a declaração.",
+        "O servidor havia-me encaminhado a declaração.",
+        "O servidor havia encaminhado, me a declaração.",
+        "O servidor havia encaminhado me a declaração."
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: o pronome me aparece enclítico ao particípio encaminhado.",
+        "Correta: o clítico liga-se ao auxiliar havia, sem ênclise ao particípio.",
+        "Incorreta: a vírgula não legitima a colocação após o particípio.",
+        "Incorreta: coloca me após o particípio sem vínculo sintático ou hífen adequado."
+      ],
+      "explanation": "A locução “havia encaminhado” recebe formalmente o clítico junto ao auxiliar: “havia-me encaminhado”.",
+      "concept": "Em locuções verbais a posição do clítico depende do verbo auxiliar, do principal, de atrativos e da tradição normativa; uma mesma ideia pode admitir mais de uma forma.",
+      "trap": "A proximidade do particípio encaminhado ao objeto pode tornar natural uma ênclise indevida.",
+      "examTip": "Localize o auxiliar e mantenha a ligação do clítico a ele, não ao particípio.",
+      "newExample": "“A chefia tinha-lhe enviado a resposta” apresenta o mesmo mecanismo.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-21-005-02",
+      "moduleId": "POR-21",
+      "subtopicId": "POR-21-005",
+      "topic": "Colocação pronominal em locuções e reescrita",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "vf",
+      "difficulty": "dificil",
+      "stem": "Julgue V/F segundo a tradição normativa: I. “Tinha-me entregue a ficha” evita ênclise ao particípio. II. “Tinha entregado-me a ficha” mantém a mesma adequação formal de I. III. “Não me tinha entregue a ficha” apresenta próclise com negação. IV. Toda locução verbal exige obrigatoriamente pronome após o particípio.",
+      "options": [
+        "V, F, V, F.",
+        "V, V, V, F.",
+        "F, F, V, V.",
+        "V, F, F, V."
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: I é formal, II usa ênclise indevida ao particípio, III é próclise adequada, e IV é absoluta e falsa.",
+        "Incorreta: II coloca o pronome após particípio, o que a tradição normativa rejeita.",
+        "Incorreta: I liga o pronome ao auxiliar, e IV exige uma posição não admitida.",
+        "Incorreta: III tem próclise atraída por não e IV erra ao impor ênclise ao particípio."
+      ],
+      "explanation": "Em locução com particípio, o clítico pode ligar-se ao auxiliar; “não” atrai próclise; o particípio não recebe ênclise normativa.",
+      "concept": "Em locuções verbais a posição do clítico depende do verbo auxiliar, do principal, de atrativos e da tradição normativa; uma mesma ideia pode admitir mais de uma forma.",
+      "trap": "A aparência de locução permite a falsa inferência de que todo elemento verbal admite o clítico após si.",
+      "examTip": "Distingua a posição em relação ao auxiliar da posição em relação ao particípio.",
+      "newExample": "“Não lhe havia comunicado” contrasta com “Havia-lhe comunicado”, ambas sem clítico após comunicado.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-21-005-03",
+      "moduleId": "POR-21",
+      "subtopicId": "POR-21-005",
+      "topic": "Colocação pronominal em locuções e reescrita",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "type": "associacao",
+      "difficulty": "dificil",
+      "stem": "Associe I. “Nunca me haviam chamado.” II. “Haviam-me chamado.” III. “Haviam chamado-me.” às avaliações formais: (a) próclise atraída por negativo; (b) ênclise ao auxiliar; (c) ênclise inadequada ao particípio.",
+      "options": [
+        "I(a); II(b); III(c).",
+        "I(b); II(a); III(c).",
+        "I(a); II(c); III(b).",
+        "I(c); II(b); III(a)."
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: nunca atrai próclise, haviam-me vincula pronome ao auxiliar, e chamado-me liga-o indevidamente ao particípio.",
+        "Incorreta: I é próclise e II é ênclise; seus rótulos foram trocados.",
+        "Incorreta: II é ênclise ao auxiliar haviam, e III ao particípio chamado.",
+        "Incorreta: a forma I contém próclise normativa, e III não tem pronome antes do verbo."
+      ],
+      "explanation": "A palavra negativa nunca atua em I; a locução II admite clítico junto ao auxiliar; III associa clítico ao particípio, inadequado ao registro formal.",
+      "concept": "Em locuções verbais a posição do clítico depende do verbo auxiliar, do principal, de atrativos e da tradição normativa; uma mesma ideia pode admitir mais de uma forma.",
+      "trap": "O hífen aparece tanto em forma admitida como em forma rejeitada: importa a palavra verbal a que se prende.",
+      "examTip": "Observe a função de nunca e identifique os verbos “haviam” e “chamado”.",
+      "newExample": "“Jamais me tinham enviado; tinham-me enviado; tinham enviado-me” reproduz as três análises.",
+      "challenge": "Justifique por que a alternativa indicada é a única correta na situação apresentada e explique a dificuldade sintática do distrator mais plausível.",
+      "id": "Q-POR-21-005-04",
+      "moduleId": "POR-21",
+      "subtopicId": "POR-21-005",
+      "topic": "Colocação pronominal em locuções e reescrita",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    }
+  ],
+  "POR-22": [
+    {
+      "id": "Q-POR-22-001-01",
+      "moduleId": "POR-22",
+      "subtopicId": "POR-22-001",
+      "topic": "Manutenção de sentido em substituições",
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Em “Alguns setores enviaram o relatório”, a substituição de “alguns” por “todos” mantém inalterado o alcance da afirmação.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: Considerar as frases equivalentes apagaria a diferença entre parte e totalidade do conjunto.",
+        "Correta: O quantificador todos atribui a ação ao conjunto inteiro; alguns não exige essa totalidade."
+      ],
+      "explanation": "O quantificador todos atribui a ação ao conjunto inteiro; alguns não exige essa totalidade.",
+      "concept": "Reescrita equivalente conserva as relações de sentido, as informações relevantes e a referência dos elementos do texto, além da adequação gramatical.",
+      "trap": "Confundir equivalência gramatical de frases bem formadas com equivalência informacional.",
+      "examTip": "Para julgar equivalência, destaque quantificadores, negação, tempos verbais e conectivos antes de avaliar se a nova frase está bem escrita. Para este item, decida a partir de: O quantificador todos atribui a ação ao conjunto inteiro; alguns não exige essa totalidade.",
+      "newExample": "“Nem todos os setores responderam” admite que uma parte não respondeu, diferentemente de “Nenhum setor respondeu”.",
+      "challenge": "Que informação nova a expressão “somente dois” acrescenta a “dois” em uma contagem?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-22-001-02",
+      "moduleId": "POR-22",
+      "subtopicId": "POR-22-001",
+      "topic": "Manutenção de sentido em substituições",
+      "type": "lacunas",
+      "difficulty": "media",
+      "stem": "Complete a reescrita que preserva a relação: “A inscrição foi adiada porque o sistema ficou indisponível.” A inscrição foi adiada _____ a indisponibilidade do sistema.",
+      "options": [
+        "apesar de",
+        "em razão de",
+        "a fim de",
+        "desde que"
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: apesar de apresenta concessão, não causa.",
+        "Correta: em razão de mantém o nexo causal entre falha e adiamento.",
+        "Incorreta: a fim de exprime finalidade.",
+        "Incorreta: desde que pode estabelecer condição, não a causa já informada."
+      ],
+      "explanation": "A locução em razão de introduz motivo; por isso preserva a causalidade de porque.",
+      "concept": "Reescrita equivalente conserva as relações de sentido, as informações relevantes e a referência dos elementos do texto, além da adequação gramatical.",
+      "trap": "Escolher conectivo pela semelhança superficial entre expressões.",
+      "examTip": "Para julgar equivalência, destaque quantificadores, negação, tempos verbais e conectivos antes de avaliar se a nova frase está bem escrita. Para este item, decida a partir de: A locução em razão de introduz motivo; por isso preserva a causalidade de porque.",
+      "newExample": "“A sessão foi interrompida devido à queda de energia” também exprime causa.",
+      "challenge": "Como ficaria a frase com “por causa de” sem alterar a relação lógica?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-22-001-03",
+      "moduleId": "POR-22",
+      "subtopicId": "POR-22-001",
+      "topic": "Manutenção de sentido em substituições",
+      "type": "afirmacoes",
+      "difficulty": "dificil",
+      "stem": "Original: “Apenas os cursos presenciais terão inscrições prorrogadas, embora o portal esteja disponível.” Julgue as proposições sobre possíveis reescritas.\nI. “Somente os cursos presenciais terão inscrições prorrogadas” preserva a restrição de alcance.\nII. “Todos os cursos terão inscrições prorrogadas” conserva o mesmo grupo.\nIII. “Apesar de o portal estar disponível, apenas os cursos presenciais terão inscrições prorrogadas” conserva a concessão.",
+      "options": [
+        "Apenas I.",
+        "Apenas II.",
+        "Apenas I e III.",
+        "I, II e III.",
+        "Apenas II e III."
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incompleta: a reescrita III também preserva o contraste concessivo.",
+        "Incorreta: II amplia a prorrogação para todos os cursos.",
+        "Correta: I mantém a restrição e III mantém restrição mais concessão.",
+        "Incorreta: II não é equivalente, pois elimina a limitação a presenciais.",
+        "Incorreta: II é falsa e I foi omitida."
+      ],
+      "explanation": "Apenas I e III conservam quantificador e relação concessiva; II altera o conjunto contemplado.",
+      "concept": "Reescrita equivalente conserva as relações de sentido, as informações relevantes e a referência dos elementos do texto, além da adequação gramatical.",
+      "trap": "Ignorar o efeito de só/somente/apenas sobre o alcance do enunciado.",
+      "examTip": "Para julgar equivalência, destaque quantificadores, negação, tempos verbais e conectivos antes de avaliar se a nova frase está bem escrita. Para este item, decida a partir de: Apenas I e III conservam quantificador e relação concessiva; II altera o conjunto contemplado.",
+      "newExample": "“Embora estivesse aberto, o balcão não recebeu pessoas” equivale a “Apesar de estar aberto, o balcão não recebeu pessoas”.",
+      "challenge": "Por que “ainda que” exigiria atenção ao modo verbal nessa transformação?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "question-bank-hard"
+    },
+    {
+      "id": "Q-POR-22-001-04",
+      "moduleId": "POR-22",
+      "subtopicId": "POR-22-001",
+      "topic": "Manutenção de sentido em substituições",
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "Original: “O setor poderá reavaliar os pedidos se surgirem novos documentos.” Assinale a única reescrita que NÃO preserva o sentido do original.",
+      "options": [
+        "O setor terá a possibilidade de reavaliar os pedidos caso apareçam novos documentos.",
+        "Se surgirem documentos adicionais, será possível ao setor reavaliar os pedidos.",
+        "A reavaliação dos pedidos pelo setor poderá ocorrer na hipótese de novos documentos.",
+        "O setor reavaliará obrigatoriamente todos os pedidos, mesmo sem novos documentos."
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Equivalente: mantém a possibilidade e a condição de surgirem documentos.",
+        "Equivalente: conserva modalidade eventual e hipótese condicionante.",
+        "Equivalente: admite a reavaliação apenas como possibilidade condicionada.",
+        "Correta no comando: transforma possibilidade em obrigação e elimina a condição."
+      ],
+      "explanation": "A última alternativa retira a condição e troca poderá por reavaliará obrigatoriamente, alterando dois elementos essenciais.",
+      "concept": "Reescrita equivalente conserva as relações de sentido, as informações relevantes e a referência dos elementos do texto, além da adequação gramatical.",
+      "trap": "Confundir certeza e possibilidade e perder a condição introduzida por se.",
+      "examTip": "Para julgar equivalência, destaque quantificadores, negação, tempos verbais e conectivos antes de avaliar se a nova frase está bem escrita. Para este item, decida a partir de: A última alternativa retira a condição e troca poderá por reavaliará obrigatoriamente, alterando dois elementos essenciais.",
+      "newExample": "“O professor pode retificar a nota se houver erro” não equivale a “O professor sempre retificará a nota”.",
+      "challenge": "Indique quais duas alterações semânticas tornam a última opção incompatível.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "question-bank-hard"
+    },
+    {
+      "id": "Q-POR-22-002-01",
+      "moduleId": "POR-22",
+      "subtopicId": "POR-22-002",
+      "topic": "Voz passiva, nominalização e transformação",
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "A transformação “A comissão analisou as propostas” → “As propostas foram analisadas pela comissão” conserva o agente e o tempo da ação.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: A passiva analítica mantém o passado e identifica a comissão como agente da análise.",
+        "Incorreta: Não há troca de agente nem passagem para o futuro; por isso a escolha ERRADO não procede."
+      ],
+      "explanation": "A passiva analítica mantém o passado e identifica a comissão como agente da análise.",
+      "concept": "Na passagem da ativa à passiva analítica, o objeto direto torna-se sujeito paciente; tempos, agentes e papéis semânticos devem ser preservados.",
+      "trap": "Confundir mudança de função sintática com mudança de quem praticou a ação.",
+      "examTip": "Na passiva, compare agente e paciente e confira a flexão do auxiliar; na nominalização, procure informações sobre autoria que podem desaparecer. Para este item, decida a partir de: A passiva analítica mantém o passado e identifica a comissão como agente da análise.",
+      "newExample": "“O servidor assinou a ata” → “A ata foi assinada pelo servidor”.",
+      "challenge": "Na passiva, qual termo da frase ativa passa a ser sujeito paciente?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-22-002-02",
+      "moduleId": "POR-22",
+      "subtopicId": "POR-22-002",
+      "topic": "Voz passiva, nominalização e transformação",
+      "type": "associacao",
+      "difficulty": "media",
+      "stem": "Associe a classificação (1. ativa; 2. passiva analítica; 3. passiva sintética) às frases na ordem.\n( ) “Os editais foram publicados pela instituição.”\n( ) “A instituição publicou os editais.”\n( ) “Publicaram-se os editais.”",
+      "options": [
+        "1 – 2 – 3",
+        "2 – 3 – 1",
+        "2 – 1 – 3",
+        "3 – 1 – 2"
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta: a primeira frase não é ativa, pois há foram publicados.",
+        "Incorreta: a segunda não é passiva sintética; o sujeito realiza a ação.",
+        "Correta: foram publicados é analítica; publicou é ativa; publicaram-se é sintética.",
+        "Incorreta: a primeira construção não traz se apassivador."
+      ],
+      "explanation": "A classificação correta é passiva analítica, ativa e passiva sintética, respectivamente.",
+      "concept": "Na passagem da ativa à passiva analítica, o objeto direto torna-se sujeito paciente; tempos, agentes e papéis semânticos devem ser preservados.",
+      "trap": "Tratar toda frase que contém se como passiva sintética.",
+      "examTip": "Na passiva, compare agente e paciente e confira a flexão do auxiliar; na nominalização, procure informações sobre autoria que podem desaparecer. Para este item, decida a partir de: A classificação correta é passiva analítica, ativa e passiva sintética, respectivamente.",
+      "newExample": "“Os contratos foram revistos” exemplifica passiva analítica mesmo sem agente expresso.",
+      "challenge": "Por que “Revisam-se relatórios” exige plural na norma-padrão?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-22-002-03",
+      "moduleId": "POR-22",
+      "subtopicId": "POR-22-002",
+      "topic": "Voz passiva, nominalização e transformação",
+      "type": "classica",
+      "difficulty": "dificil",
+      "stem": "Uma banca pede reescrita na voz passiva, sem mudar o tempo: “Os fiscais conferirão os documentos amanhã”. Qual forma atende ao pedido?",
+      "options": [
+        "Os documentos são conferidos amanhã pelos fiscais.",
+        "Os documentos serão conferidos amanhã pelos fiscais.",
+        "Os documentos foram conferidos amanhã pelos fiscais.",
+        "Conferiram-se amanhã os documentos pelos fiscais."
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: são conferidos está no presente, não no futuro.",
+        "Correta: serão conferidos mantém o futuro de conferirão e o agente.",
+        "Incorreta: foram conferidos altera para o pretérito.",
+        "Incorreta: conferiram-se também muda para passado e combina indevidamente estruturas."
+      ],
+      "explanation": "Auxiliar serão e particípio conferidos expressam futuro passivo com sujeito paciente documentos.",
+      "concept": "Na passagem da ativa à passiva analítica, o objeto direto torna-se sujeito paciente; tempos, agentes e papéis semânticos devem ser preservados.",
+      "trap": "Conservar o verbo lexical, mas trocar inadvertidamente o tempo verbal.",
+      "examTip": "Na passiva, compare agente e paciente e confira a flexão do auxiliar; na nominalização, procure informações sobre autoria que podem desaparecer. Para este item, decida a partir de: Auxiliar serão e particípio conferidos expressam futuro passivo com sujeito paciente documentos.",
+      "newExample": "“Os técnicos examinarão o sistema” → “O sistema será examinado pelos técnicos”.",
+      "challenge": "Como ficaria a passiva equivalente se o original fosse “conferiram”?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "question-bank-hard"
+    },
+    {
+      "id": "Q-POR-22-002-04",
+      "moduleId": "POR-22",
+      "subtopicId": "POR-22-002",
+      "topic": "Voz passiva, nominalização e transformação",
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "Quanto às transformações e à nominalização, assinale a afirmação INCORRETA.",
+      "options": [
+        "“A chefia autorizou o pedido” pode ser nominalizada como “A autorização do pedido pela chefia”.",
+        "“A equipe elaborou o relatório” admite “O relatório foi elaborado pela equipe”.",
+        "“Houve atrasos” admite passiva analítica direta “Atrasos foram havidos” com o mesmo uso impessoal.",
+        "“Os relatórios foram revisados” omite o agente sem alterar o fato de que houve revisão."
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Correta: a nominalização preserva a indicação do agente se pela chefia for mantido.",
+        "Correta: o objeto relatório torna-se sujeito paciente e a equipe vira agente da passiva.",
+        "Incorreta, como exige o comando: haver existencial é impessoal e não forma essa passiva analítica.",
+        "Correta: a oração passiva sem agente expresso ainda informa a revisão."
+      ],
+      "explanation": "Haver existencial, impessoal, não se comporta como transitivo direto com agente que permita passiva equivalente.",
+      "concept": "Na passagem da ativa à passiva analítica, o objeto direto torna-se sujeito paciente; tempos, agentes e papéis semânticos devem ser preservados.",
+      "trap": "Tentar produzir passiva de qualquer verbo sem examinar sua transitividade e seu sentido.",
+      "examTip": "Na passiva, compare agente e paciente e confira a flexão do auxiliar; na nominalização, procure informações sobre autoria que podem desaparecer. Para este item, decida a partir de: Haver existencial, impessoal, não se comporta como transitivo direto com agente que permita passiva equivalente.",
+      "newExample": "“Existem falhas” não se converte mecanicamente em “Falhas são existidas”.",
+      "challenge": "Explique por que uma nominalização pode eliminar o agente sem mudar o nome da ação.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "question-bank-hard"
+    },
+    {
+      "id": "Q-POR-22-003-01",
+      "moduleId": "POR-22",
+      "subtopicId": "POR-22-003",
+      "topic": "Paralelismo sintático e semântico",
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Em enumeração formal, “O projeto pretende cadastrar os usuários e a verificação dos dados” apresenta paralelismo sintático pleno.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: Não é correto chamar a estrutura plenamente paralela só porque ambos os trechos se referem a tarefas.",
+        "Correta: O primeiro elemento é verbo no infinitivo, enquanto o segundo é sintagma nominal; a enumeração perde simetria."
+      ],
+      "explanation": "O primeiro elemento é verbo no infinitivo, enquanto o segundo é sintagma nominal; a enumeração perde simetria.",
+      "concept": "Paralelismo é a correspondência formal e lógica entre elementos apresentados como equivalentes numa enumeração, coordenação ou comparação.",
+      "trap": "Confundir compatibilidade temática com paralelismo de construção.",
+      "examTip": "Observe a categoria gramatical e o papel dos elementos unidos por e, ou, tanto...quanto; só julgue incorreção absoluta se houver fundamento sintático. Para este item, decida a partir de: O primeiro elemento é verbo no infinitivo, enquanto o segundo é sintagma nominal; a enumeração perde simetria.",
+      "newExample": "“O programa pretende acolher os cidadãos e orientar os servidores” coordena dois infinitivos.",
+      "challenge": "Reescreva a enumeração com dois infinitivos sem perder as tarefas previstas.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-22-003-02",
+      "moduleId": "POR-22",
+      "subtopicId": "POR-22-003",
+      "topic": "Paralelismo sintático e semântico",
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Um relatório traz “O setor busca ampliar o horário e a redução das filas”. Qual reescrita melhora o paralelismo mantendo as duas metas?",
+      "options": [
+        "O setor busca a ampliação do horário e reduzir as filas.",
+        "O setor busca ampliar o horário e a redução das filas.",
+        "O setor busca ampliando o horário e reduzir as filas.",
+        "O setor busca ampliar o horário e reduzir as filas."
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Incorreta: combina nome a ampliação com infinitivo reduzir.",
+        "Incorreta: reproduz a assimetria original entre infinitivo e nome.",
+        "Incorreta: combina gerúndio e infinitivo e compromete a construção com busca.",
+        "Correta: ampliar e reduzir são infinitivos paralelos regidos por busca."
+      ],
+      "explanation": "Dois infinitivos coordenados mantêm o mesmo papel sintático como complementos de busca.",
+      "concept": "Paralelismo é a correspondência formal e lógica entre elementos apresentados como equivalentes numa enumeração, coordenação ou comparação.",
+      "trap": "Confundir paralelismo com repetição desnecessária da palavra “busca”.",
+      "examTip": "Observe a categoria gramatical e o papel dos elementos unidos por e, ou, tanto...quanto; só julgue incorreção absoluta se houver fundamento sintático. Para este item, decida a partir de: Dois infinitivos coordenados mantêm o mesmo papel sintático como complementos de busca.",
+      "newExample": "“A equipe planeja registrar e conferir os dados” apresenta paralelismo verbal claro.",
+      "challenge": "Escreva uma variante com dois substantivos precedidos da preposição adequada.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-22-003-03",
+      "moduleId": "POR-22",
+      "subtopicId": "POR-22-003",
+      "topic": "Paralelismo sintático e semântico",
+      "type": "afirmacoes",
+      "difficulty": "dificil",
+      "stem": "Analise as reescritas de “A proposta prevê capacitar servidores e modernizar sistemas”.\nI. “A proposta prevê a capacitação de servidores e a modernização de sistemas” preserva as duas metas e cria paralelismo nominal.\nII. “A proposta prevê a capacitação de servidores e modernizar sistemas” é tão simétrica quanto a original.\nIII. “A proposta prevê capacitar servidores e modernizar sistemas” coordena infinitivos de mesma função.",
+      "options": [
+        "Apenas I e II.",
+        "Apenas II.",
+        "Apenas I e III.",
+        "Apenas III."
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta: II mistura substantivo e infinitivo, sem simetria plena.",
+        "Incorreta: II não é plenamente paralela e I e III são verdadeiras.",
+        "Correta: I paraleliza nominalmente e III verbalmente.",
+        "Incompleta: a reescrita I também estabelece paralelismo."
+      ],
+      "explanation": "A estrutura paralela pode ser formada por dois nomes ou por dois infinitivos, como em I e III.",
+      "concept": "Paralelismo é a correspondência formal e lógica entre elementos apresentados como equivalentes numa enumeração, coordenação ou comparação.",
+      "trap": "Julgar toda enumeração correta apenas porque as metas são semanticamente relacionadas.",
+      "examTip": "Observe a categoria gramatical e o papel dos elementos unidos por e, ou, tanto...quanto; só julgue incorreção absoluta se houver fundamento sintático. Para este item, decida a partir de: A estrutura paralela pode ser formada por dois nomes ou por dois infinitivos, como em I e III.",
+      "newExample": "“Promover o acesso e ampliar a permanência” pode virar “A promoção do acesso e a ampliação da permanência”.",
+      "challenge": "Por que a equivalência informacional deve ser verificada mesmo quando a enumeração ficou mais simétrica?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "question-bank-hard"
+    },
+    {
+      "id": "Q-POR-22-003-04",
+      "moduleId": "POR-22",
+      "subtopicId": "POR-22-003",
+      "topic": "Paralelismo sintático e semântico",
+      "type": "associacao",
+      "difficulty": "dificil",
+      "stem": "Associe o problema (1. paralelismo sintático; 2. comparação de referentes; 3. ausência de problema relevante) às construções: \n( ) “O atendimento digital é mais rápido que os guichês.”\n( ) “O programa quer orientar pessoas e a inclusão digital.”\n( ) “O plano pretende reduzir custos e ampliar horários.”",
+      "options": [
+        "1 – 2 – 3",
+        "2 – 1 – 3",
+        "2 – 3 – 1",
+        "3 – 1 – 2"
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: a primeira construção compara atendimento e guichês, não apenas formas verbais.",
+        "Correta: referentes de comparação distintos; formas coordenadas assimétricas; dois infinitivos paralelos.",
+        "Incorreta: a segunda construção tem assimetria de categoria, não exemplo bem formado.",
+        "Incorreta: a primeira tem base comparativa heterogênea e a terceira já é paralela."
+      ],
+      "explanation": "A comparação mistura serviço e local; a coordenação seguinte mistura infinitivo e nome; a última mantém verbos paralelos.",
+      "concept": "Paralelismo é a correspondência formal e lógica entre elementos apresentados como equivalentes numa enumeração, coordenação ou comparação.",
+      "trap": "Tratar comparação mal construída e enumeração não paralela como um único tipo de falha.",
+      "examTip": "Observe a categoria gramatical e o papel dos elementos unidos por e, ou, tanto...quanto; só julgue incorreção absoluta se houver fundamento sintático. Para este item, decida a partir de: A comparação mistura serviço e local; a coordenação seguinte mistura infinitivo e nome; a última mantém verbos paralelos.",
+      "newExample": "“A resposta por e-mail é mais rápida que a resposta postal” compara dois serviços equivalentes.",
+      "challenge": "Corrija a comparação da primeira frase para manter o mesmo referente nos dois polos.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "question-bank-hard"
+    },
+    {
+      "id": "Q-POR-22-004-01",
+      "moduleId": "POR-22",
+      "subtopicId": "POR-22-004",
+      "topic": "Correção de períodos com ambiguidade ou redundância",
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Em “A diretora informou à analista que sua proposta foi aprovada”, o possessivo “sua” identifica sem ambiguidade a autora da proposta.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: A referência do possessivo não está inequivocamente fixada apenas pela estrutura da frase.",
+        "Correta: Sua pode remeter tanto à diretora quanto à analista, sem contexto desambiguador."
+      ],
+      "explanation": "Sua pode remeter tanto à diretora quanto à analista, sem contexto desambiguador.",
+      "concept": "Ambiguidade relevante permite mais de uma leitura plausível; redundância repete informação sem ganho funcional no contexto.",
+      "trap": "Assumir que o antecedente mais próximo é obrigatoriamente o referente do possessivo.",
+      "examTip": "Para localizar ambiguidade, teste dois referentes possíveis para cada possessivo e dois encaixes para cada adjunto deslocável. Para este item, decida a partir de: Sua pode remeter tanto à diretora quanto à analista, sem contexto desambiguador.",
+      "newExample": "“O gestor comentou com Paulo seu novo plano” também pede contexto para identificar o possuidor.",
+      "challenge": "Que expressão explicitaria que a proposta é da analista?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-22-004-02",
+      "moduleId": "POR-22",
+      "subtopicId": "POR-22-004",
+      "topic": "Correção de períodos com ambiguidade ou redundância",
+      "type": "lacunas",
+      "difficulty": "media",
+      "stem": "Para eliminar a ambiguidade sem escolher referente sem fundamento, a revisão deve primeiro identificar _____ e depois explicitar _____ no período.",
+      "options": [
+        "a pontuação; o modo verbal",
+        "o sujeito gramatical; uma sigla",
+        "o referente pretendido; a relação de posse",
+        "a extensão do texto; o destinatário"
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta: pontuação isolada não revela quem possui um objeto.",
+        "Incorreta: localizar sujeito não basta, pois sua pode remeter a outros termos.",
+        "Correta: é necessário determinar qual referente a situação atribui ao possessivo e torná-lo explícito.",
+        "Incorreta: extensão e destinatário não resolvem automaticamente a posse."
+      ],
+      "explanation": "Eliminar ambiguidade pede recuperar o referente real e escolher construção explícita coerente com o contexto.",
+      "concept": "Ambiguidade relevante permite mais de uma leitura plausível; redundância repete informação sem ganho funcional no contexto.",
+      "trap": "Resolver ambiguidade mediante uma suposição arbitrária que altera o dado original.",
+      "examTip": "Para localizar ambiguidade, teste dois referentes possíveis para cada possessivo e dois encaixes para cada adjunto deslocável. Para este item, decida a partir de: Eliminar ambiguidade pede recuperar o referente real e escolher construção explícita coerente com o contexto.",
+      "newExample": "“A assistente elogiou o projeto de Clara” deixa claro de quem é o projeto.",
+      "challenge": "Qual seria uma reescrita se o referente pretendido fosse a diretora?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-22-004-03",
+      "moduleId": "POR-22",
+      "subtopicId": "POR-22-004",
+      "topic": "Correção de períodos com ambiguidade ou redundância",
+      "type": "classica",
+      "difficulty": "dificil",
+      "stem": "Em um registro, leu-se: “A supervisora observou a estagiária com os binóculos.” O que uma revisão responsável deve fazer?",
+      "options": [
+        "Retirar “com os binóculos”, pois toda informação de instrumento é redundante.",
+        "Manter a frase; o adjunto somente pode se referir à estagiária.",
+        "Declarar incorreta a frase: seu problema é a falta de concordância do verbo.",
+        "Perguntar quem usava os binóculos e reescrever para explicitar essa relação."
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Incorreta: retirar o adjunto pode apagar o instrumento ou característica relevante.",
+        "Incorreta: o sintagma pode modificar a observação ou a estagiária.",
+        "Incorreta: observou concorda com supervisora; a dúvida é de encaixe semântico.",
+        "Correta: é preciso apurar o referente pretendido antes de deslocar o adjunto."
+      ],
+      "explanation": "O adjunto com os binóculos comporta duas leituras; não se resolve ambiguidade escolhendo uma sem contexto.",
+      "concept": "Ambiguidade relevante permite mais de uma leitura plausível; redundância repete informação sem ganho funcional no contexto.",
+      "trap": "Confundir ambiguidade de encaixe com erro gramatical de concordância.",
+      "examTip": "Para localizar ambiguidade, teste dois referentes possíveis para cada possessivo e dois encaixes para cada adjunto deslocável. Para este item, decida a partir de: O adjunto com os binóculos comporta duas leituras; não se resolve ambiguidade escolhendo uma sem contexto.",
+      "newExample": "“Com a câmera, a fiscal fotografou a praça” torna claro quem usa a câmera.",
+      "challenge": "Reescreva o exemplo para explicitar que a estagiária portava os binóculos.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "question-bank-hard"
+    },
+    {
+      "id": "Q-POR-22-004-04",
+      "moduleId": "POR-22",
+      "subtopicId": "POR-22-004",
+      "topic": "Correção de períodos com ambiguidade ou redundância",
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "Assinale a única revisão que altera indevidamente a informação, em vez de apenas reduzir redundância ou explicitar referência.",
+      "options": [
+        "“A equipe repetiu novamente o aviso” → “A equipe repetiu o aviso”.",
+        "“A chefia confirmou por escrito a decisão” → “A chefia confirmou a decisão”.",
+        "“O servidor planejou antecipadamente as tarefas” → “O servidor planejou as tarefas”.",
+        "“A assistente fez a revisão final definitiva do texto” → “A assistente fez a revisão definitiva do texto”."
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Adequada: repetiu já expressa nova realização do aviso; novamente é redundante aqui.",
+        "Correta no comando: retirar por escrito apaga o meio formal da confirmação, informação relevante.",
+        "Adequada: planejou pode dispensar antecipadamente sem perda da ação de planejar.",
+        "Adequada no contexto: definitiva já caracteriza a versão final, permitindo remover final."
+      ],
+      "explanation": "A segunda revisão elimina o meio por escrito; os demais cortes atingem reforços redundantes no contexto proposto.",
+      "concept": "Ambiguidade relevante permite mais de uma leitura plausível; redundância repete informação sem ganho funcional no contexto.",
+      "trap": "Eliminar informação de circunstância necessária sob pretexto de concisão.",
+      "examTip": "Para localizar ambiguidade, teste dois referentes possíveis para cada possessivo e dois encaixes para cada adjunto deslocável. Para este item, decida a partir de: A segunda revisão elimina o meio por escrito; os demais cortes atingem reforços redundantes no contexto proposto.",
+      "newExample": "“Registrou o pedido no sistema” não equivale a “Registrou o pedido” se o meio digital for relevante.",
+      "challenge": "Por que “por escrito” não pode ser tratado como pleonasmo de confirmar?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "question-bank-hard"
+    },
+    {
+      "id": "Q-POR-22-005-01",
+      "moduleId": "POR-22",
+      "subtopicId": "POR-22-005",
+      "topic": "Coesão, pontuação, regência e concordância integradas",
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Em “Os editais que foram revisados serão publicados”, acrescentar vírgulas ao redor de “que foram revisados” pode mudar o alcance da informação.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: A relativa sem vírgulas restringe o grupo; entre vírgulas, pode atribuir a revisão ao conjunto inteiro referido.",
+        "Incorreta: Não há garantia de equivalência semântica entre restrição e explicação, logo ERRADO seria inadequado."
+      ],
+      "explanation": "A relativa sem vírgulas restringe o grupo; entre vírgulas, pode atribuir a revisão ao conjunto inteiro referido.",
+      "concept": "A revisão integrada verifica simultaneamente relações lógicas, estrutura sintática, marcas de concordância, regência e pontuação.",
+      "trap": "Confundir a retirada ou inclusão de vírgulas com alteração apenas gráfica.",
+      "examTip": "Compare o significado antes e depois de inserir uma vírgula em oração adjetiva; depois confira regência e concordância, separadamente. Para este item, decida a partir de: A relativa sem vírgulas restringe o grupo; entre vírgulas, pode atribuir a revisão ao conjunto inteiro referido.",
+      "newExample": "“As cartas que chegaram foram lidas” seleciona as cartas recebidas; “As cartas, que chegaram, foram lidas” pode apresentar chegada como dado explicativo.",
+      "challenge": "Qual leitura admite que cartas não revisadas fiquem de fora da publicação?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-22-005-02",
+      "moduleId": "POR-22",
+      "subtopicId": "POR-22-005",
+      "topic": "Coesão, pontuação, regência e concordância integradas",
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Qual opção apresenta concordância adequada na norma-padrão?",
+      "options": [
+        "Divulgou-se os resultados da seleção.",
+        "Precisa-se de técnicos para o atendimento.",
+        "Houveram mudanças no calendário.",
+        "Fazem duas semanas que a inscrição terminou."
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: resultados é sujeito paciente plural; recomenda-se “Divulgaram-se”.",
+        "Correta: precisar de é transitivo indireto e se indetermina o sujeito, com verbo no singular.",
+        "Incorreta: haver existencial é impessoal; usa-se houve mudanças.",
+        "Incorreta: fazer indicando tempo decorrido é impessoal; usa-se faz duas semanas."
+      ],
+      "explanation": "Com precisar de, se é índice de indeterminação do sujeito; o verbo permanece na terceira pessoa do singular.",
+      "concept": "A revisão integrada verifica simultaneamente relações lógicas, estrutura sintática, marcas de concordância, regência e pontuação.",
+      "trap": "Confundir o se indeterminador de transitivo indireto com se apassivador de transitivo direto.",
+      "examTip": "Compare o significado antes e depois de inserir uma vírgula em oração adjetiva; depois confira regência e concordância, separadamente. Para este item, decida a partir de: Com precisar de, se é índice de indeterminação do sujeito; o verbo permanece na terceira pessoa do singular.",
+      "newExample": "“Necessita-se de monitores” conserva o singular pela regência de necessitar de.",
+      "challenge": "Por que “Enviaram-se as mensagens” tem plural, diferentemente da opção correta?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-22-005-03",
+      "moduleId": "POR-22",
+      "subtopicId": "POR-22-005",
+      "topic": "Coesão, pontuação, regência e concordância integradas",
+      "type": "afirmacoes",
+      "difficulty": "dificil",
+      "stem": "Considere “A coordenadora afirmou que os candidatos que concluíram a prova seriam chamados.”\nI. As duas ocorrências de que introduzem construções com funções distintas: a primeira completiva, a segunda relativa restritiva.\nII. Inserir vírgulas em torno de “que concluíram a prova” conserva obrigatoriamente a mesma delimitação de candidatos.\nIII. Substituir “seriam chamados” por “serão chamados” altera o tempo/modalidade da previsão.",
+      "options": [
+        "Apenas I e II.",
+        "Apenas II e III.",
+        "Apenas I e III.",
+        "I, II e III."
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta: II é falsa; vírgulas podem ampliar a referência.",
+        "Incorreta: II é falsa e I também é correta.",
+        "Correta: I diferencia subordinadas e III detecta mudança da flexão verbal.",
+        "Incorreta: II não preserva necessariamente a restrição original."
+      ],
+      "explanation": "A primeira oração introduz o conteúdo afirmado; a segunda restringe candidatos; mudar vírgulas ou tempo pode alterar o sentido.",
+      "concept": "A revisão integrada verifica simultaneamente relações lógicas, estrutura sintática, marcas de concordância, regência e pontuação.",
+      "trap": "Tratar todas as ocorrências de que como mesma classe e toda vírgula como facultativa.",
+      "examTip": "Compare o significado antes e depois de inserir uma vírgula em oração adjetiva; depois confira regência e concordância, separadamente. Para este item, decida a partir de: A primeira oração introduz o conteúdo afirmado; a segunda restringe candidatos; mudar vírgulas ou tempo pode alterar o sentido.",
+      "newExample": "“A chefia disse que as turmas que terminaram seriam liberadas” também contém completiva e relativa.",
+      "challenge": "Em qual das orações do exemplo se seleciona um subconjunto dos candidatos?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "question-bank-hard"
+    },
+    {
+      "id": "Q-POR-22-005-04",
+      "moduleId": "POR-22",
+      "subtopicId": "POR-22-005",
+      "topic": "Coesão, pontuação, regência e concordância integradas",
+      "type": "vf",
+      "difficulty": "dificil",
+      "stem": "Julgue as afirmações sobre revisão integrada.\nI. “Publicaram-se os avisos” contém passiva sintética com concordância plural.\nII. “Precisa-se de servidores” exige “Precisam-se” para concordar com servidores.\nIII. Em “O relatório, que foi revisado, circulou”, as vírgulas marcam relativa explicativa.\nIV. Trocar “porque” por “embora” conserva sempre a relação de causa.",
+      "options": [
+        "V – F – V – F",
+        "V – V – F – F",
+        "F – F – V – V",
+        "V – F – F – V"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: I e III verdadeiras; II e IV falsas pelos critérios de regência e conectivo.",
+        "Incorreta: II não exige plural e III é explicativa.",
+        "Incorreta: I é verdadeira, e IV não expressa causa.",
+        "Incorreta: III é verdadeira e IV é falsa."
+      ],
+      "explanation": "A sequência é V-F-V-F: passiva sintética concorda, precisar de é indireto, vírgulas indicam explicação, embora é concessivo.",
+      "concept": "A revisão integrada verifica simultaneamente relações lógicas, estrutura sintática, marcas de concordância, regência e pontuação.",
+      "trap": "Generalizar que qualquer conectivo mantém a mesma relação lógica e que todo se pede plural.",
+      "examTip": "Compare o significado antes e depois de inserir uma vírgula em oração adjetiva; depois confira regência e concordância, separadamente. Para este item, decida a partir de: A sequência é V-F-V-F: passiva sintética concorda, precisar de é indireto, vírgulas indicam explicação, embora é concessivo.",
+      "newExample": "“Enviaram-se ofícios”, mas “Necessita-se de mais prazo” ilustram funções distintas de se.",
+      "challenge": "Por que “embora” pode exigir alteração de modo verbal numa reescrita?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "question-bank-hard"
+    }
+  ],
+  "POR-23": [
+    {
+      "id": "Q-POR-23-001-01",
+      "moduleId": "POR-23",
+      "subtopicId": "POR-23-001",
+      "topic": "Metáfora, metonímia e comparação",
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Em “O estudante leu Machado de Assis durante as férias”, o nome do autor pode designar suas obras por metonímia.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: Em contexto de leitura, a relação autor–obra permite usar o nome do escritor para nomear os livros escritos por ele.",
+        "Incorreta: Não se trata de afirmar que o leitor leu a pessoa fisicamente; a troca de designação é metonímica."
+      ],
+      "explanation": "Em contexto de leitura, a relação autor–obra permite usar o nome do escritor para nomear os livros escritos por ele.",
+      "concept": "Metáfora estabelece aproximação implícita; comparação explicita semelhança; metonímia troca designações por vínculo de contiguidade.",
+      "trap": "Confundir contiguidade autor–obra com semelhança, típica da metáfora.",
+      "examTip": "Pergunte se os termos se relacionam por semelhança (metáfora/comparação) ou contiguidade (metonímia). Para este item, decida a partir de: Em contexto de leitura, a relação autor–obra permite usar o nome do escritor para nomear os livros escritos por ele.",
+      "newExample": "“A turma estudou Drummond” pode significar que leu poemas do escritor.",
+      "challenge": "Que vínculo semântico permite chamar uma obra pelo nome de quem a escreveu?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-23-001-02",
+      "moduleId": "POR-23",
+      "subtopicId": "POR-23-001",
+      "topic": "Metáfora, metonímia e comparação",
+      "type": "associacao",
+      "difficulty": "media",
+      "stem": "Associe (1. metáfora; 2. metonímia; 3. comparação) às frases: \n( ) “O arquivo é um labirinto.”\n( ) “O público aplaudiu o palco.” (palco = artistas)\n( ) “O arquivo parece um labirinto.”",
+      "options": [
+        "1 – 2 – 3",
+        "2 – 1 – 3",
+        "3 – 2 – 1",
+        "1 – 3 – 2"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: há semelhança implícita, troca lugar–ocupantes e comparação explícita, respectivamente.",
+        "Incorreta: o arquivo como labirinto não depende de contiguidade.",
+        "Incorreta: parece explicita a semelhança, logo é comparação no último caso.",
+        "Incorreta: o palco designa os artistas por contiguidade, não símile."
+      ],
+      "explanation": "A metáfora aproxima realidades implicitamente, a metonímia nomeia artistas por palco e a comparação explicita semelhança.",
+      "concept": "Metáfora estabelece aproximação implícita; comparação explicita semelhança; metonímia troca designações por vínculo de contiguidade.",
+      "trap": "Classificar toda substituição não literal como metáfora.",
+      "examTip": "Pergunte se os termos se relacionam por semelhança (metáfora/comparação) ou contiguidade (metonímia). Para este item, decida a partir de: A metáfora aproxima realidades implicitamente, a metonímia nomeia artistas por palco e a comparação explicita semelhança.",
+      "newExample": "“A chefia é uma bússola” usa metáfora; “a chefia orienta como uma bússola” explicita a comparação.",
+      "challenge": "Como diferenciar metonímia e metáfora no segundo enunciado?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-23-001-03",
+      "moduleId": "POR-23",
+      "subtopicId": "POR-23-001",
+      "topic": "Metáfora, metonímia e comparação",
+      "type": "classica",
+      "difficulty": "dificil",
+      "stem": "Em uma campanha de incentivo à leitura, aparece a frase “Cada livro é uma janela para mundos desconhecidos”. Qual interpretação é mais adequada?",
+      "options": [
+        "Trata-se de metonímia: janela substitui uma biblioteca física por contiguidade.",
+        "Trata-se de metáfora: livro é aproximado de janela pela possibilidade de acesso a outras experiências.",
+        "Trata-se de comparação explícita: o conectivo como estabelece a relação.",
+        "Trata-se de descrição literal: todos os livros possuem uma janela material."
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: o vínculo livro–janela é de semelhança funcional, não de proximidade material.",
+        "Correta: a metáfora atribui ao livro a função simbólica de abrir perspectivas.",
+        "Incorreta: não há como ou outro elemento que explicite um símile.",
+        "Incorreta: janela não é componente físico universal dos livros."
+      ],
+      "explanation": "Livro e janela são aproximados por analogia de acesso; a equivalência é figurada, não literal.",
+      "concept": "Metáfora estabelece aproximação implícita; comparação explicita semelhança; metonímia troca designações por vínculo de contiguidade.",
+      "trap": "Interpretar a metáfora como identidade física entre os objetos.",
+      "examTip": "Pergunte se os termos se relacionam por semelhança (metáfora/comparação) ou contiguidade (metonímia). Para este item, decida a partir de: Livro e janela são aproximados por analogia de acesso; a equivalência é figurada, não literal.",
+      "newExample": "“A pesquisa foi uma ponte entre teorias” também usa metáfora por semelhança de conexão.",
+      "challenge": "Que palavras mudariam a frase para uma comparação explícita?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "question-bank-hard"
+    },
+    {
+      "id": "Q-POR-23-001-04",
+      "moduleId": "POR-23",
+      "subtopicId": "POR-23-001",
+      "topic": "Metáfora, metonímia e comparação",
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "Em cada alternativa, a explicação da figura está correta, EXCETO em:",
+      "options": [
+        "“Li uma autora brasileira”: autora pode designar obras, por metonímia.",
+        "“Sua memória é um cofre”: o cofre fornece imagem metafórica de guarda.",
+        "“A sala parecia um formigueiro”: a semelhança é explicitada por parecia.",
+        "“Bebeu um copo de água”: copo pela água é metáfora fundada na semelhança."
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Correta: autoria relaciona a pessoa às obras por contiguidade.",
+        "Correta: a imagem compara memória e recipiente sem conectivo explícito.",
+        "Correta: parecia sinaliza comparação explícita entre sala e formigueiro.",
+        "Incorreta, como exige o comando: copo pelo conteúdo é metonímia, não metáfora."
+      ],
+      "explanation": "Em “bebeu um copo”, recipiente designa o líquido nele contido: relação de contiguidade metonímica.",
+      "concept": "Metáfora estabelece aproximação implícita; comparação explicita semelhança; metonímia troca designações por vínculo de contiguidade.",
+      "trap": "Confundir relação recipiente–conteúdo com semelhança figurativa.",
+      "examTip": "Pergunte se os termos se relacionam por semelhança (metáfora/comparação) ou contiguidade (metonímia). Para este item, decida a partir de: Em “bebeu um copo”, recipiente designa o líquido nele contido: relação de contiguidade metonímica.",
+      "newExample": "“O auditório se levantou” pode designar as pessoas presentes, por metonímia lugar–ocupantes.",
+      "challenge": "Explique por que “copo” e “água” não são semelhantes no mesmo sentido de metáfora.",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "question-bank-hard"
+    },
+    {
+      "id": "Q-POR-23-002-01",
+      "moduleId": "POR-23",
+      "subtopicId": "POR-23-002",
+      "topic": "Antítese, paradoxo e eufemismo",
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Em “A sala estava cheia de ausências”, os termos podem produzir efeito paradoxal se o contexto mostrar a presença intensa de lembranças de quem faltava.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: Cheia e ausências articulam ideias em tensão, cuja interpretação figurada depende do contexto de lembrança.",
+        "Incorreta: Não é necessário que as palavras formem frase literal sem contradição para existir sentido paradoxal."
+      ],
+      "explanation": "Cheia e ausências articulam ideias em tensão, cuja interpretação figurada depende do contexto de lembrança.",
+      "concept": "Antítese aproxima sentidos opostos; paradoxo reúne ideias aparentemente incompatíveis; eufemismo suaviza expressão potencialmente dura.",
+      "trap": "Tratar paradoxo intencional como simples erro lógico sem examinar o contexto.",
+      "examTip": "Antítese exige contraste; paradoxo exige tensão semântica internamente interpretável; eufemismo pede atenuação de um referente. Para este item, decida a partir de: Cheia e ausências articulam ideias em tensão, cuja interpretação figurada depende do contexto de lembrança.",
+      "newExample": "“O ruído do silêncio pesava” pode formar paradoxo em contexto poético.",
+      "challenge": "Como a expressão “cheia de ausências” pode ganhar sentido sem descrever ocupação física?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-23-002-02",
+      "moduleId": "POR-23",
+      "subtopicId": "POR-23-002",
+      "topic": "Antítese, paradoxo e eufemismo",
+      "type": "afirmacoes",
+      "difficulty": "media",
+      "stem": "Analise as classificações.\nI. “Uns comemoravam, outros lamentavam” aproxima ações opostas por antítese.\nII. “A alegria doeu” pode produzir paradoxo em contexto expressivo.\nIII. “Ele não está mais entre nós” pode ser eufemismo para falecimento, conforme o contexto.",
+      "options": [
+        "Apenas I.",
+        "Apenas I e II.",
+        "Apenas II e III.",
+        "I, II e III."
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Incompleta: II e III também são classificações possíveis no contexto indicado.",
+        "Incompleta: III também caracteriza atenuação expressiva.",
+        "Incompleta: I também contrapõe sentidos opostos.",
+        "Correta: os três exemplos cumprem as definições de antítese, paradoxo e eufemismo."
+      ],
+      "explanation": "Antítese contrapõe, paradoxo combina tensão interpretável, e eufemismo atenua expressão desagradável.",
+      "concept": "Antítese aproxima sentidos opostos; paradoxo reúne ideias aparentemente incompatíveis; eufemismo suaviza expressão potencialmente dura.",
+      "trap": "Exigir que toda figura se deduza automaticamente da frase sem situação comunicativa.",
+      "examTip": "Antítese exige contraste; paradoxo exige tensão semântica internamente interpretável; eufemismo pede atenuação de um referente. Para este item, decida a partir de: Antítese contrapõe, paradoxo combina tensão interpretável, e eufemismo atenua expressão desagradável.",
+      "newExample": "“A notícia foi recebida com sorrisos e lágrimas” pode produzir antítese.",
+      "challenge": "Por que o contexto indicado em III é necessário para reconhecer eufemismo?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-23-002-03",
+      "moduleId": "POR-23",
+      "subtopicId": "POR-23-002",
+      "topic": "Antítese, paradoxo e eufemismo",
+      "type": "associacao",
+      "difficulty": "dificil",
+      "stem": "Associe as figuras (1. antítese; 2. paradoxo; 3. eufemismo) às frases contextualizadas: \n( ) “A empresa reduzirá o quadro” (em aviso sobre demissões).\n( ) “A ausência dele era a presença mais forte na reunião” (crônica).\n( ) “Alguns silenciaram; outros protestaram” (relato).",
+      "options": [
+        "1 – 2 – 3",
+        "3 – 1 – 2",
+        "2 – 3 – 1",
+        "3 – 2 – 1"
+      ],
+      "answer": 3,
+      "optionComments": [
+        "Incorreta: reduzir o quadro atenua demissões, não é apenas oposição.",
+        "Incorreta: o segundo trecho reúne tensão paradoxal, não mera antítese.",
+        "Incorreta: a primeira frase é atenuação contextual, não paradoxo.",
+        "Correta: atenuação, tensão interna e oposição de comportamentos."
+      ],
+      "explanation": "A ordem é eufemismo, paradoxo e antítese, dadas as situações expressas no enunciado.",
+      "concept": "Antítese aproxima sentidos opostos; paradoxo reúne ideias aparentemente incompatíveis; eufemismo suaviza expressão potencialmente dura.",
+      "trap": "Ignorar que o eufemismo suaviza a formulação e pode reduzir a transparência.",
+      "examTip": "Antítese exige contraste; paradoxo exige tensão semântica internamente interpretável; eufemismo pede atenuação de um referente. Para este item, decida a partir de: A ordem é eufemismo, paradoxo e antítese, dadas as situações expressas no enunciado.",
+      "newExample": "“O gestor não renovará alguns contratos” pode ser formulação atenuada em certas situações, mas seu significado factual deve permanecer claro.",
+      "challenge": "Por que reduzir o quadro pode ser problemático em um comunicado que exige máxima clareza?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "question-bank-hard"
+    },
+    {
+      "id": "Q-POR-23-002-04",
+      "moduleId": "POR-23",
+      "subtopicId": "POR-23-002",
+      "topic": "Antítese, paradoxo e eufemismo",
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "Sobre os efeitos das figuras, assinale a alternativa INCORRETA.",
+      "options": [
+        "A antítese pode ressaltar divergência por termos de sentidos opostos.",
+        "O paradoxo pode convidar a uma leitura que reconcilia aparentes contradições.",
+        "O eufemismo sempre aumenta a precisão informativa de documentos oficiais.",
+        "O eufemismo pode modificar o tom de uma notícia desfavorável."
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Correta: oposição é o núcleo da antítese contextual.",
+        "Correta: tensão paradoxal pode criar significado figurado.",
+        "Incorreta, como exige o comando: a atenuação pode ocultar o conteúdo e prejudicar a precisão.",
+        "Correta: suavização de um fato desagradável afeta o tom da mensagem."
+      ],
+      "explanation": "Não se pode afirmar que suavizar sempre torna documento mais preciso; pode inclusive mascarar informação exigida.",
+      "concept": "Antítese aproxima sentidos opostos; paradoxo reúne ideias aparentemente incompatíveis; eufemismo suaviza expressão potencialmente dura.",
+      "trap": "Confundir delicadeza discursiva com garantia automática de clareza.",
+      "examTip": "Antítese exige contraste; paradoxo exige tensão semântica internamente interpretável; eufemismo pede atenuação de um referente. Para este item, decida a partir de: Não se pode afirmar que suavizar sempre torna documento mais preciso; pode inclusive mascarar informação exigida.",
+      "newExample": "“Haverá uma adequação do quadro” pode exigir esclarecimento objetivo se significar demissões.",
+      "challenge": "Como distinguir uma formulação respeitosa de uma formulação que esconde o fato?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "question-bank-hard"
+    },
+    {
+      "id": "Q-POR-23-003-01",
+      "moduleId": "POR-23",
+      "subtopicId": "POR-23-003",
+      "topic": "Hipérbole, personificação e ironia",
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Na frase “O relógio reclamava do atraso”, atribuir ao relógio a ação humana de reclamar caracteriza personificação.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: Reclamar é comportamento humano figurativamente atribuído a um objeto inanimado.",
+        "Incorreta: Não se lê reclamar como função literal do relógio; por isso não cabe marcar ERRADO."
+      ],
+      "explanation": "Reclamar é comportamento humano figurativamente atribuído a um objeto inanimado.",
+      "concept": "Hipérbole intensifica além do literal; personificação atribui ações humanas a não humanos; ironia opõe sentido literal e intenção contextual.",
+      "trap": "Tratar sujeito não humano como impedimento à personificação.",
+      "examTip": "Ironia precisa de contexto que justifique leitura contrária; hipérbole não exige número exagerado, e personificação não se aplica a processos literais de máquinas. Para este item, decida a partir de: Reclamar é comportamento humano figurativamente atribuído a um objeto inanimado.",
+      "newExample": "“O corredor sussurrava histórias antigas” também humaniza um espaço.",
+      "challenge": "Qual traço humano foi transferido ao relógio no enunciado?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-23-003-02",
+      "moduleId": "POR-23",
+      "subtopicId": "POR-23-003",
+      "topic": "Hipérbole, personificação e ironia",
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Uma fila demora muito e alguém exclama “Esperei mil vidas para ser atendido!”. Qual figura predomina?",
+      "options": [
+        "Metonímia, pois vidas substitui guichês por contiguidade.",
+        "Hipérbole, pois há exagero intencional da duração percebida.",
+        "Antítese, pois dois termos opostos aparecem na frase.",
+        "Eufemismo, pois a espera é suavizada por uma imagem."
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: não há troca contígua entre vidas e guichês.",
+        "Correta: a duração impossível no contexto intensifica a demora por exagero.",
+        "Incorreta: a frase não contrapõe pares de sentidos opostos.",
+        "Incorreta: a exclamação intensifica, em vez de suavizar a experiência."
+      ],
+      "explanation": "O exagero de mil vidas não é medida cronológica; reforça o incômodo da longa espera.",
+      "concept": "Hipérbole intensifica além do literal; personificação atribui ações humanas a não humanos; ironia opõe sentido literal e intenção contextual.",
+      "trap": "Confundir dado quantitativo literal com exagero expressivo contextual.",
+      "examTip": "Ironia precisa de contexto que justifique leitura contrária; hipérbole não exige número exagerado, e personificação não se aplica a processos literais de máquinas. Para este item, decida a partir de: O exagero de mil vidas não é medida cronológica; reforça o incômodo da longa espera.",
+      "newExample": "“A reunião levou uma eternidade” também pode ser hipérbole temporal.",
+      "challenge": "Por que números enormes nem sempre formam hipérbole em textos científicos?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-23-003-03",
+      "moduleId": "POR-23",
+      "subtopicId": "POR-23-003",
+      "topic": "Hipérbole, personificação e ironia",
+      "type": "vf",
+      "difficulty": "dificil",
+      "stem": "Considere o contexto: um servidor chega 40 minutos atrasado e ouve “Sua pontualidade é exemplar!”. Julgue as afirmações.\nI. A fala pode ter valor irônico diante do atraso.\nII. Sem o contexto, o mesmo elogio poderia ser literal.\nIII. Ironia exige sempre a presença da palavra “não”.\nIV. A avaliação do interlocutor pode ser oposta ao elogio literal.",
+      "options": [
+        "V – F – F – V",
+        "V – V – F – V",
+        "F – V – V – F",
+        "V – V – V – F"
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: II é verdadeira, porque a frase pode elogiar genuinamente em outra situação.",
+        "Correta: o atraso fundamenta ironia; a frase sem cenário pode ser literal; não é obrigatória negação.",
+        "Incorreta: I é verdadeira e III é falsa, pois não há exigência de não.",
+        "Incorreta: III é falsa e IV é verdadeira, pois há crítica implícita."
+      ],
+      "explanation": "A sequência é V-V-F-V: a ironia depende do contraste entre elogio e atraso, sem requerer marcador formal de negação.",
+      "concept": "Hipérbole intensifica além do literal; personificação atribui ações humanas a não humanos; ironia opõe sentido literal e intenção contextual.",
+      "trap": "Identificar ironia apenas pela expressão isolada ou pela presença de negativas.",
+      "examTip": "Ironia precisa de contexto que justifique leitura contrária; hipérbole não exige número exagerado, e personificação não se aplica a processos literais de máquinas. Para este item, decida a partir de: A sequência é V-V-F-V: a ironia depende do contraste entre elogio e atraso, sem requerer marcador formal de negação.",
+      "newExample": "Em uma cerimônia organizada, “Que excelente organização!” pode ser elogio genuíno, sem ironia.",
+      "challenge": "Qual mudança no contexto eliminaria a interpretação irônica do elogio?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "question-bank-hard"
+    },
+    {
+      "id": "Q-POR-23-003-04",
+      "moduleId": "POR-23",
+      "subtopicId": "POR-23-003",
+      "topic": "Hipérbole, personificação e ironia",
+      "type": "associacao",
+      "difficulty": "dificil",
+      "stem": "Associe (1. hipérbole; 2. personificação; 3. ironia) aos enunciados e contextos.\n( ) “O vento protestava nas janelas” (narrativa).\n( ) “Já te esperei dez séculos” (diálogo de alguém impaciente).\n( ) “Que serviço veloz!”, dito após atraso muito grande (reclamação).",
+      "options": [
+        "2 – 1 – 3",
+        "1 – 2 – 3",
+        "2 – 3 – 1",
+        "3 – 1 – 2"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: protestar humaniza o vento; dez séculos exagera; elogio contradiz atraso.",
+        "Incorreta: vento não expressa aqui medida exagerada de tempo.",
+        "Incorreta: o exagero do segundo caso não é crítica por sentido invertido.",
+        "Incorreta: a primeira frase não traz avaliação literal invertida pelo contexto."
+      ],
+      "explanation": "A sequência 2-1-3 depende dos sinais de humanização, exagero e incongruência avaliativa.",
+      "concept": "Hipérbole intensifica além do literal; personificação atribui ações humanas a não humanos; ironia opõe sentido literal e intenção contextual.",
+      "trap": "Classificar ironia por palavra isolada e personificação por qualquer verbo em sujeito não humano.",
+      "examTip": "Ironia precisa de contexto que justifique leitura contrária; hipérbole não exige número exagerado, e personificação não se aplica a processos literais de máquinas. Para este item, decida a partir de: A sequência 2-1-3 depende dos sinais de humanização, exagero e incongruência avaliativa.",
+      "newExample": "“O computador se recusou a colaborar” personifica máquina numa reclamação informal.",
+      "challenge": "Qual exemplo poderia deixar de ser figura se fosse entendido de modo literal?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "question-bank-hard"
+    },
+    {
+      "id": "Q-POR-23-004-01",
+      "moduleId": "POR-23",
+      "subtopicId": "POR-23-004",
+      "topic": "Elipse, pleonasmo e inversão",
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "Em “Marta corrigiu a minuta; Paulo, o anexo”, omite-se na segunda oração um verbo já expresso, caso de zeugma.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: Corrigiu é recuperado do primeiro segmento e fica elíptico no segundo, caracterizando zeugma.",
+        "Incorreta: Não se trata de ausência irreparável de predicado; a estrutura permite recuperar corrigiu."
+      ],
+      "explanation": "Corrigiu é recuperado do primeiro segmento e fica elíptico no segundo, caracterizando zeugma.",
+      "concept": "Elipse omite termo recuperável; pleonasmo repete conteúdo, com ou sem valor expressivo; inversão altera a ordem não marcada dos termos.",
+      "trap": "Confundir supressão recuperável (zeugma) com falta de coesão textual.",
+      "examTip": "Procure termo recuperável para elipse; redundância com ênfase para pleonasmo; deslocamento sintático relevante para inversão. Para este item, decida a partir de: Corrigiu é recuperado do primeiro segmento e fica elíptico no segundo, caracterizando zeugma.",
+      "newExample": "“A biblioteca recebeu cinco títulos; o arquivo, dois” omite recebeu no segundo membro.",
+      "challenge": "Qual verbo completa a segunda oração do enunciado?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-23-004-02",
+      "moduleId": "POR-23",
+      "subtopicId": "POR-23-004",
+      "topic": "Elipse, pleonasmo e inversão",
+      "type": "associacao",
+      "difficulty": "media",
+      "stem": "Associe (1. elipse/zeugma; 2. pleonasmo; 3. inversão) às frases: \n( ) “Ana leu três atas; Bruno, duas.”\n( ) “Eu mesmo vi com meus próprios olhos.”\n( ) “Da praça vinham os cantos.”",
+      "options": [
+        "1 – 3 – 2",
+        "2 – 1 – 3",
+        "1 – 2 – 3",
+        "3 – 2 – 1"
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta: a segunda frase repete conteúdo, não altera principalmente a ordem.",
+        "Incorreta: a primeira omite verbo, não repete informação.",
+        "Correta: verbo suprimido, ênfase reiterativa e deslocamento da ordem usual.",
+        "Incorreta: a primeira é elipse e a terceira é inversão."
+      ],
+      "explanation": "A primeira omite leu, a segunda reforça a experiência visual e a terceira antepõe adjunto e verbo ao sujeito.",
+      "concept": "Elipse omite termo recuperável; pleonasmo repete conteúdo, com ou sem valor expressivo; inversão altera a ordem não marcada dos termos.",
+      "trap": "Afirmar que repetição enfática é sempre erro, sem considerar efeito expressivo.",
+      "examTip": "Procure termo recuperável para elipse; redundância com ênfase para pleonasmo; deslocamento sintático relevante para inversão. Para este item, decida a partir de: A primeira omite leu, a segunda reforça a experiência visual e a terceira antepõe adjunto e verbo ao sujeito.",
+      "newExample": "“Pedro enviou a carta; Clara, o relatório” apresenta verbo recuperado do primeiro trecho.",
+      "challenge": "Como ficaria a terceira frase em ordem mais direta?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-23-004-03",
+      "moduleId": "POR-23",
+      "subtopicId": "POR-23-004",
+      "topic": "Elipse, pleonasmo e inversão",
+      "type": "classica",
+      "difficulty": "dificil",
+      "stem": "Em uma crônica, a narradora escreve “Vi, com meus próprios olhos, a praça renascer”. Qual análise é mais rigorosa?",
+      "options": [
+        "A expressão “com meus próprios olhos” pode ser pleonasmo enfático, intensificando o testemunho.",
+        "A construção é necessariamente agramatical porque repete ver e olhos.",
+        "É zeugma, pois se omite o verbo ver.",
+        "É metonímia: olhos substitui todas as pessoas presentes na praça."
+      ],
+      "answer": 0,
+      "optionComments": [
+        "Correta: a repetição semântica pode valorizar a experiência pessoal no gênero literário.",
+        "Incorreta: redundância expressiva não é, por si, erro gramatical.",
+        "Incorreta: o verbo vi está explícito; nada foi elidido nesse ponto.",
+        "Incorreta: olhos reforça a percepção da narradora, sem designar um grupo de pessoas."
+      ],
+      "explanation": "O pleonasmo pode cumprir função enfática e não ser vício obrigatório no contexto de crônica.",
+      "concept": "Elipse omite termo recuperável; pleonasmo repete conteúdo, com ou sem valor expressivo; inversão altera a ordem não marcada dos termos.",
+      "trap": "Tratar todo pleonasmo como erro universal, ignorando gênero e intenção.",
+      "examTip": "Procure termo recuperável para elipse; redundância com ênfase para pleonasmo; deslocamento sintático relevante para inversão. Para este item, decida a partir de: O pleonasmo pode cumprir função enfática e não ser vício obrigatório no contexto de crônica.",
+      "newExample": "“Ouvi com estes ouvidos o aviso” pode ser ênfase, embora excessivo num relatório técnico.",
+      "challenge": "Por que a mesma construção poderia ser reduzida em um parecer administrativo?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "question-bank-hard"
+    },
+    {
+      "id": "Q-POR-23-004-04",
+      "moduleId": "POR-23",
+      "subtopicId": "POR-23-004",
+      "topic": "Elipse, pleonasmo e inversão",
+      "type": "vf",
+      "difficulty": "dificil",
+      "stem": "Julgue os fenômenos em frases independentes.\nI. “O diretor assinou três documentos; a vice-diretora, dois” contém elipse de assinou.\nII. “As decisões, tomei-as ontem” apresenta deslocamento/topicalização da ordem mais usual.\nIII. Em “subir para cima”, a duplicação de direção tende a ser redundante em texto informativo.\nIV. Toda elipse constitui necessariamente erro de concordância.",
+      "options": [
+        "V – F – V – F",
+        "F – V – V – F",
+        "V – V – V – F",
+        "V – V – F – V"
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta: II é verdadeira, porque decisões foi deslocado e retomado.",
+        "Incorreta: I é verdadeira: assinou é recuperável.",
+        "Correta: I, II e III verdadeiras; IV falsa porque elipse pode ser recurso gramatical.",
+        "Incorreta: III é verdadeira no contexto e IV é falsa."
+      ],
+      "explanation": "A sequência V-V-V-F reúne supressão recuperável, deslocamento sintático e redundância; elipse não é erro automático.",
+      "concept": "Elipse omite termo recuperável; pleonasmo repete conteúdo, com ou sem valor expressivo; inversão altera a ordem não marcada dos termos.",
+      "trap": "Confundir elipse com frase incompleta e deslocamento com falta de sintaxe.",
+      "examTip": "Procure termo recuperável para elipse; redundância com ênfase para pleonasmo; deslocamento sintático relevante para inversão. Para este item, decida a partir de: A sequência V-V-V-F reúne supressão recuperável, deslocamento sintático e redundância; elipse não é erro automático.",
+      "newExample": "“Joana leu os autos; Marcos, o despacho” pode ser perfeitamente claro com zeugma.",
+      "challenge": "Quando uma inversão contribui para destacar informação sem impedir compreensão?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "question-bank-hard"
+    },
+    {
+      "id": "Q-POR-23-005-01",
+      "moduleId": "POR-23",
+      "subtopicId": "POR-23-005",
+      "topic": "Efeito expressivo e interpretação contextual",
+      "type": "ce",
+      "difficulty": "media",
+      "stem": "A frase “A cidade despertou sorrindo”, em uma crônica sobre a manhã, deve ser interpretada obrigatoriamente como descrição literal do comportamento dos prédios.",
+      "options": [
+        "CERTO",
+        "ERRADO"
+      ],
+      "answer": 1,
+      "optionComments": [
+        "Incorreta: A interpretação literal rígida desprezaria gênero e transferência expressiva da crônica.",
+        "Correta: Prédios não despertam nem sorriem; a expressão pode personificar cidade ou evocar seus habitantes."
+      ],
+      "explanation": "Prédios não despertam nem sorriem; a expressão pode personificar cidade ou evocar seus habitantes.",
+      "concept": "Figuras de linguagem só são interpretadas adequadamente em relação ao gênero, à situação comunicativa e ao efeito produzido.",
+      "trap": "Forçar interpretação literal em um contexto claramente expressivo.",
+      "examTip": "As perguntas “por quê?”, “para quem?” e “em qual gênero?” ajudam mais que procurar figuras isoladas em listas. Para este item, decida a partir de: Prédios não despertam nem sorriem; a expressão pode personificar cidade ou evocar seus habitantes.",
+      "newExample": "“O bairro respirou aliviado após a tempestade” figura moradores ou personifica o bairro.",
+      "challenge": "Que marcas do gênero crônica autorizam uma leitura figurativa da cidade?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-23-005-02",
+      "moduleId": "POR-23",
+      "subtopicId": "POR-23-005",
+      "topic": "Efeito expressivo e interpretação contextual",
+      "type": "classica",
+      "difficulty": "media",
+      "stem": "Num cartaz de incentivo à leitura, lê-se: “Os livros abrem caminhos”. Qual efeito de sentido é mais plausível?",
+      "options": [
+        "Sugere que os livros tornam desnecessárias todas as experiências fora da leitura.",
+        "Defende que apenas obras sobre viagens oferecem novos conhecimentos.",
+        "Sugere que a leitura cria possibilidades de conhecimento e experiência.",
+        "Afirma que caminhos são abertos somente por atividades desenvolvidas na biblioteca."
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incorreta: o cartaz não afirma que outras experiências sejam dispensáveis.",
+        "Incorreta: a imagem não restringe o efeito aos livros sobre viagens.",
+        "Correta: caminhos simboliza novas possibilidades intelectuais e culturais.",
+        "Incorreta: a figura não limita novas possibilidades ao espaço da biblioteca."
+      ],
+      "explanation": "A metáfora dos caminhos comunica ampliação simbólica de horizontes por meio da leitura.",
+      "concept": "Figuras de linguagem só são interpretadas adequadamente em relação ao gênero, à situação comunicativa e ao efeito produzido.",
+      "trap": "Confundir efeito simbólico da figura com instrução literal do cartaz.",
+      "examTip": "As perguntas “por quê?”, “para quem?” e “em qual gênero?” ajudam mais que procurar figuras isoladas em listas. Para este item, decida a partir de: A metáfora dos caminhos comunica ampliação simbólica de horizontes por meio da leitura.",
+      "newExample": "“Uma boa pergunta abre portas” pode sugerir novas descobertas, não portas materiais.",
+      "challenge": "Que reescrita literal preservaria a mensagem principal do cartaz?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "exercise-base"
+    },
+    {
+      "id": "Q-POR-23-005-03",
+      "moduleId": "POR-23",
+      "subtopicId": "POR-23-005",
+      "topic": "Efeito expressivo e interpretação contextual",
+      "type": "afirmacoes",
+      "difficulty": "dificil",
+      "stem": "Em um aviso técnico, alguém propõe substituir “A água chegou a 2,5 metros” por “O rio rugiu de fúria”. Julgue.\nI. A versão figurada pode produzir força expressiva.\nII. Ela preserva necessariamente a medida objetiva do aviso original.\nIII. Para comunicação de risco, a perda da medida pode prejudicar a precisão.",
+      "options": [
+        "Apenas I.",
+        "Apenas II e III.",
+        "Apenas I e III.",
+        "I, II e III."
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Incompleta: III também é correta, pois falta informação quantitativa.",
+        "Incorreta: II é falsa; a figura elimina a medida, e I é verdadeira.",
+        "Correta: expressividade aumenta, mas não substitui o dado quantitativo relevante.",
+        "Incorreta: II não mantém os 2,5 metros do aviso."
+      ],
+      "explanation": "Verdadeiras I e III: a personificação evoca perigo, mas não informa altura da água em metros.",
+      "concept": "Figuras de linguagem só são interpretadas adequadamente em relação ao gênero, à situação comunicativa e ao efeito produzido.",
+      "trap": "Admitir que metáfora ou personificação conserva sempre os dados técnicos do original.",
+      "examTip": "As perguntas “por quê?”, “para quem?” e “em qual gênero?” ajudam mais que procurar figuras isoladas em listas. Para este item, decida a partir de: Verdadeiras I e III: a personificação evoca perigo, mas não informa altura da água em metros.",
+      "newExample": "“Ventos de 70 km/h” comunica uma medida que “ventos ferozes” não preserva.",
+      "challenge": "Como combinar expressividade e medida precisa numa campanha informativa?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "question-bank-hard"
+    },
+    {
+      "id": "Q-POR-23-005-04",
+      "moduleId": "POR-23",
+      "subtopicId": "POR-23-005",
+      "topic": "Efeito expressivo e interpretação contextual",
+      "type": "exceto",
+      "difficulty": "dificil",
+      "stem": "Quanto à análise contextual de recursos expressivos, assinale a afirmação INCORRETA.",
+      "options": [
+        "Uma mesma expressão pode assumir leitura literal em um texto e figurada em outro.",
+        "O contexto comunicativo contribui para identificar ironia e metáfora.",
+        "O efeito de uma figura não depende do gênero nem do público; é sempre fixo.",
+        "Recursos expressivos podem ser adequados à crônica e inadequados a instruções técnicas precisas."
+      ],
+      "answer": 2,
+      "optionComments": [
+        "Correta: o referente e a situação podem alterar a leitura de uma expressão.",
+        "Correta: contexto define a intenção de crítica e a analogia proposta.",
+        "Incorreta, como exige o comando: gênero, situação e público modificam interpretação e adequação.",
+        "Correta: critérios de precisão diferem entre texto artístico e instrução técnica."
+      ],
+      "explanation": "Não há efeito fixo universal: usos figurativos dependem de contexto, propósito e expectativa do público.",
+      "concept": "Figuras de linguagem só são interpretadas adequadamente em relação ao gênero, à situação comunicativa e ao efeito produzido.",
+      "trap": "Confundir classificação nominal da figura com efeito invariável em qualquer gênero.",
+      "examTip": "As perguntas “por quê?”, “para quem?” e “em qual gênero?” ajudam mais que procurar figuras isoladas em listas. Para este item, decida a partir de: Não há efeito fixo universal: usos figurativos dependem de contexto, propósito e expectativa do público.",
+      "newExample": "“O sistema caiu” é metáfora convencional para indisponibilidade em contexto de informática.",
+      "challenge": "Qual indício contextual ajuda a decidir se “esfriou” descreve temperatura ou desinteresse?",
+      "tipo": "AUTORAL",
+      "origem": "AUTORAL_INEDITA",
+      "pedagogicalPurpose": "question-bank-hard"
+    }
+  ]
+}
