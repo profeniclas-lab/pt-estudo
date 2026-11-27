@@ -1,4 +1,4 @@
-/** PT-ESTUDO — POR-09: 20 questões autorais com comentários por alternativa. */
+/** PT-ESTUDO — POR-09: 20 questões autorais; Revisão C03/L03 (IDs e gabaritos preservados). */
 export const POR_09_QUESTIONS = [
   {
     "id": "Q-POR-09-001-01",
@@ -21,8 +21,8 @@ export const POR_09_QUESTIONS = [
     "concept": "O radical contém o núcleo lexical; afixos alteram a formação e o sentido; desinências expressam categorias flexionais, como número, pessoa e tempo.",
     "trap": "Confundir morfemas flexionais com afixos derivacionais.",
     "examTip": "Pergunte se o segmento cria palavra nova (derivação) ou flexiona uma palavra existente (desinência).",
-    "newExample": "“As pesquisadoras chegaram”: em “pesquisadoras”, -s marca plural; “pesquisador” se relaciona lexicalmente a “pesquisa”.",
-    "challenge": "O -s de “livros” é sufixo derivacional?",
+    "newExample": "Em “apresentações”, a terminação -s indica plural; em “apresentação”, o sufixo -ção forma substantivo a partir de apresentar.",
+    "challenge": "Separe, em “apresentações”, o mecanismo de formação do substantivo e a flexão posterior de número.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -52,8 +52,8 @@ export const POR_09_QUESTIONS = [
     "concept": "O radical contém o núcleo lexical; afixos alteram a formação e o sentido; desinências expressam categorias flexionais, como número, pessoa e tempo.",
     "trap": "Tomar o segmento -va- por indicador de pessoa e número.",
     "examTip": "Pergunte se o segmento cria palavra nova (derivação) ou flexiona uma palavra existente (desinência).",
-    "newExample": "“As pesquisadoras chegaram”: em “pesquisadoras”, -s marca plural; “pesquisador” se relaciona lexicalmente a “pesquisa”.",
-    "challenge": "O -s de “livros” é sufixo derivacional?",
+    "newExample": "Na forma “recebíamos”, o segmento -mos informa primeira pessoa do plural; -ia- contribui para o tempo e o modo.",
+    "challenge": "Identifique em “estudávamos” a parte que revela pessoa e número, sem confundi-la com o imperfeito.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -75,16 +75,16 @@ export const POR_09_QUESTIONS = [
     "answer": 0,
     "optionComments": [
       "Correta: in- precede base; -s flexiona; leal é base lexical; -dade forma substantivo.",
-      "Incorreta: -s de plural não é sufixo derivacional, e feliz não é desinência.",
+      "Incorreta: o -s de “livros” não forma novo lexema; é marca flexional, não sufixo derivacional. Além disso, “leal” não é desinência.",
       "Incorreta: in- é prefixo, não sufixo, e -dade não é prefixo.",
       "Incorreta: in- não é flexional e -s não funciona como prefixo."
     ],
-    "explanation": "Prefixos e sufixos constroem lexemas; desinências flexionam, e radical fornece base semântica.",
+    "explanation": "O prefixo in- antepõe-se a feliz; -s marca o número plural em livros; leal é a base lexical de lealdade; e -dade forma substantivo a partir de adjetivo. A sequência é 2–4–1–3.",
     "concept": "O radical contém o núcleo lexical; afixos alteram a formação e o sentido; desinências expressam categorias flexionais, como número, pessoa e tempo.",
     "trap": "Classificar todo segmento final como sufixo derivacional.",
     "examTip": "Pergunte se o segmento cria palavra nova (derivação) ou flexiona uma palavra existente (desinência).",
-    "newExample": "“As pesquisadoras chegaram”: em “pesquisadoras”, -s marca plural; “pesquisador” se relaciona lexicalmente a “pesquisa”.",
-    "challenge": "O -s de “livros” é sufixo derivacional?",
+    "newExample": "Em “releitura”, re- é prefixo; em “leituras”, -s é flexão plural, apesar de ambos aparecerem junto à base.",
+    "challenge": "Classifique o -mente de “lentamente” e o -s de “lentas”: qual cria vocábulo?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "bank-hard"
@@ -114,8 +114,8 @@ export const POR_09_QUESTIONS = [
     "concept": "O radical contém o núcleo lexical; afixos alteram a formação e o sentido; desinências expressam categorias flexionais, como número, pessoa e tempo.",
     "trap": "Tratar sufixo -ista e -s plural como equivalentes.",
     "examTip": "Pergunte se o segmento cria palavra nova (derivação) ou flexiona uma palavra existente (desinência).",
-    "newExample": "“As pesquisadoras chegaram”: em “pesquisadoras”, -s marca plural; “pesquisador” se relaciona lexicalmente a “pesquisa”.",
-    "challenge": "O -s de “livros” é sufixo derivacional?",
+    "newExample": "Em “jardineiros”, -eiro participa da derivação de “jardim”, enquanto -s marca plural; em “visitávamos”, há marcas verbais.",
+    "challenge": "O plural de “pintores” e o surgimento de “pintor” a partir de “pintar” pertencem ao mesmo processo?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "bank-hard"
@@ -141,8 +141,8 @@ export const POR_09_QUESTIONS = [
     "concept": "Prefixal acrescenta elemento antes da base; sufixal, depois; parassíntese exige acréscimo simultâneo de prefixo e sufixo para a forma resultante.",
     "trap": "Definir parassíntese pela mera presença material de dois afixos.",
     "examTip": "Não basta encontrar dois afixos: teste a existência e a pertinência das formas intermediárias.",
-    "newExample": "“Leal → desleal” (prefixal), “leal → lealdade” (sufixal), “tarde → entardecer” (parassintética, na análise escolar).",
-    "challenge": "Por que “infelizmente” não é exemplo necessário de parassíntese?",
+    "newExample": "“Desnecessariamente” não exige inserção simultânea de des- e -mente: existem “desnecessário” e “necessariamente”.",
+    "challenge": "Por que encontrar dois afixos em uma palavra não basta para afirmar parassíntese?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -172,8 +172,8 @@ export const POR_09_QUESTIONS = [
     "concept": "Prefixal acrescenta elemento antes da base; sufixal, depois; parassíntese exige acréscimo simultâneo de prefixo e sufixo para a forma resultante.",
     "trap": "Não testar a existência de intermediários antes de concluir pela parassíntese.",
     "examTip": "Não basta encontrar dois afixos: teste a existência e a pertinência das formas intermediárias.",
-    "newExample": "“Leal → desleal” (prefixal), “leal → lealdade” (sufixal), “tarde → entardecer” (parassintética, na análise escolar).",
-    "challenge": "Por que “infelizmente” não é exemplo necessário de parassíntese?",
+    "newExample": "“Refazer” é prefixação; “clareza” é sufixação; “anoitecer” exemplifica, no ensino escolar, parassíntese.",
+    "challenge": "Teste a existência de formas intermediárias ao analisar “empobrecer”, antes de classificar o processo.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -203,8 +203,8 @@ export const POR_09_QUESTIONS = [
     "concept": "Prefixal acrescenta elemento antes da base; sufixal, depois; parassíntese exige acréscimo simultâneo de prefixo e sufixo para a forma resultante.",
     "trap": "Confundir prefixação e sufixação sucessivas com acréscimo simultâneo.",
     "examTip": "Não basta encontrar dois afixos: teste a existência e a pertinência das formas intermediárias.",
-    "newExample": "“Leal → desleal” (prefixal), “leal → lealdade” (sufixal), “tarde → entardecer” (parassintética, na análise escolar).",
-    "challenge": "Por que “infelizmente” não é exemplo necessário de parassíntese?",
+    "newExample": "Em “desorganização”, a família contém “organização” e “desorganizar”; isso afasta a exigência de dois acréscimos simultâneos.",
+    "challenge": "A existência de “desleal” e “lealdade” enfraquece qual análise de “deslealdade”?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "bank-hard"
@@ -230,12 +230,12 @@ export const POR_09_QUESTIONS = [
       "Incorreta para EXCETO: entardecer é exemplo escolar de parassíntese.",
       "Correta para EXCETO: infeliz e felizmente existem; a formação pode ocorrer em etapas."
     ],
-    "explanation": "Não há exigência de acréscimo simultâneo em infelizmente.",
+    "explanation": "Na análise escolar usual, desfazer é prefixal, bondade é sufixal e entardecer é parassintética. Infelizmente admite bases intermediárias, como infeliz e felizmente; por isso não exige afixação simultânea.",
     "concept": "Prefixal acrescenta elemento antes da base; sufixal, depois; parassíntese exige acréscimo simultâneo de prefixo e sufixo para a forma resultante.",
     "trap": "Tomar prefixo + sufixo como prova automática de parassíntese.",
     "examTip": "Não basta encontrar dois afixos: teste a existência e a pertinência das formas intermediárias.",
-    "newExample": "“Leal → desleal” (prefixal), “leal → lealdade” (sufixal), “tarde → entardecer” (parassintética, na análise escolar).",
-    "challenge": "Por que “infelizmente” não é exemplo necessário de parassíntese?",
+    "newExample": "“Envelhecer” é tradicionalmente parassintético; já “injustamente” se relaciona a “injusto” e “justamente”.",
+    "challenge": "Escolha uma palavra com prefixo e sufixo e procure bases intermediárias reais antes de rotulá-la.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "bank-hard"
@@ -261,8 +261,8 @@ export const POR_09_QUESTIONS = [
     "concept": "Na justaposição, as bases conservam substancialmente sua forma; na aglutinação, há alteração fonética ou gráfica decorrente da união.",
     "trap": "Confundir união com hífen e aglutinação.",
     "examTip": "Ignore inicialmente o hífen: compare a estrutura original das bases e verifique se houve perda ou fusão de segmentos.",
-    "newExample": "“Guarda-chuva” e “passatempo” são exemplos de justaposição; “planalto” e “aguardente”, de aglutinação.",
-    "challenge": "Por que “passatempo” pode ser justaposição mesmo sem hífen?",
+    "newExample": "Em “couve-flor”, ambas as bases são reconhecíveis; o sinal de hífen não é prova suficiente do processo.",
+    "challenge": "Por que “girassol” não deixa de ser composto por ser escrito sem hífen?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -292,8 +292,8 @@ export const POR_09_QUESTIONS = [
     "concept": "Na justaposição, as bases conservam substancialmente sua forma; na aglutinação, há alteração fonética ou gráfica decorrente da união.",
     "trap": "Usar a presença do hífen como critério exclusivo de justaposição.",
     "examTip": "Ignore inicialmente o hífen: compare a estrutura original das bases e verifique se houve perda ou fusão de segmentos.",
-    "newExample": "“Guarda-chuva” e “passatempo” são exemplos de justaposição; “planalto” e “aguardente”, de aglutinação.",
-    "challenge": "Por que “passatempo” pode ser justaposição mesmo sem hífen?",
+    "newExample": "“Beija-flor” preserva as bases; “pernalta” contém alteração de perna e alta na fusão.",
+    "challenge": "Classifique “planalto” e “guarda-roupa” comparando suas bases, não apenas a grafia.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -319,12 +319,12 @@ export const POR_09_QUESTIONS = [
       "Correta: passatempo conserva bases; planalto altera a junção; III é falsa.",
       "Incorreta: II também é verdadeira e III é falsa."
     ],
-    "explanation": "Composição lexical e uso de hífen não são critérios intercambiáveis.",
+    "explanation": "Justaposição e aglutinação dizem respeito à constituição lexical, não ao sinal de hífen. Passatempo conserva suas bases; planalto apresenta alteração na fusão de plano e alto.",
     "concept": "Na justaposição, as bases conservam substancialmente sua forma; na aglutinação, há alteração fonética ou gráfica decorrente da união.",
     "trap": "Achar que qualquer composto sem hífen corresponde a aglutinação.",
     "examTip": "Ignore inicialmente o hífen: compare a estrutura original das bases e verifique se houve perda ou fusão de segmentos.",
-    "newExample": "“Guarda-chuva” e “passatempo” são exemplos de justaposição; “planalto” e “aguardente”, de aglutinação.",
-    "challenge": "Por que “passatempo” pode ser justaposição mesmo sem hífen?",
+    "newExample": "“Girassol” apresenta composição sem hífen, ao passo que “vinagre” ilustra historicamente fusão com alteração de bases.",
+    "challenge": "A ausência de hífen prova que a palavra é simples? Justifique com “passatempo”.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "bank-hard"
@@ -354,8 +354,8 @@ export const POR_09_QUESTIONS = [
     "concept": "Na justaposição, as bases conservam substancialmente sua forma; na aglutinação, há alteração fonética ou gráfica decorrente da união.",
     "trap": "Reduzir a análise morfológica a critérios gráficos.",
     "examTip": "Ignore inicialmente o hífen: compare a estrutura original das bases e verifique se houve perda ou fusão de segmentos.",
-    "newExample": "“Guarda-chuva” e “passatempo” são exemplos de justaposição; “planalto” e “aguardente”, de aglutinação.",
-    "challenge": "Por que “passatempo” pode ser justaposição mesmo sem hífen?",
+    "newExample": "Em “segunda-feira”, as bases permanecem visíveis; a presença do hífen é fato gráfico, não a definição de justaposição.",
+    "challenge": "Distinga justaposição e aglutinação em “pontapé” e “aguardente”.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "bank-hard"
@@ -381,8 +381,8 @@ export const POR_09_QUESTIONS = [
     "concept": "Além de derivação e composição, a língua amplia o léxico por redução de palavras, iniciais de expressões, empréstimos e imitação de sons.",
     "trap": "Tratar redução vocabular e sigla como um único processo.",
     "examTip": "Diferencie “pág.” (abreviatura), “foto” (redução vocabular), “UFRN” (sigla) e “Unesco” (acrônimo).",
-    "newExample": "“A UFRN divulgou fotos do evento”: UFRN é sigla e “fotos” corresponde à forma reduzida de “fotografias”.",
-    "challenge": "“Foto” e “UFRN” se formam pelo mesmo mecanismo?",
+    "newExample": "“Micro” pode ser redução de “microcomputador” em determinado contexto, mas “IFRN” é formado por iniciais de um nome institucional.",
+    "challenge": "O que diferencia “moto” de “UFRN” na formação das palavras?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -412,8 +412,8 @@ export const POR_09_QUESTIONS = [
     "concept": "Além de derivação e composição, a língua amplia o léxico por redução de palavras, iniciais de expressões, empréstimos e imitação de sons.",
     "trap": "Supor que toda palavra reduzida é formada por iniciais.",
     "examTip": "Diferencie “pág.” (abreviatura), “foto” (redução vocabular), “UFRN” (sigla) e “Unesco” (acrônimo).",
-    "newExample": "“A UFRN divulgou fotos do evento”: UFRN é sigla e “fotos” corresponde à forma reduzida de “fotografias”.",
-    "challenge": "“Foto” e “UFRN” se formam pelo mesmo mecanismo?",
+    "newExample": "“Prof.” é abreviatura gráfica; “cine” é redução vocabular; “IBGE” reúne iniciais; “zum-zum” evoca som.",
+    "challenge": "Classifique “pág.”, “foto”, “MEC” e “toc-toc” sem confundir abreviatura com sigla.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -439,12 +439,12 @@ export const POR_09_QUESTIONS = [
       "Incorreta: III é falsa e II é verdadeira.",
       "Incorreta: III é falsa e I é verdadeira."
     ],
-    "explanation": "Foto não deriva de uma sequência de iniciais; é truncamento vocabular.",
+    "explanation": "“Pág.” é abreviatura gráfica; Unesco é sigla pronunciável como palavra (acrônimo). Foto é forma reduzida de fotografia, não palavra formada por iniciais.",
     "concept": "Além de derivação e composição, a língua amplia o léxico por redução de palavras, iniciais de expressões, empréstimos e imitação de sons.",
     "trap": "Confundir abreviatura, abreviação e sigla.",
     "examTip": "Diferencie “pág.” (abreviatura), “foto” (redução vocabular), “UFRN” (sigla) e “Unesco” (acrônimo).",
-    "newExample": "“A UFRN divulgou fotos do evento”: UFRN é sigla e “fotos” corresponde à forma reduzida de “fotografias”.",
-    "challenge": "“Foto” e “UFRN” se formam pelo mesmo mecanismo?",
+    "newExample": "“Dr.” é abreviatura escrita; “ONU” é sigla; “metrô” é redução de “metropolitano”, não iniciais de expressão pluriverbal.",
+    "challenge": "Por que “ONU” pode ser sigla e “foto” não, embora as duas sejam formas curtas?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "bank-hard"
@@ -474,8 +474,8 @@ export const POR_09_QUESTIONS = [
     "concept": "Além de derivação e composição, a língua amplia o léxico por redução de palavras, iniciais de expressões, empréstimos e imitação de sons.",
     "trap": "Tratar letras de siglas como raízes compositivas.",
     "examTip": "Diferencie “pág.” (abreviatura), “foto” (redução vocabular), “UFRN” (sigla) e “Unesco” (acrônimo).",
-    "newExample": "“A UFRN divulgou fotos do evento”: UFRN é sigla e “fotos” corresponde à forma reduzida de “fotografias”.",
-    "challenge": "“Foto” e “UFRN” se formam pelo mesmo mecanismo?",
+    "newExample": "“CPF” é sigla e “tic-tac” é onomatopeia; nenhuma dessas formas é composição por aglutinação.",
+    "challenge": "Se uma sequência junta iniciais de três palavras, por que não se trata de aglutinação lexical?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "bank-hard"
@@ -501,8 +501,8 @@ export const POR_09_QUESTIONS = [
     "concept": "Uma família lexical reúne formas relacionadas por uma base; afixos podem indicar negação, repetição, ação, agente, qualidade ou intensidade, conforme a palavra.",
     "trap": "Confundir repetição com negação.",
     "examTip": "Exija parentesco morfológico real: letras iniciais idênticas não bastam para provar prefixação.",
-    "newExample": "“O candidato leu o edital e precisou reler as instruções”: re- sinaliza repetição da leitura.",
-    "challenge": "Qual valor tem re- em “reler”?",
+    "newExample": "“Reeditar” contém re- com sentido de fazer nova edição; “editou” flexiona o verbo sem criar outro lexema.",
+    "challenge": "Compare “revisar novamente” e “revisar”: qual elemento na palavra “rever” indica repetição?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -532,8 +532,8 @@ export const POR_09_QUESTIONS = [
     "concept": "Uma família lexical reúne formas relacionadas por uma base; afixos podem indicar negação, repetição, ação, agente, qualidade ou intensidade, conforme a palavra.",
     "trap": "Confundir sufixação lexical com flexão plural.",
     "examTip": "Exija parentesco morfológico real: letras iniciais idênticas não bastam para provar prefixação.",
-    "newExample": "“O candidato leu o edital e precisou reler as instruções”: re- sinaliza repetição da leitura.",
-    "challenge": "Qual valor tem re- em “reler”?",
+    "newExample": "De “claro” obtém-se “clareza” com sufixo; “reler” é prefixado e “livros” é plural de livro.",
+    "challenge": "Identifique qual das formas “reabrir”, “limpeza” e “mesas” envolve derivação sufixal.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -563,8 +563,8 @@ export const POR_09_QUESTIONS = [
     "concept": "Uma família lexical reúne formas relacionadas por uma base; afixos podem indicar negação, repetição, ação, agente, qualidade ou intensidade, conforme a palavra.",
     "trap": "Interpretar todo segmento posposto como sufixo de derivação.",
     "examTip": "Exija parentesco morfológico real: letras iniciais idênticas não bastam para provar prefixação.",
-    "newExample": "“O candidato leu o edital e precisou reler as instruções”: re- sinaliza repetição da leitura.",
-    "challenge": "Qual valor tem re- em “reler”?",
+    "newExample": "“Desligar” pode indicar reversão de ligar; “organização” vem de organizar por sufixação; “cadernos” flexiona número.",
+    "challenge": "Na sequência “cadastrar, recadastrar, cadastros”, quais mudanças são lexicais e quais são flexionais?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "bank-hard"
@@ -590,12 +590,12 @@ export const POR_09_QUESTIONS = [
       "Incorreta: III generaliza parentesco sem base morfológica.",
       "Correta: i- exprime negação em ilegal; re- pode indicar repetição em reescrever; III é falsa."
     ],
-    "explanation": "Família lexical depende de relação de formação e significado, não de semelhança gráfica ocasional.",
+    "explanation": "Ilegal mostra prefixo negativo na família de legal; reescrever comporta valor reiterativo de re-. A coincidência de letras iniciais não é critério suficiente para reconhecer uma família lexical.",
     "concept": "Uma família lexical reúne formas relacionadas por uma base; afixos podem indicar negação, repetição, ação, agente, qualidade ou intensidade, conforme a palavra.",
     "trap": "Tomar coincidência de letras por parentesco morfológico necessário.",
     "examTip": "Exija parentesco morfológico real: letras iniciais idênticas não bastam para provar prefixação.",
-    "newExample": "“O candidato leu o edital e precisou reler as instruções”: re- sinaliza repetição da leitura.",
-    "challenge": "Qual valor tem re- em “reler”?",
+    "newExample": "“Impossível” contém prefixo negativo; “recontar” pode indicar repetição; “pedra” e “pedir” não formam família só pela semelhança inicial.",
+    "challenge": "Use “fazer, refazer e desfazer” para mostrar duas relações derivacionais distintas.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "bank-hard"

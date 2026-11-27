@@ -1,0 +1,1854 @@
+[
+  {
+    "id": "Q-POR-09-001-01",
+    "modulo": "POR-09",
+    "subtopico": "POR-09-001",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_independente": "A marca -s de “livros” altera o número da mesma palavra; não produz novo lexema. CERTO.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-09-001-02",
+    "modulo": "POR-09",
+    "subtopico": "POR-09-001",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_independente": "A segmentação escolar cant-á-va-mos distingue -mos, desinência número-pessoal, de radical, vogal temática e marca modo-temporal. A opção -mos é a correta.",
+    "alternativa_resolvida": "-mos",
+    "indice_resolvido": 3,
+    "indice_gabarito_original": 3,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-09-001-03",
+    "modulo": "POR-09",
+    "subtopico": "POR-09-001",
+    "tipo": "associacao",
+    "dificuldade": "dificil",
+    "solucao_independente": "in- é prefixo, -s de livros flexiona plural, leal é a base lexical de lealdade e -dade é sufixo derivacional. A ordem é 2–4–1–3.",
+    "alternativa_resolvida": "2 – 4 – 1 – 3",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual",
+      "revisao_optionComments",
+      "revisao_explanation"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-09-001-04",
+    "modulo": "POR-09",
+    "subtopico": "POR-09-001",
+    "tipo": "afirmacoes",
+    "dificuldade": "dificil",
+    "solucao_independente": "I descreve a flexão nominal, II a derivação com -ista e III a flexão verbal; todas são verdadeiras.",
+    "alternativa_resolvida": "I, II e III.",
+    "indice_resolvido": 2,
+    "indice_gabarito_original": 2,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-09-002-01",
+    "modulo": "POR-09",
+    "subtopico": "POR-09-002",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_independente": "A classificação obrigatoriamente parassintética é falsa, pois felizmente e infeliz existem. O gabarito é ERRADO.",
+    "alternativa_resolvida": "ERRADO",
+    "indice_resolvido": 1,
+    "indice_gabarito_original": 1,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-09-002-02",
+    "modulo": "POR-09",
+    "subtopico": "POR-09-002",
+    "tipo": "associacao",
+    "dificuldade": "media",
+    "solucao_independente": "Desleal apresenta des- anteposto, lealdade apresenta -dade posposto e entardecer é tradicionalmente parassintético. Ordem 1–2–3.",
+    "alternativa_resolvida": "1 – 2 – 3",
+    "indice_resolvido": 1,
+    "indice_gabarito_original": 1,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-09-002-03",
+    "modulo": "POR-09",
+    "subtopico": "POR-09-002",
+    "tipo": "vf",
+    "dificuldade": "dificil",
+    "solucao_independente": "I e II identificam corretamente prefixação e sufixação; III é falsa porque deslealdade admite etapas derivacionais independentes. Sequência V–V–F.",
+    "alternativa_resolvida": "V – V – F",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-09-002-04",
+    "modulo": "POR-09",
+    "subtopico": "POR-09-002",
+    "tipo": "exceto",
+    "dificuldade": "dificil",
+    "solucao_independente": "Desfazer, bondade e entardecer têm as análises escolares indicadas; a ideia de simultaneidade obrigatória em infelizmente é a única inadequada.",
+    "alternativa_resolvida": "“Infelizmente” só pode existir se in- e -mente forem acrescentados simultaneamente.",
+    "indice_resolvido": 3,
+    "indice_gabarito_original": 3,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual",
+      "revisao_explanation"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-09-003-01",
+    "modulo": "POR-09",
+    "subtopico": "POR-09-003",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_independente": "Guarda-chuva conserva as bases guarda e chuva, caracterizando justaposição. CERTO.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-09-003-02",
+    "modulo": "POR-09",
+    "subtopico": "POR-09-003",
+    "tipo": "associacao",
+    "dificuldade": "media",
+    "solucao_independente": "Beija-flor e guarda-chuva exemplificam justaposição; planalto e aguardente são exemplos escolares de aglutinação. Ordem 1–2–2–1.",
+    "alternativa_resolvida": "1 – 2 – 2 – 1",
+    "indice_resolvido": 1,
+    "indice_gabarito_original": 1,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-09-003-03",
+    "modulo": "POR-09",
+    "subtopico": "POR-09-003",
+    "tipo": "afirmacoes",
+    "dificuldade": "dificil",
+    "solucao_independente": "I é verdadeira para passatempo; II é verdadeira para planalto; III é falsa porque hífen não caracteriza aglutinação.",
+    "alternativa_resolvida": "Apenas I e II.",
+    "indice_resolvido": 2,
+    "indice_gabarito_original": 2,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual",
+      "revisao_explanation"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-09-003-04",
+    "modulo": "POR-09",
+    "subtopico": "POR-09-003",
+    "tipo": "vf",
+    "dificuldade": "dificil",
+    "solucao_independente": "I e II são verdadeiras e III é falsa: a ausência de hífen não transforma passatempo em derivação. Sequência V–V–F.",
+    "alternativa_resolvida": "V – V – F",
+    "indice_resolvido": 3,
+    "indice_gabarito_original": 3,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-09-004-01",
+    "modulo": "POR-09",
+    "subtopico": "POR-09-004",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_independente": "Foto reduz fotografia; UFRN resulta de iniciais institucionais. Ambas as classificações do enunciado são adequadas. CERTO.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-09-004-02",
+    "modulo": "POR-09",
+    "subtopico": "POR-09-004",
+    "tipo": "associacao",
+    "dificuldade": "media",
+    "solucao_independente": "Moto é abreviação vocabular, IFRN é sigla, software é empréstimo e tique-taque é onomatopeia. Ordem 1–2–3–4.",
+    "alternativa_resolvida": "1 – 2 – 3 – 4",
+    "indice_resolvido": 2,
+    "indice_gabarito_original": 2,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-09-004-03",
+    "modulo": "POR-09",
+    "subtopico": "POR-09-004",
+    "tipo": "afirmacoes",
+    "dificuldade": "dificil",
+    "solucao_independente": "Pág. é abreviatura gráfica e Unesco pode ser pronunciada como palavra; foto não se forma de iniciais. Somente I e II são verdadeiras.",
+    "alternativa_resolvida": "Apenas I e II.",
+    "indice_resolvido": 1,
+    "indice_gabarito_original": 1,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual",
+      "revisao_explanation"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-09-004-04",
+    "modulo": "POR-09",
+    "subtopico": "POR-09-004",
+    "tipo": "exceto",
+    "dificuldade": "dificil",
+    "solucao_independente": "UFRN, foto e tique-taque foram corretamente classificados; IFRN é sigla, e não aglutinação de duas bases.",
+    "alternativa_resolvida": "Aglutinação de duas bases — IFRN.",
+    "indice_resolvido": 3,
+    "indice_gabarito_original": 3,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-09-005-01",
+    "modulo": "POR-09",
+    "subtopico": "POR-09-005",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_independente": "Em reler, re- acrescenta valor reiterativo ao verbo ler. CERTO.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-09-005-02",
+    "modulo": "POR-09",
+    "subtopico": "POR-09-005",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_independente": "Leal → lealdade acrescenta -dade e transforma adjetivo em substantivo; os outros pares mostram prefixação ou flexão.",
+    "alternativa_resolvida": "leal → lealdade",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-09-005-03",
+    "modulo": "POR-09",
+    "subtopico": "POR-09-005",
+    "tipo": "vf",
+    "dificuldade": "dificil",
+    "solucao_independente": "Desfazer e lealdade mostram derivação; livro e livros diferem apenas pela flexão de número. Sequência V–V–F.",
+    "alternativa_resolvida": "V – V – F",
+    "indice_resolvido": 1,
+    "indice_gabarito_original": 1,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-09-005-04",
+    "modulo": "POR-09",
+    "subtopico": "POR-09-005",
+    "tipo": "afirmacoes",
+    "dificuldade": "dificil",
+    "solucao_independente": "I é verdadeira pelo prefixo negativo em ilegal; II é verdadeira pelo valor reiterativo de reescrever; III é falsa por confundir semelhança gráfica com parentesco morfológico.",
+    "alternativa_resolvida": "Apenas I e II.",
+    "indice_resolvido": 3,
+    "indice_gabarito_original": 3,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual",
+      "revisao_explanation"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-10-001-01",
+    "modulo": "POR-10",
+    "subtopico": "POR-10-001",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_independente": "Testemunha é substantivo sobrecomum de gênero feminino fixo; a referência a homem não autoriza mudar o artigo para masculino. CERTO.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-10-001-02",
+    "modulo": "POR-10",
+    "subtopico": "POR-10-001",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_independente": "Equipe designa grupo de pessoas como substantivo coletivo; examinou é verbo, a é artigo e correspondência não é coletivo de pessoas no período dado.",
+    "alternativa_resolvida": "equipe",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual",
+      "revisao_stem",
+      "revisao_optionComments",
+      "revisao_explanation"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-10-001-03",
+    "modulo": "POR-10",
+    "subtopico": "POR-10-001",
+    "tipo": "afirmacoes",
+    "dificuldade": "dificil",
+    "solucao_independente": "Natal é próprio, coragem é abstrato e guarda-chuva é composto por unir bases lexicais. I e II são verdadeiras, III falsa.",
+    "alternativa_resolvida": "Apenas I e II",
+    "indice_resolvido": 2,
+    "indice_gabarito_original": 2,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-10-001-04",
+    "modulo": "POR-10",
+    "subtopico": "POR-10-001",
+    "tipo": "associacao",
+    "dificuldade": "dificil",
+    "solucao_independente": "Arquipélago designa conjunto de ilhas, esperança é abstrato, Rio Grande do Norte é próprio e porta-retrato é composto. Ordem 3–2–1–4.",
+    "alternativa_resolvida": "3 – 2 – 1 – 4",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-10-002-01",
+    "modulo": "POR-10",
+    "subtopico": "POR-10-002",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_independente": "A retomada de uma estudante por a estudante usa o artigo definido para recuperar referente antes introduzido. CERTO.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-10-002-02",
+    "modulo": "POR-10",
+    "subtopico": "POR-10-002",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_independente": "A opção com “um documento” introduz referente não individualizado; as outras empregam artigo definido ou demonstrativo identificador.",
+    "alternativa_resolvida": "Encontre um documento que trate do tema.",
+    "indice_resolvido": 1,
+    "indice_gabarito_original": 1,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-10-002-03",
+    "modulo": "POR-10",
+    "subtopico": "POR-10-002",
+    "tipo": "vf",
+    "dificuldade": "dificil",
+    "solucao_independente": "I expressa possível retomada, II é falsa porque indefinição não é inexistência e III é verdadeira por delimitação contextual. Sequência V–F–V.",
+    "alternativa_resolvida": "V – F – V",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-10-002-04",
+    "modulo": "POR-10",
+    "subtopico": "POR-10-002",
+    "tipo": "exceto",
+    "dificuldade": "dificil",
+    "solucao_independente": "Um introduz fiscal, o recupera-o e os pode delimitar crachás; o artigo não prova exclusividade mundial ou institucional.",
+    "alternativa_resolvida": "“O” prova que só existe um fiscal em toda a instituição.",
+    "indice_resolvido": 3,
+    "indice_gabarito_original": 3,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-10-003-01",
+    "modulo": "POR-10",
+    "subtopico": "POR-10-003",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_independente": "Excelentes caracteriza o substantivo resultados, funcionando como adjetivo avaliativo. CERTO.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-10-003-02",
+    "modulo": "POR-10",
+    "subtopico": "POR-10-003",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_independente": "Grande anteposto costuma atribuir mérito e posposto tende a apontar dimensões; o par da primeira alternativa é o contraste semântico convencional pedido.",
+    "alternativa_resolvida": "“Um grande colega” / “um colega grande”.",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual",
+      "revisao_stem",
+      "revisao_options",
+      "revisao_optionComments",
+      "revisao_explanation"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-10-003-03",
+    "modulo": "POR-10",
+    "subtopico": "POR-10-003",
+    "tipo": "afirmacoes",
+    "dificuldade": "dificil",
+    "solucao_independente": "De madeira caracteriza porta e ontem marca a chegada; rapidamente modifica respondeu e é advérbio, não adjetivo. Apenas I e II procedem.",
+    "alternativa_resolvida": "Apenas I e II",
+    "indice_resolvido": 1,
+    "indice_gabarito_original": 1,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-10-003-04",
+    "modulo": "POR-10",
+    "subtopico": "POR-10-003",
+    "tipo": "exceto",
+    "dificuldade": "dificil",
+    "solucao_independente": "Rapidamente modifica o verbo respondeu, ao contrário das expressões que qualificam nomes nas outras três frases.",
+    "alternativa_resolvida": "A candidata respondeu rapidamente.",
+    "indice_resolvido": 3,
+    "indice_gabarito_original": 3,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual",
+      "revisao_stem",
+      "revisao_explanation"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-10-004-01",
+    "modulo": "POR-10",
+    "subtopico": "POR-10-004",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_independente": "A expressão a mais experiente da equipe é superlativo relativo de superioridade por destacar elemento de conjunto definido. CERTO.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-10-004-02",
+    "modulo": "POR-10",
+    "subtopico": "POR-10-004",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_independente": "Muito longa é superlativo absoluto analítico; -íssima é sintético; mais...que é comparativo e a mais...da série é relativo.",
+    "alternativa_resolvida": "muito longa",
+    "indice_resolvido": 2,
+    "indice_gabarito_original": 2,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual",
+      "revisao_optionComments"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-10-004-03",
+    "modulo": "POR-10",
+    "subtopico": "POR-10-004",
+    "tipo": "vf",
+    "dificuldade": "dificil",
+    "solucao_independente": "I tem grau absoluto analítico, II grau relativo, III é falsa por restringir o diminutivo à dimensão física. Sequência V–V–F.",
+    "alternativa_resolvida": "V – V – F",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-10-004-04",
+    "modulo": "POR-10",
+    "subtopico": "POR-10-004",
+    "tipo": "associacao",
+    "dificuldade": "dificil",
+    "solucao_independente": "Mais útil que é comparativo; utilíssimo é absoluto sintético; muito útil é absoluto analítico; o mais útil do conjunto é relativo. Ordem 1–3–2–4.",
+    "alternativa_resolvida": "1 – 3 – 2 – 4",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-10-005-01",
+    "modulo": "POR-10",
+    "subtopico": "POR-10-005",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_independente": "Atualizadas acompanha minutas em gênero feminino e número plural; a concordância nominal está correta. CERTO.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-10-005-02",
+    "modulo": "POR-10",
+    "subtopico": "POR-10-005",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_independente": "Bastante qualifica o grau do adjetivo objetivas e não varia; os outros casos ou flexionam indevidamente o advérbio, ou usam bastante de outra classe.",
+    "alternativa_resolvida": "As instruções eram bastante objetivas.",
+    "indice_resolvido": 1,
+    "indice_gabarito_original": 1,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual",
+      "revisao_options",
+      "revisao_optionComments",
+      "revisao_explanation"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-10-005-03",
+    "modulo": "POR-10",
+    "subtopico": "POR-10-005",
+    "tipo": "afirmacoes",
+    "dificuldade": "dificil",
+    "solucao_independente": "Muitas concorda com solicitações; muito intensifica urgentes sem flexão; úteis não tem forma distinta para gênero masculino e feminino. Apenas I e II.",
+    "alternativa_resolvida": "Apenas I e II",
+    "indice_resolvido": 1,
+    "indice_gabarito_original": 1,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual",
+      "revisao_explanation"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-10-005-04",
+    "modulo": "POR-10",
+    "subtopico": "POR-10-005",
+    "tipo": "exceto",
+    "dificuldade": "dificil",
+    "solucao_independente": "As três primeiras frases respeitam a concordância; “as pareceres atualizadas” erra gênero em relação a pareceres, masculino plural.",
+    "alternativa_resolvida": "As pareceres atualizadas foram anexadas.",
+    "indice_resolvido": 3,
+    "indice_gabarito_original": 3,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-11-001-01",
+    "modulo": "POR-11",
+    "subtopico": "POR-11-001",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_independente": "Convidar alguém exige objeto direto no período, expresso pelo pronome oblíquo o. CERTO.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-11-001-02",
+    "modulo": "POR-11",
+    "subtopico": "POR-11-001",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_independente": "No segmento para eu conferir, eu funciona como sujeito do infinitivo conferir. As outras construções não expressam essa função conforme o enunciado.",
+    "alternativa_resolvida": "Trouxeram os arquivos para eu conferir.",
+    "indice_resolvido": 1,
+    "indice_gabarito_original": 1,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual",
+      "revisao_stem",
+      "revisao_options",
+      "revisao_optionComments",
+      "revisao_explanation"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-11-001-03",
+    "modulo": "POR-11",
+    "subtopico": "POR-11-001",
+    "tipo": "afirmacoes",
+    "dificuldade": "dificil",
+    "solucao_independente": "Ela é reto, lhe pode indicar destinatário e o de o atendente é artigo, não pronome oblíquo. I e II.",
+    "alternativa_resolvida": "I e II apenas",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-11-001-04",
+    "modulo": "POR-11",
+    "subtopico": "POR-11-001",
+    "tipo": "exceto",
+    "dificuldade": "dificil",
+    "solucao_independente": "Meu é possessivo, eles é pronome reto e lhe pode ser objeto indireto; a de a recebeu é pronome oblíquo, não artigo. A quarta é a exceção.",
+    "alternativa_resolvida": "“A equipe a recebeu” usa “a” obrigatoriamente como artigo definido.",
+    "indice_resolvido": 3,
+    "indice_gabarito_original": 3,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-11-002-01",
+    "modulo": "POR-11",
+    "subtopico": "POR-11-002",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_independente": "Cujas concorda no feminino plural com análises, termo possuído, e não com pesquisadora, o antecedente. CERTO.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-11-002-02",
+    "modulo": "POR-11",
+    "subtopico": "POR-11-002",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_independente": "Precisar de pede complemento preposicionado; de que introduz oração relativa retomando arquivo. As demais opções não atendem à regência.",
+    "alternativa_resolvida": "de que",
+    "indice_resolvido": 2,
+    "indice_gabarito_original": 2,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual",
+      "revisao_stem",
+      "revisao_explanation"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-11-002-03",
+    "modulo": "POR-11",
+    "subtopico": "POR-11-002",
+    "tipo": "vf",
+    "dificuldade": "dificil",
+    "solucao_independente": "I é verdadeira com antecedente locativo; II é falsa pelo uso indevido de onde com processo; III usa cujo para relação possessiva. V–F–V.",
+    "alternativa_resolvida": "V – F – V",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-11-002-04",
+    "modulo": "POR-11",
+    "subtopico": "POR-11-002",
+    "tipo": "exceto",
+    "dificuldade": "dificil",
+    "solucao_independente": "Cujo não admite artigo posposto nessa construção; as três alternativas restantes respeitam regência e posse.",
+    "alternativa_resolvida": "A autora cujo o texto foi citado virá amanhã.",
+    "indice_resolvido": 3,
+    "indice_gabarito_original": 3,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-11-003-01",
+    "modulo": "POR-11",
+    "subtopico": "POR-11-003",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_independente": "Em construções gramaticais com Vossa Senhoria, o verbo concorda na terceira pessoa, sem que o item prescreva o uso dessa fórmula na comunicação oficial federal. CERTO.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual",
+      "revisao_stem",
+      "revisao_explanation"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-11-003-02",
+    "modulo": "POR-11",
+    "subtopico": "POR-11-003",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_independente": "Quem introduz uma interrogativa indireta dependente de não sei; não exprime ordem, posse ou artigo.",
+    "alternativa_resolvida": "uma pergunta indireta sobre a identidade do revisor.",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-11-003-03",
+    "modulo": "POR-11",
+    "subtopico": "POR-11-003",
+    "tipo": "afirmacoes",
+    "dificuldade": "dificil",
+    "solucao_independente": "I e II são verdadeiras; III inverte a distinção gramatical tradicional entre dirigir-se a alguém e referir-se a alguém. Apenas I e II.",
+    "alternativa_resolvida": "Apenas I e II",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual",
+      "revisao_stem",
+      "revisao_explanation"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-11-003-04",
+    "modulo": "POR-11",
+    "subtopico": "POR-11-003",
+    "tipo": "lacunas",
+    "dificuldade": "dificil",
+    "solucao_independente": "Qual é o interrogativo compatível com dos candidatos, nenhum determina documento e Vossa é a forma direta tradicional de tratamento; o exercício não prescreve forma oficial atual.",
+    "alternativa_resolvida": "Qual / nenhum / Vossa",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual",
+      "revisao_stem",
+      "revisao_explanation"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-11-004-01",
+    "modulo": "POR-11",
+    "subtopico": "POR-11-004",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_independente": "Isso retoma o conteúdo oracional “o prazo terminou ontem” e o apresenta como motivo da reorganização. CERTO.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-11-004-02",
+    "modulo": "POR-11",
+    "subtopico": "POR-11-004",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_independente": "Considere isto anuncia a informação posterior; as demais opções retomam fatos ou apontam outros referentes.",
+    "alternativa_resolvida": "Considere isto: os anexos deverão ser numerados.",
+    "indice_resolvido": 1,
+    "indice_gabarito_original": 1,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-11-004-03",
+    "modulo": "POR-11",
+    "subtopico": "POR-11-004",
+    "tipo": "afirmacoes",
+    "dificuldade": "dificil",
+    "solucao_independente": "Na convenção de retomada de dois antecedentes, esta corresponde ao último (Lúcia) e aquela ao primeiro (Joana). I e II.",
+    "alternativa_resolvida": "Apenas I e II",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual",
+      "revisao_stem",
+      "revisao_explanation"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-11-004-04",
+    "modulo": "POR-11",
+    "subtopico": "POR-11-004",
+    "tipo": "exceto",
+    "dificuldade": "dificil",
+    "solucao_independente": "Os usos anafóricos, catafóricos e de distância textual existem; é falso que este e esse tenham empregos rigidamente exclusivos em todo contexto brasileiro.",
+    "alternativa_resolvida": "“Este” e “esse” têm usos absolutamente rígidos em toda fala brasileira atual, sem variação contextual.",
+    "indice_resolvido": 3,
+    "indice_gabarito_original": 3,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-11-005-01",
+    "modulo": "POR-11",
+    "subtopico": "POR-11-005",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_independente": "Seu não identifica sozinho qual das duas participantes possui o projeto; ambas as leituras são possíveis. CERTO.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-11-005-02",
+    "modulo": "POR-11",
+    "subtopico": "POR-11-005",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_independente": "Apenas a reescrita que nomeia Bia como agente de apresentar impede uma leitura concorrente; pronomes ela e seu podem manter ambiguidade.",
+    "alternativa_resolvida": "Ana encontrou Bia; foi Bia quem apresentou o projeto.",
+    "indice_resolvido": 1,
+    "indice_gabarito_original": 1,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual",
+      "revisao_options",
+      "revisao_optionComments",
+      "revisao_explanation"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-11-005-03",
+    "modulo": "POR-11",
+    "subtopico": "POR-11-005",
+    "tipo": "vf",
+    "dificuldade": "dificil",
+    "solucao_independente": "I e III exemplificam ou negam ambiguidades de referente; II retoma um fato por isso. A sequência correta é V–V–F.",
+    "alternativa_resolvida": "V – V – F",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-11-005-04",
+    "modulo": "POR-11",
+    "subtopico": "POR-11-005",
+    "tipo": "exceto",
+    "dificuldade": "dificil",
+    "solucao_independente": "A quarta reescrita acrescenta uma marca temporal, mas conserva o pronome ela sem antecedente único; as outras explicitam Joana por nome ou interlocução.",
+    "alternativa_resolvida": "Rita avisou a Joana que ela, depois do aviso, receberia a mensagem.",
+    "indice_resolvido": 3,
+    "indice_gabarito_original": 3,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-12-001-01",
+    "modulo": "POR-12",
+    "subtopico": "POR-12-001",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_independente": "O presente começa, combinado com amanhã, pode designar evento programado futuro. CERTO.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-12-001-02",
+    "modulo": "POR-12",
+    "subtopico": "POR-12-001",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_independente": "Estudava, no imperfeito, pode descrever continuidade ou hábito no passado; estudou, no perfeito, apresenta situação concluída.",
+    "alternativa_resolvida": "estudava / estudou",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-12-001-03",
+    "modulo": "POR-12",
+    "subtopico": "POR-12-001",
+    "tipo": "vf",
+    "dificuldade": "dificil",
+    "solucao_independente": "Talvez cheguem exemplifica possibilidade, revisava admite habitualidade e o imperativo não é o único recurso de pedido. V–V–F.",
+    "alternativa_resolvida": "V – V – F",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-12-001-04",
+    "modulo": "POR-12",
+    "subtopico": "POR-12-001",
+    "tipo": "afirmacoes",
+    "dificuldade": "dificil",
+    "solucao_independente": "I é condicional hipotética, II apresenta presente projetado e III exagera o valor de conclusão do imperfeito. Só I e II.",
+    "alternativa_resolvida": "I e II apenas",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual",
+      "revisao_explanation"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-12-002-01",
+    "modulo": "POR-12",
+    "subtopico": "POR-12-002",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_independente": "Intervier, e não intervir, é futuro do subjuntivo de intervir na norma-padrão. CERTO.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-12-002-02",
+    "modulo": "POR-12",
+    "subtopico": "POR-12-002",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_independente": "Fazer é irregular: o futuro do subjuntivo correspondente a quando a relatora... é fizer.",
+    "alternativa_resolvida": "fizer",
+    "indice_resolvido": 2,
+    "indice_gabarito_original": 2,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-12-002-03",
+    "modulo": "POR-12",
+    "subtopico": "POR-12-002",
+    "tipo": "vf",
+    "dificuldade": "dificil",
+    "solucao_independente": "Propuserem e mantiver são futuros do subjuntivo adequados; trazer não é a forma padrão após quando para valor futuro. V–V–F.",
+    "alternativa_resolvida": "V – V – F",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual",
+      "revisao_explanation"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-12-002-04",
+    "modulo": "POR-12",
+    "subtopico": "POR-12-002",
+    "tipo": "lacunas",
+    "dificuldade": "dificil",
+    "solucao_independente": "Propuser e mantiver exprimem condições futuras; intervirá marca consequência no futuro do indicativo.",
+    "alternativa_resolvida": "propuser / mantiver / intervirá",
+    "indice_resolvido": 1,
+    "indice_gabarito_original": 1,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-12-003-01",
+    "modulo": "POR-12",
+    "subtopico": "POR-12-003",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_independente": "Em publicaram-se os editais, editais é sujeito paciente plural e o verbo deve flexionar no plural. CERTO.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-12-003-02",
+    "modulo": "POR-12",
+    "subtopico": "POR-12-003",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_independente": "Precisa-se de assistentes emprega verbo transitivo indireto com índice de indeterminação; as demais são passivas sintéticas.",
+    "alternativa_resolvida": "Precisa-se de assistentes.",
+    "indice_resolvido": 2,
+    "indice_gabarito_original": 2,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-12-003-03",
+    "modulo": "POR-12",
+    "subtopico": "POR-12-003",
+    "tipo": "associacao",
+    "dificuldade": "dificil",
+    "solucao_independente": "Os quatro exemplos correspondem, na ordem, a agente na ativa, paciente na passiva analítica, paciente na passiva sintética e ação reflexiva.",
+    "alternativa_resolvida": "1 – 2 – 3 – 4",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-12-003-04",
+    "modulo": "POR-12",
+    "subtopico": "POR-12-003",
+    "tipo": "exceto",
+    "dificuldade": "dificil",
+    "solucao_independente": "Se arrependeu integra verbo pronominal; não forma estrutura passiva, diferentemente das outras três frases.",
+    "alternativa_resolvida": "A coordenadora se arrependeu do atraso.",
+    "indice_resolvido": 3,
+    "indice_gabarito_original": 3,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual",
+      "revisao_explanation"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-12-004-01",
+    "modulo": "POR-12",
+    "subtopico": "POR-12-004",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_independente": "Foram conferidos apresenta passiva analítica: ser flexionado mais particípio concordante com paciente. CERTO.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-12-004-02",
+    "modulo": "POR-12",
+    "subtopico": "POR-12-004",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_independente": "Havia analisado emprega ter auxiliar e particípio em tempo composto ativo, enquanto as demais têm ser mais particípio em passiva.",
+    "alternativa_resolvida": "A equipe havia analisado os autos.",
+    "indice_resolvido": 2,
+    "indice_gabarito_original": 2,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-12-004-03",
+    "modulo": "POR-12",
+    "subtopico": "POR-12-004",
+    "tipo": "vf",
+    "dificuldade": "dificil",
+    "solucao_independente": "Estão analisando é locução com gerúndio e foram analisados é passiva; deve haver vagas é adequada porque haver existencial é impessoal. V–V–F.",
+    "alternativa_resolvida": "V – V – F",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual",
+      "revisao_explanation"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-12-004-04",
+    "modulo": "POR-12",
+    "subtopico": "POR-12-004",
+    "tipo": "exceto",
+    "dificuldade": "dificil",
+    "solucao_independente": "Haver existencial é impessoal, mantendo auxiliar singular: devem haver é a única construção inadequada entre as opções.",
+    "alternativa_resolvida": "Devem haver orientações no mural.",
+    "indice_resolvido": 3,
+    "indice_gabarito_original": 3,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-12-005-01",
+    "modulo": "POR-12",
+    "subtopico": "POR-12-005",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_independente": "Funcionar é futuro do subjuntivo na condição e enviaremos é futuro do indicativo na consequência. CERTO.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-12-005-02",
+    "modulo": "POR-12",
+    "subtopico": "POR-12-005",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_independente": "Chegasse é pretérito imperfeito do subjuntivo, e protocolaríamos é futuro do pretérito, combinação hipotética típica.",
+    "alternativa_resolvida": "Se o relatório chegasse, protocolaríamos.",
+    "indice_resolvido": 2,
+    "indice_gabarito_original": 2,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-12-005-03",
+    "modulo": "POR-12",
+    "subtopico": "POR-12-005",
+    "tipo": "afirmacoes",
+    "dificuldade": "dificil",
+    "solucao_independente": "I e II têm correlação verbal correta e III descreve transposição temporal possível; as três são verdadeiras.",
+    "alternativa_resolvida": "I, II e III",
+    "indice_resolvido": 2,
+    "indice_gabarito_original": 2,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-12-005-04",
+    "modulo": "POR-12",
+    "subtopico": "POR-12-005",
+    "tipo": "lacunas",
+    "dificuldade": "dificil",
+    "solucao_independente": "Chegarem e analisará exprimem condição futura e consequência; tivessem chegado corresponde à condição passada não realizada pressuposta pela segunda frase.",
+    "alternativa_resolvida": "chegarem / analisará / tivessem",
+    "indice_resolvido": 1,
+    "indice_gabarito_original": 1,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual",
+      "revisao_explanation"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-13-001-01",
+    "modulo": "POR-13",
+    "subtopico": "POR-13-001",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_independente": "Muito modifica claro, adjetivo, funcionando como advérbio de intensidade. CERTO.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-13-001-02",
+    "modulo": "POR-13",
+    "subtopico": "POR-13-001",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_independente": "Cedo modifica o verbo chegaram e acrescenta valor temporal; não concorda com arquivos nem relaciona orações.",
+    "alternativa_resolvida": "“Cedo” modifica o verbo e indica tempo.",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-13-001-03",
+    "modulo": "POR-13",
+    "subtopico": "POR-13-001",
+    "tipo": "afirmacoes",
+    "dificuldade": "dificil",
+    "solucao_independente": "Muito intensifica cedo, bem intensifica organizado e muito não varia com relatórios na terceira frase. I e II procedem.",
+    "alternativa_resolvida": "Apenas I e II.",
+    "indice_resolvido": 1,
+    "indice_gabarito_original": 1,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-13-001-04",
+    "modulo": "POR-13",
+    "subtopico": "POR-13-001",
+    "tipo": "associacao",
+    "dificuldade": "dificil",
+    "solucao_independente": "Com cuidado constitui locução adverbial de modo, rapidamente é advérbio de modo e extremamente expressa intensidade. A–B–C.",
+    "alternativa_resolvida": "A – B – C.",
+    "indice_resolvido": 2,
+    "indice_gabarito_original": 2,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual",
+      "revisao_stem",
+      "revisao_explanation"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-13-002-01",
+    "modulo": "POR-13",
+    "subtopico": "POR-13-002",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_independente": "Em falou de concursos, de introduz o assunto, não origem geográfica necessária. ERRADO.",
+    "alternativa_resolvida": "ERRADO",
+    "indice_resolvido": 1,
+    "indice_gabarito_original": 1,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-13-002-02",
+    "modulo": "POR-13",
+    "subtopico": "POR-13-002",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_independente": "Em veio de Mossoró para Natal, de introduz origem e para introduz destino; a segunda opção está correta.",
+    "alternativa_resolvida": "Origem e destino, respectivamente.",
+    "indice_resolvido": 1,
+    "indice_gabarito_original": 1,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-13-002-03",
+    "modulo": "POR-13",
+    "subtopico": "POR-13-002",
+    "tipo": "associacao",
+    "dificuldade": "dificil",
+    "solucao_independente": "De ônibus indica meio, sobre o edital aponta assunto e para a prova expressa finalidade. C–A–B.",
+    "alternativa_resolvida": "C – A – B.",
+    "indice_resolvido": 2,
+    "indice_gabarito_original": 2,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-13-002-04",
+    "modulo": "POR-13",
+    "subtopico": "POR-13-002",
+    "tipo": "exceto",
+    "dificuldade": "dificil",
+    "solucao_independente": "Saiu de madrugada é expressão temporal, não indicação obrigatória de causa; as outras relações preposicionais são plausíveis.",
+    "alternativa_resolvida": "“Saiu de madrugada”: indicação obrigatória de causa.",
+    "indice_resolvido": 3,
+    "indice_gabarito_original": 3,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual",
+      "revisao_explanation"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-13-003-01",
+    "modulo": "POR-13",
+    "subtopico": "POR-13-003",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_independente": "Mas introduz ressalva ou oposição entre documentação completa e assinatura ausente. CERTO.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-13-003-02",
+    "modulo": "POR-13",
+    "subtopico": "POR-13-003",
+    "tipo": "lacunas",
+    "dificuldade": "media",
+    "solucao_independente": "Portanto conclui a partir do prazo encerrado; contudo e mas indicariam oposição, ou alternância não mantém a relação.",
+    "alternativa_resolvida": "portanto",
+    "indice_resolvido": 2,
+    "indice_gabarito_original": 2,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-13-003-03",
+    "modulo": "POR-13",
+    "subtopico": "POR-13-003",
+    "tipo": "afirmacoes",
+    "dificuldade": "dificil",
+    "solucao_independente": "Pois justifica a orientação em I, é conclusivo em II quando posposto e mas é adversativo em III. Só I e II.",
+    "alternativa_resolvida": "I e II apenas.",
+    "indice_resolvido": 3,
+    "indice_gabarito_original": 3,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual",
+      "revisao_explanation"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-13-003-04",
+    "modulo": "POR-13",
+    "subtopico": "POR-13-003",
+    "tipo": "vf",
+    "dificuldade": "dificil",
+    "solucao_independente": "E admite adição; portanto marca conclusão; mas não é alternativo; ou pode marcar alternativa. V–V–F–V.",
+    "alternativa_resolvida": "V – V – F – V.",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-13-004-01",
+    "modulo": "POR-13",
+    "subtopico": "POR-13-004",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_independente": "Embora introduz concessão em face da lentidão; não explica causalmente a continuidade. ERRADO.",
+    "alternativa_resolvida": "ERRADO",
+    "indice_resolvido": 1,
+    "indice_gabarito_original": 1,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-13-004-02",
+    "modulo": "POR-13",
+    "subtopico": "POR-13-004",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_independente": "Se os documentos forem apresentados estabelece condição futura para a análise, não causa comprovada nem concessão.",
+    "alternativa_resolvida": "Condição.",
+    "indice_resolvido": 3,
+    "indice_gabarito_original": 3,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-13-004-03",
+    "modulo": "POR-13",
+    "subtopico": "POR-13-004",
+    "tipo": "associacao",
+    "dificuldade": "dificil",
+    "solucao_independente": "Embora chova é concessiva, porque choveu é causal, e para que todos participem é final. B–A–C.",
+    "alternativa_resolvida": "B – A – C.",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual",
+      "revisao_stem",
+      "revisao_explanation"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-13-004-04",
+    "modulo": "POR-13",
+    "subtopico": "POR-13-004",
+    "tipo": "exceto",
+    "dificuldade": "dificil",
+    "solucao_independente": "O se de se chegar cedo introduz condição não verificada; as outras classificações são adequadas.",
+    "alternativa_resolvida": "“Se chegar cedo, entre”: causa comprovada.",
+    "indice_resolvido": 1,
+    "indice_gabarito_original": 1,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-13-005-01",
+    "modulo": "POR-13",
+    "subtopico": "POR-13-005",
+    "tipo": "ce",
+    "dificuldade": "media",
+    "solucao_independente": "Até pode indicar inclusão com ênfase e surpresa quando precede servidores recém-contratados. CERTO.",
+    "alternativa_resolvida": "CERTO",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-13-005-02",
+    "modulo": "POR-13",
+    "subtopico": "POR-13-005",
+    "tipo": "classica",
+    "dificuldade": "media",
+    "solucao_independente": "Ufa é interjeição associada à reação de alívio após recuperar o arquivo; não funciona como preposição, conjunção ou advérbio locativo.",
+    "alternativa_resolvida": "Interjeição que expressa alívio.",
+    "indice_resolvido": 0,
+    "indice_gabarito_original": 0,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual",
+      "revisao_options",
+      "revisao_optionComments",
+      "revisao_explanation"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-13-005-03",
+    "modulo": "POR-13",
+    "subtopico": "POR-13-005",
+    "tipo": "afirmacoes",
+    "dificuldade": "dificil",
+    "solucao_independente": "I e II têm os valores indicados, mas até em até a praça é limite espacial, diferente da inclusão em até a diretora veio.",
+    "alternativa_resolvida": "I e II apenas.",
+    "indice_resolvido": 1,
+    "indice_gabarito_original": 1,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual",
+      "revisao_explanation"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  },
+  {
+    "id": "Q-POR-13-005-04",
+    "modulo": "POR-13",
+    "subtopico": "POR-13-005",
+    "tipo": "vf",
+    "dificuldade": "dificil",
+    "solucao_independente": "Psiu é interjeição; até a sala indica limite; só os técnicos é exclusividade, não solidão; até a gerente permite inclusão enfática. V–V–F–V.",
+    "alternativa_resolvida": "V – V – F – V.",
+    "indice_resolvido": 2,
+    "indice_gabarito_original": 2,
+    "comparacao": "COINCIDE",
+    "alteracoes": [
+      "exemplo_inedito",
+      "desafio_contextual"
+    ],
+    "fonte": "AUTORAL; nao utiliza prova real",
+    "ambiguidade_remanescente": "nao_identificada_na_revisao"
+  }
+]

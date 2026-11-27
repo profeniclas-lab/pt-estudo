@@ -1,0 +1,2092 @@
+[
+  {
+    "id": "Q-POR-09-001-01",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“As pesquisadoras chegaram”: em “pesquisadoras”, -s marca plural; “pesquisador” se relaciona lexicalmente a “pesquisa”.",
+        "depois": "Em “apresentações”, a terminação -s indica plural; em “apresentação”, o sufixo -ção forma substantivo a partir de apresentar."
+      },
+      "challenge": {
+        "antes": "O -s de “livros” é sufixo derivacional?",
+        "depois": "Separe, em “apresentações”, o mecanismo de formação do substantivo e a flexão posterior de número."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-09-001-02",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“As pesquisadoras chegaram”: em “pesquisadoras”, -s marca plural; “pesquisador” se relaciona lexicalmente a “pesquisa”.",
+        "depois": "Na forma “recebíamos”, o segmento -mos informa primeira pessoa do plural; -ia- contribui para o tempo e o modo."
+      },
+      "challenge": {
+        "antes": "O -s de “livros” é sufixo derivacional?",
+        "depois": "Identifique em “estudávamos” a parte que revela pessoa e número, sem confundi-la com o imperfeito."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-09-001-03",
+    "fields": [
+      "optionComments",
+      "explanation",
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "optionComments": {
+        "antes": [
+          "Correta: in- precede base; -s flexiona; leal é base lexical; -dade forma substantivo.",
+          "Incorreta: -s de plural não é sufixo derivacional, e feliz não é desinência.",
+          "Incorreta: in- é prefixo, não sufixo, e -dade não é prefixo.",
+          "Incorreta: in- não é flexional e -s não funciona como prefixo."
+        ],
+        "depois": [
+          "Correta: in- precede base; -s flexiona; leal é base lexical; -dade forma substantivo.",
+          "Incorreta: o -s de “livros” não forma novo lexema; é marca flexional, não sufixo derivacional. Além disso, “leal” não é desinência.",
+          "Incorreta: in- é prefixo, não sufixo, e -dade não é prefixo.",
+          "Incorreta: in- não é flexional e -s não funciona como prefixo."
+        ]
+      },
+      "explanation": {
+        "antes": "Prefixos e sufixos constroem lexemas; desinências flexionam, e radical fornece base semântica.",
+        "depois": "O prefixo in- antepõe-se a feliz; -s marca o número plural em livros; leal é a base lexical de lealdade; e -dade forma substantivo a partir de adjetivo. A sequência é 2–4–1–3."
+      },
+      "newExample": {
+        "antes": "“As pesquisadoras chegaram”: em “pesquisadoras”, -s marca plural; “pesquisador” se relaciona lexicalmente a “pesquisa”.",
+        "depois": "Em “releitura”, re- é prefixo; em “leituras”, -s é flexão plural, apesar de ambos aparecerem junto à base."
+      },
+      "challenge": {
+        "antes": "O -s de “livros” é sufixo derivacional?",
+        "depois": "Classifique o -mente de “lentamente” e o -s de “lentas”: qual cria vocábulo?"
+      }
+    }
+  },
+  {
+    "id": "Q-POR-09-001-04",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“As pesquisadoras chegaram”: em “pesquisadoras”, -s marca plural; “pesquisador” se relaciona lexicalmente a “pesquisa”.",
+        "depois": "Em “jardineiros”, -eiro participa da derivação de “jardim”, enquanto -s marca plural; em “visitávamos”, há marcas verbais."
+      },
+      "challenge": {
+        "antes": "O -s de “livros” é sufixo derivacional?",
+        "depois": "O plural de “pintores” e o surgimento de “pintor” a partir de “pintar” pertencem ao mesmo processo?"
+      }
+    }
+  },
+  {
+    "id": "Q-POR-09-002-01",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Leal → desleal” (prefixal), “leal → lealdade” (sufixal), “tarde → entardecer” (parassintética, na análise escolar).",
+        "depois": "“Desnecessariamente” não exige inserção simultânea de des- e -mente: existem “desnecessário” e “necessariamente”."
+      },
+      "challenge": {
+        "antes": "Por que “infelizmente” não é exemplo necessário de parassíntese?",
+        "depois": "Por que encontrar dois afixos em uma palavra não basta para afirmar parassíntese?"
+      }
+    }
+  },
+  {
+    "id": "Q-POR-09-002-02",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Leal → desleal” (prefixal), “leal → lealdade” (sufixal), “tarde → entardecer” (parassintética, na análise escolar).",
+        "depois": "“Refazer” é prefixação; “clareza” é sufixação; “anoitecer” exemplifica, no ensino escolar, parassíntese."
+      },
+      "challenge": {
+        "antes": "Por que “infelizmente” não é exemplo necessário de parassíntese?",
+        "depois": "Teste a existência de formas intermediárias ao analisar “empobrecer”, antes de classificar o processo."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-09-002-03",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Leal → desleal” (prefixal), “leal → lealdade” (sufixal), “tarde → entardecer” (parassintética, na análise escolar).",
+        "depois": "Em “desorganização”, a família contém “organização” e “desorganizar”; isso afasta a exigência de dois acréscimos simultâneos."
+      },
+      "challenge": {
+        "antes": "Por que “infelizmente” não é exemplo necessário de parassíntese?",
+        "depois": "A existência de “desleal” e “lealdade” enfraquece qual análise de “deslealdade”?"
+      }
+    }
+  },
+  {
+    "id": "Q-POR-09-002-04",
+    "fields": [
+      "explanation",
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "explanation": {
+        "antes": "Não há exigência de acréscimo simultâneo em infelizmente.",
+        "depois": "Na análise escolar usual, desfazer é prefixal, bondade é sufixal e entardecer é parassintética. Infelizmente admite bases intermediárias, como infeliz e felizmente; por isso não exige afixação simultânea."
+      },
+      "newExample": {
+        "antes": "“Leal → desleal” (prefixal), “leal → lealdade” (sufixal), “tarde → entardecer” (parassintética, na análise escolar).",
+        "depois": "“Envelhecer” é tradicionalmente parassintético; já “injustamente” se relaciona a “injusto” e “justamente”."
+      },
+      "challenge": {
+        "antes": "Por que “infelizmente” não é exemplo necessário de parassíntese?",
+        "depois": "Escolha uma palavra com prefixo e sufixo e procure bases intermediárias reais antes de rotulá-la."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-09-003-01",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Guarda-chuva” e “passatempo” são exemplos de justaposição; “planalto” e “aguardente”, de aglutinação.",
+        "depois": "Em “couve-flor”, ambas as bases são reconhecíveis; o sinal de hífen não é prova suficiente do processo."
+      },
+      "challenge": {
+        "antes": "Por que “passatempo” pode ser justaposição mesmo sem hífen?",
+        "depois": "Por que “girassol” não deixa de ser composto por ser escrito sem hífen?"
+      }
+    }
+  },
+  {
+    "id": "Q-POR-09-003-02",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Guarda-chuva” e “passatempo” são exemplos de justaposição; “planalto” e “aguardente”, de aglutinação.",
+        "depois": "“Beija-flor” preserva as bases; “pernalta” contém alteração de perna e alta na fusão."
+      },
+      "challenge": {
+        "antes": "Por que “passatempo” pode ser justaposição mesmo sem hífen?",
+        "depois": "Classifique “planalto” e “guarda-roupa” comparando suas bases, não apenas a grafia."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-09-003-03",
+    "fields": [
+      "explanation",
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "explanation": {
+        "antes": "Composição lexical e uso de hífen não são critérios intercambiáveis.",
+        "depois": "Justaposição e aglutinação dizem respeito à constituição lexical, não ao sinal de hífen. Passatempo conserva suas bases; planalto apresenta alteração na fusão de plano e alto."
+      },
+      "newExample": {
+        "antes": "“Guarda-chuva” e “passatempo” são exemplos de justaposição; “planalto” e “aguardente”, de aglutinação.",
+        "depois": "“Girassol” apresenta composição sem hífen, ao passo que “vinagre” ilustra historicamente fusão com alteração de bases."
+      },
+      "challenge": {
+        "antes": "Por que “passatempo” pode ser justaposição mesmo sem hífen?",
+        "depois": "A ausência de hífen prova que a palavra é simples? Justifique com “passatempo”."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-09-003-04",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Guarda-chuva” e “passatempo” são exemplos de justaposição; “planalto” e “aguardente”, de aglutinação.",
+        "depois": "Em “segunda-feira”, as bases permanecem visíveis; a presença do hífen é fato gráfico, não a definição de justaposição."
+      },
+      "challenge": {
+        "antes": "Por que “passatempo” pode ser justaposição mesmo sem hífen?",
+        "depois": "Distinga justaposição e aglutinação em “pontapé” e “aguardente”."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-09-004-01",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“A UFRN divulgou fotos do evento”: UFRN é sigla e “fotos” corresponde à forma reduzida de “fotografias”.",
+        "depois": "“Micro” pode ser redução de “microcomputador” em determinado contexto, mas “IFRN” é formado por iniciais de um nome institucional."
+      },
+      "challenge": {
+        "antes": "“Foto” e “UFRN” se formam pelo mesmo mecanismo?",
+        "depois": "O que diferencia “moto” de “UFRN” na formação das palavras?"
+      }
+    }
+  },
+  {
+    "id": "Q-POR-09-004-02",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“A UFRN divulgou fotos do evento”: UFRN é sigla e “fotos” corresponde à forma reduzida de “fotografias”.",
+        "depois": "“Prof.” é abreviatura gráfica; “cine” é redução vocabular; “IBGE” reúne iniciais; “zum-zum” evoca som."
+      },
+      "challenge": {
+        "antes": "“Foto” e “UFRN” se formam pelo mesmo mecanismo?",
+        "depois": "Classifique “pág.”, “foto”, “MEC” e “toc-toc” sem confundir abreviatura com sigla."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-09-004-03",
+    "fields": [
+      "explanation",
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "explanation": {
+        "antes": "Foto não deriva de uma sequência de iniciais; é truncamento vocabular.",
+        "depois": "“Pág.” é abreviatura gráfica; Unesco é sigla pronunciável como palavra (acrônimo). Foto é forma reduzida de fotografia, não palavra formada por iniciais."
+      },
+      "newExample": {
+        "antes": "“A UFRN divulgou fotos do evento”: UFRN é sigla e “fotos” corresponde à forma reduzida de “fotografias”.",
+        "depois": "“Dr.” é abreviatura escrita; “ONU” é sigla; “metrô” é redução de “metropolitano”, não iniciais de expressão pluriverbal."
+      },
+      "challenge": {
+        "antes": "“Foto” e “UFRN” se formam pelo mesmo mecanismo?",
+        "depois": "Por que “ONU” pode ser sigla e “foto” não, embora as duas sejam formas curtas?"
+      }
+    }
+  },
+  {
+    "id": "Q-POR-09-004-04",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“A UFRN divulgou fotos do evento”: UFRN é sigla e “fotos” corresponde à forma reduzida de “fotografias”.",
+        "depois": "“CPF” é sigla e “tic-tac” é onomatopeia; nenhuma dessas formas é composição por aglutinação."
+      },
+      "challenge": {
+        "antes": "“Foto” e “UFRN” se formam pelo mesmo mecanismo?",
+        "depois": "Se uma sequência junta iniciais de três palavras, por que não se trata de aglutinação lexical?"
+      }
+    }
+  },
+  {
+    "id": "Q-POR-09-005-01",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“O candidato leu o edital e precisou reler as instruções”: re- sinaliza repetição da leitura.",
+        "depois": "“Reeditar” contém re- com sentido de fazer nova edição; “editou” flexiona o verbo sem criar outro lexema."
+      },
+      "challenge": {
+        "antes": "Qual valor tem re- em “reler”?",
+        "depois": "Compare “revisar novamente” e “revisar”: qual elemento na palavra “rever” indica repetição?"
+      }
+    }
+  },
+  {
+    "id": "Q-POR-09-005-02",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“O candidato leu o edital e precisou reler as instruções”: re- sinaliza repetição da leitura.",
+        "depois": "De “claro” obtém-se “clareza” com sufixo; “reler” é prefixado e “livros” é plural de livro."
+      },
+      "challenge": {
+        "antes": "Qual valor tem re- em “reler”?",
+        "depois": "Identifique qual das formas “reabrir”, “limpeza” e “mesas” envolve derivação sufixal."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-09-005-03",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“O candidato leu o edital e precisou reler as instruções”: re- sinaliza repetição da leitura.",
+        "depois": "“Desligar” pode indicar reversão de ligar; “organização” vem de organizar por sufixação; “cadernos” flexiona número."
+      },
+      "challenge": {
+        "antes": "Qual valor tem re- em “reler”?",
+        "depois": "Na sequência “cadastrar, recadastrar, cadastros”, quais mudanças são lexicais e quais são flexionais?"
+      }
+    }
+  },
+  {
+    "id": "Q-POR-09-005-04",
+    "fields": [
+      "explanation",
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "explanation": {
+        "antes": "Família lexical depende de relação de formação e significado, não de semelhança gráfica ocasional.",
+        "depois": "Ilegal mostra prefixo negativo na família de legal; reescrever comporta valor reiterativo de re-. A coincidência de letras iniciais não é critério suficiente para reconhecer uma família lexical."
+      },
+      "newExample": {
+        "antes": "“O candidato leu o edital e precisou reler as instruções”: re- sinaliza repetição da leitura.",
+        "depois": "“Impossível” contém prefixo negativo; “recontar” pode indicar repetição; “pedra” e “pedir” não formam família só pela semelhança inicial."
+      },
+      "challenge": {
+        "antes": "Qual valor tem re- em “reler”?",
+        "depois": "Use “fazer, refazer e desfazer” para mostrar duas relações derivacionais distintas."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-10-001-01",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“A vítima prestou depoimento” mantém artigo feminino mesmo quando vítima é um homem.",
+        "depois": "“A vítima foi ouvida” conserva o gênero feminino do substantivo mesmo que a pessoa identificada seja um homem."
+      },
+      "challenge": {
+        "antes": "Como explicar a escolha do artigo em “a pessoa entrevistada”, quando a pessoa é homem?",
+        "depois": "Explique por que não se altera o artigo de “a criatura” de acordo com a pessoa a que se refere."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-10-001-02",
+    "fields": [
+      "stem",
+      "optionComments",
+      "explanation",
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "stem": {
+        "antes": "Em “A equipe examinou a correspondência”, qual termo é substantivo coletivo?",
+        "depois": "Em “A equipe examinou a correspondência”, qual termo é um substantivo coletivo que designa um grupo de pessoas?"
+      },
+      "optionComments": {
+        "antes": [
+          "Correta: equipe designa conjunto de pessoas, como unidade lexical.",
+          "Incorreta: examinou é forma verbal no pretérito perfeito.",
+          "Incorreta: a é artigo definido que determina correspondência.",
+          "Incorreta: correspondência designa, no contexto, o conjunto de mensagens, mas não é o coletivo escolar solicitado para pessoas."
+        ],
+        "depois": [
+          "Correta: equipe designa conjunto de pessoas, como unidade lexical.",
+          "Incorreta: examinou é forma verbal no pretérito perfeito.",
+          "Incorreta: a é artigo definido que determina correspondência.",
+          "Incorreta: “correspondência” nomeia aqui documentos ou mensagens examinados; não designa um grupo de pessoas como o coletivo “equipe”."
+        ]
+      },
+      "explanation": {
+        "antes": "Equipe é substantivo coletivo que nomeia um grupo de integrantes de maneira unitária.",
+        "depois": "Equipe nomeia um conjunto de pessoas como unidade. O recorte “coletivo de pessoas” evita confundir esse valor com usos de correspondência para conjunto de mensagens."
+      },
+      "newExample": {
+        "antes": "“A multidão aguardava o resultado” contém o coletivo multidão.",
+        "depois": "“O conselho deliberou”: conselho pode designar um conjunto institucional de pessoas considerado como unidade."
+      },
+      "challenge": {
+        "antes": "Por que “equipe” pode aparecer no singular mesmo ao designar várias pessoas?",
+        "depois": "Por que “assembleia” pode estar no singular e ainda remeter a vários participantes?"
+      }
+    }
+  },
+  {
+    "id": "Q-POR-10-001-03",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Recife” é próprio; “bondade” é abstrato; “passatempo” é composto, mesmo sem hífen.",
+        "depois": "“Salvador” é próprio quando nomeia a cidade; “esperança” pode ser abstrato; “guarda-roupa” é composto."
+      },
+      "challenge": {
+        "antes": "Se substituirmos “guarda-chuva” por “passatempo”, a afirmação III ficaria correta?",
+        "depois": "Uma palavra como “girassol” deixa de ser composta por ser escrita sem hífen?"
+      }
+    }
+  },
+  {
+    "id": "Q-POR-10-001-04",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Cardume” é coletivo; “alegria” abstrato; “Brasil” próprio; “girassol” composto.",
+        "depois": "“Frota” é coletivo de veículos; “confiança” é abstrato; “Paraná” é próprio e “beija-flor” é composto."
+      },
+      "challenge": {
+        "antes": "A classificação de “arquipélago” seria alterada por aparecer no plural “arquipélagos”?",
+        "depois": "Associe “cardume”, “saudade”, “Maranhão” e “paraquedas” às quatro classificações."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-10-002-01",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Um parecer foi enviado. O parecer continha anexos” apresenta a mesma progressão.",
+        "depois": "“Um candidato entrou. O candidato sentou-se”: a segunda ocorrência trata do mesmo referente introduzido na primeira frase."
+      },
+      "challenge": {
+        "antes": "O efeito seria o mesmo se a segunda frase introduzisse “outra estudante”?",
+        "depois": "Que informação discursiva muda ao substituir “um servidor” por “o servidor” em uma segunda menção?"
+      }
+    }
+  },
+  {
+    "id": "Q-POR-10-002-02",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Procure uma fotografia do evento” solicita uma dentre várias possíveis.",
+        "depois": "“Preciso de um comprovante válido” pode solicitar qualquer documento que satisfaça o critério, sem individualizá-lo previamente."
+      },
+      "challenge": {
+        "antes": "Que diferença há entre “uma fotografia” e “a fotografia da ata”?",
+        "depois": "Na frase “traga o comprovante de ontem”, por que o artigo definido ajuda a identificar um referente?"
+      }
+    }
+  },
+  {
+    "id": "Q-POR-10-002-03",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Um candidato entrou” não diz que o candidato é imaginário.",
+        "depois": "“Uma pasta foi encontrada” não nega a existência da pasta; “as pastas” pode retomar apenas um conjunto já mencionado."
+      },
+      "challenge": {
+        "antes": "Uma frase com “os estudantes” pode tratar apenas da turma mencionada antes?",
+        "depois": "Quando “os livros” significa um conjunto conhecido, e não todos os livros existentes?"
+      }
+    }
+  },
+  {
+    "id": "Q-POR-10-002-04",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“O atendente retomou a explicação” não prova que o órgão emprega somente um atendente.",
+        "depois": "“Um visitante entrou. O visitante perguntou pelos formulários”: o artigo definido da segunda frase não afirma que não havia outros visitantes."
+      },
+      "challenge": {
+        "antes": "Que evidência adicional seria necessária para afirmar que só existe um fiscal?",
+        "depois": "Qual inferência é indevida ao ler “A servidora assinou”: que existe uma única servidora no órgão?"
+      }
+    }
+  },
+  {
+    "id": "Q-POR-10-003-01",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“As medidas eficazes foram aprovadas” relaciona eficazes a medidas.",
+        "depois": "“Resultados excelentes” atribui avaliação aos resultados; em “resultou excelentemente”, a modificação recairia sobre o processo verbal."
+      },
+      "challenge": {
+        "antes": "Se fosse “apresentou os resultados excelentemente”, qual classe teria o termo modificador?",
+        "depois": "Identifique a classe de “excelentes” e compare com “excelentemente” no contexto do enunciado."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-10-003-02",
+    "fields": [
+      "stem",
+      "options",
+      "optionComments",
+      "explanation",
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "stem": {
+        "antes": "Qual par apresenta uma mudança de posição do adjetivo que pode alterar o significado?",
+        "depois": "Considerando os sentidos habituais, em qual par a posição de “grande” distingue avaliação do mérito pessoal e dimensão física?"
+      },
+      "options": {
+        "antes": [
+          "“Um grande colega” / “um colega grande”.",
+          "“Um documento digital” / “um digital documento”.",
+          "“Uma redação clara” / “uma redação clara”.",
+          "“Uma equipe eficiente” / “uma equipe eficiente”."
+        ],
+        "depois": [
+          "“Um grande colega” / “um colega grande”.",
+          "“Uma grande mesa” / “uma mesa grande”.",
+          "“Uma grande janela” / “uma janela grande”.",
+          "“Um grande armário” / “um armário grande”."
+        ]
+      },
+      "optionComments": {
+        "antes": [
+          "Correta: grande anteposto pode elogiar mérito; posposto tende a dimensionar fisicamente.",
+          "Incorreta: o segundo enunciado é antinatural na ordem usual, sem contraste semântico regular comparável.",
+          "Incorreta: a mesma frase foi apenas repetida.",
+          "Incorreta: não há deslocamento do adjetivo no par."
+        ],
+        "depois": [
+          "Correta: “grande colega” pode avaliar o mérito pessoal; “colega grande” tende a mencionar a dimensão física da pessoa.",
+          "Incorreta: nas duas posições, “grande” normalmente se refere às dimensões físicas da mesa; não opõe mérito pessoal a tamanho.",
+          "Incorreta: “janela” é objeto cuja dimensão física continua sendo o sentido habitual de “grande” antes ou depois do nome.",
+          "Incorreta: “armário” também apresenta dimensões físicas; a anteposição não cria o contraste pedido entre mérito pessoal e porte físico."
+        ]
+      },
+      "explanation": {
+        "antes": "A posição de alguns adjetivos, como grande, altera leitura subjetiva ou objetiva.",
+        "depois": "Na expressão “um grande colega”, grande pode avaliar a qualidade da pessoa; em “um colega grande”, tende a indicar porte físico. Nos outros pares, o sentido habitual relaciona-se a tamanho de objetos."
+      },
+      "newExample": {
+        "antes": "“Meu velho amigo” pode salientar amizade antiga; “meu amigo velho”, idade.",
+        "depois": "“Um antigo colega” pode sugerir colega de longa data; “um colega antigo” pode destacar a antiguidade da relação ou outros atributos, conforme o contexto."
+      },
+      "challenge": {
+        "antes": "A expressão “um grande pesquisador” afirma necessariamente altura física?",
+        "depois": "Compare “pobre homem” e “homem pobre”: o deslocamento sempre preserva a mesma leitura?"
+      }
+    }
+  },
+  {
+    "id": "Q-POR-10-003-03",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Pasta de papel” especifica pasta; “preparou cuidadosamente” modifica preparou.",
+        "depois": "“Ata de reunião” especifica o substantivo ata; “redigiu ontem” acrescenta circunstância temporal ao verbo."
+      },
+      "challenge": {
+        "antes": "“Relatório de ontem” e “relatou ontem” desempenham a mesma função sintática?",
+        "depois": "Explique por que “com atenção” em “leu com atenção” não qualifica um substantivo como “atencioso”."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-10-003-04",
+    "fields": [
+      "stem",
+      "explanation",
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "stem": {
+        "antes": "Nas frases abaixo, “rápido” ou expressão equivalente modifica um substantivo em todas, EXCETO:",
+        "depois": "Em qual alternativa o termo caracterizador modifica a ação verbal, em vez de qualificar ou especificar um substantivo?"
+      },
+      "explanation": {
+        "antes": "Rapidamente é advérbio de modo; os demais modificadores caracterizam grupos nominais.",
+        "depois": "“Rapidamente” é advérbio de modo ligado a “respondeu”; em “resposta rápida”, “atendimento de urgência” e “documentos digitais”, os termos caracterizam substantivos."
+      },
+      "newExample": {
+        "antes": "“Os técnicos analisaram minuciosamente” contém advérbio; “a análise minuciosa” contém adjetivo.",
+        "depois": "“A revisão cuidadosa terminou” contém adjetivo relacionado ao substantivo; “revisou cuidadosamente” contém advérbio do verbo."
+      },
+      "challenge": {
+        "antes": "Em “uma avaliação criteriosa”, qual nome recebe a qualificação?",
+        "depois": "Localize o termo que modifica o verbo em “O técnico respondeu prontamente”."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-10-004-01",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Foi o parecer mais detalhado da comissão” usa superlativo relativo.",
+        "depois": "“Luísa é a mais pontual entre os atendentes”: a comparação seleciona Luísa dentro de grupo delimitado."
+      },
+      "challenge": {
+        "antes": "“Muito experiente” obrigaria a mesma comparação dentro da equipe?",
+        "depois": "Diferencie “a mais cuidadosa da equipe” de “extremamente cuidadosa” quanto ao grupo de comparação."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-10-004-02",
+    "fields": [
+      "optionComments",
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "optionComments": {
+        "antes": [
+          "Incorreta: “a mais ... da série” é superlativo relativo.",
+          "Incorreta: “mais ... que” estabelece comparação de superioridade.",
+          "Correta: “muito” intensifica a qualidade sem comparação explícita.",
+          "Incorreta: longuíssima é forma sintética; “da série” ainda sugere comparação contextual."
+        ],
+        "depois": [
+          "Incorreta: “a mais ... da série” é superlativo relativo.",
+          "Incorreta: “mais ... que” estabelece comparação de superioridade.",
+          "Correta: “muito” intensifica a qualidade sem comparação explícita.",
+          "Incorreta: longuíssima é superlativo absoluto sintético, formado com sufixo intensificador; não é a forma analítica solicitada."
+        ]
+      },
+      "newExample": {
+        "antes": "“O texto é extremamente claro” apresenta intensidade absoluta analítica.",
+        "depois": "“Bastante claro” intensifica sem comparação, mas “claríssimo” realiza intensificação por sufixo."
+      },
+      "challenge": {
+        "antes": "Por que “claríssimo” não é superlativo absoluto analítico?",
+        "depois": "Classifique separadamente “muito eficiente”, “eficientíssimo” e “o mais eficiente do setor”."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-10-004-03",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Que textinho precioso!” pode indicar admiração, não necessariamente pequena extensão.",
+        "depois": "“Livrinho” pode soar afetuoso em “meu livrinho preferido” ou depreciativo numa fala irônica."
+      },
+      "challenge": {
+        "antes": "Em que situação “probleminha” poderia sugerir ironia?",
+        "depois": "Dê uma interpretação não literal de “probleminha” que dependa do tom e do contexto."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-10-004-04",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“mais rápido que”, “extremamente rápido”, “rapidíssimo”, “o mais rápido da equipe” seguem a mesma ordem de classes.",
+        "depois": "“A mais rápida do setor” seleciona em grupo; “rapidíssima” intensifica por sufixo; “muito rápida” usa advérbio."
+      },
+      "challenge": {
+        "antes": "A presença de “do conjunto” modifica a classificação da última expressão?",
+        "depois": "Em “menos cansado que ontem”, que indício identifica comparação e não superlativo?"
+      }
+    }
+  },
+  {
+    "id": "Q-POR-10-005-01",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“As normas revisadas foram divulgadas” repete o padrão feminino plural.",
+        "depois": "“Os relatórios enviados” exige plural em enviados; “as atas enviadas” exige feminino plural."
+      },
+      "challenge": {
+        "antes": "Em “os termos atualizados”, como muda a forma do adjetivo?",
+        "depois": "Por que “analisadas” não concordaria com “os relatórios” na norma-padrão?"
+      }
+    }
+  },
+  {
+    "id": "Q-POR-10-005-02",
+    "fields": [
+      "options",
+      "optionComments",
+      "explanation",
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "options": {
+        "antes": [
+          "Os relatórios estavam bastantes claros.",
+          "As instruções eram bastante objetivas.",
+          "Havia bastantes grande quantidade de anexos.",
+          "As estudantes eram bastantes atentas."
+        ],
+        "depois": [
+          "Os relatórios estavam bastantes claros.",
+          "As instruções eram bastante objetivas.",
+          "Havia bastantes solicitações aguardando resposta.",
+          "As estudantes eram bastantes atentas."
+        ]
+      },
+      "optionComments": {
+        "antes": [
+          "Incorreta: antes de claros o advérbio intensificador deveria ser “bastante”.",
+          "Correta: bastante intensifica objetivas e não varia.",
+          "Incorreta: a construção mistura quantificador plural com expressão singular e não é o uso adverbial pedido.",
+          "Incorreta: antes de atentas o advérbio deve ser “bastante”, invariável."
+        ],
+        "depois": [
+          "Incorreta: antes de claros o advérbio intensificador deveria ser “bastante”.",
+          "Correta: bastante intensifica objetivas e não varia.",
+          "Incorreta para o pedido: em bastantes solicitações, bastante é quantificador variável associado ao substantivo; o uso pode ser gramatical, mas não é advérbio de intensidade.",
+          "Incorreta: antes de atentas o advérbio deve ser “bastante”, invariável."
+        ]
+      },
+      "explanation": {
+        "antes": "Antes de adjetivo, “bastante” tem função adverbial e permanece invariável.",
+        "depois": "Bastante intensifica o adjetivo objetivas sem concordar com ele; a forma bastantes, antes de substantivo plural, é quantificador flexionado, não o uso adverbial exigido."
+      },
+      "newExample": {
+        "antes": "“Os processos estavam bastante avançados” tem “bastante” invariável.",
+        "depois": "“Estavam bastante atentos” contém advérbio invariável; já “bastantes recursos” emprega bastante como quantificador flexionável."
+      },
+      "challenge": {
+        "antes": "Por que “bastantes documentos” pode ser correto mesmo que “documentos bastantes difíceis” não seja?",
+        "depois": "Em “havia bastantes pedidos” e “eram bastante claros”, que elemento cada bastante modifica?"
+      }
+    }
+  },
+  {
+    "id": "Q-POR-10-005-03",
+    "fields": [
+      "explanation",
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "explanation": {
+        "antes": "Muitos/muitas flexionam ao determinar nome; muito adverbial não varia; útil é uniforme em gênero.",
+        "depois": "Muitas acompanha o substantivo solicitações; muito intensifica urgentes e fica invariável; úteis flexiona número, mas mantém a mesma forma para os dois gêneros."
+      },
+      "newExample": {
+        "antes": "“Poucas pessoas muito preparadas” contrasta quantificador flexionado e intensificador invariável.",
+        "depois": "“Documentos úteis” mantém o mesmo adjetivo para masculino e feminino, mas flexiona plural; “muitas demandas” varia gênero e número."
+      },
+      "challenge": {
+        "antes": "“Relatórios úteis” e “tabelas úteis” diferem na forma do adjetivo por gênero?",
+        "depois": "Compare a flexão de gênero de “útil” em “parecer útil” e “ata útil”."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-10-005-04",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Os registros digitalizados foram anexados” mantém concordância masculina plural.",
+        "depois": "“Os pareceres atualizados foram enviados” faz os determinantes e os qualificadores concordarem com o núcleo masculino plural."
+      },
+      "challenge": {
+        "antes": "Como reescrever integralmente a última alternativa para corrigir os três modificadores?",
+        "depois": "Corrija “As pareceres atualizadas” justificando as alterações de artigo e de adjetivo."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-11-001-01",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“A diretora a chamou para conversar”: a substitui pessoa no objeto direto.",
+        "depois": "“A chefia os convocou” emprega “os” como objeto direto de convocou; “os convocados” empregaria artigo diante de substantivo."
+      },
+      "challenge": {
+        "antes": "Se a frase fosse “O convite chegou”, a palavra “o” teria a mesma classe?",
+        "depois": "Em “A direção a chamou”, substitua “a” por “a candidata” para comprovar a função sintática."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-11-001-02",
+    "fields": [
+      "stem",
+      "options",
+      "optionComments",
+      "explanation",
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "stem": {
+        "antes": "Qual forma atende à norma-padrão ao indicar sujeito do infinitivo?",
+        "depois": "Considerando que a pessoa que fala realizará a conferência, qual construção apresenta corretamente “eu” como sujeito do infinitivo na norma-padrão?"
+      },
+      "options": {
+        "antes": [
+          "Trouxeram os arquivos para mim conferir.",
+          "Trouxeram os arquivos para eu conferir.",
+          "Trouxeram os arquivos para me conferir, querendo dizer que eu conferiria os arquivos.",
+          "Trouxeram os arquivos para eu, sem verbo no infinitivo."
+        ],
+        "depois": [
+          "Trouxeram os arquivos para mim conferir.",
+          "Trouxeram os arquivos para eu conferir.",
+          "Trouxeram os arquivos para minha conferência.",
+          "Trouxeram os arquivos para mim, que farei a conferência."
+        ]
+      },
+      "optionComments": {
+        "antes": [
+          "Incorreta: “mim” não exerce sujeito de conferir na construção apresentada.",
+          "Correta: eu é sujeito do infinitivo conferir.",
+          "Incorreta: “me conferir” coloca me como complemento do verbo, mudando o sentido.",
+          "Incorreta: falta a estrutura verbal que justificaria “eu” como sujeito."
+        ],
+        "depois": [
+          "Incorreta: “mim” é forma oblíqua e não funciona como sujeito do infinitivo “conferir” na norma-padrão.",
+          "Correta: “eu” é o sujeito da oração reduzida de infinitivo em “para eu conferir”.",
+          "Incorreta para o pedido: “minha conferência” é grupo nominal, sem “eu” como sujeito de infinitivo.",
+          "Incorreta para o pedido: “mim” complementa a preposição, e “farei” é verbo finito de outra oração, não o infinitivo solicitado."
+        ]
+      },
+      "explanation": {
+        "antes": "Na oração reduzida “para eu conferir”, eu funciona como sujeito de conferir.",
+        "depois": "“Para eu conferir” é oração reduzida de infinitivo, na qual “eu” é sujeito. Outras expressões podem ser gramaticais, mas não apresentam essa estrutura."
+      },
+      "newExample": {
+        "antes": "“Separei os livros para eu catalogar” tem eu como sujeito de catalogar.",
+        "depois": "“Entregaram o material para eu revisar” põe eu como sujeito de revisar; “para mim” pode ser complemento de entregar, não sujeito do verbo."
+      },
+      "challenge": {
+        "antes": "Em “A encomenda é para mim”, por que “mim” é adequado?",
+        "depois": "Compare “Trouxeram a pasta para mim” com “Trouxeram a pasta para eu organizar”."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-11-001-03",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“A técnica chegou” apresenta artigo; “Chamaram-na” apresenta pronome oblíquo.",
+        "depois": "“Ele recebeu a carta” traz ele como sujeito; “o responsável chegou” usa artigo; “entregaram-lhe” marca destinatário do envio."
+      },
+      "challenge": {
+        "antes": "Qual teste sintático distingue “o” artigo de “o” objeto direto?",
+        "depois": "Diferencie “o” em “o chamaram” e “o candidato chegou”."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-11-001-04",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“O documento? A servidora o arquivou” apresenta o como pronome.",
+        "depois": "“A médica a examinou” usa a como objeto direto; “a médica chegou” traz a como artigo determinante do nome."
+      },
+      "challenge": {
+        "antes": "Como reescrever “a recebeu” com um objeto direto nominal feminino?",
+        "depois": "Explique o teste de substituição por “ela” ou “a médica” nas duas ocorrências de “a”."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-11-002-01",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“O autor cujos livros conhecemos” exige cujos, porque livros é masculino plural.",
+        "depois": "“O servidor cujo relatório foi divulgado” faz cujo concordar com relatório, não com servidor; também não admite artigo após cujo."
+      },
+      "challenge": {
+        "antes": "Qual seria a forma de cujo em “a autora ___ trabalho foi premiado”?",
+        "depois": "Em “a autora cujos livros chegaram”, indique o antecedente de cujos e a palavra com que concorda."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-11-002-02",
+    "fields": [
+      "stem",
+      "explanation",
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "stem": {
+        "antes": "Qual alternativa completa corretamente: “O arquivo ___ preciso foi atualizado”?",
+        "depois": "Na norma-padrão, complete o período mantendo a regência de “precisar de”: “O arquivo ___ preciso foi atualizado”."
+      },
+      "explanation": {
+        "antes": "A regência “precisar de algo” determina a preposição antes do relativo que.",
+        "depois": "O verbo precisar, no sentido de necessitar, rege a preposição de; a oração relativa mantém essa preposição: “o arquivo de que preciso”."
+      },
+      "newExample": {
+        "antes": "“A orientação de que necessito” segue necessidade de preposição.",
+        "depois": "“Este é o tema de que tratamos” conserva a preposição selecionada pelo verbo tratar de."
+      },
+      "challenge": {
+        "antes": "Como ficaria a oração se substituíssemos precisar por consultar, verbo transitivo direto?",
+        "depois": "Em “a matéria de que preciso”, por que não cabe “onde” para retomar matéria?"
+      }
+    }
+  },
+  {
+    "id": "Q-POR-11-002-03",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“O prédio onde o arquivo funciona” usa referência de lugar físico.",
+        "depois": "“O bairro onde moro” tem antecedente espacial; “a proposta de que discordo” exige de e não onde."
+      },
+      "challenge": {
+        "antes": "Por que “a medida onde discordamos” tende a ser inadequada na redação formal?",
+        "depois": "Substitua “a ideia onde discordo” por uma construção em norma-padrão e explique a mudança."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-11-002-04",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“A gestora cujo projeto foi aprovado” não admite “cujo o projeto”.",
+        "depois": "“A pesquisadora cuja tese lemos” não admite artigo entre cuja e tese; “o lugar em que moro” mantém relação locativa."
+      },
+      "challenge": {
+        "antes": "Como corrigir a quarta construção sem perder o sentido de posse?",
+        "depois": "Reescreva “a servidora cujo o relatório chegou” retirando apenas o elemento incompatível."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-11-003-01",
+    "fields": [
+      "stem",
+      "explanation",
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "stem": {
+        "antes": "Na frase “Vossa Senhoria receberá a documentação”, a concordância verbal em terceira pessoa está adequada à norma-padrão.",
+        "depois": "Considerando apenas a concordância gramatical das formas tradicionais de tratamento, em “Vossa Senhoria receberá a documentação”, o verbo na terceira pessoa está adequado."
+      },
+      "explanation": {
+        "antes": "Vossa Senhoria designa interlocutor, mas concorda na terceira pessoa gramatical.",
+        "depois": "Na gramática tradicional, a forma “Vossa Senhoria” exige concordância do verbo na terceira pessoa. Isso não recomenda seu uso na comunicação oficial federal, cuja forma de tratamento deve observar o Decreto nº 9.758/2019 e as normas aplicáveis."
+      },
+      "newExample": {
+        "antes": "“Vossa Excelência apreciará o documento” preserva a terceira pessoa.",
+        "depois": "“Vossa Excelência comparecerá” usa a terceira pessoa gramatical; isso não determina qual tratamento é permitido em um documento institucional específico."
+      },
+      "challenge": {
+        "antes": "Por que “Vossa Senhoria recebe” não usa “recebeis”?",
+        "depois": "Qual pessoa do verbo aparece em “Sua Excelência deverá assinar”, independentemente da escolha protocolar?"
+      }
+    }
+  },
+  {
+    "id": "Q-POR-11-003-02",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Gostaria de saber qual documento faltou” contém interrogativa indireta.",
+        "depois": "“Perguntei quem assinou a lista” apresenta uma interrogativa indireta sem ponto de interrogação."
+      },
+      "challenge": {
+        "antes": "Que mudança transforma a pergunta indireta em pergunta direta?",
+        "depois": "Transforme a pergunta direta “Quem conferiu o formulário?” em uma subordinada dependente de “não sei”."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-11-003-03",
+    "fields": [
+      "stem",
+      "explanation",
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "stem": {
+        "antes": "Considere: I. “Nenhum servidor faltou” contém indefinido determinante. II. “Qual chegou primeiro?” contém interrogativo substantivo. III. Em referência à terceira pessoa mencionada, deve-se usar “Vossa Senhoria” em vez de “Sua Senhoria”. Quais são corretas?",
+        "depois": "No estudo gramatical dos pronomes — sem recomendar fórmulas de tratamento para documentos oficiais —, considere: I. “Nenhum servidor faltou” contém indefinido determinante. II. “Qual chegou primeiro?” contém interrogativo substantivo. III. Em referência à terceira pessoa mencionada, deve-se usar “Vossa Senhoria” em vez de “Sua Senhoria”. Quais são corretas?"
+      },
+      "explanation": {
+        "antes": "Indefinidos podem determinar substantivos, interrogativos podem substituí-los e Sua/Vossa distinguem referência.",
+        "depois": "Nenhum é pronome indefinido que determina “servidor”; qual é interrogativo com função substantiva; no tratamento gramatical tradicional, Vossa se dirige ao interlocutor e Sua refere-se a terceiros. O Decreto nº 9.758/2019 rege formas de tratamento no Executivo federal."
+      },
+      "newExample": {
+        "antes": "“Sua Senhoria participou da reunião” fala sobre essa pessoa; “Vossa Senhoria participará” dirige-se a ela.",
+        "depois": "“Nenhuma pessoa respondeu” usa indefinido; “Qual respondeu?” usa pronome interrogativo substantivo; “Sua Senhoria” é tradicional em referência a terceiro."
+      },
+      "challenge": {
+        "antes": "Como se altera o tratamento ao transformar uma saudação direta em relato sobre a pessoa?",
+        "depois": "Em um relato sobre pessoa ausente, explique a diferença tradicional de referência entre Vossa e Sua, sem extrapolar para o protocolo federal vigente."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-11-003-04",
+    "fields": [
+      "stem",
+      "explanation",
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "stem": {
+        "antes": "Preencha: “___ dos candidatos apresentou o comprovante? Não encontrei ___ documento sem assinatura. ___ Senhoria deverá ser informada diretamente.”",
+        "depois": "Como exercício de classificação gramatical (não de protocolo de comunicação oficial vigente), complete as lacunas segundo o emprego tradicional dos pronomes: “___ dos candidatos apresentou o comprovante? Não encontrei ___ documento sem assinatura. ___ Senhoria deverá ser informada diretamente.”"
+      },
+      "explanation": {
+        "antes": "O contexto determina interrogativo, indefinido e tratamento; o último elemento é usado para dirigir-se ao destinatário.",
+        "depois": "Qual interroga uma escolha entre candidatos; nenhum determina documento em contexto negativo; Vossa designa o interlocutor no emprego gramatical tradicional. A prescrição das formas de tratamento na Administração Pública federal segue regulamentação própria."
+      },
+      "newExample": {
+        "antes": "“Qual dessas propostas?” interroga; “nenhum erro” quantifica; “Vossa Senhoria pode...” dirige-se ao destinatário.",
+        "depois": "“Qual dos formulários chegou?” é interrogativa; “não houve nenhum atraso” traz indefinido; no tratamento tradicional direto usa-se Vossa."
+      },
+      "challenge": {
+        "antes": "Como mudaria a última lacuna em “Relatei que ___ Senhoria já estava informada”?",
+        "depois": "Diferencie a função de “Qual” em pergunta e de “nenhum” em negação dentro de um aviso."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-11-004-01",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“A energia caiu. Isso interrompeu a reunião” recupera o evento narrado.",
+        "depois": "“O sistema falhou. Isso atrasou a inscrição”: isso recupera a proposição anterior, não um objeto físico específico."
+      },
+      "challenge": {
+        "antes": "O que seria perdido se substituíssemos “isso” por expressão sem referente?",
+        "depois": "Substitua “isso” por uma paráfrase explícita do fato retomado."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-11-004-02",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Anote isto: haverá mudança de sala” anuncia a informação seguinte.",
+        "depois": "“Registre o seguinte: o prazo será prorrogado” anuncia informação; “isso atrasou a entrega” geralmente recupera informação anterior."
+      },
+      "challenge": {
+        "antes": "Se substituíssemos isto por isso, a construção perderia necessariamente todo sentido?",
+        "depois": "Em um aviso, escreva uma frase em que “isto” antecipe uma lista depois de dois-pontos."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-11-004-03",
+    "fields": [
+      "stem",
+      "explanation",
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "stem": {
+        "antes": "Leia: “Joana e Lúcia organizaram os documentos; esta revisou as datas e aquela numerou as páginas.” I. “Esta” retoma Lúcia na convenção textual da proximidade. II. “Aquela” retoma Joana. III. “Esta” retoma obrigatoriamente Joana por aparecer após os dois nomes. Assinale:",
+        "depois": "Pela convenção escolar de retomada de dois referentes em enumeração, leia: “Joana e Lúcia organizaram os documentos; esta revisou as datas e aquela numerou as páginas.” I. “Esta” retoma Lúcia, o referente mais próximo. II. “Aquela” retoma Joana, o mais distante. III. “Esta” retoma obrigatoriamente Joana por aparecer após os dois nomes. Assinale:"
+      },
+      "explanation": {
+        "antes": "Na retomada formal de dois antecedentes, este costuma indicar o mais próximo, aquele o mais distante.",
+        "depois": "Na convenção textual indicada, “esta” recupera o último nome da série, Lúcia, e “aquela” recupera o primeiro, Joana. É um recurso de clareza, não uma descrição absoluta de toda fala brasileira."
+      },
+      "newExample": {
+        "antes": "“Pedro e Rui chegaram; este falou e aquele ouviu” identifica Rui como falante na mesma convenção.",
+        "depois": "“Bia e Carla revisaram a ata; esta assinou, aquela digitou”: pela convenção textual, esta aproxima Carla e aquela retoma Bia."
+      },
+      "challenge": {
+        "antes": "Que mudança ocorreria se a ordem dos nomes fosse “Lúcia e Joana”?",
+        "depois": "Reescreva a frase com nomes próprios no lugar de “esta” e “aquela” para eliminar dúvida."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-11-004-04",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Isso que você disse” retoma o interlocutor; “isto é importante” pode preparar explicação.",
+        "depois": "“Assim ficou definido: isto será alterado” pode ser catafórico; “isso” frequentemente é anafórico, mas usos reais variam."
+      },
+      "challenge": {
+        "antes": "Por que uma prova de interpretação deve considerar o contexto antes de condenar todo emprego de “esse”?",
+        "depois": "Por que uma regra de distinção absoluta entre “este” e “esse” falha na descrição de usos brasileiros?"
+      }
+    }
+  },
+  {
+    "id": "Q-POR-11-005-01",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Marcos disse a Paulo que seu relatório foi aceito” tem estrutura igualmente ambígua.",
+        "depois": "“Joana disse a Marina que seu formulário sumiu”: sem esclarecimento, seu pode apontar para Joana ou Marina."
+      },
+      "challenge": {
+        "antes": "Como reescrever a frase para afirmar que o projeto era de Bia?",
+        "depois": "Crie duas reescritas que atribuam explicitamente o formulário a pessoas diferentes."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-11-005-02",
+    "fields": [
+      "options",
+      "optionComments",
+      "explanation",
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "options": {
+        "antes": [
+          "Ana encontrou Bia, e ela apresentou o projeto.",
+          "Ana encontrou Bia, que apresentou o projeto.",
+          "Ana encontrou Bia depois que ela apresentou o projeto.",
+          "Ana encontrou Bia quando seu projeto foi apresentado."
+        ],
+        "depois": [
+          "Ana encontrou Bia, e ela apresentou o projeto.",
+          "Ana encontrou Bia; foi Bia quem apresentou o projeto.",
+          "Ana encontrou Bia depois que ela apresentou o projeto.",
+          "Ana encontrou Bia quando seu projeto foi apresentado."
+        ]
+      },
+      "optionComments": {
+        "antes": [
+          "Incorreta: ela ainda pode retomar Ana ou Bia.",
+          "Correta: a oração relativa ligada a Bia atribui a apresentação a ela.",
+          "Incorreta: ela continua sem antecedente explicitado.",
+          "Incorreta: seu não determina a possuidora do projeto nem quem apresentou."
+        ],
+        "depois": [
+          "Incorreta: “ela” pode retomar Ana ou Bia; a construção não explicita quem apresentou o projeto.",
+          "Correta: a construção clivada “foi Bia quem apresentou” nomeia explicitamente a agente da apresentação.",
+          "Incorreta: o pronome “ela” após Ana e Bia mantém aberta a atribuição da apresentação.",
+          "Incorreta: “seu” permite mais de um possuidor e a construção passiva não identifica quem apresentou o projeto."
+        ]
+      },
+      "explanation": {
+        "antes": "A oração relativa adjacente a Bia permite atribuir-lhe explicitamente a ação de apresentar.",
+        "depois": "A forma “foi Bia quem apresentou o projeto” identifica a agente sem depender da interpretação de pronomes. A alternativa anterior com “que apresentou” podia gerar dúvida quanto ao antecedente e foi substituída."
+      },
+      "newExample": {
+        "antes": "“Lia apresentou o parecer depois de falar com Rosa” atribui apresentação a Lia.",
+        "depois": "“Ana encontrou Bia; foi Bia quem apresentou o projeto” elimina a competição entre antecedentes."
+      },
+      "challenge": {
+        "antes": "Qual reescrita inequívoca atribuiria a apresentação a Ana?",
+        "depois": "Reescreva “Carla viu Rosa quando ela saiu” para deixar inequívoco quem saiu."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-11-005-03",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Paula encontrou Carla depois que ela terminou a prova” também requer desambiguação.",
+        "depois": "“O gerente falou ao técnico quando ele entrou”: ele pode retomar gerente ou técnico se não houver outro dado contextual."
+      },
+      "challenge": {
+        "antes": "O uso de nomes próprios no lugar de “ele” resolveria a terceira frase?",
+        "depois": "Reescreva a terceira frase substituindo “ele” por “Carlos” e verifique a mudança na inferência."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-11-005-04",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Rita informou que Joana receberia o e-mail” evita pronome pessoal ambíguo.",
+        "depois": "“Rita avisou Joana: ‘Você receberá a mensagem’” identifica a destinatária pelo discurso direto; “ela receberia” segue ambíguo."
+      },
+      "challenge": {
+        "antes": "Como deixar inequívoco que é Rita, e não Joana, quem receberá a mensagem?",
+        "depois": "Por que acrescentar “depois do aviso” não define quem é “ela”?"
+      }
+    }
+  },
+  {
+    "id": "Q-POR-12-001-01",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“O curso termina na sexta-feira” também pode ter sentido futuro.",
+        "depois": "“Os exames começam na próxima terça” usa presente morfológico para evento agendado no futuro."
+      },
+      "challenge": {
+        "antes": "O que aconteceria com a leitura temporal se retirássemos “amanhã”?",
+        "depois": "Que marcador temporal permitiria ler “as aulas terminam” como previsão futura?"
+      }
+    }
+  },
+  {
+    "id": "Q-POR-12-001-02",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“A candidata lia diariamente; ontem leu a ata completa” opõe rotina e conclusão.",
+        "depois": "“Todos os dias ela caminhava” caracteriza hábito passado; “ontem ela caminhou” apresenta evento como completo."
+      },
+      "challenge": {
+        "antes": "Como “esperava” pode alterar o foco narrativo em comparação com “esperou”?",
+        "depois": "Compare “lia durante as férias” com “leu ontem” quanto ao aspecto da situação."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-12-001-03",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Convém confirmar o horário” pode funcionar como recomendação sem forma imperativa.",
+        "depois": "“Talvez ela participe” usa subjuntivo; “revisava” pode ser repetitivo; “Poderia enviar?” é pedido sem imperativo."
+      },
+      "challenge": {
+        "antes": "A expressão “Favor anexar o comprovante” orienta alguém sem um imperativo finito?",
+        "depois": "Formule um pedido cortês sem usar imperativo e explique por que III seria falsa."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-12-001-04",
+    "fields": [
+      "explanation",
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "explanation": {
+        "antes": "O aspecto imperfeito não impõe conclusão, enquanto marcadores temporais e modo podem projetar hipóteses ou futuro.",
+        "depois": "I relaciona imperfeito do subjuntivo e futuro do pretérito; II usa presente do indicativo com leitura prospectiva; III erra por atribuir necessariamente valor perfectivo a “revisava”."
+      },
+      "newExample": {
+        "antes": "“Às oito, ela preenchia a planilha” mostra ação em andamento no ponto de observação.",
+        "depois": "“Se houvesse recursos, ampliaríamos o atendimento” é hipótese; “o prazo acaba amanhã” é presente com valor de futuro."
+      },
+      "challenge": {
+        "antes": "A frase “Ela revisava” permite concluir que terminou a revisão?",
+        "depois": "Por que “analisava” não garante que a análise tenha terminado?"
+      }
+    }
+  },
+  {
+    "id": "Q-POR-12-002-01",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Quando a equipe intervier, os ajustes serão documentados” repete o paradigma.",
+        "depois": "“Se o técnico compuser a comissão” segue o futuro do subjuntivo de compor, assim como “intervier” segue intervir."
+      },
+      "challenge": {
+        "antes": "Qual forma corresponde à terceira pessoa do plural: “se eles intervierem” ou “intervirem”?",
+        "depois": "Qual forma completa “Quando o setor intervier, comunicaremos”?"
+      }
+    }
+  },
+  {
+    "id": "Q-POR-12-002-02",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Se eu fizer a leitura hoje, avisarei” mantém fizer.",
+        "depois": "“Quando ela trouxer o parecer, registraremos” usa futuro do subjuntivo de trazer; “fizer” é a forma de fazer."
+      },
+      "challenge": {
+        "antes": "Por que a mesma frase com “fazia” mudaria o enquadramento temporal?",
+        "depois": "Complete “Se eles fizerem a vistoria, avisarão” e identifique a diferença para “fazem”."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-12-002-03",
+    "fields": [
+      "explanation",
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "explanation": {
+        "antes": "Propor/propuser, manter/mantiver e trazer/trouxer exemplificam irregularidades de futuro do subjuntivo.",
+        "depois": "“Propuserem” vem de propor; “mantiver” vem de manter; e “trouxer”, não “trazer”, é o futuro do subjuntivo de trazer. A sequência é V–V–F."
+      },
+      "newExample": {
+        "antes": "“Se a empresa dispuser de vagas” usa dispuser, derivado de pôr.",
+        "depois": "“Se ela contiver os gastos” deriva de conter; “quando ele trouxer” deriva de trazer, e não trazer no futuro do subjuntivo."
+      },
+      "challenge": {
+        "antes": "Qual é o infinitivo correspondente à forma verbal “trouxer”?",
+        "depois": "Forme o futuro do subjuntivo de “compor”, “reter” e “trazer” em condições futuras."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-12-002-04",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Se o comitê dispuser de tempo e obtiver resposta, decidirá” conjuga três verbos correlacionados.",
+        "depois": "“Se o setor obtiver o parecer, a equipe poderá seguir” combina condição futura com futuro do indicativo."
+      },
+      "challenge": {
+        "antes": "Como ficaria a primeira oração na hipótese distante “Se a equipe propusesse...”?",
+        "depois": "Conjugue “propor”, “manter” e “intervir” na frase “Se eles..., o gestor...”."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-12-003-01",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Divulgaram-se os resultados” equivale a “Os resultados foram divulgados”.",
+        "depois": "“Divulgaram-se as notas” põe notas como sujeito paciente; “precisa-se de apoio” não tem sujeito paciente."
+      },
+      "challenge": {
+        "antes": "Por que “Publicou-se os editais” contraria a norma-padrão nessa leitura passiva?",
+        "depois": "Transforme “Foram entregues os certificados” em passiva sintética sem perder a concordância."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-12-003-02",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Confia-se em técnicos experientes” tem sujeito indeterminado.",
+        "depois": "“Alugam-se salas” pode ser passiva sintética; “necessita-se de apoio” tem se indeterminador porque o verbo exige de."
+      },
+      "challenge": {
+        "antes": "Por que “assistentes são precisados” não serve como paráfrase natural do exemplo?",
+        "depois": "Em “tratou-se de vários assuntos”, explique por que o verbo fica no singular."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-12-003-03",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“O aviso foi lido” é passiva analítica; “Leram-se avisos” é sintética.",
+        "depois": "“Os dados foram revisados” é passiva analítica e “revisaram-se os dados” passiva sintética."
+      },
+      "challenge": {
+        "antes": "Em que transformação a comissão se torna complemento agente da passiva?",
+        "depois": "Transforme “A comissão corrigiu as notas” para as duas formas passivas, mantendo o paciente."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-12-003-04",
+    "fields": [
+      "explanation",
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "explanation": {
+        "antes": "Arrepender-se é pronominal e não corresponde a “ser arrependida” como transformação passiva da oração.",
+        "depois": "“Arrepender-se” é verbo pronominal e não forma voz passiva. Na passiva, há sujeito paciente e, em casos típicos, estrutura correspondente com ser e particípio."
+      },
+      "newExample": {
+        "antes": "“Ela se queixou da demora” também contém verbo pronominal sem voz passiva.",
+        "depois": "“A assistente se queixou do prazo” contém verbo pronominal, não passiva; “foram aprovadas as atas” é passiva analítica."
+      },
+      "challenge": {
+        "antes": "Que teste mostra a impossibilidade de tratar “se arrependeu” como passiva sintética?",
+        "depois": "Por que “se arrependeu” não corresponde a “foi arrependida por alguém”?"
+      }
+    }
+  },
+  {
+    "id": "Q-POR-12-004-01",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“As respostas foram registradas” tem mesma construção passiva.",
+        "depois": "“As propostas foram aceitas” reúne auxiliar ser e particípio aceitas em voz passiva."
+      },
+      "challenge": {
+        "antes": "Como transformar “Os documentos foram conferidos pela equipe” em oração ativa?",
+        "depois": "Substitua “foram conferidos os dados” por “a equipe conferiu os dados” e identifique o agente."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-12-004-02",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Os técnicos tinham revisado o texto” emprega tempo composto ativo.",
+        "depois": "“A analista tinha lido as mensagens” é tempo composto ativo; “as mensagens tinham sido lidas” é passiva."
+      },
+      "challenge": {
+        "antes": "Como reescrever a resposta em voz passiva mantendo a anterioridade temporal?",
+        "depois": "Diferencie “tem escrito pareceres” de “tem sido elogiado” quanto à voz verbal."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-12-004-03",
+    "fields": [
+      "explanation",
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "explanation": {
+        "antes": "Gerúndio e particípio participam de locuções diferentes; haver impessoal mantém auxiliar no singular.",
+        "depois": "A perífrase “estão analisando” traz gerúndio com valor aspectual; “foram analisados” é passiva com particípio; haver existencial mantém o auxiliar no singular em “deve haver vagas”."
+      },
+      "newExample": {
+        "antes": "“Pode haver inscrições adicionais” mantém pode no singular.",
+        "depois": "“Podem existir vagas” pluraliza existir; “pode haver vagas” mantém haver impessoal singular e também o auxiliar."
+      },
+      "challenge": {
+        "antes": "Por que “Podem existir vagas” usa plural, diferentemente de “Pode haver vagas”?",
+        "depois": "Identifique por que “vai haver pedidos” não varia como “vão existir pedidos”."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-12-004-04",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Vai haver mudanças” contrasta com “Vão existir mudanças”.",
+        "depois": "“Vai haver mudanças” é adequado; “vão existir mudanças” também, com existir concordando com o sujeito plural."
+      },
+      "challenge": {
+        "antes": "Como corrigir a última alternativa mantendo o verbo haver?",
+        "depois": "Reescreva “Devem haver reuniões” segundo a norma-padrão, sem alterar o significado."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-12-005-01",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Se chegarem as respostas, prepararemos o parecer” segue a correlação.",
+        "depois": "“Quando a ata chegar, nós a leremos” associa futuro do subjuntivo a futuro do indicativo."
+      },
+      "challenge": {
+        "antes": "Que sentido seria criado pela troca para “Se funcionasse, enviaríamos”?",
+        "depois": "Em “Se os dados chegarem, analisaremos”, classifique as duas formas verbais."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-12-005-02",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Se houvesse tempo, revisaríamos as atas” tem a mesma correlação.",
+        "depois": "“Se eu soubesse, explicaria” apresenta hipótese remota; “se eu souber, explicarei” usa condição futura possível."
+      },
+      "challenge": {
+        "antes": "Como converter a terceira alternativa em condição futura mais provável?",
+        "depois": "Transforme “Se ele comparecer, assinaremos” em hipótese contrafactual ou distanciada."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-12-005-03",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“A diretora afirmou: ‘Sairei hoje’” pode virar “afirmou que sairia naquele dia”.",
+        "depois": "“Ela afirmou que retornaria no dia seguinte” pode converter fala anterior “Retornarei amanhã”, dependendo do momento narrativo."
+      },
+      "challenge": {
+        "antes": "Que outra expressão temporal mudaria ao converter “Ontem recebi a resposta” para relato posterior?",
+        "depois": "Indique qual marco temporal permite substituir “amanhã” por “no dia seguinte” no discurso indireto."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-12-005-04",
+    "fields": [
+      "explanation",
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "explanation": {
+        "antes": "O período contrasta condição futura viável com hipótese passada não realizada: chegarem/analisará e tivessem chegado.",
+        "depois": "Chegarem é futuro do subjuntivo e analisará é futuro do indicativo; tivessem chegado é mais-que-perfeito composto do subjuntivo em hipótese irreal passada."
+      },
+      "newExample": {
+        "antes": "“Se receberem o material, iniciarão; se o tivessem recebido ontem, já teriam iniciado” distingue as duas hipóteses.",
+        "depois": "“Se as informações chegarem, a chefia decidirá; se tivessem chegado antes, já haveria decisão.”"
+      },
+      "challenge": {
+        "antes": "Por que “se os dados tiveram chegado” não substitui “se os dados tivessem chegado” nesta hipótese?",
+        "depois": "Complete “Se elas fizerem..., nós...; se tivessem feito..., já...” respeitando os dois planos hipotéticos."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-13-001-01",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“O técnico respondeu muito rapidamente”: rapidamente indica modo da resposta; muito intensifica rapidamente.",
+        "depois": "“Em comunicado muito breve”, muito intensifica o adjetivo breve; já em “muitos comunicados”, acompanha substantivo e varia."
+      },
+      "challenge": {
+        "antes": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+        "depois": "Qual a diferença de classe e de flexão entre “muito útil” e “muitas informações”?"
+      }
+    }
+  },
+  {
+    "id": "Q-POR-13-001-02",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“O técnico respondeu muito rapidamente”: rapidamente indica modo da resposta; muito intensifica rapidamente.",
+        "depois": "“O requerimento chegou tarde” indica momento da chegada; “o requerimento tardio” caracteriza o nome."
+      },
+      "challenge": {
+        "antes": "Qual elemento é intensificado em “O atendimento ocorreu muito cedo”?",
+        "depois": "Em “respondeu logo”, que palavra é modificada por “logo”?"
+      }
+    }
+  },
+  {
+    "id": "Q-POR-13-001-03",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“O técnico respondeu muito rapidamente”: rapidamente indica modo da resposta; muito intensifica rapidamente.",
+        "depois": "“Estava bastante satisfeito” tem bastante intensificador; “bastantes pedidos” traz quantificador flexionado."
+      },
+      "challenge": {
+        "antes": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+        "depois": "Em “trabalhou muito bem”, classifique a função de muito e de bem."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-13-001-04",
+    "fields": [
+      "stem",
+      "explanation",
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "stem": {
+        "antes": "Associe: 1. “Trabalhou com cuidado”. 2. “Respondeu rapidamente”. 3. “Ficou extremamente satisfeito”. Funções das expressões destacadas: A. locução adverbial de modo; B. advérbio de modo; C. advérbio de intensidade. Qual sequência 1–2–3 é correta?",
+        "depois": "Associe as expressões entre aspas às funções indicadas: 1. “com cuidado”, em “Trabalhou com cuidado”; 2. “rapidamente”, em “Respondeu rapidamente”; 3. “extremamente”, em “Ficou extremamente satisfeito”. Funções: A. locução adverbial de modo; B. advérbio de modo; C. advérbio de intensidade. Qual sequência 1–2–3 é correta?"
+      },
+      "explanation": {
+        "antes": "Com cuidado é locução; rapidamente, advérbio; extremamente intensifica satisfeito.",
+        "depois": "As expressões estão explicitadas entre aspas: “com cuidado” forma locução adverbial; “rapidamente” é advérbio de modo; “extremamente” intensifica adjetivo. A sequência é A–B–C."
+      },
+      "newExample": {
+        "antes": "“O técnico respondeu muito rapidamente”: rapidamente indica modo da resposta; muito intensifica rapidamente.",
+        "depois": "“Conversou em voz baixa” é locução adverbial; “falou calmamente” é advérbio e “muito satisfeito” apresenta intensidade."
+      },
+      "challenge": {
+        "antes": "Qual elemento é intensificado em “O atendimento ocorreu muito cedo”?",
+        "depois": "Dê um exemplo de locução adverbial de modo e de advérbio simples de modo, indicando o elemento modificado."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-13-002-01",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Enviou a documentação por e-mail para a comissão”: por e-mail indica meio; para a comissão indica destinatário.",
+        "depois": "“Falou de política” marca assunto; “veio de Natal” marca origem, com a mesma preposição em função diferente."
+      },
+      "challenge": {
+        "antes": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+        "depois": "Por que “de” em “livro de história” não prova deslocamento geográfico?"
+      }
+    }
+  },
+  {
+    "id": "Q-POR-13-002-02",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Enviou a documentação por e-mail para a comissão”: por e-mail indica meio; para a comissão indica destinatário.",
+        "depois": "“Vieram de Caicó para Parnamirim”: de marca origem e para orienta o deslocamento ao destino."
+      },
+      "challenge": {
+        "antes": "Qual a diferença entre “veio de Recife” e “veio para Recife”?",
+        "depois": "Inverta origem e destino em “de Mossoró para Natal” sem trocar a classe das preposições."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-13-002-03",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Enviou a documentação por e-mail para a comissão”: por e-mail indica meio; para a comissão indica destinatário.",
+        "depois": "“Enviou por aplicativo” pode indicar meio; “tratou de orçamento” marca assunto; “revisou para a prova” marca finalidade."
+      },
+      "challenge": {
+        "antes": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+        "depois": "Identifique meio, assunto e finalidade em “Viajou de trem, conversou sobre estudo e treinou para a avaliação”."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-13-002-04",
+    "fields": [
+      "explanation",
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "explanation": {
+        "antes": "“De madrugada” informa quando se saiu, isto é, circunstância temporal, não causa.",
+        "depois": "Preposições adquirem valor na construção: de pode indicar autoria, assunto, origem ou tempo. Em “de madrugada”, seu valor é temporal, não causa obrigatória."
+      },
+      "newExample": {
+        "antes": "“Enviou a documentação por e-mail para a comissão”: por e-mail indica meio; para a comissão indica destinatário.",
+        "depois": "“Chegou de manhã” exprime tempo, mesmo com de; “saiu de medo” poderia indicar causa noutro contexto."
+      },
+      "challenge": {
+        "antes": "Qual a diferença entre “veio de Recife” e “veio para Recife”?",
+        "depois": "Proponha uma expressão com “de” que marque tempo e outra que marque causa sem confundi-las."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-13-003-01",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Os arquivos estavam completos, mas o prazo havia terminado”: mas introduz oposição à expectativa criada pela primeira informação.",
+        "depois": "“O arquivo estava completo, porém foi recusado” emprega adversativa semelhante a mas."
+      },
+      "challenge": {
+        "antes": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+        "depois": "Substitua mas por outra conjunção adversativa em uma frase sem transformar o contraste em causa."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-13-003-02",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Os arquivos estavam completos, mas o prazo havia terminado”: mas introduz oposição à expectativa criada pela primeira informação.",
+        "depois": "“O acesso foi suspenso; por isso, as inscrições cessaram” usa conclusão ou consequência lógica, não contraste."
+      },
+      "challenge": {
+        "antes": "Em “O sistema apresentou erro; portanto, reabriremos o prazo”, que valor tem “portanto”?",
+        "depois": "Reescreva o período com uma conjunção conclusiva diferente de portanto, preservando a relação."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-13-003-03",
+    "fields": [
+      "explanation",
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "explanation": {
+        "antes": "I e II mostram usos diferentes de pois; III erra ao classificar mas como mera soma.",
+        "depois": "Pois introduz justificativa para uma orientação em I e, posposto em “estavam, pois, liberados”, tem valor conclusivo em II. Mas é adversativo em III, não aditivo."
+      },
+      "newExample": {
+        "antes": "“Os arquivos estavam completos, mas o prazo havia terminado”: mas introduz oposição à expectativa criada pela primeira informação.",
+        "depois": "“Feche o arquivo, pois a sessão vai acabar” justifica a ordem; “a sessão terminou; estavam, pois, desconectados” tira consequência."
+      },
+      "challenge": {
+        "antes": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+        "depois": "Explique a diferença do valor de pois quando vem antes e depois do verbo em exemplos escolares."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-13-003-04",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Os arquivos estavam completos, mas o prazo havia terminado”: mas introduz oposição à expectativa criada pela primeira informação.",
+        "depois": "“O registro foi salvo e conferido; portanto, seguirá para publicação” conecta adição e conclusão em diferentes pontos."
+      },
+      "challenge": {
+        "antes": "Em “O sistema apresentou erro; portanto, reabriremos o prazo”, que valor tem “portanto”?",
+        "depois": "Dê uma frase usando ou para escolha e outra usando portanto para conclusão, sem confundir funções."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-13-004-01",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Ainda que a demanda cresça, manteremos o atendimento”: a oração inicial admite um obstáculo, sem invalidar a decisão.",
+        "depois": "“Ainda que chova, o atendimento ocorrerá” comunica concessão: fato contrário à expectativa não impede a ação."
+      },
+      "challenge": {
+        "antes": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+        "depois": "Reescreva uma oração concessiva com embora sem torná-la causal."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-13-004-02",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Ainda que a demanda cresça, manteremos o atendimento”: a oração inicial admite um obstáculo, sem invalidar a decisão.",
+        "depois": "“Se houver documentos pendentes, avisaremos” formula condição; não afirma que eles existam."
+      },
+      "challenge": {
+        "antes": "Que diferença há entre “porque choveu” e “embora tenha chovido”?",
+        "depois": "Por que uma condição introduzida por se não prova que o evento ocorreu?"
+      }
+    }
+  },
+  {
+    "id": "Q-POR-13-004-03",
+    "fields": [
+      "stem",
+      "explanation",
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "stem": {
+        "antes": "Associe 1. “Embora chova, iremos”. 2. “Porque choveu, adiamos”. 3. “Para que todos participem, avisaremos antes”. Valores: A. causa; B. concessão; C. finalidade. Sequência 1–2–3:",
+        "depois": "Associe os períodos: 1. “Embora chova, faremos a visita”. 2. “Porque choveu, adiamos a visita”. 3. “Para que todos participem, avisaremos antes”. Valores: A. causa; B. concessão; C. finalidade. Sequência 1–2–3:"
+      },
+      "explanation": {
+        "antes": "Embora introduz concessão, porque indica causa e para que marca finalidade.",
+        "depois": "“Embora” introduz concessão; “porque” apresenta causa; e “para que” indica finalidade. A sequência é B–A–C."
+      },
+      "newExample": {
+        "antes": "“Ainda que a demanda cresça, manteremos o atendimento”: a oração inicial admite um obstáculo, sem invalidar a decisão.",
+        "depois": "“Como o prazo acabou, suspenderam as inscrições” é causal; “a fim de que todos saibam, anunciaram” indica finalidade."
+      },
+      "challenge": {
+        "antes": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+        "depois": "Diferencie embora, porque e para que em três frases de aviso institucional."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-13-004-04",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Ainda que a demanda cresça, manteremos o atendimento”: a oração inicial admite um obstáculo, sem invalidar a decisão.",
+        "depois": "“Se o edital sair, informe a equipe” estabelece condição; “mesmo que saia, o prazo não muda” indica concessão."
+      },
+      "challenge": {
+        "antes": "Que diferença há entre “porque choveu” e “embora tenha chovido”?",
+        "depois": "Corrija a análise que chama “Se chegar cedo” de causa já confirmada."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-13-005-01",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Ufa! Até os arquivos mais antigos foram recuperados”: Ufa exprime alívio; até acrescenta ideia de inclusão inesperada.",
+        "depois": "“Até o diretor assistiu à palestra” pode focalizar inclusão inesperada; “caminhou até a entrada” marca limite espacial."
+      },
+      "challenge": {
+        "antes": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+        "depois": "Compare o alcance semântico de até em “foi até o balcão” e “até o gerente aprovou”."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-13-005-02",
+    "fields": [
+      "options",
+      "explanation",
+      "optionComments",
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "options": {
+        "antes": [
+          "Interjeição que expressa alívio.",
+          "Preposição com ideia de origem.",
+          "Conjunção que apresenta conclusão.",
+          "Advérbio que indica lugar."
+        ],
+        "depois": [
+          "Interjeição que expressa alívio.",
+          "Onomatopeia que imita o som feito pelo arquivo ao ser aberto.",
+          "Conector adversativo que opõe a recuperação ao problema anterior.",
+          "Advérbio de modo que modifica a forma verbal “foi recuperado”."
+        ]
+      },
+      "explanation": {
+        "antes": "“Ufa!” expressa reação do enunciador após uma situação tensa.",
+        "depois": "“Ufa!” expressa alívio depois de um resultado positivo, funcionando como interjeição, não como imitação de ruído, conector adversativo ou advérbio."
+      },
+      "optionComments": {
+        "antes": [
+          "Correta: a palavra é usada isoladamente para expressar alívio.",
+          "Incorreta: não estabelece relação entre termos nominais.",
+          "Incorreta: não liga duas orações em raciocínio conclusivo.",
+          "Incorreta: não situa o evento em um espaço."
+        ],
+        "depois": [
+          "Correta: “Ufa!” é interjeição que pode exprimir alívio pela recuperação do arquivo.",
+          "Incorreta: “Ufa!” expressa reação do falante, não imita ruído produzido pelo arquivo ou pelo sistema.",
+          "Incorreta: a palavra não estabelece oposição entre duas orações; funciona como enunciado interjetivo.",
+          "Incorreta: “Ufa!” não modifica a forma verbal “foi recuperado”; expressa o estado emotivo do enunciador."
+        ]
+      },
+      "newExample": {
+        "antes": "“Ufa! Até os arquivos mais antigos foram recuperados”: Ufa exprime alívio; até acrescenta ideia de inclusão inesperada.",
+        "depois": "“Ah!” pode exprimir surpresa; “ufa!” marca alívio; “psiu!” busca atenção do interlocutor."
+      },
+      "challenge": {
+        "antes": "Em “Até os estagiários receberam o comunicado”, “até” indica percurso até um lugar?",
+        "depois": "Em uma transcrição, como diferenciar “ufa!” de um advérbio temporal sem recorrer à pontuação apenas?"
+      }
+    }
+  },
+  {
+    "id": "Q-POR-13-005-03",
+    "fields": [
+      "explanation",
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "explanation": {
+        "antes": "Só é focalizador de exclusão em I e descritivo de estado em II; até é espacial em um caso e inclusivo no outro.",
+        "depois": "Só, antes de um nome, pode focalizar exclusividade; como predicativo, pode indicar desacompanhamento. Até marca limite espacial em “até a praça”, mas inclusão em “até a diretora veio”."
+      },
+      "newExample": {
+        "antes": "“Ufa! Até os arquivos mais antigos foram recuperados”: Ufa exprime alívio; até acrescenta ideia de inclusão inesperada.",
+        "depois": "“Somente os estagiários chegaram” exprime exclusividade; “os estagiários estavam sozinhos” expressa ausência de companhia."
+      },
+      "challenge": {
+        "antes": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+        "depois": "Explique por que o mesmo “só” não tem leitura idêntica em “só Helena veio” e “Helena veio só”."
+      }
+    }
+  },
+  {
+    "id": "Q-POR-13-005-04",
+    "fields": [
+      "newExample",
+      "challenge"
+    ],
+    "changes": {
+      "newExample": {
+        "antes": "“Ufa! Até os arquivos mais antigos foram recuperados”: Ufa exprime alívio; até acrescenta ideia de inclusão inesperada.",
+        "depois": "“Psiu, venha aqui!” busca atenção; “foi até o balcão” marca percurso; “só o supervisor respondeu” exclui outros participantes."
+      },
+      "challenge": {
+        "antes": "Em “Até os estagiários receberam o comunicado”, “até” indica percurso até um lugar?",
+        "depois": "Classifique até e só em “até a chefia respondeu” e “foi até o prédio”, justificando o contexto."
+      }
+    }
+  }
+]

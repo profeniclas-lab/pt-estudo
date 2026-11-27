@@ -1,4 +1,4 @@
-/** PT-ESTUDO — POR-12: 20 questões AUTORAIS com comentários por alternativa. */
+/** PT-ESTUDO — POR-12: 20 questões autorais; Revisão C03/L03 (IDs e gabaritos preservados). */
 export const POR_12_QUESTIONS = [
   {
     "id": "Q-POR-12-001-01",
@@ -21,8 +21,8 @@ export const POR_12_QUESTIONS = [
     "concept": "Tempo localiza evento no eixo temporal; modo expressa atitude de enunciação; aspecto indica desenvolvimento, repetição ou conclusão da situação.",
     "trap": "Definir tempo verbal somente pela data imediata da enunciação.",
     "examTip": "Leia adjuntos temporais e intenção comunicativa em conjunto com a forma verbal.",
-    "newExample": "“O curso termina na sexta-feira” também pode ter sentido futuro.",
-    "challenge": "O que aconteceria com a leitura temporal se retirássemos “amanhã”?",
+    "newExample": "“Os exames começam na próxima terça” usa presente morfológico para evento agendado no futuro.",
+    "challenge": "Que marcador temporal permitiria ler “as aulas terminam” como previsão futura?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -52,8 +52,8 @@ export const POR_12_QUESTIONS = [
     "concept": "Tempo localiza evento no eixo temporal; modo expressa atitude de enunciação; aspecto indica desenvolvimento, repetição ou conclusão da situação.",
     "trap": "Tratar todos os passados como equivalentes em aspecto.",
     "examTip": "Compare se a forma narra rotina em andamento ou ação delimitada.",
-    "newExample": "“A candidata lia diariamente; ontem leu a ata completa” opõe rotina e conclusão.",
-    "challenge": "Como “esperava” pode alterar o foco narrativo em comparação com “esperou”?",
+    "newExample": "“Todos os dias ela caminhava” caracteriza hábito passado; “ontem ela caminhou” apresenta evento como completo.",
+    "challenge": "Compare “lia durante as férias” com “leu ontem” quanto ao aspecto da situação.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -83,8 +83,8 @@ export const POR_12_QUESTIONS = [
     "concept": "Tempo localiza evento no eixo temporal; modo expressa atitude de enunciação; aspecto indica desenvolvimento, repetição ou conclusão da situação.",
     "trap": "Confundir o modo verbal com exclusividade da função comunicativa.",
     "examTip": "Busque contraexemplo: “É necessário preencher o campo” orienta sem imperativo.",
-    "newExample": "“Convém confirmar o horário” pode funcionar como recomendação sem forma imperativa.",
-    "challenge": "A expressão “Favor anexar o comprovante” orienta alguém sem um imperativo finito?",
+    "newExample": "“Talvez ela participe” usa subjuntivo; “revisava” pode ser repetitivo; “Poderia enviar?” é pedido sem imperativo.",
+    "challenge": "Formule um pedido cortês sem usar imperativo e explique por que III seria falsa.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -110,12 +110,12 @@ export const POR_12_QUESTIONS = [
       "Incorreta: III é falsa e II verdadeira.",
       "Incorreta: III não apresenta conclusão obrigatória do evento."
     ],
-    "explanation": "O aspecto imperfeito não impõe conclusão, enquanto marcadores temporais e modo podem projetar hipóteses ou futuro.",
+    "explanation": "I relaciona imperfeito do subjuntivo e futuro do pretérito; II usa presente do indicativo com leitura prospectiva; III erra por atribuir necessariamente valor perfectivo a “revisava”.",
     "concept": "Tempo localiza evento no eixo temporal; modo expressa atitude de enunciação; aspecto indica desenvolvimento, repetição ou conclusão da situação.",
     "trap": "Ler todo pretérito como evento terminado antes de outro.",
     "examTip": "Julgue o que a forma assegura, não apenas o que é possível no mundo.",
-    "newExample": "“Às oito, ela preenchia a planilha” mostra ação em andamento no ponto de observação.",
-    "challenge": "A frase “Ela revisava” permite concluir que terminou a revisão?",
+    "newExample": "“Se houvesse recursos, ampliaríamos o atendimento” é hipótese; “o prazo acaba amanhã” é presente com valor de futuro.",
+    "challenge": "Por que “analisava” não garante que a análise tenha terminado?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -141,8 +141,8 @@ export const POR_12_QUESTIONS = [
     "concept": "Verbos regulares seguem paradigma produtivo; verbos irregulares alteram radical, terminações ou ambos em certas formas.",
     "trap": "Conjugar intervir como verbo regular da terceira conjugação.",
     "examTip": "Recupere a forma “se ele vier” e adicione o prefixo: intervier.",
-    "newExample": "“Quando a equipe intervier, os ajustes serão documentados” repete o paradigma.",
-    "challenge": "Qual forma corresponde à terceira pessoa do plural: “se eles intervierem” ou “intervirem”?",
+    "newExample": "“Se o técnico compuser a comissão” segue o futuro do subjuntivo de compor, assim como “intervier” segue intervir.",
+    "challenge": "Qual forma completa “Quando o setor intervier, comunicaremos”?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -172,8 +172,8 @@ export const POR_12_QUESTIONS = [
     "concept": "Verbos regulares seguem paradigma produtivo; verbos irregulares alteram radical, terminações ou ambos em certas formas.",
     "trap": "Usar infinitivo depois de “quando” por falsa regularidade.",
     "examTip": "Teste “quando ele fizer”; nunca infira a forma apenas pelo infinitivo.",
-    "newExample": "“Se eu fizer a leitura hoje, avisarei” mantém fizer.",
-    "challenge": "Por que a mesma frase com “fazia” mudaria o enquadramento temporal?",
+    "newExample": "“Quando ela trouxer o parecer, registraremos” usa futuro do subjuntivo de trazer; “fizer” é a forma de fazer.",
+    "challenge": "Complete “Se eles fizerem a vistoria, avisarão” e identifique a diferença para “fazem”.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -199,12 +199,12 @@ export const POR_12_QUESTIONS = [
       "Incorreta: II é verdadeira e III falsa.",
       "Incorreta: III é falsa: o futuro do subjuntivo de trazer é trouxer."
     ],
-    "explanation": "Propor/propuser, manter/mantiver e trazer/trouxer exemplificam irregularidades de futuro do subjuntivo.",
+    "explanation": "“Propuserem” vem de propor; “mantiver” vem de manter; e “trouxer”, não “trazer”, é o futuro do subjuntivo de trazer. A sequência é V–V–F.",
     "concept": "Verbos regulares seguem paradigma produtivo; verbos irregulares alteram radical, terminações ou ambos em certas formas.",
     "trap": "Confundir futuro do subjuntivo com infinitivo em verbos irregulares.",
     "examTip": "Conjugue o verbo-base: pôr → puser; ter → tiver; trazer → trouxer.",
-    "newExample": "“Se a empresa dispuser de vagas” usa dispuser, derivado de pôr.",
-    "challenge": "Qual é o infinitivo correspondente à forma verbal “trouxer”?",
+    "newExample": "“Se ela contiver os gastos” deriva de conter; “quando ele trouxer” deriva de trazer, e não trazer no futuro do subjuntivo.",
+    "challenge": "Forme o futuro do subjuntivo de “compor”, “reter” e “trazer” em condições futuras.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -234,8 +234,8 @@ export const POR_12_QUESTIONS = [
     "concept": "Verbos regulares seguem paradigma produtivo; verbos irregulares alteram radical, terminações ou ambos em certas formas.",
     "trap": "Aplicar o mesmo paradigma regular aos verbos derivados de pôr e ter.",
     "examTip": "Resolva as duas condições separadamente e só depois o futuro da principal.",
-    "newExample": "“Se o comitê dispuser de tempo e obtiver resposta, decidirá” conjuga três verbos correlacionados.",
-    "challenge": "Como ficaria a primeira oração na hipótese distante “Se a equipe propusesse...”?",
+    "newExample": "“Se o setor obtiver o parecer, a equipe poderá seguir” combina condição futura com futuro do indicativo.",
+    "challenge": "Conjugue “propor”, “manter” e “intervir” na frase “Se eles..., o gestor...”.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -261,8 +261,8 @@ export const POR_12_QUESTIONS = [
     "concept": "Na voz ativa, o sujeito pode praticar ação; na passiva, o sujeito é paciente da ação; na reflexiva, o referente do sujeito participa também como alvo.",
     "trap": "Tratar se de toda construção como indeterminador do sujeito.",
     "examTip": "Transforme em “os editais foram publicados” e observe a concordância.",
-    "newExample": "“Divulgaram-se os resultados” equivale a “Os resultados foram divulgados”.",
-    "challenge": "Por que “Publicou-se os editais” contraria a norma-padrão nessa leitura passiva?",
+    "newExample": "“Divulgaram-se as notas” põe notas como sujeito paciente; “precisa-se de apoio” não tem sujeito paciente.",
+    "challenge": "Transforme “Foram entregues os certificados” em passiva sintética sem perder a concordância.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -292,8 +292,8 @@ export const POR_12_QUESTIONS = [
     "concept": "Na voz ativa, o sujeito pode praticar ação; na passiva, o sujeito é paciente da ação; na reflexiva, o referente do sujeito participa também como alvo.",
     "trap": "Considerar qualquer se pós-verbal apassivador.",
     "examTip": "Verifique a preposição regida pelo verbo e teste a paráfrase passiva.",
-    "newExample": "“Confia-se em técnicos experientes” tem sujeito indeterminado.",
-    "challenge": "Por que “assistentes são precisados” não serve como paráfrase natural do exemplo?",
+    "newExample": "“Alugam-se salas” pode ser passiva sintética; “necessita-se de apoio” tem se indeterminador porque o verbo exige de.",
+    "challenge": "Em “tratou-se de vários assuntos”, explique por que o verbo fica no singular.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -323,8 +323,8 @@ export const POR_12_QUESTIONS = [
     "concept": "Na voz ativa, o sujeito pode praticar ação; na passiva, o sujeito é paciente da ação; na reflexiva, o referente do sujeito participa também como alvo.",
     "trap": "Decidir apenas pela presença de se sem examinar quem pratica ou recebe a ação.",
     "examTip": "Procure ser + particípio, concordância da passiva sintética e coincidência entre agente e paciente.",
-    "newExample": "“O aviso foi lido” é passiva analítica; “Leram-se avisos” é sintética.",
-    "challenge": "Em que transformação a comissão se torna complemento agente da passiva?",
+    "newExample": "“Os dados foram revisados” é passiva analítica e “revisaram-se os dados” passiva sintética.",
+    "challenge": "Transforme “A comissão corrigiu as notas” para as duas formas passivas, mantendo o paciente.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -350,12 +350,12 @@ export const POR_12_QUESTIONS = [
       "Adequada como passiva analítica: ata é sujeito paciente, membros agentes.",
       "É a EXCEÇÃO: arrepender-se é verbo pronominal; a frase não apresenta sujeito paciente da passiva."
     ],
-    "explanation": "Arrepender-se é pronominal e não corresponde a “ser arrependida” como transformação passiva da oração.",
+    "explanation": "“Arrepender-se” é verbo pronominal e não forma voz passiva. Na passiva, há sujeito paciente e, em casos típicos, estrutura correspondente com ser e particípio.",
     "concept": "Na voz ativa, o sujeito pode praticar ação; na passiva, o sujeito é paciente da ação; na reflexiva, o referente do sujeito participa também como alvo.",
     "trap": "Supor que toda ocorrência de se cria uma voz passiva.",
     "examTip": "Avalie se há paciente distinto de agente e se a paráfrase passiva mantém o sentido.",
-    "newExample": "“Ela se queixou da demora” também contém verbo pronominal sem voz passiva.",
-    "challenge": "Que teste mostra a impossibilidade de tratar “se arrependeu” como passiva sintética?",
+    "newExample": "“A assistente se queixou do prazo” contém verbo pronominal, não passiva; “foram aprovadas as atas” é passiva analítica.",
+    "challenge": "Por que “se arrependeu” não corresponde a “foi arrependida por alguém”?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -381,8 +381,8 @@ export const POR_12_QUESTIONS = [
     "concept": "Locução verbal reúne auxiliar e verbo principal em forma nominal; infinitivo, gerúndio e particípio também aparecem em outras construções.",
     "trap": "Confundir toda locução com tempo composto ativo de ter/haver.",
     "examTip": "Localize auxiliar e particípio, depois compare com oração ativa.",
-    "newExample": "“As respostas foram registradas” tem mesma construção passiva.",
-    "challenge": "Como transformar “Os documentos foram conferidos pela equipe” em oração ativa?",
+    "newExample": "“As propostas foram aceitas” reúne auxiliar ser e particípio aceitas em voz passiva.",
+    "challenge": "Substitua “foram conferidos os dados” por “a equipe conferiu os dados” e identifique o agente.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -412,8 +412,8 @@ export const POR_12_QUESTIONS = [
     "concept": "Locução verbal reúne auxiliar e verbo principal em forma nominal; infinitivo, gerúndio e particípio também aparecem em outras construções.",
     "trap": "Tomar qualquer particípio como marca obrigatória de voz passiva.",
     "examTip": "Verifique quem é sujeito: em “A equipe havia analisado”, ela pratica a ação.",
-    "newExample": "“Os técnicos tinham revisado o texto” emprega tempo composto ativo.",
-    "challenge": "Como reescrever a resposta em voz passiva mantendo a anterioridade temporal?",
+    "newExample": "“A analista tinha lido as mensagens” é tempo composto ativo; “as mensagens tinham sido lidas” é passiva.",
+    "challenge": "Diferencie “tem escrito pareceres” de “tem sido elogiado” quanto à voz verbal.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -439,12 +439,12 @@ export const POR_12_QUESTIONS = [
       "Incorreta: I é verdadeira e III falsa.",
       "Incorreta: III é falsa, pois a forma normativa é “deve haver vagas”."
     ],
-    "explanation": "Gerúndio e particípio participam de locuções diferentes; haver impessoal mantém auxiliar no singular.",
+    "explanation": "A perífrase “estão analisando” traz gerúndio com valor aspectual; “foram analisados” é passiva com particípio; haver existencial mantém o auxiliar no singular em “deve haver vagas”.",
     "concept": "Locução verbal reúne auxiliar e verbo principal em forma nominal; infinitivo, gerúndio e particípio também aparecem em outras construções.",
     "trap": "Flexionar o auxiliar de haver pela presença de nome plural que não é sujeito.",
     "examTip": "Diferencie ter/ser/estar e verifique se o verbo principal é impessoal.",
-    "newExample": "“Pode haver inscrições adicionais” mantém pode no singular.",
-    "challenge": "Por que “Podem existir vagas” usa plural, diferentemente de “Pode haver vagas”?",
+    "newExample": "“Podem existir vagas” pluraliza existir; “pode haver vagas” mantém haver impessoal singular e também o auxiliar.",
+    "challenge": "Identifique por que “vai haver pedidos” não varia como “vão existir pedidos”.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -474,8 +474,8 @@ export const POR_12_QUESTIONS = [
     "concept": "Locução verbal reúne auxiliar e verbo principal em forma nominal; infinitivo, gerúndio e particípio também aparecem em outras construções.",
     "trap": "Transferir automaticamente o plural de existir para haver.",
     "examTip": "Substitua haver por existir apenas para entender o sentido, não para copiar a concordância.",
-    "newExample": "“Vai haver mudanças” contrasta com “Vão existir mudanças”.",
-    "challenge": "Como corrigir a última alternativa mantendo o verbo haver?",
+    "newExample": "“Vai haver mudanças” é adequado; “vão existir mudanças” também, com existir concordando com o sujeito plural.",
+    "challenge": "Reescreva “Devem haver reuniões” segundo a norma-padrão, sem alterar o significado.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -501,8 +501,8 @@ export const POR_12_QUESTIONS = [
     "concept": "Correlação verbal é articulação coerente de formas verbais segundo relações de anterioridade, hipótese, condição e consequência.",
     "trap": "Classificar funcionar como infinitivo apenas por ter grafia idêntica.",
     "examTip": "Observe a conjunção condicional e a consequência expressa pela oração principal.",
-    "newExample": "“Se chegarem as respostas, prepararemos o parecer” segue a correlação.",
-    "challenge": "Que sentido seria criado pela troca para “Se funcionasse, enviaríamos”?",
+    "newExample": "“Quando a ata chegar, nós a leremos” associa futuro do subjuntivo a futuro do indicativo.",
+    "challenge": "Em “Se os dados chegarem, analisaremos”, classifique as duas formas verbais.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -532,8 +532,8 @@ export const POR_12_QUESTIONS = [
     "concept": "Correlação verbal é articulação coerente de formas verbais segundo relações de anterioridade, hipótese, condição e consequência.",
     "trap": "Confundir futuro viável com hipótese distante.",
     "examTip": "Procure desinências -sse e -ria no período hipotético típico.",
-    "newExample": "“Se houvesse tempo, revisaríamos as atas” tem a mesma correlação.",
-    "challenge": "Como converter a terceira alternativa em condição futura mais provável?",
+    "newExample": "“Se eu soubesse, explicaria” apresenta hipótese remota; “se eu souber, explicarei” usa condição futura possível.",
+    "challenge": "Transforme “Se ele comparecer, assinaremos” em hipótese contrafactual ou distanciada.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -563,8 +563,8 @@ export const POR_12_QUESTIONS = [
     "concept": "Correlação verbal é articulação coerente de formas verbais segundo relações de anterioridade, hipótese, condição e consequência.",
     "trap": "Achar que a passagem para discurso indireto obriga manter “amanhã” e “entregarei” literalmente.",
     "examTip": "Marque o ponto temporal de quem narra para conferir a transposição.",
-    "newExample": "“A diretora afirmou: ‘Sairei hoje’” pode virar “afirmou que sairia naquele dia”.",
-    "challenge": "Que outra expressão temporal mudaria ao converter “Ontem recebi a resposta” para relato posterior?",
+    "newExample": "“Ela afirmou que retornaria no dia seguinte” pode converter fala anterior “Retornarei amanhã”, dependendo do momento narrativo.",
+    "challenge": "Indique qual marco temporal permite substituir “amanhã” por “no dia seguinte” no discurso indireto.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -590,12 +590,12 @@ export const POR_12_QUESTIONS = [
       "Incorreta: “chegaram/analisou” relata fatos passados e “tenham chegado” não constrói a hipótese contrafactual pedida.",
       "Incorreta: “chegarem/analisaria” misturam relações na primeira condição; “têm chegado” não marca hipótese passada."
     ],
-    "explanation": "O período contrasta condição futura viável com hipótese passada não realizada: chegarem/analisará e tivessem chegado.",
+    "explanation": "Chegarem é futuro do subjuntivo e analisará é futuro do indicativo; tivessem chegado é mais-que-perfeito composto do subjuntivo em hipótese irreal passada.",
     "concept": "Correlação verbal é articulação coerente de formas verbais segundo relações de anterioridade, hipótese, condição e consequência.",
     "trap": "Misturar condição futura e consequência hipotética sem justificativa contextual.",
     "examTip": "Separe as duas situações: evento futuro e situação passada que não ocorreu.",
-    "newExample": "“Se receberem o material, iniciarão; se o tivessem recebido ontem, já teriam iniciado” distingue as duas hipóteses.",
-    "challenge": "Por que “se os dados tiveram chegado” não substitui “se os dados tivessem chegado” nesta hipótese?",
+    "newExample": "“Se as informações chegarem, a chefia decidirá; se tivessem chegado antes, já haveria decisão.”",
+    "challenge": "Complete “Se elas fizerem..., nós...; se tivessem feito..., já...” respeitando os dois planos hipotéticos.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"

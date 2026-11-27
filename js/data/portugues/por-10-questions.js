@@ -1,4 +1,4 @@
-/** PT-ESTUDO — POR-10: 20 questões AUTORAIS com comentários por alternativa. */
+/** PT-ESTUDO — POR-10: 20 questões autorais; Revisão C03/L03 (IDs e gabaritos preservados). */
 export const POR_10_QUESTIONS = [
   {
     "id": "Q-POR-10-001-01",
@@ -21,8 +21,8 @@ export const POR_10_QUESTIONS = [
     "concept": "Substantivo nomeia seres, entidades, processos, sentimentos ou conceitos; suas classificações são critérios diferentes e podem coexistir.",
     "trap": "Confundir gênero gramatical com sexo da pessoa.",
     "examTip": "Observe o artigo possível, sem inventar “o testemunha” na norma escolar.",
-    "newExample": "“A vítima prestou depoimento” mantém artigo feminino mesmo quando vítima é um homem.",
-    "challenge": "Como explicar a escolha do artigo em “a pessoa entrevistada”, quando a pessoa é homem?",
+    "newExample": "“A vítima foi ouvida” conserva o gênero feminino do substantivo mesmo que a pessoa identificada seja um homem.",
+    "challenge": "Explique por que não se altera o artigo de “a criatura” de acordo com a pessoa a que se refere.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -34,7 +34,7 @@ export const POR_10_QUESTIONS = [
     "topic": "Substantivo: classificação e flexões",
     "type": "classica",
     "difficulty": "media",
-    "stem": "Em “A equipe examinou a correspondência”, qual termo é substantivo coletivo?",
+    "stem": "Em “A equipe examinou a correspondência”, qual termo é um substantivo coletivo que designa um grupo de pessoas?",
     "options": [
       "equipe",
       "examinou",
@@ -46,14 +46,14 @@ export const POR_10_QUESTIONS = [
       "Correta: equipe designa conjunto de pessoas, como unidade lexical.",
       "Incorreta: examinou é forma verbal no pretérito perfeito.",
       "Incorreta: a é artigo definido que determina correspondência.",
-      "Incorreta: correspondência designa, no contexto, o conjunto de mensagens, mas não é o coletivo escolar solicitado para pessoas."
+      "Incorreta: “correspondência” nomeia aqui documentos ou mensagens examinados; não designa um grupo de pessoas como o coletivo “equipe”."
     ],
-    "explanation": "Equipe é substantivo coletivo que nomeia um grupo de integrantes de maneira unitária.",
+    "explanation": "Equipe nomeia um conjunto de pessoas como unidade. O recorte “coletivo de pessoas” evita confundir esse valor com usos de correspondência para conjunto de mensagens.",
     "concept": "Substantivo nomeia seres, entidades, processos, sentimentos ou conceitos; suas classificações são critérios diferentes e podem coexistir.",
     "trap": "Tomar qualquer palavra que nomeie vários objetos por coletivo escolar sem avaliar o sentido lexical.",
     "examTip": "O coletivo já contém ideia de conjunto na palavra, mesmo que apareça no singular.",
-    "newExample": "“A multidão aguardava o resultado” contém o coletivo multidão.",
-    "challenge": "Por que “equipe” pode aparecer no singular mesmo ao designar várias pessoas?",
+    "newExample": "“O conselho deliberou”: conselho pode designar um conjunto institucional de pessoas considerado como unidade.",
+    "challenge": "Por que “assembleia” pode estar no singular e ainda remeter a vários participantes?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -85,8 +85,8 @@ export const POR_10_QUESTIONS = [
     "concept": "Substantivo nomeia seres, entidades, processos, sentimentos ou conceitos; suas classificações são critérios diferentes e podem coexistir.",
     "trap": "Afirmar que o hífen transforma uma formação composta em substantivo simples.",
     "examTip": "Julgue cada assertiva isoladamente; “palavra gráfica” não substitui análise de formação.",
-    "newExample": "“Recife” é próprio; “bondade” é abstrato; “passatempo” é composto, mesmo sem hífen.",
-    "challenge": "Se substituirmos “guarda-chuva” por “passatempo”, a afirmação III ficaria correta?",
+    "newExample": "“Salvador” é próprio quando nomeia a cidade; “esperança” pode ser abstrato; “guarda-roupa” é composto.",
+    "challenge": "Uma palavra como “girassol” deixa de ser composta por ser escrita sem hífen?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -116,8 +116,8 @@ export const POR_10_QUESTIONS = [
     "concept": "Substantivo nomeia seres, entidades, processos, sentimentos ou conceitos; suas classificações são critérios diferentes e podem coexistir.",
     "trap": "Confundir conjunto nomeado por coletivo com estrutura morfológica de composto.",
     "examTip": "Resolva primeiro os casos inequívocos: porta-retrato reúne duas bases; esperança designa estado.",
-    "newExample": "“Cardume” é coletivo; “alegria” abstrato; “Brasil” próprio; “girassol” composto.",
-    "challenge": "A classificação de “arquipélago” seria alterada por aparecer no plural “arquipélagos”?",
+    "newExample": "“Frota” é coletivo de veículos; “confiança” é abstrato; “Paraná” é próprio e “beija-flor” é composto.",
+    "challenge": "Associe “cardume”, “saudade”, “Maranhão” e “paraquedas” às quatro classificações.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -143,8 +143,8 @@ export const POR_10_QUESTIONS = [
     "concept": "Artigos definidos identificam referente presumido como acessível ou determinado; indefinidos introduzem ou apresentam referente não individualizado no contexto.",
     "trap": "Tomar o artigo como marca puramente ornamental, sem função textual.",
     "examTip": "Rastreie a primeira menção e a retomada ao avaliar determinação.",
-    "newExample": "“Um parecer foi enviado. O parecer continha anexos” apresenta a mesma progressão.",
-    "challenge": "O efeito seria o mesmo se a segunda frase introduzisse “outra estudante”?",
+    "newExample": "“Um candidato entrou. O candidato sentou-se”: a segunda ocorrência trata do mesmo referente introduzido na primeira frase.",
+    "challenge": "Que informação discursiva muda ao substituir “um servidor” por “o servidor” em uma segunda menção?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -174,8 +174,8 @@ export const POR_10_QUESTIONS = [
     "concept": "Artigos definidos identificam referente presumido como acessível ou determinado; indefinidos introduzem ou apresentam referente não individualizado no contexto.",
     "trap": "Confundir qualquer artigo com a mesma determinação referencial.",
     "examTip": "Compare o estatuto informacional do nome: foi introduzido, apontado ou já identificado?",
-    "newExample": "“Procure uma fotografia do evento” solicita uma dentre várias possíveis.",
-    "challenge": "Que diferença há entre “uma fotografia” e “a fotografia da ata”?",
+    "newExample": "“Preciso de um comprovante válido” pode solicitar qualquer documento que satisfaça o critério, sem individualizá-lo previamente.",
+    "challenge": "Na frase “traga o comprovante de ontem”, por que o artigo definido ajuda a identificar um referente?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -205,8 +205,8 @@ export const POR_10_QUESTIONS = [
     "concept": "Artigos definidos identificam referente presumido como acessível ou determinado; indefinidos introduzem ou apresentam referente não individualizado no contexto.",
     "trap": "Ler “um” como inexistente e “os” como universal em qualquer contexto.",
     "examTip": "Separe referência discursiva de afirmações sobre existência e quantidade.",
-    "newExample": "“Um candidato entrou” não diz que o candidato é imaginário.",
-    "challenge": "Uma frase com “os estudantes” pode tratar apenas da turma mencionada antes?",
+    "newExample": "“Uma pasta foi encontrada” não nega a existência da pasta; “as pastas” pode retomar apenas um conjunto já mencionado.",
+    "challenge": "Quando “os livros” significa um conjunto conhecido, e não todos os livros existentes?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -236,8 +236,8 @@ export const POR_10_QUESTIONS = [
     "concept": "Artigos definidos identificam referente presumido como acessível ou determinado; indefinidos introduzem ou apresentam referente não individualizado no contexto.",
     "trap": "Transformar referência local em conclusão universal sobre a instituição.",
     "examTip": "A alternativa EXCETO deve contradizer algo que o texto realmente autoriza.",
-    "newExample": "“O atendente retomou a explicação” não prova que o órgão emprega somente um atendente.",
-    "challenge": "Que evidência adicional seria necessária para afirmar que só existe um fiscal?",
+    "newExample": "“Um visitante entrou. O visitante perguntou pelos formulários”: o artigo definido da segunda frase não afirma que não havia outros visitantes.",
+    "challenge": "Qual inferência é indevida ao ler “A servidora assinou”: que existe uma única servidora no órgão?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -263,8 +263,8 @@ export const POR_10_QUESTIONS = [
     "concept": "Adjetivos qualificam ou classificam nomes; locuções adjetivas, geralmente com preposição, exercem função qualificadora, mas nem toda expressão preposicionada é equivalível a um adjetivo.",
     "trap": "Confundir a modificação nominal com circunstância da ação verbal.",
     "examTip": "Pergunte a qual substantivo a avaliação se aplica.",
-    "newExample": "“As medidas eficazes foram aprovadas” relaciona eficazes a medidas.",
-    "challenge": "Se fosse “apresentou os resultados excelentemente”, qual classe teria o termo modificador?",
+    "newExample": "“Resultados excelentes” atribui avaliação aos resultados; em “resultou excelentemente”, a modificação recairia sobre o processo verbal.",
+    "challenge": "Identifique a classe de “excelentes” e compare com “excelentemente” no contexto do enunciado.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -276,26 +276,26 @@ export const POR_10_QUESTIONS = [
     "topic": "Adjetivos, locuções e valor discursivo",
     "type": "classica",
     "difficulty": "media",
-    "stem": "Qual par apresenta uma mudança de posição do adjetivo que pode alterar o significado?",
+    "stem": "Considerando os sentidos habituais, em qual par a posição de “grande” distingue avaliação do mérito pessoal e dimensão física?",
     "options": [
       "“Um grande colega” / “um colega grande”.",
-      "“Um documento digital” / “um digital documento”.",
-      "“Uma redação clara” / “uma redação clara”.",
-      "“Uma equipe eficiente” / “uma equipe eficiente”."
+      "“Uma grande mesa” / “uma mesa grande”.",
+      "“Uma grande janela” / “uma janela grande”.",
+      "“Um grande armário” / “um armário grande”."
     ],
     "answer": 0,
     "optionComments": [
-      "Correta: grande anteposto pode elogiar mérito; posposto tende a dimensionar fisicamente.",
-      "Incorreta: o segundo enunciado é antinatural na ordem usual, sem contraste semântico regular comparável.",
-      "Incorreta: a mesma frase foi apenas repetida.",
-      "Incorreta: não há deslocamento do adjetivo no par."
+      "Correta: “grande colega” pode avaliar o mérito pessoal; “colega grande” tende a mencionar a dimensão física da pessoa.",
+      "Incorreta: nas duas posições, “grande” normalmente se refere às dimensões físicas da mesa; não opõe mérito pessoal a tamanho.",
+      "Incorreta: “janela” é objeto cuja dimensão física continua sendo o sentido habitual de “grande” antes ou depois do nome.",
+      "Incorreta: “armário” também apresenta dimensões físicas; a anteposição não cria o contraste pedido entre mérito pessoal e porte físico."
     ],
-    "explanation": "A posição de alguns adjetivos, como grande, altera leitura subjetiva ou objetiva.",
+    "explanation": "Na expressão “um grande colega”, grande pode avaliar a qualidade da pessoa; em “um colega grande”, tende a indicar porte físico. Nos outros pares, o sentido habitual relaciona-se a tamanho de objetos.",
     "concept": "Adjetivos qualificam ou classificam nomes; locuções adjetivas, geralmente com preposição, exercem função qualificadora, mas nem toda expressão preposicionada é equivalível a um adjetivo.",
     "trap": "Considerar qualquer deslocamento de adjetivo equivalente no sentido.",
     "examTip": "Compare se o termo avalia importância ou descreve característica mensurável.",
-    "newExample": "“Meu velho amigo” pode salientar amizade antiga; “meu amigo velho”, idade.",
-    "challenge": "A expressão “um grande pesquisador” afirma necessariamente altura física?",
+    "newExample": "“Um antigo colega” pode sugerir colega de longa data; “um colega antigo” pode destacar a antiguidade da relação ou outros atributos, conforme o contexto.",
+    "challenge": "Compare “pobre homem” e “homem pobre”: o deslocamento sempre preserva a mesma leitura?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -325,8 +325,8 @@ export const POR_10_QUESTIONS = [
     "concept": "Adjetivos qualificam ou classificam nomes; locuções adjetivas, geralmente com preposição, exercem função qualificadora, mas nem toda expressão preposicionada é equivalível a um adjetivo.",
     "trap": "Tratar “rapidamente” como adjetivo por expressar característica da ação.",
     "examTip": "Identifique o núcleo modificado em cada trecho antes de classificar.",
-    "newExample": "“Pasta de papel” especifica pasta; “preparou cuidadosamente” modifica preparou.",
-    "challenge": "“Relatório de ontem” e “relatou ontem” desempenham a mesma função sintática?",
+    "newExample": "“Ata de reunião” especifica o substantivo ata; “redigiu ontem” acrescenta circunstância temporal ao verbo.",
+    "challenge": "Explique por que “com atenção” em “leu com atenção” não qualifica um substantivo como “atencioso”.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -338,7 +338,7 @@ export const POR_10_QUESTIONS = [
     "topic": "Adjetivos, locuções e valor discursivo",
     "type": "exceto",
     "difficulty": "dificil",
-    "stem": "Nas frases abaixo, “rápido” ou expressão equivalente modifica um substantivo em todas, EXCETO:",
+    "stem": "Em qual alternativa o termo caracterizador modifica a ação verbal, em vez de qualificar ou especificar um substantivo?",
     "options": [
       "A resposta rápida satisfez a turma.",
       "O atendimento de urgência foi concluído.",
@@ -352,12 +352,12 @@ export const POR_10_QUESTIONS = [
       "Modifica substantivo: digitais caracteriza documentos.",
       "É a EXCEÇÃO: rapidamente é advérbio e modifica o verbo respondeu."
     ],
-    "explanation": "Rapidamente é advérbio de modo; os demais modificadores caracterizam grupos nominais.",
+    "explanation": "“Rapidamente” é advérbio de modo ligado a “respondeu”; em “resposta rápida”, “atendimento de urgência” e “documentos digitais”, os termos caracterizam substantivos.",
     "concept": "Adjetivos qualificam ou classificam nomes; locuções adjetivas, geralmente com preposição, exercem função qualificadora, mas nem toda expressão preposicionada é equivalível a um adjetivo.",
     "trap": "Classificar um termo apenas pela proximidade sem observar qual núcleo recebe sua função.",
     "examTip": "Substitua mentalmente por “de modo rápido” para testar valor adverbial.",
-    "newExample": "“Os técnicos analisaram minuciosamente” contém advérbio; “a análise minuciosa” contém adjetivo.",
-    "challenge": "Em “uma avaliação criteriosa”, qual nome recebe a qualificação?",
+    "newExample": "“A revisão cuidadosa terminou” contém adjetivo relacionado ao substantivo; “revisou cuidadosamente” contém advérbio do verbo.",
+    "challenge": "Localize o termo que modifica o verbo em “O técnico respondeu prontamente”.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -383,8 +383,8 @@ export const POR_10_QUESTIONS = [
     "concept": "Flexões nominais expressam concordância de gênero e número; grau pode aparecer por sufixos ou construções analíticas, com leituras de tamanho ou avaliação.",
     "trap": "Confundir intensificação absoluta com comparação relativa ao grupo.",
     "examTip": "Procure expressão que delimite conjunto: “da turma”, “do setor”.",
-    "newExample": "“Foi o parecer mais detalhado da comissão” usa superlativo relativo.",
-    "challenge": "“Muito experiente” obrigaria a mesma comparação dentro da equipe?",
+    "newExample": "“Luísa é a mais pontual entre os atendentes”: a comparação seleciona Luísa dentro de grupo delimitado.",
+    "challenge": "Diferencie “a mais cuidadosa da equipe” de “extremamente cuidadosa” quanto ao grupo de comparação.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -408,14 +408,14 @@ export const POR_10_QUESTIONS = [
       "Incorreta: “a mais ... da série” é superlativo relativo.",
       "Incorreta: “mais ... que” estabelece comparação de superioridade.",
       "Correta: “muito” intensifica a qualidade sem comparação explícita.",
-      "Incorreta: longuíssima é forma sintética; “da série” ainda sugere comparação contextual."
+      "Incorreta: longuíssima é superlativo absoluto sintético, formado com sufixo intensificador; não é a forma analítica solicitada."
     ],
     "explanation": "“Muito + adjetivo” é expressão analítica de grau absoluto, ao contrário da comparação e do sufixo -íssimo.",
     "concept": "Flexões nominais expressam concordância de gênero e número; grau pode aparecer por sufixos ou construções analíticas, com leituras de tamanho ou avaliação.",
     "trap": "Confundir qualquer intensidade elevada com superlativo absoluto analítico.",
     "examTip": "Identifique o recurso formal: advérbio intensificador, comparação ou sufixo.",
-    "newExample": "“O texto é extremamente claro” apresenta intensidade absoluta analítica.",
-    "challenge": "Por que “claríssimo” não é superlativo absoluto analítico?",
+    "newExample": "“Bastante claro” intensifica sem comparação, mas “claríssimo” realiza intensificação por sufixo.",
+    "challenge": "Classifique separadamente “muito eficiente”, “eficientíssimo” e “o mais eficiente do setor”.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -445,8 +445,8 @@ export const POR_10_QUESTIONS = [
     "concept": "Flexões nominais expressam concordância de gênero e número; grau pode aparecer por sufixos ou construções analíticas, com leituras de tamanho ou avaliação.",
     "trap": "Restringir todo diminutivo a uma escala de tamanho.",
     "examTip": "Procure o conjunto comparado e considere o contexto para valor expressivo.",
-    "newExample": "“Que textinho precioso!” pode indicar admiração, não necessariamente pequena extensão.",
-    "challenge": "Em que situação “probleminha” poderia sugerir ironia?",
+    "newExample": "“Livrinho” pode soar afetuoso em “meu livrinho preferido” ou depreciativo numa fala irônica.",
+    "challenge": "Dê uma interpretação não literal de “probleminha” que dependa do tom e do contexto.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -476,8 +476,8 @@ export const POR_10_QUESTIONS = [
     "concept": "Flexões nominais expressam concordância de gênero e número; grau pode aparecer por sufixos ou construções analíticas, com leituras de tamanho ou avaliação.",
     "trap": "Confundir grau de intensidade com grau de comparação.",
     "examTip": "Classifique pelo operador linguístico, não pela percepção subjetiva de intensidade.",
-    "newExample": "“mais rápido que”, “extremamente rápido”, “rapidíssimo”, “o mais rápido da equipe” seguem a mesma ordem de classes.",
-    "challenge": "A presença de “do conjunto” modifica a classificação da última expressão?",
+    "newExample": "“A mais rápida do setor” seleciona em grupo; “rapidíssima” intensifica por sufixo; “muito rápida” usa advérbio.",
+    "challenge": "Em “menos cansado que ontem”, que indício identifica comparação e não superlativo?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -503,8 +503,8 @@ export const POR_10_QUESTIONS = [
     "concept": "No sintagma nominal, determinantes e adjetivos ajustam, quando flexionáveis, gênero e número ao substantivo de referência.",
     "trap": "Ignorar o núcleo ao identificar marcas de concordância.",
     "examTip": "Localize primeiro o substantivo e depois seus modificadores.",
-    "newExample": "“As normas revisadas foram divulgadas” repete o padrão feminino plural.",
-    "challenge": "Em “os termos atualizados”, como muda a forma do adjetivo?",
+    "newExample": "“Os relatórios enviados” exige plural em enviados; “as atas enviadas” exige feminino plural.",
+    "challenge": "Por que “analisadas” não concordaria com “os relatórios” na norma-padrão?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -520,22 +520,22 @@ export const POR_10_QUESTIONS = [
     "options": [
       "Os relatórios estavam bastantes claros.",
       "As instruções eram bastante objetivas.",
-      "Havia bastantes grande quantidade de anexos.",
+      "Havia bastantes solicitações aguardando resposta.",
       "As estudantes eram bastantes atentas."
     ],
     "answer": 1,
     "optionComments": [
       "Incorreta: antes de claros o advérbio intensificador deveria ser “bastante”.",
       "Correta: bastante intensifica objetivas e não varia.",
-      "Incorreta: a construção mistura quantificador plural com expressão singular e não é o uso adverbial pedido.",
+      "Incorreta para o pedido: em bastantes solicitações, bastante é quantificador variável associado ao substantivo; o uso pode ser gramatical, mas não é advérbio de intensidade.",
       "Incorreta: antes de atentas o advérbio deve ser “bastante”, invariável."
     ],
-    "explanation": "Antes de adjetivo, “bastante” tem função adverbial e permanece invariável.",
+    "explanation": "Bastante intensifica o adjetivo objetivas sem concordar com ele; a forma bastantes, antes de substantivo plural, é quantificador flexionado, não o uso adverbial exigido.",
     "concept": "No sintagma nominal, determinantes e adjetivos ajustam, quando flexionáveis, gênero e número ao substantivo de referência.",
     "trap": "Flexionar o intensificador por concordância automática com o nome plural.",
     "examTip": "Teste a substituição por “muito”: “muito objetivas” → “bastante objetivas”.",
-    "newExample": "“Os processos estavam bastante avançados” tem “bastante” invariável.",
-    "challenge": "Por que “bastantes documentos” pode ser correto mesmo que “documentos bastantes difíceis” não seja?",
+    "newExample": "“Estavam bastante atentos” contém advérbio invariável; já “bastantes recursos” emprega bastante como quantificador flexionável.",
+    "challenge": "Em “havia bastantes pedidos” e “eram bastante claros”, que elemento cada bastante modifica?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -561,12 +561,12 @@ export const POR_10_QUESTIONS = [
       "Incorreta: III é falsa: útil é adjetivo uniforme quanto ao gênero.",
       "Incorreta: inclui III, que atribui a úteis uma forma masculina inexistente nessa oposição."
     ],
-    "explanation": "Muitos/muitas flexionam ao determinar nome; muito adverbial não varia; útil é uniforme em gênero.",
+    "explanation": "Muitas acompanha o substantivo solicitações; muito intensifica urgentes e fica invariável; úteis flexiona número, mas mantém a mesma forma para os dois gêneros.",
     "concept": "No sintagma nominal, determinantes e adjetivos ajustam, quando flexionáveis, gênero e número ao substantivo de referência.",
     "trap": "Supor que todo adjetivo deixa marca morfológica distinta de masculino e feminino.",
     "examTip": "Distinga função determinante de advérbio e flexão visível de gênero.",
-    "newExample": "“Poucas pessoas muito preparadas” contrasta quantificador flexionado e intensificador invariável.",
-    "challenge": "“Relatórios úteis” e “tabelas úteis” diferem na forma do adjetivo por gênero?",
+    "newExample": "“Documentos úteis” mantém o mesmo adjetivo para masculino e feminino, mas flexiona plural; “muitas demandas” varia gênero e número.",
+    "challenge": "Compare a flexão de gênero de “útil” em “parecer útil” e “ata útil”.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -596,8 +596,8 @@ export const POR_10_QUESTIONS = [
     "concept": "No sintagma nominal, determinantes e adjetivos ajustam, quando flexionáveis, gênero e número ao substantivo de referência.",
     "trap": "Deixar que um adjetivo feminino aparente concordar com outro termo que não é o núcleo.",
     "examTip": "Encontre o núcleo: “pareceres” impõe “os” e “atualizados”.",
-    "newExample": "“Os registros digitalizados foram anexados” mantém concordância masculina plural.",
-    "challenge": "Como reescrever integralmente a última alternativa para corrigir os três modificadores?",
+    "newExample": "“Os pareceres atualizados foram enviados” faz os determinantes e os qualificadores concordarem com o núcleo masculino plural.",
+    "challenge": "Corrija “As pareceres atualizadas” justificando as alterações de artigo e de adjetivo.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"

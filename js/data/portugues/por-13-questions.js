@@ -1,4 +1,4 @@
-/** PT-ESTUDO POR-13: 20 questões autorais com comentários individuais */
+/** PT-ESTUDO — POR-13: 20 questões autorais; Revisão C03/L03 (IDs e gabaritos preservados). */
 export const POR_13_QUESTIONS = [
   {
     "type": "ce",
@@ -21,8 +21,8 @@ export const POR_13_QUESTIONS = [
     "concept": "Advérbio é palavra geralmente invariável que modifica verbo, adjetivo, outro advérbio ou, em certos usos, toda a oração; locução adverbial é expressão com função semelhante.",
     "trap": "Pergunte qual elemento sofre a modificação. Não trate “muito” como adjetivo quando ele intensifica um adjetivo ou advérbio.",
     "examTip": "Pergunte qual elemento sofre a modificação. Não trate “muito” como adjetivo quando ele intensifica um adjetivo ou advérbio.",
-    "newExample": "“O técnico respondeu muito rapidamente”: rapidamente indica modo da resposta; muito intensifica rapidamente.",
-    "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+    "newExample": "“Em comunicado muito breve”, muito intensifica o adjetivo breve; já em “muitos comunicados”, acompanha substantivo e varia.",
+    "challenge": "Qual a diferença de classe e de flexão entre “muito útil” e “muitas informações”?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -52,8 +52,8 @@ export const POR_13_QUESTIONS = [
     "concept": "Advérbio é palavra geralmente invariável que modifica verbo, adjetivo, outro advérbio ou, em certos usos, toda a oração; locução adverbial é expressão com função semelhante.",
     "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
     "examTip": "Pergunte qual elemento sofre a modificação. Não trate “muito” como adjetivo quando ele intensifica um adjetivo ou advérbio.",
-    "newExample": "“O técnico respondeu muito rapidamente”: rapidamente indica modo da resposta; muito intensifica rapidamente.",
-    "challenge": "Qual elemento é intensificado em “O atendimento ocorreu muito cedo”?",
+    "newExample": "“O requerimento chegou tarde” indica momento da chegada; “o requerimento tardio” caracteriza o nome.",
+    "challenge": "Em “respondeu logo”, que palavra é modificada por “logo”?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -83,8 +83,8 @@ export const POR_13_QUESTIONS = [
     "concept": "Advérbio é palavra geralmente invariável que modifica verbo, adjetivo, outro advérbio ou, em certos usos, toda a oração; locução adverbial é expressão com função semelhante.",
     "trap": "Pergunte qual elemento sofre a modificação. Não trate “muito” como adjetivo quando ele intensifica um adjetivo ou advérbio.",
     "examTip": "Pergunte qual elemento sofre a modificação. Não trate “muito” como adjetivo quando ele intensifica um adjetivo ou advérbio.",
-    "newExample": "“O técnico respondeu muito rapidamente”: rapidamente indica modo da resposta; muito intensifica rapidamente.",
-    "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+    "newExample": "“Estava bastante satisfeito” tem bastante intensificador; “bastantes pedidos” traz quantificador flexionado.",
+    "challenge": "Em “trabalhou muito bem”, classifique a função de muito e de bem.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -92,7 +92,7 @@ export const POR_13_QUESTIONS = [
   {
     "type": "associacao",
     "difficulty": "dificil",
-    "stem": "Associe: 1. “Trabalhou com cuidado”. 2. “Respondeu rapidamente”. 3. “Ficou extremamente satisfeito”. Funções das expressões destacadas: A. locução adverbial de modo; B. advérbio de modo; C. advérbio de intensidade. Qual sequência 1–2–3 é correta?",
+    "stem": "Associe as expressões entre aspas às funções indicadas: 1. “com cuidado”, em “Trabalhou com cuidado”; 2. “rapidamente”, em “Respondeu rapidamente”; 3. “extremamente”, em “Ficou extremamente satisfeito”. Funções: A. locução adverbial de modo; B. advérbio de modo; C. advérbio de intensidade. Qual sequência 1–2–3 é correta?",
     "options": [
       "B – A – C.",
       "C – B – A.",
@@ -100,7 +100,7 @@ export const POR_13_QUESTIONS = [
       "A – C – B."
     ],
     "answer": 2,
-    "explanation": "Com cuidado é locução; rapidamente, advérbio; extremamente intensifica satisfeito.",
+    "explanation": "As expressões estão explicitadas entre aspas: “com cuidado” forma locução adverbial; “rapidamente” é advérbio de modo; “extremamente” intensifica adjetivo. A sequência é A–B–C.",
     "optionComments": [
       "Incorreta: inverte uma expressão com duas palavras e um advérbio simples.",
       "Incorreta: trata “com cuidado” como intensificador e “extremamente” como locução de modo.",
@@ -114,8 +114,8 @@ export const POR_13_QUESTIONS = [
     "concept": "Advérbio é palavra geralmente invariável que modifica verbo, adjetivo, outro advérbio ou, em certos usos, toda a oração; locução adverbial é expressão com função semelhante.",
     "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
     "examTip": "Pergunte qual elemento sofre a modificação. Não trate “muito” como adjetivo quando ele intensifica um adjetivo ou advérbio.",
-    "newExample": "“O técnico respondeu muito rapidamente”: rapidamente indica modo da resposta; muito intensifica rapidamente.",
-    "challenge": "Qual elemento é intensificado em “O atendimento ocorreu muito cedo”?",
+    "newExample": "“Conversou em voz baixa” é locução adverbial; “falou calmamente” é advérbio e “muito satisfeito” apresenta intensidade.",
+    "challenge": "Dê um exemplo de locução adverbial de modo e de advérbio simples de modo, indicando o elemento modificado.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -141,8 +141,8 @@ export const POR_13_QUESTIONS = [
     "concept": "Preposições conectam termos e podem expressar origem, destino, meio, causa, assunto, finalidade, posse e outras relações conforme o contexto.",
     "trap": "A banca pode trocar “para” por “de” e preservar a estrutura aparente, mas mudar destino para origem.",
     "examTip": "A banca pode trocar “para” por “de” e preservar a estrutura aparente, mas mudar destino para origem.",
-    "newExample": "“Enviou a documentação por e-mail para a comissão”: por e-mail indica meio; para a comissão indica destinatário.",
-    "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+    "newExample": "“Falou de política” marca assunto; “veio de Natal” marca origem, com a mesma preposição em função diferente.",
+    "challenge": "Por que “de” em “livro de história” não prova deslocamento geográfico?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -172,8 +172,8 @@ export const POR_13_QUESTIONS = [
     "concept": "Preposições conectam termos e podem expressar origem, destino, meio, causa, assunto, finalidade, posse e outras relações conforme o contexto.",
     "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
     "examTip": "A banca pode trocar “para” por “de” e preservar a estrutura aparente, mas mudar destino para origem.",
-    "newExample": "“Enviou a documentação por e-mail para a comissão”: por e-mail indica meio; para a comissão indica destinatário.",
-    "challenge": "Qual a diferença entre “veio de Recife” e “veio para Recife”?",
+    "newExample": "“Vieram de Caicó para Parnamirim”: de marca origem e para orienta o deslocamento ao destino.",
+    "challenge": "Inverta origem e destino em “de Mossoró para Natal” sem trocar a classe das preposições.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -203,8 +203,8 @@ export const POR_13_QUESTIONS = [
     "concept": "Preposições conectam termos e podem expressar origem, destino, meio, causa, assunto, finalidade, posse e outras relações conforme o contexto.",
     "trap": "A banca pode trocar “para” por “de” e preservar a estrutura aparente, mas mudar destino para origem.",
     "examTip": "A banca pode trocar “para” por “de” e preservar a estrutura aparente, mas mudar destino para origem.",
-    "newExample": "“Enviou a documentação por e-mail para a comissão”: por e-mail indica meio; para a comissão indica destinatário.",
-    "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+    "newExample": "“Enviou por aplicativo” pode indicar meio; “tratou de orçamento” marca assunto; “revisou para a prova” marca finalidade.",
+    "challenge": "Identifique meio, assunto e finalidade em “Viajou de trem, conversou sobre estudo e treinou para a avaliação”.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -220,7 +220,7 @@ export const POR_13_QUESTIONS = [
       "“Saiu de madrugada”: indicação obrigatória de causa."
     ],
     "answer": 3,
-    "explanation": "“De madrugada” informa quando se saiu, isto é, circunstância temporal, não causa.",
+    "explanation": "Preposições adquirem valor na construção: de pode indicar autoria, assunto, origem ou tempo. Em “de madrugada”, seu valor é temporal, não causa obrigatória.",
     "optionComments": [
       "Adequada: “de Ana” pode relacionar o relatório à pessoa que o elaborou ou possui.",
       "Adequada: “até” indica o limite espacial alcançado.",
@@ -234,8 +234,8 @@ export const POR_13_QUESTIONS = [
     "concept": "Preposições conectam termos e podem expressar origem, destino, meio, causa, assunto, finalidade, posse e outras relações conforme o contexto.",
     "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
     "examTip": "A banca pode trocar “para” por “de” e preservar a estrutura aparente, mas mudar destino para origem.",
-    "newExample": "“Enviou a documentação por e-mail para a comissão”: por e-mail indica meio; para a comissão indica destinatário.",
-    "challenge": "Qual a diferença entre “veio de Recife” e “veio para Recife”?",
+    "newExample": "“Chegou de manhã” exprime tempo, mesmo com de; “saiu de medo” poderia indicar causa noutro contexto.",
+    "challenge": "Proponha uma expressão com “de” que marque tempo e outra que marque causa sem confundi-las.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -261,8 +261,8 @@ export const POR_13_QUESTIONS = [
     "concept": "Conjunções coordenativas ligam unidades sintaticamente equivalentes; tradicionalmente classificam-se em aditivas, adversativas, alternativas, conclusivas e explicativas.",
     "trap": "Antes de marcar “pois” como explicativo ou conclusivo, observe se apresenta razão de uma ordem ou consequência de um raciocínio.",
     "examTip": "Antes de marcar “pois” como explicativo ou conclusivo, observe se apresenta razão de uma ordem ou consequência de um raciocínio.",
-    "newExample": "“Os arquivos estavam completos, mas o prazo havia terminado”: mas introduz oposição à expectativa criada pela primeira informação.",
-    "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+    "newExample": "“O arquivo estava completo, porém foi recusado” emprega adversativa semelhante a mas.",
+    "challenge": "Substitua mas por outra conjunção adversativa em uma frase sem transformar o contraste em causa.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -292,8 +292,8 @@ export const POR_13_QUESTIONS = [
     "concept": "Conjunções coordenativas ligam unidades sintaticamente equivalentes; tradicionalmente classificam-se em aditivas, adversativas, alternativas, conclusivas e explicativas.",
     "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
     "examTip": "Antes de marcar “pois” como explicativo ou conclusivo, observe se apresenta razão de uma ordem ou consequência de um raciocínio.",
-    "newExample": "“Os arquivos estavam completos, mas o prazo havia terminado”: mas introduz oposição à expectativa criada pela primeira informação.",
-    "challenge": "Em “O sistema apresentou erro; portanto, reabriremos o prazo”, que valor tem “portanto”?",
+    "newExample": "“O acesso foi suspenso; por isso, as inscrições cessaram” usa conclusão ou consequência lógica, não contraste.",
+    "challenge": "Reescreva o período com uma conjunção conclusiva diferente de portanto, preservando a relação.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -309,7 +309,7 @@ export const POR_13_QUESTIONS = [
       "I e II apenas."
     ],
     "answer": 3,
-    "explanation": "I e II mostram usos diferentes de pois; III erra ao classificar mas como mera soma.",
+    "explanation": "Pois introduz justificativa para uma orientação em I e, posposto em “estavam, pois, liberados”, tem valor conclusivo em II. Mas é adversativo em III, não aditivo.",
     "optionComments": [
       "Incorreta: III é falsa, porque mas indica oposição à expectativa.",
       "Incorreta: III é falsa e I está correta.",
@@ -323,8 +323,8 @@ export const POR_13_QUESTIONS = [
     "concept": "Conjunções coordenativas ligam unidades sintaticamente equivalentes; tradicionalmente classificam-se em aditivas, adversativas, alternativas, conclusivas e explicativas.",
     "trap": "Antes de marcar “pois” como explicativo ou conclusivo, observe se apresenta razão de uma ordem ou consequência de um raciocínio.",
     "examTip": "Antes de marcar “pois” como explicativo ou conclusivo, observe se apresenta razão de uma ordem ou consequência de um raciocínio.",
-    "newExample": "“Os arquivos estavam completos, mas o prazo havia terminado”: mas introduz oposição à expectativa criada pela primeira informação.",
-    "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+    "newExample": "“Feche o arquivo, pois a sessão vai acabar” justifica a ordem; “a sessão terminou; estavam, pois, desconectados” tira consequência.",
+    "challenge": "Explique a diferença do valor de pois quando vem antes e depois do verbo em exemplos escolares.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -354,8 +354,8 @@ export const POR_13_QUESTIONS = [
     "concept": "Conjunções coordenativas ligam unidades sintaticamente equivalentes; tradicionalmente classificam-se em aditivas, adversativas, alternativas, conclusivas e explicativas.",
     "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
     "examTip": "Antes de marcar “pois” como explicativo ou conclusivo, observe se apresenta razão de uma ordem ou consequência de um raciocínio.",
-    "newExample": "“Os arquivos estavam completos, mas o prazo havia terminado”: mas introduz oposição à expectativa criada pela primeira informação.",
-    "challenge": "Em “O sistema apresentou erro; portanto, reabriremos o prazo”, que valor tem “portanto”?",
+    "newExample": "“O registro foi salvo e conferido; portanto, seguirá para publicação” conecta adição e conclusão em diferentes pontos.",
+    "challenge": "Dê uma frase usando ou para escolha e outra usando portanto para conclusão, sem confundir funções.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -381,8 +381,8 @@ export const POR_13_QUESTIONS = [
     "concept": "Conjunções subordinativas articulam orações dependentes e podem indicar causa, condição, concessão, tempo, finalidade, consequência, conformidade ou comparação.",
     "trap": "“Embora” costuma indicar concessão, não causa; “se” indica condição, não certeza de acontecimento.",
     "examTip": "“Embora” costuma indicar concessão, não causa; “se” indica condição, não certeza de acontecimento.",
-    "newExample": "“Ainda que a demanda cresça, manteremos o atendimento”: a oração inicial admite um obstáculo, sem invalidar a decisão.",
-    "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+    "newExample": "“Ainda que chova, o atendimento ocorrerá” comunica concessão: fato contrário à expectativa não impede a ação.",
+    "challenge": "Reescreva uma oração concessiva com embora sem torná-la causal.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -412,8 +412,8 @@ export const POR_13_QUESTIONS = [
     "concept": "Conjunções subordinativas articulam orações dependentes e podem indicar causa, condição, concessão, tempo, finalidade, consequência, conformidade ou comparação.",
     "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
     "examTip": "“Embora” costuma indicar concessão, não causa; “se” indica condição, não certeza de acontecimento.",
-    "newExample": "“Ainda que a demanda cresça, manteremos o atendimento”: a oração inicial admite um obstáculo, sem invalidar a decisão.",
-    "challenge": "Que diferença há entre “porque choveu” e “embora tenha chovido”?",
+    "newExample": "“Se houver documentos pendentes, avisaremos” formula condição; não afirma que eles existam.",
+    "challenge": "Por que uma condição introduzida por se não prova que o evento ocorreu?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -421,7 +421,7 @@ export const POR_13_QUESTIONS = [
   {
     "type": "associacao",
     "difficulty": "dificil",
-    "stem": "Associe 1. “Embora chova, iremos”. 2. “Porque choveu, adiamos”. 3. “Para que todos participem, avisaremos antes”. Valores: A. causa; B. concessão; C. finalidade. Sequência 1–2–3:",
+    "stem": "Associe os períodos: 1. “Embora chova, faremos a visita”. 2. “Porque choveu, adiamos a visita”. 3. “Para que todos participem, avisaremos antes”. Valores: A. causa; B. concessão; C. finalidade. Sequência 1–2–3:",
     "options": [
       "B – A – C.",
       "A – B – C.",
@@ -429,7 +429,7 @@ export const POR_13_QUESTIONS = [
       "C – A – B."
     ],
     "answer": 0,
-    "explanation": "Embora introduz concessão, porque indica causa e para que marca finalidade.",
+    "explanation": "“Embora” introduz concessão; “porque” apresenta causa; e “para que” indica finalidade. A sequência é B–A–C.",
     "optionComments": [
       "Correta: o obstáculo não impede a ida; a chuva explica o adiamento; o aviso busca participação.",
       "Incorreta: embora não apresenta a causa da ida e porque não é concessivo aqui.",
@@ -443,8 +443,8 @@ export const POR_13_QUESTIONS = [
     "concept": "Conjunções subordinativas articulam orações dependentes e podem indicar causa, condição, concessão, tempo, finalidade, consequência, conformidade ou comparação.",
     "trap": "“Embora” costuma indicar concessão, não causa; “se” indica condição, não certeza de acontecimento.",
     "examTip": "“Embora” costuma indicar concessão, não causa; “se” indica condição, não certeza de acontecimento.",
-    "newExample": "“Ainda que a demanda cresça, manteremos o atendimento”: a oração inicial admite um obstáculo, sem invalidar a decisão.",
-    "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+    "newExample": "“Como o prazo acabou, suspenderam as inscrições” é causal; “a fim de que todos saibam, anunciaram” indica finalidade.",
+    "challenge": "Diferencie embora, porque e para que em três frases de aviso institucional.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -474,8 +474,8 @@ export const POR_13_QUESTIONS = [
     "concept": "Conjunções subordinativas articulam orações dependentes e podem indicar causa, condição, concessão, tempo, finalidade, consequência, conformidade ou comparação.",
     "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
     "examTip": "“Embora” costuma indicar concessão, não causa; “se” indica condição, não certeza de acontecimento.",
-    "newExample": "“Ainda que a demanda cresça, manteremos o atendimento”: a oração inicial admite um obstáculo, sem invalidar a decisão.",
-    "challenge": "Que diferença há entre “porque choveu” e “embora tenha chovido”?",
+    "newExample": "“Se o edital sair, informe a equipe” estabelece condição; “mesmo que saia, o prazo não muda” indica concessão.",
+    "challenge": "Corrija a análise que chama “Se chegar cedo” de causa já confirmada.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -501,8 +501,8 @@ export const POR_13_QUESTIONS = [
     "concept": "Interjeições expressam reação, apelo ou emoção; palavras como “até”, “só” e “mesmo” podem exercer funções diferentes conforme o contexto.",
     "trap": "“Até” não será preposição de limite em todas as ocorrências. Identifique o papel efetivo no enunciado.",
     "examTip": "“Até” não será preposição de limite em todas as ocorrências. Identifique o papel efetivo no enunciado.",
-    "newExample": "“Ufa! Até os arquivos mais antigos foram recuperados”: Ufa exprime alívio; até acrescenta ideia de inclusão inesperada.",
-    "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+    "newExample": "“Até o diretor assistiu à palestra” pode focalizar inclusão inesperada; “caminhou até a entrada” marca limite espacial.",
+    "challenge": "Compare o alcance semântico de até em “foi até o balcão” e “até o gerente aprovou”.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -513,17 +513,17 @@ export const POR_13_QUESTIONS = [
     "stem": "Em “Ufa! O arquivo foi recuperado”, a palavra “Ufa!” funciona como:",
     "options": [
       "Interjeição que expressa alívio.",
-      "Preposição com ideia de origem.",
-      "Conjunção que apresenta conclusão.",
-      "Advérbio que indica lugar."
+      "Onomatopeia que imita o som feito pelo arquivo ao ser aberto.",
+      "Conector adversativo que opõe a recuperação ao problema anterior.",
+      "Advérbio de modo que modifica a forma verbal “foi recuperado”."
     ],
     "answer": 0,
-    "explanation": "“Ufa!” expressa reação do enunciador após uma situação tensa.",
+    "explanation": "“Ufa!” expressa alívio depois de um resultado positivo, funcionando como interjeição, não como imitação de ruído, conector adversativo ou advérbio.",
     "optionComments": [
-      "Correta: a palavra é usada isoladamente para expressar alívio.",
-      "Incorreta: não estabelece relação entre termos nominais.",
-      "Incorreta: não liga duas orações em raciocínio conclusivo.",
-      "Incorreta: não situa o evento em um espaço."
+      "Correta: “Ufa!” é interjeição que pode exprimir alívio pela recuperação do arquivo.",
+      "Incorreta: “Ufa!” expressa reação do falante, não imita ruído produzido pelo arquivo ou pelo sistema.",
+      "Incorreta: a palavra não estabelece oposição entre duas orações; funciona como enunciado interjetivo.",
+      "Incorreta: “Ufa!” não modifica a forma verbal “foi recuperado”; expressa o estado emotivo do enunciador."
     ],
     "id": "Q-POR-13-005-02",
     "moduleId": "POR-13",
@@ -532,8 +532,8 @@ export const POR_13_QUESTIONS = [
     "concept": "Interjeições expressam reação, apelo ou emoção; palavras como “até”, “só” e “mesmo” podem exercer funções diferentes conforme o contexto.",
     "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
     "examTip": "“Até” não será preposição de limite em todas as ocorrências. Identifique o papel efetivo no enunciado.",
-    "newExample": "“Ufa! Até os arquivos mais antigos foram recuperados”: Ufa exprime alívio; até acrescenta ideia de inclusão inesperada.",
-    "challenge": "Em “Até os estagiários receberam o comunicado”, “até” indica percurso até um lugar?",
+    "newExample": "“Ah!” pode exprimir surpresa; “ufa!” marca alívio; “psiu!” busca atenção do interlocutor.",
+    "challenge": "Em uma transcrição, como diferenciar “ufa!” de um advérbio temporal sem recorrer à pontuação apenas?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -549,7 +549,7 @@ export const POR_13_QUESTIONS = [
       "Todas."
     ],
     "answer": 1,
-    "explanation": "Só é focalizador de exclusão em I e descritivo de estado em II; até é espacial em um caso e inclusivo no outro.",
+    "explanation": "Só, antes de um nome, pode focalizar exclusividade; como predicativo, pode indicar desacompanhamento. Até marca limite espacial em “até a praça”, mas inclusão em “até a diretora veio”.",
     "optionComments": [
       "Incorreta: III é falsa; em “Até a diretora veio”, não há limite espacial.",
       "Correta: os dois usos de só diferem e III ignora valor inclusivo de até.",
@@ -563,8 +563,8 @@ export const POR_13_QUESTIONS = [
     "concept": "Interjeições expressam reação, apelo ou emoção; palavras como “até”, “só” e “mesmo” podem exercer funções diferentes conforme o contexto.",
     "trap": "“Até” não será preposição de limite em todas as ocorrências. Identifique o papel efetivo no enunciado.",
     "examTip": "“Até” não será preposição de limite em todas as ocorrências. Identifique o papel efetivo no enunciado.",
-    "newExample": "“Ufa! Até os arquivos mais antigos foram recuperados”: Ufa exprime alívio; até acrescenta ideia de inclusão inesperada.",
-    "challenge": "Explique por que a alternativa incorreta mais plausível contraria a relação gramatical do enunciado.",
+    "newExample": "“Somente os estagiários chegaram” exprime exclusividade; “os estagiários estavam sozinhos” expressa ausência de companhia.",
+    "challenge": "Explique por que o mesmo “só” não tem leitura idêntica em “só Helena veio” e “Helena veio só”.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -594,8 +594,8 @@ export const POR_13_QUESTIONS = [
     "concept": "Interjeições expressam reação, apelo ou emoção; palavras como “até”, “só” e “mesmo” podem exercer funções diferentes conforme o contexto.",
     "trap": "Não decida pelo nome da classe; considere a função sintática e o sentido da construção.",
     "examTip": "“Até” não será preposição de limite em todas as ocorrências. Identifique o papel efetivo no enunciado.",
-    "newExample": "“Ufa! Até os arquivos mais antigos foram recuperados”: Ufa exprime alívio; até acrescenta ideia de inclusão inesperada.",
-    "challenge": "Em “Até os estagiários receberam o comunicado”, “até” indica percurso até um lugar?",
+    "newExample": "“Psiu, venha aqui!” busca atenção; “foi até o balcão” marca percurso; “só o supervisor respondeu” exclui outros participantes.",
+    "challenge": "Classifique até e só em “até a chefia respondeu” e “foi até o prédio”, justificando o contexto.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"

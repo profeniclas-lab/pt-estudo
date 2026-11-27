@@ -1,4 +1,4 @@
-/** PT-ESTUDO — POR-11: 20 questões AUTORAIS com comentários por alternativa. */
+/** PT-ESTUDO — POR-11: 20 questões autorais; Revisão C03/L03 (IDs e gabaritos preservados). */
 export const POR_11_QUESTIONS = [
   {
     "id": "Q-POR-11-001-01",
@@ -21,8 +21,8 @@ export const POR_11_QUESTIONS = [
     "concept": "Pronomes podem substituir, retomar, apontar ou determinar referentes; pessoas do discurso e funções sintáticas não são a mesma classificação.",
     "trap": "Confundir o pronome o com o artigo definido masculino.",
     "examTip": "Procure o verbo e pergunte “convidou quem?” para reconhecer o complemento.",
-    "newExample": "“A diretora a chamou para conversar”: a substitui pessoa no objeto direto.",
-    "challenge": "Se a frase fosse “O convite chegou”, a palavra “o” teria a mesma classe?",
+    "newExample": "“A chefia os convocou” emprega “os” como objeto direto de convocou; “os convocados” empregaria artigo diante de substantivo.",
+    "challenge": "Em “A direção a chamou”, substitua “a” por “a candidata” para comprovar a função sintática.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -34,26 +34,26 @@ export const POR_11_QUESTIONS = [
     "topic": "Pronomes pessoais, possessivos e demonstrativos",
     "type": "classica",
     "difficulty": "media",
-    "stem": "Qual forma atende à norma-padrão ao indicar sujeito do infinitivo?",
+    "stem": "Considerando que a pessoa que fala realizará a conferência, qual construção apresenta corretamente “eu” como sujeito do infinitivo na norma-padrão?",
     "options": [
       "Trouxeram os arquivos para mim conferir.",
       "Trouxeram os arquivos para eu conferir.",
-      "Trouxeram os arquivos para me conferir, querendo dizer que eu conferiria os arquivos.",
-      "Trouxeram os arquivos para eu, sem verbo no infinitivo."
+      "Trouxeram os arquivos para minha conferência.",
+      "Trouxeram os arquivos para mim, que farei a conferência."
     ],
     "answer": 1,
     "optionComments": [
-      "Incorreta: “mim” não exerce sujeito de conferir na construção apresentada.",
-      "Correta: eu é sujeito do infinitivo conferir.",
-      "Incorreta: “me conferir” coloca me como complemento do verbo, mudando o sentido.",
-      "Incorreta: falta a estrutura verbal que justificaria “eu” como sujeito."
+      "Incorreta: “mim” é forma oblíqua e não funciona como sujeito do infinitivo “conferir” na norma-padrão.",
+      "Correta: “eu” é o sujeito da oração reduzida de infinitivo em “para eu conferir”.",
+      "Incorreta para o pedido: “minha conferência” é grupo nominal, sem “eu” como sujeito de infinitivo.",
+      "Incorreta para o pedido: “mim” complementa a preposição, e “farei” é verbo finito de outra oração, não o infinitivo solicitado."
     ],
-    "explanation": "Na oração reduzida “para eu conferir”, eu funciona como sujeito de conferir.",
+    "explanation": "“Para eu conferir” é oração reduzida de infinitivo, na qual “eu” é sujeito. Outras expressões podem ser gramaticais, mas não apresentam essa estrutura.",
     "concept": "Pronomes podem substituir, retomar, apontar ou determinar referentes; pessoas do discurso e funções sintáticas não são a mesma classificação.",
     "trap": "Decidir automaticamente por mim apenas porque existe a preposição para.",
     "examTip": "Identifique quem pratica a ação do infinitivo.",
-    "newExample": "“Separei os livros para eu catalogar” tem eu como sujeito de catalogar.",
-    "challenge": "Em “A encomenda é para mim”, por que “mim” é adequado?",
+    "newExample": "“Entregaram o material para eu revisar” põe eu como sujeito de revisar; “para mim” pode ser complemento de entregar, não sujeito do verbo.",
+    "challenge": "Compare “Trouxeram a pasta para mim” com “Trouxeram a pasta para eu organizar”.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -85,8 +85,8 @@ export const POR_11_QUESTIONS = [
     "concept": "Pronomes podem substituir, retomar, apontar ou determinar referentes; pessoas do discurso e funções sintáticas não são a mesma classificação.",
     "trap": "Classificar formas isoladas sem observar presença de substantivo depois delas.",
     "examTip": "Verifique se “o” acompanha nome ou substitui termo nominal.",
-    "newExample": "“A técnica chegou” apresenta artigo; “Chamaram-na” apresenta pronome oblíquo.",
-    "challenge": "Qual teste sintático distingue “o” artigo de “o” objeto direto?",
+    "newExample": "“Ele recebeu a carta” traz ele como sujeito; “o responsável chegou” usa artigo; “entregaram-lhe” marca destinatário do envio.",
+    "challenge": "Diferencie “o” em “o chamaram” e “o candidato chegou”.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -116,8 +116,8 @@ export const POR_11_QUESTIONS = [
     "concept": "Pronomes podem substituir, retomar, apontar ou determinar referentes; pessoas do discurso e funções sintáticas não são a mesma classificação.",
     "trap": "Pressupor que a forma “a” seja sempre artigo definido.",
     "examTip": "Identifique se há nome imediatamente determinado ou complemento verbal substituído.",
-    "newExample": "“O documento? A servidora o arquivou” apresenta o como pronome.",
-    "challenge": "Como reescrever “a recebeu” com um objeto direto nominal feminino?",
+    "newExample": "“A médica a examinou” usa a como objeto direto; “a médica chegou” traz a como artigo determinante do nome.",
+    "challenge": "Explique o teste de substituição por “ela” ou “a médica” nas duas ocorrências de “a”.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -143,8 +143,8 @@ export const POR_11_QUESTIONS = [
     "concept": "Pronomes relativos introduzem oração subordinada e estabelecem vínculo com antecedente; a regência dentro da oração relativa pode exigir preposição.",
     "trap": "Concordar cujo com o possuidor ou inserir artigo após o relativo.",
     "examTip": "Localize imediatamente o nome depois de cujo e verifique gênero e número.",
-    "newExample": "“O autor cujos livros conhecemos” exige cujos, porque livros é masculino plural.",
-    "challenge": "Qual seria a forma de cujo em “a autora ___ trabalho foi premiado”?",
+    "newExample": "“O servidor cujo relatório foi divulgado” faz cujo concordar com relatório, não com servidor; também não admite artigo após cujo.",
+    "challenge": "Em “a autora cujos livros chegaram”, indique o antecedente de cujos e a palavra com que concorda.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -156,7 +156,7 @@ export const POR_11_QUESTIONS = [
     "topic": "Pronomes relativos e retomada de antecedentes",
     "type": "classica",
     "difficulty": "media",
-    "stem": "Qual alternativa completa corretamente: “O arquivo ___ preciso foi atualizado”?",
+    "stem": "Na norma-padrão, complete o período mantendo a regência de “precisar de”: “O arquivo ___ preciso foi atualizado”.",
     "options": [
       "onde",
       "cujo o",
@@ -170,12 +170,12 @@ export const POR_11_QUESTIONS = [
       "Correta: o verbo precisar, no sentido de necessitar, rege de; “de que” retoma arquivo.",
       "Incorreta: aonde pressupõe deslocamento e não satisfaz a regência exigida."
     ],
-    "explanation": "A regência “precisar de algo” determina a preposição antes do relativo que.",
+    "explanation": "O verbo precisar, no sentido de necessitar, rege a preposição de; a oração relativa mantém essa preposição: “o arquivo de que preciso”.",
     "concept": "Pronomes relativos introduzem oração subordinada e estabelecem vínculo com antecedente; a regência dentro da oração relativa pode exigir preposição.",
     "trap": "Excluir a preposição exigida pela oração relativa.",
     "examTip": "Reconstrua: “preciso do arquivo” → “arquivo de que preciso”.",
-    "newExample": "“A orientação de que necessito” segue necessidade de preposição.",
-    "challenge": "Como ficaria a oração se substituíssemos precisar por consultar, verbo transitivo direto?",
+    "newExample": "“Este é o tema de que tratamos” conserva a preposição selecionada pelo verbo tratar de.",
+    "challenge": "Em “a matéria de que preciso”, por que não cabe “onde” para retomar matéria?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -205,8 +205,8 @@ export const POR_11_QUESTIONS = [
     "concept": "Pronomes relativos introduzem oração subordinada e estabelecem vínculo com antecedente; a regência dentro da oração relativa pode exigir preposição.",
     "trap": "Trocar de que por onde quando a oração pede outra preposição.",
     "examTip": "Analise antecedente e regência: “discordar de uma decisão”.",
-    "newExample": "“O prédio onde o arquivo funciona” usa referência de lugar físico.",
-    "challenge": "Por que “a medida onde discordamos” tende a ser inadequada na redação formal?",
+    "newExample": "“O bairro onde moro” tem antecedente espacial; “a proposta de que discordo” exige de e não onde.",
+    "challenge": "Substitua “a ideia onde discordo” por uma construção em norma-padrão e explique a mudança.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -236,8 +236,8 @@ export const POR_11_QUESTIONS = [
     "concept": "Pronomes relativos introduzem oração subordinada e estabelecem vínculo com antecedente; a regência dentro da oração relativa pode exigir preposição.",
     "trap": "Repetir a determinação nominal ao usar “cujo o”.",
     "examTip": "Verifique a sequência “cujo + substantivo”, com concordância no possuído.",
-    "newExample": "“A gestora cujo projeto foi aprovado” não admite “cujo o projeto”.",
-    "challenge": "Como corrigir a quarta construção sem perder o sentido de posse?",
+    "newExample": "“A pesquisadora cuja tese lemos” não admite artigo entre cuja e tese; “o lugar em que moro” mantém relação locativa.",
+    "challenge": "Reescreva “a servidora cujo o relatório chegou” retirando apenas o elemento incompatível.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -249,7 +249,7 @@ export const POR_11_QUESTIONS = [
     "topic": "Indefinidos, interrogativos e tratamento",
     "type": "ce",
     "difficulty": "media",
-    "stem": "Na frase “Vossa Senhoria receberá a documentação”, a concordância verbal em terceira pessoa está adequada à norma-padrão.",
+    "stem": "Considerando apenas a concordância gramatical das formas tradicionais de tratamento, em “Vossa Senhoria receberá a documentação”, o verbo na terceira pessoa está adequado.",
     "options": [
       "CERTO",
       "ERRADO"
@@ -259,12 +259,12 @@ export const POR_11_QUESTIONS = [
       "Correta: pronomes de tratamento exigem verbo na terceira pessoa.",
       "Incorreta: a forma receberá está correta; “recebereis” não é exigida pelo tratamento."
     ],
-    "explanation": "Vossa Senhoria designa interlocutor, mas concorda na terceira pessoa gramatical.",
+    "explanation": "Na gramática tradicional, a forma “Vossa Senhoria” exige concordância do verbo na terceira pessoa. Isso não recomenda seu uso na comunicação oficial federal, cuja forma de tratamento deve observar o Decreto nº 9.758/2019 e as normas aplicáveis.",
     "concept": "Indefinidos quantificam ou identificam de modo não preciso; interrogativos marcam perguntas; pronomes de tratamento selecionam o interlocutor, com concordância verbal de terceira pessoa.",
     "trap": "Confundir pessoa do discurso com pessoa exigida pela flexão verbal.",
     "examTip": "Não flexione o verbo por analogia com “vós”.",
-    "newExample": "“Vossa Excelência apreciará o documento” preserva a terceira pessoa.",
-    "challenge": "Por que “Vossa Senhoria recebe” não usa “recebeis”?",
+    "newExample": "“Vossa Excelência comparecerá” usa a terceira pessoa gramatical; isso não determina qual tratamento é permitido em um documento institucional específico.",
+    "challenge": "Qual pessoa do verbo aparece em “Sua Excelência deverá assinar”, independentemente da escolha protocolar?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -294,8 +294,8 @@ export const POR_11_QUESTIONS = [
     "concept": "Indefinidos quantificam ou identificam de modo não preciso; interrogativos marcam perguntas; pronomes de tratamento selecionam o interlocutor, com concordância verbal de terceira pessoa.",
     "trap": "Pensar que pergunta precisa obrigatoriamente de sinal gráfico de interrogação.",
     "examTip": "Procure verbo como “saber” ou “perguntar” que introduza conteúdo interrogativo.",
-    "newExample": "“Gostaria de saber qual documento faltou” contém interrogativa indireta.",
-    "challenge": "Que mudança transforma a pergunta indireta em pergunta direta?",
+    "newExample": "“Perguntei quem assinou a lista” apresenta uma interrogativa indireta sem ponto de interrogação.",
+    "challenge": "Transforme a pergunta direta “Quem conferiu o formulário?” em uma subordinada dependente de “não sei”.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -307,7 +307,7 @@ export const POR_11_QUESTIONS = [
     "topic": "Indefinidos, interrogativos e tratamento",
     "type": "afirmacoes",
     "difficulty": "dificil",
-    "stem": "Considere: I. “Nenhum servidor faltou” contém indefinido determinante. II. “Qual chegou primeiro?” contém interrogativo substantivo. III. Em referência à terceira pessoa mencionada, deve-se usar “Vossa Senhoria” em vez de “Sua Senhoria”. Quais são corretas?",
+    "stem": "No estudo gramatical dos pronomes — sem recomendar fórmulas de tratamento para documentos oficiais —, considere: I. “Nenhum servidor faltou” contém indefinido determinante. II. “Qual chegou primeiro?” contém interrogativo substantivo. III. Em referência à terceira pessoa mencionada, deve-se usar “Vossa Senhoria” em vez de “Sua Senhoria”. Quais são corretas?",
     "options": [
       "Apenas I e II",
       "Apenas II e III",
@@ -321,12 +321,12 @@ export const POR_11_QUESTIONS = [
       "Incorreta: III é falsa e II verdadeira.",
       "Incorreta: III confunde a pessoa a quem se fala com aquela de quem se fala."
     ],
-    "explanation": "Indefinidos podem determinar substantivos, interrogativos podem substituí-los e Sua/Vossa distinguem referência.",
+    "explanation": "Nenhum é pronome indefinido que determina “servidor”; qual é interrogativo com função substantiva; no tratamento gramatical tradicional, Vossa se dirige ao interlocutor e Sua refere-se a terceiros. O Decreto nº 9.758/2019 rege formas de tratamento no Executivo federal.",
     "concept": "Indefinidos quantificam ou identificam de modo não preciso; interrogativos marcam perguntas; pronomes de tratamento selecionam o interlocutor, com concordância verbal de terceira pessoa.",
     "trap": "Ignorar a diferença entre falar com alguém e falar de alguém.",
     "examTip": "Identifique o papel do pronome e a pessoa a que o texto se dirige.",
-    "newExample": "“Sua Senhoria participou da reunião” fala sobre essa pessoa; “Vossa Senhoria participará” dirige-se a ela.",
-    "challenge": "Como se altera o tratamento ao transformar uma saudação direta em relato sobre a pessoa?",
+    "newExample": "“Nenhuma pessoa respondeu” usa indefinido; “Qual respondeu?” usa pronome interrogativo substantivo; “Sua Senhoria” é tradicional em referência a terceiro.",
+    "challenge": "Em um relato sobre pessoa ausente, explique a diferença tradicional de referência entre Vossa e Sua, sem extrapolar para o protocolo federal vigente.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -338,7 +338,7 @@ export const POR_11_QUESTIONS = [
     "topic": "Indefinidos, interrogativos e tratamento",
     "type": "lacunas",
     "difficulty": "dificil",
-    "stem": "Preencha: “___ dos candidatos apresentou o comprovante? Não encontrei ___ documento sem assinatura. ___ Senhoria deverá ser informada diretamente.”",
+    "stem": "Como exercício de classificação gramatical (não de protocolo de comunicação oficial vigente), complete as lacunas segundo o emprego tradicional dos pronomes: “___ dos candidatos apresentou o comprovante? Não encontrei ___ documento sem assinatura. ___ Senhoria deverá ser informada diretamente.”",
     "options": [
       "Qual / nenhum / Vossa",
       "Quem / alguma / Sua",
@@ -352,12 +352,12 @@ export const POR_11_QUESTIONS = [
       "Incorreta: “Sua Senhoria” se refere a uma terceira pessoa, não ao interlocutor indicado por diretamente.",
       "Incorreta: “Vossas Senhoria” viola concordância do tratamento e “todos documento” também."
     ],
-    "explanation": "O contexto determina interrogativo, indefinido e tratamento; o último elemento é usado para dirigir-se ao destinatário.",
+    "explanation": "Qual interroga uma escolha entre candidatos; nenhum determina documento em contexto negativo; Vossa designa o interlocutor no emprego gramatical tradicional. A prescrição das formas de tratamento na Administração Pública federal segue regulamentação própria.",
     "concept": "Indefinidos quantificam ou identificam de modo não preciso; interrogativos marcam perguntas; pronomes de tratamento selecionam o interlocutor, com concordância verbal de terceira pessoa.",
     "trap": "Escolher Sua em discurso diretamente dirigido ao interlocutor.",
     "examTip": "Resolva cada lacuna pelo núcleo e pela função comunicativa, não apenas pela aparência.",
-    "newExample": "“Qual dessas propostas?” interroga; “nenhum erro” quantifica; “Vossa Senhoria pode...” dirige-se ao destinatário.",
-    "challenge": "Como mudaria a última lacuna em “Relatei que ___ Senhoria já estava informada”?",
+    "newExample": "“Qual dos formulários chegou?” é interrogativa; “não houve nenhum atraso” traz indefinido; no tratamento tradicional direto usa-se Vossa.",
+    "challenge": "Diferencie a função de “Qual” em pergunta e de “nenhum” em negação dentro de um aviso.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -383,8 +383,8 @@ export const POR_11_QUESTIONS = [
     "concept": "Demonstrativos podem apontar participantes, lugares ou trechos do próprio discurso; na escrita formal, este pode anunciar e esse pode retomar, conforme o contexto.",
     "trap": "Afirmar que pronome demonstrativo só pode retomar substantivo explícito.",
     "examTip": "Procure a proposição anterior que explica a consequência.",
-    "newExample": "“A energia caiu. Isso interrompeu a reunião” recupera o evento narrado.",
-    "challenge": "O que seria perdido se substituíssemos “isso” por expressão sem referente?",
+    "newExample": "“O sistema falhou. Isso atrasou a inscrição”: isso recupera a proposição anterior, não um objeto físico específico.",
+    "challenge": "Substitua “isso” por uma paráfrase explícita do fato retomado.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -414,8 +414,8 @@ export const POR_11_QUESTIONS = [
     "concept": "Demonstrativos podem apontar participantes, lugares ou trechos do próprio discurso; na escrita formal, este pode anunciar e esse pode retomar, conforme o contexto.",
     "trap": "Confundir retomada anafórica com anúncio catafórico.",
     "examTip": "Leia a direção da referência: para trás ou para frente no texto.",
-    "newExample": "“Anote isto: haverá mudança de sala” anuncia a informação seguinte.",
-    "challenge": "Se substituíssemos isto por isso, a construção perderia necessariamente todo sentido?",
+    "newExample": "“Registre o seguinte: o prazo será prorrogado” anuncia informação; “isso atrasou a entrega” geralmente recupera informação anterior.",
+    "challenge": "Em um aviso, escreva uma frase em que “isto” antecipe uma lista depois de dois-pontos.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -427,7 +427,7 @@ export const POR_11_QUESTIONS = [
     "topic": "Emprego de este, esse, aquele e variantes",
     "type": "afirmacoes",
     "difficulty": "dificil",
-    "stem": "Leia: “Joana e Lúcia organizaram os documentos; esta revisou as datas e aquela numerou as páginas.” I. “Esta” retoma Lúcia na convenção textual da proximidade. II. “Aquela” retoma Joana. III. “Esta” retoma obrigatoriamente Joana por aparecer após os dois nomes. Assinale:",
+    "stem": "Pela convenção escolar de retomada de dois referentes em enumeração, leia: “Joana e Lúcia organizaram os documentos; esta revisou as datas e aquela numerou as páginas.” I. “Esta” retoma Lúcia, o referente mais próximo. II. “Aquela” retoma Joana, o mais distante. III. “Esta” retoma obrigatoriamente Joana por aparecer após os dois nomes. Assinale:",
     "options": [
       "Apenas I e II",
       "Apenas II e III",
@@ -441,12 +441,12 @@ export const POR_11_QUESTIONS = [
       "Incorreta: III é falsa e II verdadeira.",
       "Incorreta: III contradiz a distinção feita pelo par esta/aquela."
     ],
-    "explanation": "Na retomada formal de dois antecedentes, este costuma indicar o mais próximo, aquele o mais distante.",
+    "explanation": "Na convenção textual indicada, “esta” recupera o último nome da série, Lúcia, e “aquela” recupera o primeiro, Joana. É um recurso de clareza, não uma descrição absoluta de toda fala brasileira.",
     "concept": "Demonstrativos podem apontar participantes, lugares ou trechos do próprio discurso; na escrita formal, este pode anunciar e esse pode retomar, conforme o contexto.",
     "trap": "Trocar ordem de proximidade e distância no encadeamento dos nomes.",
     "examTip": "Marque visualmente a posição dos antecedentes antes de atribuir os pronomes.",
-    "newExample": "“Pedro e Rui chegaram; este falou e aquele ouviu” identifica Rui como falante na mesma convenção.",
-    "challenge": "Que mudança ocorreria se a ordem dos nomes fosse “Lúcia e Joana”?",
+    "newExample": "“Bia e Carla revisaram a ata; esta assinou, aquela digitou”: pela convenção textual, esta aproxima Carla e aquela retoma Bia.",
+    "challenge": "Reescreva a frase com nomes próprios no lugar de “esta” e “aquela” para eliminar dúvida.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -476,8 +476,8 @@ export const POR_11_QUESTIONS = [
     "concept": "Demonstrativos podem apontar participantes, lugares ou trechos do próprio discurso; na escrita formal, este pode anunciar e esse pode retomar, conforme o contexto.",
     "trap": "Transformar uma tendência normativa em regra descritiva sem exceções.",
     "examTip": "Em questões sobre uso, diferencie convenção de escrita e variação contemporânea.",
-    "newExample": "“Isso que você disse” retoma o interlocutor; “isto é importante” pode preparar explicação.",
-    "challenge": "Por que uma prova de interpretação deve considerar o contexto antes de condenar todo emprego de “esse”?",
+    "newExample": "“Assim ficou definido: isto será alterado” pode ser catafórico; “isso” frequentemente é anafórico, mas usos reais variam.",
+    "challenge": "Por que uma regra de distinção absoluta entre “este” e “esse” falha na descrição de usos brasileiros?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -503,8 +503,8 @@ export const POR_11_QUESTIONS = [
     "concept": "Coesão pronominal estabelece cadeias referenciais; uma forma pode ser ambígua quando gênero, número e contexto não distinguem antecedentes.",
     "trap": "Forçar referência única onde o enunciado permite duas leituras.",
     "examTip": "Teste se cada antecedente continua compatível com gênero, número e sentido.",
-    "newExample": "“Marcos disse a Paulo que seu relatório foi aceito” tem estrutura igualmente ambígua.",
-    "challenge": "Como reescrever a frase para afirmar que o projeto era de Bia?",
+    "newExample": "“Joana disse a Marina que seu formulário sumiu”: sem esclarecimento, seu pode apontar para Joana ou Marina.",
+    "challenge": "Crie duas reescritas que atribuam explicitamente o formulário a pessoas diferentes.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -519,23 +519,23 @@ export const POR_11_QUESTIONS = [
     "stem": "Qual reescrita deixa inequívoco que foi Bia quem apresentou o projeto?",
     "options": [
       "Ana encontrou Bia, e ela apresentou o projeto.",
-      "Ana encontrou Bia, que apresentou o projeto.",
+      "Ana encontrou Bia; foi Bia quem apresentou o projeto.",
       "Ana encontrou Bia depois que ela apresentou o projeto.",
       "Ana encontrou Bia quando seu projeto foi apresentado."
     ],
     "answer": 1,
     "optionComments": [
-      "Incorreta: ela ainda pode retomar Ana ou Bia.",
-      "Correta: a oração relativa ligada a Bia atribui a apresentação a ela.",
-      "Incorreta: ela continua sem antecedente explicitado.",
-      "Incorreta: seu não determina a possuidora do projeto nem quem apresentou."
+      "Incorreta: “ela” pode retomar Ana ou Bia; a construção não explicita quem apresentou o projeto.",
+      "Correta: a construção clivada “foi Bia quem apresentou” nomeia explicitamente a agente da apresentação.",
+      "Incorreta: o pronome “ela” após Ana e Bia mantém aberta a atribuição da apresentação.",
+      "Incorreta: “seu” permite mais de um possuidor e a construção passiva não identifica quem apresentou o projeto."
     ],
-    "explanation": "A oração relativa adjacente a Bia permite atribuir-lhe explicitamente a ação de apresentar.",
+    "explanation": "A forma “foi Bia quem apresentou o projeto” identifica a agente sem depender da interpretação de pronomes. A alternativa anterior com “que apresentou” podia gerar dúvida quanto ao antecedente e foi substituída.",
     "concept": "Coesão pronominal estabelece cadeias referenciais; uma forma pode ser ambígua quando gênero, número e contexto não distinguem antecedentes.",
     "trap": "Trocar um pronome ambíguo por outro sem esclarecer o referente.",
     "examTip": "Prefira repetir o nome ou construir relativa ligada ao antecedente pretendido.",
-    "newExample": "“Lia apresentou o parecer depois de falar com Rosa” atribui apresentação a Lia.",
-    "challenge": "Qual reescrita inequívoca atribuiria a apresentação a Ana?",
+    "newExample": "“Ana encontrou Bia; foi Bia quem apresentou o projeto” elimina a competição entre antecedentes.",
+    "challenge": "Reescreva “Carla viu Rosa quando ela saiu” para deixar inequívoco quem saiu.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -565,8 +565,8 @@ export const POR_11_QUESTIONS = [
     "concept": "Coesão pronominal estabelece cadeias referenciais; uma forma pode ser ambígua quando gênero, número e contexto não distinguem antecedentes.",
     "trap": "Atribuir obrigatoriamente o pronome ao sujeito da oração anterior.",
     "examTip": "Identifique todos os candidatos a antecedente antes de concluir a referência.",
-    "newExample": "“Paula encontrou Carla depois que ela terminou a prova” também requer desambiguação.",
-    "challenge": "O uso de nomes próprios no lugar de “ele” resolveria a terceira frase?",
+    "newExample": "“O gerente falou ao técnico quando ele entrou”: ele pode retomar gerente ou técnico se não houver outro dado contextual.",
+    "challenge": "Reescreva a terceira frase substituindo “ele” por “Carlos” e verifique a mudança na inferência.",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"
@@ -596,8 +596,8 @@ export const POR_11_QUESTIONS = [
     "concept": "Coesão pronominal estabelece cadeias referenciais; uma forma pode ser ambígua quando gênero, número e contexto não distinguem antecedentes.",
     "trap": "Introduzir expressão temporal e tratá-la como desambiguação pronominal.",
     "examTip": "Veja se a alteração nomeia a pessoa cuja ação se quer atribuir.",
-    "newExample": "“Rita informou que Joana receberia o e-mail” evita pronome pessoal ambíguo.",
-    "challenge": "Como deixar inequívoco que é Rita, e não Joana, quem receberá a mensagem?",
+    "newExample": "“Rita avisou Joana: ‘Você receberá a mensagem’” identifica a destinatária pelo discurso direto; “ela receberia” segue ambíguo.",
+    "challenge": "Por que acrescentar “depois do aviso” não define quem é “ela”?",
     "tipo": "AUTORAL",
     "origem": "AUTORAL_INEDITA",
     "pedagogicalPurpose": "exercise-base"

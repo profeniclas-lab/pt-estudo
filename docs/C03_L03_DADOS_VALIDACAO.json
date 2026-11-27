@@ -1,0 +1,115 @@
+{
+  "lote": "Correção 3 — Lote 3",
+  "modulos": [
+    "POR-09",
+    "POR-10",
+    "POR-11",
+    "POR-12",
+    "POR-13"
+  ],
+  "questoes": 100,
+  "exemplos_exclusivos": 100,
+  "desafios_exclusivos": 100,
+  "questoes_com_revisoes_estruturais": 29,
+  "questoes_com_conteudo_enriquecido": 100,
+  "ids_inalterados": 100,
+  "indices_gabarito_inalterados": 100,
+  "celula_certo_errado": {
+    "POR-09": {
+      "CERTO": 4,
+      "ERRADO": 1
+    },
+    "POR-10": {
+      "CERTO": 5,
+      "ERRADO": 0
+    },
+    "POR-11": {
+      "CERTO": 5,
+      "ERRADO": 0
+    },
+    "POR-12": {
+      "CERTO": 5,
+      "ERRADO": 0
+    },
+    "POR-13": {
+      "CERTO": 3,
+      "ERRADO": 2
+    }
+  },
+  "indices_por_modulo": {
+    "POR-09": {
+      "0": 7,
+      "3": 5,
+      "2": 3,
+      "1": 5
+    },
+    "POR-10": {
+      "0": 11,
+      "2": 2,
+      "1": 4,
+      "3": 3
+    },
+    "POR-11": {
+      "0": 12,
+      "1": 3,
+      "3": 4,
+      "2": 1
+    },
+    "POR-12": {
+      "0": 11,
+      "2": 5,
+      "1": 2,
+      "3": 2
+    },
+    "POR-13": {
+      "0": 7,
+      "1": 6,
+      "2": 4,
+      "3": 3
+    }
+  },
+  "editorial_contagem": {
+    "9": {
+      "exemplo_inedito": 20,
+      "desafio_contextual": 20,
+      "revisao_optionComments": 1,
+      "revisao_explanation": 5
+    },
+    "10": {
+      "exemplo_inedito": 20,
+      "desafio_contextual": 20,
+      "revisao_stem": 3,
+      "revisao_optionComments": 4,
+      "revisao_explanation": 5,
+      "revisao_options": 2
+    },
+    "11": {
+      "exemplo_inedito": 20,
+      "desafio_contextual": 20,
+      "revisao_stem": 6,
+      "revisao_options": 2,
+      "revisao_optionComments": 2,
+      "revisao_explanation": 7
+    },
+    "12": {
+      "exemplo_inedito": 20,
+      "desafio_contextual": 20,
+      "revisao_explanation": 5
+    },
+    "13": {
+      "exemplo_inedito": 20,
+      "desafio_contextual": 20,
+      "revisao_stem": 2,
+      "revisao_explanation": 6,
+      "revisao_options": 1,
+      "revisao_optionComments": 1
+    }
+  },
+  "limites": [
+    "Revisao linguistica executada no material de origem; nao constitui revisao independente por outro profissional.",
+    "Apenas verificacoes de modelo, conteudo, IDs e selecao simulada sao automatizaveis aqui.",
+    "A textualidade original nao e armazenada automaticamente nas tentativas historicas; snapshot incluido.",
+    "Sem testes de navegacao real ou Google Drive no browser."
+  ],
+  "regra": "Sem mudanca de IDs, indices de alternativas, dificuldade, fontes ou tipo; nao alterar historico sem consentimento."
+}
